@@ -221,7 +221,7 @@
       "url": "https://packages.unity.cn"
     },
     "com.unity.xr.picoxr": {
-      "version": "file:C:/0 Development/pico sdk/213",
+      "version": "file:../PicoSdk/213",
       "depth": 0,
       "source": "local",
       "dependencies": {
