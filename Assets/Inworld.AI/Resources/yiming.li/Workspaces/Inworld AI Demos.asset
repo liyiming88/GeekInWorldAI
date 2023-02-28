@@ -15,6 +15,7 @@ MonoBehaviour:
   title: Inworld AI Demos
   fullName: workspaces/default-oxnteqkgbpcn-auhgjkq0w
   characters:
+  - {fileID: 0}
   - {fileID: 11400000, guid: bd609fce993e7c04b97e7fd2b1aa8215, type: 2}
   - {fileID: 0}
   - {fileID: 0}
