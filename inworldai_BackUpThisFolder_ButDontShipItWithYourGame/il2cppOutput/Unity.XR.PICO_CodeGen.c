@@ -9,9 +9,9 @@
 #include "codegen/il2cpp-codegen-metadata.h"
 
 
-extern const RuntimeMethod* PXR_Loader_ConvertRotationWith2Vector_mDAD87DDA7800E798BB209776C88E47FC09186F0B_RuntimeMethod_var;
-extern const RuntimeMethod* PXR_Loader_InputDeviceChangedFunction_m88319157AC43A8643A3DD83DD83F6337E191767F_RuntimeMethod_var;
-extern const RuntimeMethod* PXR_Loader_SeethroughStateChangedFunction_m6105E68F3C584031EE244ACA4796D120E8C4AD56_RuntimeMethod_var;
+extern const RuntimeMethod* PXR_Loader_ConvertRotationWith2Vector_m89DDECE6D83A5FE3FB2E1272960C831FBE6405C0_RuntimeMethod_var;
+extern const RuntimeMethod* PXR_Loader_InputDeviceChangedFunction_m70B414F5C2AE505E7EF23A5B3096630154AAF2A4_RuntimeMethod_var;
+extern const RuntimeMethod* PXR_Loader_SeethroughStateChangedFunction_mF36C7F546AFAA36E7B80D9F34EBDF7142F06E6F1_RuntimeMethod_var;
 
 
 
@@ -223,25 +223,25 @@ extern void JsonData__ctor_m391DCF9E97CD49BC2E3AF1D7C65A8ACDC73D91DC (void);
 // 0x00000072 System.Void LitJson.JsonData::.ctor(System.String)
 extern void JsonData__ctor_m51522C4058C5773EBE52E5932437B9A054123316 (void);
 // 0x00000073 LitJson.JsonData LitJson.JsonData::op_Implicit(System.Boolean)
-extern void JsonData_op_Implicit_m9AEEB1CEE8F61F87BA7542B60ACD9B500B8A2F00 (void);
+extern void JsonData_op_Implicit_m87EE3F868083A95D44AAF1DAC67AB32DB4567C94 (void);
 // 0x00000074 LitJson.JsonData LitJson.JsonData::op_Implicit(System.Double)
-extern void JsonData_op_Implicit_m0069EA2470DF841F3FC6B4AEA0D74401B4AA634A (void);
+extern void JsonData_op_Implicit_m8097A534AB2BF51F960D1CE5B89B61CB71B917DC (void);
 // 0x00000075 LitJson.JsonData LitJson.JsonData::op_Implicit(System.Int32)
-extern void JsonData_op_Implicit_m5B904BD0A62FB51C8A5AB58EFE1AB2629ADC617F (void);
+extern void JsonData_op_Implicit_m0F05BCFC2C67C4B391F863211266ADA9813E5318 (void);
 // 0x00000076 LitJson.JsonData LitJson.JsonData::op_Implicit(System.Int64)
-extern void JsonData_op_Implicit_m7D0B873E9C01019161716165F351019AA5F65077 (void);
+extern void JsonData_op_Implicit_m72E2ECE28BB9DCCBB2A5EC33A381B9EDA52C9C14 (void);
 // 0x00000077 LitJson.JsonData LitJson.JsonData::op_Implicit(System.String)
-extern void JsonData_op_Implicit_m1C8FE77AD1C34E8BD4678EA3A2E0BA6254A24FFB (void);
+extern void JsonData_op_Implicit_mDE770ABA4CAFAC6F164C5EDCC3479EF9B1158B68 (void);
 // 0x00000078 System.Boolean LitJson.JsonData::op_Explicit(LitJson.JsonData)
-extern void JsonData_op_Explicit_m9D1201F60A331184FA560AA18CBF43C3E4609249 (void);
+extern void JsonData_op_Explicit_m379218F7B9C5834839780771E3FA03D2559EC096 (void);
 // 0x00000079 System.Double LitJson.JsonData::op_Explicit(LitJson.JsonData)
-extern void JsonData_op_Explicit_m543E5DA1331A5BBAB8933185F0B12DD476AE5D53 (void);
+extern void JsonData_op_Explicit_mFE328C1AC0A3F61113710A3AAAE8C61434702F2E (void);
 // 0x0000007A System.Int32 LitJson.JsonData::op_Explicit(LitJson.JsonData)
-extern void JsonData_op_Explicit_mFF381D2A729DE14F6AC5E4AC1982F248CF5978E1 (void);
+extern void JsonData_op_Explicit_m0DAEF97D9C2AF0EC1C653FA330641763B0AF872A (void);
 // 0x0000007B System.Int64 LitJson.JsonData::op_Explicit(LitJson.JsonData)
-extern void JsonData_op_Explicit_m8515414FC94FA23BF60367F4CFEEE9807E69591E (void);
+extern void JsonData_op_Explicit_m52FA7CCE2A354D0851E2D72612C5B674CE381501 (void);
 // 0x0000007C System.String LitJson.JsonData::op_Explicit(LitJson.JsonData)
-extern void JsonData_op_Explicit_mEA4E338054F8CE070B8787CAD20808D9CB0CC4CE (void);
+extern void JsonData_op_Explicit_m917E39B087DC03DF4B4AAABF0098E3EB8DFA2795 (void);
 // 0x0000007D System.Void LitJson.JsonData::System.Collections.ICollection.CopyTo(System.Array,System.Int32)
 extern void JsonData_System_Collections_ICollection_CopyTo_mD4FABAF91C823B8E2B4BD5460361F340960DE369 (void);
 // 0x0000007E System.Void LitJson.JsonData::System.Collections.IDictionary.Add(System.Object,System.Object)
@@ -309,7 +309,7 @@ extern void JsonData_EnsureList_mF1BC6D918277E3C6C6413417E9ADE792D9092505 (void)
 // 0x0000009D LitJson.JsonData LitJson.JsonData::ToJsonData(System.Object)
 extern void JsonData_ToJsonData_m0F9C1A9296058F93B9F21CA917C3280332220420 (void);
 // 0x0000009E System.Void LitJson.JsonData::WriteJson(LitJson.IJsonWrapper,LitJson.JsonWriter)
-extern void JsonData_WriteJson_m2F27F46473E36AB563BFB1D4E18C44DA20F33E4E (void);
+extern void JsonData_WriteJson_m3A8C51FBE0C6BF00247CBB5F4FBA53FBB73C6C25 (void);
 // 0x0000009F System.Int32 LitJson.JsonData::Add(System.Object)
 extern void JsonData_Add_mD8160CE5274BCD464973A7948AEC11E40E44FE6D (void);
 // 0x000000A0 System.Boolean LitJson.JsonData::Remove(System.Object)
@@ -413,58 +413,58 @@ extern void WrapperFactory_BeginInvoke_mF3A2B8201DDC1CC33BEDE224B976626CC55BA76B
 // 0x000000D5 LitJson.IJsonWrapper LitJson.WrapperFactory::EndInvoke(System.IAsyncResult)
 extern void WrapperFactory_EndInvoke_m14A122CD25105035F64B1DE28839DDA0EBC2A1BA (void);
 // 0x000000D6 System.Void LitJson.JsonMapper::.cctor()
-extern void JsonMapper__cctor_mABE08A467D46CB8F3005AA04547B1B3368A398EE (void);
+extern void JsonMapper__cctor_mCF1FAD63B7646F5C8C17A0C602172712F305A9F6 (void);
 // 0x000000D7 System.Void LitJson.JsonMapper::AddArrayMetadata(System.Type)
-extern void JsonMapper_AddArrayMetadata_mDB4F1903F95B7CF614A6C07CDB0177E66C38AFEB (void);
+extern void JsonMapper_AddArrayMetadata_m58FFF23C3238C987AB7D170545FE424EE680DF5C (void);
 // 0x000000D8 System.Void LitJson.JsonMapper::AddObjectMetadata(System.Type)
-extern void JsonMapper_AddObjectMetadata_mE86AA81BD9E0D1A42FBF59DB93894500430919C7 (void);
+extern void JsonMapper_AddObjectMetadata_m74213A262306DCFD254702F39A8B7CCCA3A2AE92 (void);
 // 0x000000D9 System.Void LitJson.JsonMapper::AddTypeProperties(System.Type)
-extern void JsonMapper_AddTypeProperties_m3306E14A4464581D4B8C9896817A75A7CDFBFBB3 (void);
+extern void JsonMapper_AddTypeProperties_mE17DCD912BDBE30E769F5CEA7153D75D45C5DA31 (void);
 // 0x000000DA System.Reflection.MethodInfo LitJson.JsonMapper::GetConvOp(System.Type,System.Type)
-extern void JsonMapper_GetConvOp_m167C89D22FE3D0B4DB5C1CE8B4381620353D306A (void);
+extern void JsonMapper_GetConvOp_m1349B43B0EE94AD0B20B735A7F4BDDF6C01F348B (void);
 // 0x000000DB System.Object LitJson.JsonMapper::ReadValue(System.Type,LitJson.JsonReader)
-extern void JsonMapper_ReadValue_m516068DAC0356A47067E59E0DC6BCBF3010A4AC1 (void);
+extern void JsonMapper_ReadValue_m848FAFE91484838FADACD1652A81328B179FF754 (void);
 // 0x000000DC LitJson.IJsonWrapper LitJson.JsonMapper::ReadValue(LitJson.WrapperFactory,LitJson.JsonReader)
-extern void JsonMapper_ReadValue_m2905ECA3EBEE239F73547026C2BC76F4CCF8FBFA (void);
+extern void JsonMapper_ReadValue_mDCE1004F0FB699F49401903F8612165D233D8215 (void);
 // 0x000000DD System.Void LitJson.JsonMapper::ReadSkip(LitJson.JsonReader)
-extern void JsonMapper_ReadSkip_m0D051B3C5A437C1242291305B95CE055E9EF2FF2 (void);
+extern void JsonMapper_ReadSkip_m0876D365EDAF779E4BEC39F107C11B7BB543FE60 (void);
 // 0x000000DE System.Void LitJson.JsonMapper::RegisterBaseExporters()
-extern void JsonMapper_RegisterBaseExporters_mC9894E7F6E62691ED5B05829F2B76BF4625C3A8C (void);
+extern void JsonMapper_RegisterBaseExporters_mEA6A094B6C72F5823C5787037A88C39BA74244C3 (void);
 // 0x000000DF System.Void LitJson.JsonMapper::RegisterBaseImporters()
-extern void JsonMapper_RegisterBaseImporters_mA104BF2644EE56E4903BF4A611D53246CF5CC344 (void);
+extern void JsonMapper_RegisterBaseImporters_m4B10D5EB48CEC0215D455BAC350A1A4DFFA326CE (void);
 // 0x000000E0 System.Void LitJson.JsonMapper::RegisterImporter(System.Collections.Generic.IDictionary`2<System.Type,System.Collections.Generic.IDictionary`2<System.Type,LitJson.ImporterFunc>>,System.Type,System.Type,LitJson.ImporterFunc)
-extern void JsonMapper_RegisterImporter_mB1C0676001C222B030E97CEE66B86F3571B4EFC6 (void);
+extern void JsonMapper_RegisterImporter_mA0248B408F9EF79A8E3278731363D33570A48F18 (void);
 // 0x000000E1 System.Void LitJson.JsonMapper::WriteValue(System.Object,LitJson.JsonWriter,System.Boolean,System.Int32)
-extern void JsonMapper_WriteValue_m2CC1FAA6E86E926DC0367BD073B1D132622112AC (void);
+extern void JsonMapper_WriteValue_m91CCFDC580DD770649872253722E97DEEC714CE7 (void);
 // 0x000000E2 System.String LitJson.JsonMapper::ToJson(System.Object)
-extern void JsonMapper_ToJson_m825CA11845ADB9F4EF950A82B5782E14BDF899E6 (void);
+extern void JsonMapper_ToJson_m67AAF2FBAB5D28AA8AFFF8E55A59C8F49F6AF4C5 (void);
 // 0x000000E3 System.Void LitJson.JsonMapper::ToJson(System.Object,LitJson.JsonWriter)
-extern void JsonMapper_ToJson_m92513372826FE0A038478111172DCC0C876FCF61 (void);
+extern void JsonMapper_ToJson_m9D5A73CC6A62D5780E2F09321E40FC9479688A47 (void);
 // 0x000000E4 LitJson.JsonData LitJson.JsonMapper::ToObject(LitJson.JsonReader)
-extern void JsonMapper_ToObject_mD11AD233A7682A7DBB5EADD4CBBD0DDA5ABB4AC2 (void);
+extern void JsonMapper_ToObject_m6354DF6BB647801BA3841A5A7ADBA707D084F778 (void);
 // 0x000000E5 LitJson.JsonData LitJson.JsonMapper::ToObject(System.IO.TextReader)
-extern void JsonMapper_ToObject_m1857D0129DD66267BE7AC600AF9CE32F56792AAF (void);
+extern void JsonMapper_ToObject_m2E094D648340C8C46EE3BFDD96F0EC464BDB3FF1 (void);
 // 0x000000E6 LitJson.JsonData LitJson.JsonMapper::ToObject(System.String)
-extern void JsonMapper_ToObject_m51D333972375B5C3C0425722CA967E9DE293060E (void);
+extern void JsonMapper_ToObject_mDB4F538E406CDBB8E57344D5EE5D8FC6D04EB495 (void);
 // 0x000000E7 T LitJson.JsonMapper::ToObject(LitJson.JsonReader)
 // 0x000000E8 T LitJson.JsonMapper::ToObject(System.IO.TextReader)
 // 0x000000E9 T LitJson.JsonMapper::ToObject(System.String)
 // 0x000000EA System.Object LitJson.JsonMapper::ToObject(System.String,System.Type)
-extern void JsonMapper_ToObject_m87C347F897D64517A8D332265769DD03F2F96116 (void);
+extern void JsonMapper_ToObject_m239DCB96FF4016314B921A1D0AD625299D2DF185 (void);
 // 0x000000EB LitJson.IJsonWrapper LitJson.JsonMapper::ToWrapper(LitJson.WrapperFactory,LitJson.JsonReader)
-extern void JsonMapper_ToWrapper_m8061E9D3913F4DD2D24FDB95CBB80DFCBB3F4E9F (void);
+extern void JsonMapper_ToWrapper_m2DBEC7EA8D18C89D9440E91EBAB83F4F72FCBE5E (void);
 // 0x000000EC LitJson.IJsonWrapper LitJson.JsonMapper::ToWrapper(LitJson.WrapperFactory,System.String)
-extern void JsonMapper_ToWrapper_m0038CE69F53236274D3D6BEBC8D6487F6A279E2B (void);
+extern void JsonMapper_ToWrapper_mB7A674E2F6C2844A8F587E90C9E8BDD18BBCF1C8 (void);
 // 0x000000ED System.Void LitJson.JsonMapper::RegisterExporter(LitJson.ExporterFunc`1<T>)
 // 0x000000EE System.Void LitJson.JsonMapper::RegisterImporter(LitJson.ImporterFunc`2<TJson,TValue>)
 // 0x000000EF System.Void LitJson.JsonMapper::UnregisterExporters()
-extern void JsonMapper_UnregisterExporters_m02FDA2094C7475CDF90AF32B594EF195C0EB4A91 (void);
+extern void JsonMapper_UnregisterExporters_mB17A06C40CC6DA0BB5132B211BA1FB0B6D6E4549 (void);
 // 0x000000F0 System.Void LitJson.JsonMapper::UnregisterImporters()
-extern void JsonMapper_UnregisterImporters_mFBAC401F7E6FD007C31C1E3FB49B0CAE18AC8640 (void);
+extern void JsonMapper_UnregisterImporters_m614192454AA810E3564AA34F17C21C7EEC704E41 (void);
 // 0x000000F1 System.Void LitJson.JsonMapper::.ctor()
 extern void JsonMapper__ctor_mF520E8A37CE91B239BC2B5F4C7EB0BF12B4DC56D (void);
 // 0x000000F2 System.Void LitJson.JsonMapper/<>c::.cctor()
-extern void U3CU3Ec__cctor_m8608B5405EECEAB731C4EF6469911D3F85FCBF58 (void);
+extern void U3CU3Ec__cctor_m62A52DD83232F3E1935245F3A112AD44E32BF01B (void);
 // 0x000000F3 System.Void LitJson.JsonMapper/<>c::.ctor()
 extern void U3CU3Ec__ctor_m9DE02E796D626ABBAB62D66AC4D490B602DC0C32 (void);
 // 0x000000F4 LitJson.IJsonWrapper LitJson.JsonMapper/<>c::<ReadSkip>b__23_0()
@@ -658,7 +658,7 @@ extern void JsonReader_get_Token_mFE6FC82692E7DEB74CF0BF11EBD7036C0232A254 (void
 // 0x00000154 System.Object LitJson.JsonReader::get_Value()
 extern void JsonReader_get_Value_mB67854DC75D3D53F707C4E5BC0C626DAF45C8806 (void);
 // 0x00000155 System.Void LitJson.JsonReader::.cctor()
-extern void JsonReader__cctor_m356EBB48672B0CF00553840FE4348577976E9B44 (void);
+extern void JsonReader__cctor_m76034ECB7FB6D79E8E15FBFEF67308FDA8E71819 (void);
 // 0x00000156 System.Void LitJson.JsonReader::.ctor(System.String)
 extern void JsonReader__ctor_m84D284562EBC5073A954D6DDF9CCFC68D46893EC (void);
 // 0x00000157 System.Void LitJson.JsonReader::.ctor(System.IO.TextReader)
@@ -666,11 +666,11 @@ extern void JsonReader__ctor_m6F94139460371F3B87EC193B22073BAF8BDDC889 (void);
 // 0x00000158 System.Void LitJson.JsonReader::.ctor(System.IO.TextReader,System.Boolean)
 extern void JsonReader__ctor_mD1CC729E47D6900D99D455A9B945BD244F729D73 (void);
 // 0x00000159 System.Collections.Generic.IDictionary`2<System.Int32,System.Collections.Generic.IDictionary`2<System.Int32,System.Int32[]>> LitJson.JsonReader::PopulateParseTable()
-extern void JsonReader_PopulateParseTable_mCED956F6954D185F8071FC85A30142EC9D0336B1 (void);
+extern void JsonReader_PopulateParseTable_m8E5FCE3B0EFB32CABBCF5E8B3FD8804F6826ECC3 (void);
 // 0x0000015A System.Void LitJson.JsonReader::TableAddCol(System.Collections.Generic.IDictionary`2<System.Int32,System.Collections.Generic.IDictionary`2<System.Int32,System.Int32[]>>,LitJson.ParserToken,System.Int32,System.Int32[])
-extern void JsonReader_TableAddCol_mE0364D22DB8E85D37589A2AC875B2F723BEB3642 (void);
+extern void JsonReader_TableAddCol_mD38E3CA706D5C4F72877B8ADD318CA1C967EC8E2 (void);
 // 0x0000015B System.Void LitJson.JsonReader::TableAddRow(System.Collections.Generic.IDictionary`2<System.Int32,System.Collections.Generic.IDictionary`2<System.Int32,System.Int32[]>>,LitJson.ParserToken)
-extern void JsonReader_TableAddRow_m5F16D5900F8B53895ABEF6E7107B86A29F0C5DAD (void);
+extern void JsonReader_TableAddRow_m9CA56E96C5EE075028B49101F1EA1B54F712F415 (void);
 // 0x0000015C System.Void LitJson.JsonReader::ProcessNumber(System.String)
 extern void JsonReader_ProcessNumber_m563DF025001A0C02D53258201F668D5F867844F3 (void);
 // 0x0000015D System.Void LitJson.JsonReader::ProcessSymbol()
@@ -702,7 +702,7 @@ extern void JsonWriter_get_LowerCaseProperties_mC7BDB997B101765E7D32D268C25DD6DF
 // 0x0000016A System.Void LitJson.JsonWriter::set_LowerCaseProperties(System.Boolean)
 extern void JsonWriter_set_LowerCaseProperties_mE5AE9DA0311204DE31FB7116E93B950AEF63BF89 (void);
 // 0x0000016B System.Void LitJson.JsonWriter::.cctor()
-extern void JsonWriter__cctor_mBEB582EBCA66D595AA86D685B9F4356D4A82896B (void);
+extern void JsonWriter__cctor_m0A31902579BE7708A7E59F714BD18B8A55E283EA (void);
 // 0x0000016C System.Void LitJson.JsonWriter::.ctor()
 extern void JsonWriter__ctor_mB6406A872FDB5D0C8B44D3DE02706E5894E582FC (void);
 // 0x0000016D System.Void LitJson.JsonWriter::.ctor(System.Text.StringBuilder)
@@ -714,7 +714,7 @@ extern void JsonWriter_DoValidation_mADE7F8C8C259E4F372F812C4284948C68AC1890F (v
 // 0x00000170 System.Void LitJson.JsonWriter::Init()
 extern void JsonWriter_Init_m365C1B0C9AD52D3B7A0197F3ACA24BA1B47301CD (void);
 // 0x00000171 System.Void LitJson.JsonWriter::IntToHex(System.Int32,System.Char[])
-extern void JsonWriter_IntToHex_mC8DD50692D5B03FE4C2B48E0830F15B734227E7A (void);
+extern void JsonWriter_IntToHex_mF87771E4300D2A8130EB704C0B4CD84BB4B31765 (void);
 // 0x00000172 System.Void LitJson.JsonWriter::Indent()
 extern void JsonWriter_Indent_mE1F8D66673002FB559B288AFB250D7824F3A0116 (void);
 // 0x00000173 System.Void LitJson.JsonWriter::Put(System.String)
@@ -774,71 +774,71 @@ extern void Lexer_get_Token_m2003EDF1C4875F5EEC84589A3A6EDF75D0F390BA (void);
 // 0x0000018E System.String LitJson.Lexer::get_StringValue()
 extern void Lexer_get_StringValue_m02B013B33F4971BAE1491BE7F66BB304EAAFB829 (void);
 // 0x0000018F System.Void LitJson.Lexer::.cctor()
-extern void Lexer__cctor_m195C03BB1866FD47E325187426A4A773DB0F0454 (void);
+extern void Lexer__cctor_m1CDC1807603CE9CCD210E26886229823D7F8D8EE (void);
 // 0x00000190 System.Void LitJson.Lexer::.ctor(System.IO.TextReader)
 extern void Lexer__ctor_m441B688A23D592612C8D98C4A7E72C6780FD6540 (void);
 // 0x00000191 System.Int32 LitJson.Lexer::HexValue(System.Int32)
-extern void Lexer_HexValue_m161FA7734477E59B4FEB3C39905180F831E010CE (void);
+extern void Lexer_HexValue_m6886CBE622B03D74257C01C43CAB11DF5CBAF3BE (void);
 // 0x00000192 System.Void LitJson.Lexer::PopulateFsmTables(LitJson.Lexer/StateHandler[]&,System.Int32[]&)
-extern void Lexer_PopulateFsmTables_mB0693A947EC0DDC7192C6E4EDA55215B44C3BDE3 (void);
+extern void Lexer_PopulateFsmTables_m0BE32291C4B1B1725F317E0F8E85A348BF5E90BF (void);
 // 0x00000193 System.Char LitJson.Lexer::ProcessEscChar(System.Int32)
-extern void Lexer_ProcessEscChar_m6BD900420EA5DBD86BD0E5B19563712D066A373B (void);
+extern void Lexer_ProcessEscChar_mC348E329CDBB38B78AAD2F12F3A50CBD0E1FE317 (void);
 // 0x00000194 System.Boolean LitJson.Lexer::State1(LitJson.FsmContext)
-extern void Lexer_State1_mC3E6B4A8D0583B23642715601B57207EA15E1D41 (void);
+extern void Lexer_State1_m0210072E587620DC4B845BAD5CFA60FB6D8AFA8A (void);
 // 0x00000195 System.Boolean LitJson.Lexer::State2(LitJson.FsmContext)
-extern void Lexer_State2_m9008166695126FC5D0D7F1631ABA2EF8250C346C (void);
+extern void Lexer_State2_mF48359FF0C883F29CA717F60D39C49B411533054 (void);
 // 0x00000196 System.Boolean LitJson.Lexer::State3(LitJson.FsmContext)
-extern void Lexer_State3_m8BA25A4AFE9CD881A9044A94C4576BE443437B3E (void);
+extern void Lexer_State3_mDBF77DEE2467E727CD09CECD303F130434B8FC49 (void);
 // 0x00000197 System.Boolean LitJson.Lexer::State4(LitJson.FsmContext)
-extern void Lexer_State4_m8AA9C472CEFF5ECFD381E7091C2B06C5F1EE79F2 (void);
+extern void Lexer_State4_mAFBE40F566BD687AA4D62649685FD0A492BF8FDF (void);
 // 0x00000198 System.Boolean LitJson.Lexer::State5(LitJson.FsmContext)
-extern void Lexer_State5_m7A308DB0ECE7CBDA64AC4F7CFCD9FF0A2789E0D3 (void);
+extern void Lexer_State5_mAB89D9215CA026F864D12BD7C7EFF4A9006D6091 (void);
 // 0x00000199 System.Boolean LitJson.Lexer::State6(LitJson.FsmContext)
-extern void Lexer_State6_m9D33981163156C20EA21AD4BCC7F4EF424D19CEF (void);
+extern void Lexer_State6_m62D1CF6528CF94A7BAA20CE4144DCC3040E4D813 (void);
 // 0x0000019A System.Boolean LitJson.Lexer::State7(LitJson.FsmContext)
-extern void Lexer_State7_m27021D399440DFE2186749173967909B12E28BD3 (void);
+extern void Lexer_State7_m6D6DD7714950AB320AAE0AE39EAA0C05394DE089 (void);
 // 0x0000019B System.Boolean LitJson.Lexer::State8(LitJson.FsmContext)
-extern void Lexer_State8_m8632F25D2E5F7C81F30BA39B18FDA4684871F3FC (void);
+extern void Lexer_State8_mC97C46256A09C854A848052702A2AFF870BA40E5 (void);
 // 0x0000019C System.Boolean LitJson.Lexer::State9(LitJson.FsmContext)
-extern void Lexer_State9_m57F501E0F50CF94976B5AE406FB17E9FC028DA5D (void);
+extern void Lexer_State9_m61EF742B045901C0454253D02D7219AA45E00523 (void);
 // 0x0000019D System.Boolean LitJson.Lexer::State10(LitJson.FsmContext)
-extern void Lexer_State10_m40DD6C189CA5FF566BEB280AD6AD627AED021357 (void);
+extern void Lexer_State10_mE6027C7ACB8A8B5D7B110C104819A39BEFF2C48D (void);
 // 0x0000019E System.Boolean LitJson.Lexer::State11(LitJson.FsmContext)
-extern void Lexer_State11_m8006A8B067993F4D1CA0238DBCB2588459368AA7 (void);
+extern void Lexer_State11_mB611CF21632B99A99FC3C65A72157A1790D690CB (void);
 // 0x0000019F System.Boolean LitJson.Lexer::State12(LitJson.FsmContext)
-extern void Lexer_State12_m2671DD3F6A11F893030CE4E835AB8BA58443B3BA (void);
+extern void Lexer_State12_m4EC845B5A66263958026C22B270F39EB4D13CB84 (void);
 // 0x000001A0 System.Boolean LitJson.Lexer::State13(LitJson.FsmContext)
-extern void Lexer_State13_m665EE6063CBBD4689FE6FE652724CF9658690826 (void);
+extern void Lexer_State13_m13931CDD44328F000898DC1C8834297F9BD10D25 (void);
 // 0x000001A1 System.Boolean LitJson.Lexer::State14(LitJson.FsmContext)
-extern void Lexer_State14_mAE4484C0F01B07D2825DFE3BAC3C0B66155DB718 (void);
+extern void Lexer_State14_mC42B90740EEA08819E46260BE87BDE470DCEEFE3 (void);
 // 0x000001A2 System.Boolean LitJson.Lexer::State15(LitJson.FsmContext)
-extern void Lexer_State15_m023BD669A218B99B77883D846AA03E9DD82A019E (void);
+extern void Lexer_State15_m72D91B653782310B4A923289C86A6C2C1DC238EB (void);
 // 0x000001A3 System.Boolean LitJson.Lexer::State16(LitJson.FsmContext)
-extern void Lexer_State16_mC01B8FE9543C4F6E2EB94A5F5FA74D850713ECB8 (void);
+extern void Lexer_State16_m5126376A2957BE5660AAAE3E1627791F5CBB1055 (void);
 // 0x000001A4 System.Boolean LitJson.Lexer::State17(LitJson.FsmContext)
-extern void Lexer_State17_mEBE3F4716A5847C3F45517C730665516463874E0 (void);
+extern void Lexer_State17_m9067D1607784DA49C207A39363B43A9F547C446E (void);
 // 0x000001A5 System.Boolean LitJson.Lexer::State18(LitJson.FsmContext)
-extern void Lexer_State18_m13D951DE1042E5303216B76B9F5E5DD5F003A2A0 (void);
+extern void Lexer_State18_m58317739BC3CBA962B5CD3F8EDB00D68296C5CB9 (void);
 // 0x000001A6 System.Boolean LitJson.Lexer::State19(LitJson.FsmContext)
-extern void Lexer_State19_mD1B84DFD199580AF8A290A4B143A36F50C256C48 (void);
+extern void Lexer_State19_m224FFD178053FB88DE92300817B2F997BD609021 (void);
 // 0x000001A7 System.Boolean LitJson.Lexer::State20(LitJson.FsmContext)
-extern void Lexer_State20_m10981C3EF3C04427E2C6F2929EF014C32E7A6682 (void);
+extern void Lexer_State20_mB320F6B44A78A5E34C4346C8306D251B4A392EB3 (void);
 // 0x000001A8 System.Boolean LitJson.Lexer::State21(LitJson.FsmContext)
-extern void Lexer_State21_m64555C10E60AC2D5DBF1999A76B2068E75172F6E (void);
+extern void Lexer_State21_mCD1692982C09E8FCB6385CBB2BA3A157381C611F (void);
 // 0x000001A9 System.Boolean LitJson.Lexer::State22(LitJson.FsmContext)
-extern void Lexer_State22_mE7A055510FD222243CE4F7A5807D6ABAB4F738C3 (void);
+extern void Lexer_State22_m87CF949F1C2548F3AE3FB369125B841AD45918EE (void);
 // 0x000001AA System.Boolean LitJson.Lexer::State23(LitJson.FsmContext)
-extern void Lexer_State23_m6F07899F5A7C035DD213345110A2901412FB4C65 (void);
+extern void Lexer_State23_m5F81A509668FD1E9F31B49C510E265EE17177C55 (void);
 // 0x000001AB System.Boolean LitJson.Lexer::State24(LitJson.FsmContext)
-extern void Lexer_State24_mD85D12B89F4DAFCD0B294D2A7700C5D3A2BCBAB9 (void);
+extern void Lexer_State24_mF086E0C33D0A90B8D8B6FD9EED2261E97BA62339 (void);
 // 0x000001AC System.Boolean LitJson.Lexer::State25(LitJson.FsmContext)
-extern void Lexer_State25_m544089048536E6828F04841FB290E014C7549E47 (void);
+extern void Lexer_State25_m25D0AEB7F84FD4F7D186200AB43B5679E2421B1B (void);
 // 0x000001AD System.Boolean LitJson.Lexer::State26(LitJson.FsmContext)
-extern void Lexer_State26_mD6415006F561A54E2E7237AE2EC851490A19A8F6 (void);
+extern void Lexer_State26_m28B1A49A6B9DE6DABC6FFA1B9925B760F459896E (void);
 // 0x000001AE System.Boolean LitJson.Lexer::State27(LitJson.FsmContext)
-extern void Lexer_State27_mE44470C829C4555F784E7B18A28B6A5246D53135 (void);
+extern void Lexer_State27_m8781283E63DCBD2E8F0649C495428484BF46A481 (void);
 // 0x000001AF System.Boolean LitJson.Lexer::State28(LitJson.FsmContext)
-extern void Lexer_State28_m0D9520DD05F67AFD96246F48D3DF0F2C6D850518 (void);
+extern void Lexer_State28_mCE450293FB342899662DC5904D01C6C34919D586 (void);
 // 0x000001B0 System.Boolean LitJson.Lexer::GetChar()
 extern void Lexer_GetChar_m255CC3331977A5F176CD67138BEE165CCD9A6597 (void);
 // 0x000001B1 System.Int32 LitJson.Lexer::NextChar()
@@ -896,65 +896,65 @@ extern void PXR_ControllerLoader_LoadOneTexture_mA7F93A4AB5109D09C0A5583163D4E7B
 // 0x000001CB System.Byte[] Unity.XR.PXR.PXR_ControllerLoader::ReadPNG(System.String)
 extern void PXR_ControllerLoader_ReadPNG_m73C5EFBD70F25BFC3FA4EB254865D841DE3D2F90 (void);
 // 0x000001CC System.Void Unity.XR.PXR.PXR_Boundary::SetVisible(System.Boolean)
-extern void PXR_Boundary_SetVisible_m999CD9F504C883E216819D7AB9875491737259F2 (void);
+extern void PXR_Boundary_SetVisible_m65BF8B90D1BE2D7105963D7E89F1D9261202C3E2 (void);
 // 0x000001CD System.Boolean Unity.XR.PXR.PXR_Boundary::GetVisible()
-extern void PXR_Boundary_GetVisible_m7025B0867952148ABA9488F60BCEE7E88BB352D1 (void);
+extern void PXR_Boundary_GetVisible_mD0616731897CF8338D4CAB62EC7F2C95540351D6 (void);
 // 0x000001CE System.Boolean Unity.XR.PXR.PXR_Boundary::GetConfigured()
-extern void PXR_Boundary_GetConfigured_mEAEDA0FCD63A81237941C07E0F2D5A5BD1807A95 (void);
+extern void PXR_Boundary_GetConfigured_m9DB395F5CA30FA3086EFF6B727537CB72526ACD8 (void);
 // 0x000001CF System.Boolean Unity.XR.PXR.PXR_Boundary::GetEnabled()
-extern void PXR_Boundary_GetEnabled_mAD816A25A9447B54B9F1BDE0E6160A0B720C609B (void);
+extern void PXR_Boundary_GetEnabled_mC34BADAFB8E1D1563D42AD79488431AE039600BF (void);
 // 0x000001D0 Unity.XR.PXR.PxrBoundaryTriggerInfo Unity.XR.PXR.PXR_Boundary::TestNode(Unity.XR.PXR.BoundaryTrackingNode,Unity.XR.PXR.BoundaryType)
-extern void PXR_Boundary_TestNode_m983F77C8EDFF4CD397AD844359CE47D873FB4D37 (void);
+extern void PXR_Boundary_TestNode_mD3585BD065A57BD91C992663902E3336081EA758 (void);
 // 0x000001D1 Unity.XR.PXR.PxrBoundaryTriggerInfo Unity.XR.PXR.PXR_Boundary::TestPoint(Unity.XR.PXR.PxrVector3f,Unity.XR.PXR.BoundaryType)
-extern void PXR_Boundary_TestPoint_m0D370E5A7AE785C8B7E572F8186689453131BB61 (void);
+extern void PXR_Boundary_TestPoint_mE9520F104F67A02A916DB1851A6C531CD2F5280C (void);
 // 0x000001D2 UnityEngine.Vector3[] Unity.XR.PXR.PXR_Boundary::GetGeometry(Unity.XR.PXR.BoundaryType)
-extern void PXR_Boundary_GetGeometry_mFC6F0E78D3045B4BED0830B5E51B3DDF29634CD9 (void);
+extern void PXR_Boundary_GetGeometry_m0877265C851D8F5A4211D0A578B32B286B996D87 (void);
 // 0x000001D3 UnityEngine.Vector3 Unity.XR.PXR.PXR_Boundary::GetDimensions(Unity.XR.PXR.BoundaryType)
-extern void PXR_Boundary_GetDimensions_m2E4C4A1C444CF8334A3AE12429B5A238048A704C (void);
+extern void PXR_Boundary_GetDimensions_mF595E5CE9C471DCA5D8F9B1A3E1659E35F716C70 (void);
 // 0x000001D4 System.Void Unity.XR.PXR.PXR_Boundary::EnableSeeThroughManual(System.Boolean)
-extern void PXR_Boundary_EnableSeeThroughManual_m29AA7041E4A9BD276857EFD7FCAD2CB0D4219A41 (void);
+extern void PXR_Boundary_EnableSeeThroughManual_mAD1B669EEF03B514A1A7ABB5E26F0CD3E4586208 (void);
 // 0x000001D5 System.Int32 Unity.XR.PXR.PXR_Boundary::GetDialogState()
-extern void PXR_Boundary_GetDialogState_m294AC10A3EBC13B53E309B0A509856A31273A7FA (void);
+extern void PXR_Boundary_GetDialogState_mEE450A53E727F0B89FF1D2AEABA1B68502CAAD05 (void);
 // 0x000001D6 Unity.XR.PXR.PxrTrackingState Unity.XR.PXR.PXR_Boundary::GetSeeThroughTrackingState()
-extern void PXR_Boundary_GetSeeThroughTrackingState_m40FAE06DAD54E71FF0430B851859654F7173B98D (void);
+extern void PXR_Boundary_GetSeeThroughTrackingState_m8A46475408FB7962012ECCFFBF066F4879CB31A9 (void);
 // 0x000001D7 System.Void Unity.XR.PXR.PXR_Boundary::.ctor()
 extern void PXR_Boundary__ctor_mF7608974F77A9A322B9B935A490E0AA4DFD962CB (void);
 // 0x000001D8 System.Boolean Unity.XR.PXR.PXR_EyeTracking::GetHeadPosMatrix(UnityEngine.Matrix4x4&)
-extern void PXR_EyeTracking_GetHeadPosMatrix_mE515F5EA66C5D062542E42C1D22477A6DABA135D (void);
+extern void PXR_EyeTracking_GetHeadPosMatrix_m31E85C4705D97E9036B088FD2D10FEC08D9EE0EA (void);
 // 0x000001D9 System.Boolean Unity.XR.PXR.PXR_EyeTracking::GetEyeTrackingDevice(UnityEngine.XR.InputDevice&)
-extern void PXR_EyeTracking_GetEyeTrackingDevice_m161CF74899C1107FC8C00A9265C00B90A16FCE0F (void);
+extern void PXR_EyeTracking_GetEyeTrackingDevice_m723D83EEF0E402534A198B3D74917EFB6F46F584 (void);
 // 0x000001DA System.Boolean Unity.XR.PXR.PXR_EyeTracking::GetCombineEyeGazePoint(UnityEngine.Vector3&)
-extern void PXR_EyeTracking_GetCombineEyeGazePoint_mC59C197988E7396B4F8A9BEB24B236820CFFB156 (void);
+extern void PXR_EyeTracking_GetCombineEyeGazePoint_m6F0EBA66CB33B32425DA3360EFAB22960134344C (void);
 // 0x000001DB System.Boolean Unity.XR.PXR.PXR_EyeTracking::GetCombineEyeGazeVector(UnityEngine.Vector3&)
-extern void PXR_EyeTracking_GetCombineEyeGazeVector_m826EC3501DC0F2F26E2E09D29809DEF737725E45 (void);
+extern void PXR_EyeTracking_GetCombineEyeGazeVector_m09557FD4129BC72332FB3D235523BA7E862DF643 (void);
 // 0x000001DC System.Boolean Unity.XR.PXR.PXR_EyeTracking::GetLeftEyeGazeOpenness(System.Single&)
-extern void PXR_EyeTracking_GetLeftEyeGazeOpenness_m50D480A0A34DFEF2254AC1C828B977E6DD936A73 (void);
+extern void PXR_EyeTracking_GetLeftEyeGazeOpenness_mB224B1B243255EE26F8831FB3A703F6FC99AB986 (void);
 // 0x000001DD System.Boolean Unity.XR.PXR.PXR_EyeTracking::GetRightEyeGazeOpenness(System.Single&)
-extern void PXR_EyeTracking_GetRightEyeGazeOpenness_mE542E20191D6898BAE9AF534DA58FE23D957E01D (void);
+extern void PXR_EyeTracking_GetRightEyeGazeOpenness_mD394DA00230C040C8328AB2B9767563C593DE7B2 (void);
 // 0x000001DE System.Boolean Unity.XR.PXR.PXR_EyeTracking::GetLeftEyePoseStatus(System.UInt32&)
-extern void PXR_EyeTracking_GetLeftEyePoseStatus_mB18E81560C1B6DE0713BC1E55BC97C5652785FBA (void);
+extern void PXR_EyeTracking_GetLeftEyePoseStatus_mA947B90591F40BBCDDF72D4DDECEC40AD638316F (void);
 // 0x000001DF System.Boolean Unity.XR.PXR.PXR_EyeTracking::GetRightEyePoseStatus(System.UInt32&)
-extern void PXR_EyeTracking_GetRightEyePoseStatus_mC6025CC9F46101339C0FA69947ADC26C684C0D89 (void);
+extern void PXR_EyeTracking_GetRightEyePoseStatus_mEF4353F041848660292CF12EB0A6B56A2E598AA1 (void);
 // 0x000001E0 System.Boolean Unity.XR.PXR.PXR_EyeTracking::GetCombinedEyePoseStatus(System.UInt32&)
-extern void PXR_EyeTracking_GetCombinedEyePoseStatus_m85A956786C0881FFCE8BDF2D400B13C7F4DDDEB6 (void);
+extern void PXR_EyeTracking_GetCombinedEyePoseStatus_m25124F32E9E467612340A08C5D0664F8113E6A61 (void);
 // 0x000001E1 System.Boolean Unity.XR.PXR.PXR_EyeTracking::GetLeftEyePositionGuide(UnityEngine.Vector3&)
-extern void PXR_EyeTracking_GetLeftEyePositionGuide_mE1B18E096E1143A612ABD4CDFBD91A8B015418A5 (void);
+extern void PXR_EyeTracking_GetLeftEyePositionGuide_m1308524AC12845E4EE6471B3471D5DDFDE5D7D01 (void);
 // 0x000001E2 System.Boolean Unity.XR.PXR.PXR_EyeTracking::GetRightEyePositionGuide(UnityEngine.Vector3&)
-extern void PXR_EyeTracking_GetRightEyePositionGuide_m0BEE72DC6A693ABC8BFA762AD9774F4BF7A17B86 (void);
+extern void PXR_EyeTracking_GetRightEyePositionGuide_m5A5FFF62AFA4D045862BCC33FF346F5169C4505D (void);
 // 0x000001E3 System.Boolean Unity.XR.PXR.PXR_EyeTracking::GetFoveatedGazeDirection(UnityEngine.Vector3&)
-extern void PXR_EyeTracking_GetFoveatedGazeDirection_m614ADF78DB31B8A04B9FCDC90111475285CF2C2F (void);
+extern void PXR_EyeTracking_GetFoveatedGazeDirection_mCE8E838C280B5DBCAEB76BD539D6914B7A525253 (void);
 // 0x000001E4 System.Boolean Unity.XR.PXR.PXR_EyeTracking::GetFoveatedGazeTrackingState(System.UInt32&)
-extern void PXR_EyeTracking_GetFoveatedGazeTrackingState_m206C300F44B392D44EC10C6109B20EE929B903C6 (void);
+extern void PXR_EyeTracking_GetFoveatedGazeTrackingState_m0CBEE029E098C683DAD71AF3EF60B07E6A81FF4A (void);
 // 0x000001E5 System.Void Unity.XR.PXR.PXR_EyeTracking::.ctor()
 extern void PXR_EyeTracking__ctor_m5BDEABCE94D2AE18B6AF97C0F583722EAD0746FB (void);
 // 0x000001E6 Unity.XR.PXR.PXR_FoveationRendering Unity.XR.PXR.PXR_FoveationRendering::get_Instance()
-extern void PXR_FoveationRendering_get_Instance_m384D252DE0628B0A66FDB3829A9930AC938FFCF0 (void);
+extern void PXR_FoveationRendering_get_Instance_mB1EF83F06D977B470E28F3709361DA647DE507B7 (void);
 // 0x000001E7 System.Void Unity.XR.PXR.PXR_FoveationRendering::SetFoveationLevel(Unity.XR.PXR.FoveationLevel)
-extern void PXR_FoveationRendering_SetFoveationLevel_mCE1E20CB7220A3A3C4AFE4FEAB9ACEB598788EC8 (void);
+extern void PXR_FoveationRendering_SetFoveationLevel_mF7F9DE7AC30D39AD5883E0A96A14BE4172DD73AE (void);
 // 0x000001E8 Unity.XR.PXR.FoveationLevel Unity.XR.PXR.PXR_FoveationRendering::GetFoveationLevel()
-extern void PXR_FoveationRendering_GetFoveationLevel_mD51B22BAF3D1077891C9D9C716E7EB125DB7FD5E (void);
+extern void PXR_FoveationRendering_GetFoveationLevel_mB62A5AE22E1C203F8B66C6713DDEC586E9A81AD5 (void);
 // 0x000001E9 System.Void Unity.XR.PXR.PXR_FoveationRendering::SetFoveationParameters(System.Single,System.Single,System.Single,System.Single)
-extern void PXR_FoveationRendering_SetFoveationParameters_mE72D9664F822E9927B0E16A86A2D0C126241835E (void);
+extern void PXR_FoveationRendering_SetFoveationParameters_mC428CEF499216E4A24673BC47F6CDB397766ECF4 (void);
 // 0x000001EA System.Void Unity.XR.PXR.PXR_FoveationRendering::.ctor()
 extern void PXR_FoveationRendering__ctor_m5292A77ED544807612C5C9EC6162EF72772BE483 (void);
 // 0x000001EB UnityEngine.Vector3 Unity.XR.PXR.Vector3f::ToVector3()
@@ -968,95 +968,95 @@ extern void Posef_ToHandPosef_m5009412BA5A2510E1DA1D23168F0FE4D81464D21 (void);
 // 0x000001EF System.Void Unity.XR.PXR.Posef::ToJointPosef(Unity.XR.PXR.HandType)
 extern void Posef_ToJointPosef_mC216544332B822C24BB2003281B393DBEA786ACA (void);
 // 0x000001F0 System.Boolean Unity.XR.PXR.PXR_HandTracking::GetSettingState()
-extern void PXR_HandTracking_GetSettingState_m812A203F716274A0E017D5564A6F9192C1587E2A (void);
+extern void PXR_HandTracking_GetSettingState_m6DD70AF490EE28A867CB9774242FF68D078070AA (void);
 // 0x000001F1 Unity.XR.PXR.ActiveInputDevice Unity.XR.PXR.PXR_HandTracking::GetActiveInputDevice()
-extern void PXR_HandTracking_GetActiveInputDevice_m618225FDCFCD28145F5BBAAFB333BA1F07366B84 (void);
+extern void PXR_HandTracking_GetActiveInputDevice_m48B3A6CB75BB9C6AD0ED5F73CD5458DFBEE3377F (void);
 // 0x000001F2 System.Boolean Unity.XR.PXR.PXR_HandTracking::GetAimState(Unity.XR.PXR.HandType,Unity.XR.PXR.HandAimState&)
-extern void PXR_HandTracking_GetAimState_mE5009F2F89F1A85141DA56DA5256C5D1FE239A53 (void);
+extern void PXR_HandTracking_GetAimState_mF727639CE93E6C71063C0BEFC464112ACC38DD33 (void);
 // 0x000001F3 System.Boolean Unity.XR.PXR.PXR_HandTracking::GetJointLocations(Unity.XR.PXR.HandType,Unity.XR.PXR.HandJointLocations&)
-extern void PXR_HandTracking_GetJointLocations_m56DFF1FF9079B6777DC5FC99BDED757D174DC93C (void);
+extern void PXR_HandTracking_GetJointLocations_m244A9C9D3AE1C1463D69C8A7F78EC821897F5E89 (void);
 // 0x000001F4 Unity.XR.PXR.PXR_Input/Controller Unity.XR.PXR.PXR_Input::GetDominantHand()
-extern void PXR_Input_GetDominantHand_m0A3527822EEA33C180BB6D85665CF46F55D335F7 (void);
+extern void PXR_Input_GetDominantHand_m0B621614C73632DADE3EC095630CEC1A30353383 (void);
 // 0x000001F5 System.Void Unity.XR.PXR.PXR_Input::SetDominantHand(Unity.XR.PXR.PXR_Input/Controller)
-extern void PXR_Input_SetDominantHand_mED05EFC75FFF87884A8CC0F396FE8E677A7923A7 (void);
+extern void PXR_Input_SetDominantHand_m5E342974BC358830BB4ED7F238ECDAA715EF5D39 (void);
 // 0x000001F6 System.Void Unity.XR.PXR.PXR_Input::SetControllerVibration(System.Single,System.Int32,Unity.XR.PXR.PXR_Input/Controller)
-extern void PXR_Input_SetControllerVibration_m8183A41A52ADEA094C63FDEA530F085C1B3383D2 (void);
+extern void PXR_Input_SetControllerVibration_m91730D90ED6B4BCED63387FABB8A39CE7EFB23FB (void);
 // 0x000001F7 Unity.XR.PXR.PXR_Input/ControllerDevice Unity.XR.PXR.PXR_Input::GetControllerDeviceType()
-extern void PXR_Input_GetControllerDeviceType_mB6E9FC221A5C500746AC8F17F154996FC828F23D (void);
+extern void PXR_Input_GetControllerDeviceType_mE26996B8FBA5EC597271D483C28BAC7D3DDAE514 (void);
 // 0x000001F8 System.Boolean Unity.XR.PXR.PXR_Input::IsControllerConnected(Unity.XR.PXR.PXR_Input/Controller)
-extern void PXR_Input_IsControllerConnected_mC52D97F99F2A7D0C17ECD87E3EC8D2585CAC1CF9 (void);
+extern void PXR_Input_IsControllerConnected_m67E7BFBC22EEFBA37B9E2D533D4E8F0F6E7F593B (void);
 // 0x000001F9 System.Void Unity.XR.PXR.PXR_Input::SetControllerOriginOffset(Unity.XR.PXR.PXR_Input/Controller,UnityEngine.Vector3)
-extern void PXR_Input_SetControllerOriginOffset_mA2ACCBC3F8F4BFB26A9D386456CDD61E7DEDADD3 (void);
+extern void PXR_Input_SetControllerOriginOffset_m94C403ACBBD9C6CDD2118E7A45CB807D7C5A77A8 (void);
 // 0x000001FA UnityEngine.Quaternion Unity.XR.PXR.PXR_Input::GetControllerPredictRotation(Unity.XR.PXR.PXR_Input/Controller,System.Double)
-extern void PXR_Input_GetControllerPredictRotation_mC9084B9B3E6CE97005171191437345FB7FDD7800 (void);
+extern void PXR_Input_GetControllerPredictRotation_m1489CCE98AE71891F1DC56425DAFC3E6BAEAC34B (void);
 // 0x000001FB UnityEngine.Vector3 Unity.XR.PXR.PXR_Input::GetControllerPredictPosition(Unity.XR.PXR.PXR_Input/Controller,System.Double)
-extern void PXR_Input_GetControllerPredictPosition_m2798550B4310B35FD06721A1A9803E04F077FA14 (void);
+extern void PXR_Input_GetControllerPredictPosition_mE171BA1BDC3BA3059A46A9B3E3C835B723509922 (void);
 // 0x000001FC System.Int32 Unity.XR.PXR.PXR_Input::SetControllerVibrationEvent(System.UInt32,System.Int32,System.Single,System.Int32)
-extern void PXR_Input_SetControllerVibrationEvent_mED81C110F33F34335406AAB2F86ACE65BCD84ACF (void);
+extern void PXR_Input_SetControllerVibrationEvent_m1B379A6F576CB42968768AB604D77FFD77DDEC28 (void);
 // 0x000001FD System.Int32 Unity.XR.PXR.PXR_Input::StopControllerVCMotor(System.Int32)
-extern void PXR_Input_StopControllerVCMotor_mC4D237340966C45B98F69BBF4B265F910ACEC6CB (void);
+extern void PXR_Input_StopControllerVCMotor_m9582FE77A3291E4FEC60AD82E739619BFE78E9C8 (void);
 // 0x000001FE System.Int32 Unity.XR.PXR.PXR_Input::StartControllerVCMotor(System.String,Unity.XR.PXR.PXR_Input/VibrateController)
-extern void PXR_Input_StartControllerVCMotor_mAAC541B4FBF1C031E4B8554889014C17BFC8DAE3 (void);
+extern void PXR_Input_StartControllerVCMotor_mD1C64F74D8698D7DDCC2E64B4ED7A0342EF8D989 (void);
 // 0x000001FF System.Int32 Unity.XR.PXR.PXR_Input::SetControllerAmp(System.Single)
-extern void PXR_Input_SetControllerAmp_m6809A50583BDC412992F4EA8001D3D5ED2E917DB (void);
+extern void PXR_Input_SetControllerAmp_m83B961C55677362D1B6F26797F35B9D4228FBAD0 (void);
 // 0x00000200 System.Int32 Unity.XR.PXR.PXR_Input::StartVibrateBySharem(UnityEngine.AudioClip,Unity.XR.PXR.PXR_Input/VibrateController,Unity.XR.PXR.PXR_Input/ChannelFlip,System.Int32&)
-extern void PXR_Input_StartVibrateBySharem_mCFDC385E4312C86E21D09F47E45DC8AB22382B5B (void);
+extern void PXR_Input_StartVibrateBySharem_mAAFBF1E73D5EB9CEF98A4F8A6AAE3C1BC8AAF368 (void);
 // 0x00000201 System.Int32 Unity.XR.PXR.PXR_Input::StartVibrateBySharem(System.Single[],Unity.XR.PXR.PXR_Input/VibrateController,System.Int32,System.Int32,System.Int32,Unity.XR.PXR.PXR_Input/ChannelFlip,System.Int32&)
-extern void PXR_Input_StartVibrateBySharem_m10F9BABF3E11E93D928AC00AA458C3A288CF9C54 (void);
+extern void PXR_Input_StartVibrateBySharem_m19334F0B49B49AC1BE93C3B86696C7076857AFB0 (void);
 // 0x00000202 System.Int32 Unity.XR.PXR.PXR_Input::SaveVibrateByCache(UnityEngine.AudioClip,Unity.XR.PXR.PXR_Input/VibrateController,Unity.XR.PXR.PXR_Input/ChannelFlip,Unity.XR.PXR.PXR_Input/CacheConfig,System.Int32&)
-extern void PXR_Input_SaveVibrateByCache_mA9BF6C5445D419B0624C71B30F43EED17548823E (void);
+extern void PXR_Input_SaveVibrateByCache_m9703E36C5E5568E4C15D50EC464EC68F3CF87207 (void);
 // 0x00000203 System.Int32 Unity.XR.PXR.PXR_Input::SaveVibrateByCache(System.Single[],Unity.XR.PXR.PXR_Input/VibrateController,System.Int32,System.Int32,System.Int32,Unity.XR.PXR.PXR_Input/ChannelFlip,Unity.XR.PXR.PXR_Input/CacheConfig,System.Int32&)
-extern void PXR_Input_SaveVibrateByCache_m43048E2921B5F64823FC102C3CFA1E96750AA29E (void);
+extern void PXR_Input_SaveVibrateByCache_m9B4894D1F4165120AD701889D21D4C633C5B6AD2 (void);
 // 0x00000204 System.Int32 Unity.XR.PXR.PXR_Input::StartVibrateByCache(System.Int32)
-extern void PXR_Input_StartVibrateByCache_m94C2BE2E8ADF7638F1D41DF1B2CFAD28FC3A8D23 (void);
+extern void PXR_Input_StartVibrateByCache_m4CD3CBD5B92F9F898C42DECBEC3B45FF86925B64 (void);
 // 0x00000205 System.Int32 Unity.XR.PXR.PXR_Input::ClearVibrateByCache(System.Int32)
-extern void PXR_Input_ClearVibrateByCache_m2C830FD042F974A30B91A386085C53537311C4DF (void);
+extern void PXR_Input_ClearVibrateByCache_m54666187F93EED2B8BFBA301235C32BDDDE42669 (void);
 // 0x00000206 System.Int32 Unity.XR.PXR.PXR_Input::SetControllerEnableKey(System.Boolean,Unity.XR.PXR.PxrControllerKeyMap)
-extern void PXR_Input_SetControllerEnableKey_mC7DD5B6F68CA87CE9A4046127DD46DBD83E58075 (void);
+extern void PXR_Input_SetControllerEnableKey_m361EA9C7AE986AF909BD8584C1352D6246175F70 (void);
 // 0x00000207 System.Int32 Unity.XR.PXR.PXR_Input::StartVibrateByPHF(UnityEngine.TextAsset,System.Int32&,Unity.XR.PXR.PXR_Input/VibrateController,Unity.XR.PXR.PXR_Input/ChannelFlip,System.Single)
-extern void PXR_Input_StartVibrateByPHF_m57FA26D3C74C9CD704ED32916ABF7470F808E248 (void);
+extern void PXR_Input_StartVibrateByPHF_m0497AF9CE6018FE27B2169865F121FCAB04CEF75 (void);
 // 0x00000208 System.Int32 Unity.XR.PXR.PXR_Input::PauseVibrate(System.Int32)
-extern void PXR_Input_PauseVibrate_m444AAA342A61A50A2333C84E6968156D1AC72856 (void);
+extern void PXR_Input_PauseVibrate_mD96822635021DF803831B782AF892C2FBA49B557 (void);
 // 0x00000209 System.Int32 Unity.XR.PXR.PXR_Input::ResumeVibrate(System.Int32)
-extern void PXR_Input_ResumeVibrate_mD25497AF20670CFBCD7C5899B2A57B5C7BF04AA2 (void);
+extern void PXR_Input_ResumeVibrate_mA168576D47868FE1E56E522D6813B16EF2F290C4 (void);
 // 0x0000020A System.Int32 Unity.XR.PXR.PXR_Input::UpdateVibrateParams(System.Int32,Unity.XR.PXR.PXR_Input/VibrateController,Unity.XR.PXR.PXR_Input/ChannelFlip,System.Single)
-extern void PXR_Input_UpdateVibrateParams_m08D26551627BC4A155C326524EE8E0C136FB0390 (void);
+extern void PXR_Input_UpdateVibrateParams_m6C446357DF01D29A5D9FC775191E5FC0CF259FB7 (void);
 // 0x0000020B System.Void Unity.XR.PXR.PXR_Input::SendHapticImpulse(Unity.XR.PXR.PXR_Input/VibrateType,System.Single,System.Int32,System.Int32)
-extern void PXR_Input_SendHapticImpulse_m6CF817F13EA72DE8CF6734C8D950D858259C74B6 (void);
+extern void PXR_Input_SendHapticImpulse_m787C6C026C25CD111854987DEA4BB5C261894DD5 (void);
 // 0x0000020C System.Int32 Unity.XR.PXR.PXR_Input::SendHapticBuffer(Unity.XR.PXR.PXR_Input/VibrateType,UnityEngine.AudioClip,Unity.XR.PXR.PXR_Input/ChannelFlip,System.Int32&,Unity.XR.PXR.PXR_Input/CacheType)
-extern void PXR_Input_SendHapticBuffer_m45E2537EC2B0B8B05F91616D11CBCF905B825AAA (void);
+extern void PXR_Input_SendHapticBuffer_m1969718DC426EE05D24FE3EE0C15FBFB8FC5C39E (void);
 // 0x0000020D System.Int32 Unity.XR.PXR.PXR_Input::SendHapticBuffer(Unity.XR.PXR.PXR_Input/VibrateType,System.Single[],System.Int32,System.Int32,System.Int32,Unity.XR.PXR.PXR_Input/ChannelFlip,System.Int32&,Unity.XR.PXR.PXR_Input/CacheType)
-extern void PXR_Input_SendHapticBuffer_m26D4EC6923F3BE03A152A1F350DF8449AC9E4C33 (void);
+extern void PXR_Input_SendHapticBuffer_mE6D10E48B6AAAD205A48B4EDC2A65E4F233A1B8B (void);
 // 0x0000020E System.Int32 Unity.XR.PXR.PXR_Input::SendHapticBuffer(Unity.XR.PXR.PXR_Input/VibrateType,UnityEngine.TextAsset,Unity.XR.PXR.PXR_Input/ChannelFlip,System.Single,System.Int32&)
-extern void PXR_Input_SendHapticBuffer_m6667B1E5B947BFF4B3B12407F776D990F2E99124 (void);
+extern void PXR_Input_SendHapticBuffer_m68DBDC33CDAE0D980FA2D18A90D9961840AC113F (void);
 // 0x0000020F System.Int32 Unity.XR.PXR.PXR_Input::StopHapticBuffer(System.Int32,System.Boolean)
-extern void PXR_Input_StopHapticBuffer_mE45E3FB1DDE0AE4993613676824E633A6D0BE10D (void);
+extern void PXR_Input_StopHapticBuffer_m199484913E8E4A6DEEFBB6481DDEBED656C0A323 (void);
 // 0x00000210 System.Int32 Unity.XR.PXR.PXR_Input::PauseHapticBuffer(System.Int32)
-extern void PXR_Input_PauseHapticBuffer_m4322B7CC5E70B098F8D8EE3B979026889D5251B0 (void);
+extern void PXR_Input_PauseHapticBuffer_mEE660A9EFCC081D94688AA3B9B76DA78F8A4FBCF (void);
 // 0x00000211 System.Int32 Unity.XR.PXR.PXR_Input::ResumeHapticBuffer(System.Int32)
-extern void PXR_Input_ResumeHapticBuffer_mBD0EDEF9553D7E9584A5B0BAEB2C8525B57C2898 (void);
+extern void PXR_Input_ResumeHapticBuffer_m3AC901448412C71AE5A46CA54E5497F44CECD3ED (void);
 // 0x00000212 System.Int32 Unity.XR.PXR.PXR_Input::StartHapticBuffer(System.Int32)
-extern void PXR_Input_StartHapticBuffer_m26157B013817CFD93BA75FB9841ABB6ABF7E0EE0 (void);
+extern void PXR_Input_StartHapticBuffer_mA1663AE4140F884F61C41676A00B87033B4D6AE4 (void);
 // 0x00000213 System.Int32 Unity.XR.PXR.PXR_Input::UpdateHapticBuffer(System.Int32,Unity.XR.PXR.PXR_Input/VibrateType,Unity.XR.PXR.PXR_Input/ChannelFlip,System.Single)
-extern void PXR_Input_UpdateHapticBuffer_m8F41037843AE23DF75373CDD3F7B3AE956CE0B89 (void);
+extern void PXR_Input_UpdateHapticBuffer_m030E267CB1DDBE386390EDD0288D87CC30186AE2 (void);
 // 0x00000214 System.Int32 Unity.XR.PXR.PXR_Input::CreateHapticStream(System.String,System.UInt32,Unity.XR.PXR.VibrateInfo&,System.Single,System.Int32&)
-extern void PXR_Input_CreateHapticStream_m18D7699794E93E7522FD12D5CF3CB582B49680E4 (void);
+extern void PXR_Input_CreateHapticStream_mCE40C95DC0F905B4BEAAEEB634AC209B38F933EA (void);
 // 0x00000215 System.Int32 Unity.XR.PXR.PXR_Input::WriteHapticStream(System.Int32,Unity.XR.PXR.PxrPhfParamsNum&,System.UInt32)
-extern void PXR_Input_WriteHapticStream_mE19360CDD960DA2355547E096125534EF1128A57 (void);
+extern void PXR_Input_WriteHapticStream_mCCF854F9C01F66951B453FAFA601229ADE326CF5 (void);
 // 0x00000216 System.Int32 Unity.XR.PXR.PXR_Input::SetHapticStreamSpeed(System.Int32,System.Single)
-extern void PXR_Input_SetHapticStreamSpeed_m2FCCAA1CB6D73C1B32D42D768D0761D0E87C4A7A (void);
+extern void PXR_Input_SetHapticStreamSpeed_m58E56C059921148BF82DE939E65DFA3C3F57072B (void);
 // 0x00000217 System.Int32 Unity.XR.PXR.PXR_Input::GetHapticStreamSpeed(System.Int32,System.Single&)
-extern void PXR_Input_GetHapticStreamSpeed_m4DC63C70C4B6DAEA899B8672DE476430A4DE7F96 (void);
+extern void PXR_Input_GetHapticStreamSpeed_m76A070B4E540CC6D71D02B8D0EFC14E17D97C6A5 (void);
 // 0x00000218 System.Int32 Unity.XR.PXR.PXR_Input::GetHapticStreamCurrentFrameSequence(System.Int32,System.UInt64&)
-extern void PXR_Input_GetHapticStreamCurrentFrameSequence_m091461C82331F99DDF0572F222103D1E64AA842D (void);
+extern void PXR_Input_GetHapticStreamCurrentFrameSequence_mB8323DD2FE3BCB3620AABEEDC1EA09E785759982 (void);
 // 0x00000219 System.Int32 Unity.XR.PXR.PXR_Input::StartHappticStream(System.Int32)
-extern void PXR_Input_StartHappticStream_m1E9098931E8D1307BAB86C3D7FACD659DDD605D9 (void);
+extern void PXR_Input_StartHappticStream_m3F5BB657ED8C5C511F5176B2166DAD2BA283FA0D (void);
 // 0x0000021A System.Int32 Unity.XR.PXR.PXR_Input::StopHappticStream(System.Int32)
-extern void PXR_Input_StopHappticStream_m4979F812C37539033B90EC2823623CC7A1E9CE1A (void);
+extern void PXR_Input_StopHappticStream_m66D410F586A036A5A787B1F9349D6AB864E42351 (void);
 // 0x0000021B System.Int32 Unity.XR.PXR.PXR_Input::RemoveHappticStream(System.Int32)
-extern void PXR_Input_RemoveHappticStream_m3190D7F1AFF86D54B0643E3EC8BF06A3E15F1588 (void);
+extern void PXR_Input_RemoveHappticStream_mE7F0B9FC4DFC86AE1EC8C6E090E7D9EBA23CB7DC (void);
 // 0x0000021C Unity.XR.PXR.PxrPhfFile Unity.XR.PXR.PXR_Input::AnalysisHappticStreamPHF(UnityEngine.TextAsset)
-extern void PXR_Input_AnalysisHappticStreamPHF_mCEFBF9625D2BF4912C87B532F5052A3EF462104D (void);
+extern void PXR_Input_AnalysisHappticStreamPHF_mAE747E7E3106B6F83BB64C0F0FFF90D3A46E1AA9 (void);
 // 0x0000021D System.Int32 Unity.XR.PXR.PXR_OverLay::CompareTo(Unity.XR.PXR.PXR_OverLay)
 extern void PXR_OverLay_CompareTo_mD14DC6F3FDE8BF32108F4CCBEE241BB6EBDC0983 (void);
 // 0x0000021E System.Void Unity.XR.PXR.PXR_OverLay::Awake()
@@ -1094,7 +1094,7 @@ extern void PXR_OverLay_getPxrRectiLeft_m0782EB874E96F3CD32E4816379B4699FCF35397
 // 0x0000022E System.Void Unity.XR.PXR.PXR_OverLay::.ctor()
 extern void PXR_OverLay__ctor_m54E8D58071E6B0EDD8E7DC94178626427F8723C6 (void);
 // 0x0000022F System.Void Unity.XR.PXR.PXR_OverLay::.cctor()
-extern void PXR_OverLay__cctor_m43F2836BD8B5C708A7783443EBA95C2B26D0338C (void);
+extern void PXR_OverLay__cctor_mFA46FBD39A8380B2FBC692B9B5BF2AD72F117D78 (void);
 // 0x00000230 System.Void Unity.XR.PXR.PXR_OverLay/ExternalAndroidSurfaceObjectCreated::.ctor(System.Object,System.IntPtr)
 extern void ExternalAndroidSurfaceObjectCreated__ctor_mDE0F32D99A3E8C227CEEF70B9462482A9C7D2F11 (void);
 // 0x00000231 System.Void Unity.XR.PXR.PXR_OverLay/ExternalAndroidSurfaceObjectCreated::Invoke()
@@ -1156,261 +1156,261 @@ extern void SeethroughStateChangedCallBack_BeginInvoke_mDBFA556A0DB8B4635173B734
 // 0x0000024D System.Void Unity.XR.PXR.SeethroughStateChangedCallBack::EndInvoke(System.IAsyncResult)
 extern void SeethroughStateChangedCallBack_EndInvoke_m62ADAAE47019506E5AC08E4EF592F3133017A17E (void);
 // 0x0000024E System.Void Unity.XR.PXR.PXR_System::InitSystemService(System.String)
-extern void PXR_System_InitSystemService_m19E73881102B72B1C3A8D76AC32A167BD80FCE72 (void);
+extern void PXR_System_InitSystemService_m834B5BCF51B5ECCB502F251206DC93A4285B77AE (void);
 // 0x0000024F System.Void Unity.XR.PXR.PXR_System::BindSystemService()
-extern void PXR_System_BindSystemService_m846E1FA57EE2D52B51B1B33EBEA94D50CCCC81DE (void);
+extern void PXR_System_BindSystemService_m43DC57FA511BAF68F2374D5C27491E367ACB4B08 (void);
 // 0x00000250 System.Void Unity.XR.PXR.PXR_System::UnBindSystemService()
-extern void PXR_System_UnBindSystemService_m70D1922CFAA9CAF07C8E7254708EDCBB16EFC937 (void);
+extern void PXR_System_UnBindSystemService_m00649DEBD3E335834EC37411C99F339378D98573 (void);
 // 0x00000251 System.Boolean Unity.XR.PXR.PXR_System::StartBatteryReceiver(System.String)
-extern void PXR_System_StartBatteryReceiver_m9786ACD35748CFE13B817760838872FB343067CD (void);
+extern void PXR_System_StartBatteryReceiver_mB2041881061FFE00B513C35F2761D83AACFF1997 (void);
 // 0x00000252 System.Boolean Unity.XR.PXR.PXR_System::StopBatteryReceiver()
-extern void PXR_System_StopBatteryReceiver_m3CAD4C568C4B147CD52B209FF9E6C34F30EC5396 (void);
+extern void PXR_System_StopBatteryReceiver_mED1FFC8DB63E37894F4C93D25C6AC829A4D04A89 (void);
 // 0x00000253 System.Boolean Unity.XR.PXR.PXR_System::SetCommonBrightness(System.Int32)
-extern void PXR_System_SetCommonBrightness_mA2BCF313D6244EF774EACA77E9B1D009E5F3B656 (void);
+extern void PXR_System_SetCommonBrightness_m9AD16C8772087CD4EC0D553D87C278084E023554 (void);
 // 0x00000254 System.Int32 Unity.XR.PXR.PXR_System::GetCommonBrightness()
-extern void PXR_System_GetCommonBrightness_mB0A7E7D2ABF951AAA928DE3A364FFF50C9C96559 (void);
+extern void PXR_System_GetCommonBrightness_mF377A9221F76D553CC98E5490CB4767111E6C223 (void);
 // 0x00000255 System.Int32[] Unity.XR.PXR.PXR_System::GetScreenBrightnessLevel()
-extern void PXR_System_GetScreenBrightnessLevel_m7CF3E55ED554D69819AB06B86916609448E182E1 (void);
+extern void PXR_System_GetScreenBrightnessLevel_mE2B3D4DA05C98DF863D38A5D4F8821654FEA903A (void);
 // 0x00000256 System.Void Unity.XR.PXR.PXR_System::SetScreenBrightnessLevel(System.Int32,System.Int32)
-extern void PXR_System_SetScreenBrightnessLevel_mFAF5908CF88497C372BF65F14E073713653E8C21 (void);
+extern void PXR_System_SetScreenBrightnessLevel_m0AC44684375D457135FFC4385D37FC15883A986D (void);
 // 0x00000257 System.Boolean Unity.XR.PXR.PXR_System::InitAudioDevice()
-extern void PXR_System_InitAudioDevice_mADB0CDD2886C36D6594F509614D1468AE2F46C7E (void);
+extern void PXR_System_InitAudioDevice_mBCB93900B457AE8ACD1B0B84BB3390784FBA3ECF (void);
 // 0x00000258 System.Boolean Unity.XR.PXR.PXR_System::StartAudioReceiver(System.String)
-extern void PXR_System_StartAudioReceiver_m03D12E6B63CF17DFCE250D38AA3AA69C9DE3E050 (void);
+extern void PXR_System_StartAudioReceiver_m8A0E0526D728B0424AABC0E2AC3E2A728134CD03 (void);
 // 0x00000259 System.Boolean Unity.XR.PXR.PXR_System::StopAudioReceiver()
-extern void PXR_System_StopAudioReceiver_m6FBC6FEF3EF5C0989A9E674F7A91C88C6F10E402 (void);
+extern void PXR_System_StopAudioReceiver_m822751A7CF89271DE46EFBC7C7A3C8BBF3BA0956 (void);
 // 0x0000025A System.Int32 Unity.XR.PXR.PXR_System::GetMaxVolumeNumber()
-extern void PXR_System_GetMaxVolumeNumber_mD0BD5E5B91EF6BDBE9936FC03458F7BA046F331A (void);
+extern void PXR_System_GetMaxVolumeNumber_m56696697DF058CB8A9E475E4EC99CA005405CC6A (void);
 // 0x0000025B System.Int32 Unity.XR.PXR.PXR_System::GetCurrentVolumeNumber()
-extern void PXR_System_GetCurrentVolumeNumber_m6FC4C2A4BA93C6D51243FD687EFF6F6CE464D851 (void);
+extern void PXR_System_GetCurrentVolumeNumber_m076B0C6AD14B64BAD6CB1DCD37CFF8F736FA0DAC (void);
 // 0x0000025C System.Boolean Unity.XR.PXR.PXR_System::VolumeUp()
-extern void PXR_System_VolumeUp_mBDCD39362B19E679644888126CD4D378072B76F2 (void);
+extern void PXR_System_VolumeUp_mD5A154C53873AF48C1F8E381E7C7B95076165911 (void);
 // 0x0000025D System.Boolean Unity.XR.PXR.PXR_System::VolumeDown()
-extern void PXR_System_VolumeDown_m601EECB34E9B77045778B40A27A67B772DDDC9F4 (void);
+extern void PXR_System_VolumeDown_m53555F85AB6FEC4E1BBD26D9DA0E6AC115B43356 (void);
 // 0x0000025E System.Boolean Unity.XR.PXR.PXR_System::SetVolumeNum(System.Int32)
-extern void PXR_System_SetVolumeNum_mE8A213B853347DCE018811F72CAE8B1D6CCD1946 (void);
+extern void PXR_System_SetVolumeNum_mD724E29F70149012723B1D7FBA54131B1CE6D633 (void);
 // 0x0000025F Unity.XR.PXR.PXR_PlatformSetting/simulationType Unity.XR.PXR.PXR_System::IsCurrentDeviceValid()
-extern void PXR_System_IsCurrentDeviceValid_m82AFB6E499E1F465359F7AC80187ED5D44B98EC7 (void);
+extern void PXR_System_IsCurrentDeviceValid_mFE8E29E84FD81A2D088940322CC83CBE8A2E33FC (void);
 // 0x00000260 System.Boolean Unity.XR.PXR.PXR_System::AppEntitlementCheck(System.String)
-extern void PXR_System_AppEntitlementCheck_mA011BF0A981A2F25B1ECC9AC3F7850779821A1A0 (void);
+extern void PXR_System_AppEntitlementCheck_m36D9253B3235A588FC1BD023870F6FE94D1DD71A (void);
 // 0x00000261 System.Boolean Unity.XR.PXR.PXR_System::KeyEntitlementCheck(System.String)
-extern void PXR_System_KeyEntitlementCheck_m71A1651C4F03B2F8A0219EF2F5AC2F127FF4FC51 (void);
+extern void PXR_System_KeyEntitlementCheck_m414E1751AFF2A9ACCC14F6C84C9FF331CBCF5E13 (void);
 // 0x00000262 System.Int32 Unity.XR.PXR.PXR_System::AppEntitlementCheckExtra(System.String)
-extern void PXR_System_AppEntitlementCheckExtra_m2F399FEB7BACC56C9A88AF4382E2F2E640663166 (void);
+extern void PXR_System_AppEntitlementCheckExtra_m8B636D1094A17A0388F62EC9E031D58AD1BA06DA (void);
 // 0x00000263 System.Int32 Unity.XR.PXR.PXR_System::KeyEntitlementCheckExtra(System.String)
-extern void PXR_System_KeyEntitlementCheckExtra_m71E0BDDF2B883896883C551945A92D2A2387543F (void);
+extern void PXR_System_KeyEntitlementCheckExtra_mDBD809F852502B7B8084C8E3424ABD92DA97DCFD (void);
 // 0x00000264 System.String Unity.XR.PXR.PXR_System::GetSDKVersion()
-extern void PXR_System_GetSDKVersion_m6011EB5852FEEC2F2EC2E748CB6765624899F49D (void);
+extern void PXR_System_GetSDKVersion_mB1D59D638FF66A7B942685E2724DADCEE65AA8D5 (void);
 // 0x00000265 System.Double Unity.XR.PXR.PXR_System::GetPredictedDisplayTime()
-extern void PXR_System_GetPredictedDisplayTime_m9F67991F8D2711883D4F23ED9A55B0D0D6DC071B (void);
+extern void PXR_System_GetPredictedDisplayTime_mE0C717A063C752C74A610577133831CCF3A8BAF3 (void);
 // 0x00000266 System.Boolean Unity.XR.PXR.PXR_System::SetExtraLatencyMode(System.Int32)
-extern void PXR_System_SetExtraLatencyMode_mC2D022AFB11011DA6E42E462C6E5A15C4BC30CB2 (void);
+extern void PXR_System_SetExtraLatencyMode_m2FCEF58588D267DE446AFA29AB7E18F8F8E2CB62 (void);
 // 0x00000267 System.String Unity.XR.PXR.PXR_System::StateGetDeviceInfo(Unity.XR.PXR.SystemInfoEnum)
-extern void PXR_System_StateGetDeviceInfo_mD213741C25B93EDCDA6FF735261350DE668B164A (void);
+extern void PXR_System_StateGetDeviceInfo_m540F0F7B10EC787888643B67693A3A905991C422 (void);
 // 0x00000268 System.Void Unity.XR.PXR.PXR_System::ControlSetDeviceAction(Unity.XR.PXR.DeviceControlEnum,System.Action`1<System.Int32>)
-extern void PXR_System_ControlSetDeviceAction_mDEEBB808C584BC3A854D7D99582D0A931031A2F6 (void);
+extern void PXR_System_ControlSetDeviceAction_mCEFD50602AA2EF1A075CE39D40E4AE97173A585D (void);
 // 0x00000269 System.Void Unity.XR.PXR.PXR_System::ControlAPPManager(Unity.XR.PXR.PackageControlEnum,System.String,System.Action`1<System.Int32>)
-extern void PXR_System_ControlAPPManager_m9897BCE83D0E2DE258FD835BCFAE7FBD5165CE1D (void);
+extern void PXR_System_ControlAPPManager_m8A01E33BF0C3166E2BDCCD3D432A8801D3B29848 (void);
 // 0x0000026A System.Void Unity.XR.PXR.PXR_System::ControlSetAutoConnectWIFI(System.String,System.String,System.Action`1<System.Boolean>)
-extern void PXR_System_ControlSetAutoConnectWIFI_m0F4C5D2F7F163564647C8E8CBCE4D3087F8ABD74 (void);
+extern void PXR_System_ControlSetAutoConnectWIFI_m66D54895BD350667E29542A1FA8AA52DAD3CA6E2 (void);
 // 0x0000026B System.Void Unity.XR.PXR.PXR_System::ControlClearAutoConnectWIFI(System.Action`1<System.Boolean>)
-extern void PXR_System_ControlClearAutoConnectWIFI_mFCF6C00C1DE4FAD89E0F4DF66B4CD54E513BD20E (void);
+extern void PXR_System_ControlClearAutoConnectWIFI_mE619FA8D148AE556D3F8EE04F576AB9B5A153404 (void);
 // 0x0000026C System.Void Unity.XR.PXR.PXR_System::PropertySetHomeKey(Unity.XR.PXR.HomeEventEnum,Unity.XR.PXR.HomeFunctionEnum,System.Action`1<System.Boolean>)
-extern void PXR_System_PropertySetHomeKey_m19C0A8C4D9F5AC17520E8B8CFC44F467A45CF1F8 (void);
+extern void PXR_System_PropertySetHomeKey_mE7DF93ABE005AEDED23E44798E870D707D2745F4 (void);
 // 0x0000026D System.Void Unity.XR.PXR.PXR_System::PropertySetHomeKeyAll(Unity.XR.PXR.HomeEventEnum,Unity.XR.PXR.HomeFunctionEnum,System.Int32,System.String,System.String,System.Action`1<System.Boolean>)
-extern void PXR_System_PropertySetHomeKeyAll_mD8A3F8C991D6EA562CE44F0005DA863F9CE72E8A (void);
+extern void PXR_System_PropertySetHomeKeyAll_m4F0D9CE78BCC72CEEC806178BE98280C61E482AA (void);
 // 0x0000026E System.Void Unity.XR.PXR.PXR_System::PropertyDisablePowerKey(System.Boolean,System.Boolean,System.Action`1<System.Int32>)
-extern void PXR_System_PropertyDisablePowerKey_mAB8648C880FD74389FAF9EC37B73A895F211F78B (void);
+extern void PXR_System_PropertyDisablePowerKey_m2CEF81DF59FBA72527DD05D1C051F1E66AE493FA (void);
 // 0x0000026F System.Void Unity.XR.PXR.PXR_System::PropertySetScreenOffDelay(Unity.XR.PXR.ScreenOffDelayTimeEnum,System.Action`1<System.Int32>)
-extern void PXR_System_PropertySetScreenOffDelay_m0DDC2B345512A6776CFE50BB84421B9BF948B110 (void);
+extern void PXR_System_PropertySetScreenOffDelay_mF88928620772ECE7EC294F8B72E92362F075CDBC (void);
 // 0x00000270 System.Void Unity.XR.PXR.PXR_System::PropertySetSleepDelay(Unity.XR.PXR.SleepDelayTimeEnum)
-extern void PXR_System_PropertySetSleepDelay_mEE87001CF5A597A279A44C37D5491CD652D76E1B (void);
+extern void PXR_System_PropertySetSleepDelay_m0600158C122D5A0A4C4949EED64E6BB84174D146 (void);
 // 0x00000271 System.Void Unity.XR.PXR.PXR_System::SwitchSystemFunction(Unity.XR.PXR.SystemFunctionSwitchEnum,Unity.XR.PXR.SwitchEnum)
-extern void PXR_System_SwitchSystemFunction_m27E9EAEABE3ED06F656D02670DD8D2440E9DB15F (void);
+extern void PXR_System_SwitchSystemFunction_mF4CD0070AC6B8960CF3664625D7DD3B061DE39AE (void);
 // 0x00000272 System.Void Unity.XR.PXR.PXR_System::SwitchSetUsbConfigurationOption(Unity.XR.PXR.USBConfigModeEnum)
-extern void PXR_System_SwitchSetUsbConfigurationOption_m5BBC0AA009C45879487CCEDC4B75F5ECFB14077B (void);
+extern void PXR_System_SwitchSetUsbConfigurationOption_mEC8055E6A4F27FE267D6FD5E55C4FA679CEABB2B (void);
 // 0x00000273 System.Void Unity.XR.PXR.PXR_System::ScreenOn()
-extern void PXR_System_ScreenOn_m59082E274D85F2BC4D8478FDDB0B50F960553D75 (void);
+extern void PXR_System_ScreenOn_m5D1EB158C0F34355269F196753CED82233FDDB88 (void);
 // 0x00000274 System.Void Unity.XR.PXR.PXR_System::ScreenOff()
-extern void PXR_System_ScreenOff_m684D9BE629C9AE39EFA3FD19C4D2BA6810643422 (void);
+extern void PXR_System_ScreenOff_mC62202FC7914EBC08CB95A02DD58BC73E2CD3133 (void);
 // 0x00000275 System.Void Unity.XR.PXR.PXR_System::AcquireWakeLock()
-extern void PXR_System_AcquireWakeLock_mE6F71CCE59467141E34CD545398D651382FE1959 (void);
+extern void PXR_System_AcquireWakeLock_mF1ECC5E20A8547EE2597783CF5E2C217DCF6846A (void);
 // 0x00000276 System.Void Unity.XR.PXR.PXR_System::ReleaseWakeLock()
-extern void PXR_System_ReleaseWakeLock_m35C158222AE36F844D149B58BEF8F53C7D50DF92 (void);
+extern void PXR_System_ReleaseWakeLock_m9868E68F6CE2EF21CDEEA503F0810F8C3537300C (void);
 // 0x00000277 System.Void Unity.XR.PXR.PXR_System::EnableEnterKey()
-extern void PXR_System_EnableEnterKey_mF55A6338706861467D6F98B3AC4D2024AD06D2D4 (void);
+extern void PXR_System_EnableEnterKey_m6E8F254706BF05D2A0C0BEE324794109D63E0059 (void);
 // 0x00000278 System.Void Unity.XR.PXR.PXR_System::DisableEnterKey()
-extern void PXR_System_DisableEnterKey_m0B49371EE34E213AB250A4E3B4EFDCBC3955D5C5 (void);
+extern void PXR_System_DisableEnterKey_m79B2DDCDDFC7883652BE7BCD4D4C61272AB42BC1 (void);
 // 0x00000279 System.Void Unity.XR.PXR.PXR_System::EnableVolumeKey()
-extern void PXR_System_EnableVolumeKey_mF7F3C8C161E36B7B61519DC0E05269D5E3441758 (void);
+extern void PXR_System_EnableVolumeKey_mFDD39FAD340E280985FD5F16238464EE6963AA14 (void);
 // 0x0000027A System.Void Unity.XR.PXR.PXR_System::DisableVolumeKey()
-extern void PXR_System_DisableVolumeKey_m5C8C890ABC87421556BA2184873C0B4CF4DF34C6 (void);
+extern void PXR_System_DisableVolumeKey_mA2C92F5CFA283B10BF5BF4DAECCB128464D04E9F (void);
 // 0x0000027B System.Void Unity.XR.PXR.PXR_System::EnableBackKey()
-extern void PXR_System_EnableBackKey_m387F3095B2513A7C72FC6AD44DF14BAC3C0A7036 (void);
+extern void PXR_System_EnableBackKey_mC6F8042C45464CD6D2C3FDCEEF15F1915F3BCEEE (void);
 // 0x0000027C System.Void Unity.XR.PXR.PXR_System::DisableBackKey()
-extern void PXR_System_DisableBackKey_m07F36911D5556E9FB41BB5223DD70CE33FEC661E (void);
+extern void PXR_System_DisableBackKey_m10250EFF2C9C923F9031C301D7885EC7F0C603E1 (void);
 // 0x0000027D System.Void Unity.XR.PXR.PXR_System::WriteConfigFileToDataLocal(System.String,System.String,System.Action`1<System.Boolean>)
-extern void PXR_System_WriteConfigFileToDataLocal_mCF7272DCDC3D394FDE3E1B6CAF6FAD96A2023F57 (void);
+extern void PXR_System_WriteConfigFileToDataLocal_mC7A30406A7FF92A19FCFAA88DBFE7D1EFDA0FAE5 (void);
 // 0x0000027E System.Void Unity.XR.PXR.PXR_System::ResetAllKeyToDefault(System.Action`1<System.Boolean>)
-extern void PXR_System_ResetAllKeyToDefault_m52984EEED3E9CE96612014C9E781A81BC4F724B3 (void);
+extern void PXR_System_ResetAllKeyToDefault_mFBDE285FD58FE118E2291A2C223664A473AB38F0 (void);
 // 0x0000027F System.Void Unity.XR.PXR.PXR_System::SetAPPAsHome(Unity.XR.PXR.SwitchEnum,System.String)
-extern void PXR_System_SetAPPAsHome_mBB5335EDDC7B2B56C55270521C52B095A96B7E27 (void);
+extern void PXR_System_SetAPPAsHome_m7821E88E8B6C92A48777BA734EA1ED7253D38A0D (void);
 // 0x00000280 System.Void Unity.XR.PXR.PXR_System::KillAppsByPidOrPackageName(System.Int32[],System.String[])
-extern void PXR_System_KillAppsByPidOrPackageName_m58CF07A5ABB3F712AD1EC1F1AA34A7DBBC389F9F (void);
+extern void PXR_System_KillAppsByPidOrPackageName_m35BFECBBA8120CF2EEFF17B52FCFCC8AE8594DE4 (void);
 // 0x00000281 System.Void Unity.XR.PXR.PXR_System::KillBackgroundAppsWithWhiteList(System.String[])
-extern void PXR_System_KillBackgroundAppsWithWhiteList_mEC6332F6003E85BBB5B34954EEF6EB4440051CEE (void);
+extern void PXR_System_KillBackgroundAppsWithWhiteList_mC2933AA257004B1D200CDD828B59304DF03B00D6 (void);
 // 0x00000282 System.Void Unity.XR.PXR.PXR_System::FreezeScreen(System.Boolean)
-extern void PXR_System_FreezeScreen_m40739488C1163DCD24D468F79A8F42837B797C66 (void);
+extern void PXR_System_FreezeScreen_m60D92DA0830FB1C60F728A88BB3AFB8D5362F3E5 (void);
 // 0x00000283 System.Void Unity.XR.PXR.PXR_System::OpenMiracast()
-extern void PXR_System_OpenMiracast_m627A4DF294E8ABF89CF729EA33A8520FD9FCFEBC (void);
+extern void PXR_System_OpenMiracast_m1F819B42E5E16E854E197E4A6AD3EC28379EDB25 (void);
 // 0x00000284 System.Boolean Unity.XR.PXR.PXR_System::IsMiracastOn()
-extern void PXR_System_IsMiracastOn_mC7EB435676CEEE934F2E8BC8071EBCFEB1EEB667 (void);
+extern void PXR_System_IsMiracastOn_m5DAC9D0A1D1D1F3EF80721929A0BA4DD25B741DC (void);
 // 0x00000285 System.Void Unity.XR.PXR.PXR_System::CloseMiracast()
-extern void PXR_System_CloseMiracast_mB33B300B9536D868352FF1B8BC2A512437FFFEAC (void);
+extern void PXR_System_CloseMiracast_m192922C04BE9A1821A2FBAE4D9A313079A31F183 (void);
 // 0x00000286 System.Void Unity.XR.PXR.PXR_System::StartScan()
-extern void PXR_System_StartScan_mB50E32ED138650A565945BCEB721CCD246C1D3AF (void);
+extern void PXR_System_StartScan_mFC626A97B964E8BE58CA8E523C3AC80ABDB74342 (void);
 // 0x00000287 System.Void Unity.XR.PXR.PXR_System::StopScan()
-extern void PXR_System_StopScan_m8031F8590627B86532C347E46A5C500DE3F9F454 (void);
+extern void PXR_System_StopScan_mCF0E6AC2D97464322A3DB15722BED248C5E86010 (void);
 // 0x00000288 System.Void Unity.XR.PXR.PXR_System::ConnectWifiDisplay(System.String)
-extern void PXR_System_ConnectWifiDisplay_m5AA7D8F959FA4F24353CB21ADA42EFEB82ED7DF1 (void);
+extern void PXR_System_ConnectWifiDisplay_m2B1703D7DA55C7BF8AC6BF71FC7C4187F993A077 (void);
 // 0x00000289 System.Void Unity.XR.PXR.PXR_System::DisConnectWifiDisplay()
-extern void PXR_System_DisConnectWifiDisplay_mFD267E97D1E86D33A8FBF1196F04D793A7428820 (void);
+extern void PXR_System_DisConnectWifiDisplay_m0B18480C55802A19560B695274717829301895DF (void);
 // 0x0000028A System.Void Unity.XR.PXR.PXR_System::ForgetWifiDisplay(System.String)
-extern void PXR_System_ForgetWifiDisplay_m5DFBC489D91C71507B7FE7975B7A7553270760FA (void);
+extern void PXR_System_ForgetWifiDisplay_m29765E08A4FE8E063211D283121B2830BC0B7163 (void);
 // 0x0000028B System.Void Unity.XR.PXR.PXR_System::RenameWifiDisplay(System.String,System.String)
-extern void PXR_System_RenameWifiDisplay_m05D30275612D13E8C729271280D38B2A64CA1CB0 (void);
+extern void PXR_System_RenameWifiDisplay_mD0307AC488546C88B55A0F886472B2A5334C0722 (void);
 // 0x0000028C System.Void Unity.XR.PXR.PXR_System::SetWDModelsCallback()
-extern void PXR_System_SetWDModelsCallback_m26118042337277BFCC6ED621EE4B2C83E3D9B82C (void);
+extern void PXR_System_SetWDModelsCallback_mB84A8DD237E8BA0488C171AE02F33F274C07CB9E (void);
 // 0x0000028D System.Void Unity.XR.PXR.PXR_System::SetWDJsonCallback()
-extern void PXR_System_SetWDJsonCallback_m7F4EBEA36EC425C199AF68E97E0A396F17CDA44F (void);
+extern void PXR_System_SetWDJsonCallback_m2E7C04686F063BCD217F9DD92EAA7CBEA47F367D (void);
 // 0x0000028E System.Void Unity.XR.PXR.PXR_System::UpdateWifiDisplays(System.Action`1<System.String>)
-extern void PXR_System_UpdateWifiDisplays_mBED3B686B092366ED04DCD5B714559F93BE283D4 (void);
+extern void PXR_System_UpdateWifiDisplays_m7DF48257098DFDEA0389983E761B2B175FBD5A95 (void);
 // 0x0000028F System.String Unity.XR.PXR.PXR_System::GetConnectedWD()
-extern void PXR_System_GetConnectedWD_m544A5528E98D4F5A653AC5CBF16EAD4EE75DA0D0 (void);
+extern void PXR_System_GetConnectedWD_m6349C16781FBDD3AD04D9D44319B3BB5BE3D1C1E (void);
 // 0x00000290 System.Void Unity.XR.PXR.PXR_System::SwitchLargeSpaceScene(System.Boolean,System.Action`1<System.Boolean>)
-extern void PXR_System_SwitchLargeSpaceScene_mB3484E8B56EDE6235CE44A5FC9D93A94369059BC (void);
+extern void PXR_System_SwitchLargeSpaceScene_m111425E551D7F0CF5872C215D4D6C25E33E86990 (void);
 // 0x00000291 System.Void Unity.XR.PXR.PXR_System::GetSwitchLargeSpaceStatus(System.Action`1<System.String>)
-extern void PXR_System_GetSwitchLargeSpaceStatus_mDDA8E3B2A0902D5F4D03CEEFDF293A4C63E2A7FB (void);
+extern void PXR_System_GetSwitchLargeSpaceStatus_m7D51EBF2443E5AF8BA6C6DE9BA435F3849DD129A (void);
 // 0x00000292 System.Boolean Unity.XR.PXR.PXR_System::SaveLargeSpaceMaps()
-extern void PXR_System_SaveLargeSpaceMaps_m54EAF47E460ABE04DC67CEB21BB7F81E51F552A2 (void);
+extern void PXR_System_SaveLargeSpaceMaps_mAFDC05EBDC72EA35536865FBB77654DA89499E23 (void);
 // 0x00000293 System.Void Unity.XR.PXR.PXR_System::ExportMaps(System.Action`1<System.Boolean>)
-extern void PXR_System_ExportMaps_m7AE32D4ACD62126C196DAED6699B85736121C12B (void);
+extern void PXR_System_ExportMaps_m3ECACA8304C741B2E729C5043FEA3363694AB7E0 (void);
 // 0x00000294 System.Void Unity.XR.PXR.PXR_System::ImportMaps(System.Action`1<System.Boolean>)
-extern void PXR_System_ImportMaps_m5A12C4D4428A35838ACDD6457CB38CE256B84FBD (void);
+extern void PXR_System_ImportMaps_m76CA6DAF45C743813E24FAFA5AF70587543EA6FD (void);
 // 0x00000295 System.Int32 Unity.XR.PXR.PXR_System::GetSensorStatus()
-extern void PXR_System_GetSensorStatus_mB23B068CC516F471F054EF063E9346711F3C2A6C (void);
+extern void PXR_System_GetSensorStatus_m2A5EF48C310D471D36AB5E5CBC52238A38461615 (void);
 // 0x00000296 System.Void Unity.XR.PXR.PXR_System::SetSystemDisplayFrequency(System.Single)
-extern void PXR_System_SetSystemDisplayFrequency_mBAA1AE7FCAB65D972C9C0E9C1B5A716B54D5FDA7 (void);
+extern void PXR_System_SetSystemDisplayFrequency_m6CF5C4D709241A26AB5DFE2E962E11FD31BBE575 (void);
 // 0x00000297 System.Single Unity.XR.PXR.PXR_System::GetSystemDisplayFrequency()
-extern void PXR_System_GetSystemDisplayFrequency_m5E69F9CAF5965088471E40D2D5CC969E693603EF (void);
+extern void PXR_System_GetSystemDisplayFrequency_m7BD0DE173283485267B0373849E24A999C26B3C4 (void);
 // 0x00000298 System.Int32 Unity.XR.PXR.PXR_System::GetPredictedMainSensorStateNew(Unity.XR.PXR.PxrSensorState2&,System.Int32&)
-extern void PXR_System_GetPredictedMainSensorStateNew_m1242DDCC44FF36E75A60BB5F1A649861C3409A7F (void);
+extern void PXR_System_GetPredictedMainSensorStateNew_mDC1015F0F8DB3D5F87E5D8D77BC6330693561D1D (void);
 // 0x00000299 System.Int32 Unity.XR.PXR.PXR_System::ContentProtect(System.Int32)
-extern void PXR_System_ContentProtect_m88AA4BFF18535A260B60063E4AE7E8CFD31AF1D3 (void);
+extern void PXR_System_ContentProtect_mF250519692EAB723774F0C6F791D74AA27F7A0C0 (void);
 // 0x0000029A System.Single[] Unity.XR.PXR.PXR_System::GetCpuUsages()
-extern void PXR_System_GetCpuUsages_mEFADAC56B90837CE15C48EE252EDF4E2B9C022B1 (void);
+extern void PXR_System_GetCpuUsages_mCF0D0F9D4BABC9BB2F00BA6468E03E2E608DF420 (void);
 // 0x0000029B System.Single[] Unity.XR.PXR.PXR_System::GetDeviceTemperatures(System.Int32,System.Int32)
-extern void PXR_System_GetDeviceTemperatures_m82201BDB7C8E2477542ED9D19DDB31D9B5ECB6FB (void);
+extern void PXR_System_GetDeviceTemperatures_m135849AB44FAF02C45C8F7B3EC45110691E876AF (void);
 // 0x0000029C System.Void Unity.XR.PXR.PXR_System::Capture()
-extern void PXR_System_Capture_m4D31BD694FD0CF51DD496B415B04C710163DE5E5 (void);
+extern void PXR_System_Capture_m1DDD3CF4C7C2108D5B0D82A6747CD48185E44C25 (void);
 // 0x0000029D System.Void Unity.XR.PXR.PXR_System::Record()
-extern void PXR_System_Record_m0149FE6BEBCAB512A6D315A0B168BC2D885628D0 (void);
+extern void PXR_System_Record_mD60BA2ACC9E883E55342F4721278F07996ED2E21 (void);
 // 0x0000029E System.Void Unity.XR.PXR.PXR_System::ControlSetAutoConnectWIFIWithErrorCodeCallback(System.String,System.String,System.Int32,System.Action`1<System.Int32>)
-extern void PXR_System_ControlSetAutoConnectWIFIWithErrorCodeCallback_mC3F9EEBC4A388C1AEF08AC837F8A69D2CC783AE6 (void);
+extern void PXR_System_ControlSetAutoConnectWIFIWithErrorCodeCallback_m167625A3EF5D4EF7A722A436AB05410AF9A240BE (void);
 // 0x0000029F System.Void Unity.XR.PXR.PXR_System::AppKeepAlive(System.String,System.Boolean,System.Int32)
-extern void PXR_System_AppKeepAlive_mE0B0E1161B4849D4C98CD19051B0D056413BECC1 (void);
+extern void PXR_System_AppKeepAlive_mEF4659A009B490CACAA365BAA4C59F2D6C437B31 (void);
 // 0x000002A0 System.Void Unity.XR.PXR.PXR_System::EnableFaceTracking(System.Boolean)
-extern void PXR_System_EnableFaceTracking_mC590F7111B4C1A8237EB9C5CA1DF44C3AF8DC7E8 (void);
+extern void PXR_System_EnableFaceTracking_m3BEABD07D03A4AB8B3619D91946B68B92BEEE3CE (void);
 // 0x000002A1 System.Void Unity.XR.PXR.PXR_System::EnableLipSync(System.Boolean)
-extern void PXR_System_EnableLipSync_m0F69DE341EDB76767BF21BEF1AD64431AD31E45C (void);
+extern void PXR_System_EnableLipSync_m447BE9336013F4AAB60ABAEBA52392C67E9E53EF (void);
 // 0x000002A2 System.Void Unity.XR.PXR.PXR_System::GetFaceTrackingData(System.Int64,Unity.XR.PXR.GetDataType,Unity.XR.PXR.PxrFaceTrackingInfo&)
-extern void PXR_System_GetFaceTrackingData_mAB5C242E5E8B7D4F6B669B9381F4ED0C930293AD (void);
+extern void PXR_System_GetFaceTrackingData_m748E568C2A268D9322E7EE4A63C3D84182B3A18C (void);
 // 0x000002A3 System.Void Unity.XR.PXR.PXR_System::TimingStartup(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Boolean)
-extern void PXR_System_TimingStartup_m3037BDB2B672DA8ABCFD8A306FF467F04BB1A0F9 (void);
+extern void PXR_System_TimingStartup_mF0FF1A61F5041C4E59D15B31BE406E66917B3839 (void);
 // 0x000002A4 System.Void Unity.XR.PXR.PXR_System::TimingShutdown(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Boolean)
-extern void PXR_System_TimingShutdown_m0330B7A9AD5496A2B088CE983EEBF4E1D778B147 (void);
+extern void PXR_System_TimingShutdown_mADF3CD9EFA2052243F2E261627225A9474618612 (void);
 // 0x000002A5 System.Void Unity.XR.PXR.PXR_System::StartVrSettingsItem(Unity.XR.PXR.StartVRSettingsEnum,System.Boolean,System.Int32)
-extern void PXR_System_StartVrSettingsItem_mCB60D05760C3D46E95FABC87E559E26CFF0FD568 (void);
+extern void PXR_System_StartVrSettingsItem_mE11BF15E389D58822088337E76D8BD5F3B0CEA9A (void);
 // 0x000002A6 System.Void Unity.XR.PXR.PXR_System::SwitchVolumeToHomeAndEnter(Unity.XR.PXR.SwitchEnum,System.Int32)
-extern void PXR_System_SwitchVolumeToHomeAndEnter_mDF467DDBBC6E829B62320C58017F4152F4F487FF (void);
+extern void PXR_System_SwitchVolumeToHomeAndEnter_m94FDDA30E904D0AA5CEC7AD42EE2A909043C798E (void);
 // 0x000002A7 Unity.XR.PXR.SwitchEnum Unity.XR.PXR.PXR_System::IsVolumeChangeToHomeAndEnter()
-extern void PXR_System_IsVolumeChangeToHomeAndEnter_m4A210157AFF77BF7E99442CB8C8F1543BFB34A26 (void);
+extern void PXR_System_IsVolumeChangeToHomeAndEnter_m327FFC6A59A75DBE2307103A50E498F062075642 (void);
 // 0x000002A8 System.Int32 Unity.XR.PXR.PXR_System::InstallOTAPackage(System.String)
-extern void PXR_System_InstallOTAPackage_m721374CF9E7E1814827EE48BCA7B0A579CFAA57C (void);
+extern void PXR_System_InstallOTAPackage_mA7E97F04AF884B80D7F8A2A19E29B44979699E2B (void);
 // 0x000002A9 System.String Unity.XR.PXR.PXR_System::GetAutoConnectWiFiConfig()
-extern void PXR_System_GetAutoConnectWiFiConfig_m4D2A30C23F66E32F4214D19313B48A4A822FBCCC (void);
+extern void PXR_System_GetAutoConnectWiFiConfig_m8810F7F9AAC573876CECA18634F41AAA49B5DC64 (void);
 // 0x000002AA System.String Unity.XR.PXR.PXR_System::GetTimingStartupStatus()
-extern void PXR_System_GetTimingStartupStatus_m99CAFA3B08A11FD3E7AC204E6C4069DCA2E9A036 (void);
+extern void PXR_System_GetTimingStartupStatus_mE9545EEA5ED8EB22B0FF9BB73C0FF5FCA3BE25E4 (void);
 // 0x000002AB System.String Unity.XR.PXR.PXR_System::GetTimingShutdownStatus()
-extern void PXR_System_GetTimingShutdownStatus_mFE7B6FAB04C036FBCA556D134A0DFC5CC2B87A69 (void);
+extern void PXR_System_GetTimingShutdownStatus_m884ADFE330D65738321E0A6DDD10042AB2229DF6 (void);
 // 0x000002AC System.Int32 Unity.XR.PXR.PXR_System::GetControllerKeyState(Unity.XR.PXR.ControllerKeyEnum)
-extern void PXR_System_GetControllerKeyState_m7C41E02E39877021CB99C2565DD2100C8302BD56 (void);
+extern void PXR_System_GetControllerKeyState_m70C885775F7BA16233D7A71D80A8D7F612BF3E91 (void);
 // 0x000002AD Unity.XR.PXR.SwitchEnum Unity.XR.PXR.PXR_System::GetPowerOffWithUSBCable()
-extern void PXR_System_GetPowerOffWithUSBCable_mAD6BFCE11F57AD01A4BB5DF112CDD7A46A23AE22 (void);
+extern void PXR_System_GetPowerOffWithUSBCable_m475BE2DE0DD2442DB379C08DC2FFF6540C6AF633 (void);
 // 0x000002AE Unity.XR.PXR.ScreenOffDelayTimeEnum Unity.XR.PXR.PXR_System::GetScreenOffDelay()
-extern void PXR_System_GetScreenOffDelay_mBF186854B52606F0844362FCCAD4D43351B4F74C (void);
+extern void PXR_System_GetScreenOffDelay_m6F8B315D247859DCEA28B38F7297BDE44B0DC223 (void);
 // 0x000002AF Unity.XR.PXR.SleepDelayTimeEnum Unity.XR.PXR.PXR_System::GetSleepDelay()
-extern void PXR_System_GetSleepDelay_m3842DBAD041950219CD572A1A2782633D2F792AA (void);
+extern void PXR_System_GetSleepDelay_m72D729EE4CDBB516B2D43E50E1363DFE4955235A (void);
 // 0x000002B0 System.String Unity.XR.PXR.PXR_System::GetPowerKeyStatus()
-extern void PXR_System_GetPowerKeyStatus_mF65A74855B15E9E92DA3A3AE590CDE113698A3DC (void);
+extern void PXR_System_GetPowerKeyStatus_m239180D50CD24839930EE9CE9F0F776803B2D3B5 (void);
 // 0x000002B1 System.Int32 Unity.XR.PXR.PXR_System::GetEnterKeyStatus()
-extern void PXR_System_GetEnterKeyStatus_m88B91FE165A4B3511898497D32655F217FF029C5 (void);
+extern void PXR_System_GetEnterKeyStatus_mD8C72AD98FD37D51C36760D1E315542AF698EAD6 (void);
 // 0x000002B2 System.Int32 Unity.XR.PXR.PXR_System::GetVolumeKeyStatus()
-extern void PXR_System_GetVolumeKeyStatus_m4BD6CA6605B978412EE3BE009DF15B533DB6EC01 (void);
+extern void PXR_System_GetVolumeKeyStatus_mA4B374C22065A4137ECF58C10262FE4901DC9203 (void);
 // 0x000002B3 System.Int32 Unity.XR.PXR.PXR_System::GetBackKeyStatus()
-extern void PXR_System_GetBackKeyStatus_m0E6E36113C8B5F6BAB26797FCF189B8F000FCDF3 (void);
+extern void PXR_System_GetBackKeyStatus_m1BE113E68B096BD222AB4C66E4AA45B5C2BDB53F (void);
 // 0x000002B4 System.String Unity.XR.PXR.PXR_System::GetHomKeyStatus(Unity.XR.PXR.HomeEventEnum)
-extern void PXR_System_GetHomKeyStatus_mC63BAE1F60E34D9F0CF544A3ED36DD197D06BDB7 (void);
+extern void PXR_System_GetHomKeyStatus_m769D51218C68E2BB8B21345549430E1F7BA58AE9 (void);
 // 0x000002B5 System.Void Unity.XR.PXR.PXR_System::GetSwitchSystemFunctionStatus(Unity.XR.PXR.SystemFunctionSwitchEnum,System.Action`1<System.Int32>)
-extern void PXR_System_GetSwitchSystemFunctionStatus_mB6199D0E2C1027B0ADC8079BC70035E52A660BB0 (void);
+extern void PXR_System_GetSwitchSystemFunctionStatus_mFBBCEA4942E90731922A3DAE92FA4C5CD00BD294 (void);
 // 0x000002B6 System.String Unity.XR.PXR.PXR_System::GetUsbConfigurationOption()
-extern void PXR_System_GetUsbConfigurationOption_m085F919C93CBE6A7F2650F9AEF4FC6048D78B610 (void);
+extern void PXR_System_GetUsbConfigurationOption_mC1186A2CEEA5CAF133537B84EE4BA50E1C7CE521 (void);
 // 0x000002B7 System.String Unity.XR.PXR.PXR_System::GetCurrentLauncher()
-extern void PXR_System_GetCurrentLauncher_m98C42B7BB238F6CE462074BECE4363CAF8C2EC90 (void);
+extern void PXR_System_GetCurrentLauncher_m712F595795ACFFCAF4D360AF87C372E7F6661073 (void);
 // 0x000002B8 System.Int32 Unity.XR.PXR.PXR_System::PICOCastInit(System.Action`1<System.Int32>)
-extern void PXR_System_PICOCastInit_mFF2342AFE75710FFCD90C58368630BE808AF5C23 (void);
+extern void PXR_System_PICOCastInit_m655FF8A77AAF2C370A01F171073D591DD9CADF6E (void);
 // 0x000002B9 System.Int32 Unity.XR.PXR.PXR_System::PICOCastSetShowAuthorization(System.Int32)
-extern void PXR_System_PICOCastSetShowAuthorization_mEF41F3A3728CD31E2B564DBC63A21AC79CF6D684 (void);
+extern void PXR_System_PICOCastSetShowAuthorization_mD9BA0149B561021D7F061195FBB0C91A5E6DC9BE (void);
 // 0x000002BA System.Int32 Unity.XR.PXR.PXR_System::PICOCastGetShowAuthorization()
-extern void PXR_System_PICOCastGetShowAuthorization_m6CF4DB7BEED7A9D775F9BC8B1196CE1F2F228BF4 (void);
+extern void PXR_System_PICOCastGetShowAuthorization_m6C3DE9E7158F3308D0AE8A948AA5FD4C1A4434A7 (void);
 // 0x000002BB System.String Unity.XR.PXR.PXR_System::PICOCastGetUrl(Unity.XR.PXR.PICOCastUrlTypeEnum)
-extern void PXR_System_PICOCastGetUrl_mC68585ED236844D86AD78D024595AC2CF1578901 (void);
+extern void PXR_System_PICOCastGetUrl_m3B0DF9B03CE533CF9228A50D183ECECDDCFFAE02 (void);
 // 0x000002BC System.Int32 Unity.XR.PXR.PXR_System::PICOCastStopCast()
-extern void PXR_System_PICOCastStopCast_mBD4DBF28EAF24AD1589C1AA652330F1D5BD569B0 (void);
+extern void PXR_System_PICOCastStopCast_mC2DD4A934E06C7C7E3F99A21315B5B5E0DCB242F (void);
 // 0x000002BD System.Int32 Unity.XR.PXR.PXR_System::PICOCastSetOption(Unity.XR.PXR.PICOCastOptionOrStatusEnum,Unity.XR.PXR.PICOCastOptionValueEnum)
-extern void PXR_System_PICOCastSetOption_m2F34E29F572833928E4B32A77E2C8862608A6C7D (void);
+extern void PXR_System_PICOCastSetOption_mA26B0524FFFDC58C75906835BA1E21947979644D (void);
 // 0x000002BE Unity.XR.PXR.PICOCastOptionValueEnum Unity.XR.PXR.PXR_System::PICOCastGetOptionOrStatus(Unity.XR.PXR.PICOCastOptionOrStatusEnum)
-extern void PXR_System_PICOCastGetOptionOrStatus_m32ADAE51520A4D5C4518612CA507DB1EE4A1BDF1 (void);
+extern void PXR_System_PICOCastGetOptionOrStatus_m9B18D209B8C3901C928EA0095825332EB3C782AD (void);
 // 0x000002BF System.Void Unity.XR.PXR.PXR_System::SetControllerPairTime(Unity.XR.PXR.ControllerPairTimeEnum,System.Action`1<System.Int32>)
-extern void PXR_System_SetControllerPairTime_mC1A2B556F5524D83C5F00557970B8D9BC61D6350 (void);
+extern void PXR_System_SetControllerPairTime_m20555A807C2455850552660CBF3E86C907A7C16B (void);
 // 0x000002C0 System.Void Unity.XR.PXR.PXR_System::GetControllerPairTime(System.Action`1<System.Int32>)
-extern void PXR_System_GetControllerPairTime_m3369E970A953D912033541A8AF630973892D98A4 (void);
+extern void PXR_System_GetControllerPairTime_m5E9D4FD1166CE5E3990F3163D6F779ED2E068AF2 (void);
 // 0x000002C1 System.Int32 Unity.XR.PXR.PXR_System::SetSystemLanguage(System.String)
-extern void PXR_System_SetSystemLanguage_m921B0C0362F3E336A80B254A7A81FBE6F336EDE0 (void);
+extern void PXR_System_SetSystemLanguage_m91D9E105DB84E6B66CB7C1C5C9F38C301EC72775 (void);
 // 0x000002C2 System.String Unity.XR.PXR.PXR_System::GetSystemLanguage()
-extern void PXR_System_GetSystemLanguage_m4A88FEBE3F0B564A552EEDD7A1EC06E0DAFD3C10 (void);
+extern void PXR_System_GetSystemLanguage_m59338E88525B4786A00E76B9EC591A554CE3D044 (void);
 // 0x000002C3 System.Int32 Unity.XR.PXR.PXR_System::ConfigWifi(System.String,System.String)
-extern void PXR_System_ConfigWifi_m18BCFA9D09D710399C7097C8DE43A0ECD8176DD2 (void);
+extern void PXR_System_ConfigWifi_mAB86DA51B436F1C57512312102CC6382862FB94F (void);
 // 0x000002C4 System.String[] Unity.XR.PXR.PXR_System::GetConfiguredWifi()
-extern void PXR_System_GetConfiguredWifi_m24A9D9E80323B44B78E0A4E8C1BE211AFF319477 (void);
+extern void PXR_System_GetConfiguredWifi_m487AC5C165290E1D0DDC0E0457E7528B628C65CE (void);
 // 0x000002C5 System.Int32 Unity.XR.PXR.PXR_System::SetSystemCountryCode(System.String,System.Action`1<System.Int32>)
-extern void PXR_System_SetSystemCountryCode_mB76BEFBD28025B9B01B6AAFDDB00A760DF4B4E2C (void);
+extern void PXR_System_SetSystemCountryCode_m37A676A1F24DC70BB383E20F1E567D4EDCF78F1B (void);
 // 0x000002C6 System.String Unity.XR.PXR.PXR_System::GetSystemCountryCode()
-extern void PXR_System_GetSystemCountryCode_m835C7DB4A1A69AF23A535B188B27787F9E7EBB16 (void);
+extern void PXR_System_GetSystemCountryCode_mE08398E81A8EB627C41B547AF266FE79F6893B9D (void);
 // 0x000002C7 System.Int32 Unity.XR.PXR.PXR_System::SetSkipInitSettingPage(System.Int32)
-extern void PXR_System_SetSkipInitSettingPage_m234F14B8A1C7770E303FDFF7C729594451D9CE5E (void);
+extern void PXR_System_SetSkipInitSettingPage_mB2E36469C5DFB162ED6A380F0848456F57BDB6D2 (void);
 // 0x000002C8 System.Int32 Unity.XR.PXR.PXR_System::GetSkipInitSettingPage()
-extern void PXR_System_GetSkipInitSettingPage_m93A820F552D8C57ADF2DE0C8BE6E9162F6B68F14 (void);
+extern void PXR_System_GetSkipInitSettingPage_mFA028E3E6AE798CBB2DDA4A748D8C3BB07FF4138 (void);
 // 0x000002C9 System.Int32 Unity.XR.PXR.PXR_System::IsInitSettingComplete()
-extern void PXR_System_IsInitSettingComplete_mBBE2301F5EC669442D55726B0C809F026C0BBB43 (void);
+extern void PXR_System_IsInitSettingComplete_mF57DC8FA83772B5190BBADEBF313499CD7332038 (void);
 // 0x000002CA System.Int32 Unity.XR.PXR.PXR_System::StartActivity(System.String,System.String,System.String,System.String,System.String[],System.Int32[])
-extern void PXR_System_StartActivity_m44A5570063076B3ECC52A1F89098C48ADD691B7C (void);
+extern void PXR_System_StartActivity_m8A7883C989C5DEF907C87681C3C47BF9BE227930 (void);
 // 0x000002CB System.Int32 Unity.XR.PXR.PXR_System::SetPerformanceLevels(Unity.XR.PXR.PxrPerfSettings,Unity.XR.PXR.PxrSettingsLevel)
-extern void PXR_System_SetPerformanceLevels_mD47107206F6F25D30CF88BDC3E91DFE03CF0AB70 (void);
+extern void PXR_System_SetPerformanceLevels_m18F7EDE36B8030C0E700E3E8CB20D6127771D56E (void);
 // 0x000002CC Unity.XR.PXR.PxrSettingsLevel Unity.XR.PXR.PXR_System::GetPerformanceLevels(Unity.XR.PXR.PxrPerfSettings)
-extern void PXR_System_GetPerformanceLevels_mA7A77D4BDD381F25078C07D388B554BEECAD6040 (void);
+extern void PXR_System_GetPerformanceLevels_m32461622AE5EA82AE487A01B6437373EE477C5B4 (void);
 // 0x000002CD System.Int32 Unity.XR.PXR.PXR_System::SetEyeFOV(Unity.XR.PXR.EyeType,System.Single,System.Single,System.Single,System.Single)
-extern void PXR_System_SetEyeFOV_m91219AE78F70C1BA5429D2159EEEFDF2B0EACF4A (void);
+extern void PXR_System_SetEyeFOV_m026B90530864A828E49D61D999B0BDB94CDA0647 (void);
 // 0x000002CE System.Void Unity.XR.PXR.PXR_System::.ctor()
 extern void PXR_System__ctor_m5BB2C4B30A7F07FA438EA6CFDE948C64E61519E3 (void);
 // 0x000002CF System.Void Unity.XR.PXR.PXR_HandPoseConfig::.ctor()
@@ -1430,9 +1430,9 @@ extern void RangeConfigs__ctor_mF5828AD696E2B5176BF1EB74E98460782EC10791 (void);
 // 0x000002D6 System.Void Unity.XR.PXR.DisplayOnly::.ctor()
 extern void DisplayOnly__ctor_m63D2B3B912D4E9B4DFCBA1619F625E5087CCA27A (void);
 // 0x000002D7 System.Void Unity.XR.PXR.InputLayoutLoader::.cctor()
-extern void InputLayoutLoader__cctor_mE38A9646B504861E263CE70F467A5124E53B4564 (void);
+extern void InputLayoutLoader__cctor_m17A76AED82967B6C47FF31C28239313BCA28A176 (void);
 // 0x000002D8 System.Void Unity.XR.PXR.InputLayoutLoader::RegisterInputLayouts()
-extern void InputLayoutLoader_RegisterInputLayouts_mB5BA679B6BA79A9F48D505ABB8409E7D957A26ED (void);
+extern void InputLayoutLoader_RegisterInputLayouts_m60DBD407E79C2EEBE475923A36481FE3D7662778 (void);
 // 0x000002D9 UnityEngine.XR.XRDisplaySubsystem Unity.XR.PXR.PXR_Loader::get_displaySubsystem()
 extern void PXR_Loader_get_displaySubsystem_m30A10BADE8F305C3C8F9BE87EF844EC7206CF9BF (void);
 // 0x000002DA UnityEngine.XR.XRInputSubsystem Unity.XR.PXR.PXR_Loader::get_inputSubsystem()
@@ -1446,19 +1446,19 @@ extern void PXR_Loader_Stop_m93BB7CD2C5DB39A473346662947C28FAE4189784 (void);
 // 0x000002DE System.Boolean Unity.XR.PXR.PXR_Loader::Deinitialize()
 extern void PXR_Loader_Deinitialize_m90602C4FBA15C467524EDE943A93E521781B9125 (void);
 // 0x000002DF UnityEngine.Quaternion Unity.XR.PXR.PXR_Loader::ConvertRotationWith2Vector(UnityEngine.Vector3,UnityEngine.Vector3)
-extern void PXR_Loader_ConvertRotationWith2Vector_mDAD87DDA7800E798BB209776C88E47FC09186F0B (void);
+extern void PXR_Loader_ConvertRotationWith2Vector_m89DDECE6D83A5FE3FB2E1272960C831FBE6405C0 (void);
 // 0x000002E0 System.Void Unity.XR.PXR.PXR_Loader::InputDeviceChangedFunction(System.Int32)
-extern void PXR_Loader_InputDeviceChangedFunction_m88319157AC43A8643A3DD83DD83F6337E191767F (void);
+extern void PXR_Loader_InputDeviceChangedFunction_m70B414F5C2AE505E7EF23A5B3096630154AAF2A4 (void);
 // 0x000002E1 System.Void Unity.XR.PXR.PXR_Loader::SeethroughStateChangedFunction(System.Int32)
-extern void PXR_Loader_SeethroughStateChangedFunction_m6105E68F3C584031EE244ACA4796D120E8C4AD56 (void);
+extern void PXR_Loader_SeethroughStateChangedFunction_mF36C7F546AFAA36E7B80D9F34EBDF7142F06E6F1 (void);
 // 0x000002E2 Unity.XR.PXR.PXR_Settings Unity.XR.PXR.PXR_Loader::GetSettings()
 extern void PXR_Loader_GetSettings_mB208CD2C59023A82D612B0FD15D8683D7669970C (void);
 // 0x000002E3 System.Void Unity.XR.PXR.PXR_Loader::RuntimeLoadPicoPlugin()
-extern void PXR_Loader_RuntimeLoadPicoPlugin_m03EDC94E7BEDE962C44A7FD4FB477F144DD770A7 (void);
+extern void PXR_Loader_RuntimeLoadPicoPlugin_mE5769184CD4ADEB2953D803D7EE250EA2A47D3E9 (void);
 // 0x000002E4 System.Void Unity.XR.PXR.PXR_Loader::.ctor()
 extern void PXR_Loader__ctor_m5C29C6B1F3CBB9143B263F4009B60DEA60DE161F (void);
 // 0x000002E5 System.Void Unity.XR.PXR.PXR_Loader::.cctor()
-extern void PXR_Loader__cctor_m960DE941D1975583433F47ACD136CA61F8E8467B (void);
+extern void PXR_Loader__cctor_m454E3340B33B84C5E8E17935F8B32682E38DB0A1 (void);
 // 0x000002E6 System.Void Unity.XR.PXR.PXR_Loader/ConvertRotationWith2VectorDelegate::.ctor(System.Object,System.IntPtr)
 extern void ConvertRotationWith2VectorDelegate__ctor_mB87DF2D7FAA5E4865F32AF5D8BD1CA11E2AE25C6 (void);
 // 0x000002E7 UnityEngine.Quaternion Unity.XR.PXR.PXR_Loader/ConvertRotationWith2VectorDelegate::Invoke(UnityEngine.Vector3,UnityEngine.Vector3)
@@ -1468,11 +1468,11 @@ extern void ConvertRotationWith2VectorDelegate_BeginInvoke_m10D8C2D458C93CB44AE5
 // 0x000002E9 UnityEngine.Quaternion Unity.XR.PXR.PXR_Loader/ConvertRotationWith2VectorDelegate::EndInvoke(System.IAsyncResult)
 extern void ConvertRotationWith2VectorDelegate_EndInvoke_mC5F3D303A33B1D4581E86EDCB7B79D7B4CD5A53B (void);
 // 0x000002EA Unity.XR.PXR.PXR_Manager Unity.XR.PXR.PXR_Manager::get_Instance()
-extern void PXR_Manager_get_Instance_mE41C1A44EE33D5CBD7DE5631B350844F6117FF93 (void);
+extern void PXR_Manager_get_Instance_m345BDCB28E1C262BAE75B6797B8D1342BDD940E9 (void);
 // 0x000002EB System.Void Unity.XR.PXR.PXR_Manager::add_EntitlementCheckResultEvent(Unity.XR.PXR.PXR_Manager/EntitlementCheckResult)
-extern void PXR_Manager_add_EntitlementCheckResultEvent_mC64065A1A5814BD277E03BE82CE414157923197F (void);
+extern void PXR_Manager_add_EntitlementCheckResultEvent_m34A64560E1A0B32FE07EFCE4EBBCCDC1A1F51D10 (void);
 // 0x000002EC System.Void Unity.XR.PXR.PXR_Manager::remove_EntitlementCheckResultEvent(Unity.XR.PXR.PXR_Manager/EntitlementCheckResult)
-extern void PXR_Manager_remove_EntitlementCheckResultEvent_m2C9653B4D453BC3C4EFC4953FC94164212ADF0D2 (void);
+extern void PXR_Manager_remove_EntitlementCheckResultEvent_mE539692E84CD5896D7591F928A2D9581B8238182 (void);
 // 0x000002ED System.Void Unity.XR.PXR.PXR_Manager::Awake()
 extern void PXR_Manager_Awake_m22706D0B1B9D0989B7C817FE3BC1394B47A70DC0 (void);
 // 0x000002EE System.Void Unity.XR.PXR.PXR_Manager::OnApplicationPause(System.Boolean)
@@ -1530,7 +1530,7 @@ extern void PXR_Manager_UPxr_Calibration_m7C70F5B179E93181DD7F7D43DCD3CF21C7E5AD
 // 0x00000308 System.Void Unity.XR.PXR.PXR_Manager::.ctor()
 extern void PXR_Manager__ctor_mE906500FB8F9F3CB8853FFC827F8E8405F8F727E (void);
 // 0x00000309 System.Void Unity.XR.PXR.PXR_Manager::.cctor()
-extern void PXR_Manager__cctor_mDCADE1ABC6AA36D59BCDF3F91AD86F4FECC88ECC (void);
+extern void PXR_Manager__cctor_mE82734A5511AF62B4B3B4185594451B8B111E826 (void);
 // 0x0000030A System.Void Unity.XR.PXR.PXR_Manager/EntitlementCheckResult::.ctor(System.Object,System.IntPtr)
 extern void EntitlementCheckResult__ctor_m0E5C5DD9998AC7F292BAD7118FDABAA8AFF29225 (void);
 // 0x0000030B System.Void Unity.XR.PXR.PXR_Manager/EntitlementCheckResult::Invoke(System.Int32)
@@ -1568,821 +1568,821 @@ extern void PXR_OverlayManager_OnPostRenderCallBack_mF1BD29CA765472F66B255447896
 // 0x0000031B System.Void Unity.XR.PXR.PXR_OverlayManager::.ctor()
 extern void PXR_OverlayManager__ctor_m3F54032AA04BCFC1A747D4DDDBF2DEC7D18EC45D (void);
 // 0x0000031C Unity.XR.PXR.PXR_PlatformSetting Unity.XR.PXR.PXR_PlatformSetting::get_Instance()
-extern void PXR_PlatformSetting_get_Instance_m3A82FB3B891E42DBF231FBA085B3F3C85D483E96 (void);
+extern void PXR_PlatformSetting_get_Instance_m47E930852ACBABB7718B316669DCD095118377E8 (void);
 // 0x0000031D System.Void Unity.XR.PXR.PXR_PlatformSetting::set_Instance(Unity.XR.PXR.PXR_PlatformSetting)
-extern void PXR_PlatformSetting_set_Instance_mDEEBDEF22F03C50A3252EAB5F83BE485128543A9 (void);
+extern void PXR_PlatformSetting_set_Instance_mF13D6B1CEE95136A89447ABED600F64308415E9D (void);
 // 0x0000031E System.Void Unity.XR.PXR.PXR_PlatformSetting::.ctor()
 extern void PXR_PlatformSetting__ctor_mA366B947DC752299716F191E7F5B8C2A1CB1A350 (void);
 // 0x0000031F System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_CameraStart()
-extern void PXR_Plugin_Pxr_CameraStart_m3D2201F160F4B9EAFA21791F4E278618808BE163 (void);
+extern void PXR_Plugin_Pxr_CameraStart_mCB3F30DB75A22991099B8FC3151696D7F3ECF264 (void);
 // 0x00000320 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_CameraStop()
-extern void PXR_Plugin_Pxr_CameraStop_mB6A08C1704AEF2E06FDCD341CDAD398F73615F9C (void);
+extern void PXR_Plugin_Pxr_CameraStop_m89791C94BD8957E4B15BC96D0774FF4454C46674 (void);
 // 0x00000321 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_CameraDestroy()
-extern void PXR_Plugin_Pxr_CameraDestroy_mBE352EAB44CD225C726315F4102DC02B4440264D (void);
+extern void PXR_Plugin_Pxr_CameraDestroy_m3AA78DE01EFCE2E23021C643C70ADBEEC4AD4B65 (void);
 // 0x00000322 System.IntPtr Unity.XR.PXR.PXR_Plugin::Pxr_CameraGetRenderEventFunc()
-extern void PXR_Plugin_Pxr_CameraGetRenderEventFunc_m8CDC970B6DA95AA2788E0F2526408B723F2D9353 (void);
+extern void PXR_Plugin_Pxr_CameraGetRenderEventFunc_mBEA8709C154E90C01ED787BDB9D62BEEFF377DD7 (void);
 // 0x00000323 System.Void Unity.XR.PXR.PXR_Plugin::Pxr_CameraSetRenderEventPending()
-extern void PXR_Plugin_Pxr_CameraSetRenderEventPending_m8EE1DBE0709C5CD7E09874D0ADE4AC19F14926B4 (void);
+extern void PXR_Plugin_Pxr_CameraSetRenderEventPending_m3117E3C0B452636622063E06A6B9B9F468203B23 (void);
 // 0x00000324 System.Void Unity.XR.PXR.PXR_Plugin::Pxr_CameraWaitForRenderEvent()
-extern void PXR_Plugin_Pxr_CameraWaitForRenderEvent_mFEAE919CDCC633D58C154C048C58D606C1B86673 (void);
+extern void PXR_Plugin_Pxr_CameraWaitForRenderEvent_mAE2E6FB4C2A97D8708C519F026B5AEE57403B1E7 (void);
 // 0x00000325 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_CameraUpdateFrame(System.Int32)
-extern void PXR_Plugin_Pxr_CameraUpdateFrame_m586CCC2EB473C6AAC84094CBF130FE802D929B7B (void);
+extern void PXR_Plugin_Pxr_CameraUpdateFrame_mF6CCF5FC4ED7EF50F0ED8B20B170939B7A24B5D0 (void);
 // 0x00000326 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_CameraCreateTexturesMainThread()
-extern void PXR_Plugin_Pxr_CameraCreateTexturesMainThread_m21E33B2262FFF396C293CE4DE5B4344DF5C0E680 (void);
+extern void PXR_Plugin_Pxr_CameraCreateTexturesMainThread_m2B2D725760CE4169DE9F5C25C0EBC3A3359C4F5E (void);
 // 0x00000327 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_CameraDeleteTexturesMainThread()
-extern void PXR_Plugin_Pxr_CameraDeleteTexturesMainThread_mB269C1752BF2EC6CFE039DBC8758CA5E6CC525AC (void);
+extern void PXR_Plugin_Pxr_CameraDeleteTexturesMainThread_mE774B9F2A6DC4B2084A44BAA727364D62C2FB922 (void);
 // 0x00000328 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_CameraUpdateTexturesMainThread()
-extern void PXR_Plugin_Pxr_CameraUpdateTexturesMainThread_mE1F6203B8C93DFE38DD0E9029D0275E513658C6D (void);
+extern void PXR_Plugin_Pxr_CameraUpdateTexturesMainThread_m8740805997F6BBF85530A9BE0D6824D16DD34204 (void);
 // 0x00000329 System.Void Unity.XR.PXR.PXR_Plugin::Pxr_SetFoveationLevelEnable(System.Int32)
-extern void PXR_Plugin_Pxr_SetFoveationLevelEnable_m1F855C10DAE746995C9956E2CB70122C41337AD9 (void);
+extern void PXR_Plugin_Pxr_SetFoveationLevelEnable_mB3949C6D877834FBF8F51DF49041E62E559A1F72 (void);
 // 0x0000032A System.Boolean Unity.XR.PXR.PXR_Plugin::Pxr_LoadPlugin()
-extern void PXR_Plugin_Pxr_LoadPlugin_m190AA1387981964AAD293035DB29BCC3A9A4C268 (void);
+extern void PXR_Plugin_Pxr_LoadPlugin_m343C07B6CB370976CECD8AFDF6C549E7283C3BF1 (void);
 // 0x0000032B System.Void Unity.XR.PXR.PXR_Plugin::Pxr_UnloadPlugin()
-extern void PXR_Plugin_Pxr_UnloadPlugin_m3B73EBAA1EF9F5DF6B7E5775952F82AD491EFE73 (void);
+extern void PXR_Plugin_Pxr_UnloadPlugin_m95AF9D366C57D2393F83D5344A8F65379C3A264D (void);
 // 0x0000032C System.Void Unity.XR.PXR.PXR_Plugin::Pxr_SetSRPState(System.Boolean)
-extern void PXR_Plugin_Pxr_SetSRPState_m2023323EF6EE0364EB4E57B5C652A65962932857 (void);
+extern void PXR_Plugin_Pxr_SetSRPState_m339781FE9D54B31F2C6518D334540087931C337B (void);
 // 0x0000032D System.Boolean Unity.XR.PXR.PXR_Plugin::Pxr_GetHomeKey()
-extern void PXR_Plugin_Pxr_GetHomeKey_m3691EC50E6CF3A35509B2A4E40A75DAAC358A4DB (void);
+extern void PXR_Plugin_Pxr_GetHomeKey_m3BDE617C8AFDA4350085E053F09C24932F1A508A (void);
 // 0x0000032E System.Void Unity.XR.PXR.PXR_Plugin::Pxr_InitHomeKey()
-extern void PXR_Plugin_Pxr_InitHomeKey_mF197CC6BECC410D9B604E7A63A007911DFDC58F1 (void);
+extern void PXR_Plugin_Pxr_InitHomeKey_mB1DC94638FA1CAC6BB872997AF9690BB46F97E4D (void);
 // 0x0000032F System.Boolean Unity.XR.PXR.PXR_Plugin::Pxr_GetMRCEnable()
-extern void PXR_Plugin_Pxr_GetMRCEnable_m1AAE1CF7644EFCCE7FFDB770E32906A79F9831BC (void);
+extern void PXR_Plugin_Pxr_GetMRCEnable_m0057D74F806075C91CBBC4AE90DE5836BBB7D928 (void);
 // 0x00000330 System.Void Unity.XR.PXR.PXR_Plugin::Pxr_SetUserDefinedSettings(Unity.XR.PXR.UserDefinedSettings)
-extern void PXR_Plugin_Pxr_SetUserDefinedSettings_mA7F71EEF301CB1278AAF8216C6D31782A1FD0817 (void);
+extern void PXR_Plugin_Pxr_SetUserDefinedSettings_mA71201751840A86B2FA369D8E49CDF45CC603254 (void);
 // 0x00000331 System.Void Unity.XR.PXR.PXR_Plugin::Pxr_Construct(Unity.XR.PXR.PXR_Loader/ConvertRotationWith2VectorDelegate)
-extern void PXR_Plugin_Pxr_Construct_mBE0DAB9BE755666A0DE8E5753D2E6384153E3807 (void);
+extern void PXR_Plugin_Pxr_Construct_mAD0F1908F1DAF279627595DCCAA8C92B73B8FD11 (void);
 // 0x00000332 System.Single Unity.XR.PXR.PXR_Plugin::Pxr_RefreshRateChanged()
-extern void PXR_Plugin_Pxr_RefreshRateChanged_mA9BFB4F9977A85C54AFD7043475A6E6DE3CCF6B8 (void);
+extern void PXR_Plugin_Pxr_RefreshRateChanged_m904BC811D842FBBAFBD9B2E1CDBC5D4E6291B868 (void);
 // 0x00000333 System.Boolean Unity.XR.PXR.PXR_Plugin::Pxr_GetFocusState()
-extern void PXR_Plugin_Pxr_GetFocusState_mA1E721A4ACFD6757B96E564F14E8A4EF3BDDD5EE (void);
+extern void PXR_Plugin_Pxr_GetFocusState_mF43907D5EED6F2F09790E474FD1C31D65DDE2ADD (void);
 // 0x00000334 System.Boolean Unity.XR.PXR.PXR_Plugin::Pxr_IsSensorReady()
-extern void PXR_Plugin_Pxr_IsSensorReady_mBDA15AC09C5805A736FDCFF195DC9FB26A32C127 (void);
+extern void PXR_Plugin_Pxr_IsSensorReady_m7197F44EB82A2999D224FFCEA0C589F7BF1511A4 (void);
 // 0x00000335 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_GetSensorStatus()
-extern void PXR_Plugin_Pxr_GetSensorStatus_m8DA4A44583464FAE8A046F37F2B1363D7DED1BFF (void);
+extern void PXR_Plugin_Pxr_GetSensorStatus_m469B6AFA8329473ECE11664CCF56FF2E612D0AA4 (void);
 // 0x00000336 System.Void Unity.XR.PXR.PXR_Plugin::Pxr_GetLayerImagePtr(System.Int32,Unity.XR.PXR.EyeType,System.Int32,System.IntPtr&)
-extern void PXR_Plugin_Pxr_GetLayerImagePtr_m8290668DCFEB75CF550BD150FD4B31995B832B11 (void);
+extern void PXR_Plugin_Pxr_GetLayerImagePtr_mEF4B4F7E4C3F69763CF58A8ADF944EEF87576B7C (void);
 // 0x00000337 System.Void Unity.XR.PXR.PXR_Plugin::Pxr_CreateLayerParam(Unity.XR.PXR.PxrLayerParam)
-extern void PXR_Plugin_Pxr_CreateLayerParam_mE0BCF72BCF8FC4654CBCCF168FC4EA021D209B31 (void);
+extern void PXR_Plugin_Pxr_CreateLayerParam_mAFC5F26760362EDAC3ABC5016CF03EE1B60EF413 (void);
 // 0x00000338 System.Void Unity.XR.PXR.PXR_Plugin::Pxr_DestroyLayerByRender(System.Int32)
-extern void PXR_Plugin_Pxr_DestroyLayerByRender_mBD630E9E5E51BF35874B3CB3838E78E492D970DA (void);
+extern void PXR_Plugin_Pxr_DestroyLayerByRender_m3BAA37E0DC34ACD777E1646029D9EA02802D85D3 (void);
 // 0x00000339 System.Void Unity.XR.PXR.PXR_Plugin::Pxr_EnableEyeTracking(System.Boolean)
-extern void PXR_Plugin_Pxr_EnableEyeTracking_mC672F8A4F4929BF2DEFC6E84668C97A8529389A8 (void);
+extern void PXR_Plugin_Pxr_EnableEyeTracking_m1E67A5E95CA66B9D6792824705BF0980554F1EAA (void);
 // 0x0000033A System.Void Unity.XR.PXR.PXR_Plugin::Pxr_EnableFaceTracking(System.Boolean)
-extern void PXR_Plugin_Pxr_EnableFaceTracking_mA7AD6405F4F0BF0DFE03EF982BE99D7EC7D31F41 (void);
+extern void PXR_Plugin_Pxr_EnableFaceTracking_m4939DEFDF47A8C57192CE9B1BEE2F3D77F4C171D (void);
 // 0x0000033B System.Void Unity.XR.PXR.PXR_Plugin::Pxr_EnableLipsync(System.Boolean)
-extern void PXR_Plugin_Pxr_EnableLipsync_m408E95C1F68133DDC560367A6806BA82ABD85C2B (void);
+extern void PXR_Plugin_Pxr_EnableLipsync_mF3A404C6F01E57E0A0B1DE9C29B569B4ADB6E2B2 (void);
 // 0x0000033C System.Void Unity.XR.PXR.PXR_Plugin::Pxr_SetInputDeviceChangedCallBack(Unity.XR.PXR.InputDeviceChangedCallBack)
-extern void PXR_Plugin_Pxr_SetInputDeviceChangedCallBack_m3EE0E431605E6E176EF3636D1FAA02A1BFA689B9 (void);
+extern void PXR_Plugin_Pxr_SetInputDeviceChangedCallBack_m72B8B8EDB65C468BE090F311334C7E52F440C084 (void);
 // 0x0000033D System.Void Unity.XR.PXR.PXR_Plugin::Pxr_SetSeethroughStateChangedCallBack(Unity.XR.PXR.SeethroughStateChangedCallBack)
-extern void PXR_Plugin_Pxr_SetSeethroughStateChangedCallBack_m8034C1D46FA194A69A6CFBB80E0018AE515B5497 (void);
+extern void PXR_Plugin_Pxr_SetSeethroughStateChangedCallBack_mB1692B2C7548F64B49DAFB719EEFBF6F2712C120 (void);
 // 0x0000033E System.Void Unity.XR.PXR.PXR_Plugin::Pxr_SetGraphicOption(Unity.XR.PXR.GraphicsAPI)
-extern void PXR_Plugin_Pxr_SetGraphicOption_m2645045531728401924B15C20F28FFC64CC606E8 (void);
+extern void PXR_Plugin_Pxr_SetGraphicOption_m7DBE210AE30D898145066B1D9224057F189F7F46 (void);
 // 0x0000033F System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_CreateLayer(System.IntPtr)
-extern void PXR_Plugin_Pxr_CreateLayer_m13E483C5CC882640B8BB3A9E72A1C88861ACC87A (void);
+extern void PXR_Plugin_Pxr_CreateLayer_m4779A3BAEF019205F77FBCD8EAD81306766328C5 (void);
 // 0x00000340 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_GetLayerNextImageIndex(System.Int32,System.Int32&)
-extern void PXR_Plugin_Pxr_GetLayerNextImageIndex_m04C6E9A37E9C9F09E908B29C1CCD92690E4EF1BF (void);
+extern void PXR_Plugin_Pxr_GetLayerNextImageIndex_m22EC66D9BAD30A1A85DAD922B55783E49E9DC777 (void);
 // 0x00000341 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_GetLayerImageCount(System.Int32,Unity.XR.PXR.EyeType,System.UInt32&)
-extern void PXR_Plugin_Pxr_GetLayerImageCount_m364B5C7D39635C5857D24B07FCBF1180A31F0A86 (void);
+extern void PXR_Plugin_Pxr_GetLayerImageCount_m69367AE616F17DF957D28424F42E9A94E1FD7B1F (void);
 // 0x00000342 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_GetLayerImage(System.Int32,Unity.XR.PXR.EyeType,System.Int32,System.UInt64&)
-extern void PXR_Plugin_Pxr_GetLayerImage_m2FCCA5334C19BCF7722CAA249110C386BCB1F4FA (void);
+extern void PXR_Plugin_Pxr_GetLayerImage_mE88BE2399F2EC7B1E452DF97A9FD973F5DAA58B0 (void);
 // 0x00000343 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_SetConfigIntArray(Unity.XR.PXR.ConfigType,System.Int32[],System.Int32)
-extern void PXR_Plugin_Pxr_SetConfigIntArray_mA9E4129E6E94709C01BC87A275B02BA0124CA729 (void);
+extern void PXR_Plugin_Pxr_SetConfigIntArray_m9DBE52259640F099F11F6FED253F0E38FA7F4680 (void);
 // 0x00000344 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_SetConfigFloatArray(Unity.XR.PXR.ConfigType,System.Single[],System.Int32)
-extern void PXR_Plugin_Pxr_SetConfigFloatArray_m2818080A7728B74C74369984B8BEAFF52C26F60E (void);
+extern void PXR_Plugin_Pxr_SetConfigFloatArray_m7AFEDE4C9099ABD55FC718843064B5B0229F24AE (void);
 // 0x00000345 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_GetLayerAndroidSurface(System.Int32,Unity.XR.PXR.EyeType,System.IntPtr&)
-extern void PXR_Plugin_Pxr_GetLayerAndroidSurface_m57599ADB1D1BB3ECA52F7AC7368C80E0A8DEC885 (void);
+extern void PXR_Plugin_Pxr_GetLayerAndroidSurface_m7A0C7246D8E16740F94B4E7BB89CA387029E4F0A (void);
 // 0x00000346 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_DestroyLayer(System.Int32)
-extern void PXR_Plugin_Pxr_DestroyLayer_m928D01E89F2A4D43F3A1BC1C1D2D6F32612FD714 (void);
+extern void PXR_Plugin_Pxr_DestroyLayer_mD3F86757D0AC3344977238CF560CE6976803BE1E (void);
 // 0x00000347 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_SubmitLayer(System.IntPtr)
-extern void PXR_Plugin_Pxr_SubmitLayer_m303E03C20440235A8FE187692C4EA62EE891BA85 (void);
+extern void PXR_Plugin_Pxr_SubmitLayer_m774ECE4F46AD2C39ECF7DAE6F54EAAD137BA02A2 (void);
 // 0x00000348 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_SubmitLayerQuad(Unity.XR.PXR.PxrLayerQuad)
-extern void PXR_Plugin_Pxr_SubmitLayerQuad_mFAF54480EBD44E1A15CB0637B3F51F93824B7551 (void);
+extern void PXR_Plugin_Pxr_SubmitLayerQuad_m2486ADEEF0C8D6E4E631B6097D9EEAE98FDC5CC1 (void);
 // 0x00000349 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_SubmitLayerQuad2(Unity.XR.PXR.PxrLayerQuad2)
-extern void PXR_Plugin_Pxr_SubmitLayerQuad2_m3994DF3A403848A98FC6B3B5E53D684180F18F58 (void);
+extern void PXR_Plugin_Pxr_SubmitLayerQuad2_m1A364BADF670DD2325129EF2BE83891CA7C42BDE (void);
 // 0x0000034A System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_SubmitLayerCylinder(Unity.XR.PXR.PxrLayerCylinder)
-extern void PXR_Plugin_Pxr_SubmitLayerCylinder_m6F4870B9FE0C16B7013A7EF27A7EB492CD064759 (void);
+extern void PXR_Plugin_Pxr_SubmitLayerCylinder_m697572D5D67E7E8B4A02885F484393D0CE40DB60 (void);
 // 0x0000034B System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_SubmitLayerCylinder2(Unity.XR.PXR.PxrLayerCylinder2)
-extern void PXR_Plugin_Pxr_SubmitLayerCylinder2_m113A641A9D08477AFCA79EE1BF6CC534FCBABC78 (void);
+extern void PXR_Plugin_Pxr_SubmitLayerCylinder2_m1C0F9094D8BB54B9159108582EFDD4B135237403 (void);
 // 0x0000034C System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_SubmitLayerEquirect(Unity.XR.PXR.PxrLayerEquirect)
-extern void PXR_Plugin_Pxr_SubmitLayerEquirect_m0125DDA1304E600180918A0E414F4A8DD166C60F (void);
+extern void PXR_Plugin_Pxr_SubmitLayerEquirect_mB4646BAB05188BC947FCABAA09BE5731FF21C5B0 (void);
 // 0x0000034D System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_SubmitLayerEquirect2(Unity.XR.PXR.PxrLayerEquirect2)
-extern void PXR_Plugin_Pxr_SubmitLayerEquirect2_mCB20D0A776D14D13D0F41C55CDC43A29B8BF799C (void);
+extern void PXR_Plugin_Pxr_SubmitLayerEquirect2_m366CDF980673403B18644112A4C0FC82045BB2C3 (void);
 // 0x0000034E System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_SubmitLayerCube2(Unity.XR.PXR.PxrLayerCube2)
-extern void PXR_Plugin_Pxr_SubmitLayerCube2_mA6AEDEFA4D5843018DD1567FEF65C7907841DE36 (void);
+extern void PXR_Plugin_Pxr_SubmitLayerCube2_m3731BC568F6136068168EBBE03DCFE690122286D (void);
 // 0x0000034F System.Void Unity.XR.PXR.PXR_Plugin::Pxr_SetLayerBlend(System.Boolean,Unity.XR.PXR.PxrLayerBlend)
-extern void PXR_Plugin_Pxr_SetLayerBlend_m4D6D6E9CDF1C7DC99878CA2669BF260515BA97A9 (void);
+extern void PXR_Plugin_Pxr_SetLayerBlend_m434C364E779B23D99013446F37419A4297255D06 (void);
 // 0x00000350 Unity.XR.PXR.FoveationLevel Unity.XR.PXR.PXR_Plugin::Pxr_GetFoveationLevel()
-extern void PXR_Plugin_Pxr_GetFoveationLevel_mBA61A53F8F1913D7929404B2951AB8ED97E9FE11 (void);
+extern void PXR_Plugin_Pxr_GetFoveationLevel_m6C28C217B77B50B58E67B28C913C4BF697F52C0D (void);
 // 0x00000351 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_SetFoveationParams(Unity.XR.PXR.FoveationParams)
-extern void PXR_Plugin_Pxr_SetFoveationParams_m521498B81F8B002D665D1965A8DB1F713D1899F9 (void);
+extern void PXR_Plugin_Pxr_SetFoveationParams_m8B5A7EBF6E26C05221154D15C5B3A9D92C654910 (void);
 // 0x00000352 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_SetFrustum(Unity.XR.PXR.EyeType,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)
-extern void PXR_Plugin_Pxr_SetFrustum_m36C13949B5F751938964C6377E39E3BAA830BB85 (void);
+extern void PXR_Plugin_Pxr_SetFrustum_m0F301E445BB87453007780B9F3A7533FFE561890 (void);
 // 0x00000353 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_GetFrustum(Unity.XR.PXR.EyeType,System.Single&,System.Single&,System.Single&,System.Single&,System.Single&,System.Single&)
-extern void PXR_Plugin_Pxr_GetFrustum_m5EED4206E415B04F4957379A1D09A73749BC9527 (void);
+extern void PXR_Plugin_Pxr_GetFrustum_m721BB9C3FB48C401A7DCA50AF025398A52E6D3FE (void);
 // 0x00000354 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_GetConfigFloat(Unity.XR.PXR.ConfigType,System.Single&)
-extern void PXR_Plugin_Pxr_GetConfigFloat_m6888DBF221E7DF1E5AEB1A0CA22C7819E4EDA0D5 (void);
+extern void PXR_Plugin_Pxr_GetConfigFloat_m374A17C1F7BCECFD9B996495D9799A249D7F5FA4 (void);
 // 0x00000355 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_GetConfigInt(Unity.XR.PXR.ConfigType,System.Int32&)
-extern void PXR_Plugin_Pxr_GetConfigInt_m05C4AE0F2049A8BB434B66E97A449277DA00A8B0 (void);
+extern void PXR_Plugin_Pxr_GetConfigInt_m820682C6EF117417EAC28EF590F9FDEAFAA2FF98 (void);
 // 0x00000356 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_SetConfigInt(Unity.XR.PXR.ConfigType,System.Int32)
-extern void PXR_Plugin_Pxr_SetConfigInt_m95635EA417070D0C2A24229F9CCEEFBEE809FD6C (void);
+extern void PXR_Plugin_Pxr_SetConfigInt_m2DEB76BF8C991454F9D3B5DECA193E83EECCB562 (void);
 // 0x00000357 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_SetConfigString(Unity.XR.PXR.ConfigType,System.String)
-extern void PXR_Plugin_Pxr_SetConfigString_m26EDA4003881BE36EF5505EAB6104B0BABB20951 (void);
+extern void PXR_Plugin_Pxr_SetConfigString_m13045363AA03EAF3FC5D916CA86715C206F4B408 (void);
 // 0x00000358 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_SetConfigUint64(Unity.XR.PXR.ConfigType,System.UInt64)
-extern void PXR_Plugin_Pxr_SetConfigUint64_m45EAF1194578F96469B196C0B61BE6CA0B8F003E (void);
+extern void PXR_Plugin_Pxr_SetConfigUint64_mCE8D80AEBD829CB833E2D8546C49FBFA1C297AC0 (void);
 // 0x00000359 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_ResetSensor(Unity.XR.PXR.ResetSensorOption)
-extern void PXR_Plugin_Pxr_ResetSensor_mFA37D3E360AD7E493D7654FE3C1E8DC8ADD257F3 (void);
+extern void PXR_Plugin_Pxr_ResetSensor_m5E5791354EFEBFCC44A1A6DC3C4F4B915845ACF4 (void);
 // 0x0000035A System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_SetSensorLostCustomMode(System.Boolean)
-extern void PXR_Plugin_Pxr_SetSensorLostCustomMode_m5879A3D5EC184AAF84D7A48F85DA1395E9894079 (void);
+extern void PXR_Plugin_Pxr_SetSensorLostCustomMode_m7FE246F721C992CA77FCB0904A8F935E5A98E87D (void);
 // 0x0000035B System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_SetSensorLostCMST(System.Boolean)
-extern void PXR_Plugin_Pxr_SetSensorLostCMST_mF4DA9F5E3233C184A3BB8D9B5AF05887E13D81E2 (void);
+extern void PXR_Plugin_Pxr_SetSensorLostCMST_m723250F3B438885306EE2C38FE6F70D8579C04F3 (void);
 // 0x0000035C System.Boolean Unity.XR.PXR.PXR_Plugin::Pxr_GetDisplayRefreshRatesAvailable(System.Int32&,System.IntPtr&)
-extern void PXR_Plugin_Pxr_GetDisplayRefreshRatesAvailable_mE76D6EF3320B50D11C4950E28D503A74AAB86D60 (void);
+extern void PXR_Plugin_Pxr_GetDisplayRefreshRatesAvailable_m8EA7778420F71EF7EE18A5A0D7DF00A20499461A (void);
 // 0x0000035D System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_SetDisplayRefreshRate(System.Single)
-extern void PXR_Plugin_Pxr_SetDisplayRefreshRate_m25B0BA6BA634F68B725BE1B6666417B977C81D67 (void);
+extern void PXR_Plugin_Pxr_SetDisplayRefreshRate_m8C2A5D5B6F3F09355637F6F7F495214B73DD9873 (void);
 // 0x0000035E System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_GetDialogState()
-extern void PXR_Plugin_Pxr_GetDialogState_mF337F1D01035083CA3DF6F1959BFA1D6E45B2AE8 (void);
+extern void PXR_Plugin_Pxr_GetDialogState_m9829474E399F1423750817AAE2D9C7331E379D53 (void);
 // 0x0000035F System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_GetPredictedDisplayTime(System.Double&)
-extern void PXR_Plugin_Pxr_GetPredictedDisplayTime_m52D007A2FF0791FB84AB93A05EE5FD5E4305B269 (void);
+extern void PXR_Plugin_Pxr_GetPredictedDisplayTime_m470B8DD85418C0252E2FFC4EF22B46B55014D3F0 (void);
 // 0x00000360 System.Boolean Unity.XR.PXR.PXR_Plugin::Pxr_SetExtraLatencyMode(System.Int32)
-extern void PXR_Plugin_Pxr_SetExtraLatencyMode_mBBED80DEFD995824C103DAF7ECA80B5553547872 (void);
+extern void PXR_Plugin_Pxr_SetExtraLatencyMode_m9EE3C9E27E7C08B1EB1D165E27A5D560B7E6A189 (void);
 // 0x00000361 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_GetTrackingMode(System.UInt64&)
-extern void PXR_Plugin_Pxr_GetTrackingMode_m738A3849315071583F6D66AAC048BBF0CE59AE13 (void);
+extern void PXR_Plugin_Pxr_GetTrackingMode_mBA174D1D05BE7D0EEFC9ECD9E6B57712DC8A15CC (void);
 // 0x00000362 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_GetPredictedMainSensorState2(System.Double,Unity.XR.PXR.PxrSensorState2&,System.Int32&)
-extern void PXR_Plugin_Pxr_GetPredictedMainSensorState2_mCC47C8CF841500535E77CBF0CDD306A5D1828D83 (void);
+extern void PXR_Plugin_Pxr_GetPredictedMainSensorState2_mDE476E5B1902C4E34DA576A037E1C7C9C7299F37 (void);
 // 0x00000363 System.Void Unity.XR.PXR.PXR_Plugin::Pxr_SetControllerOriginOffset(System.Int32,UnityEngine.Vector3)
-extern void PXR_Plugin_Pxr_SetControllerOriginOffset_m337DC462C742A68F36F3692EC28E0481836531BD (void);
+extern void PXR_Plugin_Pxr_SetControllerOriginOffset_m9C51F04D224EE5F94B121679F74113D687D6F180 (void);
 // 0x00000364 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_GetControllerTrackingState(System.UInt32,System.Double,System.Single[],Unity.XR.PXR.PxrControllerTracking&)
-extern void PXR_Plugin_Pxr_GetControllerTrackingState_m3ACF2E353CC01995D108B565D83035FDE7A10CC8 (void);
+extern void PXR_Plugin_Pxr_GetControllerTrackingState_mB91ECD9297E92FFD855EA4165CA8FD7E1DC323F0 (void);
 // 0x00000365 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_SetControllerMainInputHandle(System.UInt32)
-extern void PXR_Plugin_Pxr_SetControllerMainInputHandle_mFE7DD0CB450AA32DCA7D55A18789E37E48B12EE5 (void);
+extern void PXR_Plugin_Pxr_SetControllerMainInputHandle_mD7F1179BC33EC13BE1132F0F07A373E929870F2D (void);
 // 0x00000366 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_GetControllerMainInputHandle(System.Int32&)
-extern void PXR_Plugin_Pxr_GetControllerMainInputHandle_m757C35B3B20907AA52681C0A80A9C76F88E16A71 (void);
+extern void PXR_Plugin_Pxr_GetControllerMainInputHandle_m823AF4E1352DEC77B119BA42C0F18C4DEF8DAB98 (void);
 // 0x00000367 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_SetControllerVibration(System.UInt32,System.Single,System.Int32)
-extern void PXR_Plugin_Pxr_SetControllerVibration_mCE08C47F3CAFB48F365BBF223CE741A730BF00BB (void);
+extern void PXR_Plugin_Pxr_SetControllerVibration_mEDAD69990AB1A9D8D7C96B301B9958C144E1B0B3 (void);
 // 0x00000368 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_SetControllerEnableKey(System.Boolean,Unity.XR.PXR.PxrControllerKeyMap)
-extern void PXR_Plugin_Pxr_SetControllerEnableKey_m11B45475AF6BF6F6789C4F23DF8212D92DB9470C (void);
+extern void PXR_Plugin_Pxr_SetControllerEnableKey_m136FE69118AD0281EED69734D1135044AA2E41AF (void);
 // 0x00000369 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_SetControllerVibrationEvent(System.UInt32,System.Int32,System.Single,System.Int32)
-extern void PXR_Plugin_Pxr_SetControllerVibrationEvent_mEFC4688A274E5291B3EB2F89396F51362E26C214 (void);
+extern void PXR_Plugin_Pxr_SetControllerVibrationEvent_m58883D9345DA8ED7FD977E73EB67D38C0B452D5B (void);
 // 0x0000036A System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_GetControllerCapabilities(System.UInt32,Unity.XR.PXR.PxrControllerCapability&)
-extern void PXR_Plugin_Pxr_GetControllerCapabilities_mADB86E0BF300E9CBF8F8E4CEFFA98BD301C6DECA (void);
+extern void PXR_Plugin_Pxr_GetControllerCapabilities_m13A6E178EE65F23F20845B62817EFBB16D510F66 (void);
 // 0x0000036B System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_StopControllerVCMotor(System.Int32)
-extern void PXR_Plugin_Pxr_StopControllerVCMotor_m2D12135D3C7E05D28AA691DD20779240708DD904 (void);
+extern void PXR_Plugin_Pxr_StopControllerVCMotor_mC876F0D067130C1A3D63E0099490449909A2549A (void);
 // 0x0000036C System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_StartControllerVCMotor(System.String,System.Int32)
-extern void PXR_Plugin_Pxr_StartControllerVCMotor_m6D318D2474707011B2FFDC2EAA7EE49046F75268 (void);
+extern void PXR_Plugin_Pxr_StartControllerVCMotor_m2EC113C31D1374967FE4C04CB62A87C71AA483D5 (void);
 // 0x0000036D System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_SetControllerAmp(System.Single)
-extern void PXR_Plugin_Pxr_SetControllerAmp_m3E1DCB8872A11FED56F8B5DA767D145FE9748902 (void);
+extern void PXR_Plugin_Pxr_SetControllerAmp_m8263CD37DFF133826856F908F95E4CB4880E5274 (void);
 // 0x0000036E System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_SetControllerDelay(System.Int32)
-extern void PXR_Plugin_Pxr_SetControllerDelay_m96689A8A631021D4AA71FA8352D52CD8FDA520A4 (void);
+extern void PXR_Plugin_Pxr_SetControllerDelay_mDFE5507F4E5A167F78474165115BAC6B34223F6D (void);
 // 0x0000036F System.String Unity.XR.PXR.PXR_Plugin::Pxr_GetVibrateDelayTime(System.Int32&)
-extern void PXR_Plugin_Pxr_GetVibrateDelayTime_m0D1FEEFF4EE43CA05792D9B5946A92DE78607297 (void);
+extern void PXR_Plugin_Pxr_GetVibrateDelayTime_mD4FEFB7AC381DAD7267D42E131A866CA4640A385 (void);
 // 0x00000370 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_StartVibrateBySharemF(System.Single[],Unity.XR.PXR.AudioClipData&,System.Int32&)
-extern void PXR_Plugin_Pxr_StartVibrateBySharemF_mDD219A6E11AA447509C22E9ABBCDBE3DC398B005 (void);
+extern void PXR_Plugin_Pxr_StartVibrateBySharemF_m730EE641FA79F0D4FDE8AAB58F6E90ECCDF2CD74 (void);
 // 0x00000371 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_StartVibrateByCache(System.Int32)
-extern void PXR_Plugin_Pxr_StartVibrateByCache_m88E58D09C2271E774CBD5F6A72C100B6DDBC5721 (void);
+extern void PXR_Plugin_Pxr_StartVibrateByCache_mFA45BD7E612B0D870515009C20F20B3CEAC80BEA (void);
 // 0x00000372 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_ClearVibrateByCache(System.Int32)
-extern void PXR_Plugin_Pxr_ClearVibrateByCache_m12912DD3EB29B4AE0B291DCBA3D2E68427313490 (void);
+extern void PXR_Plugin_Pxr_ClearVibrateByCache_mA88225063172BAF80288A24E4E3CBCD961363402 (void);
 // 0x00000373 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_StartVibrateByPHF(System.String,System.Int32,System.Int32&,Unity.XR.PXR.VibrateInfo&)
-extern void PXR_Plugin_Pxr_StartVibrateByPHF_mB4E8E1680FFFBFC1029B836B2A0B587BB9FCFC4F (void);
+extern void PXR_Plugin_Pxr_StartVibrateByPHF_m1054713C7D4AE571C9AC146690523696A3EB1016 (void);
 // 0x00000374 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_PauseVibrate(System.Int32)
-extern void PXR_Plugin_Pxr_PauseVibrate_mBB844714C3B654E230276306562C278D23685330 (void);
+extern void PXR_Plugin_Pxr_PauseVibrate_m345E1994F67177795B9D6F4418710C98AB84AB65 (void);
 // 0x00000375 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_ResumeVibrate(System.Int32)
-extern void PXR_Plugin_Pxr_ResumeVibrate_m26D6F3A5362DB7064A1E9099856CCA67FE49B743 (void);
+extern void PXR_Plugin_Pxr_ResumeVibrate_mB75519F4D4217E8FF44C1D7F817C1C435D478EB2 (void);
 // 0x00000376 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_UpdateVibrateParams(System.Int32,Unity.XR.PXR.VibrateInfo&)
-extern void PXR_Plugin_Pxr_UpdateVibrateParams_mB37FDBECCCD1CE6B8F403C62DA31490D4DD95202 (void);
+extern void PXR_Plugin_Pxr_UpdateVibrateParams_m0DD375E7E58C02A89E9A83AFC51C4F194435A35A (void);
 // 0x00000377 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_CreateHapticStream(System.String,System.UInt32,Unity.XR.PXR.VibrateInfo&,System.Single,System.Int32&)
-extern void PXR_Plugin_Pxr_CreateHapticStream_mD4A6B9503F3769B2B8241E3BE9653FA755485977 (void);
+extern void PXR_Plugin_Pxr_CreateHapticStream_m3908E9CB383D2F559FC901BB6425B15CEF32BE6F (void);
 // 0x00000378 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_WriteHapticStream(System.Int32,Unity.XR.PXR.PxrPhfParamsNum&,System.UInt32)
-extern void PXR_Plugin_Pxr_WriteHapticStream_m7E3EC609B473DEAFD6DD535565D8292BC35E734B (void);
+extern void PXR_Plugin_Pxr_WriteHapticStream_m81C0ACE1AD72BE995B0A260FA63806FB37608FDA (void);
 // 0x00000379 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_SetPHFHapticSpeed(System.Int32,System.Single)
-extern void PXR_Plugin_Pxr_SetPHFHapticSpeed_m42383C5FD20B39AE5E9EB596E3BFCB193A5A8F20 (void);
+extern void PXR_Plugin_Pxr_SetPHFHapticSpeed_m4E0041F151D2E84E91F76EF58BFFB25BF5AEFAB7 (void);
 // 0x0000037A System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_GetPHFHapticSpeed(System.Int32,System.Single&)
-extern void PXR_Plugin_Pxr_GetPHFHapticSpeed_m24C0832529BD66AE4891CA49D873F212A0A9A457 (void);
+extern void PXR_Plugin_Pxr_GetPHFHapticSpeed_m64BB5FC071126F653D5828944E1EF044AAE98EB4 (void);
 // 0x0000037B System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_GetCurrentFrameSequence(System.Int32,System.UInt64&)
-extern void PXR_Plugin_Pxr_GetCurrentFrameSequence_mA02614FFC06BEE45B37F8EE5CE282C2306226289 (void);
+extern void PXR_Plugin_Pxr_GetCurrentFrameSequence_mE9F155F393820A861DEC3DD56E941677E43C0612 (void);
 // 0x0000037C System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_StartPHFHaptic(System.Int32)
-extern void PXR_Plugin_Pxr_StartPHFHaptic_mC59C5EB6CB506AE368249435453AACC01A483445 (void);
+extern void PXR_Plugin_Pxr_StartPHFHaptic_mD173DE22D78BF7A7C8D7511CBEB551F1DE7EE538 (void);
 // 0x0000037D System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_StopPHFHaptic(System.Int32)
-extern void PXR_Plugin_Pxr_StopPHFHaptic_mB89C881F0EF1FE99C2F51D4262FA792DB482390A (void);
+extern void PXR_Plugin_Pxr_StopPHFHaptic_m86F1221A3BEB6CBE93E80B2FBDA2489BDBC4B4AC (void);
 // 0x0000037E System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_RemovePHFHaptic(System.Int32)
-extern void PXR_Plugin_Pxr_RemovePHFHaptic_mC0961F8D4589D2A524F3FA7934E036D387127473 (void);
+extern void PXR_Plugin_Pxr_RemovePHFHaptic_mD878C6320B2BF75C55A928411E4680CCCF0CB63D (void);
 // 0x0000037F System.Void Unity.XR.PXR.PXR_Plugin::Pxr_SetLogInfoActive(System.Boolean)
-extern void PXR_Plugin_Pxr_SetLogInfoActive_mA7C245EE256ED3064C4EA109B8A77B891D152A09 (void);
+extern void PXR_Plugin_Pxr_SetLogInfoActive_m8B8D2C3BBAA8A97228D287A4962EA0B676FCF406 (void);
 // 0x00000380 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_GetSeeThroughState()
-extern void PXR_Plugin_Pxr_GetSeeThroughState_m2222B13CFCCB857441548863E83637C5A4F661D0 (void);
+extern void PXR_Plugin_Pxr_GetSeeThroughState_m1048511BB5181EAA5B9E8FDF12BC14B29F64DF5E (void);
 // 0x00000381 System.Void Unity.XR.PXR.PXR_Plugin::Pxr_SetVideoSeethroughState(System.Boolean)
-extern void PXR_Plugin_Pxr_SetVideoSeethroughState_mC0C266D8BE2591189C0B1206E847CAB11CDBB996 (void);
+extern void PXR_Plugin_Pxr_SetVideoSeethroughState_m1C5317450841DE2697F299779DEE2BB51B3AF5CC (void);
 // 0x00000382 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_TestNodeIsInBoundary(Unity.XR.PXR.BoundaryTrackingNode,System.Boolean,Unity.XR.PXR.PxrBoundaryTriggerInfo&)
-extern void PXR_Plugin_Pxr_TestNodeIsInBoundary_m14C1CACFCA2CA6F07F125D1FE84587533B6E308A (void);
+extern void PXR_Plugin_Pxr_TestNodeIsInBoundary_m269432D74E373581E0776B97FF4A2F934B69B07C (void);
 // 0x00000383 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_TestPointIsInBoundary(Unity.XR.PXR.PxrVector3f&,System.Boolean,Unity.XR.PXR.PxrBoundaryTriggerInfo&)
-extern void PXR_Plugin_Pxr_TestPointIsInBoundary_mE80AC909118582E16558C08587AE2CEA81A1E6A8 (void);
+extern void PXR_Plugin_Pxr_TestPointIsInBoundary_m4B6A41CBFBA3BFBBFC6C539AB4920AF72A4F49EC (void);
 // 0x00000384 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_GetBoundaryGeometry(System.Boolean,System.UInt32,System.UInt32&,Unity.XR.PXR.PxrVector3f[])
-extern void PXR_Plugin_Pxr_GetBoundaryGeometry_m1088523A1477A2CE561B31FA1C163EEA8A083F9D (void);
+extern void PXR_Plugin_Pxr_GetBoundaryGeometry_m79515C16B231726841FF67E904CD9C3DDA873D22 (void);
 // 0x00000385 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_GetBoundaryDimensions(System.Boolean,Unity.XR.PXR.PxrVector3f&)
-extern void PXR_Plugin_Pxr_GetBoundaryDimensions_mB1B9E685B1EBEF8FCD486FFC7E808A96FCF090BB (void);
+extern void PXR_Plugin_Pxr_GetBoundaryDimensions_mC8821E972F713BCDAC094889D2E215AFA16205F3 (void);
 // 0x00000386 System.Boolean Unity.XR.PXR.PXR_Plugin::Pxr_GetBoundaryConfigured()
-extern void PXR_Plugin_Pxr_GetBoundaryConfigured_m30583D9083D94890F3C2B367729F4D9FC9D287B9 (void);
+extern void PXR_Plugin_Pxr_GetBoundaryConfigured_m4825B89BA881A5407CA8B78E1D847A294E026557 (void);
 // 0x00000387 System.Boolean Unity.XR.PXR.PXR_Plugin::Pxr_GetBoundaryEnabled()
-extern void PXR_Plugin_Pxr_GetBoundaryEnabled_m8B3A36CDA893EB0F6E2A9E414A9C702924E78A53 (void);
+extern void PXR_Plugin_Pxr_GetBoundaryEnabled_mAD67FCFAF813F853943113DDE7475F8506C93035 (void);
 // 0x00000388 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_SetBoundaryVisible(System.Boolean)
-extern void PXR_Plugin_Pxr_SetBoundaryVisible_m16F4E05CE322C4D7F65481077E196BC423A702A6 (void);
+extern void PXR_Plugin_Pxr_SetBoundaryVisible_m394E118E3C202B50B9E0650CCAEBD61E1E79CF98 (void);
 // 0x00000389 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_SetSeeThroughBackground(System.Boolean)
-extern void PXR_Plugin_Pxr_SetSeeThroughBackground_m5C601D49B60333996872BB228E30EBA38CFD9D8A (void);
+extern void PXR_Plugin_Pxr_SetSeeThroughBackground_m887DC2A47C51AA2D0F528046D3FF02EDCE711C65 (void);
 // 0x0000038A System.Boolean Unity.XR.PXR.PXR_Plugin::Pxr_GetBoundaryVisible()
-extern void PXR_Plugin_Pxr_GetBoundaryVisible_m46DAD4C0E6DD01826D1AD7B374A40D80AE51177D (void);
+extern void PXR_Plugin_Pxr_GetBoundaryVisible_m085D56D5AA796934ACAF52083F45721CE3620196 (void);
 // 0x0000038B System.Void Unity.XR.PXR.PXR_Plugin::Pxr_ResetSensorHard()
-extern void PXR_Plugin_Pxr_ResetSensorHard_m4CD0D95E72C6AD3DA359FB7F4351005F232F93BF (void);
+extern void PXR_Plugin_Pxr_ResetSensorHard_m4F429C46B1F2C10797A16CF2CB5D15B40F689CEA (void);
 // 0x0000038C System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_GetTrackingState()
-extern void PXR_Plugin_Pxr_GetTrackingState_m708F01DF79DA673FC55FD151A59C947FB2AAAB04 (void);
+extern void PXR_Plugin_Pxr_GetTrackingState_mE531D05C607061B1D85402DE92886DF6907C2EDC (void);
 // 0x0000038D System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_SetGuardianSystemDisable(System.Boolean)
-extern void PXR_Plugin_Pxr_SetGuardianSystemDisable_m5598D07256EE9231B48EF5A13F0D909B5AD9F815 (void);
+extern void PXR_Plugin_Pxr_SetGuardianSystemDisable_mA3FC1D70236C6C0E0B7A1972FF914E56A1DC594A (void);
 // 0x0000038E System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_ResumeGuardianSystemForSTS()
-extern void PXR_Plugin_Pxr_ResumeGuardianSystemForSTS_mE380FDD95BA9150CE6741CD3E5C138BE6B349C26 (void);
+extern void PXR_Plugin_Pxr_ResumeGuardianSystemForSTS_m1469FE6FCEE43D61E1A9B4F861D07AAB6F82469D (void);
 // 0x0000038F System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_PauseGuardianSystemForSTS()
-extern void PXR_Plugin_Pxr_PauseGuardianSystemForSTS_m450F47365418D8F34DCE186A799FF94B84E3FC09 (void);
+extern void PXR_Plugin_Pxr_PauseGuardianSystemForSTS_m8D139A0F4DDDBFDA793CC4A3672EEFD9DB1D791B (void);
 // 0x00000390 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_ShutdownSdkGuardianSystem()
-extern void PXR_Plugin_Pxr_ShutdownSdkGuardianSystem_m1E2A44AE5F05390758D4B5C68A5A55750BCFD186 (void);
+extern void PXR_Plugin_Pxr_ShutdownSdkGuardianSystem_m9AA12A08E70524A5474C204A644482F8C7064F53 (void);
 // 0x00000391 System.Byte[] Unity.XR.PXR.PXR_Plugin::Pxr_GetCameraDataExt()
-extern void PXR_Plugin_Pxr_GetCameraDataExt_m46AAF4E514D501D772C6D81605FACE1809C4F351 (void);
+extern void PXR_Plugin_Pxr_GetCameraDataExt_mC37C15A4368B67CB9291ADCBEA30AB0549C13E63 (void);
 // 0x00000392 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_StartSdkBoundary()
-extern void PXR_Plugin_Pxr_StartSdkBoundary_m223C8D413A5C356131602953E77EB4F0C307818E (void);
+extern void PXR_Plugin_Pxr_StartSdkBoundary_m587182F26B1AB6CF24D1B523B48C8B512F4D85F5 (void);
 // 0x00000393 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_GetRoomModeState()
-extern void PXR_Plugin_Pxr_GetRoomModeState_mCF8534CDFF5BB9E28EBA2DF27062A23CFD72733B (void);
+extern void PXR_Plugin_Pxr_GetRoomModeState_mCD6D7BB5ED67CA473920B237CE28BF3F5C0A0CBA (void);
 // 0x00000394 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_DisableBoundary()
-extern void PXR_Plugin_Pxr_DisableBoundary_mBF7107FFB4EA793118A720E5AE7DBE588FA43553 (void);
+extern void PXR_Plugin_Pxr_DisableBoundary_mA933BEE3775284B02DA5BEA7848F8D2EEDD60E1A (void);
 // 0x00000395 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_SetMonoMode(System.Boolean)
-extern void PXR_Plugin_Pxr_SetMonoMode_mB743E5BE0F4DF2795E2F4FC8457E82552BA417A2 (void);
+extern void PXR_Plugin_Pxr_SetMonoMode_m56732B6720266FBB05ADB5FA187C54BECC4B92D4 (void);
 // 0x00000396 System.Boolean Unity.XR.PXR.PXR_Plugin::Pxr_GetMrcStatus()
-extern void PXR_Plugin_Pxr_GetMrcStatus_m305532857587D29D71BF659B0BEC31C5F90440C0 (void);
+extern void PXR_Plugin_Pxr_GetMrcStatus_m90CA6A915E11CF3883530F67A22564C84F299361 (void);
 // 0x00000397 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_GetMrcPose(Unity.XR.PXR.PxrPosef&)
-extern void PXR_Plugin_Pxr_GetMrcPose_mE0C1D276D7FD45EEF90BD999DDA7850B2C9E0CB5 (void);
+extern void PXR_Plugin_Pxr_GetMrcPose_m6979DFD8BFCF6847D04999AF4D30B9D94BEB30D7 (void);
 // 0x00000398 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_SetMrcPose(Unity.XR.PXR.PxrPosef&)
-extern void PXR_Plugin_Pxr_SetMrcPose_mBB8704B56FAFA247A64D24D3B42AAB6891E78B67 (void);
+extern void PXR_Plugin_Pxr_SetMrcPose_m6BB18F1BE05411EF656FA5BDE4897C45F257125F (void);
 // 0x00000399 System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_SetIsSupportMovingMrc(System.Boolean)
-extern void PXR_Plugin_Pxr_SetIsSupportMovingMrc_m56EEFC82507DB22A5180E70B3482D23F1A568127 (void);
+extern void PXR_Plugin_Pxr_SetIsSupportMovingMrc_mE19AC0AB94D44E0E8CD4C2D9662CAC3809EB9C33 (void);
 // 0x0000039A System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_SetTrackingMode(System.Double)
-extern void PXR_Plugin_Pxr_SetTrackingMode_m48BA2D28C4AB0AEA8941F48A0A784127CE560908 (void);
+extern void PXR_Plugin_Pxr_SetTrackingMode_m9CE183F2D15F3D6CA40C93DBDBFD185F9A732B05 (void);
 // 0x0000039B System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_GetFaceTrackingData(System.Int64,System.Int32,Unity.XR.PXR.PxrFaceTrackingInfo&)
-extern void PXR_Plugin_Pxr_GetFaceTrackingData_mD46EC715E15B67FCA956BB3EA5FD5E9AC2C0D1BA (void);
+extern void PXR_Plugin_Pxr_GetFaceTrackingData_m732A59A6787782993F3166E98EDF6389180FBA7D (void);
 // 0x0000039C System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_SetPerformanceLevels(Unity.XR.PXR.PxrPerfSettings,Unity.XR.PXR.PxrSettingsLevel)
-extern void PXR_Plugin_Pxr_SetPerformanceLevels_m6782E622F575343BE0AFECFE9BEC19F550431F7E (void);
+extern void PXR_Plugin_Pxr_SetPerformanceLevels_mDFD03DEFA916CC49762CE85B76640E1FD0625296 (void);
 // 0x0000039D System.Int32 Unity.XR.PXR.PXR_Plugin::Pxr_GetPerformanceLevels(Unity.XR.PXR.PxrPerfSettings,Unity.XR.PXR.PxrSettingsLevel&)
-extern void PXR_Plugin_Pxr_GetPerformanceLevels_mF762BE0004AAA4BA1437087910B11A077A6C03C1 (void);
+extern void PXR_Plugin_Pxr_GetPerformanceLevels_m29497A6D5B8EE0DED14CE71A3C74076AEC0706E3 (void);
 // 0x0000039E System.Boolean Unity.XR.PXR.PXR_Plugin/System::UPxr_LoadPICOPlugin()
-extern void System_UPxr_LoadPICOPlugin_mE99BA0018FE5F6C14E925DA543A20DFB6C81CC26 (void);
+extern void System_UPxr_LoadPICOPlugin_m823104D06EFBB45B168794AA6C2DD59761F28C61 (void);
 // 0x0000039F System.Void Unity.XR.PXR.PXR_Plugin/System::UPxr_UnloadPICOPlugin()
-extern void System_UPxr_UnloadPICOPlugin_m91492A83DF572B420BEDF696DC741550C4824601 (void);
+extern void System_UPxr_UnloadPICOPlugin_m2EB2D8A5913F253FB324ADFE832E5D2125944E20 (void);
 // 0x000003A0 System.Boolean Unity.XR.PXR.PXR_Plugin/System::UPxr_QueryDeviceAbilities(Unity.XR.PXR.PxrDeviceAbilities)
-extern void System_UPxr_QueryDeviceAbilities_mE1CC5D9B2B428F69E1205F52E6648C0D8A47D522 (void);
+extern void System_UPxr_QueryDeviceAbilities_m2E22B1DD5DF78C7F189D7748DA672352C7E3D496 (void);
 // 0x000003A1 System.Void Unity.XR.PXR.PXR_Plugin/System::UPxr_InitializeFocusCallback()
-extern void System_UPxr_InitializeFocusCallback_mA25DC1A94F8F83FB66B69BF4750B76C3F5D7296E (void);
+extern void System_UPxr_InitializeFocusCallback_mCADFA88152226F46D2938CD5312E9F0214981E0A (void);
 // 0x000003A2 System.Void Unity.XR.PXR.PXR_Plugin/System::UPxr_DeinitializeFocusCallback()
-extern void System_UPxr_DeinitializeFocusCallback_mA4CD32B3B2B3CAB55474771FCEAF464EBB258E92 (void);
+extern void System_UPxr_DeinitializeFocusCallback_m5F864535EA484EB74508D4DDA48EE73FE64D136B (void);
 // 0x000003A3 System.Void Unity.XR.PXR.PXR_Plugin/System::UPxr_SetInputDeviceChangedCallBack(Unity.XR.PXR.InputDeviceChangedCallBack)
-extern void System_UPxr_SetInputDeviceChangedCallBack_m9DBEAFD91884A5D2C41111790C31EA0FC360CC84 (void);
+extern void System_UPxr_SetInputDeviceChangedCallBack_m10E57207C17C815AEDBCB59301512EA9A80DB722 (void);
 // 0x000003A4 System.Void Unity.XR.PXR.PXR_Plugin/System::UPxr_SetSeethroughStateChangedCallBack(Unity.XR.PXR.SeethroughStateChangedCallBack)
-extern void System_UPxr_SetSeethroughStateChangedCallBack_m26B214501B3EFAE90034D0F907948DED21A7E000 (void);
+extern void System_UPxr_SetSeethroughStateChangedCallBack_m6936EA5C26D94E2570FE5C11F2A40295CF7AEC32 (void);
 // 0x000003A5 System.Boolean Unity.XR.PXR.PXR_Plugin/System::UPxr_GetFocusState()
-extern void System_UPxr_GetFocusState_m9F0FD1163479961995F25BA2158C5CD82CC91830 (void);
+extern void System_UPxr_GetFocusState_m88651C11DB5FFA313E181529085C8ED99C8ABE88 (void);
 // 0x000003A6 System.Boolean Unity.XR.PXR.PXR_Plugin/System::UPxr_IsSensorReady()
-extern void System_UPxr_IsSensorReady_m7580E9521052204CACD8754EC2E11B3A2B5A1CFD (void);
+extern void System_UPxr_IsSensorReady_m652CA4A3BD8783F3D2A9E825E12A7FB435786983 (void);
 // 0x000003A7 System.Void Unity.XR.PXR.PXR_Plugin/System::UPxr_SetSRPState(System.Boolean)
-extern void System_UPxr_SetSRPState_m79105808A89658489ECB5C7024138BC0C08E89A5 (void);
+extern void System_UPxr_SetSRPState_mEA81863D3E765F5ACBA3450B906AA58DC4972C36 (void);
 // 0x000003A8 System.Void Unity.XR.PXR.PXR_Plugin/System::UPxr_FocusUpdate()
-extern void System_UPxr_FocusUpdate_mCFD1AB883FA9354B6363B0C8314B1419B23AA65C (void);
+extern void System_UPxr_FocusUpdate_mC1F0F573244DDD6065979E136430D11D6EA92554 (void);
 // 0x000003A9 System.Void Unity.XR.PXR.PXR_Plugin/System::UPxr_SensorReadyStateUpdate()
-extern void System_UPxr_SensorReadyStateUpdate_m71A2507D2E3DEFC71D0E4F0B4AF8A0F6D609DE10 (void);
+extern void System_UPxr_SensorReadyStateUpdate_mCC967B57BAA43151532FB4B4C56C9278937A93E5 (void);
 // 0x000003AA System.String Unity.XR.PXR.PXR_Plugin/System::UPxr_GetSDKVersion()
-extern void System_UPxr_GetSDKVersion_m50EB03E7E2EB8DB12F9DA8FC81BB9F3FD3C6076B (void);
+extern void System_UPxr_GetSDKVersion_m59073B1B1C92E104604774FACC80B0543D8AEB77 (void);
 // 0x000003AB System.Single Unity.XR.PXR.PXR_Plugin/System::UPxr_GetSystemDisplayFrequency()
-extern void System_UPxr_GetSystemDisplayFrequency_m8E65BD35D1A17AAA23264EA5930D72B8BF8C0D80 (void);
+extern void System_UPxr_GetSystemDisplayFrequency_m401D292231006B5A7F34B9AB36DB98F738171F36 (void);
 // 0x000003AC System.Single Unity.XR.PXR.PXR_Plugin/System::UPxr_GetMrcY()
-extern void System_UPxr_GetMrcY_mE3056658C69A4530944E12B5B5BF22F1EE75DE93 (void);
+extern void System_UPxr_GetMrcY_m63738A6318B24752257E8120F648EB5FADEEFBCE (void);
 // 0x000003AD System.Double Unity.XR.PXR.PXR_Plugin/System::UPxr_GetPredictedDisplayTime()
-extern void System_UPxr_GetPredictedDisplayTime_m595119021AD870A134CF53092A19EFB240E7363C (void);
+extern void System_UPxr_GetPredictedDisplayTime_mDFDCB1F2B93F83B1AA104C9604024FF51D98482B (void);
 // 0x000003AE System.Boolean Unity.XR.PXR.PXR_Plugin/System::UPxr_SetExtraLatencyMode(System.Int32)
-extern void System_UPxr_SetExtraLatencyMode_m7DD1BFC180E078766DDC5F054748A9A623D778CF (void);
+extern void System_UPxr_SetExtraLatencyMode_mDC96709B1BD54C3B817014B2F4D006AC5B699EA1 (void);
 // 0x000003AF System.Void Unity.XR.PXR.PXR_Plugin/System::UPxr_SetUserDefinedSettings(Unity.XR.PXR.UserDefinedSettings)
-extern void System_UPxr_SetUserDefinedSettings_mB75FB54E8E23A3254269AC0DF4A0AFB48CCF2C05 (void);
+extern void System_UPxr_SetUserDefinedSettings_mCA249829FCCE4DDFA9D28604EE7F4EDB7F36E094 (void);
 // 0x000003B0 System.Void Unity.XR.PXR.PXR_Plugin/System::UPxr_Construct(Unity.XR.PXR.PXR_Loader/ConvertRotationWith2VectorDelegate)
-extern void System_UPxr_Construct_m1F22816F634487E38546C1A7EBF9F9296BDFE832 (void);
+extern void System_UPxr_Construct_mEB27CB31C789601B956FA6D6E2A2D8BEF9364067 (void);
 // 0x000003B1 System.Boolean Unity.XR.PXR.PXR_Plugin/System::UPxr_GetHomeKey()
-extern void System_UPxr_GetHomeKey_m0E6478656C14C02A65B583FB71B32C5C2753D865 (void);
+extern void System_UPxr_GetHomeKey_m93E1BD962BC432D254585A1C970FDA66AD3AF72E (void);
 // 0x000003B2 System.Void Unity.XR.PXR.PXR_Plugin/System::UPxr_InitHomeKey()
-extern void System_UPxr_InitHomeKey_m31528E8FB41BB69380FCB7AFDF32A25C3BEA13AA (void);
+extern void System_UPxr_InitHomeKey_m364624A142B3355F039B221743739ECCC7BE96B6 (void);
 // 0x000003B3 System.Boolean Unity.XR.PXR.PXR_Plugin/System::UPxr_GetMRCEnable()
-extern void System_UPxr_GetMRCEnable_mDC5B089105A880FDBFB1FBCA97ABDE6A3F7C84B7 (void);
+extern void System_UPxr_GetMRCEnable_m2963CDA657A1BDCCCF8F88726114DDBE1F62712D (void);
 // 0x000003B4 System.Int32 Unity.XR.PXR.PXR_Plugin/System::UPxr_SetMRCTextureID(System.UInt64)
-extern void System_UPxr_SetMRCTextureID_m859393739623EEA268E63D8D622CEFF4801350A1 (void);
+extern void System_UPxr_SetMRCTextureID_mC167E9B66E0B14503B7074827A7A9A599B7893E8 (void);
 // 0x000003B5 System.Int32 Unity.XR.PXR.PXR_Plugin/System::UPxr_SetMRCTextureID2(System.UInt64)
-extern void System_UPxr_SetMRCTextureID2_m59E5901F8B1D445C1EA51A126A6B336F56AD606A (void);
+extern void System_UPxr_SetMRCTextureID2_mF1E8FD5C25A40D57676663BA9B11E312C9D56BF8 (void);
 // 0x000003B6 System.Int32 Unity.XR.PXR.PXR_Plugin/System::UPxr_SetMrcTextutrWidth(System.UInt64)
-extern void System_UPxr_SetMrcTextutrWidth_m9920D43EFB6AFFFAF622697B73C9E0B0284F6E67 (void);
+extern void System_UPxr_SetMrcTextutrWidth_m3D38827B15A356FFF6B7E344381FF20C8FC4EC2B (void);
 // 0x000003B7 System.Int32 Unity.XR.PXR.PXR_Plugin/System::UPxr_SetMrcTextutrHeight(System.UInt64)
-extern void System_UPxr_SetMrcTextutrHeight_m192A6BC145BB1E68135991006E9C6434D2AEECE9 (void);
+extern void System_UPxr_SetMrcTextutrHeight_m0B4A3A55F61AE7F9F2E3A1F0FBD0DBD6EE78DB2E (void);
 // 0x000003B8 System.Boolean Unity.XR.PXR.PXR_Plugin/System::UPxr_GetMrcPose(Unity.XR.PXR.PxrPosef&)
-extern void System_UPxr_GetMrcPose_mDFBCA4351CD049D3879329A4B24367573B8F7E7B (void);
+extern void System_UPxr_GetMrcPose_m8D2EA232AE37D1D4E4C5AF7FE83F81BCCCA739C6 (void);
 // 0x000003B9 System.Boolean Unity.XR.PXR.PXR_Plugin/System::UPxr_SetMrcPose(Unity.XR.PXR.PxrPosef&)
-extern void System_UPxr_SetMrcPose_m53D7E89C51B447F34C2807D8A063FD523548F33A (void);
+extern void System_UPxr_SetMrcPose_mE7693B5E082B2E6A086C1A93D4C1FC3F8B71C22D (void);
 // 0x000003BA System.Void Unity.XR.PXR.PXR_Plugin/System::UPxr_SetIsSupportMovingMrc(System.Boolean)
-extern void System_UPxr_SetIsSupportMovingMrc_m966E08D05CE71000C4AF86814932FA2B093D9DE5 (void);
+extern void System_UPxr_SetIsSupportMovingMrc_m8920E3C77EC9322304C35F6F860C56D1FA5108C5 (void);
 // 0x000003BB System.Boolean Unity.XR.PXR.PXR_Plugin/System::UPxr_GetMrcStatus()
-extern void System_UPxr_GetMrcStatus_m1C098C2FB896557FB49365723D1FFC36773C7779 (void);
+extern void System_UPxr_GetMrcStatus_mE5587C1B537250780816D668548A38BAB0B0631F (void);
 // 0x000003BC System.Void Unity.XR.PXR.PXR_Plugin/System::UPxr_EnableEyeTracking(System.Boolean)
-extern void System_UPxr_EnableEyeTracking_mE631459E21AA5C422F14E818F7E6CC7594C52A91 (void);
+extern void System_UPxr_EnableEyeTracking_m0FBEF950099F44962F7B3FCDAA7BB35F4AC9EDBD (void);
 // 0x000003BD System.Void Unity.XR.PXR.PXR_Plugin/System::UPxr_EnableFaceTracking(System.Boolean)
-extern void System_UPxr_EnableFaceTracking_m8DD9B113DD2A814E41EFC0EBA2B61DA7E1F03F05 (void);
+extern void System_UPxr_EnableFaceTracking_m09DF46F585D150FF5474C7024504211161E7F788 (void);
 // 0x000003BE System.Void Unity.XR.PXR.PXR_Plugin/System::UPxr_EnableLipSync(System.Boolean)
-extern void System_UPxr_EnableLipSync_mF7EC2C9F3D4DB5D0FCF62455115F594222E35A6E (void);
+extern void System_UPxr_EnableLipSync_m96A0BCC68BE916C55DB5281A361714BC1DE7FBDF (void);
 // 0x000003BF System.Int32 Unity.XR.PXR.PXR_Plugin/System::UPxr_GetFaceTrackingData(System.Int64,System.Int32,Unity.XR.PXR.PxrFaceTrackingInfo&)
-extern void System_UPxr_GetFaceTrackingData_m83187817C0505355C810EF5C14F1FBCBDF067089 (void);
+extern void System_UPxr_GetFaceTrackingData_m921690B4D2580431ED8600ADBC46136F23CA9C2A (void);
 // 0x000003C0 System.String Unity.XR.PXR.PXR_Plugin/System::UPxr_GetDeviceMode()
-extern void System_UPxr_GetDeviceMode_mB7438C8C6D2CBAED4CD05DA980CCF5D6F20D7C78 (void);
+extern void System_UPxr_GetDeviceMode_m613507D4CF999C9FE59487D319FE1D8573284AAC (void);
 // 0x000003C1 System.Single Unity.XR.PXR.PXR_Plugin/System::UPxr_GetConfigFloat(Unity.XR.PXR.ConfigType)
-extern void System_UPxr_GetConfigFloat_mB555532D64ABD5026565381F6893C585D0F7BBDB (void);
+extern void System_UPxr_GetConfigFloat_mA28408B3BA6BB90FDCC96A64B1D2388F9275B9E8 (void);
 // 0x000003C2 System.Int32 Unity.XR.PXR.PXR_Plugin/System::UPxr_GetConfigInt(Unity.XR.PXR.ConfigType)
-extern void System_UPxr_GetConfigInt_mA7A7F397C61982657BAB047927316B5EE3B9F2C0 (void);
+extern void System_UPxr_GetConfigInt_mBF6751034CB14A1A548817DDCCCC034C68C4E0C2 (void);
 // 0x000003C3 System.Int32 Unity.XR.PXR.PXR_Plugin/System::UPxr_SetConfigInt(Unity.XR.PXR.ConfigType,System.Int32)
-extern void System_UPxr_SetConfigInt_mF17985F91596944E2F6F23A256E4237075B21FFA (void);
+extern void System_UPxr_SetConfigInt_m9C14A9EF161F2FAA436509183C0ECDF7B3FEF21B (void);
 // 0x000003C4 System.Int32 Unity.XR.PXR.PXR_Plugin/System::UPxr_ContentProtect(System.Int32)
-extern void System_UPxr_ContentProtect_m439A559938275FE59839F259AB074C494981B98C (void);
+extern void System_UPxr_ContentProtect_mE99E4B5C50FBD330E55F6232AAD14B8C4F87E07B (void);
 // 0x000003C5 System.Int32 Unity.XR.PXR.PXR_Plugin/System::UPxr_SetConfigString(Unity.XR.PXR.ConfigType,System.String)
-extern void System_UPxr_SetConfigString_m89713ACAF92870FDAE326684589EF68A90AC1490 (void);
+extern void System_UPxr_SetConfigString_m04B17F00AF07536338DBA08ACE83DE5C80B7A8E9 (void);
 // 0x000003C6 System.Int32 Unity.XR.PXR.PXR_Plugin/System::UPxr_SetSystemDisplayFrequency(System.Single)
-extern void System_UPxr_SetSystemDisplayFrequency_m447D590976C5BCCF3619091E41118A0E1D845D0E (void);
+extern void System_UPxr_SetSystemDisplayFrequency_m9044DF37589469863DEF5C7CABB66A981CDFA10C (void);
 // 0x000003C7 System.Int32 Unity.XR.PXR.PXR_Plugin/System::UPxr_SetPerformanceLevels(Unity.XR.PXR.PxrPerfSettings,Unity.XR.PXR.PxrSettingsLevel)
-extern void System_UPxr_SetPerformanceLevels_m021CF2754DE49CDF314F5FB569F3D4C96554096C (void);
+extern void System_UPxr_SetPerformanceLevels_m6C80AA3DDD1D61239DCE9BD232271D13F0E8B5CE (void);
 // 0x000003C8 Unity.XR.PXR.PxrSettingsLevel Unity.XR.PXR.PXR_Plugin/System::UPxr_GetPerformanceLevels(Unity.XR.PXR.PxrPerfSettings)
-extern void System_UPxr_GetPerformanceLevels_mA529CCC6F11B1CB135A926DF047080B866A5BBD3 (void);
+extern void System_UPxr_GetPerformanceLevels_m629F462A50C0FF5F18A5FBF0F7C4E90639D845D5 (void);
 // 0x000003C9 System.Boolean Unity.XR.PXR.PXR_Plugin/System::UPxr_InitAudioDevice()
-extern void System_UPxr_InitAudioDevice_mC5924F7770A87063876055EA6944D8A768D5A261 (void);
+extern void System_UPxr_InitAudioDevice_mECC58F93C6745E618BEFAA3D077CB25E0706D284 (void);
 // 0x000003CA System.Boolean Unity.XR.PXR.PXR_Plugin/System::UPxr_StartBatteryReceiver(System.String)
-extern void System_UPxr_StartBatteryReceiver_m283E2533903639FF2B6B4DFDBE2B45E1C994FF07 (void);
+extern void System_UPxr_StartBatteryReceiver_mBA45A5F4FF5269B9400A2CF4FCE57055A8D16106 (void);
 // 0x000003CB System.Boolean Unity.XR.PXR.PXR_Plugin/System::UPxr_StopBatteryReceiver()
-extern void System_UPxr_StopBatteryReceiver_mC57A3CC4D6E50F6A963EE313892E86F73DEA81C1 (void);
+extern void System_UPxr_StopBatteryReceiver_m45C688805E4F2484DB53FADF13A80B825B5CD9A0 (void);
 // 0x000003CC System.Boolean Unity.XR.PXR.PXR_Plugin/System::UPxr_SetBrightness(System.Int32)
-extern void System_UPxr_SetBrightness_mC29D393E1B86C7A60B13C85B4C9A2FA0560AB9B6 (void);
+extern void System_UPxr_SetBrightness_m2CC28F8E7017BE0CB423DCD642F1F516F4C7AB40 (void);
 // 0x000003CD System.Int32 Unity.XR.PXR.PXR_Plugin/System::UPxr_GetCurrentBrightness()
-extern void System_UPxr_GetCurrentBrightness_mE848CB39AEBD6D414144BD5A9D3A9DA67C5757F6 (void);
+extern void System_UPxr_GetCurrentBrightness_m684E2F59FC0A9A3F98BD0D827FFA21986C6E35B5 (void);
 // 0x000003CE System.Int32[] Unity.XR.PXR.PXR_Plugin/System::UPxr_GetScreenBrightnessLevel()
-extern void System_UPxr_GetScreenBrightnessLevel_mFA5DF92DE639F6E457478008B6A79F2299C9CE45 (void);
+extern void System_UPxr_GetScreenBrightnessLevel_mF1494CBD901F306C61F52B44484907727991D280 (void);
 // 0x000003CF System.Void Unity.XR.PXR.PXR_Plugin/System::UPxr_SetScreenBrightnessLevel(System.Int32,System.Int32)
-extern void System_UPxr_SetScreenBrightnessLevel_m417FBC8BA41D4A0544A9D84BC030CE62D67AB57C (void);
+extern void System_UPxr_SetScreenBrightnessLevel_m170189D990451DADBFD61CF500CA95D006CC2F67 (void);
 // 0x000003D0 System.Boolean Unity.XR.PXR.PXR_Plugin/System::UPxr_StartAudioReceiver(System.String)
-extern void System_UPxr_StartAudioReceiver_mB67F5C0AEF7D0B6C32664098AB0F25AC42A7F003 (void);
+extern void System_UPxr_StartAudioReceiver_m9AF7ADF88DBD102C2B44D71E31C447654481E5FE (void);
 // 0x000003D1 System.Boolean Unity.XR.PXR.PXR_Plugin/System::UPxr_StopAudioReceiver()
-extern void System_UPxr_StopAudioReceiver_m23115EB7BAE3D5479DB96D64E1395BF9DBA80F8C (void);
+extern void System_UPxr_StopAudioReceiver_m5939809C3744024042DF62145211DE21F5349F1D (void);
 // 0x000003D2 System.Int32 Unity.XR.PXR.PXR_Plugin/System::UPxr_GetMaxVolumeNumber()
-extern void System_UPxr_GetMaxVolumeNumber_m0FAE8EA5889D5DF69EF9240790F1D47B37F8C23D (void);
+extern void System_UPxr_GetMaxVolumeNumber_m3E5EBDA29F13C536132DBC84D84B5C9E3BF3F915 (void);
 // 0x000003D3 System.Int32 Unity.XR.PXR.PXR_Plugin/System::UPxr_GetCurrentVolumeNumber()
-extern void System_UPxr_GetCurrentVolumeNumber_m21F49CE07E3B73105A375DA3F2B7550442DCF486 (void);
+extern void System_UPxr_GetCurrentVolumeNumber_m871E49C839326E2C9AF429CB86A9801604E0A3DA (void);
 // 0x000003D4 System.Boolean Unity.XR.PXR.PXR_Plugin/System::UPxr_VolumeUp()
-extern void System_UPxr_VolumeUp_mADF045E27D8FD57F514BF6C03EBA577AD070C484 (void);
+extern void System_UPxr_VolumeUp_m4216FF65A41AD4297FBA6C3AE1F322333ED6ABDC (void);
 // 0x000003D5 System.Boolean Unity.XR.PXR.PXR_Plugin/System::UPxr_VolumeDown()
-extern void System_UPxr_VolumeDown_mEE043FF7E35F1578954C20DFAA28ED516D85E163 (void);
+extern void System_UPxr_VolumeDown_m2A17FA222E01091B167B68CB263692A46739BCF2 (void);
 // 0x000003D6 System.Boolean Unity.XR.PXR.PXR_Plugin/System::UPxr_SetVolumeNum(System.Int32)
-extern void System_UPxr_SetVolumeNum_mF0BCB2F1668FEE3FDCFE83517C2CD089B067F831 (void);
+extern void System_UPxr_SetVolumeNum_m7A9C2FBDF3BAA89A6092AE504D39D64B1887DD23 (void);
 // 0x000003D7 System.String Unity.XR.PXR.PXR_Plugin/System::UPxr_GetDeviceSN()
-extern void System_UPxr_GetDeviceSN_m18DD2B3B8A8E9E70DCE559E0501FB0E9D385BD58 (void);
+extern void System_UPxr_GetDeviceSN_m6103F5BC95CDD31949B17565817EFC4B058884B2 (void);
 // 0x000003D8 System.Void Unity.XR.PXR.PXR_Plugin/System::UPxr_Sleep()
-extern void System_UPxr_Sleep_m2177C71BA6AB445F3CB7DC6E8B95EE0B65C05034 (void);
+extern void System_UPxr_Sleep_m952A90375FD9D97B1202BB432799028E005FFDB8 (void);
 // 0x000003D9 System.Void Unity.XR.PXR.PXR_Plugin/System::UPxr_InitToBService()
-extern void System_UPxr_InitToBService_m6B05D4B80605E76AD8C5B32CA59C64038D50573A (void);
+extern void System_UPxr_InitToBService_mA28B8EC920C2D7D1A6BECC74F491E57834CF7925 (void);
 // 0x000003DA System.Void Unity.XR.PXR.PXR_Plugin/System::UPxr_SetUnityObjectName(System.String)
-extern void System_UPxr_SetUnityObjectName_mAA2736CEBDF6D6383C3B05019EAC48DD3F5B1252 (void);
+extern void System_UPxr_SetUnityObjectName_m62FF5822F2F37A4D893FBD3BD628604D53176009 (void);
 // 0x000003DB System.Void Unity.XR.PXR.PXR_Plugin/System::UPxr_BindSystemService()
-extern void System_UPxr_BindSystemService_m54C29EFE53831962581E1D73F9654716A64FD2D8 (void);
+extern void System_UPxr_BindSystemService_m809F32D7B86630F47162FB754010B7CE3E60E2DB (void);
 // 0x000003DC System.Void Unity.XR.PXR.PXR_Plugin/System::UPxr_UnBindSystemService()
-extern void System_UPxr_UnBindSystemService_m982FB291ABE9B07A8DC3AC30D07DC4A0C0D884B5 (void);
+extern void System_UPxr_UnBindSystemService_mE2FCDCE6F95866A6BB2A16632A5AF58A524F06E4 (void);
 // 0x000003DD UnityEngine.AndroidJavaObject Unity.XR.PXR.PXR_Plugin/System::GetEnumType(System.Enum)
-extern void System_GetEnumType_mC8C9DEFCCB0788D3A8D81F7DCDAB25368BB0D7E1 (void);
+extern void System_GetEnumType_m5FFFC1E1AB8F00E0E81A3C8A6B3ECE3E04518FEC (void);
 // 0x000003DE System.String Unity.XR.PXR.PXR_Plugin/System::UPxr_StateGetDeviceInfo(Unity.XR.PXR.SystemInfoEnum)
-extern void System_UPxr_StateGetDeviceInfo_m1589A6C1D28376378A81F0F665C7F5CE2EDBB36F (void);
+extern void System_UPxr_StateGetDeviceInfo_m794E243B6304B71E1ECF8748FE0D02E72F562EC6 (void);
 // 0x000003DF System.Void Unity.XR.PXR.PXR_Plugin/System::UPxr_ControlSetDeviceAction(Unity.XR.PXR.DeviceControlEnum,System.Action`1<System.Int32>)
-extern void System_UPxr_ControlSetDeviceAction_mDEE78E809251EA5B2C408338010A2830C08BE922 (void);
+extern void System_UPxr_ControlSetDeviceAction_m25A10BEF6CFB5495DF2E8C6686F1DADA958BA57F (void);
 // 0x000003E0 System.Void Unity.XR.PXR.PXR_Plugin/System::UPxr_ControlAPPManager(Unity.XR.PXR.PackageControlEnum,System.String,System.Action`1<System.Int32>)
-extern void System_UPxr_ControlAPPManager_mBF3DDA510DF5D3112BC1A871E38F4DC939418F0F (void);
+extern void System_UPxr_ControlAPPManager_m83552339D86A830E6665213CEB98F1DEEB480B6B (void);
 // 0x000003E1 System.Void Unity.XR.PXR.PXR_Plugin/System::UPxr_ControlSetAutoConnectWIFI(System.String,System.String,System.Action`1<System.Boolean>)
-extern void System_UPxr_ControlSetAutoConnectWIFI_mC114B362BA76483C05831CFFBE24BE26DD079BCE (void);
+extern void System_UPxr_ControlSetAutoConnectWIFI_mEF7BCA8DBD7123962D3414F5EB9DF59D8752DB4C (void);
 // 0x000003E2 System.Void Unity.XR.PXR.PXR_Plugin/System::UPxr_ControlClearAutoConnectWIFI(System.Action`1<System.Boolean>)
-extern void System_UPxr_ControlClearAutoConnectWIFI_m8510056C422D9A31FF49C8554435DEC42F265315 (void);
+extern void System_UPxr_ControlClearAutoConnectWIFI_m152D18F4CE6ABDCF4A0675374C08BA5B35A1A0F0 (void);
 // 0x000003E3 System.Void Unity.XR.PXR.PXR_Plugin/System::UPxr_PropertySetHomeKey(Unity.XR.PXR.HomeEventEnum,Unity.XR.PXR.HomeFunctionEnum,System.Action`1<System.Boolean>)
-extern void System_UPxr_PropertySetHomeKey_mAB700D3A018DDBA145CA6604A3A7967CA194145F (void);
+extern void System_UPxr_PropertySetHomeKey_m8C2F9C9B677441241EDC6668D45FABD4D3A5E3B7 (void);
 // 0x000003E4 System.Void Unity.XR.PXR.PXR_Plugin/System::UPxr_PropertySetHomeKeyAll(Unity.XR.PXR.HomeEventEnum,Unity.XR.PXR.HomeFunctionEnum,System.Int32,System.String,System.String,System.Action`1<System.Boolean>)
-extern void System_UPxr_PropertySetHomeKeyAll_mD20B9124D30C0CDD806BF57137B869F043E3BE47 (void);
+extern void System_UPxr_PropertySetHomeKeyAll_m651729B2768074B79F4C90D667590E6F48BCBEFE (void);
 // 0x000003E5 System.Void Unity.XR.PXR.PXR_Plugin/System::UPxr_PropertyDisablePowerKey(System.Boolean,System.Boolean,System.Action`1<System.Int32>)
-extern void System_UPxr_PropertyDisablePowerKey_mCD773CCDDAD734265B1364DC1E89F726502F5987 (void);
+extern void System_UPxr_PropertyDisablePowerKey_m3A3B0574F159987D6A128B724510A15EBD281BD8 (void);
 // 0x000003E6 System.Void Unity.XR.PXR.PXR_Plugin/System::UPxr_PropertySetScreenOffDelay(Unity.XR.PXR.ScreenOffDelayTimeEnum,System.Action`1<System.Int32>)
-extern void System_UPxr_PropertySetScreenOffDelay_m5CEE288D2DE2597E7A351BEF48B2A11E8F4CFA35 (void);
+extern void System_UPxr_PropertySetScreenOffDelay_mBD714B8C7F4A36523E139A56D26E2E1D67F9C163 (void);
 // 0x000003E7 System.Void Unity.XR.PXR.PXR_Plugin/System::UPxr_PropertySetSleepDelay(Unity.XR.PXR.SleepDelayTimeEnum)
-extern void System_UPxr_PropertySetSleepDelay_m652B4F9E133A9635217CCB40D14C1DC964C5AE42 (void);
+extern void System_UPxr_PropertySetSleepDelay_m35D44FC5DE2ABDBFC07DDAC2632621CCCA78A365 (void);
 // 0x000003E8 System.Void Unity.XR.PXR.PXR_Plugin/System::UPxr_SwitchSystemFunction(Unity.XR.PXR.SystemFunctionSwitchEnum,Unity.XR.PXR.SwitchEnum)
-extern void System_UPxr_SwitchSystemFunction_m66669096142FCF48ED5768C70FB1391353122626 (void);
+extern void System_UPxr_SwitchSystemFunction_m1308E38083A526C70505FB1806D974843C451459 (void);
 // 0x000003E9 System.Void Unity.XR.PXR.PXR_Plugin/System::UPxr_SwitchSetUsbConfigurationOption(Unity.XR.PXR.USBConfigModeEnum)
-extern void System_UPxr_SwitchSetUsbConfigurationOption_m284A6560ACB278384CE1742D6A26C30C92F4F13E (void);
+extern void System_UPxr_SwitchSetUsbConfigurationOption_m9B667F1AB5B46C495656409CAF91A4A06A4E5982 (void);
 // 0x000003EA System.Void Unity.XR.PXR.PXR_Plugin/System::UPxr_SetControllerPairTime(Unity.XR.PXR.ControllerPairTimeEnum,System.Action`1<System.Int32>)
-extern void System_UPxr_SetControllerPairTime_mBAE1B658FBA1DB6A2178CF14BB1E2FB5DA1CFA0A (void);
+extern void System_UPxr_SetControllerPairTime_m02B3B49BFCFC2C27E398EE29FC6B311EAEF0D148 (void);
 // 0x000003EB System.Void Unity.XR.PXR.PXR_Plugin/System::UPxr_GetControllerPairTime(System.Action`1<System.Int32>)
-extern void System_UPxr_GetControllerPairTime_m77B1DA1CCD52EBDAB8107A62944D27A0B14A2C12 (void);
+extern void System_UPxr_GetControllerPairTime_mD45F539A7202E68192D9AB27BB849BFBDF6E503A (void);
 // 0x000003EC System.Void Unity.XR.PXR.PXR_Plugin/System::UPxr_ScreenOn()
-extern void System_UPxr_ScreenOn_m6AED151D34AEAA9F9E2206B5E3B810116C9EAAF3 (void);
+extern void System_UPxr_ScreenOn_m565E5C6FF725E6A4D83FFBC73D241AB9139208EE (void);
 // 0x000003ED System.Void Unity.XR.PXR.PXR_Plugin/System::UPxr_ScreenOff()
-extern void System_UPxr_ScreenOff_m9C8A4B90288AB4651459569EA5723E438296F317 (void);
+extern void System_UPxr_ScreenOff_mF14636D89AC0499E2F98BEA7C78A669C33A56458 (void);
 // 0x000003EE System.Void Unity.XR.PXR.PXR_Plugin/System::UPxr_AcquireWakeLock()
-extern void System_UPxr_AcquireWakeLock_m479F99F7DABE4AB5476D9467B3438BF7F2A320EF (void);
+extern void System_UPxr_AcquireWakeLock_m1E1BB8C5660365589046ED5DBE5158E221AB8F44 (void);
 // 0x000003EF System.Void Unity.XR.PXR.PXR_Plugin/System::UPxr_ReleaseWakeLock()
-extern void System_UPxr_ReleaseWakeLock_m8529503C2C84BAB6E53F189E3166C209A8219D36 (void);
+extern void System_UPxr_ReleaseWakeLock_mCD1674FCC70600E089B50C3CD9853715C6D0D5A3 (void);
 // 0x000003F0 System.Void Unity.XR.PXR.PXR_Plugin/System::UPxr_EnableEnterKey()
-extern void System_UPxr_EnableEnterKey_m8E90156BF8BBF9D5EA9BBCB15D7BD5415841E569 (void);
+extern void System_UPxr_EnableEnterKey_mD479B8546EE6CFDEE850D764A5D92F91E3C52CFC (void);
 // 0x000003F1 System.Void Unity.XR.PXR.PXR_Plugin/System::UPxr_DisableEnterKey()
-extern void System_UPxr_DisableEnterKey_m6E49DF9FDCF521E796741F08ED3E9AC8CDB2E39A (void);
+extern void System_UPxr_DisableEnterKey_m976E77E23CD89A370BC3014C044D316FE6C08BE6 (void);
 // 0x000003F2 System.Void Unity.XR.PXR.PXR_Plugin/System::UPxr_EnableVolumeKey()
-extern void System_UPxr_EnableVolumeKey_mF84E4E36B54E995443E73AA1DBA672BC85369F41 (void);
+extern void System_UPxr_EnableVolumeKey_m7EF93FD1642D38F17FED85C96A95DE04A6125D85 (void);
 // 0x000003F3 System.Void Unity.XR.PXR.PXR_Plugin/System::UPxr_DisableVolumeKey()
-extern void System_UPxr_DisableVolumeKey_mFB197B230D3DB76B6D4445D02FAABDE900CD57A3 (void);
+extern void System_UPxr_DisableVolumeKey_mC2C8B55E7DCB1AC895BC3053F9DBB5EBA5C58D71 (void);
 // 0x000003F4 System.Void Unity.XR.PXR.PXR_Plugin/System::UPxr_EnableBackKey()
-extern void System_UPxr_EnableBackKey_m57B600663BF860B2629CF3EB6FFE948BC1C57869 (void);
+extern void System_UPxr_EnableBackKey_m7D51969EB6660C3884B40DF458D17BC063004CD7 (void);
 // 0x000003F5 System.Void Unity.XR.PXR.PXR_Plugin/System::UPxr_DisableBackKey()
-extern void System_UPxr_DisableBackKey_mB814807AE1DFE2241F7FB6F7AFFAEA260C588401 (void);
+extern void System_UPxr_DisableBackKey_m19DE608FD5C163D20592379E0F6CC133C1F3D26E (void);
 // 0x000003F6 System.Void Unity.XR.PXR.PXR_Plugin/System::UPxr_WriteConfigFileToDataLocal(System.String,System.String,System.Action`1<System.Boolean>)
-extern void System_UPxr_WriteConfigFileToDataLocal_mD03BB54256A71CE17ACBE7B14B36108CFE3EF342 (void);
+extern void System_UPxr_WriteConfigFileToDataLocal_mEAABD798BD42647B5215BE7183BDB2D5F99B420C (void);
 // 0x000003F7 System.Void Unity.XR.PXR.PXR_Plugin/System::UPxr_ResetAllKeyToDefault(System.Action`1<System.Boolean>)
-extern void System_UPxr_ResetAllKeyToDefault_m641C14218CAF3E73100B45C6153CF55EE36635A0 (void);
+extern void System_UPxr_ResetAllKeyToDefault_mDF49C0D5AFB8F223BB9E1BA308C1045071C2D578 (void);
 // 0x000003F8 System.Void Unity.XR.PXR.PXR_Plugin/System::UPxr_SetAPPAsHome(Unity.XR.PXR.SwitchEnum,System.String)
-extern void System_UPxr_SetAPPAsHome_mE64ACB4CD3AF7AAFBB020103FBCB48876EBC1061 (void);
+extern void System_UPxr_SetAPPAsHome_m2C3BD1F895E0DA32C8AAEAC87C4C371669454472 (void);
 // 0x000003F9 System.Void Unity.XR.PXR.PXR_Plugin/System::UPxr_KillAppsByPidOrPackageName(System.Int32[],System.String[])
-extern void System_UPxr_KillAppsByPidOrPackageName_m7B697A13FF27F6597E6822B3470930599D8DCCAD (void);
+extern void System_UPxr_KillAppsByPidOrPackageName_m4F72939EB5E412C10B838A5D26806D1CE06C2D53 (void);
 // 0x000003FA System.Void Unity.XR.PXR.PXR_Plugin/System::UPxr_KillBackgroundAppsWithWhiteList(System.String[])
-extern void System_UPxr_KillBackgroundAppsWithWhiteList_mDF61D21846C05BD1A03D8424A8718C8ABBE73498 (void);
+extern void System_UPxr_KillBackgroundAppsWithWhiteList_m3B7C5EA9A6EADE9CA8D0DC7AC0252FBC26546B6C (void);
 // 0x000003FB System.Void Unity.XR.PXR.PXR_Plugin/System::UPxr_FreezeScreen(System.Boolean)
-extern void System_UPxr_FreezeScreen_mBB6EC9AFB68793BDCB3EE78268576E1CD118B893 (void);
+extern void System_UPxr_FreezeScreen_mF53978E618827B2F3C0664EA6B3ADA4A9A0889EE (void);
 // 0x000003FC System.Void Unity.XR.PXR.PXR_Plugin/System::UPxr_OpenMiracast()
-extern void System_UPxr_OpenMiracast_m26ADA3DF18F17063F13A0AADD8BA7D52ABD62085 (void);
+extern void System_UPxr_OpenMiracast_m2975E1AF5CD6394369468D0F0BA5E16DEB33F173 (void);
 // 0x000003FD System.Boolean Unity.XR.PXR.PXR_Plugin/System::UPxr_IsMiracastOn()
-extern void System_UPxr_IsMiracastOn_mB69AA8A9B1C495E5A8970B9B6C3BE164459F168E (void);
+extern void System_UPxr_IsMiracastOn_mA5751314E9BE929E708958018795F967AE808B21 (void);
 // 0x000003FE System.Void Unity.XR.PXR.PXR_Plugin/System::UPxr_CloseMiracast()
-extern void System_UPxr_CloseMiracast_mCDC397D3E63DF7FE31DD4F64438ED40AD5D6E00E (void);
+extern void System_UPxr_CloseMiracast_m47D67FC00155A218B08E73C134F99DABE4E82250 (void);
 // 0x000003FF System.Void Unity.XR.PXR.PXR_Plugin/System::UPxr_StartScan()
-extern void System_UPxr_StartScan_mBE5AF2E6F54E6B658F7D5FB5153FBA8779A0A20E (void);
+extern void System_UPxr_StartScan_m644BA744BC7806C713AFEBD0839CF366624B2AD2 (void);
 // 0x00000400 System.Void Unity.XR.PXR.PXR_Plugin/System::UPxr_StopScan()
-extern void System_UPxr_StopScan_mD5F8B045239DE1692436D70291AF4342FE49DFC1 (void);
+extern void System_UPxr_StopScan_m6F05F1D60FF6A41C40642FFD3236CD7F9224777A (void);
 // 0x00000401 System.Void Unity.XR.PXR.PXR_Plugin/System::UPxr_ConnectWifiDisplay(System.String)
-extern void System_UPxr_ConnectWifiDisplay_mEE1A47AEC28D3177FFFBED92D0AB636F941877ED (void);
+extern void System_UPxr_ConnectWifiDisplay_mC4568349AE7C03F6E6ABD9D4EF42B2DE7D5AE750 (void);
 // 0x00000402 System.Void Unity.XR.PXR.PXR_Plugin/System::UPxr_DisConnectWifiDisplay()
-extern void System_UPxr_DisConnectWifiDisplay_mC379B234D5071E6812230BAC8ABE7C4457A2BF43 (void);
+extern void System_UPxr_DisConnectWifiDisplay_mCBA65E875955611B46D8ACA673A936231CE594FB (void);
 // 0x00000403 System.Void Unity.XR.PXR.PXR_Plugin/System::UPxr_ForgetWifiDisplay(System.String)
-extern void System_UPxr_ForgetWifiDisplay_m37A200FA82D3D2475E140C7965A95008637D579C (void);
+extern void System_UPxr_ForgetWifiDisplay_mACB0B2ED51A19521A313873013B0E63380073035 (void);
 // 0x00000404 System.Void Unity.XR.PXR.PXR_Plugin/System::UPxr_RenameWifiDisplay(System.String,System.String)
-extern void System_UPxr_RenameWifiDisplay_mC4DCC1C312648E8CFDCD03D95CC098D347E4221B (void);
+extern void System_UPxr_RenameWifiDisplay_m8120E629489CE41BA190AB1EB0E27DB79D8C1982 (void);
 // 0x00000405 System.Void Unity.XR.PXR.PXR_Plugin/System::UPxr_SetWDModelsCallback()
-extern void System_UPxr_SetWDModelsCallback_m0FEA68AFC97F849C86633467353CDAA9C4304E09 (void);
+extern void System_UPxr_SetWDModelsCallback_m2E21BD4D3DBC7C90F879F3BFF9086185A9F3A9E2 (void);
 // 0x00000406 System.Void Unity.XR.PXR.PXR_Plugin/System::UPxr_SetWDJsonCallback()
-extern void System_UPxr_SetWDJsonCallback_m12E836C41D846D2C7AC9AD9CC1CB4C0A02DD2F60 (void);
+extern void System_UPxr_SetWDJsonCallback_m1A669A76AEE0A3CB3F6BF41612E9C8E1764B2CA2 (void);
 // 0x00000407 System.Void Unity.XR.PXR.PXR_Plugin/System::UPxr_UpdateWifiDisplays(System.Action`1<System.String>)
-extern void System_UPxr_UpdateWifiDisplays_mB1761B5420E1C7DBB80C4AD44607F3E8FCD1F9C8 (void);
+extern void System_UPxr_UpdateWifiDisplays_m919DB20B953A393C729BE33CAC3DC9D49726E582 (void);
 // 0x00000408 System.String Unity.XR.PXR.PXR_Plugin/System::UPxr_GetConnectedWD()
-extern void System_UPxr_GetConnectedWD_m45CBD1DD47A784489A14A841DA0D8FF12E1F3876 (void);
+extern void System_UPxr_GetConnectedWD_m2486CE8267576DEC8FF4D036A360D700376E6E2D (void);
 // 0x00000409 System.Void Unity.XR.PXR.PXR_Plugin/System::UPxr_SwitchLargeSpaceScene(System.Boolean,System.Action`1<System.Boolean>)
-extern void System_UPxr_SwitchLargeSpaceScene_m4C24E69B79473DC36C59A212FA9BD5A05D0C54B6 (void);
+extern void System_UPxr_SwitchLargeSpaceScene_mDBC3A37372998310AE69CA6B6847E43289C648A0 (void);
 // 0x0000040A System.Void Unity.XR.PXR.PXR_Plugin/System::UPxr_GetSwitchLargeSpaceStatus(System.Action`1<System.String>)
-extern void System_UPxr_GetSwitchLargeSpaceStatus_m75897F989E77F9559E740A51CDBDA2AA57383D30 (void);
+extern void System_UPxr_GetSwitchLargeSpaceStatus_m204B1213B2DA0B10CBA5F0DEACF2E6D98E723A57 (void);
 // 0x0000040B System.Boolean Unity.XR.PXR.PXR_Plugin/System::UPxr_SaveLargeSpaceMaps()
-extern void System_UPxr_SaveLargeSpaceMaps_m3452A3D81C32E8F50A9F7F759E9AB3C6AF39CE91 (void);
+extern void System_UPxr_SaveLargeSpaceMaps_m08671DEF8C2F30FDD6FA9542F624AADA2C6BEB75 (void);
 // 0x0000040C System.Void Unity.XR.PXR.PXR_Plugin/System::UPxr_ExportMaps(System.Action`1<System.Boolean>)
-extern void System_UPxr_ExportMaps_mA2049422AF4CDEB889062DA57C0DAA2B84943BDB (void);
+extern void System_UPxr_ExportMaps_mD783A1E58F626109E736DC7977FA85F5EDE0B0B0 (void);
 // 0x0000040D System.Void Unity.XR.PXR.PXR_Plugin/System::UPxr_ImportMaps(System.Action`1<System.Boolean>)
-extern void System_UPxr_ImportMaps_m513C226E498F5FBED2CD852ACE632A10811EC780 (void);
+extern void System_UPxr_ImportMaps_m2F0649D29900CF92A97D5F1BCFB7B9F31522B01F (void);
 // 0x0000040E System.Single[] Unity.XR.PXR.PXR_Plugin/System::UPxr_GetCpuUsages()
-extern void System_UPxr_GetCpuUsages_m7882BDFEE8F88C484EDBCDC7D964ACDE7A977558 (void);
+extern void System_UPxr_GetCpuUsages_mCD214470CA82EDD598ED250DE1BC3DEF3E807879 (void);
 // 0x0000040F System.Single[] Unity.XR.PXR.PXR_Plugin/System::UPxr_GetDeviceTemperatures(System.Int32,System.Int32)
-extern void System_UPxr_GetDeviceTemperatures_mF0253ED1C3C7802523A9ECA4A8A83CF6647FF43A (void);
+extern void System_UPxr_GetDeviceTemperatures_m23B8B2EC6B7AAB2CA1469AF9A9E686093D29B8A2 (void);
 // 0x00000410 System.Void Unity.XR.PXR.PXR_Plugin/System::UPxr_Capture()
-extern void System_UPxr_Capture_m75680C618900CA9AFAADB96CF409C54987E5C77E (void);
+extern void System_UPxr_Capture_mC32090D3AA459178175E2630125D628E1F7A55AC (void);
 // 0x00000411 System.Void Unity.XR.PXR.PXR_Plugin/System::UPxr_Record()
-extern void System_UPxr_Record_m3833FC8054F84564D58814D4C1C180A8A706D838 (void);
+extern void System_UPxr_Record_m2051AF4A4470EEB1609BAAE626D4888152A7289C (void);
 // 0x00000412 System.Void Unity.XR.PXR.PXR_Plugin/System::UPxr_ControlSetAutoConnectWIFIWithErrorCodeCallback(System.String,System.String,System.Int32,System.Action`1<System.Int32>)
-extern void System_UPxr_ControlSetAutoConnectWIFIWithErrorCodeCallback_m834C56170F63D56665AC38642906981C1040CFBE (void);
+extern void System_UPxr_ControlSetAutoConnectWIFIWithErrorCodeCallback_mEB738FB22FD248DC13CFDAD9A88E30C843D157E8 (void);
 // 0x00000413 System.Void Unity.XR.PXR.PXR_Plugin/System::UPxr_AppKeepAlive(System.String,System.Boolean,System.Int32)
-extern void System_UPxr_AppKeepAlive_m37ED996A16DD40E6B4CC39FB4ED8E7BC07D85520 (void);
+extern void System_UPxr_AppKeepAlive_mB99DC4C3924D08E325D300DABF4A9E37DAFBDA66 (void);
 // 0x00000414 System.Void Unity.XR.PXR.PXR_Plugin/System::UPxr_TimingStartup(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Boolean)
-extern void System_UPxr_TimingStartup_mC3082976E93735A33D206AC04480E328E7EE8A18 (void);
+extern void System_UPxr_TimingStartup_m6CC9E96ABB986A4BB7047790FA67D02096E793FE (void);
 // 0x00000415 System.Void Unity.XR.PXR.PXR_Plugin/System::UPxr_TimingShutdown(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Boolean)
-extern void System_UPxr_TimingShutdown_mD02C0AE479152C82B4D1523E67240BD07F6AD729 (void);
+extern void System_UPxr_TimingShutdown_m5CD98248798B1F439A6600281EC66384A127095A (void);
 // 0x00000416 System.Void Unity.XR.PXR.PXR_Plugin/System::UPxr_StartVrSettingsItem(Unity.XR.PXR.StartVRSettingsEnum,System.Boolean,System.Int32)
-extern void System_UPxr_StartVrSettingsItem_mF4DF5C74298AE170D64F8B511EA4F7309274B8D2 (void);
+extern void System_UPxr_StartVrSettingsItem_mEEE5CF180B1C7134E41AE23FB49B3EEA76365E20 (void);
 // 0x00000417 System.Void Unity.XR.PXR.PXR_Plugin/System::UPxr_SwitchVolumeToHomeAndEnter(Unity.XR.PXR.SwitchEnum,System.Int32)
-extern void System_UPxr_SwitchVolumeToHomeAndEnter_mCB52C93067062494AD0E87D17CEB8ACFCCC97F0B (void);
+extern void System_UPxr_SwitchVolumeToHomeAndEnter_mC2273D0098FB5159A4F35AC7A2FFDA2FE204E88C (void);
 // 0x00000418 Unity.XR.PXR.SwitchEnum Unity.XR.PXR.PXR_Plugin/System::UPxr_IsVolumeChangeToHomeAndEnter()
-extern void System_UPxr_IsVolumeChangeToHomeAndEnter_mA752515EEE3648536CC3F380806BF85A492CF824 (void);
+extern void System_UPxr_IsVolumeChangeToHomeAndEnter_mCDDFFE1ECBD847888DAACBEE9A7B19A2849D479A (void);
 // 0x00000419 System.Void Unity.XR.PXR.PXR_Plugin/System::UPxr_SetSecure(System.Boolean)
-extern void System_UPxr_SetSecure_mDE1B999D4775736920490FF97280D0ABC3950249 (void);
+extern void System_UPxr_SetSecure_m4A897BAECF63282F8B0A385A1AF560564972676C (void);
 // 0x0000041A System.Int32 Unity.XR.PXR.PXR_Plugin/System::UPxr_GetColorRes(System.String)
-extern void System_UPxr_GetColorRes_m73159A9BA10679C26AB3D0A5632E59FA001941E4 (void);
+extern void System_UPxr_GetColorRes_m9CCCBB3B3C76A99986AEC7C31E165DFA991D1E03 (void);
 // 0x0000041B System.Int32 Unity.XR.PXR.PXR_Plugin/System::UPxr_GetConfigInt(System.String)
-extern void System_UPxr_GetConfigInt_mEB0DE2CC25E25172DDBEFDF35438273CDCC34D0E (void);
+extern void System_UPxr_GetConfigInt_m28696EDCC50CCA9AB40629A6270227A1C49C1F48 (void);
 // 0x0000041C System.String Unity.XR.PXR.PXR_Plugin/System::UPxr_GetConfigString(System.String)
-extern void System_UPxr_GetConfigString_m8D4DC7F184B5363C7D2AF34FE8D3D19FB4DF6E8F (void);
+extern void System_UPxr_GetConfigString_m48A9BD97A2FD48B476D4938563D56F7AFA0CC416 (void);
 // 0x0000041D System.String Unity.XR.PXR.PXR_Plugin/System::UPxr_GetDrawableLocation(System.String)
-extern void System_UPxr_GetDrawableLocation_mEB7E6BA93025B30566D90A762B69A5BE9CA76F24 (void);
+extern void System_UPxr_GetDrawableLocation_mF8325284EDDA22AB43A5B4668B64144257BB6197 (void);
 // 0x0000041E System.Int32 Unity.XR.PXR.PXR_Plugin/System::UPxr_GetTextSize(System.String)
-extern void System_UPxr_GetTextSize_mA03CDC1B6BDA4FB0D24DEF89F434B68192445A5A (void);
+extern void System_UPxr_GetTextSize_mE04EAACC0FDD30DC2D6BDA7FE94970E524157B7C (void);
 // 0x0000041F System.String Unity.XR.PXR.PXR_Plugin/System::UPxr_GetLangString(System.String)
-extern void System_UPxr_GetLangString_m4FA12F024DF7813935B6FA246136E1CFDFB1D0CF (void);
+extern void System_UPxr_GetLangString_m3E1945149546EA7FFB64F3A9899E57B86376DED8 (void);
 // 0x00000420 System.String Unity.XR.PXR.PXR_Plugin/System::UPxr_GetStringValue(System.String,System.Int32)
-extern void System_UPxr_GetStringValue_m1F85EE851E45AA1238A76730624E0B0593575429 (void);
+extern void System_UPxr_GetStringValue_m16C8B1FC5A8279C449E3D31689DBF90160B37AC2 (void);
 // 0x00000421 System.Int32 Unity.XR.PXR.PXR_Plugin/System::UPxr_GetIntValue(System.String,System.Int32)
-extern void System_UPxr_GetIntValue_mE8E9505A98A3FB85431BBF0E2F3994E61A32BC30 (void);
+extern void System_UPxr_GetIntValue_m4FC65B356D0E3D0422754A946CF7023BFE3EF1C3 (void);
 // 0x00000422 System.Single Unity.XR.PXR.PXR_Plugin/System::UPxr_GetFloatValue(System.String)
-extern void System_UPxr_GetFloatValue_m289708E31584CC8AE1F0B7426552AA27ABA2B6C8 (void);
+extern void System_UPxr_GetFloatValue_mC35AE1821B508A38650853DADF5CF6ED26A3D5B7 (void);
 // 0x00000423 System.String Unity.XR.PXR.PXR_Plugin/System::UPxr_GetObjectOrArray(System.String,System.Int32)
-extern void System_UPxr_GetObjectOrArray_m7EB5251CDD6745D168C30207884FB6813662F081 (void);
+extern void System_UPxr_GetObjectOrArray_m11DB3BE7BFEEFE12C37B5CAACD1A6E6A21E645E8 (void);
 // 0x00000424 System.Int32 Unity.XR.PXR.PXR_Plugin/System::UPxr_GetCharSpace(System.String)
-extern void System_UPxr_GetCharSpace_m87146795FFDFC33268AACAD9C089C219203EDB69 (void);
+extern void System_UPxr_GetCharSpace_m180D426C363D00FA92AB772C8A1BADC1AE760206 (void);
 // 0x00000425 System.Single Unity.XR.PXR.PXR_Plugin/System::UPxr_RefreshRateChanged()
-extern void System_UPxr_RefreshRateChanged_m8371336BE6F9F442AF0B3B130940646AD95343B7 (void);
+extern void System_UPxr_RefreshRateChanged_m0D169AFC8A7A1F89BEF5EE10B908F679A3FCFAEB (void);
 // 0x00000426 System.Single[] Unity.XR.PXR.PXR_Plugin/System::UPxr_GetDisplayFrequenciesAvailable()
-extern void System_UPxr_GetDisplayFrequenciesAvailable_m2C3A57071FD0B1F0A734F40F74B65B5E879698BD (void);
+extern void System_UPxr_GetDisplayFrequenciesAvailable_m717F73BA04B618D7AE3BDFA2BF961D373BB3C83C (void);
 // 0x00000427 System.Int32 Unity.XR.PXR.PXR_Plugin/System::UPxr_GetSensorStatus()
-extern void System_UPxr_GetSensorStatus_m6B7F29A88775DAF71EF17C36CC95C0DFDEE45A08 (void);
+extern void System_UPxr_GetSensorStatus_mD0AD64905568B37DBEBEB9030F232D2851A2D399 (void);
 // 0x00000428 System.Int32 Unity.XR.PXR.PXR_Plugin/System::UPxr_GetPredictedMainSensorStateNew(Unity.XR.PXR.PxrSensorState2&,System.Int32&)
-extern void System_UPxr_GetPredictedMainSensorStateNew_m34153253F83655F28F71DC2FD4A74459A7713261 (void);
+extern void System_UPxr_GetPredictedMainSensorStateNew_m558F238830D5512E7DC77D73A59EFA8F915642BB (void);
 // 0x00000429 System.Int32 Unity.XR.PXR.PXR_Plugin/System::UPxr_GetAPIVersion()
-extern void System_UPxr_GetAPIVersion_m5F403C49AA1755E9775384B7945394DDD2E1779D (void);
+extern void System_UPxr_GetAPIVersion_m06090C53917544121B6B5FDF99A591BE414E4DE5 (void);
 // 0x0000042A System.Void Unity.XR.PXR.PXR_Plugin/System::UPxr_SetLogInfoActive(System.Boolean)
-extern void System_UPxr_SetLogInfoActive_m1C4098419147095EB8D402EAFD7DF04423A1BF9C (void);
+extern void System_UPxr_SetLogInfoActive_m0601A42F0DD2D463058C076BE6A93746698023B6 (void);
 // 0x0000042B System.Int32 Unity.XR.PXR.PXR_Plugin/System::UPxr_InstallOTAPackage(System.String)
-extern void System_UPxr_InstallOTAPackage_mFC64F25D9EC05403F88B1C489BF3BBD5383C5528 (void);
+extern void System_UPxr_InstallOTAPackage_m435F9FC1059DA91AB59FCAB02A644C79436114AC (void);
 // 0x0000042C System.String Unity.XR.PXR.PXR_Plugin/System::UPxr_GetAutoConnectWiFiConfig()
-extern void System_UPxr_GetAutoConnectWiFiConfig_m0E2CDB4CFDB197E91A296B71F4B0A3B6EB24AFD2 (void);
+extern void System_UPxr_GetAutoConnectWiFiConfig_mF2725E088056B95F8029562DECA897C0D817FDC9 (void);
 // 0x0000042D System.String Unity.XR.PXR.PXR_Plugin/System::UPxr_GetTimingStartupStatus()
-extern void System_UPxr_GetTimingStartupStatus_mDCA1BB00711D4FACCC0A39FEFE42382BD8966A60 (void);
+extern void System_UPxr_GetTimingStartupStatus_mD42B7C9BB2892236442A3F368CD1F427A6FB4CCB (void);
 // 0x0000042E System.String Unity.XR.PXR.PXR_Plugin/System::UPxr_GetTimingShutdownStatus()
-extern void System_UPxr_GetTimingShutdownStatus_m94D6D0E90513D07AA794539C404DF6451F13FB88 (void);
+extern void System_UPxr_GetTimingShutdownStatus_m4C942F42E8508A32894F08D67D5865D71413DE6A (void);
 // 0x0000042F System.Int32 Unity.XR.PXR.PXR_Plugin/System::UPxr_GetControllerKeyState(Unity.XR.PXR.ControllerKeyEnum)
-extern void System_UPxr_GetControllerKeyState_m25A27862A18EA252021DA71BCEF91B84DE3C2269 (void);
+extern void System_UPxr_GetControllerKeyState_m91CE30536D8B46E4E3736453FF82756E9617C568 (void);
 // 0x00000430 System.Int32 Unity.XR.PXR.PXR_Plugin/System::UPxr_SetControllerKeyState(Unity.XR.PXR.ControllerKeyEnum,Unity.XR.PXR.SwitchEnum)
-extern void System_UPxr_SetControllerKeyState_m060B765F3ED69EE4E23F9F9CA10891CA2FF6DBA5 (void);
+extern void System_UPxr_SetControllerKeyState_m842003A2E941C28D649905BF8C61E6F461D31DE5 (void);
 // 0x00000431 Unity.XR.PXR.SwitchEnum Unity.XR.PXR.PXR_Plugin/System::UPxr_ControlGetPowerOffWithUSBCable()
-extern void System_UPxr_ControlGetPowerOffWithUSBCable_m76C2C5DAC3399E19B1CDAAB1E33038C2D7557C91 (void);
+extern void System_UPxr_ControlGetPowerOffWithUSBCable_m40FD9A00A21A3ACF15F5A9CF1E42A53DDD81060A (void);
 // 0x00000432 Unity.XR.PXR.ScreenOffDelayTimeEnum Unity.XR.PXR.PXR_Plugin/System::UPxr_PropertyGetScreenOffDelay()
-extern void System_UPxr_PropertyGetScreenOffDelay_m2C7014D885EEDE4D7AF9FF719E3559CC9084DA90 (void);
+extern void System_UPxr_PropertyGetScreenOffDelay_m587F8C424E4D2E76036A96FF016D6CF69DB4873F (void);
 // 0x00000433 Unity.XR.PXR.SleepDelayTimeEnum Unity.XR.PXR.PXR_Plugin/System::UPxr_PropertyGetSleepDelay()
-extern void System_UPxr_PropertyGetSleepDelay_m0E204447509E6F39D31DD5D244FC0D1D044DE705 (void);
+extern void System_UPxr_PropertyGetSleepDelay_m81AC011AA02F4A97C13D74C45528341FE213EF5B (void);
 // 0x00000434 System.String Unity.XR.PXR.PXR_Plugin/System::UPxr_PropertyGetPowerKeyStatus()
-extern void System_UPxr_PropertyGetPowerKeyStatus_m5A0EBBDADE12BCD795F2132D547B6AE17BABB154 (void);
+extern void System_UPxr_PropertyGetPowerKeyStatus_m6706CAE07A97618C3835AAB69EEF1EF623017281 (void);
 // 0x00000435 System.Int32 Unity.XR.PXR.PXR_Plugin/System::UPxr_GetEnterKeyStatus()
-extern void System_UPxr_GetEnterKeyStatus_mFBDB13C1A49919AFD3D5F8CBA30D2AD242055C9F (void);
+extern void System_UPxr_GetEnterKeyStatus_m3A1BF4914D7CC3FC399962047AF3CEC9C25A1E49 (void);
 // 0x00000436 System.Int32 Unity.XR.PXR.PXR_Plugin/System::UPxr_GetVolumeKeyStatus()
-extern void System_UPxr_GetVolumeKeyStatus_m8AC098C1FDFE52235770B954D33E2636706785D7 (void);
+extern void System_UPxr_GetVolumeKeyStatus_m58C5DB7845D978E026CB6F39841CE2CCC5E00EF2 (void);
 // 0x00000437 System.Int32 Unity.XR.PXR.PXR_Plugin/System::UPxr_GetBackKeyStatus()
-extern void System_UPxr_GetBackKeyStatus_m3EE88BB4C89CA44A27E48F6EC3FDD45F69109067 (void);
+extern void System_UPxr_GetBackKeyStatus_m7A5C6AC5278DC9B006D0364EF7A62266F5657149 (void);
 // 0x00000438 System.String Unity.XR.PXR.PXR_Plugin/System::UPxr_PropertyGetHomKeyStatus(Unity.XR.PXR.HomeEventEnum)
-extern void System_UPxr_PropertyGetHomKeyStatus_m2E4298CAB326870A5A8B970634B73BB25178E7AF (void);
+extern void System_UPxr_PropertyGetHomKeyStatus_m1022CDFC92B9447A1511AC9662DFA5E1FEBB1985 (void);
 // 0x00000439 System.Void Unity.XR.PXR.PXR_Plugin/System::UPxr_GetSwitchSystemFunctionStatus(Unity.XR.PXR.SystemFunctionSwitchEnum,System.Action`1<System.Int32>)
-extern void System_UPxr_GetSwitchSystemFunctionStatus_mB9029F7EFF65EA1C482AE3061BBEADCDB8EA45C2 (void);
+extern void System_UPxr_GetSwitchSystemFunctionStatus_mB8330A83F64F48C69376AB0DB6123265C1B2E9EE (void);
 // 0x0000043A System.String Unity.XR.PXR.PXR_Plugin/System::UPxr_SwitchGetUsbConfigurationOption()
-extern void System_UPxr_SwitchGetUsbConfigurationOption_mA1FED7C1B595509ACCD85FD4A204351BDF0D497B (void);
+extern void System_UPxr_SwitchGetUsbConfigurationOption_mC5582FD77B6856066AE9079188005794E7CA39A5 (void);
 // 0x0000043B System.String Unity.XR.PXR.PXR_Plugin/System::UPxr_GetCurrentLauncher()
-extern void System_UPxr_GetCurrentLauncher_m4D93B5B2BC0B1F66FA1EB637D18EE41DDCE8F419 (void);
+extern void System_UPxr_GetCurrentLauncher_mDB205DB0E1D7C4B5A0A90B20B0757E2B8D09084A (void);
 // 0x0000043C System.Int32 Unity.XR.PXR.PXR_Plugin/System::UPxr_PICOCastInit(System.Action`1<System.Int32>)
-extern void System_UPxr_PICOCastInit_mB6610A33B6B1602902A0562867B199DA8747505A (void);
+extern void System_UPxr_PICOCastInit_m348E288EBFC60D5C10D2C4217BC715016304D26C (void);
 // 0x0000043D System.Int32 Unity.XR.PXR.PXR_Plugin/System::UPxr_PICOCastSetShowAuthorization(System.Int32)
-extern void System_UPxr_PICOCastSetShowAuthorization_mCC78178C9D89BB9F8EC68F07A679D22F2B4E099C (void);
+extern void System_UPxr_PICOCastSetShowAuthorization_m7692146D869C3C9E27FE28E7947480EC8B36E703 (void);
 // 0x0000043E System.Int32 Unity.XR.PXR.PXR_Plugin/System::UPxr_PICOCastGetShowAuthorization()
-extern void System_UPxr_PICOCastGetShowAuthorization_m007B8B0150C7F24A8E0C5DA97AA83B81C085E673 (void);
+extern void System_UPxr_PICOCastGetShowAuthorization_mC91B0B3C31DFE5920F1B4FAA1BFE905B71684905 (void);
 // 0x0000043F System.String Unity.XR.PXR.PXR_Plugin/System::UPxr_PICOCastGetUrl(Unity.XR.PXR.PICOCastUrlTypeEnum)
-extern void System_UPxr_PICOCastGetUrl_mF804DF62F36494419C4A2A11EDF40E13E32D85D6 (void);
+extern void System_UPxr_PICOCastGetUrl_mB846D1E32AD05D965DEA82E5A54BB5A86B7BC612 (void);
 // 0x00000440 System.Int32 Unity.XR.PXR.PXR_Plugin/System::UPxr_PICOCastStopCast()
-extern void System_UPxr_PICOCastStopCast_mC2C21563FE3505DD7658C38FFEFBC0081AEE11A0 (void);
+extern void System_UPxr_PICOCastStopCast_m76212DB8D2D88EFABCE038ADC8AB764F3415AE21 (void);
 // 0x00000441 System.Int32 Unity.XR.PXR.PXR_Plugin/System::UPxr_PICOCastSetOption(Unity.XR.PXR.PICOCastOptionOrStatusEnum,Unity.XR.PXR.PICOCastOptionValueEnum)
-extern void System_UPxr_PICOCastSetOption_mB586ED6A79A7E741F884EB49C5B7BEA4BE9E4561 (void);
+extern void System_UPxr_PICOCastSetOption_mF55D3D4D60BEAEB6E1D362C22982B6B96CF40163 (void);
 // 0x00000442 Unity.XR.PXR.PICOCastOptionValueEnum Unity.XR.PXR.PXR_Plugin/System::UPxr_PICOCastGetOptionOrStatus(Unity.XR.PXR.PICOCastOptionOrStatusEnum)
-extern void System_UPxr_PICOCastGetOptionOrStatus_mBD65385FD5A3E289B69D462C92021F6065450068 (void);
+extern void System_UPxr_PICOCastGetOptionOrStatus_mFB91E74B38EBE3A1DA83158C93B590250D6A554A (void);
 // 0x00000443 System.Int32 Unity.XR.PXR.PXR_Plugin/System::UPxr_SetSystemLanguage(System.String)
-extern void System_UPxr_SetSystemLanguage_m187FF33565E5B7C35BC54BC984A7B53131037C3B (void);
+extern void System_UPxr_SetSystemLanguage_mE4B087F54FF7014BEF1951C9B86B1E036D2DC1F6 (void);
 // 0x00000444 System.String Unity.XR.PXR.PXR_Plugin/System::UPxr_GetSystemLanguage()
-extern void System_UPxr_GetSystemLanguage_mC0394696912834FF9E36B18977A265028E9AE2C3 (void);
+extern void System_UPxr_GetSystemLanguage_mE0A6FFF745EDCA4C0BD80A7562CA20A91FEFD50B (void);
 // 0x00000445 System.Int32 Unity.XR.PXR.PXR_Plugin/System::UPxr_ConfigWifi(System.String,System.String)
-extern void System_UPxr_ConfigWifi_mE0ECFD325EBDFCCB03D4FDCDF8048B4FB0D9984D (void);
+extern void System_UPxr_ConfigWifi_m5C1B7A7F8AEDE57C2ADFFD26B867449EBE707601 (void);
 // 0x00000446 System.String[] Unity.XR.PXR.PXR_Plugin/System::UPxr_GetConfiguredWifi()
-extern void System_UPxr_GetConfiguredWifi_mED02B5CBAE69DAB8A9209B86EEB8A782BF668E75 (void);
+extern void System_UPxr_GetConfiguredWifi_m795A84A6C34D7DD608AC0FC312068C541F7EE24B (void);
 // 0x00000447 System.Int32 Unity.XR.PXR.PXR_Plugin/System::UPxr_SetSystemCountryCode(System.String,System.Action`1<System.Int32>)
-extern void System_UPxr_SetSystemCountryCode_m0E6B47312726816693578F1BD80D69B52583B657 (void);
+extern void System_UPxr_SetSystemCountryCode_mD9B0797B190A080812F99AEF63A0F8158632DA49 (void);
 // 0x00000448 System.String Unity.XR.PXR.PXR_Plugin/System::UPxr_GetSystemCountryCode()
-extern void System_UPxr_GetSystemCountryCode_m49603CCC69FFC9EBFFE6F7A6717E090FF4FE5E86 (void);
+extern void System_UPxr_GetSystemCountryCode_m65F89732A46CEBC4C1984E7B540C27F4BE363F5A (void);
 // 0x00000449 System.Int32 Unity.XR.PXR.PXR_Plugin/System::UPxr_SetSkipInitSettingPage(System.Int32)
-extern void System_UPxr_SetSkipInitSettingPage_m4FA94640DF28FC37878C648D122BBDE452C2BBD6 (void);
+extern void System_UPxr_SetSkipInitSettingPage_m4A202AE8CBEE0CA074FCA1622A6D42F76526AF01 (void);
 // 0x0000044A System.Int32 Unity.XR.PXR.PXR_Plugin/System::UPxr_GetSkipInitSettingPage()
-extern void System_UPxr_GetSkipInitSettingPage_mF3B5EDF08EFE173BE2F64B4C1E721221332C7872 (void);
+extern void System_UPxr_GetSkipInitSettingPage_m5E73E5F70574C9C76794DFEC159769BB9700B2F2 (void);
 // 0x0000044B System.Int32 Unity.XR.PXR.PXR_Plugin/System::UPxr_IsInitSettingComplete()
-extern void System_UPxr_IsInitSettingComplete_mF3354B96E1D7B620F107D1FDB6F36DCA5D6EE7B6 (void);
+extern void System_UPxr_IsInitSettingComplete_mFA37B223718FB562AE18756489A89660FB12A20A (void);
 // 0x0000044C System.Int32 Unity.XR.PXR.PXR_Plugin/System::UPxr_StartActivity(System.String,System.String,System.String,System.String,System.String[],System.Int32[])
-extern void System_UPxr_StartActivity_m9C6E004964C2A90D59F899D0ABB782DD4E468483 (void);
+extern void System_UPxr_StartActivity_mABBB0A3BCD845F657A9954A49307962F64C7D623 (void);
 // 0x0000044D System.Void Unity.XR.PXR.PXR_Plugin/System::.cctor()
-extern void System__cctor_m34A23E3D415DE29F475635FA961398EAFB2E736F (void);
+extern void System__cctor_m5A1B2F1B85E342C2774E6A9FCBD2DCD9D59D453C (void);
 // 0x0000044E Unity.XR.PXR.PxrBoundaryTriggerInfo Unity.XR.PXR.PXR_Plugin/Boundary::UPxr_TestNodeIsInBoundary(Unity.XR.PXR.BoundaryTrackingNode,Unity.XR.PXR.BoundaryType)
-extern void Boundary_UPxr_TestNodeIsInBoundary_m70E15C77AC3BD801F45023614B9DE478B0600815 (void);
+extern void Boundary_UPxr_TestNodeIsInBoundary_m4A3FF4A5BEFEDF3D8842EC7BA0000643886B0E63 (void);
 // 0x0000044F Unity.XR.PXR.PxrBoundaryTriggerInfo Unity.XR.PXR.PXR_Plugin/Boundary::UPxr_TestPointIsInBoundary(Unity.XR.PXR.PxrVector3f,Unity.XR.PXR.BoundaryType)
-extern void Boundary_UPxr_TestPointIsInBoundary_m4B5D8A7C8D915501DC050A27A44E92918E384505 (void);
+extern void Boundary_UPxr_TestPointIsInBoundary_mD5F44B51642A21E3C6B39ADE46536B68E21CF6B8 (void);
 // 0x00000450 UnityEngine.Vector3[] Unity.XR.PXR.PXR_Plugin/Boundary::UPxr_GetBoundaryGeometry(Unity.XR.PXR.BoundaryType)
-extern void Boundary_UPxr_GetBoundaryGeometry_m750E83114D570B0A09D4005EC22EEF349D83AC66 (void);
+extern void Boundary_UPxr_GetBoundaryGeometry_mBF2881728FFEEEFFCA9250CEF04ACF392D2BC9F8 (void);
 // 0x00000451 UnityEngine.Vector3 Unity.XR.PXR.PXR_Plugin/Boundary::UPxr_GetBoundaryDimensions(Unity.XR.PXR.BoundaryType)
-extern void Boundary_UPxr_GetBoundaryDimensions_m811ACA9A9D2859D9417EBAB0E7A4151D8583C71D (void);
+extern void Boundary_UPxr_GetBoundaryDimensions_m4C9AEF85878C2B5C49FB0D8C4A172C17EBB7FFED (void);
 // 0x00000452 System.Void Unity.XR.PXR.PXR_Plugin/Boundary::UPxr_SetBoundaryVisiable(System.Boolean)
-extern void Boundary_UPxr_SetBoundaryVisiable_m3710ADECEA7FA4E50BED11F10793DCECE4511A63 (void);
+extern void Boundary_UPxr_SetBoundaryVisiable_m5442A5F7C4F905F9B8B81168C012F555FCA2563A (void);
 // 0x00000453 System.Boolean Unity.XR.PXR.PXR_Plugin/Boundary::UPxr_GetBoundaryVisiable()
-extern void Boundary_UPxr_GetBoundaryVisiable_m6611A4818B32E8BA7CB9503E9585E436CA3D4246 (void);
+extern void Boundary_UPxr_GetBoundaryVisiable_mF5AF0067B5410AD1278F0BE0863F250D3FD43CF2 (void);
 // 0x00000454 System.Boolean Unity.XR.PXR.PXR_Plugin/Boundary::UPxr_GetBoundaryConfigured()
-extern void Boundary_UPxr_GetBoundaryConfigured_m71D2BD383B6576BD2F8A2327D978DC11A161F80F (void);
+extern void Boundary_UPxr_GetBoundaryConfigured_m35FC7A1132360A1EFA4D83684FA2F3B6D48007D6 (void);
 // 0x00000455 System.Boolean Unity.XR.PXR.PXR_Plugin/Boundary::UPxr_GetBoundaryEnabled()
-extern void Boundary_UPxr_GetBoundaryEnabled_m1A10632EED9706FCC9E9B84D343DBACD34C83D28 (void);
+extern void Boundary_UPxr_GetBoundaryEnabled_mB0AFB311CED6FA755504533C29ED195E67CA66D5 (void);
 // 0x00000456 System.Int32 Unity.XR.PXR.PXR_Plugin/Boundary::UPxr_SetSeeThroughBackground(System.Boolean)
-extern void Boundary_UPxr_SetSeeThroughBackground_m4778077E1F3E1EA813639A58619783E3CC022971 (void);
+extern void Boundary_UPxr_SetSeeThroughBackground_mA3B0E44B2DA12060CDDA56365B130DFB71CD2C26 (void);
 // 0x00000457 System.Int32 Unity.XR.PXR.PXR_Plugin/Boundary::UPxr_GetDialogState()
-extern void Boundary_UPxr_GetDialogState_m50B9B0010B52D0488670EEBBCC05B2936860B0B1 (void);
+extern void Boundary_UPxr_GetDialogState_m2846AB26205FAF2F2C35719AE5013B03AA72559C (void);
 // 0x00000458 System.Int32 Unity.XR.PXR.PXR_Plugin/Boundary::UPxr_GetSeeThroughState()
-extern void Boundary_UPxr_GetSeeThroughState_m4D7B2125779B1194D76FAD58F54618127791F81E (void);
+extern void Boundary_UPxr_GetSeeThroughState_m5B7A305199CBA235028124A2B9B2A06C145369E8 (void);
 // 0x00000459 System.Void Unity.XR.PXR.PXR_Plugin/Boundary::UPxr_SetSeeThroughState(System.Boolean)
-extern void Boundary_UPxr_SetSeeThroughState_m7CD1A141CC59A5031AE08EB3D9E2BABBF1F4F525 (void);
+extern void Boundary_UPxr_SetSeeThroughState_mE935B5BC268AB667C102AB3DFC3E418A4F90A668 (void);
 // 0x0000045A System.Void Unity.XR.PXR.PXR_Plugin/Boundary::UPxr_ResetSeeThroughSensor()
-extern void Boundary_UPxr_ResetSeeThroughSensor_mFB4291C8DD51D82E977C7ED28F4566412D90195C (void);
+extern void Boundary_UPxr_ResetSeeThroughSensor_m7830183D46030C88E032E127E8D61498C1BD6DA1 (void);
 // 0x0000045B Unity.XR.PXR.PxrTrackingState Unity.XR.PXR.PXR_Plugin/Boundary::UPxr_GetSeeThroughTrackingState()
-extern void Boundary_UPxr_GetSeeThroughTrackingState_m4F6BE6F292D256D41D247B2A33C252C87758A3BA (void);
+extern void Boundary_UPxr_GetSeeThroughTrackingState_m5F9249413C3940E519D645138F800E7EC9B57E28 (void);
 // 0x0000045C System.Int32 Unity.XR.PXR.PXR_Plugin/Boundary::UPxr_SetGuardianSystemDisable(System.Boolean)
-extern void Boundary_UPxr_SetGuardianSystemDisable_m2E6F8683908119A5CA656628B58C953E2434EC4A (void);
+extern void Boundary_UPxr_SetGuardianSystemDisable_mAA8F6959D2E1897602D4F2752438213ED945C239 (void);
 // 0x0000045D System.Int32 Unity.XR.PXR.PXR_Plugin/Boundary::UPxr_ResumeGuardianSystemForSTS()
-extern void Boundary_UPxr_ResumeGuardianSystemForSTS_m35CF1DA3864745DE0A24C324F74AF95428D48150 (void);
+extern void Boundary_UPxr_ResumeGuardianSystemForSTS_mB33E8F05D52EB7C69D0BDF7F89AD3884D1AB122A (void);
 // 0x0000045E System.Int32 Unity.XR.PXR.PXR_Plugin/Boundary::UPxr_PauseGuardianSystemForSTS()
-extern void Boundary_UPxr_PauseGuardianSystemForSTS_m2F88A62ED45D37CEC87F79E4EC1A87410D1C25AD (void);
+extern void Boundary_UPxr_PauseGuardianSystemForSTS_m168AFE729055F330B1836AFF58B1CD49D5D95E5A (void);
 // 0x0000045F System.Int32 Unity.XR.PXR.PXR_Plugin/Boundary::UPxr_ShutdownSdkGuardianSystem()
-extern void Boundary_UPxr_ShutdownSdkGuardianSystem_m9AEF2EED29C12800A56230E0EE7BABD0767BD751 (void);
+extern void Boundary_UPxr_ShutdownSdkGuardianSystem_m1C4ED2C94F9C1D9A36D2711483741E556A3DCEE2 (void);
 // 0x00000460 System.Byte[] Unity.XR.PXR.PXR_Plugin/Boundary::UPxr_GetCameraDataExt()
-extern void Boundary_UPxr_GetCameraDataExt_m67EC8536B6581FB6DE6AD182223CEDDFF6FBA785 (void);
+extern void Boundary_UPxr_GetCameraDataExt_m151CBEA492C6FC2321EDA3B3F4DE2FC9FA8826C2 (void);
 // 0x00000461 System.Int32 Unity.XR.PXR.PXR_Plugin/Boundary::UPxr_StartSdkBoundary()
-extern void Boundary_UPxr_StartSdkBoundary_m9BF50FBC67EF9BDC70A4E847324FEF8229178452 (void);
+extern void Boundary_UPxr_StartSdkBoundary_m7D8C531C6DE19049918BC38AA5B08BC161C5F988 (void);
 // 0x00000462 System.Int32 Unity.XR.PXR.PXR_Plugin/Boundary::UPxr_GetRoomModeState()
-extern void Boundary_UPxr_GetRoomModeState_m8779D557FC1BCFF2E2F5544BB0704988F1D03D4F (void);
+extern void Boundary_UPxr_GetRoomModeState_m8D7E7536F8624CBC0926F4D26E4A2BAEB7EAFBF6 (void);
 // 0x00000463 System.Int32 Unity.XR.PXR.PXR_Plugin/Boundary::UPxr_DisableBoundary()
-extern void Boundary_UPxr_DisableBoundary_m14A07EC34B45E2A86A699EE37F2CCE21BC9F018A (void);
+extern void Boundary_UPxr_DisableBoundary_mE624CB681AD3B0A934D4AB29CF1719EE7FCA66D0 (void);
 // 0x00000464 System.Void Unity.XR.PXR.PXR_Plugin/Boundary::UPxr_SetMonoMode(System.Boolean)
-extern void Boundary_UPxr_SetMonoMode_m2C11881E30E1BDDAC3DECBC9B4A29D21F06FA779 (void);
+extern void Boundary_UPxr_SetMonoMode_m550DDC6C83650FBA158DC6A83A88334A0C8F710A (void);
 // 0x00000465 System.Void Unity.XR.PXR.PXR_Plugin/Render::UPxr_SetFoveationLevel(Unity.XR.PXR.FoveationLevel)
-extern void Render_UPxr_SetFoveationLevel_m968A52BF7F5EC9E0E750539076804A0540711306 (void);
+extern void Render_UPxr_SetFoveationLevel_m1D11FDDB2F43342292448104DE2A7A28E33C446A (void);
 // 0x00000466 Unity.XR.PXR.FoveationLevel Unity.XR.PXR.PXR_Plugin/Render::UPxr_GetFoveationLevel()
-extern void Render_UPxr_GetFoveationLevel_mB81E29FB00534E61CEA8ED63E53A413C60C688F7 (void);
+extern void Render_UPxr_GetFoveationLevel_mCFE1EE71CD03232B865B25C8DB081F91403214A7 (void);
 // 0x00000467 System.Int32 Unity.XR.PXR.PXR_Plugin/Render::UPxr_SetFoveationParameters(System.Single,System.Single,System.Single,System.Single)
-extern void Render_UPxr_SetFoveationParameters_m5D173638D817AA019E8E6F123DA9F1CE7AECB93E (void);
+extern void Render_UPxr_SetFoveationParameters_m3301B5AF496C39F9AC75BA3105B4B2F0498E62F6 (void);
 // 0x00000468 System.Int32 Unity.XR.PXR.PXR_Plugin/Render::UPxr_GetFrustum(Unity.XR.PXR.EyeType,System.Single&,System.Single&,System.Single&,System.Single&,System.Single&,System.Single&)
-extern void Render_UPxr_GetFrustum_m8A8DCBDA156E2748042D6D3FA55D394697CBB890 (void);
+extern void Render_UPxr_GetFrustum_m4D8D996F35B98E28DF5572E25A663F36581FE516 (void);
 // 0x00000469 System.Int32 Unity.XR.PXR.PXR_Plugin/Render::UPxr_SetFrustum(Unity.XR.PXR.EyeType,System.Single,System.Single,System.Single,System.Single,System.Single,System.Single)
-extern void Render_UPxr_SetFrustum_m81A874D6DA4A564A37112EDCD276DE7CF761372F (void);
+extern void Render_UPxr_SetFrustum_mA2A333326FD9938547D43A775C11F293FCB8930B (void);
 // 0x0000046A System.Int32 Unity.XR.PXR.PXR_Plugin/Render::UPxr_SetEyeFOV(Unity.XR.PXR.EyeType,System.Single,System.Single,System.Single,System.Single)
-extern void Render_UPxr_SetEyeFOV_m6E3A89664CB469C74D5CFFBE252C06DBA70A8EDF (void);
+extern void Render_UPxr_SetEyeFOV_m8FC347ABCCF2315334877FE7E3C09A4303BC6790 (void);
 // 0x0000046B System.Void Unity.XR.PXR.PXR_Plugin/Render::UPxr_CreateLayer(System.IntPtr)
-extern void Render_UPxr_CreateLayer_m55CC8B989AC9D4AE390499EA76A629A83790834F (void);
+extern void Render_UPxr_CreateLayer_mA4E68E56A113301AE0510E50B2D3F02CC68D2933 (void);
 // 0x0000046C System.Void Unity.XR.PXR.PXR_Plugin/Render::UPxr_CreateLayerParam(Unity.XR.PXR.PxrLayerParam)
-extern void Render_UPxr_CreateLayerParam_mB03EBE418BDBC01F53016D5ABE19275A80D622C4 (void);
+extern void Render_UPxr_CreateLayerParam_mB7740064E1E971FC665E83D804CFA69175225AA1 (void);
 // 0x0000046D System.Int32 Unity.XR.PXR.PXR_Plugin/Render::UPxr_GetLayerNextImageIndex(System.Int32,System.Int32&)
-extern void Render_UPxr_GetLayerNextImageIndex_m566A9D23940077B4596F3564DAE8A6CDBFE3A50F (void);
+extern void Render_UPxr_GetLayerNextImageIndex_mE5762FF246E325897317210C6D786BC5585CAC17 (void);
 // 0x0000046E System.Int32 Unity.XR.PXR.PXR_Plugin/Render::UPxr_GetLayerImageCount(System.Int32,Unity.XR.PXR.EyeType,System.UInt32&)
-extern void Render_UPxr_GetLayerImageCount_mCB023769563C2DCCA1A521D7D52C93A668422080 (void);
+extern void Render_UPxr_GetLayerImageCount_m976BA413F913216D5287125075A2A8884F0FA6FA (void);
 // 0x0000046F System.Int32 Unity.XR.PXR.PXR_Plugin/Render::UPxr_GetLayerImage(System.Int32,Unity.XR.PXR.EyeType,System.Int32,System.UInt64&)
-extern void Render_UPxr_GetLayerImage_m0C426150AEFAAB978416F75B00A818FB1266E738 (void);
+extern void Render_UPxr_GetLayerImage_m3F40D69097DBE962712B2E9FCD2DE7729F82559F (void);
 // 0x00000470 System.Void Unity.XR.PXR.PXR_Plugin/Render::UPxr_GetLayerImagePtr(System.Int32,Unity.XR.PXR.EyeType,System.Int32,System.IntPtr&)
-extern void Render_UPxr_GetLayerImagePtr_m321DCFD81C800D6A615471E75A9398DC048921D2 (void);
+extern void Render_UPxr_GetLayerImagePtr_mE53494FE442C5C4F3AEEDB5EC78C176489CF28EB (void);
 // 0x00000471 System.Int32 Unity.XR.PXR.PXR_Plugin/Render::UPxr_SetConfigIntArray(System.Int32[])
-extern void Render_UPxr_SetConfigIntArray_m5FDC41E450AABCC09555461D0E33DA4F485CEE1D (void);
+extern void Render_UPxr_SetConfigIntArray_mB5D70891BF8DFA5A52DEA8441E23805EAFBE8319 (void);
 // 0x00000472 System.Int32 Unity.XR.PXR.PXR_Plugin/Render::UPxr_GetLayerAndroidSurface(System.Int32,Unity.XR.PXR.EyeType,System.IntPtr&)
-extern void Render_UPxr_GetLayerAndroidSurface_mCDE79D6F9ED9FC0D8953320D7EFF22A7915E1865 (void);
+extern void Render_UPxr_GetLayerAndroidSurface_mA96CE55C1843C730318C179A942D1C7E54AC2DB6 (void);
 // 0x00000473 System.Int32 Unity.XR.PXR.PXR_Plugin/Render::UPxr_DestroyLayer(System.Int32)
-extern void Render_UPxr_DestroyLayer_mB71E0CC8AA41FA6DDDEFFD4D1BC9A3A4B5C45260 (void);
+extern void Render_UPxr_DestroyLayer_mCC6079E7C5038DB0032BFF2390633BF13FF81279 (void);
 // 0x00000474 System.Void Unity.XR.PXR.PXR_Plugin/Render::UPxr_DestroyLayerByRender(System.Int32)
-extern void Render_UPxr_DestroyLayerByRender_m4FC804929605FE80293611151F587B5CF30DABC8 (void);
+extern void Render_UPxr_DestroyLayerByRender_m4A0C6D8A3FF0AD3EF2077ACC0F7CD15A955B2075 (void);
 // 0x00000475 System.Int32 Unity.XR.PXR.PXR_Plugin/Render::UPxr_SubmitLayer(System.IntPtr)
-extern void Render_UPxr_SubmitLayer_m79AB5F7C8750F259D6CFCA42549EAB537A3AEA3F (void);
+extern void Render_UPxr_SubmitLayer_mC0D1BB74ED5FD733EC54285A81F6DED2618230A8 (void);
 // 0x00000476 System.Int32 Unity.XR.PXR.PXR_Plugin/Render::UPxr_SubmitLayerQuad(Unity.XR.PXR.PxrLayerQuad)
-extern void Render_UPxr_SubmitLayerQuad_mA0D26063D0F3C323F738C40BD9094AE98588E3D3 (void);
+extern void Render_UPxr_SubmitLayerQuad_mDB915A0B88B6D04598BCC29B184E8C0368E835BF (void);
 // 0x00000477 System.Boolean Unity.XR.PXR.PXR_Plugin/Render::UPxr_SubmitLayerQuad2(Unity.XR.PXR.PxrLayerQuad2)
-extern void Render_UPxr_SubmitLayerQuad2_mAED1DF48B7562F11597A25AEDA9E4583787B7FE7 (void);
+extern void Render_UPxr_SubmitLayerQuad2_m1411F8DC6BECE4A3141EA4AC96933527CAB46C5E (void);
 // 0x00000478 System.Int32 Unity.XR.PXR.PXR_Plugin/Render::UPxr_SubmitLayerCylinder(Unity.XR.PXR.PxrLayerCylinder)
-extern void Render_UPxr_SubmitLayerCylinder_mA12DCA175B0370A024F2FCBB249EB10421A3D206 (void);
+extern void Render_UPxr_SubmitLayerCylinder_m3FBF09DFB5D09939C8766100AD0F373DA42DAF51 (void);
 // 0x00000479 System.Boolean Unity.XR.PXR.PXR_Plugin/Render::UPxr_SubmitLayerCylinder2(Unity.XR.PXR.PxrLayerCylinder2)
-extern void Render_UPxr_SubmitLayerCylinder2_m6779FCCD6A2B5D0E699148D1F87605A259C41A56 (void);
+extern void Render_UPxr_SubmitLayerCylinder2_m2F67ECC33D6D1A50F8699D58D49D6937F635092C (void);
 // 0x0000047A System.Boolean Unity.XR.PXR.PXR_Plugin/Render::UPxr_SubmitLayerEquirect(Unity.XR.PXR.PxrLayerEquirect)
-extern void Render_UPxr_SubmitLayerEquirect_m482116A3C65934296BA4110E8D73CA679E95CE46 (void);
+extern void Render_UPxr_SubmitLayerEquirect_m913777479EE3DD7E0D58F864C3023331312746DC (void);
 // 0x0000047B System.Boolean Unity.XR.PXR.PXR_Plugin/Render::UPxr_SubmitLayerEquirect2(Unity.XR.PXR.PxrLayerEquirect2)
-extern void Render_UPxr_SubmitLayerEquirect2_mB28B104C98C2897234E21B38257066EFDC06D378 (void);
+extern void Render_UPxr_SubmitLayerEquirect2_m36E5406DD887CE21D4D64D33F0C41C5C021F22DC (void);
 // 0x0000047C System.Int32 Unity.XR.PXR.PXR_Plugin/Render::UPxr_SubmitLayerCube2(Unity.XR.PXR.PxrLayerCube2)
-extern void Render_UPxr_SubmitLayerCube2_mDE12D51913388F3CCC2B5E60FB17F97F8209DBE5 (void);
+extern void Render_UPxr_SubmitLayerCube2_m06BD23AE380A5D86BDF726390119624DCB622ED1 (void);
 // 0x0000047D System.Void Unity.XR.PXR.PXR_Plugin/Render::UPxr_SetLayerBlend(System.Boolean,Unity.XR.PXR.PxrLayerBlend)
-extern void Render_UPxr_SetLayerBlend_mBFA4C20176E3AD5E61112AE6D5BAEBC372ADB9A3 (void);
+extern void Render_UPxr_SetLayerBlend_m51D9904850442CFEB612CE2A9F366B897D10221D (void);
 // 0x0000047E System.Int32 Unity.XR.PXR.PXR_Plugin/Sensor::UPxr_ResetSensor(Unity.XR.PXR.ResetSensorOption)
-extern void Sensor_UPxr_ResetSensor_m6EE200C9FE97A6741BDBFE64BA924684D6E5E955 (void);
+extern void Sensor_UPxr_ResetSensor_m6A8F465E834180B256E57287F0CEA091C95EF89D (void);
 // 0x0000047F System.Int32 Unity.XR.PXR.PXR_Plugin/Sensor::UPvr_Enable6DofModule(System.Boolean)
-extern void Sensor_UPvr_Enable6DofModule_mDA72F56D6CFC4C9B7110F35C3B6FD84FC74DA0EB (void);
+extern void Sensor_UPvr_Enable6DofModule_m3E47B8AAF47829788EE2A281EC81797B53343D23 (void);
 // 0x00000480 System.Void Unity.XR.PXR.PXR_Plugin/Sensor::UPxr_InitPsensor()
-extern void Sensor_UPxr_InitPsensor_m24B8A96871B8D03ACF064392C99CD7F1EA2E3E5B (void);
+extern void Sensor_UPxr_InitPsensor_m2FBD2336D6075B03D9128884FF8843CCCBBA3F6E (void);
 // 0x00000481 System.Int32 Unity.XR.PXR.PXR_Plugin/Sensor::UPxr_GetPSensorState()
-extern void Sensor_UPxr_GetPSensorState_m6857EA86E4188B33542FDF7AE5841A244CA319DC (void);
+extern void Sensor_UPxr_GetPSensorState_m6877EBF7995B9C1AC0010669A812F8A5866101AE (void);
 // 0x00000482 System.Void Unity.XR.PXR.PXR_Plugin/Sensor::UPxr_UnregisterPsensor()
-extern void Sensor_UPxr_UnregisterPsensor_m86FC2F41B3B12D411B759C27AE73DBFB109EEDB0 (void);
+extern void Sensor_UPxr_UnregisterPsensor_m79528760B74064B51A3981357D16BCC87D5DEEE8 (void);
 // 0x00000483 System.Int32 Unity.XR.PXR.PXR_Plugin/Sensor::UPxr_SetSensorLostCustomMode(System.Boolean)
-extern void Sensor_UPxr_SetSensorLostCustomMode_mEA892FF38CD190EC39455B35D484BB3B62116793 (void);
+extern void Sensor_UPxr_SetSensorLostCustomMode_m490228C0AD22C61C3EE7C17DADA9FAD36AAE7807 (void);
 // 0x00000484 System.Int32 Unity.XR.PXR.PXR_Plugin/Sensor::UPxr_SetSensorLostCMST(System.Boolean)
-extern void Sensor_UPxr_SetSensorLostCMST_m0B3943647EB4926CEADEF7E7C9917432DE928F89 (void);
+extern void Sensor_UPxr_SetSensorLostCMST_mDC1CB3917F325C5337FC972C625A97AEB2B56ADD (void);
 // 0x00000485 System.Void Unity.XR.PXR.PXR_Plugin/Sensor::.cctor()
-extern void Sensor__cctor_m18C405B77DE9DF19AC434E7AA781D9671B1D4155 (void);
+extern void Sensor__cctor_m30579EC09DCBB357318A3C555EE128C2956837C8 (void);
 // 0x00000486 Unity.XR.PXR.PXR_PlatformSetting/simulationType Unity.XR.PXR.PXR_Plugin/PlatformSetting::UPxr_IsCurrentDeviceValid()
-extern void PlatformSetting_UPxr_IsCurrentDeviceValid_mC66E42A9EC972BDF348D2A8E38717B74DB66753E (void);
+extern void PlatformSetting_UPxr_IsCurrentDeviceValid_m9789431961DF56CBFE2BA6F94DB2F711B891DA5A (void);
 // 0x00000487 System.Single[] Unity.XR.PXR.PXR_Plugin/PlatformSetting::UPxr_MRCCalibration(System.String)
-extern void PlatformSetting_UPxr_MRCCalibration_m286830DE2613A6137421187BCBFECA2231FBC595 (void);
+extern void PlatformSetting_UPxr_MRCCalibration_mE4C111E8BFE11651781969D604CA8A77EE253C67 (void);
 // 0x00000488 System.Void Unity.XR.PXR.PXR_Plugin/PlatformSetting::UPxr_BindVerifyService(System.String)
-extern void PlatformSetting_UPxr_BindVerifyService_mA72B11AB309981FC4757F80EC8747FDF24CB9929 (void);
+extern void PlatformSetting_UPxr_BindVerifyService_mD1C802CC2AE1F3ED8081CB61689A6239BE926C16 (void);
 // 0x00000489 System.Boolean Unity.XR.PXR.PXR_Plugin/PlatformSetting::UPxr_AppEntitlementCheck(System.String)
-extern void PlatformSetting_UPxr_AppEntitlementCheck_m0A5103F89CA44A3CD5041509754662F6D2933677 (void);
+extern void PlatformSetting_UPxr_AppEntitlementCheck_m3AAF2A24B54813EF78EF39DF3B62AE98D82FB494 (void);
 // 0x0000048A System.Boolean Unity.XR.PXR.PXR_Plugin/PlatformSetting::UPxr_KeyEntitlementCheck(System.String)
-extern void PlatformSetting_UPxr_KeyEntitlementCheck_m59CFA6375694EA079BCDAEF036AD7E2B85FB32B1 (void);
+extern void PlatformSetting_UPxr_KeyEntitlementCheck_mCAE53A560F3B9A6AED8A48F543121FAC4D2E1192 (void);
 // 0x0000048B System.Int32 Unity.XR.PXR.PXR_Plugin/PlatformSetting::UPxr_AppEntitlementCheckExtra(System.String)
-extern void PlatformSetting_UPxr_AppEntitlementCheckExtra_m93574C7A16C88C0DA33EBC8926A529146F17B27A (void);
+extern void PlatformSetting_UPxr_AppEntitlementCheckExtra_mD8EE06D250C5C52E881C07B9916634DF0E94E877 (void);
 // 0x0000048C System.Int32 Unity.XR.PXR.PXR_Plugin/PlatformSetting::UPxr_KeyEntitlementCheckExtra(System.String)
-extern void PlatformSetting_UPxr_KeyEntitlementCheckExtra_mC49FBFF1BC859EAF293ADE99974444F731A2F96E (void);
+extern void PlatformSetting_UPxr_KeyEntitlementCheckExtra_m7654ECA930923797B16FADCD2F83B3594A839DA3 (void);
 // 0x0000048D System.Void Unity.XR.PXR.PXR_Plugin/PlatformSetting::.cctor()
-extern void PlatformSetting__cctor_m69BD6DB94002D21F1EE745618E1F1DB61BF3B444 (void);
+extern void PlatformSetting__cctor_m5886C4394DA2BDD46E9A2E2A61BE0F53E20283D9 (void);
 // 0x0000048E System.Int32 Unity.XR.PXR.PXR_Plugin/Controller::UPxr_SetControllerVibration(System.UInt32,System.Single,System.Int32)
-extern void Controller_UPxr_SetControllerVibration_m1F7B3A1F57640C40EEBA26F71E0DA3F3DBD25A33 (void);
+extern void Controller_UPxr_SetControllerVibration_mFAA4E89E366E4032CC91D19005EC091B5702CE7D (void);
 // 0x0000048F System.Int32 Unity.XR.PXR.PXR_Plugin/Controller::UPxr_SetControllerEnableKey(System.Boolean,Unity.XR.PXR.PxrControllerKeyMap)
-extern void Controller_UPxr_SetControllerEnableKey_m5E2BF29633CDFF0D3A5DEB2D1CD2D7B2922A2505 (void);
+extern void Controller_UPxr_SetControllerEnableKey_m8C54106554E46853ECA928E3F8FD61312DC3EA33 (void);
 // 0x00000490 System.Int32 Unity.XR.PXR.PXR_Plugin/Controller::UPxr_SetControllerVibrationEvent(System.UInt32,System.Int32,System.Single,System.Int32)
-extern void Controller_UPxr_SetControllerVibrationEvent_m17B655E87ED5B6D97593795AD3464312E5A330BB (void);
+extern void Controller_UPxr_SetControllerVibrationEvent_mED9AA49A631186D40917CD4F75E44FD47CB00E96 (void);
 // 0x00000491 System.Int32 Unity.XR.PXR.PXR_Plugin/Controller::UPxr_GetControllerType()
-extern void Controller_UPxr_GetControllerType_mF40B952F14A49A996BE5DA1079F03509CE951F0C (void);
+extern void Controller_UPxr_GetControllerType_mBE11DDF37888BFC9B2520DC4ACDFD6968C903D41 (void);
 // 0x00000492 System.Int32 Unity.XR.PXR.PXR_Plugin/Controller::UPxr_StopControllerVCMotor(System.Int32)
-extern void Controller_UPxr_StopControllerVCMotor_m472FF5D012C01469BD129553D583D084396C29C0 (void);
+extern void Controller_UPxr_StopControllerVCMotor_m2886B2F78214E92B5DEB461011634DF517225381 (void);
 // 0x00000493 System.Int32 Unity.XR.PXR.PXR_Plugin/Controller::UPxr_StartControllerVCMotor(System.String,System.Int32)
-extern void Controller_UPxr_StartControllerVCMotor_m23968DC9765BCD256634E2ED6ACF93053AEAA802 (void);
+extern void Controller_UPxr_StartControllerVCMotor_m39467C299A4997538571CE18C5B88CA900F61DA8 (void);
 // 0x00000494 System.Int32 Unity.XR.PXR.PXR_Plugin/Controller::UPxr_SetControllerAmp(System.Single)
-extern void Controller_UPxr_SetControllerAmp_m6A1251AE935A7F871C08888BECB28204AAD78E89 (void);
+extern void Controller_UPxr_SetControllerAmp_m4B095FE62FCFA1B37118498AA7EA517237331690 (void);
 // 0x00000495 System.Int32 Unity.XR.PXR.PXR_Plugin/Controller::UPxr_SetControllerDelay()
-extern void Controller_UPxr_SetControllerDelay_m559A3866CA064BE6724AF5C32E0A58E9AF1394DB (void);
+extern void Controller_UPxr_SetControllerDelay_m9FF387FB3451899C8D217632EC4BE5BFB7AFFEC2 (void);
 // 0x00000496 System.String Unity.XR.PXR.PXR_Plugin/Controller::UPxr_GetVibrateDelayTime(System.Int32&)
-extern void Controller_UPxr_GetVibrateDelayTime_m0EBB3136CD46F2123EA893519CF02FEBCEC9C9D6 (void);
+extern void Controller_UPxr_GetVibrateDelayTime_mAA89B3C22613AA0A9E09BED6AE56C023FFA92DC6 (void);
 // 0x00000497 System.Int32 Unity.XR.PXR.PXR_Plugin/Controller::UPxr_StartVibrateBySharem(System.Single[],System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32&)
-extern void Controller_UPxr_StartVibrateBySharem_m785D3F8C7969468594E254BDBA44D8B17EDAD97F (void);
+extern void Controller_UPxr_StartVibrateBySharem_mF418E02CC4BDA2A24CC8C4EC45A010F7BFEAF6E2 (void);
 // 0x00000498 System.Int32 Unity.XR.PXR.PXR_Plugin/Controller::UPxr_SaveVibrateByCache(System.Single[],System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32&)
-extern void Controller_UPxr_SaveVibrateByCache_m618D7294EFF245B87CEC93526BBFA725D2FAD7F3 (void);
+extern void Controller_UPxr_SaveVibrateByCache_m389E13F720EB79ACD06DBDFC39DBF006538E0DAC (void);
 // 0x00000499 System.Int32 Unity.XR.PXR.PXR_Plugin/Controller::UPxr_StartVibrateByCache(System.Int32)
-extern void Controller_UPxr_StartVibrateByCache_m2C38E9F4C04444414AADBB49528BB6420DBCD650 (void);
+extern void Controller_UPxr_StartVibrateByCache_m3D056A31FF410FFC2B5299EABAACFB8767DE64E1 (void);
 // 0x0000049A System.Int32 Unity.XR.PXR.PXR_Plugin/Controller::UPxr_ClearVibrateByCache(System.Int32)
-extern void Controller_UPxr_ClearVibrateByCache_mFD6556E7DDA0C88CABE9EF0DD69601C7B0E3D0E9 (void);
+extern void Controller_UPxr_ClearVibrateByCache_mFE01448B590F3E0529B74DA71110DC526E3A4822 (void);
 // 0x0000049B System.Int32 Unity.XR.PXR.PXR_Plugin/Controller::UPxr_StartVibrateByPHF(System.String,System.Int32,System.Int32&,System.Int32,System.Int32,System.Single)
-extern void Controller_UPxr_StartVibrateByPHF_mC6BAACB761622EFB133588E5C43A7EB67BCAA1C0 (void);
+extern void Controller_UPxr_StartVibrateByPHF_mB9121EAFF1E3E290019A325BA3835684005ACE0B (void);
 // 0x0000049C System.Int32 Unity.XR.PXR.PXR_Plugin/Controller::UPxr_PauseVibrate(System.Int32)
-extern void Controller_UPxr_PauseVibrate_m15E9FD90A33BEA7AA3C7262A537412FB22118D5F (void);
+extern void Controller_UPxr_PauseVibrate_m23B2A54130157B34044F3ADE06A7DD728378DAB2 (void);
 // 0x0000049D System.Int32 Unity.XR.PXR.PXR_Plugin/Controller::UPxr_ResumeVibrate(System.Int32)
-extern void Controller_UPxr_ResumeVibrate_m133E55B63F3F014BF5B21D07057509B1679F2BC5 (void);
+extern void Controller_UPxr_ResumeVibrate_m1F19166EEE94A53B0442EDC03F3A5044ED0D14D3 (void);
 // 0x0000049E System.Int32 Unity.XR.PXR.PXR_Plugin/Controller::UPxr_UpdateVibrateParams(System.Int32,System.Int32,System.Int32,System.Single)
-extern void Controller_UPxr_UpdateVibrateParams_m5C52EFD460B7C494A2B8190B8054E131FCA90B2D (void);
+extern void Controller_UPxr_UpdateVibrateParams_mAEC9C2AD69B6E3D0DDE408E2205474C469D87FA9 (void);
 // 0x0000049F System.Int32 Unity.XR.PXR.PXR_Plugin/Controller::UPxr_CreateHapticStream(System.String,System.UInt32,Unity.XR.PXR.VibrateInfo&,System.Single,System.Int32&)
-extern void Controller_UPxr_CreateHapticStream_mA10E7722B3A489AF21DE9F9C6BD25A01AB4603C8 (void);
+extern void Controller_UPxr_CreateHapticStream_mE74C26BAE8EE1492BAB0233C8EDBBC6A1443787F (void);
 // 0x000004A0 System.Int32 Unity.XR.PXR.PXR_Plugin/Controller::UPxr_WriteHapticStream(System.Int32,Unity.XR.PXR.PxrPhfParamsNum&,System.UInt32)
-extern void Controller_UPxr_WriteHapticStream_m76D6FEB8CCBBF38DD88620481DD2DB4C692864BB (void);
+extern void Controller_UPxr_WriteHapticStream_m5D8566CC81857252F08BFE041AC7F70EFBA092B7 (void);
 // 0x000004A1 System.Int32 Unity.XR.PXR.PXR_Plugin/Controller::UPxr_SetPHFHapticSpeed(System.Int32,System.Single)
-extern void Controller_UPxr_SetPHFHapticSpeed_m0EF3C0F98EC9FFD3DEDAA38B30197B28ACDA75BC (void);
+extern void Controller_UPxr_SetPHFHapticSpeed_m6BDC7FA06821CF950A9E8CB2FA6CF0D4D2387649 (void);
 // 0x000004A2 System.Int32 Unity.XR.PXR.PXR_Plugin/Controller::UPxr_GetPHFHapticSpeed(System.Int32,System.Single&)
-extern void Controller_UPxr_GetPHFHapticSpeed_mAE9311D32523431E3B9142438B426983F19044BA (void);
+extern void Controller_UPxr_GetPHFHapticSpeed_mFA51A9AFB45526C0777CE839D8A635D898412F9A (void);
 // 0x000004A3 System.Int32 Unity.XR.PXR.PXR_Plugin/Controller::UPxr_GetCurrentFrameSequence(System.Int32,System.UInt64&)
-extern void Controller_UPxr_GetCurrentFrameSequence_m092E77ABB9CABE05ACEB245A596451918C8D56E9 (void);
+extern void Controller_UPxr_GetCurrentFrameSequence_m253E6FA9F17B7327CCF905B42D4FB4DEAC4DFA35 (void);
 // 0x000004A4 System.Int32 Unity.XR.PXR.PXR_Plugin/Controller::UPxr_StartPHFHaptic(System.Int32)
-extern void Controller_UPxr_StartPHFHaptic_mB42D769BEA41B595FB3C1CF64692B023EF0AB160 (void);
+extern void Controller_UPxr_StartPHFHaptic_mC34800524645F7750CF9AC7655FF1931AA54E400 (void);
 // 0x000004A5 System.Int32 Unity.XR.PXR.PXR_Plugin/Controller::UPxr_StopPHFHaptic(System.Int32)
-extern void Controller_UPxr_StopPHFHaptic_m8F76963F47ABD6361F800239A5ED8C3A9591F533 (void);
+extern void Controller_UPxr_StopPHFHaptic_m93C2FDD8439CEEA78B748FD7DF044E843E0E5D5F (void);
 // 0x000004A6 System.Int32 Unity.XR.PXR.PXR_Plugin/Controller::UPxr_RemovePHFHaptic(System.Int32)
-extern void Controller_UPxr_RemovePHFHaptic_m3A7385D492B3B732160D1909A49AE66026A57DDB (void);
+extern void Controller_UPxr_RemovePHFHaptic_m0541399A0E3D212D7E766A5D3954057BDF8F5C52 (void);
 // 0x000004A7 System.Int32 Unity.XR.PXR.PXR_Plugin/Controller::UPxr_SetControllerMainInputHandle(System.UInt32)
-extern void Controller_UPxr_SetControllerMainInputHandle_mD3730C98A86C32855D2D719456D5A024C25278BF (void);
+extern void Controller_UPxr_SetControllerMainInputHandle_m31220146C4ECC5ED77821CF3902A37D1A64823DD (void);
 // 0x000004A8 Unity.XR.PXR.PXR_Input/Controller Unity.XR.PXR.PXR_Plugin/Controller::UPxr_GetControllerMainInputHandle()
-extern void Controller_UPxr_GetControllerMainInputHandle_m5AE965CC6BFBEBC8BD3CB2DD8E5F75F6D0465BD4 (void);
+extern void Controller_UPxr_GetControllerMainInputHandle_m28CAD53859D2A50925119F917E4A9198905639D2 (void);
 // 0x000004A9 System.Int32 Unity.XR.PXR.PXR_Plugin/Controller::UPxr_GetControllerTrackingState(System.UInt32,System.Double,System.Single[],Unity.XR.PXR.PxrControllerTracking&)
-extern void Controller_UPxr_GetControllerTrackingState_mF7995E3160A40C8D363A1B91AB0858F6E8A83B4B (void);
+extern void Controller_UPxr_GetControllerTrackingState_m69C575F3B7F037AC419E2570BAE7655048B67974 (void);
 // 0x000004AA System.Void Unity.XR.PXR.PXR_Plugin/Controller::UPxr_SetControllerOriginOffset(System.Int32,UnityEngine.Vector3)
-extern void Controller_UPxr_SetControllerOriginOffset_mAF0DB95817ED9570527418A9379F6574124E1F0D (void);
+extern void Controller_UPxr_SetControllerOriginOffset_m368EF10A35F69E3D1C3173E7E0EE6366F75EAE5E (void);
 // 0x000004AB System.Int32 Unity.XR.PXR.PXR_Plugin/HandTracking::Pxr_GetHandTrackerSettingState(System.Boolean&)
-extern void HandTracking_Pxr_GetHandTrackerSettingState_m15A10FEC05390518398EE445302F435DD73E4B93 (void);
+extern void HandTracking_Pxr_GetHandTrackerSettingState_mAB746A2EA37F13B7582F28116BD1F491C0FE4756 (void);
 // 0x000004AC System.Int32 Unity.XR.PXR.PXR_Plugin/HandTracking::Pxr_GetHandTrackerActiveInputType(Unity.XR.PXR.ActiveInputDevice&)
-extern void HandTracking_Pxr_GetHandTrackerActiveInputType_m265BFE8AD18CE5F0D7E8A3BAAC616EA5CE87309A (void);
+extern void HandTracking_Pxr_GetHandTrackerActiveInputType_m2F065F3A766E96812479D5C1708DA5560834FA56 (void);
 // 0x000004AD System.Int32 Unity.XR.PXR.PXR_Plugin/HandTracking::Pxr_GetHandTrackerAimState(Unity.XR.PXR.HandType,Unity.XR.PXR.HandAimState&)
-extern void HandTracking_Pxr_GetHandTrackerAimState_m10BA78679F8BAF99676806701AE6F7C4CF9AD864 (void);
+extern void HandTracking_Pxr_GetHandTrackerAimState_mBC2AFA3E5EAFB2C64F495D9D74F8ECC12A79F9AC (void);
 // 0x000004AE System.Int32 Unity.XR.PXR.PXR_Plugin/HandTracking::Pxr_GetHandTrackerJointLocations(Unity.XR.PXR.HandType,Unity.XR.PXR.HandJointLocations&)
-extern void HandTracking_Pxr_GetHandTrackerJointLocations_mB794ED705B9D020BE3AA5C231B838851EA29CA3E (void);
+extern void HandTracking_Pxr_GetHandTrackerJointLocations_m2CFFFEAD01799353B703760706A562B032A5CA09 (void);
 // 0x000004AF System.Boolean Unity.XR.PXR.PXR_Plugin/HandTracking::UPxr_GetHandTrackerSettingState()
-extern void HandTracking_UPxr_GetHandTrackerSettingState_m93389774B7D7BC169D1E1D110BF974A20F21140A (void);
+extern void HandTracking_UPxr_GetHandTrackerSettingState_mCA90FF8A0FA85EC3A4BB2B7277CDE933613BD48C (void);
 // 0x000004B0 Unity.XR.PXR.ActiveInputDevice Unity.XR.PXR.PXR_Plugin/HandTracking::UPxr_GetHandTrackerActiveInputType()
-extern void HandTracking_UPxr_GetHandTrackerActiveInputType_mFB1E66D70F79763DC26CFEB3213AD7C40E7ED4FB (void);
+extern void HandTracking_UPxr_GetHandTrackerActiveInputType_m5F98642AC5F224FC3FC44C91665CCC390670FF40 (void);
 // 0x000004B1 System.Boolean Unity.XR.PXR.PXR_Plugin/HandTracking::UPxr_GetHandTrackerAimState(Unity.XR.PXR.HandType,Unity.XR.PXR.HandAimState&)
-extern void HandTracking_UPxr_GetHandTrackerAimState_mF1344E144E3B18D483C29ABC571C70A9FB5D71E0 (void);
+extern void HandTracking_UPxr_GetHandTrackerAimState_m58E661D3BE541E3F4AF85A862781417B5AD18D4C (void);
 // 0x000004B2 System.Boolean Unity.XR.PXR.PXR_Plugin/HandTracking::UPxr_GetHandTrackerJointLocations(Unity.XR.PXR.HandType,Unity.XR.PXR.HandJointLocations&)
-extern void HandTracking_UPxr_GetHandTrackerJointLocations_m2A318586EDC1E491F3C9AD106AA1E4BF34F2BEF5 (void);
+extern void HandTracking_UPxr_GetHandTrackerJointLocations_m15353BC1DBF320A137AD779ACB7BE1183B3FA2F2 (void);
 // 0x000004B3 Unity.XR.PXR.PXR_ProjectSetting Unity.XR.PXR.PXR_ProjectSetting::GetProjectConfig()
-extern void PXR_ProjectSetting_GetProjectConfig_m53A30885C21AD62CBF111D44B6BD416E9054E8B3 (void);
+extern void PXR_ProjectSetting_GetProjectConfig_m6E0D8D9FD98E67A7A1FBDD933B5058AE1A26A419 (void);
 // 0x000004B4 System.Void Unity.XR.PXR.PXR_ProjectSetting::.ctor()
 extern void PXR_ProjectSetting__ctor_m786DDD1AC0E54CCEE4C97F031A9B763BF604CAAE (void);
 // 0x000004B5 System.UInt16 Unity.XR.PXR.PXR_Settings::GetStereoRenderingMode()
@@ -2396,25 +2396,25 @@ extern void PXR_Settings_Awake_m56FECEB58FA849D8066F404A4ECD7332A250F4B4 (void);
 // 0x000004B9 System.Void Unity.XR.PXR.PXR_Settings::.ctor()
 extern void PXR_Settings__ctor_m120FF2025DA78B6788952DACA2F1A77FBB1E23A0 (void);
 // 0x000004BA System.Void Unity.XR.PXR.PXR_Usages::.cctor()
-extern void PXR_Usages__cctor_m153BCCB5AB71E963E80BB106F8B51A97D9BD1538 (void);
+extern void PXR_Usages__cctor_m23346D922CD4C16E529750DEBF3C1332FA56EBCE (void);
 // 0x000004BB System.Void Unity.XR.PXR.PLog::v(System.String,System.String)
-extern void PLog_v_m8028BA6E68E70BFB6233682B7D163A3343F4DCAA (void);
+extern void PLog_v_m88AEC8B3993EADF4A796073C98BF330A93CFF09C (void);
 // 0x000004BC System.Void Unity.XR.PXR.PLog::d(System.String,System.String)
-extern void PLog_d_mDBAE85D2552C27BD2D9D519FEEBF6AA52FC85021 (void);
+extern void PLog_d_m31777C1F7FF8FA59231ADD6A189ABDEB77129F09 (void);
 // 0x000004BD System.Void Unity.XR.PXR.PLog::i(System.String,System.String)
-extern void PLog_i_m14CAE16B2B6DFB48BBC51D0481FE652E740DA39B (void);
+extern void PLog_i_m0F072E002F0F4D174D38F0D46E25D00F32D46D9A (void);
 // 0x000004BE System.Void Unity.XR.PXR.PLog::w(System.String,System.String)
-extern void PLog_w_m07CCD5442091E3007DAFC3FD2A2F76124F2BC39B (void);
+extern void PLog_w_m6FA8A849BE0D61DCC4DF29853D9747CE9BC34A12 (void);
 // 0x000004BF System.Void Unity.XR.PXR.PLog::e(System.String,System.String)
-extern void PLog_e_m3F3456F302CCAACE68DC5272709D65E4211CA162 (void);
+extern void PLog_e_m4083ADDF326C3C0F2D0D8D549FDF8327DD615ED7 (void);
 // 0x000004C0 System.Void Unity.XR.PXR.PLog::f(System.String,System.String)
-extern void PLog_f_m402C3E4A63E6DC350FD41E017D083464C2CE0789 (void);
+extern void PLog_f_mC95F61BF1F832FE21BE57D34259166B1E5BD8A94 (void);
 // 0x000004C1 System.Void Unity.XR.PXR.PLog::.ctor()
 extern void PLog__ctor_m87848FF9DB362C0C5DD8AB54BFC942932312DBAB (void);
 // 0x000004C2 System.Void Unity.XR.PXR.PLog::.cctor()
-extern void PLog__cctor_m3B15943F6BE4F69661FD8A3069610CF99716FC2C (void);
+extern void PLog__cctor_m8AB43E8617A31EB563EDFDD5669964A0A8519EDC (void);
 // 0x000004C3 Unity.XR.PXR.PXR_ObjImporter Unity.XR.PXR.PXR_ObjImporter::get_Instance()
-extern void PXR_ObjImporter_get_Instance_m3ECC6C9D872287E373F7C2B30D512CECA3A61BB8 (void);
+extern void PXR_ObjImporter_get_Instance_m38ED58C369541F7396C24EF94761D97CA06D547B (void);
 // 0x000004C4 UnityEngine.Mesh Unity.XR.PXR.PXR_ObjImporter::ImportFile(System.String)
 extern void PXR_ObjImporter_ImportFile_m6C15884467F6A4C5CE42F2000965A9DF8A5EA38E (void);
 // 0x000004C5 System.Void Unity.XR.PXR.PXR_ObjImporter::LoadMeshData(System.String)
@@ -2424,7 +2424,7 @@ extern void PXR_ObjImporter_GetFloat_m9717DABE161B5CB8E506775F1490EBF2BC27DB1F (
 // 0x000004C7 System.Int32 Unity.XR.PXR.PXR_ObjImporter::GetInt(System.Text.StringBuilder,System.Int32&,System.Text.StringBuilder&)
 extern void PXR_ObjImporter_GetInt_mFB5B3C2D7D6835F877D419E93D548AFE07BB3117 (void);
 // 0x000004C8 System.Single[] Unity.XR.PXR.PXR_ObjImporter::GenerateLookupTable()
-extern void PXR_ObjImporter_GenerateLookupTable_m26DB00237CEFF4098AF1E1048CAF31F8F4AF8AED (void);
+extern void PXR_ObjImporter_GenerateLookupTable_m62DB24E45F5098CAC9DF17F3BAE82303359F5DD7 (void);
 // 0x000004C9 System.Single Unity.XR.PXR.PXR_ObjImporter::ParseFloat(System.Text.StringBuilder)
 extern void PXR_ObjImporter_ParseFloat_m7CE88708DE581C062996831BCAA44AA5BDFB850A (void);
 // 0x000004CA System.Int32 Unity.XR.PXR.PXR_ObjImporter::IntParseFast(System.Text.StringBuilder)
@@ -2432,7 +2432,7 @@ extern void PXR_ObjImporter_IntParseFast_mCF32359CBB93CEA4CA4648177A9EEBC0BD09D8
 // 0x000004CB System.Void Unity.XR.PXR.PXR_ObjImporter::.ctor()
 extern void PXR_ObjImporter__ctor_mA9D2F86876B8A6E6F285BF2F2D3572F55B45CAD7 (void);
 // 0x000004CC System.Void Unity.XR.PXR.PXR_ObjImporter::.cctor()
-extern void PXR_ObjImporter__cctor_mEB22F61ED7E3194460193664066267A6B986F325 (void);
+extern void PXR_ObjImporter__cctor_mBCE68C48866C6D2B798C78BBC7410710DFE357A8 (void);
 // 0x000004CD System.Int32 Unity.XR.PXR.PxrVector3Int::get_x()
 extern void PxrVector3Int_get_x_mA7804133594ECD7A83431D071B044B2FA2985E1C (void);
 // 0x000004CE System.Void Unity.XR.PXR.PxrVector3Int::set_x(System.Int32)
@@ -2769,16 +2769,16 @@ static Il2CppMethodPointer s_methodPointers[1338] =
 	JsonData__ctor_mD61A7148047813E3E99FB43469ECF62C177A781D,
 	JsonData__ctor_m391DCF9E97CD49BC2E3AF1D7C65A8ACDC73D91DC,
 	JsonData__ctor_m51522C4058C5773EBE52E5932437B9A054123316,
-	JsonData_op_Implicit_m9AEEB1CEE8F61F87BA7542B60ACD9B500B8A2F00,
-	JsonData_op_Implicit_m0069EA2470DF841F3FC6B4AEA0D74401B4AA634A,
-	JsonData_op_Implicit_m5B904BD0A62FB51C8A5AB58EFE1AB2629ADC617F,
-	JsonData_op_Implicit_m7D0B873E9C01019161716165F351019AA5F65077,
-	JsonData_op_Implicit_m1C8FE77AD1C34E8BD4678EA3A2E0BA6254A24FFB,
-	JsonData_op_Explicit_m9D1201F60A331184FA560AA18CBF43C3E4609249,
-	JsonData_op_Explicit_m543E5DA1331A5BBAB8933185F0B12DD476AE5D53,
-	JsonData_op_Explicit_mFF381D2A729DE14F6AC5E4AC1982F248CF5978E1,
-	JsonData_op_Explicit_m8515414FC94FA23BF60367F4CFEEE9807E69591E,
-	JsonData_op_Explicit_mEA4E338054F8CE070B8787CAD20808D9CB0CC4CE,
+	JsonData_op_Implicit_m87EE3F868083A95D44AAF1DAC67AB32DB4567C94,
+	JsonData_op_Implicit_m8097A534AB2BF51F960D1CE5B89B61CB71B917DC,
+	JsonData_op_Implicit_m0F05BCFC2C67C4B391F863211266ADA9813E5318,
+	JsonData_op_Implicit_m72E2ECE28BB9DCCBB2A5EC33A381B9EDA52C9C14,
+	JsonData_op_Implicit_mDE770ABA4CAFAC6F164C5EDCC3479EF9B1158B68,
+	JsonData_op_Explicit_m379218F7B9C5834839780771E3FA03D2559EC096,
+	JsonData_op_Explicit_mFE328C1AC0A3F61113710A3AAAE8C61434702F2E,
+	JsonData_op_Explicit_m0DAEF97D9C2AF0EC1C653FA330641763B0AF872A,
+	JsonData_op_Explicit_m52FA7CCE2A354D0851E2D72612C5B674CE381501,
+	JsonData_op_Explicit_m917E39B087DC03DF4B4AAABF0098E3EB8DFA2795,
 	JsonData_System_Collections_ICollection_CopyTo_mD4FABAF91C823B8E2B4BD5460361F340960DE369,
 	JsonData_System_Collections_IDictionary_Add_mF6D428DFF76FCF4CAA8ED5B0B0EFF4F1352DA3CA,
 	JsonData_System_Collections_IDictionary_Clear_m9EB972E7662B69807178F6F23B0AB2BA0FE876B8,
@@ -2812,7 +2812,7 @@ static Il2CppMethodPointer s_methodPointers[1338] =
 	JsonData_EnsureDictionary_mBC1E3EF49A5EE7568E0047A19ED85516574EB375,
 	JsonData_EnsureList_mF1BC6D918277E3C6C6413417E9ADE792D9092505,
 	JsonData_ToJsonData_m0F9C1A9296058F93B9F21CA917C3280332220420,
-	JsonData_WriteJson_m2F27F46473E36AB563BFB1D4E18C44DA20F33E4E,
+	JsonData_WriteJson_m3A8C51FBE0C6BF00247CBB5F4FBA53FBB73C6C25,
 	JsonData_Add_mD8160CE5274BCD464973A7948AEC11E40E44FE6D,
 	JsonData_Remove_mBCE1EEEBFE02219FDD84A6D47746762B47475A71,
 	JsonData_Clear_m37CA4D47D671ABF0F7F41FD18677DB70026EFE3A,
@@ -2868,35 +2868,35 @@ static Il2CppMethodPointer s_methodPointers[1338] =
 	WrapperFactory_Invoke_mC28130038A4C90829D08DED2487BBCCA944E78CA,
 	WrapperFactory_BeginInvoke_mF3A2B8201DDC1CC33BEDE224B976626CC55BA76B,
 	WrapperFactory_EndInvoke_m14A122CD25105035F64B1DE28839DDA0EBC2A1BA,
-	JsonMapper__cctor_mABE08A467D46CB8F3005AA04547B1B3368A398EE,
-	JsonMapper_AddArrayMetadata_mDB4F1903F95B7CF614A6C07CDB0177E66C38AFEB,
-	JsonMapper_AddObjectMetadata_mE86AA81BD9E0D1A42FBF59DB93894500430919C7,
-	JsonMapper_AddTypeProperties_m3306E14A4464581D4B8C9896817A75A7CDFBFBB3,
-	JsonMapper_GetConvOp_m167C89D22FE3D0B4DB5C1CE8B4381620353D306A,
-	JsonMapper_ReadValue_m516068DAC0356A47067E59E0DC6BCBF3010A4AC1,
-	JsonMapper_ReadValue_m2905ECA3EBEE239F73547026C2BC76F4CCF8FBFA,
-	JsonMapper_ReadSkip_m0D051B3C5A437C1242291305B95CE055E9EF2FF2,
-	JsonMapper_RegisterBaseExporters_mC9894E7F6E62691ED5B05829F2B76BF4625C3A8C,
-	JsonMapper_RegisterBaseImporters_mA104BF2644EE56E4903BF4A611D53246CF5CC344,
-	JsonMapper_RegisterImporter_mB1C0676001C222B030E97CEE66B86F3571B4EFC6,
-	JsonMapper_WriteValue_m2CC1FAA6E86E926DC0367BD073B1D132622112AC,
-	JsonMapper_ToJson_m825CA11845ADB9F4EF950A82B5782E14BDF899E6,
-	JsonMapper_ToJson_m92513372826FE0A038478111172DCC0C876FCF61,
-	JsonMapper_ToObject_mD11AD233A7682A7DBB5EADD4CBBD0DDA5ABB4AC2,
-	JsonMapper_ToObject_m1857D0129DD66267BE7AC600AF9CE32F56792AAF,
-	JsonMapper_ToObject_m51D333972375B5C3C0425722CA967E9DE293060E,
+	JsonMapper__cctor_mCF1FAD63B7646F5C8C17A0C602172712F305A9F6,
+	JsonMapper_AddArrayMetadata_m58FFF23C3238C987AB7D170545FE424EE680DF5C,
+	JsonMapper_AddObjectMetadata_m74213A262306DCFD254702F39A8B7CCCA3A2AE92,
+	JsonMapper_AddTypeProperties_mE17DCD912BDBE30E769F5CEA7153D75D45C5DA31,
+	JsonMapper_GetConvOp_m1349B43B0EE94AD0B20B735A7F4BDDF6C01F348B,
+	JsonMapper_ReadValue_m848FAFE91484838FADACD1652A81328B179FF754,
+	JsonMapper_ReadValue_mDCE1004F0FB699F49401903F8612165D233D8215,
+	JsonMapper_ReadSkip_m0876D365EDAF779E4BEC39F107C11B7BB543FE60,
+	JsonMapper_RegisterBaseExporters_mEA6A094B6C72F5823C5787037A88C39BA74244C3,
+	JsonMapper_RegisterBaseImporters_m4B10D5EB48CEC0215D455BAC350A1A4DFFA326CE,
+	JsonMapper_RegisterImporter_mA0248B408F9EF79A8E3278731363D33570A48F18,
+	JsonMapper_WriteValue_m91CCFDC580DD770649872253722E97DEEC714CE7,
+	JsonMapper_ToJson_m67AAF2FBAB5D28AA8AFFF8E55A59C8F49F6AF4C5,
+	JsonMapper_ToJson_m9D5A73CC6A62D5780E2F09321E40FC9479688A47,
+	JsonMapper_ToObject_m6354DF6BB647801BA3841A5A7ADBA707D084F778,
+	JsonMapper_ToObject_m2E094D648340C8C46EE3BFDD96F0EC464BDB3FF1,
+	JsonMapper_ToObject_mDB4F538E406CDBB8E57344D5EE5D8FC6D04EB495,
 	NULL,
 	NULL,
 	NULL,
-	JsonMapper_ToObject_m87C347F897D64517A8D332265769DD03F2F96116,
-	JsonMapper_ToWrapper_m8061E9D3913F4DD2D24FDB95CBB80DFCBB3F4E9F,
-	JsonMapper_ToWrapper_m0038CE69F53236274D3D6BEBC8D6487F6A279E2B,
+	JsonMapper_ToObject_m239DCB96FF4016314B921A1D0AD625299D2DF185,
+	JsonMapper_ToWrapper_m2DBEC7EA8D18C89D9440E91EBAB83F4F72FCBE5E,
+	JsonMapper_ToWrapper_mB7A674E2F6C2844A8F587E90C9E8BDD18BBCF1C8,
 	NULL,
 	NULL,
-	JsonMapper_UnregisterExporters_m02FDA2094C7475CDF90AF32B594EF195C0EB4A91,
-	JsonMapper_UnregisterImporters_mFBAC401F7E6FD007C31C1E3FB49B0CAE18AC8640,
+	JsonMapper_UnregisterExporters_mB17A06C40CC6DA0BB5132B211BA1FB0B6D6E4549,
+	JsonMapper_UnregisterImporters_m614192454AA810E3564AA34F17C21C7EEC704E41,
 	JsonMapper__ctor_mF520E8A37CE91B239BC2B5F4C7EB0BF12B4DC56D,
-	U3CU3Ec__cctor_m8608B5405EECEAB731C4EF6469911D3F85FCBF58,
+	U3CU3Ec__cctor_m62A52DD83232F3E1935245F3A112AD44E32BF01B,
 	U3CU3Ec__ctor_m9DE02E796D626ABBAB62D66AC4D490B602DC0C32,
 	U3CU3Ec_U3CReadSkipU3Eb__23_0_mDFCD3A0C8FB7A1F92161225E9C480E16D2E42AFB,
 	U3CU3Ec_U3CRegisterBaseExportersU3Eb__24_0_mD8C00B3F3302BEE49AA4A6D3DE045B9999681B91,
@@ -2995,13 +2995,13 @@ static Il2CppMethodPointer s_methodPointers[1338] =
 	JsonReader_get_EndOfJson_mFD68CC06B2996884E1BD1FBDB1C7CCC038E4F9B8,
 	JsonReader_get_Token_mFE6FC82692E7DEB74CF0BF11EBD7036C0232A254,
 	JsonReader_get_Value_mB67854DC75D3D53F707C4E5BC0C626DAF45C8806,
-	JsonReader__cctor_m356EBB48672B0CF00553840FE4348577976E9B44,
+	JsonReader__cctor_m76034ECB7FB6D79E8E15FBFEF67308FDA8E71819,
 	JsonReader__ctor_m84D284562EBC5073A954D6DDF9CCFC68D46893EC,
 	JsonReader__ctor_m6F94139460371F3B87EC193B22073BAF8BDDC889,
 	JsonReader__ctor_mD1CC729E47D6900D99D455A9B945BD244F729D73,
-	JsonReader_PopulateParseTable_mCED956F6954D185F8071FC85A30142EC9D0336B1,
-	JsonReader_TableAddCol_mE0364D22DB8E85D37589A2AC875B2F723BEB3642,
-	JsonReader_TableAddRow_m5F16D5900F8B53895ABEF6E7107B86A29F0C5DAD,
+	JsonReader_PopulateParseTable_m8E5FCE3B0EFB32CABBCF5E8B3FD8804F6826ECC3,
+	JsonReader_TableAddCol_mD38E3CA706D5C4F72877B8ADD318CA1C967EC8E2,
+	JsonReader_TableAddRow_m9CA56E96C5EE075028B49101F1EA1B54F712F415,
 	JsonReader_ProcessNumber_m563DF025001A0C02D53258201F668D5F867844F3,
 	JsonReader_ProcessSymbol_mE1CAF8F1BF846557EB50E12578F863DC83912860,
 	JsonReader_ReadToken_mCA1B135A6E3819A715A5BF6A8C0D87695B635498,
@@ -3017,13 +3017,13 @@ static Il2CppMethodPointer s_methodPointers[1338] =
 	JsonWriter_set_Validate_m844C6F4200259FDE7EA524FFF564EF9A5BEA814F,
 	JsonWriter_get_LowerCaseProperties_mC7BDB997B101765E7D32D268C25DD6DF527A5FC4,
 	JsonWriter_set_LowerCaseProperties_mE5AE9DA0311204DE31FB7116E93B950AEF63BF89,
-	JsonWriter__cctor_mBEB582EBCA66D595AA86D685B9F4356D4A82896B,
+	JsonWriter__cctor_m0A31902579BE7708A7E59F714BD18B8A55E283EA,
 	JsonWriter__ctor_mB6406A872FDB5D0C8B44D3DE02706E5894E582FC,
 	JsonWriter__ctor_mE782645057109F3177C4E4FC6572DA98D34FC695,
 	JsonWriter__ctor_m3294965D3D3E07EFECF60A64A58E589C818FF0C0,
 	JsonWriter_DoValidation_mADE7F8C8C259E4F372F812C4284948C68AC1890F,
 	JsonWriter_Init_m365C1B0C9AD52D3B7A0197F3ACA24BA1B47301CD,
-	JsonWriter_IntToHex_mC8DD50692D5B03FE4C2B48E0830F15B734227E7A,
+	JsonWriter_IntToHex_mF87771E4300D2A8130EB704C0B4CD84BB4B31765,
 	JsonWriter_Indent_mE1F8D66673002FB559B288AFB250D7824F3A0116,
 	JsonWriter_Put_mB429905D90539B021991FCDC4DCD8B84FB87DA5B,
 	JsonWriter_PutNewline_m2768AF12EBBBE9D850F703B8781E75847E2115A6,
@@ -3053,39 +3053,39 @@ static Il2CppMethodPointer s_methodPointers[1338] =
 	Lexer_get_EndOfInput_m85444168A1C8C22021C957A08E89D1C1AFF19B90,
 	Lexer_get_Token_m2003EDF1C4875F5EEC84589A3A6EDF75D0F390BA,
 	Lexer_get_StringValue_m02B013B33F4971BAE1491BE7F66BB304EAAFB829,
-	Lexer__cctor_m195C03BB1866FD47E325187426A4A773DB0F0454,
+	Lexer__cctor_m1CDC1807603CE9CCD210E26886229823D7F8D8EE,
 	Lexer__ctor_m441B688A23D592612C8D98C4A7E72C6780FD6540,
-	Lexer_HexValue_m161FA7734477E59B4FEB3C39905180F831E010CE,
-	Lexer_PopulateFsmTables_mB0693A947EC0DDC7192C6E4EDA55215B44C3BDE3,
-	Lexer_ProcessEscChar_m6BD900420EA5DBD86BD0E5B19563712D066A373B,
-	Lexer_State1_mC3E6B4A8D0583B23642715601B57207EA15E1D41,
-	Lexer_State2_m9008166695126FC5D0D7F1631ABA2EF8250C346C,
-	Lexer_State3_m8BA25A4AFE9CD881A9044A94C4576BE443437B3E,
-	Lexer_State4_m8AA9C472CEFF5ECFD381E7091C2B06C5F1EE79F2,
-	Lexer_State5_m7A308DB0ECE7CBDA64AC4F7CFCD9FF0A2789E0D3,
-	Lexer_State6_m9D33981163156C20EA21AD4BCC7F4EF424D19CEF,
-	Lexer_State7_m27021D399440DFE2186749173967909B12E28BD3,
-	Lexer_State8_m8632F25D2E5F7C81F30BA39B18FDA4684871F3FC,
-	Lexer_State9_m57F501E0F50CF94976B5AE406FB17E9FC028DA5D,
-	Lexer_State10_m40DD6C189CA5FF566BEB280AD6AD627AED021357,
-	Lexer_State11_m8006A8B067993F4D1CA0238DBCB2588459368AA7,
-	Lexer_State12_m2671DD3F6A11F893030CE4E835AB8BA58443B3BA,
-	Lexer_State13_m665EE6063CBBD4689FE6FE652724CF9658690826,
-	Lexer_State14_mAE4484C0F01B07D2825DFE3BAC3C0B66155DB718,
-	Lexer_State15_m023BD669A218B99B77883D846AA03E9DD82A019E,
-	Lexer_State16_mC01B8FE9543C4F6E2EB94A5F5FA74D850713ECB8,
-	Lexer_State17_mEBE3F4716A5847C3F45517C730665516463874E0,
-	Lexer_State18_m13D951DE1042E5303216B76B9F5E5DD5F003A2A0,
-	Lexer_State19_mD1B84DFD199580AF8A290A4B143A36F50C256C48,
-	Lexer_State20_m10981C3EF3C04427E2C6F2929EF014C32E7A6682,
-	Lexer_State21_m64555C10E60AC2D5DBF1999A76B2068E75172F6E,
-	Lexer_State22_mE7A055510FD222243CE4F7A5807D6ABAB4F738C3,
-	Lexer_State23_m6F07899F5A7C035DD213345110A2901412FB4C65,
-	Lexer_State24_mD85D12B89F4DAFCD0B294D2A7700C5D3A2BCBAB9,
-	Lexer_State25_m544089048536E6828F04841FB290E014C7549E47,
-	Lexer_State26_mD6415006F561A54E2E7237AE2EC851490A19A8F6,
-	Lexer_State27_mE44470C829C4555F784E7B18A28B6A5246D53135,
-	Lexer_State28_m0D9520DD05F67AFD96246F48D3DF0F2C6D850518,
+	Lexer_HexValue_m6886CBE622B03D74257C01C43CAB11DF5CBAF3BE,
+	Lexer_PopulateFsmTables_m0BE32291C4B1B1725F317E0F8E85A348BF5E90BF,
+	Lexer_ProcessEscChar_mC348E329CDBB38B78AAD2F12F3A50CBD0E1FE317,
+	Lexer_State1_m0210072E587620DC4B845BAD5CFA60FB6D8AFA8A,
+	Lexer_State2_mF48359FF0C883F29CA717F60D39C49B411533054,
+	Lexer_State3_mDBF77DEE2467E727CD09CECD303F130434B8FC49,
+	Lexer_State4_mAFBE40F566BD687AA4D62649685FD0A492BF8FDF,
+	Lexer_State5_mAB89D9215CA026F864D12BD7C7EFF4A9006D6091,
+	Lexer_State6_m62D1CF6528CF94A7BAA20CE4144DCC3040E4D813,
+	Lexer_State7_m6D6DD7714950AB320AAE0AE39EAA0C05394DE089,
+	Lexer_State8_mC97C46256A09C854A848052702A2AFF870BA40E5,
+	Lexer_State9_m61EF742B045901C0454253D02D7219AA45E00523,
+	Lexer_State10_mE6027C7ACB8A8B5D7B110C104819A39BEFF2C48D,
+	Lexer_State11_mB611CF21632B99A99FC3C65A72157A1790D690CB,
+	Lexer_State12_m4EC845B5A66263958026C22B270F39EB4D13CB84,
+	Lexer_State13_m13931CDD44328F000898DC1C8834297F9BD10D25,
+	Lexer_State14_mC42B90740EEA08819E46260BE87BDE470DCEEFE3,
+	Lexer_State15_m72D91B653782310B4A923289C86A6C2C1DC238EB,
+	Lexer_State16_m5126376A2957BE5660AAAE3E1627791F5CBB1055,
+	Lexer_State17_m9067D1607784DA49C207A39363B43A9F547C446E,
+	Lexer_State18_m58317739BC3CBA962B5CD3F8EDB00D68296C5CB9,
+	Lexer_State19_m224FFD178053FB88DE92300817B2F997BD609021,
+	Lexer_State20_mB320F6B44A78A5E34C4346C8306D251B4A392EB3,
+	Lexer_State21_mCD1692982C09E8FCB6385CBB2BA3A157381C611F,
+	Lexer_State22_m87CF949F1C2548F3AE3FB369125B841AD45918EE,
+	Lexer_State23_m5F81A509668FD1E9F31B49C510E265EE17177C55,
+	Lexer_State24_mF086E0C33D0A90B8D8B6FD9EED2261E97BA62339,
+	Lexer_State25_m25D0AEB7F84FD4F7D186200AB43B5679E2421B1B,
+	Lexer_State26_m28B1A49A6B9DE6DABC6FFA1B9925B760F459896E,
+	Lexer_State27_m8781283E63DCBD2E8F0649C495428484BF46A481,
+	Lexer_State28_mCE450293FB342899662DC5904D01C6C34919D586,
 	Lexer_GetChar_m255CC3331977A5F176CD67138BEE165CCD9A6597,
 	Lexer_NextChar_m4F531EAAC765369202CE7C5422245452BDD3342E,
 	Lexer_NextToken_m113E19CA94FAA05AB9A5A7DCE41B09C221E76D24,
@@ -3114,87 +3114,87 @@ static Il2CppMethodPointer s_methodPointers[1338] =
 	PXR_ControllerLoader_LoadTexture_mFBA03EF563B56BB352E2EE88CB2A419EF41D07E0,
 	PXR_ControllerLoader_LoadOneTexture_mA7F93A4AB5109D09C0A5583163D4E7BD5845B834,
 	PXR_ControllerLoader_ReadPNG_m73C5EFBD70F25BFC3FA4EB254865D841DE3D2F90,
-	PXR_Boundary_SetVisible_m999CD9F504C883E216819D7AB9875491737259F2,
-	PXR_Boundary_GetVisible_m7025B0867952148ABA9488F60BCEE7E88BB352D1,
-	PXR_Boundary_GetConfigured_mEAEDA0FCD63A81237941C07E0F2D5A5BD1807A95,
-	PXR_Boundary_GetEnabled_mAD816A25A9447B54B9F1BDE0E6160A0B720C609B,
-	PXR_Boundary_TestNode_m983F77C8EDFF4CD397AD844359CE47D873FB4D37,
-	PXR_Boundary_TestPoint_m0D370E5A7AE785C8B7E572F8186689453131BB61,
-	PXR_Boundary_GetGeometry_mFC6F0E78D3045B4BED0830B5E51B3DDF29634CD9,
-	PXR_Boundary_GetDimensions_m2E4C4A1C444CF8334A3AE12429B5A238048A704C,
-	PXR_Boundary_EnableSeeThroughManual_m29AA7041E4A9BD276857EFD7FCAD2CB0D4219A41,
-	PXR_Boundary_GetDialogState_m294AC10A3EBC13B53E309B0A509856A31273A7FA,
-	PXR_Boundary_GetSeeThroughTrackingState_m40FAE06DAD54E71FF0430B851859654F7173B98D,
+	PXR_Boundary_SetVisible_m65BF8B90D1BE2D7105963D7E89F1D9261202C3E2,
+	PXR_Boundary_GetVisible_mD0616731897CF8338D4CAB62EC7F2C95540351D6,
+	PXR_Boundary_GetConfigured_m9DB395F5CA30FA3086EFF6B727537CB72526ACD8,
+	PXR_Boundary_GetEnabled_mC34BADAFB8E1D1563D42AD79488431AE039600BF,
+	PXR_Boundary_TestNode_mD3585BD065A57BD91C992663902E3336081EA758,
+	PXR_Boundary_TestPoint_mE9520F104F67A02A916DB1851A6C531CD2F5280C,
+	PXR_Boundary_GetGeometry_m0877265C851D8F5A4211D0A578B32B286B996D87,
+	PXR_Boundary_GetDimensions_mF595E5CE9C471DCA5D8F9B1A3E1659E35F716C70,
+	PXR_Boundary_EnableSeeThroughManual_mAD1B669EEF03B514A1A7ABB5E26F0CD3E4586208,
+	PXR_Boundary_GetDialogState_mEE450A53E727F0B89FF1D2AEABA1B68502CAAD05,
+	PXR_Boundary_GetSeeThroughTrackingState_m8A46475408FB7962012ECCFFBF066F4879CB31A9,
 	PXR_Boundary__ctor_mF7608974F77A9A322B9B935A490E0AA4DFD962CB,
-	PXR_EyeTracking_GetHeadPosMatrix_mE515F5EA66C5D062542E42C1D22477A6DABA135D,
-	PXR_EyeTracking_GetEyeTrackingDevice_m161CF74899C1107FC8C00A9265C00B90A16FCE0F,
-	PXR_EyeTracking_GetCombineEyeGazePoint_mC59C197988E7396B4F8A9BEB24B236820CFFB156,
-	PXR_EyeTracking_GetCombineEyeGazeVector_m826EC3501DC0F2F26E2E09D29809DEF737725E45,
-	PXR_EyeTracking_GetLeftEyeGazeOpenness_m50D480A0A34DFEF2254AC1C828B977E6DD936A73,
-	PXR_EyeTracking_GetRightEyeGazeOpenness_mE542E20191D6898BAE9AF534DA58FE23D957E01D,
-	PXR_EyeTracking_GetLeftEyePoseStatus_mB18E81560C1B6DE0713BC1E55BC97C5652785FBA,
-	PXR_EyeTracking_GetRightEyePoseStatus_mC6025CC9F46101339C0FA69947ADC26C684C0D89,
-	PXR_EyeTracking_GetCombinedEyePoseStatus_m85A956786C0881FFCE8BDF2D400B13C7F4DDDEB6,
-	PXR_EyeTracking_GetLeftEyePositionGuide_mE1B18E096E1143A612ABD4CDFBD91A8B015418A5,
-	PXR_EyeTracking_GetRightEyePositionGuide_m0BEE72DC6A693ABC8BFA762AD9774F4BF7A17B86,
-	PXR_EyeTracking_GetFoveatedGazeDirection_m614ADF78DB31B8A04B9FCDC90111475285CF2C2F,
-	PXR_EyeTracking_GetFoveatedGazeTrackingState_m206C300F44B392D44EC10C6109B20EE929B903C6,
+	PXR_EyeTracking_GetHeadPosMatrix_m31E85C4705D97E9036B088FD2D10FEC08D9EE0EA,
+	PXR_EyeTracking_GetEyeTrackingDevice_m723D83EEF0E402534A198B3D74917EFB6F46F584,
+	PXR_EyeTracking_GetCombineEyeGazePoint_m6F0EBA66CB33B32425DA3360EFAB22960134344C,
+	PXR_EyeTracking_GetCombineEyeGazeVector_m09557FD4129BC72332FB3D235523BA7E862DF643,
+	PXR_EyeTracking_GetLeftEyeGazeOpenness_mB224B1B243255EE26F8831FB3A703F6FC99AB986,
+	PXR_EyeTracking_GetRightEyeGazeOpenness_mD394DA00230C040C8328AB2B9767563C593DE7B2,
+	PXR_EyeTracking_GetLeftEyePoseStatus_mA947B90591F40BBCDDF72D4DDECEC40AD638316F,
+	PXR_EyeTracking_GetRightEyePoseStatus_mEF4353F041848660292CF12EB0A6B56A2E598AA1,
+	PXR_EyeTracking_GetCombinedEyePoseStatus_m25124F32E9E467612340A08C5D0664F8113E6A61,
+	PXR_EyeTracking_GetLeftEyePositionGuide_m1308524AC12845E4EE6471B3471D5DDFDE5D7D01,
+	PXR_EyeTracking_GetRightEyePositionGuide_m5A5FFF62AFA4D045862BCC33FF346F5169C4505D,
+	PXR_EyeTracking_GetFoveatedGazeDirection_mCE8E838C280B5DBCAEB76BD539D6914B7A525253,
+	PXR_EyeTracking_GetFoveatedGazeTrackingState_m0CBEE029E098C683DAD71AF3EF60B07E6A81FF4A,
 	PXR_EyeTracking__ctor_m5BDEABCE94D2AE18B6AF97C0F583722EAD0746FB,
-	PXR_FoveationRendering_get_Instance_m384D252DE0628B0A66FDB3829A9930AC938FFCF0,
-	PXR_FoveationRendering_SetFoveationLevel_mCE1E20CB7220A3A3C4AFE4FEAB9ACEB598788EC8,
-	PXR_FoveationRendering_GetFoveationLevel_mD51B22BAF3D1077891C9D9C716E7EB125DB7FD5E,
-	PXR_FoveationRendering_SetFoveationParameters_mE72D9664F822E9927B0E16A86A2D0C126241835E,
+	PXR_FoveationRendering_get_Instance_mB1EF83F06D977B470E28F3709361DA647DE507B7,
+	PXR_FoveationRendering_SetFoveationLevel_mF7F9DE7AC30D39AD5883E0A96A14BE4172DD73AE,
+	PXR_FoveationRendering_GetFoveationLevel_mB62A5AE22E1C203F8B66C6713DDEC586E9A81AD5,
+	PXR_FoveationRendering_SetFoveationParameters_mC428CEF499216E4A24673BC47F6CDB397766ECF4,
 	PXR_FoveationRendering__ctor_m5292A77ED544807612C5C9EC6162EF72772BE483,
 	Vector3f_ToVector3_m6CE80D1E5E2ECAD5FC0019C40A99D73DE801DD35,
 	Quatf_ToQuat_m7C290B50DA034618A607DDFF067604AE6ECF5CC5,
 	Posef_ToString_mF7593D74567225719BBE9717DE9144F6BC16BDA4,
 	Posef_ToHandPosef_m5009412BA5A2510E1DA1D23168F0FE4D81464D21,
 	Posef_ToJointPosef_mC216544332B822C24BB2003281B393DBEA786ACA,
-	PXR_HandTracking_GetSettingState_m812A203F716274A0E017D5564A6F9192C1587E2A,
-	PXR_HandTracking_GetActiveInputDevice_m618225FDCFCD28145F5BBAAFB333BA1F07366B84,
-	PXR_HandTracking_GetAimState_mE5009F2F89F1A85141DA56DA5256C5D1FE239A53,
-	PXR_HandTracking_GetJointLocations_m56DFF1FF9079B6777DC5FC99BDED757D174DC93C,
-	PXR_Input_GetDominantHand_m0A3527822EEA33C180BB6D85665CF46F55D335F7,
-	PXR_Input_SetDominantHand_mED05EFC75FFF87884A8CC0F396FE8E677A7923A7,
-	PXR_Input_SetControllerVibration_m8183A41A52ADEA094C63FDEA530F085C1B3383D2,
-	PXR_Input_GetControllerDeviceType_mB6E9FC221A5C500746AC8F17F154996FC828F23D,
-	PXR_Input_IsControllerConnected_mC52D97F99F2A7D0C17ECD87E3EC8D2585CAC1CF9,
-	PXR_Input_SetControllerOriginOffset_mA2ACCBC3F8F4BFB26A9D386456CDD61E7DEDADD3,
-	PXR_Input_GetControllerPredictRotation_mC9084B9B3E6CE97005171191437345FB7FDD7800,
-	PXR_Input_GetControllerPredictPosition_m2798550B4310B35FD06721A1A9803E04F077FA14,
-	PXR_Input_SetControllerVibrationEvent_mED81C110F33F34335406AAB2F86ACE65BCD84ACF,
-	PXR_Input_StopControllerVCMotor_mC4D237340966C45B98F69BBF4B265F910ACEC6CB,
-	PXR_Input_StartControllerVCMotor_mAAC541B4FBF1C031E4B8554889014C17BFC8DAE3,
-	PXR_Input_SetControllerAmp_m6809A50583BDC412992F4EA8001D3D5ED2E917DB,
-	PXR_Input_StartVibrateBySharem_mCFDC385E4312C86E21D09F47E45DC8AB22382B5B,
-	PXR_Input_StartVibrateBySharem_m10F9BABF3E11E93D928AC00AA458C3A288CF9C54,
-	PXR_Input_SaveVibrateByCache_mA9BF6C5445D419B0624C71B30F43EED17548823E,
-	PXR_Input_SaveVibrateByCache_m43048E2921B5F64823FC102C3CFA1E96750AA29E,
-	PXR_Input_StartVibrateByCache_m94C2BE2E8ADF7638F1D41DF1B2CFAD28FC3A8D23,
-	PXR_Input_ClearVibrateByCache_m2C830FD042F974A30B91A386085C53537311C4DF,
-	PXR_Input_SetControllerEnableKey_mC7DD5B6F68CA87CE9A4046127DD46DBD83E58075,
-	PXR_Input_StartVibrateByPHF_m57FA26D3C74C9CD704ED32916ABF7470F808E248,
-	PXR_Input_PauseVibrate_m444AAA342A61A50A2333C84E6968156D1AC72856,
-	PXR_Input_ResumeVibrate_mD25497AF20670CFBCD7C5899B2A57B5C7BF04AA2,
-	PXR_Input_UpdateVibrateParams_m08D26551627BC4A155C326524EE8E0C136FB0390,
-	PXR_Input_SendHapticImpulse_m6CF817F13EA72DE8CF6734C8D950D858259C74B6,
-	PXR_Input_SendHapticBuffer_m45E2537EC2B0B8B05F91616D11CBCF905B825AAA,
-	PXR_Input_SendHapticBuffer_m26D4EC6923F3BE03A152A1F350DF8449AC9E4C33,
-	PXR_Input_SendHapticBuffer_m6667B1E5B947BFF4B3B12407F776D990F2E99124,
-	PXR_Input_StopHapticBuffer_mE45E3FB1DDE0AE4993613676824E633A6D0BE10D,
-	PXR_Input_PauseHapticBuffer_m4322B7CC5E70B098F8D8EE3B979026889D5251B0,
-	PXR_Input_ResumeHapticBuffer_mBD0EDEF9553D7E9584A5B0BAEB2C8525B57C2898,
-	PXR_Input_StartHapticBuffer_m26157B013817CFD93BA75FB9841ABB6ABF7E0EE0,
-	PXR_Input_UpdateHapticBuffer_m8F41037843AE23DF75373CDD3F7B3AE956CE0B89,
-	PXR_Input_CreateHapticStream_m18D7699794E93E7522FD12D5CF3CB582B49680E4,
-	PXR_Input_WriteHapticStream_mE19360CDD960DA2355547E096125534EF1128A57,
-	PXR_Input_SetHapticStreamSpeed_m2FCCAA1CB6D73C1B32D42D768D0761D0E87C4A7A,
-	PXR_Input_GetHapticStreamSpeed_m4DC63C70C4B6DAEA899B8672DE476430A4DE7F96,
-	PXR_Input_GetHapticStreamCurrentFrameSequence_m091461C82331F99DDF0572F222103D1E64AA842D,
-	PXR_Input_StartHappticStream_m1E9098931E8D1307BAB86C3D7FACD659DDD605D9,
-	PXR_Input_StopHappticStream_m4979F812C37539033B90EC2823623CC7A1E9CE1A,
-	PXR_Input_RemoveHappticStream_m3190D7F1AFF86D54B0643E3EC8BF06A3E15F1588,
-	PXR_Input_AnalysisHappticStreamPHF_mCEFBF9625D2BF4912C87B532F5052A3EF462104D,
+	PXR_HandTracking_GetSettingState_m6DD70AF490EE28A867CB9774242FF68D078070AA,
+	PXR_HandTracking_GetActiveInputDevice_m48B3A6CB75BB9C6AD0ED5F73CD5458DFBEE3377F,
+	PXR_HandTracking_GetAimState_mF727639CE93E6C71063C0BEFC464112ACC38DD33,
+	PXR_HandTracking_GetJointLocations_m244A9C9D3AE1C1463D69C8A7F78EC821897F5E89,
+	PXR_Input_GetDominantHand_m0B621614C73632DADE3EC095630CEC1A30353383,
+	PXR_Input_SetDominantHand_m5E342974BC358830BB4ED7F238ECDAA715EF5D39,
+	PXR_Input_SetControllerVibration_m91730D90ED6B4BCED63387FABB8A39CE7EFB23FB,
+	PXR_Input_GetControllerDeviceType_mE26996B8FBA5EC597271D483C28BAC7D3DDAE514,
+	PXR_Input_IsControllerConnected_m67E7BFBC22EEFBA37B9E2D533D4E8F0F6E7F593B,
+	PXR_Input_SetControllerOriginOffset_m94C403ACBBD9C6CDD2118E7A45CB807D7C5A77A8,
+	PXR_Input_GetControllerPredictRotation_m1489CCE98AE71891F1DC56425DAFC3E6BAEAC34B,
+	PXR_Input_GetControllerPredictPosition_mE171BA1BDC3BA3059A46A9B3E3C835B723509922,
+	PXR_Input_SetControllerVibrationEvent_m1B379A6F576CB42968768AB604D77FFD77DDEC28,
+	PXR_Input_StopControllerVCMotor_m9582FE77A3291E4FEC60AD82E739619BFE78E9C8,
+	PXR_Input_StartControllerVCMotor_mD1C64F74D8698D7DDCC2E64B4ED7A0342EF8D989,
+	PXR_Input_SetControllerAmp_m83B961C55677362D1B6F26797F35B9D4228FBAD0,
+	PXR_Input_StartVibrateBySharem_mAAFBF1E73D5EB9CEF98A4F8A6AAE3C1BC8AAF368,
+	PXR_Input_StartVibrateBySharem_m19334F0B49B49AC1BE93C3B86696C7076857AFB0,
+	PXR_Input_SaveVibrateByCache_m9703E36C5E5568E4C15D50EC464EC68F3CF87207,
+	PXR_Input_SaveVibrateByCache_m9B4894D1F4165120AD701889D21D4C633C5B6AD2,
+	PXR_Input_StartVibrateByCache_m4CD3CBD5B92F9F898C42DECBEC3B45FF86925B64,
+	PXR_Input_ClearVibrateByCache_m54666187F93EED2B8BFBA301235C32BDDDE42669,
+	PXR_Input_SetControllerEnableKey_m361EA9C7AE986AF909BD8584C1352D6246175F70,
+	PXR_Input_StartVibrateByPHF_m0497AF9CE6018FE27B2169865F121FCAB04CEF75,
+	PXR_Input_PauseVibrate_mD96822635021DF803831B782AF892C2FBA49B557,
+	PXR_Input_ResumeVibrate_mA168576D47868FE1E56E522D6813B16EF2F290C4,
+	PXR_Input_UpdateVibrateParams_m6C446357DF01D29A5D9FC775191E5FC0CF259FB7,
+	PXR_Input_SendHapticImpulse_m787C6C026C25CD111854987DEA4BB5C261894DD5,
+	PXR_Input_SendHapticBuffer_m1969718DC426EE05D24FE3EE0C15FBFB8FC5C39E,
+	PXR_Input_SendHapticBuffer_mE6D10E48B6AAAD205A48B4EDC2A65E4F233A1B8B,
+	PXR_Input_SendHapticBuffer_m68DBDC33CDAE0D980FA2D18A90D9961840AC113F,
+	PXR_Input_StopHapticBuffer_m199484913E8E4A6DEEFBB6481DDEBED656C0A323,
+	PXR_Input_PauseHapticBuffer_mEE660A9EFCC081D94688AA3B9B76DA78F8A4FBCF,
+	PXR_Input_ResumeHapticBuffer_m3AC901448412C71AE5A46CA54E5497F44CECD3ED,
+	PXR_Input_StartHapticBuffer_mA1663AE4140F884F61C41676A00B87033B4D6AE4,
+	PXR_Input_UpdateHapticBuffer_m030E267CB1DDBE386390EDD0288D87CC30186AE2,
+	PXR_Input_CreateHapticStream_mCE40C95DC0F905B4BEAAEEB634AC209B38F933EA,
+	PXR_Input_WriteHapticStream_mCCF854F9C01F66951B453FAFA601229ADE326CF5,
+	PXR_Input_SetHapticStreamSpeed_m58E56C059921148BF82DE939E65DFA3C3F57072B,
+	PXR_Input_GetHapticStreamSpeed_m76A070B4E540CC6D71D02B8D0EFC14E17D97C6A5,
+	PXR_Input_GetHapticStreamCurrentFrameSequence_mB8323DD2FE3BCB3620AABEEDC1EA09E785759982,
+	PXR_Input_StartHappticStream_m3F5BB657ED8C5C511F5176B2166DAD2BA283FA0D,
+	PXR_Input_StopHappticStream_m66D410F586A036A5A787B1F9349D6AB864E42351,
+	PXR_Input_RemoveHappticStream_mE7F0B9FC4DFC86AE1EC8C6E090E7D9EBA23CB7DC,
+	PXR_Input_AnalysisHappticStreamPHF_mAE747E7E3106B6F83BB64C0F0FFF90D3A46E1AA9,
 	PXR_OverLay_CompareTo_mD14DC6F3FDE8BF32108F4CCBEE241BB6EBDC0983,
 	PXR_OverLay_Awake_mFFE2740FE73824C3F076E9F77E64840FDC8C3B43,
 	PXR_OverLay_Start_mE03DF8A2DA9E0C6898C4A70DBBAD97BFD64FAA32,
@@ -3213,7 +3213,7 @@ static Il2CppMethodPointer s_methodPointers[1338] =
 	PXR_OverLay_GetLayerColorOffset_m93B075FE21B83EB83AA87238BFD5AA9425771E24,
 	PXR_OverLay_getPxrRectiLeft_m0782EB874E96F3CD32E4816379B4699FCF353976,
 	PXR_OverLay__ctor_m54E8D58071E6B0EDD8E7DC94178626427F8723C6,
-	PXR_OverLay__cctor_m43F2836BD8B5C708A7783443EBA95C2B26D0338C,
+	PXR_OverLay__cctor_mFA46FBD39A8380B2FBC692B9B5BF2AD72F117D78,
 	ExternalAndroidSurfaceObjectCreated__ctor_mDE0F32D99A3E8C227CEEF70B9462482A9C7D2F11,
 	ExternalAndroidSurfaceObjectCreated_Invoke_m3B610076A1D81FDCE1A08ED9883D088484565A45,
 	ExternalAndroidSurfaceObjectCreated_BeginInvoke_mABB6D27120633016654BC9F1CB0CBEB31FBF7622,
@@ -3244,134 +3244,134 @@ static Il2CppMethodPointer s_methodPointers[1338] =
 	SeethroughStateChangedCallBack_Invoke_mDBE52F7EDBF13F2E19EC48F671406ED904FE78A1,
 	SeethroughStateChangedCallBack_BeginInvoke_mDBFA556A0DB8B4635173B734F475C342530A85BD,
 	SeethroughStateChangedCallBack_EndInvoke_m62ADAAE47019506E5AC08E4EF592F3133017A17E,
-	PXR_System_InitSystemService_m19E73881102B72B1C3A8D76AC32A167BD80FCE72,
-	PXR_System_BindSystemService_m846E1FA57EE2D52B51B1B33EBEA94D50CCCC81DE,
-	PXR_System_UnBindSystemService_m70D1922CFAA9CAF07C8E7254708EDCBB16EFC937,
-	PXR_System_StartBatteryReceiver_m9786ACD35748CFE13B817760838872FB343067CD,
-	PXR_System_StopBatteryReceiver_m3CAD4C568C4B147CD52B209FF9E6C34F30EC5396,
-	PXR_System_SetCommonBrightness_mA2BCF313D6244EF774EACA77E9B1D009E5F3B656,
-	PXR_System_GetCommonBrightness_mB0A7E7D2ABF951AAA928DE3A364FFF50C9C96559,
-	PXR_System_GetScreenBrightnessLevel_m7CF3E55ED554D69819AB06B86916609448E182E1,
-	PXR_System_SetScreenBrightnessLevel_mFAF5908CF88497C372BF65F14E073713653E8C21,
-	PXR_System_InitAudioDevice_mADB0CDD2886C36D6594F509614D1468AE2F46C7E,
-	PXR_System_StartAudioReceiver_m03D12E6B63CF17DFCE250D38AA3AA69C9DE3E050,
-	PXR_System_StopAudioReceiver_m6FBC6FEF3EF5C0989A9E674F7A91C88C6F10E402,
-	PXR_System_GetMaxVolumeNumber_mD0BD5E5B91EF6BDBE9936FC03458F7BA046F331A,
-	PXR_System_GetCurrentVolumeNumber_m6FC4C2A4BA93C6D51243FD687EFF6F6CE464D851,
-	PXR_System_VolumeUp_mBDCD39362B19E679644888126CD4D378072B76F2,
-	PXR_System_VolumeDown_m601EECB34E9B77045778B40A27A67B772DDDC9F4,
-	PXR_System_SetVolumeNum_mE8A213B853347DCE018811F72CAE8B1D6CCD1946,
-	PXR_System_IsCurrentDeviceValid_m82AFB6E499E1F465359F7AC80187ED5D44B98EC7,
-	PXR_System_AppEntitlementCheck_mA011BF0A981A2F25B1ECC9AC3F7850779821A1A0,
-	PXR_System_KeyEntitlementCheck_m71A1651C4F03B2F8A0219EF2F5AC2F127FF4FC51,
-	PXR_System_AppEntitlementCheckExtra_m2F399FEB7BACC56C9A88AF4382E2F2E640663166,
-	PXR_System_KeyEntitlementCheckExtra_m71E0BDDF2B883896883C551945A92D2A2387543F,
-	PXR_System_GetSDKVersion_m6011EB5852FEEC2F2EC2E748CB6765624899F49D,
-	PXR_System_GetPredictedDisplayTime_m9F67991F8D2711883D4F23ED9A55B0D0D6DC071B,
-	PXR_System_SetExtraLatencyMode_mC2D022AFB11011DA6E42E462C6E5A15C4BC30CB2,
-	PXR_System_StateGetDeviceInfo_mD213741C25B93EDCDA6FF735261350DE668B164A,
-	PXR_System_ControlSetDeviceAction_mDEEBB808C584BC3A854D7D99582D0A931031A2F6,
-	PXR_System_ControlAPPManager_m9897BCE83D0E2DE258FD835BCFAE7FBD5165CE1D,
-	PXR_System_ControlSetAutoConnectWIFI_m0F4C5D2F7F163564647C8E8CBCE4D3087F8ABD74,
-	PXR_System_ControlClearAutoConnectWIFI_mFCF6C00C1DE4FAD89E0F4DF66B4CD54E513BD20E,
-	PXR_System_PropertySetHomeKey_m19C0A8C4D9F5AC17520E8B8CFC44F467A45CF1F8,
-	PXR_System_PropertySetHomeKeyAll_mD8A3F8C991D6EA562CE44F0005DA863F9CE72E8A,
-	PXR_System_PropertyDisablePowerKey_mAB8648C880FD74389FAF9EC37B73A895F211F78B,
-	PXR_System_PropertySetScreenOffDelay_m0DDC2B345512A6776CFE50BB84421B9BF948B110,
-	PXR_System_PropertySetSleepDelay_mEE87001CF5A597A279A44C37D5491CD652D76E1B,
-	PXR_System_SwitchSystemFunction_m27E9EAEABE3ED06F656D02670DD8D2440E9DB15F,
-	PXR_System_SwitchSetUsbConfigurationOption_m5BBC0AA009C45879487CCEDC4B75F5ECFB14077B,
-	PXR_System_ScreenOn_m59082E274D85F2BC4D8478FDDB0B50F960553D75,
-	PXR_System_ScreenOff_m684D9BE629C9AE39EFA3FD19C4D2BA6810643422,
-	PXR_System_AcquireWakeLock_mE6F71CCE59467141E34CD545398D651382FE1959,
-	PXR_System_ReleaseWakeLock_m35C158222AE36F844D149B58BEF8F53C7D50DF92,
-	PXR_System_EnableEnterKey_mF55A6338706861467D6F98B3AC4D2024AD06D2D4,
-	PXR_System_DisableEnterKey_m0B49371EE34E213AB250A4E3B4EFDCBC3955D5C5,
-	PXR_System_EnableVolumeKey_mF7F3C8C161E36B7B61519DC0E05269D5E3441758,
-	PXR_System_DisableVolumeKey_m5C8C890ABC87421556BA2184873C0B4CF4DF34C6,
-	PXR_System_EnableBackKey_m387F3095B2513A7C72FC6AD44DF14BAC3C0A7036,
-	PXR_System_DisableBackKey_m07F36911D5556E9FB41BB5223DD70CE33FEC661E,
-	PXR_System_WriteConfigFileToDataLocal_mCF7272DCDC3D394FDE3E1B6CAF6FAD96A2023F57,
-	PXR_System_ResetAllKeyToDefault_m52984EEED3E9CE96612014C9E781A81BC4F724B3,
-	PXR_System_SetAPPAsHome_mBB5335EDDC7B2B56C55270521C52B095A96B7E27,
-	PXR_System_KillAppsByPidOrPackageName_m58CF07A5ABB3F712AD1EC1F1AA34A7DBBC389F9F,
-	PXR_System_KillBackgroundAppsWithWhiteList_mEC6332F6003E85BBB5B34954EEF6EB4440051CEE,
-	PXR_System_FreezeScreen_m40739488C1163DCD24D468F79A8F42837B797C66,
-	PXR_System_OpenMiracast_m627A4DF294E8ABF89CF729EA33A8520FD9FCFEBC,
-	PXR_System_IsMiracastOn_mC7EB435676CEEE934F2E8BC8071EBCFEB1EEB667,
-	PXR_System_CloseMiracast_mB33B300B9536D868352FF1B8BC2A512437FFFEAC,
-	PXR_System_StartScan_mB50E32ED138650A565945BCEB721CCD246C1D3AF,
-	PXR_System_StopScan_m8031F8590627B86532C347E46A5C500DE3F9F454,
-	PXR_System_ConnectWifiDisplay_m5AA7D8F959FA4F24353CB21ADA42EFEB82ED7DF1,
-	PXR_System_DisConnectWifiDisplay_mFD267E97D1E86D33A8FBF1196F04D793A7428820,
-	PXR_System_ForgetWifiDisplay_m5DFBC489D91C71507B7FE7975B7A7553270760FA,
-	PXR_System_RenameWifiDisplay_m05D30275612D13E8C729271280D38B2A64CA1CB0,
-	PXR_System_SetWDModelsCallback_m26118042337277BFCC6ED621EE4B2C83E3D9B82C,
-	PXR_System_SetWDJsonCallback_m7F4EBEA36EC425C199AF68E97E0A396F17CDA44F,
-	PXR_System_UpdateWifiDisplays_mBED3B686B092366ED04DCD5B714559F93BE283D4,
-	PXR_System_GetConnectedWD_m544A5528E98D4F5A653AC5CBF16EAD4EE75DA0D0,
-	PXR_System_SwitchLargeSpaceScene_mB3484E8B56EDE6235CE44A5FC9D93A94369059BC,
-	PXR_System_GetSwitchLargeSpaceStatus_mDDA8E3B2A0902D5F4D03CEEFDF293A4C63E2A7FB,
-	PXR_System_SaveLargeSpaceMaps_m54EAF47E460ABE04DC67CEB21BB7F81E51F552A2,
-	PXR_System_ExportMaps_m7AE32D4ACD62126C196DAED6699B85736121C12B,
-	PXR_System_ImportMaps_m5A12C4D4428A35838ACDD6457CB38CE256B84FBD,
-	PXR_System_GetSensorStatus_mB23B068CC516F471F054EF063E9346711F3C2A6C,
-	PXR_System_SetSystemDisplayFrequency_mBAA1AE7FCAB65D972C9C0E9C1B5A716B54D5FDA7,
-	PXR_System_GetSystemDisplayFrequency_m5E69F9CAF5965088471E40D2D5CC969E693603EF,
-	PXR_System_GetPredictedMainSensorStateNew_m1242DDCC44FF36E75A60BB5F1A649861C3409A7F,
-	PXR_System_ContentProtect_m88AA4BFF18535A260B60063E4AE7E8CFD31AF1D3,
-	PXR_System_GetCpuUsages_mEFADAC56B90837CE15C48EE252EDF4E2B9C022B1,
-	PXR_System_GetDeviceTemperatures_m82201BDB7C8E2477542ED9D19DDB31D9B5ECB6FB,
-	PXR_System_Capture_m4D31BD694FD0CF51DD496B415B04C710163DE5E5,
-	PXR_System_Record_m0149FE6BEBCAB512A6D315A0B168BC2D885628D0,
-	PXR_System_ControlSetAutoConnectWIFIWithErrorCodeCallback_mC3F9EEBC4A388C1AEF08AC837F8A69D2CC783AE6,
-	PXR_System_AppKeepAlive_mE0B0E1161B4849D4C98CD19051B0D056413BECC1,
-	PXR_System_EnableFaceTracking_mC590F7111B4C1A8237EB9C5CA1DF44C3AF8DC7E8,
-	PXR_System_EnableLipSync_m0F69DE341EDB76767BF21BEF1AD64431AD31E45C,
-	PXR_System_GetFaceTrackingData_mAB5C242E5E8B7D4F6B669B9381F4ED0C930293AD,
-	PXR_System_TimingStartup_m3037BDB2B672DA8ABCFD8A306FF467F04BB1A0F9,
-	PXR_System_TimingShutdown_m0330B7A9AD5496A2B088CE983EEBF4E1D778B147,
-	PXR_System_StartVrSettingsItem_mCB60D05760C3D46E95FABC87E559E26CFF0FD568,
-	PXR_System_SwitchVolumeToHomeAndEnter_mDF467DDBBC6E829B62320C58017F4152F4F487FF,
-	PXR_System_IsVolumeChangeToHomeAndEnter_m4A210157AFF77BF7E99442CB8C8F1543BFB34A26,
-	PXR_System_InstallOTAPackage_m721374CF9E7E1814827EE48BCA7B0A579CFAA57C,
-	PXR_System_GetAutoConnectWiFiConfig_m4D2A30C23F66E32F4214D19313B48A4A822FBCCC,
-	PXR_System_GetTimingStartupStatus_m99CAFA3B08A11FD3E7AC204E6C4069DCA2E9A036,
-	PXR_System_GetTimingShutdownStatus_mFE7B6FAB04C036FBCA556D134A0DFC5CC2B87A69,
-	PXR_System_GetControllerKeyState_m7C41E02E39877021CB99C2565DD2100C8302BD56,
-	PXR_System_GetPowerOffWithUSBCable_mAD6BFCE11F57AD01A4BB5DF112CDD7A46A23AE22,
-	PXR_System_GetScreenOffDelay_mBF186854B52606F0844362FCCAD4D43351B4F74C,
-	PXR_System_GetSleepDelay_m3842DBAD041950219CD572A1A2782633D2F792AA,
-	PXR_System_GetPowerKeyStatus_mF65A74855B15E9E92DA3A3AE590CDE113698A3DC,
-	PXR_System_GetEnterKeyStatus_m88B91FE165A4B3511898497D32655F217FF029C5,
-	PXR_System_GetVolumeKeyStatus_m4BD6CA6605B978412EE3BE009DF15B533DB6EC01,
-	PXR_System_GetBackKeyStatus_m0E6E36113C8B5F6BAB26797FCF189B8F000FCDF3,
-	PXR_System_GetHomKeyStatus_mC63BAE1F60E34D9F0CF544A3ED36DD197D06BDB7,
-	PXR_System_GetSwitchSystemFunctionStatus_mB6199D0E2C1027B0ADC8079BC70035E52A660BB0,
-	PXR_System_GetUsbConfigurationOption_m085F919C93CBE6A7F2650F9AEF4FC6048D78B610,
-	PXR_System_GetCurrentLauncher_m98C42B7BB238F6CE462074BECE4363CAF8C2EC90,
-	PXR_System_PICOCastInit_mFF2342AFE75710FFCD90C58368630BE808AF5C23,
-	PXR_System_PICOCastSetShowAuthorization_mEF41F3A3728CD31E2B564DBC63A21AC79CF6D684,
-	PXR_System_PICOCastGetShowAuthorization_m6CF4DB7BEED7A9D775F9BC8B1196CE1F2F228BF4,
-	PXR_System_PICOCastGetUrl_mC68585ED236844D86AD78D024595AC2CF1578901,
-	PXR_System_PICOCastStopCast_mBD4DBF28EAF24AD1589C1AA652330F1D5BD569B0,
-	PXR_System_PICOCastSetOption_m2F34E29F572833928E4B32A77E2C8862608A6C7D,
-	PXR_System_PICOCastGetOptionOrStatus_m32ADAE51520A4D5C4518612CA507DB1EE4A1BDF1,
-	PXR_System_SetControllerPairTime_mC1A2B556F5524D83C5F00557970B8D9BC61D6350,
-	PXR_System_GetControllerPairTime_m3369E970A953D912033541A8AF630973892D98A4,
-	PXR_System_SetSystemLanguage_m921B0C0362F3E336A80B254A7A81FBE6F336EDE0,
-	PXR_System_GetSystemLanguage_m4A88FEBE3F0B564A552EEDD7A1EC06E0DAFD3C10,
-	PXR_System_ConfigWifi_m18BCFA9D09D710399C7097C8DE43A0ECD8176DD2,
-	PXR_System_GetConfiguredWifi_m24A9D9E80323B44B78E0A4E8C1BE211AFF319477,
-	PXR_System_SetSystemCountryCode_mB76BEFBD28025B9B01B6AAFDDB00A760DF4B4E2C,
-	PXR_System_GetSystemCountryCode_m835C7DB4A1A69AF23A535B188B27787F9E7EBB16,
-	PXR_System_SetSkipInitSettingPage_m234F14B8A1C7770E303FDFF7C729594451D9CE5E,
-	PXR_System_GetSkipInitSettingPage_m93A820F552D8C57ADF2DE0C8BE6E9162F6B68F14,
-	PXR_System_IsInitSettingComplete_mBBE2301F5EC669442D55726B0C809F026C0BBB43,
-	PXR_System_StartActivity_m44A5570063076B3ECC52A1F89098C48ADD691B7C,
-	PXR_System_SetPerformanceLevels_mD47107206F6F25D30CF88BDC3E91DFE03CF0AB70,
-	PXR_System_GetPerformanceLevels_mA7A77D4BDD381F25078C07D388B554BEECAD6040,
-	PXR_System_SetEyeFOV_m91219AE78F70C1BA5429D2159EEEFDF2B0EACF4A,
+	PXR_System_InitSystemService_m834B5BCF51B5ECCB502F251206DC93A4285B77AE,
+	PXR_System_BindSystemService_m43DC57FA511BAF68F2374D5C27491E367ACB4B08,
+	PXR_System_UnBindSystemService_m00649DEBD3E335834EC37411C99F339378D98573,
+	PXR_System_StartBatteryReceiver_mB2041881061FFE00B513C35F2761D83AACFF1997,
+	PXR_System_StopBatteryReceiver_mED1FFC8DB63E37894F4C93D25C6AC829A4D04A89,
+	PXR_System_SetCommonBrightness_m9AD16C8772087CD4EC0D553D87C278084E023554,
+	PXR_System_GetCommonBrightness_mF377A9221F76D553CC98E5490CB4767111E6C223,
+	PXR_System_GetScreenBrightnessLevel_mE2B3D4DA05C98DF863D38A5D4F8821654FEA903A,
+	PXR_System_SetScreenBrightnessLevel_m0AC44684375D457135FFC4385D37FC15883A986D,
+	PXR_System_InitAudioDevice_mBCB93900B457AE8ACD1B0B84BB3390784FBA3ECF,
+	PXR_System_StartAudioReceiver_m8A0E0526D728B0424AABC0E2AC3E2A728134CD03,
+	PXR_System_StopAudioReceiver_m822751A7CF89271DE46EFBC7C7A3C8BBF3BA0956,
+	PXR_System_GetMaxVolumeNumber_m56696697DF058CB8A9E475E4EC99CA005405CC6A,
+	PXR_System_GetCurrentVolumeNumber_m076B0C6AD14B64BAD6CB1DCD37CFF8F736FA0DAC,
+	PXR_System_VolumeUp_mD5A154C53873AF48C1F8E381E7C7B95076165911,
+	PXR_System_VolumeDown_m53555F85AB6FEC4E1BBD26D9DA0E6AC115B43356,
+	PXR_System_SetVolumeNum_mD724E29F70149012723B1D7FBA54131B1CE6D633,
+	PXR_System_IsCurrentDeviceValid_mFE8E29E84FD81A2D088940322CC83CBE8A2E33FC,
+	PXR_System_AppEntitlementCheck_m36D9253B3235A588FC1BD023870F6FE94D1DD71A,
+	PXR_System_KeyEntitlementCheck_m414E1751AFF2A9ACCC14F6C84C9FF331CBCF5E13,
+	PXR_System_AppEntitlementCheckExtra_m8B636D1094A17A0388F62EC9E031D58AD1BA06DA,
+	PXR_System_KeyEntitlementCheckExtra_mDBD809F852502B7B8084C8E3424ABD92DA97DCFD,
+	PXR_System_GetSDKVersion_mB1D59D638FF66A7B942685E2724DADCEE65AA8D5,
+	PXR_System_GetPredictedDisplayTime_mE0C717A063C752C74A610577133831CCF3A8BAF3,
+	PXR_System_SetExtraLatencyMode_m2FCEF58588D267DE446AFA29AB7E18F8F8E2CB62,
+	PXR_System_StateGetDeviceInfo_m540F0F7B10EC787888643B67693A3A905991C422,
+	PXR_System_ControlSetDeviceAction_mCEFD50602AA2EF1A075CE39D40E4AE97173A585D,
+	PXR_System_ControlAPPManager_m8A01E33BF0C3166E2BDCCD3D432A8801D3B29848,
+	PXR_System_ControlSetAutoConnectWIFI_m66D54895BD350667E29542A1FA8AA52DAD3CA6E2,
+	PXR_System_ControlClearAutoConnectWIFI_mE619FA8D148AE556D3F8EE04F576AB9B5A153404,
+	PXR_System_PropertySetHomeKey_mE7DF93ABE005AEDED23E44798E870D707D2745F4,
+	PXR_System_PropertySetHomeKeyAll_m4F0D9CE78BCC72CEEC806178BE98280C61E482AA,
+	PXR_System_PropertyDisablePowerKey_m2CEF81DF59FBA72527DD05D1C051F1E66AE493FA,
+	PXR_System_PropertySetScreenOffDelay_mF88928620772ECE7EC294F8B72E92362F075CDBC,
+	PXR_System_PropertySetSleepDelay_m0600158C122D5A0A4C4949EED64E6BB84174D146,
+	PXR_System_SwitchSystemFunction_mF4CD0070AC6B8960CF3664625D7DD3B061DE39AE,
+	PXR_System_SwitchSetUsbConfigurationOption_mEC8055E6A4F27FE267D6FD5E55C4FA679CEABB2B,
+	PXR_System_ScreenOn_m5D1EB158C0F34355269F196753CED82233FDDB88,
+	PXR_System_ScreenOff_mC62202FC7914EBC08CB95A02DD58BC73E2CD3133,
+	PXR_System_AcquireWakeLock_mF1ECC5E20A8547EE2597783CF5E2C217DCF6846A,
+	PXR_System_ReleaseWakeLock_m9868E68F6CE2EF21CDEEA503F0810F8C3537300C,
+	PXR_System_EnableEnterKey_m6E8F254706BF05D2A0C0BEE324794109D63E0059,
+	PXR_System_DisableEnterKey_m79B2DDCDDFC7883652BE7BCD4D4C61272AB42BC1,
+	PXR_System_EnableVolumeKey_mFDD39FAD340E280985FD5F16238464EE6963AA14,
+	PXR_System_DisableVolumeKey_mA2C92F5CFA283B10BF5BF4DAECCB128464D04E9F,
+	PXR_System_EnableBackKey_mC6F8042C45464CD6D2C3FDCEEF15F1915F3BCEEE,
+	PXR_System_DisableBackKey_m10250EFF2C9C923F9031C301D7885EC7F0C603E1,
+	PXR_System_WriteConfigFileToDataLocal_mC7A30406A7FF92A19FCFAA88DBFE7D1EFDA0FAE5,
+	PXR_System_ResetAllKeyToDefault_mFBDE285FD58FE118E2291A2C223664A473AB38F0,
+	PXR_System_SetAPPAsHome_m7821E88E8B6C92A48777BA734EA1ED7253D38A0D,
+	PXR_System_KillAppsByPidOrPackageName_m35BFECBBA8120CF2EEFF17B52FCFCC8AE8594DE4,
+	PXR_System_KillBackgroundAppsWithWhiteList_mC2933AA257004B1D200CDD828B59304DF03B00D6,
+	PXR_System_FreezeScreen_m60D92DA0830FB1C60F728A88BB3AFB8D5362F3E5,
+	PXR_System_OpenMiracast_m1F819B42E5E16E854E197E4A6AD3EC28379EDB25,
+	PXR_System_IsMiracastOn_m5DAC9D0A1D1D1F3EF80721929A0BA4DD25B741DC,
+	PXR_System_CloseMiracast_m192922C04BE9A1821A2FBAE4D9A313079A31F183,
+	PXR_System_StartScan_mFC626A97B964E8BE58CA8E523C3AC80ABDB74342,
+	PXR_System_StopScan_mCF0E6AC2D97464322A3DB15722BED248C5E86010,
+	PXR_System_ConnectWifiDisplay_m2B1703D7DA55C7BF8AC6BF71FC7C4187F993A077,
+	PXR_System_DisConnectWifiDisplay_m0B18480C55802A19560B695274717829301895DF,
+	PXR_System_ForgetWifiDisplay_m29765E08A4FE8E063211D283121B2830BC0B7163,
+	PXR_System_RenameWifiDisplay_mD0307AC488546C88B55A0F886472B2A5334C0722,
+	PXR_System_SetWDModelsCallback_mB84A8DD237E8BA0488C171AE02F33F274C07CB9E,
+	PXR_System_SetWDJsonCallback_m2E7C04686F063BCD217F9DD92EAA7CBEA47F367D,
+	PXR_System_UpdateWifiDisplays_m7DF48257098DFDEA0389983E761B2B175FBD5A95,
+	PXR_System_GetConnectedWD_m6349C16781FBDD3AD04D9D44319B3BB5BE3D1C1E,
+	PXR_System_SwitchLargeSpaceScene_m111425E551D7F0CF5872C215D4D6C25E33E86990,
+	PXR_System_GetSwitchLargeSpaceStatus_m7D51EBF2443E5AF8BA6C6DE9BA435F3849DD129A,
+	PXR_System_SaveLargeSpaceMaps_mAFDC05EBDC72EA35536865FBB77654DA89499E23,
+	PXR_System_ExportMaps_m3ECACA8304C741B2E729C5043FEA3363694AB7E0,
+	PXR_System_ImportMaps_m76CA6DAF45C743813E24FAFA5AF70587543EA6FD,
+	PXR_System_GetSensorStatus_m2A5EF48C310D471D36AB5E5CBC52238A38461615,
+	PXR_System_SetSystemDisplayFrequency_m6CF5C4D709241A26AB5DFE2E962E11FD31BBE575,
+	PXR_System_GetSystemDisplayFrequency_m7BD0DE173283485267B0373849E24A999C26B3C4,
+	PXR_System_GetPredictedMainSensorStateNew_mDC1015F0F8DB3D5F87E5D8D77BC6330693561D1D,
+	PXR_System_ContentProtect_mF250519692EAB723774F0C6F791D74AA27F7A0C0,
+	PXR_System_GetCpuUsages_mCF0D0F9D4BABC9BB2F00BA6468E03E2E608DF420,
+	PXR_System_GetDeviceTemperatures_m135849AB44FAF02C45C8F7B3EC45110691E876AF,
+	PXR_System_Capture_m1DDD3CF4C7C2108D5B0D82A6747CD48185E44C25,
+	PXR_System_Record_mD60BA2ACC9E883E55342F4721278F07996ED2E21,
+	PXR_System_ControlSetAutoConnectWIFIWithErrorCodeCallback_m167625A3EF5D4EF7A722A436AB05410AF9A240BE,
+	PXR_System_AppKeepAlive_mEF4659A009B490CACAA365BAA4C59F2D6C437B31,
+	PXR_System_EnableFaceTracking_m3BEABD07D03A4AB8B3619D91946B68B92BEEE3CE,
+	PXR_System_EnableLipSync_m447BE9336013F4AAB60ABAEBA52392C67E9E53EF,
+	PXR_System_GetFaceTrackingData_m748E568C2A268D9322E7EE4A63C3D84182B3A18C,
+	PXR_System_TimingStartup_mF0FF1A61F5041C4E59D15B31BE406E66917B3839,
+	PXR_System_TimingShutdown_mADF3CD9EFA2052243F2E261627225A9474618612,
+	PXR_System_StartVrSettingsItem_mE11BF15E389D58822088337E76D8BD5F3B0CEA9A,
+	PXR_System_SwitchVolumeToHomeAndEnter_m94FDDA30E904D0AA5CEC7AD42EE2A909043C798E,
+	PXR_System_IsVolumeChangeToHomeAndEnter_m327FFC6A59A75DBE2307103A50E498F062075642,
+	PXR_System_InstallOTAPackage_mA7E97F04AF884B80D7F8A2A19E29B44979699E2B,
+	PXR_System_GetAutoConnectWiFiConfig_m8810F7F9AAC573876CECA18634F41AAA49B5DC64,
+	PXR_System_GetTimingStartupStatus_mE9545EEA5ED8EB22B0FF9BB73C0FF5FCA3BE25E4,
+	PXR_System_GetTimingShutdownStatus_m884ADFE330D65738321E0A6DDD10042AB2229DF6,
+	PXR_System_GetControllerKeyState_m70C885775F7BA16233D7A71D80A8D7F612BF3E91,
+	PXR_System_GetPowerOffWithUSBCable_m475BE2DE0DD2442DB379C08DC2FFF6540C6AF633,
+	PXR_System_GetScreenOffDelay_m6F8B315D247859DCEA28B38F7297BDE44B0DC223,
+	PXR_System_GetSleepDelay_m72D729EE4CDBB516B2D43E50E1363DFE4955235A,
+	PXR_System_GetPowerKeyStatus_m239180D50CD24839930EE9CE9F0F776803B2D3B5,
+	PXR_System_GetEnterKeyStatus_mD8C72AD98FD37D51C36760D1E315542AF698EAD6,
+	PXR_System_GetVolumeKeyStatus_mA4B374C22065A4137ECF58C10262FE4901DC9203,
+	PXR_System_GetBackKeyStatus_m1BE113E68B096BD222AB4C66E4AA45B5C2BDB53F,
+	PXR_System_GetHomKeyStatus_m769D51218C68E2BB8B21345549430E1F7BA58AE9,
+	PXR_System_GetSwitchSystemFunctionStatus_mFBBCEA4942E90731922A3DAE92FA4C5CD00BD294,
+	PXR_System_GetUsbConfigurationOption_mC1186A2CEEA5CAF133537B84EE4BA50E1C7CE521,
+	PXR_System_GetCurrentLauncher_m712F595795ACFFCAF4D360AF87C372E7F6661073,
+	PXR_System_PICOCastInit_m655FF8A77AAF2C370A01F171073D591DD9CADF6E,
+	PXR_System_PICOCastSetShowAuthorization_mD9BA0149B561021D7F061195FBB0C91A5E6DC9BE,
+	PXR_System_PICOCastGetShowAuthorization_m6C3DE9E7158F3308D0AE8A948AA5FD4C1A4434A7,
+	PXR_System_PICOCastGetUrl_m3B0DF9B03CE533CF9228A50D183ECECDDCFFAE02,
+	PXR_System_PICOCastStopCast_mC2DD4A934E06C7C7E3F99A21315B5B5E0DCB242F,
+	PXR_System_PICOCastSetOption_mA26B0524FFFDC58C75906835BA1E21947979644D,
+	PXR_System_PICOCastGetOptionOrStatus_m9B18D209B8C3901C928EA0095825332EB3C782AD,
+	PXR_System_SetControllerPairTime_m20555A807C2455850552660CBF3E86C907A7C16B,
+	PXR_System_GetControllerPairTime_m5E9D4FD1166CE5E3990F3163D6F779ED2E068AF2,
+	PXR_System_SetSystemLanguage_m91D9E105DB84E6B66CB7C1C5C9F38C301EC72775,
+	PXR_System_GetSystemLanguage_m59338E88525B4786A00E76B9EC591A554CE3D044,
+	PXR_System_ConfigWifi_mAB86DA51B436F1C57512312102CC6382862FB94F,
+	PXR_System_GetConfiguredWifi_m487AC5C165290E1D0DDC0E0457E7528B628C65CE,
+	PXR_System_SetSystemCountryCode_m37A676A1F24DC70BB383E20F1E567D4EDCF78F1B,
+	PXR_System_GetSystemCountryCode_mE08398E81A8EB627C41B547AF266FE79F6893B9D,
+	PXR_System_SetSkipInitSettingPage_mB2E36469C5DFB162ED6A380F0848456F57BDB6D2,
+	PXR_System_GetSkipInitSettingPage_mFA028E3E6AE798CBB2DDA4A748D8C3BB07FF4138,
+	PXR_System_IsInitSettingComplete_mF57DC8FA83772B5190BBADEBF313499CD7332038,
+	PXR_System_StartActivity_m8A7883C989C5DEF907C87681C3C47BF9BE227930,
+	PXR_System_SetPerformanceLevels_m18F7EDE36B8030C0E700E3E8CB20D6127771D56E,
+	PXR_System_GetPerformanceLevels_m32461622AE5EA82AE487A01B6437373EE477C5B4,
+	PXR_System_SetEyeFOV_m026B90530864A828E49D61D999B0BDB94CDA0647,
 	PXR_System__ctor_m5BB2C4B30A7F07FA438EA6CFDE948C64E61519E3,
 	PXR_HandPoseConfig__ctor_m83817CE5F7B0B53964A00A83810343E3054ED1C1,
 	ShapesRecognizer__ctor_mCE051F27E18E7AB36427C6B96967AE09334F5903,
@@ -3381,28 +3381,28 @@ static Il2CppMethodPointer s_methodPointers[1338] =
 	Bones__ctor_m786CE94529540EA6A8BFF5D240D7F80D4AB8C221,
 	RangeConfigs__ctor_mF5828AD696E2B5176BF1EB74E98460782EC10791,
 	DisplayOnly__ctor_m63D2B3B912D4E9B4DFCBA1619F625E5087CCA27A,
-	InputLayoutLoader__cctor_mE38A9646B504861E263CE70F467A5124E53B4564,
-	InputLayoutLoader_RegisterInputLayouts_mB5BA679B6BA79A9F48D505ABB8409E7D957A26ED,
+	InputLayoutLoader__cctor_m17A76AED82967B6C47FF31C28239313BCA28A176,
+	InputLayoutLoader_RegisterInputLayouts_m60DBD407E79C2EEBE475923A36481FE3D7662778,
 	PXR_Loader_get_displaySubsystem_m30A10BADE8F305C3C8F9BE87EF844EC7206CF9BF,
 	PXR_Loader_get_inputSubsystem_mA5F8DD002F3754150D62C8E76F9B13840337A6DD,
 	PXR_Loader_Initialize_m01935C39AD0818CF9A59EA8801F9E196528A8E48,
 	PXR_Loader_Start_m8C9C9B7976B7E9BEC86404FE44D496E482C312D6,
 	PXR_Loader_Stop_m93BB7CD2C5DB39A473346662947C28FAE4189784,
 	PXR_Loader_Deinitialize_m90602C4FBA15C467524EDE943A93E521781B9125,
-	PXR_Loader_ConvertRotationWith2Vector_mDAD87DDA7800E798BB209776C88E47FC09186F0B,
-	PXR_Loader_InputDeviceChangedFunction_m88319157AC43A8643A3DD83DD83F6337E191767F,
-	PXR_Loader_SeethroughStateChangedFunction_m6105E68F3C584031EE244ACA4796D120E8C4AD56,
+	PXR_Loader_ConvertRotationWith2Vector_m89DDECE6D83A5FE3FB2E1272960C831FBE6405C0,
+	PXR_Loader_InputDeviceChangedFunction_m70B414F5C2AE505E7EF23A5B3096630154AAF2A4,
+	PXR_Loader_SeethroughStateChangedFunction_mF36C7F546AFAA36E7B80D9F34EBDF7142F06E6F1,
 	PXR_Loader_GetSettings_mB208CD2C59023A82D612B0FD15D8683D7669970C,
-	PXR_Loader_RuntimeLoadPicoPlugin_m03EDC94E7BEDE962C44A7FD4FB477F144DD770A7,
+	PXR_Loader_RuntimeLoadPicoPlugin_mE5769184CD4ADEB2953D803D7EE250EA2A47D3E9,
 	PXR_Loader__ctor_m5C29C6B1F3CBB9143B263F4009B60DEA60DE161F,
-	PXR_Loader__cctor_m960DE941D1975583433F47ACD136CA61F8E8467B,
+	PXR_Loader__cctor_m454E3340B33B84C5E8E17935F8B32682E38DB0A1,
 	ConvertRotationWith2VectorDelegate__ctor_mB87DF2D7FAA5E4865F32AF5D8BD1CA11E2AE25C6,
 	ConvertRotationWith2VectorDelegate_Invoke_m1A3FAC8D73CFE846E512D4568C6CCFFE6ED3AF12,
 	ConvertRotationWith2VectorDelegate_BeginInvoke_m10D8C2D458C93CB44AE5ECC0E1463EDE2A34B967,
 	ConvertRotationWith2VectorDelegate_EndInvoke_mC5F3D303A33B1D4581E86EDCB7B79D7B4CD5A53B,
-	PXR_Manager_get_Instance_mE41C1A44EE33D5CBD7DE5631B350844F6117FF93,
-	PXR_Manager_add_EntitlementCheckResultEvent_mC64065A1A5814BD277E03BE82CE414157923197F,
-	PXR_Manager_remove_EntitlementCheckResultEvent_m2C9653B4D453BC3C4EFC4953FC94164212ADF0D2,
+	PXR_Manager_get_Instance_m345BDCB28E1C262BAE75B6797B8D1342BDD940E9,
+	PXR_Manager_add_EntitlementCheckResultEvent_m34A64560E1A0B32FE07EFCE4EBBCCDC1A1F51D10,
+	PXR_Manager_remove_EntitlementCheckResultEvent_mE539692E84CD5896D7591F928A2D9581B8238182,
 	PXR_Manager_Awake_m22706D0B1B9D0989B7C817FE3BC1394B47A70DC0,
 	PXR_Manager_OnApplicationPause_mF63DF90729C955462725304A02237E5C2886D653,
 	PXR_Manager_OnApplicationQuit_m9BADB2BF42BF3B24AA8F3635AD9ADFE2DA4C51D3,
@@ -3431,7 +3431,7 @@ static Il2CppMethodPointer s_methodPointers[1338] =
 	PXR_Manager_UPxr_GetLayerImage_mB0BBBA0DB5554716FCAA0AD2C5ECDCB754CC20F9,
 	PXR_Manager_UPxr_Calibration_m7C70F5B179E93181DD7F7D43DCD3CF21C7E5AD02,
 	PXR_Manager__ctor_mE906500FB8F9F3CB8853FFC827F8E8405F8F727E,
-	PXR_Manager__cctor_mDCADE1ABC6AA36D59BCDF3F91AD86F4FECC88ECC,
+	PXR_Manager__cctor_mE82734A5511AF62B4B3B4185594451B8B111E826,
 	EntitlementCheckResult__ctor_m0E5C5DD9998AC7F292BAD7118FDABAA8AFF29225,
 	EntitlementCheckResult_Invoke_mB30EB368A20E55BC9F9E7816C4965254BBE5EFCC,
 	EntitlementCheckResult_BeginInvoke_m10EC2E4A460E792184498D7BF071B156260C98E7,
@@ -3450,439 +3450,439 @@ static Il2CppMethodPointer s_methodPointers[1338] =
 	PXR_OverlayManager_OnPreRenderCallBack_m014F381B193ADBAD6E4E502AA746AA605FFABC44,
 	PXR_OverlayManager_OnPostRenderCallBack_mF1BD29CA765472F66B255447896C4DE507EDFF37,
 	PXR_OverlayManager__ctor_m3F54032AA04BCFC1A747D4DDDBF2DEC7D18EC45D,
-	PXR_PlatformSetting_get_Instance_m3A82FB3B891E42DBF231FBA085B3F3C85D483E96,
-	PXR_PlatformSetting_set_Instance_mDEEBDEF22F03C50A3252EAB5F83BE485128543A9,
+	PXR_PlatformSetting_get_Instance_m47E930852ACBABB7718B316669DCD095118377E8,
+	PXR_PlatformSetting_set_Instance_mF13D6B1CEE95136A89447ABED600F64308415E9D,
 	PXR_PlatformSetting__ctor_mA366B947DC752299716F191E7F5B8C2A1CB1A350,
-	PXR_Plugin_Pxr_CameraStart_m3D2201F160F4B9EAFA21791F4E278618808BE163,
-	PXR_Plugin_Pxr_CameraStop_mB6A08C1704AEF2E06FDCD341CDAD398F73615F9C,
-	PXR_Plugin_Pxr_CameraDestroy_mBE352EAB44CD225C726315F4102DC02B4440264D,
-	PXR_Plugin_Pxr_CameraGetRenderEventFunc_m8CDC970B6DA95AA2788E0F2526408B723F2D9353,
-	PXR_Plugin_Pxr_CameraSetRenderEventPending_m8EE1DBE0709C5CD7E09874D0ADE4AC19F14926B4,
-	PXR_Plugin_Pxr_CameraWaitForRenderEvent_mFEAE919CDCC633D58C154C048C58D606C1B86673,
-	PXR_Plugin_Pxr_CameraUpdateFrame_m586CCC2EB473C6AAC84094CBF130FE802D929B7B,
-	PXR_Plugin_Pxr_CameraCreateTexturesMainThread_m21E33B2262FFF396C293CE4DE5B4344DF5C0E680,
-	PXR_Plugin_Pxr_CameraDeleteTexturesMainThread_mB269C1752BF2EC6CFE039DBC8758CA5E6CC525AC,
-	PXR_Plugin_Pxr_CameraUpdateTexturesMainThread_mE1F6203B8C93DFE38DD0E9029D0275E513658C6D,
-	PXR_Plugin_Pxr_SetFoveationLevelEnable_m1F855C10DAE746995C9956E2CB70122C41337AD9,
-	PXR_Plugin_Pxr_LoadPlugin_m190AA1387981964AAD293035DB29BCC3A9A4C268,
-	PXR_Plugin_Pxr_UnloadPlugin_m3B73EBAA1EF9F5DF6B7E5775952F82AD491EFE73,
-	PXR_Plugin_Pxr_SetSRPState_m2023323EF6EE0364EB4E57B5C652A65962932857,
-	PXR_Plugin_Pxr_GetHomeKey_m3691EC50E6CF3A35509B2A4E40A75DAAC358A4DB,
-	PXR_Plugin_Pxr_InitHomeKey_mF197CC6BECC410D9B604E7A63A007911DFDC58F1,
-	PXR_Plugin_Pxr_GetMRCEnable_m1AAE1CF7644EFCCE7FFDB770E32906A79F9831BC,
-	PXR_Plugin_Pxr_SetUserDefinedSettings_mA7F71EEF301CB1278AAF8216C6D31782A1FD0817,
-	PXR_Plugin_Pxr_Construct_mBE0DAB9BE755666A0DE8E5753D2E6384153E3807,
-	PXR_Plugin_Pxr_RefreshRateChanged_mA9BFB4F9977A85C54AFD7043475A6E6DE3CCF6B8,
-	PXR_Plugin_Pxr_GetFocusState_mA1E721A4ACFD6757B96E564F14E8A4EF3BDDD5EE,
-	PXR_Plugin_Pxr_IsSensorReady_mBDA15AC09C5805A736FDCFF195DC9FB26A32C127,
-	PXR_Plugin_Pxr_GetSensorStatus_m8DA4A44583464FAE8A046F37F2B1363D7DED1BFF,
-	PXR_Plugin_Pxr_GetLayerImagePtr_m8290668DCFEB75CF550BD150FD4B31995B832B11,
-	PXR_Plugin_Pxr_CreateLayerParam_mE0BCF72BCF8FC4654CBCCF168FC4EA021D209B31,
-	PXR_Plugin_Pxr_DestroyLayerByRender_mBD630E9E5E51BF35874B3CB3838E78E492D970DA,
-	PXR_Plugin_Pxr_EnableEyeTracking_mC672F8A4F4929BF2DEFC6E84668C97A8529389A8,
-	PXR_Plugin_Pxr_EnableFaceTracking_mA7AD6405F4F0BF0DFE03EF982BE99D7EC7D31F41,
-	PXR_Plugin_Pxr_EnableLipsync_m408E95C1F68133DDC560367A6806BA82ABD85C2B,
-	PXR_Plugin_Pxr_SetInputDeviceChangedCallBack_m3EE0E431605E6E176EF3636D1FAA02A1BFA689B9,
-	PXR_Plugin_Pxr_SetSeethroughStateChangedCallBack_m8034C1D46FA194A69A6CFBB80E0018AE515B5497,
-	PXR_Plugin_Pxr_SetGraphicOption_m2645045531728401924B15C20F28FFC64CC606E8,
-	PXR_Plugin_Pxr_CreateLayer_m13E483C5CC882640B8BB3A9E72A1C88861ACC87A,
-	PXR_Plugin_Pxr_GetLayerNextImageIndex_m04C6E9A37E9C9F09E908B29C1CCD92690E4EF1BF,
-	PXR_Plugin_Pxr_GetLayerImageCount_m364B5C7D39635C5857D24B07FCBF1180A31F0A86,
-	PXR_Plugin_Pxr_GetLayerImage_m2FCCA5334C19BCF7722CAA249110C386BCB1F4FA,
-	PXR_Plugin_Pxr_SetConfigIntArray_mA9E4129E6E94709C01BC87A275B02BA0124CA729,
-	PXR_Plugin_Pxr_SetConfigFloatArray_m2818080A7728B74C74369984B8BEAFF52C26F60E,
-	PXR_Plugin_Pxr_GetLayerAndroidSurface_m57599ADB1D1BB3ECA52F7AC7368C80E0A8DEC885,
-	PXR_Plugin_Pxr_DestroyLayer_m928D01E89F2A4D43F3A1BC1C1D2D6F32612FD714,
-	PXR_Plugin_Pxr_SubmitLayer_m303E03C20440235A8FE187692C4EA62EE891BA85,
-	PXR_Plugin_Pxr_SubmitLayerQuad_mFAF54480EBD44E1A15CB0637B3F51F93824B7551,
-	PXR_Plugin_Pxr_SubmitLayerQuad2_m3994DF3A403848A98FC6B3B5E53D684180F18F58,
-	PXR_Plugin_Pxr_SubmitLayerCylinder_m6F4870B9FE0C16B7013A7EF27A7EB492CD064759,
-	PXR_Plugin_Pxr_SubmitLayerCylinder2_m113A641A9D08477AFCA79EE1BF6CC534FCBABC78,
-	PXR_Plugin_Pxr_SubmitLayerEquirect_m0125DDA1304E600180918A0E414F4A8DD166C60F,
-	PXR_Plugin_Pxr_SubmitLayerEquirect2_mCB20D0A776D14D13D0F41C55CDC43A29B8BF799C,
-	PXR_Plugin_Pxr_SubmitLayerCube2_mA6AEDEFA4D5843018DD1567FEF65C7907841DE36,
-	PXR_Plugin_Pxr_SetLayerBlend_m4D6D6E9CDF1C7DC99878CA2669BF260515BA97A9,
-	PXR_Plugin_Pxr_GetFoveationLevel_mBA61A53F8F1913D7929404B2951AB8ED97E9FE11,
-	PXR_Plugin_Pxr_SetFoveationParams_m521498B81F8B002D665D1965A8DB1F713D1899F9,
-	PXR_Plugin_Pxr_SetFrustum_m36C13949B5F751938964C6377E39E3BAA830BB85,
-	PXR_Plugin_Pxr_GetFrustum_m5EED4206E415B04F4957379A1D09A73749BC9527,
-	PXR_Plugin_Pxr_GetConfigFloat_m6888DBF221E7DF1E5AEB1A0CA22C7819E4EDA0D5,
-	PXR_Plugin_Pxr_GetConfigInt_m05C4AE0F2049A8BB434B66E97A449277DA00A8B0,
-	PXR_Plugin_Pxr_SetConfigInt_m95635EA417070D0C2A24229F9CCEEFBEE809FD6C,
-	PXR_Plugin_Pxr_SetConfigString_m26EDA4003881BE36EF5505EAB6104B0BABB20951,
-	PXR_Plugin_Pxr_SetConfigUint64_m45EAF1194578F96469B196C0B61BE6CA0B8F003E,
-	PXR_Plugin_Pxr_ResetSensor_mFA37D3E360AD7E493D7654FE3C1E8DC8ADD257F3,
-	PXR_Plugin_Pxr_SetSensorLostCustomMode_m5879A3D5EC184AAF84D7A48F85DA1395E9894079,
-	PXR_Plugin_Pxr_SetSensorLostCMST_mF4DA9F5E3233C184A3BB8D9B5AF05887E13D81E2,
-	PXR_Plugin_Pxr_GetDisplayRefreshRatesAvailable_mE76D6EF3320B50D11C4950E28D503A74AAB86D60,
-	PXR_Plugin_Pxr_SetDisplayRefreshRate_m25B0BA6BA634F68B725BE1B6666417B977C81D67,
-	PXR_Plugin_Pxr_GetDialogState_mF337F1D01035083CA3DF6F1959BFA1D6E45B2AE8,
-	PXR_Plugin_Pxr_GetPredictedDisplayTime_m52D007A2FF0791FB84AB93A05EE5FD5E4305B269,
-	PXR_Plugin_Pxr_SetExtraLatencyMode_mBBED80DEFD995824C103DAF7ECA80B5553547872,
-	PXR_Plugin_Pxr_GetTrackingMode_m738A3849315071583F6D66AAC048BBF0CE59AE13,
-	PXR_Plugin_Pxr_GetPredictedMainSensorState2_mCC47C8CF841500535E77CBF0CDD306A5D1828D83,
-	PXR_Plugin_Pxr_SetControllerOriginOffset_m337DC462C742A68F36F3692EC28E0481836531BD,
-	PXR_Plugin_Pxr_GetControllerTrackingState_m3ACF2E353CC01995D108B565D83035FDE7A10CC8,
-	PXR_Plugin_Pxr_SetControllerMainInputHandle_mFE7DD0CB450AA32DCA7D55A18789E37E48B12EE5,
-	PXR_Plugin_Pxr_GetControllerMainInputHandle_m757C35B3B20907AA52681C0A80A9C76F88E16A71,
-	PXR_Plugin_Pxr_SetControllerVibration_mCE08C47F3CAFB48F365BBF223CE741A730BF00BB,
-	PXR_Plugin_Pxr_SetControllerEnableKey_m11B45475AF6BF6F6789C4F23DF8212D92DB9470C,
-	PXR_Plugin_Pxr_SetControllerVibrationEvent_mEFC4688A274E5291B3EB2F89396F51362E26C214,
-	PXR_Plugin_Pxr_GetControllerCapabilities_mADB86E0BF300E9CBF8F8E4CEFFA98BD301C6DECA,
-	PXR_Plugin_Pxr_StopControllerVCMotor_m2D12135D3C7E05D28AA691DD20779240708DD904,
-	PXR_Plugin_Pxr_StartControllerVCMotor_m6D318D2474707011B2FFDC2EAA7EE49046F75268,
-	PXR_Plugin_Pxr_SetControllerAmp_m3E1DCB8872A11FED56F8B5DA767D145FE9748902,
-	PXR_Plugin_Pxr_SetControllerDelay_m96689A8A631021D4AA71FA8352D52CD8FDA520A4,
-	PXR_Plugin_Pxr_GetVibrateDelayTime_m0D1FEEFF4EE43CA05792D9B5946A92DE78607297,
-	PXR_Plugin_Pxr_StartVibrateBySharemF_mDD219A6E11AA447509C22E9ABBCDBE3DC398B005,
-	PXR_Plugin_Pxr_StartVibrateByCache_m88E58D09C2271E774CBD5F6A72C100B6DDBC5721,
-	PXR_Plugin_Pxr_ClearVibrateByCache_m12912DD3EB29B4AE0B291DCBA3D2E68427313490,
-	PXR_Plugin_Pxr_StartVibrateByPHF_mB4E8E1680FFFBFC1029B836B2A0B587BB9FCFC4F,
-	PXR_Plugin_Pxr_PauseVibrate_mBB844714C3B654E230276306562C278D23685330,
-	PXR_Plugin_Pxr_ResumeVibrate_m26D6F3A5362DB7064A1E9099856CCA67FE49B743,
-	PXR_Plugin_Pxr_UpdateVibrateParams_mB37FDBECCCD1CE6B8F403C62DA31490D4DD95202,
-	PXR_Plugin_Pxr_CreateHapticStream_mD4A6B9503F3769B2B8241E3BE9653FA755485977,
-	PXR_Plugin_Pxr_WriteHapticStream_m7E3EC609B473DEAFD6DD535565D8292BC35E734B,
-	PXR_Plugin_Pxr_SetPHFHapticSpeed_m42383C5FD20B39AE5E9EB596E3BFCB193A5A8F20,
-	PXR_Plugin_Pxr_GetPHFHapticSpeed_m24C0832529BD66AE4891CA49D873F212A0A9A457,
-	PXR_Plugin_Pxr_GetCurrentFrameSequence_mA02614FFC06BEE45B37F8EE5CE282C2306226289,
-	PXR_Plugin_Pxr_StartPHFHaptic_mC59C5EB6CB506AE368249435453AACC01A483445,
-	PXR_Plugin_Pxr_StopPHFHaptic_mB89C881F0EF1FE99C2F51D4262FA792DB482390A,
-	PXR_Plugin_Pxr_RemovePHFHaptic_mC0961F8D4589D2A524F3FA7934E036D387127473,
-	PXR_Plugin_Pxr_SetLogInfoActive_mA7C245EE256ED3064C4EA109B8A77B891D152A09,
-	PXR_Plugin_Pxr_GetSeeThroughState_m2222B13CFCCB857441548863E83637C5A4F661D0,
-	PXR_Plugin_Pxr_SetVideoSeethroughState_mC0C266D8BE2591189C0B1206E847CAB11CDBB996,
-	PXR_Plugin_Pxr_TestNodeIsInBoundary_m14C1CACFCA2CA6F07F125D1FE84587533B6E308A,
-	PXR_Plugin_Pxr_TestPointIsInBoundary_mE80AC909118582E16558C08587AE2CEA81A1E6A8,
-	PXR_Plugin_Pxr_GetBoundaryGeometry_m1088523A1477A2CE561B31FA1C163EEA8A083F9D,
-	PXR_Plugin_Pxr_GetBoundaryDimensions_mB1B9E685B1EBEF8FCD486FFC7E808A96FCF090BB,
-	PXR_Plugin_Pxr_GetBoundaryConfigured_m30583D9083D94890F3C2B367729F4D9FC9D287B9,
-	PXR_Plugin_Pxr_GetBoundaryEnabled_m8B3A36CDA893EB0F6E2A9E414A9C702924E78A53,
-	PXR_Plugin_Pxr_SetBoundaryVisible_m16F4E05CE322C4D7F65481077E196BC423A702A6,
-	PXR_Plugin_Pxr_SetSeeThroughBackground_m5C601D49B60333996872BB228E30EBA38CFD9D8A,
-	PXR_Plugin_Pxr_GetBoundaryVisible_m46DAD4C0E6DD01826D1AD7B374A40D80AE51177D,
-	PXR_Plugin_Pxr_ResetSensorHard_m4CD0D95E72C6AD3DA359FB7F4351005F232F93BF,
-	PXR_Plugin_Pxr_GetTrackingState_m708F01DF79DA673FC55FD151A59C947FB2AAAB04,
-	PXR_Plugin_Pxr_SetGuardianSystemDisable_m5598D07256EE9231B48EF5A13F0D909B5AD9F815,
-	PXR_Plugin_Pxr_ResumeGuardianSystemForSTS_mE380FDD95BA9150CE6741CD3E5C138BE6B349C26,
-	PXR_Plugin_Pxr_PauseGuardianSystemForSTS_m450F47365418D8F34DCE186A799FF94B84E3FC09,
-	PXR_Plugin_Pxr_ShutdownSdkGuardianSystem_m1E2A44AE5F05390758D4B5C68A5A55750BCFD186,
-	PXR_Plugin_Pxr_GetCameraDataExt_m46AAF4E514D501D772C6D81605FACE1809C4F351,
-	PXR_Plugin_Pxr_StartSdkBoundary_m223C8D413A5C356131602953E77EB4F0C307818E,
-	PXR_Plugin_Pxr_GetRoomModeState_mCF8534CDFF5BB9E28EBA2DF27062A23CFD72733B,
-	PXR_Plugin_Pxr_DisableBoundary_mBF7107FFB4EA793118A720E5AE7DBE588FA43553,
-	PXR_Plugin_Pxr_SetMonoMode_mB743E5BE0F4DF2795E2F4FC8457E82552BA417A2,
-	PXR_Plugin_Pxr_GetMrcStatus_m305532857587D29D71BF659B0BEC31C5F90440C0,
-	PXR_Plugin_Pxr_GetMrcPose_mE0C1D276D7FD45EEF90BD999DDA7850B2C9E0CB5,
-	PXR_Plugin_Pxr_SetMrcPose_mBB8704B56FAFA247A64D24D3B42AAB6891E78B67,
-	PXR_Plugin_Pxr_SetIsSupportMovingMrc_m56EEFC82507DB22A5180E70B3482D23F1A568127,
-	PXR_Plugin_Pxr_SetTrackingMode_m48BA2D28C4AB0AEA8941F48A0A784127CE560908,
-	PXR_Plugin_Pxr_GetFaceTrackingData_mD46EC715E15B67FCA956BB3EA5FD5E9AC2C0D1BA,
-	PXR_Plugin_Pxr_SetPerformanceLevels_m6782E622F575343BE0AFECFE9BEC19F550431F7E,
-	PXR_Plugin_Pxr_GetPerformanceLevels_mF762BE0004AAA4BA1437087910B11A077A6C03C1,
-	System_UPxr_LoadPICOPlugin_mE99BA0018FE5F6C14E925DA543A20DFB6C81CC26,
-	System_UPxr_UnloadPICOPlugin_m91492A83DF572B420BEDF696DC741550C4824601,
-	System_UPxr_QueryDeviceAbilities_mE1CC5D9B2B428F69E1205F52E6648C0D8A47D522,
-	System_UPxr_InitializeFocusCallback_mA25DC1A94F8F83FB66B69BF4750B76C3F5D7296E,
-	System_UPxr_DeinitializeFocusCallback_mA4CD32B3B2B3CAB55474771FCEAF464EBB258E92,
-	System_UPxr_SetInputDeviceChangedCallBack_m9DBEAFD91884A5D2C41111790C31EA0FC360CC84,
-	System_UPxr_SetSeethroughStateChangedCallBack_m26B214501B3EFAE90034D0F907948DED21A7E000,
-	System_UPxr_GetFocusState_m9F0FD1163479961995F25BA2158C5CD82CC91830,
-	System_UPxr_IsSensorReady_m7580E9521052204CACD8754EC2E11B3A2B5A1CFD,
-	System_UPxr_SetSRPState_m79105808A89658489ECB5C7024138BC0C08E89A5,
-	System_UPxr_FocusUpdate_mCFD1AB883FA9354B6363B0C8314B1419B23AA65C,
-	System_UPxr_SensorReadyStateUpdate_m71A2507D2E3DEFC71D0E4F0B4AF8A0F6D609DE10,
-	System_UPxr_GetSDKVersion_m50EB03E7E2EB8DB12F9DA8FC81BB9F3FD3C6076B,
-	System_UPxr_GetSystemDisplayFrequency_m8E65BD35D1A17AAA23264EA5930D72B8BF8C0D80,
-	System_UPxr_GetMrcY_mE3056658C69A4530944E12B5B5BF22F1EE75DE93,
-	System_UPxr_GetPredictedDisplayTime_m595119021AD870A134CF53092A19EFB240E7363C,
-	System_UPxr_SetExtraLatencyMode_m7DD1BFC180E078766DDC5F054748A9A623D778CF,
-	System_UPxr_SetUserDefinedSettings_mB75FB54E8E23A3254269AC0DF4A0AFB48CCF2C05,
-	System_UPxr_Construct_m1F22816F634487E38546C1A7EBF9F9296BDFE832,
-	System_UPxr_GetHomeKey_m0E6478656C14C02A65B583FB71B32C5C2753D865,
-	System_UPxr_InitHomeKey_m31528E8FB41BB69380FCB7AFDF32A25C3BEA13AA,
-	System_UPxr_GetMRCEnable_mDC5B089105A880FDBFB1FBCA97ABDE6A3F7C84B7,
-	System_UPxr_SetMRCTextureID_m859393739623EEA268E63D8D622CEFF4801350A1,
-	System_UPxr_SetMRCTextureID2_m59E5901F8B1D445C1EA51A126A6B336F56AD606A,
-	System_UPxr_SetMrcTextutrWidth_m9920D43EFB6AFFFAF622697B73C9E0B0284F6E67,
-	System_UPxr_SetMrcTextutrHeight_m192A6BC145BB1E68135991006E9C6434D2AEECE9,
-	System_UPxr_GetMrcPose_mDFBCA4351CD049D3879329A4B24367573B8F7E7B,
-	System_UPxr_SetMrcPose_m53D7E89C51B447F34C2807D8A063FD523548F33A,
-	System_UPxr_SetIsSupportMovingMrc_m966E08D05CE71000C4AF86814932FA2B093D9DE5,
-	System_UPxr_GetMrcStatus_m1C098C2FB896557FB49365723D1FFC36773C7779,
-	System_UPxr_EnableEyeTracking_mE631459E21AA5C422F14E818F7E6CC7594C52A91,
-	System_UPxr_EnableFaceTracking_m8DD9B113DD2A814E41EFC0EBA2B61DA7E1F03F05,
-	System_UPxr_EnableLipSync_mF7EC2C9F3D4DB5D0FCF62455115F594222E35A6E,
-	System_UPxr_GetFaceTrackingData_m83187817C0505355C810EF5C14F1FBCBDF067089,
-	System_UPxr_GetDeviceMode_mB7438C8C6D2CBAED4CD05DA980CCF5D6F20D7C78,
-	System_UPxr_GetConfigFloat_mB555532D64ABD5026565381F6893C585D0F7BBDB,
-	System_UPxr_GetConfigInt_mA7A7F397C61982657BAB047927316B5EE3B9F2C0,
-	System_UPxr_SetConfigInt_mF17985F91596944E2F6F23A256E4237075B21FFA,
-	System_UPxr_ContentProtect_m439A559938275FE59839F259AB074C494981B98C,
-	System_UPxr_SetConfigString_m89713ACAF92870FDAE326684589EF68A90AC1490,
-	System_UPxr_SetSystemDisplayFrequency_m447D590976C5BCCF3619091E41118A0E1D845D0E,
-	System_UPxr_SetPerformanceLevels_m021CF2754DE49CDF314F5FB569F3D4C96554096C,
-	System_UPxr_GetPerformanceLevels_mA529CCC6F11B1CB135A926DF047080B866A5BBD3,
-	System_UPxr_InitAudioDevice_mC5924F7770A87063876055EA6944D8A768D5A261,
-	System_UPxr_StartBatteryReceiver_m283E2533903639FF2B6B4DFDBE2B45E1C994FF07,
-	System_UPxr_StopBatteryReceiver_mC57A3CC4D6E50F6A963EE313892E86F73DEA81C1,
-	System_UPxr_SetBrightness_mC29D393E1B86C7A60B13C85B4C9A2FA0560AB9B6,
-	System_UPxr_GetCurrentBrightness_mE848CB39AEBD6D414144BD5A9D3A9DA67C5757F6,
-	System_UPxr_GetScreenBrightnessLevel_mFA5DF92DE639F6E457478008B6A79F2299C9CE45,
-	System_UPxr_SetScreenBrightnessLevel_m417FBC8BA41D4A0544A9D84BC030CE62D67AB57C,
-	System_UPxr_StartAudioReceiver_mB67F5C0AEF7D0B6C32664098AB0F25AC42A7F003,
-	System_UPxr_StopAudioReceiver_m23115EB7BAE3D5479DB96D64E1395BF9DBA80F8C,
-	System_UPxr_GetMaxVolumeNumber_m0FAE8EA5889D5DF69EF9240790F1D47B37F8C23D,
-	System_UPxr_GetCurrentVolumeNumber_m21F49CE07E3B73105A375DA3F2B7550442DCF486,
-	System_UPxr_VolumeUp_mADF045E27D8FD57F514BF6C03EBA577AD070C484,
-	System_UPxr_VolumeDown_mEE043FF7E35F1578954C20DFAA28ED516D85E163,
-	System_UPxr_SetVolumeNum_mF0BCB2F1668FEE3FDCFE83517C2CD089B067F831,
-	System_UPxr_GetDeviceSN_m18DD2B3B8A8E9E70DCE559E0501FB0E9D385BD58,
-	System_UPxr_Sleep_m2177C71BA6AB445F3CB7DC6E8B95EE0B65C05034,
-	System_UPxr_InitToBService_m6B05D4B80605E76AD8C5B32CA59C64038D50573A,
-	System_UPxr_SetUnityObjectName_mAA2736CEBDF6D6383C3B05019EAC48DD3F5B1252,
-	System_UPxr_BindSystemService_m54C29EFE53831962581E1D73F9654716A64FD2D8,
-	System_UPxr_UnBindSystemService_m982FB291ABE9B07A8DC3AC30D07DC4A0C0D884B5,
-	System_GetEnumType_mC8C9DEFCCB0788D3A8D81F7DCDAB25368BB0D7E1,
-	System_UPxr_StateGetDeviceInfo_m1589A6C1D28376378A81F0F665C7F5CE2EDBB36F,
-	System_UPxr_ControlSetDeviceAction_mDEE78E809251EA5B2C408338010A2830C08BE922,
-	System_UPxr_ControlAPPManager_mBF3DDA510DF5D3112BC1A871E38F4DC939418F0F,
-	System_UPxr_ControlSetAutoConnectWIFI_mC114B362BA76483C05831CFFBE24BE26DD079BCE,
-	System_UPxr_ControlClearAutoConnectWIFI_m8510056C422D9A31FF49C8554435DEC42F265315,
-	System_UPxr_PropertySetHomeKey_mAB700D3A018DDBA145CA6604A3A7967CA194145F,
-	System_UPxr_PropertySetHomeKeyAll_mD20B9124D30C0CDD806BF57137B869F043E3BE47,
-	System_UPxr_PropertyDisablePowerKey_mCD773CCDDAD734265B1364DC1E89F726502F5987,
-	System_UPxr_PropertySetScreenOffDelay_m5CEE288D2DE2597E7A351BEF48B2A11E8F4CFA35,
-	System_UPxr_PropertySetSleepDelay_m652B4F9E133A9635217CCB40D14C1DC964C5AE42,
-	System_UPxr_SwitchSystemFunction_m66669096142FCF48ED5768C70FB1391353122626,
-	System_UPxr_SwitchSetUsbConfigurationOption_m284A6560ACB278384CE1742D6A26C30C92F4F13E,
-	System_UPxr_SetControllerPairTime_mBAE1B658FBA1DB6A2178CF14BB1E2FB5DA1CFA0A,
-	System_UPxr_GetControllerPairTime_m77B1DA1CCD52EBDAB8107A62944D27A0B14A2C12,
-	System_UPxr_ScreenOn_m6AED151D34AEAA9F9E2206B5E3B810116C9EAAF3,
-	System_UPxr_ScreenOff_m9C8A4B90288AB4651459569EA5723E438296F317,
-	System_UPxr_AcquireWakeLock_m479F99F7DABE4AB5476D9467B3438BF7F2A320EF,
-	System_UPxr_ReleaseWakeLock_m8529503C2C84BAB6E53F189E3166C209A8219D36,
-	System_UPxr_EnableEnterKey_m8E90156BF8BBF9D5EA9BBCB15D7BD5415841E569,
-	System_UPxr_DisableEnterKey_m6E49DF9FDCF521E796741F08ED3E9AC8CDB2E39A,
-	System_UPxr_EnableVolumeKey_mF84E4E36B54E995443E73AA1DBA672BC85369F41,
-	System_UPxr_DisableVolumeKey_mFB197B230D3DB76B6D4445D02FAABDE900CD57A3,
-	System_UPxr_EnableBackKey_m57B600663BF860B2629CF3EB6FFE948BC1C57869,
-	System_UPxr_DisableBackKey_mB814807AE1DFE2241F7FB6F7AFFAEA260C588401,
-	System_UPxr_WriteConfigFileToDataLocal_mD03BB54256A71CE17ACBE7B14B36108CFE3EF342,
-	System_UPxr_ResetAllKeyToDefault_m641C14218CAF3E73100B45C6153CF55EE36635A0,
-	System_UPxr_SetAPPAsHome_mE64ACB4CD3AF7AAFBB020103FBCB48876EBC1061,
-	System_UPxr_KillAppsByPidOrPackageName_m7B697A13FF27F6597E6822B3470930599D8DCCAD,
-	System_UPxr_KillBackgroundAppsWithWhiteList_mDF61D21846C05BD1A03D8424A8718C8ABBE73498,
-	System_UPxr_FreezeScreen_mBB6EC9AFB68793BDCB3EE78268576E1CD118B893,
-	System_UPxr_OpenMiracast_m26ADA3DF18F17063F13A0AADD8BA7D52ABD62085,
-	System_UPxr_IsMiracastOn_mB69AA8A9B1C495E5A8970B9B6C3BE164459F168E,
-	System_UPxr_CloseMiracast_mCDC397D3E63DF7FE31DD4F64438ED40AD5D6E00E,
-	System_UPxr_StartScan_mBE5AF2E6F54E6B658F7D5FB5153FBA8779A0A20E,
-	System_UPxr_StopScan_mD5F8B045239DE1692436D70291AF4342FE49DFC1,
-	System_UPxr_ConnectWifiDisplay_mEE1A47AEC28D3177FFFBED92D0AB636F941877ED,
-	System_UPxr_DisConnectWifiDisplay_mC379B234D5071E6812230BAC8ABE7C4457A2BF43,
-	System_UPxr_ForgetWifiDisplay_m37A200FA82D3D2475E140C7965A95008637D579C,
-	System_UPxr_RenameWifiDisplay_mC4DCC1C312648E8CFDCD03D95CC098D347E4221B,
-	System_UPxr_SetWDModelsCallback_m0FEA68AFC97F849C86633467353CDAA9C4304E09,
-	System_UPxr_SetWDJsonCallback_m12E836C41D846D2C7AC9AD9CC1CB4C0A02DD2F60,
-	System_UPxr_UpdateWifiDisplays_mB1761B5420E1C7DBB80C4AD44607F3E8FCD1F9C8,
-	System_UPxr_GetConnectedWD_m45CBD1DD47A784489A14A841DA0D8FF12E1F3876,
-	System_UPxr_SwitchLargeSpaceScene_m4C24E69B79473DC36C59A212FA9BD5A05D0C54B6,
-	System_UPxr_GetSwitchLargeSpaceStatus_m75897F989E77F9559E740A51CDBDA2AA57383D30,
-	System_UPxr_SaveLargeSpaceMaps_m3452A3D81C32E8F50A9F7F759E9AB3C6AF39CE91,
-	System_UPxr_ExportMaps_mA2049422AF4CDEB889062DA57C0DAA2B84943BDB,
-	System_UPxr_ImportMaps_m513C226E498F5FBED2CD852ACE632A10811EC780,
-	System_UPxr_GetCpuUsages_m7882BDFEE8F88C484EDBCDC7D964ACDE7A977558,
-	System_UPxr_GetDeviceTemperatures_mF0253ED1C3C7802523A9ECA4A8A83CF6647FF43A,
-	System_UPxr_Capture_m75680C618900CA9AFAADB96CF409C54987E5C77E,
-	System_UPxr_Record_m3833FC8054F84564D58814D4C1C180A8A706D838,
-	System_UPxr_ControlSetAutoConnectWIFIWithErrorCodeCallback_m834C56170F63D56665AC38642906981C1040CFBE,
-	System_UPxr_AppKeepAlive_m37ED996A16DD40E6B4CC39FB4ED8E7BC07D85520,
-	System_UPxr_TimingStartup_mC3082976E93735A33D206AC04480E328E7EE8A18,
-	System_UPxr_TimingShutdown_mD02C0AE479152C82B4D1523E67240BD07F6AD729,
-	System_UPxr_StartVrSettingsItem_mF4DF5C74298AE170D64F8B511EA4F7309274B8D2,
-	System_UPxr_SwitchVolumeToHomeAndEnter_mCB52C93067062494AD0E87D17CEB8ACFCCC97F0B,
-	System_UPxr_IsVolumeChangeToHomeAndEnter_mA752515EEE3648536CC3F380806BF85A492CF824,
-	System_UPxr_SetSecure_mDE1B999D4775736920490FF97280D0ABC3950249,
-	System_UPxr_GetColorRes_m73159A9BA10679C26AB3D0A5632E59FA001941E4,
-	System_UPxr_GetConfigInt_mEB0DE2CC25E25172DDBEFDF35438273CDCC34D0E,
-	System_UPxr_GetConfigString_m8D4DC7F184B5363C7D2AF34FE8D3D19FB4DF6E8F,
-	System_UPxr_GetDrawableLocation_mEB7E6BA93025B30566D90A762B69A5BE9CA76F24,
-	System_UPxr_GetTextSize_mA03CDC1B6BDA4FB0D24DEF89F434B68192445A5A,
-	System_UPxr_GetLangString_m4FA12F024DF7813935B6FA246136E1CFDFB1D0CF,
-	System_UPxr_GetStringValue_m1F85EE851E45AA1238A76730624E0B0593575429,
-	System_UPxr_GetIntValue_mE8E9505A98A3FB85431BBF0E2F3994E61A32BC30,
-	System_UPxr_GetFloatValue_m289708E31584CC8AE1F0B7426552AA27ABA2B6C8,
-	System_UPxr_GetObjectOrArray_m7EB5251CDD6745D168C30207884FB6813662F081,
-	System_UPxr_GetCharSpace_m87146795FFDFC33268AACAD9C089C219203EDB69,
-	System_UPxr_RefreshRateChanged_m8371336BE6F9F442AF0B3B130940646AD95343B7,
-	System_UPxr_GetDisplayFrequenciesAvailable_m2C3A57071FD0B1F0A734F40F74B65B5E879698BD,
-	System_UPxr_GetSensorStatus_m6B7F29A88775DAF71EF17C36CC95C0DFDEE45A08,
-	System_UPxr_GetPredictedMainSensorStateNew_m34153253F83655F28F71DC2FD4A74459A7713261,
-	System_UPxr_GetAPIVersion_m5F403C49AA1755E9775384B7945394DDD2E1779D,
-	System_UPxr_SetLogInfoActive_m1C4098419147095EB8D402EAFD7DF04423A1BF9C,
-	System_UPxr_InstallOTAPackage_mFC64F25D9EC05403F88B1C489BF3BBD5383C5528,
-	System_UPxr_GetAutoConnectWiFiConfig_m0E2CDB4CFDB197E91A296B71F4B0A3B6EB24AFD2,
-	System_UPxr_GetTimingStartupStatus_mDCA1BB00711D4FACCC0A39FEFE42382BD8966A60,
-	System_UPxr_GetTimingShutdownStatus_m94D6D0E90513D07AA794539C404DF6451F13FB88,
-	System_UPxr_GetControllerKeyState_m25A27862A18EA252021DA71BCEF91B84DE3C2269,
-	System_UPxr_SetControllerKeyState_m060B765F3ED69EE4E23F9F9CA10891CA2FF6DBA5,
-	System_UPxr_ControlGetPowerOffWithUSBCable_m76C2C5DAC3399E19B1CDAAB1E33038C2D7557C91,
-	System_UPxr_PropertyGetScreenOffDelay_m2C7014D885EEDE4D7AF9FF719E3559CC9084DA90,
-	System_UPxr_PropertyGetSleepDelay_m0E204447509E6F39D31DD5D244FC0D1D044DE705,
-	System_UPxr_PropertyGetPowerKeyStatus_m5A0EBBDADE12BCD795F2132D547B6AE17BABB154,
-	System_UPxr_GetEnterKeyStatus_mFBDB13C1A49919AFD3D5F8CBA30D2AD242055C9F,
-	System_UPxr_GetVolumeKeyStatus_m8AC098C1FDFE52235770B954D33E2636706785D7,
-	System_UPxr_GetBackKeyStatus_m3EE88BB4C89CA44A27E48F6EC3FDD45F69109067,
-	System_UPxr_PropertyGetHomKeyStatus_m2E4298CAB326870A5A8B970634B73BB25178E7AF,
-	System_UPxr_GetSwitchSystemFunctionStatus_mB9029F7EFF65EA1C482AE3061BBEADCDB8EA45C2,
-	System_UPxr_SwitchGetUsbConfigurationOption_mA1FED7C1B595509ACCD85FD4A204351BDF0D497B,
-	System_UPxr_GetCurrentLauncher_m4D93B5B2BC0B1F66FA1EB637D18EE41DDCE8F419,
-	System_UPxr_PICOCastInit_mB6610A33B6B1602902A0562867B199DA8747505A,
-	System_UPxr_PICOCastSetShowAuthorization_mCC78178C9D89BB9F8EC68F07A679D22F2B4E099C,
-	System_UPxr_PICOCastGetShowAuthorization_m007B8B0150C7F24A8E0C5DA97AA83B81C085E673,
-	System_UPxr_PICOCastGetUrl_mF804DF62F36494419C4A2A11EDF40E13E32D85D6,
-	System_UPxr_PICOCastStopCast_mC2C21563FE3505DD7658C38FFEFBC0081AEE11A0,
-	System_UPxr_PICOCastSetOption_mB586ED6A79A7E741F884EB49C5B7BEA4BE9E4561,
-	System_UPxr_PICOCastGetOptionOrStatus_mBD65385FD5A3E289B69D462C92021F6065450068,
-	System_UPxr_SetSystemLanguage_m187FF33565E5B7C35BC54BC984A7B53131037C3B,
-	System_UPxr_GetSystemLanguage_mC0394696912834FF9E36B18977A265028E9AE2C3,
-	System_UPxr_ConfigWifi_mE0ECFD325EBDFCCB03D4FDCDF8048B4FB0D9984D,
-	System_UPxr_GetConfiguredWifi_mED02B5CBAE69DAB8A9209B86EEB8A782BF668E75,
-	System_UPxr_SetSystemCountryCode_m0E6B47312726816693578F1BD80D69B52583B657,
-	System_UPxr_GetSystemCountryCode_m49603CCC69FFC9EBFFE6F7A6717E090FF4FE5E86,
-	System_UPxr_SetSkipInitSettingPage_m4FA94640DF28FC37878C648D122BBDE452C2BBD6,
-	System_UPxr_GetSkipInitSettingPage_mF3B5EDF08EFE173BE2F64B4C1E721221332C7872,
-	System_UPxr_IsInitSettingComplete_mF3354B96E1D7B620F107D1FDB6F36DCA5D6EE7B6,
-	System_UPxr_StartActivity_m9C6E004964C2A90D59F899D0ABB782DD4E468483,
-	System__cctor_m34A23E3D415DE29F475635FA961398EAFB2E736F,
-	Boundary_UPxr_TestNodeIsInBoundary_m70E15C77AC3BD801F45023614B9DE478B0600815,
-	Boundary_UPxr_TestPointIsInBoundary_m4B5D8A7C8D915501DC050A27A44E92918E384505,
-	Boundary_UPxr_GetBoundaryGeometry_m750E83114D570B0A09D4005EC22EEF349D83AC66,
-	Boundary_UPxr_GetBoundaryDimensions_m811ACA9A9D2859D9417EBAB0E7A4151D8583C71D,
-	Boundary_UPxr_SetBoundaryVisiable_m3710ADECEA7FA4E50BED11F10793DCECE4511A63,
-	Boundary_UPxr_GetBoundaryVisiable_m6611A4818B32E8BA7CB9503E9585E436CA3D4246,
-	Boundary_UPxr_GetBoundaryConfigured_m71D2BD383B6576BD2F8A2327D978DC11A161F80F,
-	Boundary_UPxr_GetBoundaryEnabled_m1A10632EED9706FCC9E9B84D343DBACD34C83D28,
-	Boundary_UPxr_SetSeeThroughBackground_m4778077E1F3E1EA813639A58619783E3CC022971,
-	Boundary_UPxr_GetDialogState_m50B9B0010B52D0488670EEBBCC05B2936860B0B1,
-	Boundary_UPxr_GetSeeThroughState_m4D7B2125779B1194D76FAD58F54618127791F81E,
-	Boundary_UPxr_SetSeeThroughState_m7CD1A141CC59A5031AE08EB3D9E2BABBF1F4F525,
-	Boundary_UPxr_ResetSeeThroughSensor_mFB4291C8DD51D82E977C7ED28F4566412D90195C,
-	Boundary_UPxr_GetSeeThroughTrackingState_m4F6BE6F292D256D41D247B2A33C252C87758A3BA,
-	Boundary_UPxr_SetGuardianSystemDisable_m2E6F8683908119A5CA656628B58C953E2434EC4A,
-	Boundary_UPxr_ResumeGuardianSystemForSTS_m35CF1DA3864745DE0A24C324F74AF95428D48150,
-	Boundary_UPxr_PauseGuardianSystemForSTS_m2F88A62ED45D37CEC87F79E4EC1A87410D1C25AD,
-	Boundary_UPxr_ShutdownSdkGuardianSystem_m9AEF2EED29C12800A56230E0EE7BABD0767BD751,
-	Boundary_UPxr_GetCameraDataExt_m67EC8536B6581FB6DE6AD182223CEDDFF6FBA785,
-	Boundary_UPxr_StartSdkBoundary_m9BF50FBC67EF9BDC70A4E847324FEF8229178452,
-	Boundary_UPxr_GetRoomModeState_m8779D557FC1BCFF2E2F5544BB0704988F1D03D4F,
-	Boundary_UPxr_DisableBoundary_m14A07EC34B45E2A86A699EE37F2CCE21BC9F018A,
-	Boundary_UPxr_SetMonoMode_m2C11881E30E1BDDAC3DECBC9B4A29D21F06FA779,
-	Render_UPxr_SetFoveationLevel_m968A52BF7F5EC9E0E750539076804A0540711306,
-	Render_UPxr_GetFoveationLevel_mB81E29FB00534E61CEA8ED63E53A413C60C688F7,
-	Render_UPxr_SetFoveationParameters_m5D173638D817AA019E8E6F123DA9F1CE7AECB93E,
-	Render_UPxr_GetFrustum_m8A8DCBDA156E2748042D6D3FA55D394697CBB890,
-	Render_UPxr_SetFrustum_m81A874D6DA4A564A37112EDCD276DE7CF761372F,
-	Render_UPxr_SetEyeFOV_m6E3A89664CB469C74D5CFFBE252C06DBA70A8EDF,
-	Render_UPxr_CreateLayer_m55CC8B989AC9D4AE390499EA76A629A83790834F,
-	Render_UPxr_CreateLayerParam_mB03EBE418BDBC01F53016D5ABE19275A80D622C4,
-	Render_UPxr_GetLayerNextImageIndex_m566A9D23940077B4596F3564DAE8A6CDBFE3A50F,
-	Render_UPxr_GetLayerImageCount_mCB023769563C2DCCA1A521D7D52C93A668422080,
-	Render_UPxr_GetLayerImage_m0C426150AEFAAB978416F75B00A818FB1266E738,
-	Render_UPxr_GetLayerImagePtr_m321DCFD81C800D6A615471E75A9398DC048921D2,
-	Render_UPxr_SetConfigIntArray_m5FDC41E450AABCC09555461D0E33DA4F485CEE1D,
-	Render_UPxr_GetLayerAndroidSurface_mCDE79D6F9ED9FC0D8953320D7EFF22A7915E1865,
-	Render_UPxr_DestroyLayer_mB71E0CC8AA41FA6DDDEFFD4D1BC9A3A4B5C45260,
-	Render_UPxr_DestroyLayerByRender_m4FC804929605FE80293611151F587B5CF30DABC8,
-	Render_UPxr_SubmitLayer_m79AB5F7C8750F259D6CFCA42549EAB537A3AEA3F,
-	Render_UPxr_SubmitLayerQuad_mA0D26063D0F3C323F738C40BD9094AE98588E3D3,
-	Render_UPxr_SubmitLayerQuad2_mAED1DF48B7562F11597A25AEDA9E4583787B7FE7,
-	Render_UPxr_SubmitLayerCylinder_mA12DCA175B0370A024F2FCBB249EB10421A3D206,
-	Render_UPxr_SubmitLayerCylinder2_m6779FCCD6A2B5D0E699148D1F87605A259C41A56,
-	Render_UPxr_SubmitLayerEquirect_m482116A3C65934296BA4110E8D73CA679E95CE46,
-	Render_UPxr_SubmitLayerEquirect2_mB28B104C98C2897234E21B38257066EFDC06D378,
-	Render_UPxr_SubmitLayerCube2_mDE12D51913388F3CCC2B5E60FB17F97F8209DBE5,
-	Render_UPxr_SetLayerBlend_mBFA4C20176E3AD5E61112AE6D5BAEBC372ADB9A3,
-	Sensor_UPxr_ResetSensor_m6EE200C9FE97A6741BDBFE64BA924684D6E5E955,
-	Sensor_UPvr_Enable6DofModule_mDA72F56D6CFC4C9B7110F35C3B6FD84FC74DA0EB,
-	Sensor_UPxr_InitPsensor_m24B8A96871B8D03ACF064392C99CD7F1EA2E3E5B,
-	Sensor_UPxr_GetPSensorState_m6857EA86E4188B33542FDF7AE5841A244CA319DC,
-	Sensor_UPxr_UnregisterPsensor_m86FC2F41B3B12D411B759C27AE73DBFB109EEDB0,
-	Sensor_UPxr_SetSensorLostCustomMode_mEA892FF38CD190EC39455B35D484BB3B62116793,
-	Sensor_UPxr_SetSensorLostCMST_m0B3943647EB4926CEADEF7E7C9917432DE928F89,
-	Sensor__cctor_m18C405B77DE9DF19AC434E7AA781D9671B1D4155,
-	PlatformSetting_UPxr_IsCurrentDeviceValid_mC66E42A9EC972BDF348D2A8E38717B74DB66753E,
-	PlatformSetting_UPxr_MRCCalibration_m286830DE2613A6137421187BCBFECA2231FBC595,
-	PlatformSetting_UPxr_BindVerifyService_mA72B11AB309981FC4757F80EC8747FDF24CB9929,
-	PlatformSetting_UPxr_AppEntitlementCheck_m0A5103F89CA44A3CD5041509754662F6D2933677,
-	PlatformSetting_UPxr_KeyEntitlementCheck_m59CFA6375694EA079BCDAEF036AD7E2B85FB32B1,
-	PlatformSetting_UPxr_AppEntitlementCheckExtra_m93574C7A16C88C0DA33EBC8926A529146F17B27A,
-	PlatformSetting_UPxr_KeyEntitlementCheckExtra_mC49FBFF1BC859EAF293ADE99974444F731A2F96E,
-	PlatformSetting__cctor_m69BD6DB94002D21F1EE745618E1F1DB61BF3B444,
-	Controller_UPxr_SetControllerVibration_m1F7B3A1F57640C40EEBA26F71E0DA3F3DBD25A33,
-	Controller_UPxr_SetControllerEnableKey_m5E2BF29633CDFF0D3A5DEB2D1CD2D7B2922A2505,
-	Controller_UPxr_SetControllerVibrationEvent_m17B655E87ED5B6D97593795AD3464312E5A330BB,
-	Controller_UPxr_GetControllerType_mF40B952F14A49A996BE5DA1079F03509CE951F0C,
-	Controller_UPxr_StopControllerVCMotor_m472FF5D012C01469BD129553D583D084396C29C0,
-	Controller_UPxr_StartControllerVCMotor_m23968DC9765BCD256634E2ED6ACF93053AEAA802,
-	Controller_UPxr_SetControllerAmp_m6A1251AE935A7F871C08888BECB28204AAD78E89,
-	Controller_UPxr_SetControllerDelay_m559A3866CA064BE6724AF5C32E0A58E9AF1394DB,
-	Controller_UPxr_GetVibrateDelayTime_m0EBB3136CD46F2123EA893519CF02FEBCEC9C9D6,
-	Controller_UPxr_StartVibrateBySharem_m785D3F8C7969468594E254BDBA44D8B17EDAD97F,
-	Controller_UPxr_SaveVibrateByCache_m618D7294EFF245B87CEC93526BBFA725D2FAD7F3,
-	Controller_UPxr_StartVibrateByCache_m2C38E9F4C04444414AADBB49528BB6420DBCD650,
-	Controller_UPxr_ClearVibrateByCache_mFD6556E7DDA0C88CABE9EF0DD69601C7B0E3D0E9,
-	Controller_UPxr_StartVibrateByPHF_mC6BAACB761622EFB133588E5C43A7EB67BCAA1C0,
-	Controller_UPxr_PauseVibrate_m15E9FD90A33BEA7AA3C7262A537412FB22118D5F,
-	Controller_UPxr_ResumeVibrate_m133E55B63F3F014BF5B21D07057509B1679F2BC5,
-	Controller_UPxr_UpdateVibrateParams_m5C52EFD460B7C494A2B8190B8054E131FCA90B2D,
-	Controller_UPxr_CreateHapticStream_mA10E7722B3A489AF21DE9F9C6BD25A01AB4603C8,
-	Controller_UPxr_WriteHapticStream_m76D6FEB8CCBBF38DD88620481DD2DB4C692864BB,
-	Controller_UPxr_SetPHFHapticSpeed_m0EF3C0F98EC9FFD3DEDAA38B30197B28ACDA75BC,
-	Controller_UPxr_GetPHFHapticSpeed_mAE9311D32523431E3B9142438B426983F19044BA,
-	Controller_UPxr_GetCurrentFrameSequence_m092E77ABB9CABE05ACEB245A596451918C8D56E9,
-	Controller_UPxr_StartPHFHaptic_mB42D769BEA41B595FB3C1CF64692B023EF0AB160,
-	Controller_UPxr_StopPHFHaptic_m8F76963F47ABD6361F800239A5ED8C3A9591F533,
-	Controller_UPxr_RemovePHFHaptic_m3A7385D492B3B732160D1909A49AE66026A57DDB,
-	Controller_UPxr_SetControllerMainInputHandle_mD3730C98A86C32855D2D719456D5A024C25278BF,
-	Controller_UPxr_GetControllerMainInputHandle_m5AE965CC6BFBEBC8BD3CB2DD8E5F75F6D0465BD4,
-	Controller_UPxr_GetControllerTrackingState_mF7995E3160A40C8D363A1B91AB0858F6E8A83B4B,
-	Controller_UPxr_SetControllerOriginOffset_mAF0DB95817ED9570527418A9379F6574124E1F0D,
-	HandTracking_Pxr_GetHandTrackerSettingState_m15A10FEC05390518398EE445302F435DD73E4B93,
-	HandTracking_Pxr_GetHandTrackerActiveInputType_m265BFE8AD18CE5F0D7E8A3BAAC616EA5CE87309A,
-	HandTracking_Pxr_GetHandTrackerAimState_m10BA78679F8BAF99676806701AE6F7C4CF9AD864,
-	HandTracking_Pxr_GetHandTrackerJointLocations_mB794ED705B9D020BE3AA5C231B838851EA29CA3E,
-	HandTracking_UPxr_GetHandTrackerSettingState_m93389774B7D7BC169D1E1D110BF974A20F21140A,
-	HandTracking_UPxr_GetHandTrackerActiveInputType_mFB1E66D70F79763DC26CFEB3213AD7C40E7ED4FB,
-	HandTracking_UPxr_GetHandTrackerAimState_mF1344E144E3B18D483C29ABC571C70A9FB5D71E0,
-	HandTracking_UPxr_GetHandTrackerJointLocations_m2A318586EDC1E491F3C9AD106AA1E4BF34F2BEF5,
-	PXR_ProjectSetting_GetProjectConfig_m53A30885C21AD62CBF111D44B6BD416E9054E8B3,
+	PXR_Plugin_Pxr_CameraStart_mCB3F30DB75A22991099B8FC3151696D7F3ECF264,
+	PXR_Plugin_Pxr_CameraStop_m89791C94BD8957E4B15BC96D0774FF4454C46674,
+	PXR_Plugin_Pxr_CameraDestroy_m3AA78DE01EFCE2E23021C643C70ADBEEC4AD4B65,
+	PXR_Plugin_Pxr_CameraGetRenderEventFunc_mBEA8709C154E90C01ED787BDB9D62BEEFF377DD7,
+	PXR_Plugin_Pxr_CameraSetRenderEventPending_m3117E3C0B452636622063E06A6B9B9F468203B23,
+	PXR_Plugin_Pxr_CameraWaitForRenderEvent_mAE2E6FB4C2A97D8708C519F026B5AEE57403B1E7,
+	PXR_Plugin_Pxr_CameraUpdateFrame_mF6CCF5FC4ED7EF50F0ED8B20B170939B7A24B5D0,
+	PXR_Plugin_Pxr_CameraCreateTexturesMainThread_m2B2D725760CE4169DE9F5C25C0EBC3A3359C4F5E,
+	PXR_Plugin_Pxr_CameraDeleteTexturesMainThread_mE774B9F2A6DC4B2084A44BAA727364D62C2FB922,
+	PXR_Plugin_Pxr_CameraUpdateTexturesMainThread_m8740805997F6BBF85530A9BE0D6824D16DD34204,
+	PXR_Plugin_Pxr_SetFoveationLevelEnable_mB3949C6D877834FBF8F51DF49041E62E559A1F72,
+	PXR_Plugin_Pxr_LoadPlugin_m343C07B6CB370976CECD8AFDF6C549E7283C3BF1,
+	PXR_Plugin_Pxr_UnloadPlugin_m95AF9D366C57D2393F83D5344A8F65379C3A264D,
+	PXR_Plugin_Pxr_SetSRPState_m339781FE9D54B31F2C6518D334540087931C337B,
+	PXR_Plugin_Pxr_GetHomeKey_m3BDE617C8AFDA4350085E053F09C24932F1A508A,
+	PXR_Plugin_Pxr_InitHomeKey_mB1DC94638FA1CAC6BB872997AF9690BB46F97E4D,
+	PXR_Plugin_Pxr_GetMRCEnable_m0057D74F806075C91CBBC4AE90DE5836BBB7D928,
+	PXR_Plugin_Pxr_SetUserDefinedSettings_mA71201751840A86B2FA369D8E49CDF45CC603254,
+	PXR_Plugin_Pxr_Construct_mAD0F1908F1DAF279627595DCCAA8C92B73B8FD11,
+	PXR_Plugin_Pxr_RefreshRateChanged_m904BC811D842FBBAFBD9B2E1CDBC5D4E6291B868,
+	PXR_Plugin_Pxr_GetFocusState_mF43907D5EED6F2F09790E474FD1C31D65DDE2ADD,
+	PXR_Plugin_Pxr_IsSensorReady_m7197F44EB82A2999D224FFCEA0C589F7BF1511A4,
+	PXR_Plugin_Pxr_GetSensorStatus_m469B6AFA8329473ECE11664CCF56FF2E612D0AA4,
+	PXR_Plugin_Pxr_GetLayerImagePtr_mEF4B4F7E4C3F69763CF58A8ADF944EEF87576B7C,
+	PXR_Plugin_Pxr_CreateLayerParam_mAFC5F26760362EDAC3ABC5016CF03EE1B60EF413,
+	PXR_Plugin_Pxr_DestroyLayerByRender_m3BAA37E0DC34ACD777E1646029D9EA02802D85D3,
+	PXR_Plugin_Pxr_EnableEyeTracking_m1E67A5E95CA66B9D6792824705BF0980554F1EAA,
+	PXR_Plugin_Pxr_EnableFaceTracking_m4939DEFDF47A8C57192CE9B1BEE2F3D77F4C171D,
+	PXR_Plugin_Pxr_EnableLipsync_mF3A404C6F01E57E0A0B1DE9C29B569B4ADB6E2B2,
+	PXR_Plugin_Pxr_SetInputDeviceChangedCallBack_m72B8B8EDB65C468BE090F311334C7E52F440C084,
+	PXR_Plugin_Pxr_SetSeethroughStateChangedCallBack_mB1692B2C7548F64B49DAFB719EEFBF6F2712C120,
+	PXR_Plugin_Pxr_SetGraphicOption_m7DBE210AE30D898145066B1D9224057F189F7F46,
+	PXR_Plugin_Pxr_CreateLayer_m4779A3BAEF019205F77FBCD8EAD81306766328C5,
+	PXR_Plugin_Pxr_GetLayerNextImageIndex_m22EC66D9BAD30A1A85DAD922B55783E49E9DC777,
+	PXR_Plugin_Pxr_GetLayerImageCount_m69367AE616F17DF957D28424F42E9A94E1FD7B1F,
+	PXR_Plugin_Pxr_GetLayerImage_mE88BE2399F2EC7B1E452DF97A9FD973F5DAA58B0,
+	PXR_Plugin_Pxr_SetConfigIntArray_m9DBE52259640F099F11F6FED253F0E38FA7F4680,
+	PXR_Plugin_Pxr_SetConfigFloatArray_m7AFEDE4C9099ABD55FC718843064B5B0229F24AE,
+	PXR_Plugin_Pxr_GetLayerAndroidSurface_m7A0C7246D8E16740F94B4E7BB89CA387029E4F0A,
+	PXR_Plugin_Pxr_DestroyLayer_mD3F86757D0AC3344977238CF560CE6976803BE1E,
+	PXR_Plugin_Pxr_SubmitLayer_m774ECE4F46AD2C39ECF7DAE6F54EAAD137BA02A2,
+	PXR_Plugin_Pxr_SubmitLayerQuad_m2486ADEEF0C8D6E4E631B6097D9EEAE98FDC5CC1,
+	PXR_Plugin_Pxr_SubmitLayerQuad2_m1A364BADF670DD2325129EF2BE83891CA7C42BDE,
+	PXR_Plugin_Pxr_SubmitLayerCylinder_m697572D5D67E7E8B4A02885F484393D0CE40DB60,
+	PXR_Plugin_Pxr_SubmitLayerCylinder2_m1C0F9094D8BB54B9159108582EFDD4B135237403,
+	PXR_Plugin_Pxr_SubmitLayerEquirect_mB4646BAB05188BC947FCABAA09BE5731FF21C5B0,
+	PXR_Plugin_Pxr_SubmitLayerEquirect2_m366CDF980673403B18644112A4C0FC82045BB2C3,
+	PXR_Plugin_Pxr_SubmitLayerCube2_m3731BC568F6136068168EBBE03DCFE690122286D,
+	PXR_Plugin_Pxr_SetLayerBlend_m434C364E779B23D99013446F37419A4297255D06,
+	PXR_Plugin_Pxr_GetFoveationLevel_m6C28C217B77B50B58E67B28C913C4BF697F52C0D,
+	PXR_Plugin_Pxr_SetFoveationParams_m8B5A7EBF6E26C05221154D15C5B3A9D92C654910,
+	PXR_Plugin_Pxr_SetFrustum_m0F301E445BB87453007780B9F3A7533FFE561890,
+	PXR_Plugin_Pxr_GetFrustum_m721BB9C3FB48C401A7DCA50AF025398A52E6D3FE,
+	PXR_Plugin_Pxr_GetConfigFloat_m374A17C1F7BCECFD9B996495D9799A249D7F5FA4,
+	PXR_Plugin_Pxr_GetConfigInt_m820682C6EF117417EAC28EF590F9FDEAFAA2FF98,
+	PXR_Plugin_Pxr_SetConfigInt_m2DEB76BF8C991454F9D3B5DECA193E83EECCB562,
+	PXR_Plugin_Pxr_SetConfigString_m13045363AA03EAF3FC5D916CA86715C206F4B408,
+	PXR_Plugin_Pxr_SetConfigUint64_mCE8D80AEBD829CB833E2D8546C49FBFA1C297AC0,
+	PXR_Plugin_Pxr_ResetSensor_m5E5791354EFEBFCC44A1A6DC3C4F4B915845ACF4,
+	PXR_Plugin_Pxr_SetSensorLostCustomMode_m7FE246F721C992CA77FCB0904A8F935E5A98E87D,
+	PXR_Plugin_Pxr_SetSensorLostCMST_m723250F3B438885306EE2C38FE6F70D8579C04F3,
+	PXR_Plugin_Pxr_GetDisplayRefreshRatesAvailable_m8EA7778420F71EF7EE18A5A0D7DF00A20499461A,
+	PXR_Plugin_Pxr_SetDisplayRefreshRate_m8C2A5D5B6F3F09355637F6F7F495214B73DD9873,
+	PXR_Plugin_Pxr_GetDialogState_m9829474E399F1423750817AAE2D9C7331E379D53,
+	PXR_Plugin_Pxr_GetPredictedDisplayTime_m470B8DD85418C0252E2FFC4EF22B46B55014D3F0,
+	PXR_Plugin_Pxr_SetExtraLatencyMode_m9EE3C9E27E7C08B1EB1D165E27A5D560B7E6A189,
+	PXR_Plugin_Pxr_GetTrackingMode_mBA174D1D05BE7D0EEFC9ECD9E6B57712DC8A15CC,
+	PXR_Plugin_Pxr_GetPredictedMainSensorState2_mDE476E5B1902C4E34DA576A037E1C7C9C7299F37,
+	PXR_Plugin_Pxr_SetControllerOriginOffset_m9C51F04D224EE5F94B121679F74113D687D6F180,
+	PXR_Plugin_Pxr_GetControllerTrackingState_mB91ECD9297E92FFD855EA4165CA8FD7E1DC323F0,
+	PXR_Plugin_Pxr_SetControllerMainInputHandle_mD7F1179BC33EC13BE1132F0F07A373E929870F2D,
+	PXR_Plugin_Pxr_GetControllerMainInputHandle_m823AF4E1352DEC77B119BA42C0F18C4DEF8DAB98,
+	PXR_Plugin_Pxr_SetControllerVibration_mEDAD69990AB1A9D8D7C96B301B9958C144E1B0B3,
+	PXR_Plugin_Pxr_SetControllerEnableKey_m136FE69118AD0281EED69734D1135044AA2E41AF,
+	PXR_Plugin_Pxr_SetControllerVibrationEvent_m58883D9345DA8ED7FD977E73EB67D38C0B452D5B,
+	PXR_Plugin_Pxr_GetControllerCapabilities_m13A6E178EE65F23F20845B62817EFBB16D510F66,
+	PXR_Plugin_Pxr_StopControllerVCMotor_mC876F0D067130C1A3D63E0099490449909A2549A,
+	PXR_Plugin_Pxr_StartControllerVCMotor_m2EC113C31D1374967FE4C04CB62A87C71AA483D5,
+	PXR_Plugin_Pxr_SetControllerAmp_m8263CD37DFF133826856F908F95E4CB4880E5274,
+	PXR_Plugin_Pxr_SetControllerDelay_mDFE5507F4E5A167F78474165115BAC6B34223F6D,
+	PXR_Plugin_Pxr_GetVibrateDelayTime_mD4FEFB7AC381DAD7267D42E131A866CA4640A385,
+	PXR_Plugin_Pxr_StartVibrateBySharemF_m730EE641FA79F0D4FDE8AAB58F6E90ECCDF2CD74,
+	PXR_Plugin_Pxr_StartVibrateByCache_mFA45BD7E612B0D870515009C20F20B3CEAC80BEA,
+	PXR_Plugin_Pxr_ClearVibrateByCache_mA88225063172BAF80288A24E4E3CBCD961363402,
+	PXR_Plugin_Pxr_StartVibrateByPHF_m1054713C7D4AE571C9AC146690523696A3EB1016,
+	PXR_Plugin_Pxr_PauseVibrate_m345E1994F67177795B9D6F4418710C98AB84AB65,
+	PXR_Plugin_Pxr_ResumeVibrate_mB75519F4D4217E8FF44C1D7F817C1C435D478EB2,
+	PXR_Plugin_Pxr_UpdateVibrateParams_m0DD375E7E58C02A89E9A83AFC51C4F194435A35A,
+	PXR_Plugin_Pxr_CreateHapticStream_m3908E9CB383D2F559FC901BB6425B15CEF32BE6F,
+	PXR_Plugin_Pxr_WriteHapticStream_m81C0ACE1AD72BE995B0A260FA63806FB37608FDA,
+	PXR_Plugin_Pxr_SetPHFHapticSpeed_m4E0041F151D2E84E91F76EF58BFFB25BF5AEFAB7,
+	PXR_Plugin_Pxr_GetPHFHapticSpeed_m64BB5FC071126F653D5828944E1EF044AAE98EB4,
+	PXR_Plugin_Pxr_GetCurrentFrameSequence_mE9F155F393820A861DEC3DD56E941677E43C0612,
+	PXR_Plugin_Pxr_StartPHFHaptic_mD173DE22D78BF7A7C8D7511CBEB551F1DE7EE538,
+	PXR_Plugin_Pxr_StopPHFHaptic_m86F1221A3BEB6CBE93E80B2FBDA2489BDBC4B4AC,
+	PXR_Plugin_Pxr_RemovePHFHaptic_mD878C6320B2BF75C55A928411E4680CCCF0CB63D,
+	PXR_Plugin_Pxr_SetLogInfoActive_m8B8D2C3BBAA8A97228D287A4962EA0B676FCF406,
+	PXR_Plugin_Pxr_GetSeeThroughState_m1048511BB5181EAA5B9E8FDF12BC14B29F64DF5E,
+	PXR_Plugin_Pxr_SetVideoSeethroughState_m1C5317450841DE2697F299779DEE2BB51B3AF5CC,
+	PXR_Plugin_Pxr_TestNodeIsInBoundary_m269432D74E373581E0776B97FF4A2F934B69B07C,
+	PXR_Plugin_Pxr_TestPointIsInBoundary_m4B6A41CBFBA3BFBBFC6C539AB4920AF72A4F49EC,
+	PXR_Plugin_Pxr_GetBoundaryGeometry_m79515C16B231726841FF67E904CD9C3DDA873D22,
+	PXR_Plugin_Pxr_GetBoundaryDimensions_mC8821E972F713BCDAC094889D2E215AFA16205F3,
+	PXR_Plugin_Pxr_GetBoundaryConfigured_m4825B89BA881A5407CA8B78E1D847A294E026557,
+	PXR_Plugin_Pxr_GetBoundaryEnabled_mAD67FCFAF813F853943113DDE7475F8506C93035,
+	PXR_Plugin_Pxr_SetBoundaryVisible_m394E118E3C202B50B9E0650CCAEBD61E1E79CF98,
+	PXR_Plugin_Pxr_SetSeeThroughBackground_m887DC2A47C51AA2D0F528046D3FF02EDCE711C65,
+	PXR_Plugin_Pxr_GetBoundaryVisible_m085D56D5AA796934ACAF52083F45721CE3620196,
+	PXR_Plugin_Pxr_ResetSensorHard_m4F429C46B1F2C10797A16CF2CB5D15B40F689CEA,
+	PXR_Plugin_Pxr_GetTrackingState_mE531D05C607061B1D85402DE92886DF6907C2EDC,
+	PXR_Plugin_Pxr_SetGuardianSystemDisable_mA3FC1D70236C6C0E0B7A1972FF914E56A1DC594A,
+	PXR_Plugin_Pxr_ResumeGuardianSystemForSTS_m1469FE6FCEE43D61E1A9B4F861D07AAB6F82469D,
+	PXR_Plugin_Pxr_PauseGuardianSystemForSTS_m8D139A0F4DDDBFDA793CC4A3672EEFD9DB1D791B,
+	PXR_Plugin_Pxr_ShutdownSdkGuardianSystem_m9AA12A08E70524A5474C204A644482F8C7064F53,
+	PXR_Plugin_Pxr_GetCameraDataExt_mC37C15A4368B67CB9291ADCBEA30AB0549C13E63,
+	PXR_Plugin_Pxr_StartSdkBoundary_m587182F26B1AB6CF24D1B523B48C8B512F4D85F5,
+	PXR_Plugin_Pxr_GetRoomModeState_mCD6D7BB5ED67CA473920B237CE28BF3F5C0A0CBA,
+	PXR_Plugin_Pxr_DisableBoundary_mA933BEE3775284B02DA5BEA7848F8D2EEDD60E1A,
+	PXR_Plugin_Pxr_SetMonoMode_m56732B6720266FBB05ADB5FA187C54BECC4B92D4,
+	PXR_Plugin_Pxr_GetMrcStatus_m90CA6A915E11CF3883530F67A22564C84F299361,
+	PXR_Plugin_Pxr_GetMrcPose_m6979DFD8BFCF6847D04999AF4D30B9D94BEB30D7,
+	PXR_Plugin_Pxr_SetMrcPose_m6BB18F1BE05411EF656FA5BDE4897C45F257125F,
+	PXR_Plugin_Pxr_SetIsSupportMovingMrc_mE19AC0AB94D44E0E8CD4C2D9662CAC3809EB9C33,
+	PXR_Plugin_Pxr_SetTrackingMode_m9CE183F2D15F3D6CA40C93DBDBFD185F9A732B05,
+	PXR_Plugin_Pxr_GetFaceTrackingData_m732A59A6787782993F3166E98EDF6389180FBA7D,
+	PXR_Plugin_Pxr_SetPerformanceLevels_mDFD03DEFA916CC49762CE85B76640E1FD0625296,
+	PXR_Plugin_Pxr_GetPerformanceLevels_m29497A6D5B8EE0DED14CE71A3C74076AEC0706E3,
+	System_UPxr_LoadPICOPlugin_m823104D06EFBB45B168794AA6C2DD59761F28C61,
+	System_UPxr_UnloadPICOPlugin_m2EB2D8A5913F253FB324ADFE832E5D2125944E20,
+	System_UPxr_QueryDeviceAbilities_m2E22B1DD5DF78C7F189D7748DA672352C7E3D496,
+	System_UPxr_InitializeFocusCallback_mCADFA88152226F46D2938CD5312E9F0214981E0A,
+	System_UPxr_DeinitializeFocusCallback_m5F864535EA484EB74508D4DDA48EE73FE64D136B,
+	System_UPxr_SetInputDeviceChangedCallBack_m10E57207C17C815AEDBCB59301512EA9A80DB722,
+	System_UPxr_SetSeethroughStateChangedCallBack_m6936EA5C26D94E2570FE5C11F2A40295CF7AEC32,
+	System_UPxr_GetFocusState_m88651C11DB5FFA313E181529085C8ED99C8ABE88,
+	System_UPxr_IsSensorReady_m652CA4A3BD8783F3D2A9E825E12A7FB435786983,
+	System_UPxr_SetSRPState_mEA81863D3E765F5ACBA3450B906AA58DC4972C36,
+	System_UPxr_FocusUpdate_mC1F0F573244DDD6065979E136430D11D6EA92554,
+	System_UPxr_SensorReadyStateUpdate_mCC967B57BAA43151532FB4B4C56C9278937A93E5,
+	System_UPxr_GetSDKVersion_m59073B1B1C92E104604774FACC80B0543D8AEB77,
+	System_UPxr_GetSystemDisplayFrequency_m401D292231006B5A7F34B9AB36DB98F738171F36,
+	System_UPxr_GetMrcY_m63738A6318B24752257E8120F648EB5FADEEFBCE,
+	System_UPxr_GetPredictedDisplayTime_mDFDCB1F2B93F83B1AA104C9604024FF51D98482B,
+	System_UPxr_SetExtraLatencyMode_mDC96709B1BD54C3B817014B2F4D006AC5B699EA1,
+	System_UPxr_SetUserDefinedSettings_mCA249829FCCE4DDFA9D28604EE7F4EDB7F36E094,
+	System_UPxr_Construct_mEB27CB31C789601B956FA6D6E2A2D8BEF9364067,
+	System_UPxr_GetHomeKey_m93E1BD962BC432D254585A1C970FDA66AD3AF72E,
+	System_UPxr_InitHomeKey_m364624A142B3355F039B221743739ECCC7BE96B6,
+	System_UPxr_GetMRCEnable_m2963CDA657A1BDCCCF8F88726114DDBE1F62712D,
+	System_UPxr_SetMRCTextureID_mC167E9B66E0B14503B7074827A7A9A599B7893E8,
+	System_UPxr_SetMRCTextureID2_mF1E8FD5C25A40D57676663BA9B11E312C9D56BF8,
+	System_UPxr_SetMrcTextutrWidth_m3D38827B15A356FFF6B7E344381FF20C8FC4EC2B,
+	System_UPxr_SetMrcTextutrHeight_m0B4A3A55F61AE7F9F2E3A1F0FBD0DBD6EE78DB2E,
+	System_UPxr_GetMrcPose_m8D2EA232AE37D1D4E4C5AF7FE83F81BCCCA739C6,
+	System_UPxr_SetMrcPose_mE7693B5E082B2E6A086C1A93D4C1FC3F8B71C22D,
+	System_UPxr_SetIsSupportMovingMrc_m8920E3C77EC9322304C35F6F860C56D1FA5108C5,
+	System_UPxr_GetMrcStatus_mE5587C1B537250780816D668548A38BAB0B0631F,
+	System_UPxr_EnableEyeTracking_m0FBEF950099F44962F7B3FCDAA7BB35F4AC9EDBD,
+	System_UPxr_EnableFaceTracking_m09DF46F585D150FF5474C7024504211161E7F788,
+	System_UPxr_EnableLipSync_m96A0BCC68BE916C55DB5281A361714BC1DE7FBDF,
+	System_UPxr_GetFaceTrackingData_m921690B4D2580431ED8600ADBC46136F23CA9C2A,
+	System_UPxr_GetDeviceMode_m613507D4CF999C9FE59487D319FE1D8573284AAC,
+	System_UPxr_GetConfigFloat_mA28408B3BA6BB90FDCC96A64B1D2388F9275B9E8,
+	System_UPxr_GetConfigInt_mBF6751034CB14A1A548817DDCCCC034C68C4E0C2,
+	System_UPxr_SetConfigInt_m9C14A9EF161F2FAA436509183C0ECDF7B3FEF21B,
+	System_UPxr_ContentProtect_mE99E4B5C50FBD330E55F6232AAD14B8C4F87E07B,
+	System_UPxr_SetConfigString_m04B17F00AF07536338DBA08ACE83DE5C80B7A8E9,
+	System_UPxr_SetSystemDisplayFrequency_m9044DF37589469863DEF5C7CABB66A981CDFA10C,
+	System_UPxr_SetPerformanceLevels_m6C80AA3DDD1D61239DCE9BD232271D13F0E8B5CE,
+	System_UPxr_GetPerformanceLevels_m629F462A50C0FF5F18A5FBF0F7C4E90639D845D5,
+	System_UPxr_InitAudioDevice_mECC58F93C6745E618BEFAA3D077CB25E0706D284,
+	System_UPxr_StartBatteryReceiver_mBA45A5F4FF5269B9400A2CF4FCE57055A8D16106,
+	System_UPxr_StopBatteryReceiver_m45C688805E4F2484DB53FADF13A80B825B5CD9A0,
+	System_UPxr_SetBrightness_m2CC28F8E7017BE0CB423DCD642F1F516F4C7AB40,
+	System_UPxr_GetCurrentBrightness_m684E2F59FC0A9A3F98BD0D827FFA21986C6E35B5,
+	System_UPxr_GetScreenBrightnessLevel_mF1494CBD901F306C61F52B44484907727991D280,
+	System_UPxr_SetScreenBrightnessLevel_m170189D990451DADBFD61CF500CA95D006CC2F67,
+	System_UPxr_StartAudioReceiver_m9AF7ADF88DBD102C2B44D71E31C447654481E5FE,
+	System_UPxr_StopAudioReceiver_m5939809C3744024042DF62145211DE21F5349F1D,
+	System_UPxr_GetMaxVolumeNumber_m3E5EBDA29F13C536132DBC84D84B5C9E3BF3F915,
+	System_UPxr_GetCurrentVolumeNumber_m871E49C839326E2C9AF429CB86A9801604E0A3DA,
+	System_UPxr_VolumeUp_m4216FF65A41AD4297FBA6C3AE1F322333ED6ABDC,
+	System_UPxr_VolumeDown_m2A17FA222E01091B167B68CB263692A46739BCF2,
+	System_UPxr_SetVolumeNum_m7A9C2FBDF3BAA89A6092AE504D39D64B1887DD23,
+	System_UPxr_GetDeviceSN_m6103F5BC95CDD31949B17565817EFC4B058884B2,
+	System_UPxr_Sleep_m952A90375FD9D97B1202BB432799028E005FFDB8,
+	System_UPxr_InitToBService_mA28B8EC920C2D7D1A6BECC74F491E57834CF7925,
+	System_UPxr_SetUnityObjectName_m62FF5822F2F37A4D893FBD3BD628604D53176009,
+	System_UPxr_BindSystemService_m809F32D7B86630F47162FB754010B7CE3E60E2DB,
+	System_UPxr_UnBindSystemService_mE2FCDCE6F95866A6BB2A16632A5AF58A524F06E4,
+	System_GetEnumType_m5FFFC1E1AB8F00E0E81A3C8A6B3ECE3E04518FEC,
+	System_UPxr_StateGetDeviceInfo_m794E243B6304B71E1ECF8748FE0D02E72F562EC6,
+	System_UPxr_ControlSetDeviceAction_m25A10BEF6CFB5495DF2E8C6686F1DADA958BA57F,
+	System_UPxr_ControlAPPManager_m83552339D86A830E6665213CEB98F1DEEB480B6B,
+	System_UPxr_ControlSetAutoConnectWIFI_mEF7BCA8DBD7123962D3414F5EB9DF59D8752DB4C,
+	System_UPxr_ControlClearAutoConnectWIFI_m152D18F4CE6ABDCF4A0675374C08BA5B35A1A0F0,
+	System_UPxr_PropertySetHomeKey_m8C2F9C9B677441241EDC6668D45FABD4D3A5E3B7,
+	System_UPxr_PropertySetHomeKeyAll_m651729B2768074B79F4C90D667590E6F48BCBEFE,
+	System_UPxr_PropertyDisablePowerKey_m3A3B0574F159987D6A128B724510A15EBD281BD8,
+	System_UPxr_PropertySetScreenOffDelay_mBD714B8C7F4A36523E139A56D26E2E1D67F9C163,
+	System_UPxr_PropertySetSleepDelay_m35D44FC5DE2ABDBFC07DDAC2632621CCCA78A365,
+	System_UPxr_SwitchSystemFunction_m1308E38083A526C70505FB1806D974843C451459,
+	System_UPxr_SwitchSetUsbConfigurationOption_m9B667F1AB5B46C495656409CAF91A4A06A4E5982,
+	System_UPxr_SetControllerPairTime_m02B3B49BFCFC2C27E398EE29FC6B311EAEF0D148,
+	System_UPxr_GetControllerPairTime_mD45F539A7202E68192D9AB27BB849BFBDF6E503A,
+	System_UPxr_ScreenOn_m565E5C6FF725E6A4D83FFBC73D241AB9139208EE,
+	System_UPxr_ScreenOff_mF14636D89AC0499E2F98BEA7C78A669C33A56458,
+	System_UPxr_AcquireWakeLock_m1E1BB8C5660365589046ED5DBE5158E221AB8F44,
+	System_UPxr_ReleaseWakeLock_mCD1674FCC70600E089B50C3CD9853715C6D0D5A3,
+	System_UPxr_EnableEnterKey_mD479B8546EE6CFDEE850D764A5D92F91E3C52CFC,
+	System_UPxr_DisableEnterKey_m976E77E23CD89A370BC3014C044D316FE6C08BE6,
+	System_UPxr_EnableVolumeKey_m7EF93FD1642D38F17FED85C96A95DE04A6125D85,
+	System_UPxr_DisableVolumeKey_mC2C8B55E7DCB1AC895BC3053F9DBB5EBA5C58D71,
+	System_UPxr_EnableBackKey_m7D51969EB6660C3884B40DF458D17BC063004CD7,
+	System_UPxr_DisableBackKey_m19DE608FD5C163D20592379E0F6CC133C1F3D26E,
+	System_UPxr_WriteConfigFileToDataLocal_mEAABD798BD42647B5215BE7183BDB2D5F99B420C,
+	System_UPxr_ResetAllKeyToDefault_mDF49C0D5AFB8F223BB9E1BA308C1045071C2D578,
+	System_UPxr_SetAPPAsHome_m2C3BD1F895E0DA32C8AAEAC87C4C371669454472,
+	System_UPxr_KillAppsByPidOrPackageName_m4F72939EB5E412C10B838A5D26806D1CE06C2D53,
+	System_UPxr_KillBackgroundAppsWithWhiteList_m3B7C5EA9A6EADE9CA8D0DC7AC0252FBC26546B6C,
+	System_UPxr_FreezeScreen_mF53978E618827B2F3C0664EA6B3ADA4A9A0889EE,
+	System_UPxr_OpenMiracast_m2975E1AF5CD6394369468D0F0BA5E16DEB33F173,
+	System_UPxr_IsMiracastOn_mA5751314E9BE929E708958018795F967AE808B21,
+	System_UPxr_CloseMiracast_m47D67FC00155A218B08E73C134F99DABE4E82250,
+	System_UPxr_StartScan_m644BA744BC7806C713AFEBD0839CF366624B2AD2,
+	System_UPxr_StopScan_m6F05F1D60FF6A41C40642FFD3236CD7F9224777A,
+	System_UPxr_ConnectWifiDisplay_mC4568349AE7C03F6E6ABD9D4EF42B2DE7D5AE750,
+	System_UPxr_DisConnectWifiDisplay_mCBA65E875955611B46D8ACA673A936231CE594FB,
+	System_UPxr_ForgetWifiDisplay_mACB0B2ED51A19521A313873013B0E63380073035,
+	System_UPxr_RenameWifiDisplay_m8120E629489CE41BA190AB1EB0E27DB79D8C1982,
+	System_UPxr_SetWDModelsCallback_m2E21BD4D3DBC7C90F879F3BFF9086185A9F3A9E2,
+	System_UPxr_SetWDJsonCallback_m1A669A76AEE0A3CB3F6BF41612E9C8E1764B2CA2,
+	System_UPxr_UpdateWifiDisplays_m919DB20B953A393C729BE33CAC3DC9D49726E582,
+	System_UPxr_GetConnectedWD_m2486CE8267576DEC8FF4D036A360D700376E6E2D,
+	System_UPxr_SwitchLargeSpaceScene_mDBC3A37372998310AE69CA6B6847E43289C648A0,
+	System_UPxr_GetSwitchLargeSpaceStatus_m204B1213B2DA0B10CBA5F0DEACF2E6D98E723A57,
+	System_UPxr_SaveLargeSpaceMaps_m08671DEF8C2F30FDD6FA9542F624AADA2C6BEB75,
+	System_UPxr_ExportMaps_mD783A1E58F626109E736DC7977FA85F5EDE0B0B0,
+	System_UPxr_ImportMaps_m2F0649D29900CF92A97D5F1BCFB7B9F31522B01F,
+	System_UPxr_GetCpuUsages_mCD214470CA82EDD598ED250DE1BC3DEF3E807879,
+	System_UPxr_GetDeviceTemperatures_m23B8B2EC6B7AAB2CA1469AF9A9E686093D29B8A2,
+	System_UPxr_Capture_mC32090D3AA459178175E2630125D628E1F7A55AC,
+	System_UPxr_Record_m2051AF4A4470EEB1609BAAE626D4888152A7289C,
+	System_UPxr_ControlSetAutoConnectWIFIWithErrorCodeCallback_mEB738FB22FD248DC13CFDAD9A88E30C843D157E8,
+	System_UPxr_AppKeepAlive_mB99DC4C3924D08E325D300DABF4A9E37DAFBDA66,
+	System_UPxr_TimingStartup_m6CC9E96ABB986A4BB7047790FA67D02096E793FE,
+	System_UPxr_TimingShutdown_m5CD98248798B1F439A6600281EC66384A127095A,
+	System_UPxr_StartVrSettingsItem_mEEE5CF180B1C7134E41AE23FB49B3EEA76365E20,
+	System_UPxr_SwitchVolumeToHomeAndEnter_mC2273D0098FB5159A4F35AC7A2FFDA2FE204E88C,
+	System_UPxr_IsVolumeChangeToHomeAndEnter_mCDDFFE1ECBD847888DAACBEE9A7B19A2849D479A,
+	System_UPxr_SetSecure_m4A897BAECF63282F8B0A385A1AF560564972676C,
+	System_UPxr_GetColorRes_m9CCCBB3B3C76A99986AEC7C31E165DFA991D1E03,
+	System_UPxr_GetConfigInt_m28696EDCC50CCA9AB40629A6270227A1C49C1F48,
+	System_UPxr_GetConfigString_m48A9BD97A2FD48B476D4938563D56F7AFA0CC416,
+	System_UPxr_GetDrawableLocation_mF8325284EDDA22AB43A5B4668B64144257BB6197,
+	System_UPxr_GetTextSize_mE04EAACC0FDD30DC2D6BDA7FE94970E524157B7C,
+	System_UPxr_GetLangString_m3E1945149546EA7FFB64F3A9899E57B86376DED8,
+	System_UPxr_GetStringValue_m16C8B1FC5A8279C449E3D31689DBF90160B37AC2,
+	System_UPxr_GetIntValue_m4FC65B356D0E3D0422754A946CF7023BFE3EF1C3,
+	System_UPxr_GetFloatValue_mC35AE1821B508A38650853DADF5CF6ED26A3D5B7,
+	System_UPxr_GetObjectOrArray_m11DB3BE7BFEEFE12C37B5CAACD1A6E6A21E645E8,
+	System_UPxr_GetCharSpace_m180D426C363D00FA92AB772C8A1BADC1AE760206,
+	System_UPxr_RefreshRateChanged_m0D169AFC8A7A1F89BEF5EE10B908F679A3FCFAEB,
+	System_UPxr_GetDisplayFrequenciesAvailable_m717F73BA04B618D7AE3BDFA2BF961D373BB3C83C,
+	System_UPxr_GetSensorStatus_mD0AD64905568B37DBEBEB9030F232D2851A2D399,
+	System_UPxr_GetPredictedMainSensorStateNew_m558F238830D5512E7DC77D73A59EFA8F915642BB,
+	System_UPxr_GetAPIVersion_m06090C53917544121B6B5FDF99A591BE414E4DE5,
+	System_UPxr_SetLogInfoActive_m0601A42F0DD2D463058C076BE6A93746698023B6,
+	System_UPxr_InstallOTAPackage_m435F9FC1059DA91AB59FCAB02A644C79436114AC,
+	System_UPxr_GetAutoConnectWiFiConfig_mF2725E088056B95F8029562DECA897C0D817FDC9,
+	System_UPxr_GetTimingStartupStatus_mD42B7C9BB2892236442A3F368CD1F427A6FB4CCB,
+	System_UPxr_GetTimingShutdownStatus_m4C942F42E8508A32894F08D67D5865D71413DE6A,
+	System_UPxr_GetControllerKeyState_m91CE30536D8B46E4E3736453FF82756E9617C568,
+	System_UPxr_SetControllerKeyState_m842003A2E941C28D649905BF8C61E6F461D31DE5,
+	System_UPxr_ControlGetPowerOffWithUSBCable_m40FD9A00A21A3ACF15F5A9CF1E42A53DDD81060A,
+	System_UPxr_PropertyGetScreenOffDelay_m587F8C424E4D2E76036A96FF016D6CF69DB4873F,
+	System_UPxr_PropertyGetSleepDelay_m81AC011AA02F4A97C13D74C45528341FE213EF5B,
+	System_UPxr_PropertyGetPowerKeyStatus_m6706CAE07A97618C3835AAB69EEF1EF623017281,
+	System_UPxr_GetEnterKeyStatus_m3A1BF4914D7CC3FC399962047AF3CEC9C25A1E49,
+	System_UPxr_GetVolumeKeyStatus_m58C5DB7845D978E026CB6F39841CE2CCC5E00EF2,
+	System_UPxr_GetBackKeyStatus_m7A5C6AC5278DC9B006D0364EF7A62266F5657149,
+	System_UPxr_PropertyGetHomKeyStatus_m1022CDFC92B9447A1511AC9662DFA5E1FEBB1985,
+	System_UPxr_GetSwitchSystemFunctionStatus_mB8330A83F64F48C69376AB0DB6123265C1B2E9EE,
+	System_UPxr_SwitchGetUsbConfigurationOption_mC5582FD77B6856066AE9079188005794E7CA39A5,
+	System_UPxr_GetCurrentLauncher_mDB205DB0E1D7C4B5A0A90B20B0757E2B8D09084A,
+	System_UPxr_PICOCastInit_m348E288EBFC60D5C10D2C4217BC715016304D26C,
+	System_UPxr_PICOCastSetShowAuthorization_m7692146D869C3C9E27FE28E7947480EC8B36E703,
+	System_UPxr_PICOCastGetShowAuthorization_mC91B0B3C31DFE5920F1B4FAA1BFE905B71684905,
+	System_UPxr_PICOCastGetUrl_mB846D1E32AD05D965DEA82E5A54BB5A86B7BC612,
+	System_UPxr_PICOCastStopCast_m76212DB8D2D88EFABCE038ADC8AB764F3415AE21,
+	System_UPxr_PICOCastSetOption_mF55D3D4D60BEAEB6E1D362C22982B6B96CF40163,
+	System_UPxr_PICOCastGetOptionOrStatus_mFB91E74B38EBE3A1DA83158C93B590250D6A554A,
+	System_UPxr_SetSystemLanguage_mE4B087F54FF7014BEF1951C9B86B1E036D2DC1F6,
+	System_UPxr_GetSystemLanguage_mE0A6FFF745EDCA4C0BD80A7562CA20A91FEFD50B,
+	System_UPxr_ConfigWifi_m5C1B7A7F8AEDE57C2ADFFD26B867449EBE707601,
+	System_UPxr_GetConfiguredWifi_m795A84A6C34D7DD608AC0FC312068C541F7EE24B,
+	System_UPxr_SetSystemCountryCode_mD9B0797B190A080812F99AEF63A0F8158632DA49,
+	System_UPxr_GetSystemCountryCode_m65F89732A46CEBC4C1984E7B540C27F4BE363F5A,
+	System_UPxr_SetSkipInitSettingPage_m4A202AE8CBEE0CA074FCA1622A6D42F76526AF01,
+	System_UPxr_GetSkipInitSettingPage_m5E73E5F70574C9C76794DFEC159769BB9700B2F2,
+	System_UPxr_IsInitSettingComplete_mFA37B223718FB562AE18756489A89660FB12A20A,
+	System_UPxr_StartActivity_mABBB0A3BCD845F657A9954A49307962F64C7D623,
+	System__cctor_m5A1B2F1B85E342C2774E6A9FCBD2DCD9D59D453C,
+	Boundary_UPxr_TestNodeIsInBoundary_m4A3FF4A5BEFEDF3D8842EC7BA0000643886B0E63,
+	Boundary_UPxr_TestPointIsInBoundary_mD5F44B51642A21E3C6B39ADE46536B68E21CF6B8,
+	Boundary_UPxr_GetBoundaryGeometry_mBF2881728FFEEEFFCA9250CEF04ACF392D2BC9F8,
+	Boundary_UPxr_GetBoundaryDimensions_m4C9AEF85878C2B5C49FB0D8C4A172C17EBB7FFED,
+	Boundary_UPxr_SetBoundaryVisiable_m5442A5F7C4F905F9B8B81168C012F555FCA2563A,
+	Boundary_UPxr_GetBoundaryVisiable_mF5AF0067B5410AD1278F0BE0863F250D3FD43CF2,
+	Boundary_UPxr_GetBoundaryConfigured_m35FC7A1132360A1EFA4D83684FA2F3B6D48007D6,
+	Boundary_UPxr_GetBoundaryEnabled_mB0AFB311CED6FA755504533C29ED195E67CA66D5,
+	Boundary_UPxr_SetSeeThroughBackground_mA3B0E44B2DA12060CDDA56365B130DFB71CD2C26,
+	Boundary_UPxr_GetDialogState_m2846AB26205FAF2F2C35719AE5013B03AA72559C,
+	Boundary_UPxr_GetSeeThroughState_m5B7A305199CBA235028124A2B9B2A06C145369E8,
+	Boundary_UPxr_SetSeeThroughState_mE935B5BC268AB667C102AB3DFC3E418A4F90A668,
+	Boundary_UPxr_ResetSeeThroughSensor_m7830183D46030C88E032E127E8D61498C1BD6DA1,
+	Boundary_UPxr_GetSeeThroughTrackingState_m5F9249413C3940E519D645138F800E7EC9B57E28,
+	Boundary_UPxr_SetGuardianSystemDisable_mAA8F6959D2E1897602D4F2752438213ED945C239,
+	Boundary_UPxr_ResumeGuardianSystemForSTS_mB33E8F05D52EB7C69D0BDF7F89AD3884D1AB122A,
+	Boundary_UPxr_PauseGuardianSystemForSTS_m168AFE729055F330B1836AFF58B1CD49D5D95E5A,
+	Boundary_UPxr_ShutdownSdkGuardianSystem_m1C4ED2C94F9C1D9A36D2711483741E556A3DCEE2,
+	Boundary_UPxr_GetCameraDataExt_m151CBEA492C6FC2321EDA3B3F4DE2FC9FA8826C2,
+	Boundary_UPxr_StartSdkBoundary_m7D8C531C6DE19049918BC38AA5B08BC161C5F988,
+	Boundary_UPxr_GetRoomModeState_m8D7E7536F8624CBC0926F4D26E4A2BAEB7EAFBF6,
+	Boundary_UPxr_DisableBoundary_mE624CB681AD3B0A934D4AB29CF1719EE7FCA66D0,
+	Boundary_UPxr_SetMonoMode_m550DDC6C83650FBA158DC6A83A88334A0C8F710A,
+	Render_UPxr_SetFoveationLevel_m1D11FDDB2F43342292448104DE2A7A28E33C446A,
+	Render_UPxr_GetFoveationLevel_mCFE1EE71CD03232B865B25C8DB081F91403214A7,
+	Render_UPxr_SetFoveationParameters_m3301B5AF496C39F9AC75BA3105B4B2F0498E62F6,
+	Render_UPxr_GetFrustum_m4D8D996F35B98E28DF5572E25A663F36581FE516,
+	Render_UPxr_SetFrustum_mA2A333326FD9938547D43A775C11F293FCB8930B,
+	Render_UPxr_SetEyeFOV_m8FC347ABCCF2315334877FE7E3C09A4303BC6790,
+	Render_UPxr_CreateLayer_mA4E68E56A113301AE0510E50B2D3F02CC68D2933,
+	Render_UPxr_CreateLayerParam_mB7740064E1E971FC665E83D804CFA69175225AA1,
+	Render_UPxr_GetLayerNextImageIndex_mE5762FF246E325897317210C6D786BC5585CAC17,
+	Render_UPxr_GetLayerImageCount_m976BA413F913216D5287125075A2A8884F0FA6FA,
+	Render_UPxr_GetLayerImage_m3F40D69097DBE962712B2E9FCD2DE7729F82559F,
+	Render_UPxr_GetLayerImagePtr_mE53494FE442C5C4F3AEEDB5EC78C176489CF28EB,
+	Render_UPxr_SetConfigIntArray_mB5D70891BF8DFA5A52DEA8441E23805EAFBE8319,
+	Render_UPxr_GetLayerAndroidSurface_mA96CE55C1843C730318C179A942D1C7E54AC2DB6,
+	Render_UPxr_DestroyLayer_mCC6079E7C5038DB0032BFF2390633BF13FF81279,
+	Render_UPxr_DestroyLayerByRender_m4A0C6D8A3FF0AD3EF2077ACC0F7CD15A955B2075,
+	Render_UPxr_SubmitLayer_mC0D1BB74ED5FD733EC54285A81F6DED2618230A8,
+	Render_UPxr_SubmitLayerQuad_mDB915A0B88B6D04598BCC29B184E8C0368E835BF,
+	Render_UPxr_SubmitLayerQuad2_m1411F8DC6BECE4A3141EA4AC96933527CAB46C5E,
+	Render_UPxr_SubmitLayerCylinder_m3FBF09DFB5D09939C8766100AD0F373DA42DAF51,
+	Render_UPxr_SubmitLayerCylinder2_m2F67ECC33D6D1A50F8699D58D49D6937F635092C,
+	Render_UPxr_SubmitLayerEquirect_m913777479EE3DD7E0D58F864C3023331312746DC,
+	Render_UPxr_SubmitLayerEquirect2_m36E5406DD887CE21D4D64D33F0C41C5C021F22DC,
+	Render_UPxr_SubmitLayerCube2_m06BD23AE380A5D86BDF726390119624DCB622ED1,
+	Render_UPxr_SetLayerBlend_m51D9904850442CFEB612CE2A9F366B897D10221D,
+	Sensor_UPxr_ResetSensor_m6A8F465E834180B256E57287F0CEA091C95EF89D,
+	Sensor_UPvr_Enable6DofModule_m3E47B8AAF47829788EE2A281EC81797B53343D23,
+	Sensor_UPxr_InitPsensor_m2FBD2336D6075B03D9128884FF8843CCCBBA3F6E,
+	Sensor_UPxr_GetPSensorState_m6877EBF7995B9C1AC0010669A812F8A5866101AE,
+	Sensor_UPxr_UnregisterPsensor_m79528760B74064B51A3981357D16BCC87D5DEEE8,
+	Sensor_UPxr_SetSensorLostCustomMode_m490228C0AD22C61C3EE7C17DADA9FAD36AAE7807,
+	Sensor_UPxr_SetSensorLostCMST_mDC1CB3917F325C5337FC972C625A97AEB2B56ADD,
+	Sensor__cctor_m30579EC09DCBB357318A3C555EE128C2956837C8,
+	PlatformSetting_UPxr_IsCurrentDeviceValid_m9789431961DF56CBFE2BA6F94DB2F711B891DA5A,
+	PlatformSetting_UPxr_MRCCalibration_mE4C111E8BFE11651781969D604CA8A77EE253C67,
+	PlatformSetting_UPxr_BindVerifyService_mD1C802CC2AE1F3ED8081CB61689A6239BE926C16,
+	PlatformSetting_UPxr_AppEntitlementCheck_m3AAF2A24B54813EF78EF39DF3B62AE98D82FB494,
+	PlatformSetting_UPxr_KeyEntitlementCheck_mCAE53A560F3B9A6AED8A48F543121FAC4D2E1192,
+	PlatformSetting_UPxr_AppEntitlementCheckExtra_mD8EE06D250C5C52E881C07B9916634DF0E94E877,
+	PlatformSetting_UPxr_KeyEntitlementCheckExtra_m7654ECA930923797B16FADCD2F83B3594A839DA3,
+	PlatformSetting__cctor_m5886C4394DA2BDD46E9A2E2A61BE0F53E20283D9,
+	Controller_UPxr_SetControllerVibration_mFAA4E89E366E4032CC91D19005EC091B5702CE7D,
+	Controller_UPxr_SetControllerEnableKey_m8C54106554E46853ECA928E3F8FD61312DC3EA33,
+	Controller_UPxr_SetControllerVibrationEvent_mED9AA49A631186D40917CD4F75E44FD47CB00E96,
+	Controller_UPxr_GetControllerType_mBE11DDF37888BFC9B2520DC4ACDFD6968C903D41,
+	Controller_UPxr_StopControllerVCMotor_m2886B2F78214E92B5DEB461011634DF517225381,
+	Controller_UPxr_StartControllerVCMotor_m39467C299A4997538571CE18C5B88CA900F61DA8,
+	Controller_UPxr_SetControllerAmp_m4B095FE62FCFA1B37118498AA7EA517237331690,
+	Controller_UPxr_SetControllerDelay_m9FF387FB3451899C8D217632EC4BE5BFB7AFFEC2,
+	Controller_UPxr_GetVibrateDelayTime_mAA89B3C22613AA0A9E09BED6AE56C023FFA92DC6,
+	Controller_UPxr_StartVibrateBySharem_mF418E02CC4BDA2A24CC8C4EC45A010F7BFEAF6E2,
+	Controller_UPxr_SaveVibrateByCache_m389E13F720EB79ACD06DBDFC39DBF006538E0DAC,
+	Controller_UPxr_StartVibrateByCache_m3D056A31FF410FFC2B5299EABAACFB8767DE64E1,
+	Controller_UPxr_ClearVibrateByCache_mFE01448B590F3E0529B74DA71110DC526E3A4822,
+	Controller_UPxr_StartVibrateByPHF_mB9121EAFF1E3E290019A325BA3835684005ACE0B,
+	Controller_UPxr_PauseVibrate_m23B2A54130157B34044F3ADE06A7DD728378DAB2,
+	Controller_UPxr_ResumeVibrate_m1F19166EEE94A53B0442EDC03F3A5044ED0D14D3,
+	Controller_UPxr_UpdateVibrateParams_mAEC9C2AD69B6E3D0DDE408E2205474C469D87FA9,
+	Controller_UPxr_CreateHapticStream_mE74C26BAE8EE1492BAB0233C8EDBBC6A1443787F,
+	Controller_UPxr_WriteHapticStream_m5D8566CC81857252F08BFE041AC7F70EFBA092B7,
+	Controller_UPxr_SetPHFHapticSpeed_m6BDC7FA06821CF950A9E8CB2FA6CF0D4D2387649,
+	Controller_UPxr_GetPHFHapticSpeed_mFA51A9AFB45526C0777CE839D8A635D898412F9A,
+	Controller_UPxr_GetCurrentFrameSequence_m253E6FA9F17B7327CCF905B42D4FB4DEAC4DFA35,
+	Controller_UPxr_StartPHFHaptic_mC34800524645F7750CF9AC7655FF1931AA54E400,
+	Controller_UPxr_StopPHFHaptic_m93C2FDD8439CEEA78B748FD7DF044E843E0E5D5F,
+	Controller_UPxr_RemovePHFHaptic_m0541399A0E3D212D7E766A5D3954057BDF8F5C52,
+	Controller_UPxr_SetControllerMainInputHandle_m31220146C4ECC5ED77821CF3902A37D1A64823DD,
+	Controller_UPxr_GetControllerMainInputHandle_m28CAD53859D2A50925119F917E4A9198905639D2,
+	Controller_UPxr_GetControllerTrackingState_m69C575F3B7F037AC419E2570BAE7655048B67974,
+	Controller_UPxr_SetControllerOriginOffset_m368EF10A35F69E3D1C3173E7E0EE6366F75EAE5E,
+	HandTracking_Pxr_GetHandTrackerSettingState_mAB746A2EA37F13B7582F28116BD1F491C0FE4756,
+	HandTracking_Pxr_GetHandTrackerActiveInputType_m2F065F3A766E96812479D5C1708DA5560834FA56,
+	HandTracking_Pxr_GetHandTrackerAimState_mBC2AFA3E5EAFB2C64F495D9D74F8ECC12A79F9AC,
+	HandTracking_Pxr_GetHandTrackerJointLocations_m2CFFFEAD01799353B703760706A562B032A5CA09,
+	HandTracking_UPxr_GetHandTrackerSettingState_mCA90FF8A0FA85EC3A4BB2B7277CDE933613BD48C,
+	HandTracking_UPxr_GetHandTrackerActiveInputType_m5F98642AC5F224FC3FC44C91665CCC390670FF40,
+	HandTracking_UPxr_GetHandTrackerAimState_m58E661D3BE541E3F4AF85A862781417B5AD18D4C,
+	HandTracking_UPxr_GetHandTrackerJointLocations_m15353BC1DBF320A137AD779ACB7BE1183B3FA2F2,
+	PXR_ProjectSetting_GetProjectConfig_m6E0D8D9FD98E67A7A1FBDD933B5058AE1A26A419,
 	PXR_ProjectSetting__ctor_m786DDD1AC0E54CCEE4C97F031A9B763BF604CAAE,
 	PXR_Settings_GetStereoRenderingMode_mAEACDEBFBBEE17E1150233BBD16D695853A11217,
 	PXR_Settings_GetSystemDisplayFrequency_m3357CDE04CAD89A4D48A42FCFF1DF353CB2F6B25,
 	PXR_Settings_GetOptimizeBufferDiscards_m893B8F7BAD2223880E47468800C7FC997F879DD0,
 	PXR_Settings_Awake_m56FECEB58FA849D8066F404A4ECD7332A250F4B4,
 	PXR_Settings__ctor_m120FF2025DA78B6788952DACA2F1A77FBB1E23A0,
-	PXR_Usages__cctor_m153BCCB5AB71E963E80BB106F8B51A97D9BD1538,
-	PLog_v_m8028BA6E68E70BFB6233682B7D163A3343F4DCAA,
-	PLog_d_mDBAE85D2552C27BD2D9D519FEEBF6AA52FC85021,
-	PLog_i_m14CAE16B2B6DFB48BBC51D0481FE652E740DA39B,
-	PLog_w_m07CCD5442091E3007DAFC3FD2A2F76124F2BC39B,
-	PLog_e_m3F3456F302CCAACE68DC5272709D65E4211CA162,
-	PLog_f_m402C3E4A63E6DC350FD41E017D083464C2CE0789,
+	PXR_Usages__cctor_m23346D922CD4C16E529750DEBF3C1332FA56EBCE,
+	PLog_v_m88AEC8B3993EADF4A796073C98BF330A93CFF09C,
+	PLog_d_m31777C1F7FF8FA59231ADD6A189ABDEB77129F09,
+	PLog_i_m0F072E002F0F4D174D38F0D46E25D00F32D46D9A,
+	PLog_w_m6FA8A849BE0D61DCC4DF29853D9747CE9BC34A12,
+	PLog_e_m4083ADDF326C3C0F2D0D8D549FDF8327DD615ED7,
+	PLog_f_mC95F61BF1F832FE21BE57D34259166B1E5BD8A94,
 	PLog__ctor_m87848FF9DB362C0C5DD8AB54BFC942932312DBAB,
-	PLog__cctor_m3B15943F6BE4F69661FD8A3069610CF99716FC2C,
-	PXR_ObjImporter_get_Instance_m3ECC6C9D872287E373F7C2B30D512CECA3A61BB8,
+	PLog__cctor_m8AB43E8617A31EB563EDFDD5669964A0A8519EDC,
+	PXR_ObjImporter_get_Instance_m38ED58C369541F7396C24EF94761D97CA06D547B,
 	PXR_ObjImporter_ImportFile_m6C15884467F6A4C5CE42F2000965A9DF8A5EA38E,
 	PXR_ObjImporter_LoadMeshData_mE88EFFCDEB752E5008D28C75BACB755FAFDA528D,
 	PXR_ObjImporter_GetFloat_m9717DABE161B5CB8E506775F1490EBF2BC27DB1F,
 	PXR_ObjImporter_GetInt_mFB5B3C2D7D6835F877D419E93D548AFE07BB3117,
-	PXR_ObjImporter_GenerateLookupTable_m26DB00237CEFF4098AF1E1048CAF31F8F4AF8AED,
+	PXR_ObjImporter_GenerateLookupTable_m62DB24E45F5098CAC9DF17F3BAE82303359F5DD7,
 	PXR_ObjImporter_ParseFloat_m7CE88708DE581C062996831BCAA44AA5BDFB850A,
 	PXR_ObjImporter_IntParseFast_mCF32359CBB93CEA4CA4648177A9EEBC0BD09D898,
 	PXR_ObjImporter__ctor_mA9D2F86876B8A6E6F285BF2F2D3572F55B45CAD7,
-	PXR_ObjImporter__cctor_mEB22F61ED7E3194460193664066267A6B986F325,
+	PXR_ObjImporter__cctor_mBCE68C48866C6D2B798C78BBC7410710DFE357A8,
 	PxrVector3Int_get_x_mA7804133594ECD7A83431D071B044B2FA2985E1C,
 	PxrVector3Int_set_x_mB420FB011CDFE1BDFC4DBC1C7F76C130346431F5,
 	PxrVector3Int_get_y_m4DD1C40A217FBB0D93AA8196D9C776BC263460CA,
@@ -4033,1350 +4033,1350 @@ static Il2CppTokenAdjustorThunkPair s_adjustorThunks[17] =
 };
 static const int32_t s_InvokerIndices[1338] = 
 {
-	6622,
-	6622,
-	6622,
-	6387,
-	5225,
-	6501,
-	5336,
-	6387,
-	5225,
-	6387,
-	5225,
-	6538,
-	5366,
-	6387,
-	5225,
-	6387,
-	5225,
-	6387,
-	5225,
-	6387,
-	5225,
-	6538,
-	5366,
-	6538,
-	5366,
-	6538,
-	5366,
-	6538,
-	5366,
-	6622,
-	6622,
-	6622,
-	6622,
-	6622,
-	6622,
-	6622,
-	6622,
-	1311,
-	1311,
+	6590,
+	6590,
+	6590,
+	6355,
+	5197,
+	6469,
+	5308,
+	6355,
+	5197,
+	6355,
+	5197,
+	6506,
+	5338,
+	6355,
+	5197,
+	6355,
+	5197,
+	6355,
+	5197,
+	6355,
+	5197,
+	6506,
+	5338,
+	6506,
+	5338,
+	6506,
+	5338,
+	6506,
+	5338,
+	6590,
+	6590,
+	6590,
+	6590,
+	6590,
+	6590,
+	6590,
+	6590,
+	1306,
+	1306,
+	2970,
+	1201,
+	2970,
+	2970,
+	1219,
+	326,
+	1207,
+	1207,
+	6590,
+	6590,
+	6590,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	0,
+	6425,
+	6355,
+	6355,
+	6355,
+	6355,
+	6355,
+	6355,
+	6355,
+	6456,
+	3766,
+	6425,
+	6355,
+	6456,
+	6355,
+	6355,
+	6456,
+	6456,
+	6355,
+	6355,
+	6355,
+	6355,
+	6355,
+	6355,
+	6355,
+	6355,
+	6355,
+	4687,
 	2988,
-	1206,
+	4681,
+	2732,
+	4681,
+	2732,
+	4687,
+	2988,
+	4681,
+	2732,
+	6590,
+	5197,
+	5222,
+	5268,
+	5269,
+	5295,
+	5295,
+	9498,
+	9504,
+	9510,
+	9511,
+	9514,
+	9264,
+	9330,
+	9387,
+	9414,
+	9514,
+	2983,
+	2988,
+	6590,
+	3766,
+	6456,
+	5295,
+	6456,
+	6355,
+	6377,
+	6425,
+	6426,
+	6456,
+	5197,
+	5222,
+	5268,
+	5269,
+	5295,
+	6456,
+	5295,
+	4386,
+	6590,
+	3766,
+	4386,
+	2732,
+	5295,
+	5268,
+	6456,
+	1569,
+	5268,
+	6456,
+	6456,
+	6456,
+	4687,
+	9054,
+	4386,
+	3766,
+	6590,
+	3766,
+	6425,
+	5268,
+	6456,
+	5295,
+	6456,
+	6456,
+	6375,
+	6456,
+	6456,
+	5295,
+	6355,
+	6590,
+	6590,
+	5268,
+	2732,
+	5268,
+	2732,
+	5295,
+	2988,
+	6456,
+	5295,
+	6355,
+	5197,
+	6355,
+	5197,
+	6456,
+	5295,
+	6355,
+	5197,
+	6456,
+	5295,
+	2985,
+	2988,
+	1016,
+	5295,
+	0,
+	0,
+	0,
+	0,
+	2985,
+	4687,
+	1434,
+	4687,
+	0,
+	0,
+	0,
+	0,
+	2985,
+	6456,
+	2356,
+	4687,
+	9989,
+	9789,
+	9789,
+	9789,
+	8788,
+	8788,
+	8788,
+	9789,
+	9989,
+	9989,
+	7795,
+	7785,
+	9514,
+	9054,
+	9514,
+	9514,
+	9514,
+	0,
+	0,
+	0,
+	8788,
+	8788,
+	8788,
+	0,
+	0,
+	9989,
+	9989,
+	6590,
+	9989,
+	6590,
+	6456,
 	2988,
 	2988,
-	1224,
-	327,
-	1212,
-	1212,
-	6622,
-	6622,
-	6622,
+	2988,
+	2988,
+	2988,
+	2988,
+	2988,
+	2988,
+	2988,
+	2988,
+	4687,
+	4687,
+	4687,
+	4687,
+	4687,
+	4687,
+	4687,
+	4687,
+	4687,
+	4687,
+	4687,
+	4687,
+	4687,
+	4687,
+	4687,
+	6456,
+	6456,
+	6456,
 	0,
 	0,
 	0,
 	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	0,
-	6457,
-	6387,
-	6387,
-	6387,
-	6387,
-	6387,
-	6387,
-	6387,
-	6488,
-	3788,
-	6457,
-	6387,
-	6488,
-	6387,
-	6387,
-	6488,
-	6488,
-	6387,
-	6387,
-	6387,
-	6387,
-	6387,
-	6387,
-	6387,
-	6387,
-	6387,
-	4714,
-	3006,
-	4708,
-	2748,
-	4708,
-	2748,
-	4714,
-	3006,
-	4708,
-	2748,
-	6622,
-	5225,
-	5250,
-	5296,
-	5297,
-	5323,
-	5323,
-	9551,
-	9557,
-	9563,
-	9564,
-	9567,
-	9315,
-	9381,
-	9438,
-	9465,
-	9567,
-	3001,
-	3006,
-	6622,
-	3788,
-	6488,
-	5323,
-	6488,
-	6387,
-	6409,
-	6457,
-	6458,
-	6488,
-	5225,
-	5250,
-	5296,
-	5297,
-	5323,
-	6488,
-	5323,
-	4411,
-	6622,
-	3788,
-	4411,
-	2748,
-	5323,
-	5296,
-	6488,
-	1579,
-	5296,
-	6488,
-	6488,
-	6488,
-	4714,
-	9102,
-	4411,
-	3788,
-	6622,
-	3788,
-	6457,
-	5296,
-	6488,
-	5323,
-	6488,
-	6488,
-	6407,
-	6488,
-	6488,
-	5323,
-	6387,
-	6622,
-	6622,
-	5296,
-	2748,
-	5296,
-	2748,
-	5323,
-	3006,
-	6488,
-	5323,
-	6387,
-	5225,
-	6387,
-	5225,
-	6488,
-	5323,
-	6387,
-	5225,
-	6488,
-	5323,
-	3003,
-	3006,
-	1017,
-	5323,
-	0,
-	0,
-	0,
-	0,
-	3003,
-	4714,
-	1439,
-	4714,
-	0,
-	0,
-	0,
-	0,
-	3003,
-	6488,
-	2371,
-	4714,
-	10043,
-	9843,
-	9843,
-	9843,
-	8836,
-	8836,
-	8836,
-	9843,
-	10043,
-	10043,
-	7836,
-	7825,
-	9567,
-	9102,
-	9567,
-	9567,
-	9567,
-	0,
-	0,
-	0,
-	8836,
-	8836,
-	8836,
-	0,
-	0,
-	10043,
-	10043,
-	6622,
-	10043,
-	6622,
-	6488,
-	3006,
-	3006,
-	3006,
-	3006,
-	3006,
-	3006,
-	3006,
-	3006,
-	3006,
-	3006,
-	4714,
-	4714,
-	4714,
-	4714,
-	4714,
-	4714,
-	4714,
-	4714,
-	4714,
-	4714,
-	4714,
-	4714,
-	4714,
-	4714,
-	4714,
-	6488,
-	6488,
-	6488,
-	0,
-	0,
-	0,
-	0,
-	6387,
-	6387,
-	6387,
-	6387,
-	6387,
-	6387,
-	6387,
-	6387,
-	6409,
-	6457,
-	6457,
-	6458,
-	6488,
-	5225,
-	5250,
-	5296,
-	5296,
-	5297,
-	5323,
-	6488,
-	5323,
-	6387,
-	6387,
-	4708,
-	2748,
-	4411,
-	6622,
-	3788,
-	4411,
-	2748,
-	5323,
-	5296,
-	6457,
-	6387,
-	6488,
-	3001,
-	6488,
-	6387,
-	6387,
-	6488,
-	6488,
-	4714,
-	3006,
-	3006,
-	6622,
-	3788,
-	5323,
-	6488,
-	4708,
-	2748,
-	6488,
-	1579,
-	5296,
-	6622,
-	6387,
-	5225,
-	6387,
-	5225,
-	6387,
-	5225,
-	6387,
-	6387,
-	6457,
-	6488,
-	10043,
-	5323,
-	5323,
-	2990,
-	10000,
-	7816,
-	9097,
-	5323,
-	6622,
-	6387,
-	6622,
-	6387,
-	6622,
-	6457,
-	5296,
-	6387,
-	5225,
-	6488,
-	6387,
-	5225,
-	6387,
-	5225,
-	10043,
-	6622,
-	5323,
-	5323,
-	5296,
-	6622,
-	9070,
-	6622,
-	5323,
-	6622,
-	5225,
-	5323,
-	6622,
-	6488,
-	6622,
-	5225,
-	5247,
-	5250,
-	5366,
-	5296,
-	5297,
-	5323,
-	5426,
-	6622,
-	6622,
-	6622,
-	6622,
-	5323,
-	6622,
-	6387,
-	5225,
-	6387,
-	5225,
-	6387,
-	6457,
-	6488,
-	10043,
-	5323,
-	9433,
-	9048,
-	9764,
-	9315,
-	9315,
-	9315,
-	9315,
-	9315,
-	9315,
-	9315,
-	9315,
-	9315,
-	9315,
-	9315,
-	9315,
-	9315,
-	9315,
-	9315,
-	9315,
-	9315,
-	9315,
-	9315,
-	9315,
-	9315,
-	9315,
-	9315,
-	9315,
-	9315,
-	9315,
-	9315,
-	9315,
-	6387,
-	6457,
-	6387,
-	6622,
-	3003,
-	3788,
-	1439,
-	3788,
-	6622,
-	6622,
-	6622,
-	6622,
-	6622,
-	5296,
-	5296,
-	6622,
-	5296,
-	6622,
-	6622,
-	6622,
-	5296,
-	6622,
-	6622,
-	5296,
-	5296,
-	1635,
-	2365,
-	4714,
-	9831,
-	9968,
-	9968,
-	9968,
-	8880,
-	8881,
-	9563,
-	9816,
-	9831,
-	9991,
-	9991,
-	6622,
-	9303,
-	9303,
-	9303,
-	9303,
-	9303,
-	9303,
-	9303,
-	9303,
-	9303,
-	9303,
-	9303,
-	9303,
-	9303,
-	6622,
-	10000,
-	9839,
-	9991,
-	7857,
-	6622,
-	6613,
-	6509,
-	6488,
-	5296,
-	5296,
-	9968,
-	9991,
-	8550,
-	8550,
-	9991,
-	9839,
-	8415,
-	9991,
-	9312,
-	9073,
-	8882,
-	9004,
-	7637,
-	9433,
-	8744,
-	9448,
-	7532,
-	6879,
-	7126,
-	6828,
-	9433,
-	9433,
-	8724,
-	7097,
-	9433,
-	9433,
-	7499,
-	7791,
-	7092,
-	6827,
-	7093,
-	8729,
-	9433,
-	9433,
-	9433,
-	7499,
-	7213,
-	8029,
-	8732,
-	8728,
-	8728,
-	9433,
-	9433,
-	9433,
-	9611,
-	4411,
-	6622,
-	6622,
-	6622,
-	6622,
-	3006,
-	6622,
-	5323,
-	6622,
-	6387,
-	6387,
-	2990,
-	6622,
-	3088,
-	6615,
-	6615,
-	4757,
-	6622,
-	10043,
-	3003,
-	6622,
-	2371,
-	5323,
-	6622,
-	6622,
-	6622,
-	6622,
-	5366,
-	6488,
-	6622,
-	6622,
-	5296,
-	5296,
-	6622,
-	6622,
-	5296,
-	6622,
-	6387,
-	6488,
-	6622,
-	6488,
-	3003,
-	5296,
-	1412,
-	5323,
-	3003,
-	5296,
-	1412,
-	5323,
-	9843,
-	10043,
-	10043,
-	9315,
-	9968,
-	9312,
-	9991,
-	10000,
-	9068,
-	9968,
-	9315,
-	9968,
-	9991,
-	9991,
-	9968,
-	9968,
-	9312,
-	9991,
-	9315,
-	9315,
-	9438,
-	9438,
-	10000,
-	9977,
-	9312,
-	9563,
-	9070,
-	8340,
-	8396,
-	9843,
-	8336,
-	7011,
-	8324,
-	9070,
-	9839,
-	9068,
-	9839,
-	10043,
-	10043,
-	10043,
-	10043,
-	10043,
-	10043,
-	10043,
-	10043,
-	10043,
-	10043,
-	8396,
-	9843,
-	9070,
-	9102,
-	9843,
-	9831,
-	10043,
-	9968,
-	10043,
-	10043,
-	10043,
-	9843,
-	10043,
-	9843,
-	9102,
-	10043,
-	10043,
-	9843,
-	10000,
-	9059,
-	9843,
-	9968,
-	9843,
-	9843,
-	9991,
-	9851,
-	10026,
-	8711,
-	9433,
-	10000,
-	8814,
-	10043,
-	10043,
-	7830,
-	8375,
-	9831,
-	9831,
-	8341,
-	7010,
-	7010,
-	8333,
-	9068,
-	9991,
-	9438,
-	10000,
-	10000,
-	10000,
-	9433,
-	9991,
-	9991,
-	9991,
-	10000,
-	9991,
-	9991,
-	9991,
-	9563,
-	9070,
-	10000,
-	10000,
-	9438,
-	9433,
-	9991,
-	9563,
-	9991,
-	8730,
-	9433,
-	9070,
-	9843,
-	9438,
-	10000,
-	8745,
-	10000,
-	8745,
-	10000,
-	9433,
-	9991,
-	9991,
-	6959,
-	8730,
-	9433,
-	7094,
-	6622,
-	6622,
-	6622,
-	5296,
-	5296,
-	6622,
-	5296,
-	1662,
-	6622,
-	10043,
-	10043,
-	6488,
-	6488,
-	6387,
-	6387,
-	6387,
-	6387,
-	8885,
-	9839,
-	9839,
-	6488,
-	10043,
-	6622,
-	10043,
-	3003,
-	2395,
-	1026,
-	4761,
-	10000,
-	9843,
-	9843,
-	6622,
-	5225,
-	6622,
-	6488,
-	6622,
-	6622,
-	6622,
-	6622,
-	6622,
-	6622,
-	5296,
-	5323,
-	6488,
-	6622,
-	3071,
-	6622,
-	6622,
-	3041,
-	5323,
-	5214,
-	6622,
-	4929,
-	4929,
-	6622,
-	6622,
-	6622,
-	6622,
-	6622,
-	10043,
-	3003,
-	5296,
-	1412,
-	5323,
-	5296,
-	6622,
-	6387,
-	6488,
-	6622,
-	6488,
-	6622,
-	6622,
-	6622,
-	3041,
-	3041,
-	5323,
-	5323,
-	6622,
-	10000,
-	9843,
-	6622,
-	9991,
-	9991,
-	9991,
-	9993,
-	10043,
-	10043,
-	9433,
-	9991,
-	9991,
-	9991,
-	9839,
-	9968,
-	10043,
-	9831,
-	9968,
-	10043,
-	9968,
-	9854,
-	9843,
-	10026,
-	9968,
-	9968,
-	9991,
-	7781,
-	9845,
-	9839,
-	9831,
-	9831,
-	9831,
-	9843,
-	9843,
-	9839,
-	9435,
-	8728,
-	8031,
-	7497,
-	8035,
-	8035,
-	8031,
-	9433,
-	9435,
-	9445,
-	9446,
-	9440,
-	9441,
-	9442,
-	9443,
-	9439,
-	9060,
-	9991,
-	9429,
-	6875,
-	6873,
-	8728,
-	8728,
-	8730,
-	8731,
-	8734,
-	9433,
-	9423,
-	9423,
-	8503,
-	9448,
-	9991,
-	9420,
-	9312,
-	9420,
-	8027,
-	9073,
-	7636,
-	9451,
-	9420,
-	8071,
-	8724,
-	7637,
-	8759,
-	9433,
-	8744,
-	9448,
-	9433,
-	9548,
-	8040,
-	9433,
-	9433,
-	7530,
-	9433,
-	9433,
-	8728,
-	7213,
-	8029,
-	8732,
-	8728,
-	8728,
-	9433,
-	9433,
-	9433,
-	9831,
-	9991,
-	9831,
-	8030,
-	8012,
-	7493,
-	8723,
-	9968,
-	9968,
-	9423,
-	9423,
-	9968,
-	10043,
-	9991,
-	9423,
-	9991,
-	9991,
-	9991,
-	10000,
-	9991,
-	9991,
-	9991,
-	9423,
-	9968,
-	9420,
-	9420,
-	9423,
-	9427,
-	8037,
-	8730,
-	8728,
-	9968,
-	10043,
-	9312,
-	10043,
-	10043,
-	9843,
-	9843,
-	9968,
-	9968,
-	9831,
-	10043,
-	10043,
-	10000,
-	10026,
-	10026,
-	9977,
-	9312,
-	9854,
-	9843,
-	9968,
-	10043,
-	9968,
-	9452,
-	9452,
-	9452,
-	9452,
-	9303,
-	9303,
-	9831,
-	9968,
-	9831,
-	9831,
-	9831,
-	8037,
-	10000,
-	9649,
-	9433,
-	8730,
-	9433,
-	8731,
-	9448,
-	8730,
-	9433,
-	9968,
-	9315,
-	9968,
-	9312,
-	9991,
-	10000,
-	9068,
-	9315,
-	9968,
-	9991,
-	9991,
-	9968,
-	9968,
-	9312,
-	10000,
-	10043,
-	10043,
-	9843,
-	10043,
-	10043,
-	9567,
-	9563,
-	9070,
-	8340,
-	8396,
-	9843,
-	8336,
-	7011,
-	8324,
-	9070,
-	9839,
-	9068,
-	9839,
-	9070,
-	9843,
-	10043,
-	10043,
-	10043,
-	10043,
-	10043,
-	10043,
-	10043,
-	10043,
-	10043,
-	10043,
-	8396,
-	9843,
-	9070,
-	9102,
-	9843,
-	9831,
-	10043,
-	9968,
-	10043,
-	10043,
-	10043,
-	9843,
-	10043,
-	9843,
-	9102,
-	10043,
-	10043,
-	9843,
-	10000,
-	9059,
-	9843,
-	9968,
-	9843,
-	9843,
-	10000,
-	8814,
-	10043,
-	10043,
-	7830,
-	8375,
-	7010,
-	7010,
-	8333,
-	9068,
-	9991,
-	9831,
-	9438,
-	9438,
-	9567,
-	9567,
-	9438,
-	9567,
+	6355,
+	6355,
+	6355,
+	6355,
+	6355,
+	6355,
+	6355,
+	6355,
+	6377,
+	6425,
+	6425,
+	6426,
+	6456,
+	5197,
+	5222,
+	5268,
+	5268,
+	5269,
+	5295,
+	6456,
+	5295,
+	6355,
+	6355,
+	4681,
+	2732,
+	4386,
+	6590,
+	3766,
+	4386,
+	2732,
+	5295,
+	5268,
+	6425,
+	6355,
+	6456,
+	2983,
+	6456,
+	6355,
+	6355,
+	6456,
+	6456,
+	4687,
+	2988,
+	2988,
+	6590,
+	3766,
+	5295,
+	6456,
+	4681,
+	2732,
+	6456,
+	1569,
+	5268,
+	6590,
+	6355,
+	5197,
+	6355,
+	5197,
+	6355,
+	5197,
+	6355,
+	6355,
+	6425,
+	6456,
+	9989,
+	5295,
+	5295,
+	2972,
+	9946,
+	7776,
+	9049,
+	5295,
+	6590,
+	6355,
+	6590,
+	6355,
+	6590,
+	6425,
+	5268,
+	6355,
+	5197,
+	6456,
+	6355,
+	5197,
+	6355,
+	5197,
+	9989,
+	6590,
+	5295,
+	5295,
+	5268,
+	6590,
+	9022,
+	6590,
+	5295,
+	6590,
+	5197,
+	5295,
+	6590,
+	6456,
+	6590,
+	5197,
+	5219,
+	5222,
+	5338,
+	5268,
+	5269,
+	5295,
+	5398,
+	6590,
+	6590,
+	6590,
+	6590,
+	5295,
+	6590,
+	6355,
+	5197,
+	6355,
+	5197,
+	6355,
+	6425,
+	6456,
+	9989,
+	5295,
+	9382,
+	9000,
+	9711,
+	9264,
+	9264,
+	9264,
+	9264,
+	9264,
+	9264,
+	9264,
+	9264,
+	9264,
+	9264,
+	9264,
+	9264,
+	9264,
+	9264,
+	9264,
+	9264,
+	9264,
+	9264,
+	9264,
+	9264,
+	9264,
+	9264,
+	9264,
+	9264,
+	9264,
+	9264,
+	9264,
+	9264,
+	6355,
+	6425,
+	6355,
+	6590,
+	2985,
+	3766,
+	1434,
+	3766,
+	6590,
+	6590,
+	6590,
+	6590,
+	6590,
+	5268,
+	5268,
+	6590,
+	5268,
+	6590,
+	6590,
+	6590,
+	5268,
+	6590,
+	6590,
+	5268,
+	5268,
+	1624,
+	2350,
+	4687,
+	9777,
+	9914,
+	9914,
+	9914,
 	8832,
-	8744,
-	9652,
-	8832,
-	9438,
-	10026,
-	10000,
-	9991,
+	8833,
+	9510,
+	9762,
+	9777,
+	9937,
+	9937,
+	6590,
+	9252,
+	9252,
+	9252,
+	9252,
+	9252,
+	9252,
+	9252,
+	9252,
+	9252,
+	9252,
+	9252,
+	9252,
+	9252,
+	6590,
+	9946,
+	9785,
+	9937,
+	7814,
+	6590,
+	6581,
+	6477,
+	6456,
+	5268,
+	5268,
+	9914,
+	9937,
+	8502,
+	8502,
+	9937,
+	9785,
+	8370,
+	9937,
+	9261,
+	9025,
+	8834,
+	8956,
+	7596,
+	9382,
+	8696,
+	9397,
+	7491,
+	6844,
+	7089,
+	6793,
+	9382,
+	9382,
+	8676,
+	7060,
+	9382,
+	9382,
+	7458,
+	7750,
+	7055,
+	6792,
+	7056,
+	8681,
+	9382,
+	9382,
+	9382,
+	7458,
+	7176,
+	7984,
+	8684,
+	8680,
+	8680,
+	9382,
+	9382,
+	9382,
+	9558,
+	4386,
+	6590,
+	6590,
+	6590,
+	6590,
+	2988,
+	6590,
+	5295,
+	6590,
+	6355,
+	6355,
+	2972,
+	6590,
+	3069,
+	6583,
+	6583,
+	4729,
+	6590,
+	9989,
+	2985,
+	6590,
+	2356,
+	5295,
+	6590,
+	6590,
+	6590,
+	6590,
+	5338,
+	6456,
+	6590,
+	6590,
+	5268,
+	5268,
+	6590,
+	6590,
+	5268,
+	6590,
+	6355,
+	6456,
+	6590,
+	6456,
+	2985,
+	5268,
+	1407,
+	5295,
+	2985,
+	5268,
+	1407,
+	5295,
+	9789,
+	9989,
+	9989,
+	9264,
+	9914,
+	9261,
+	9937,
+	9946,
+	9020,
+	9914,
+	9264,
+	9914,
+	9937,
+	9937,
+	9914,
+	9914,
+	9261,
+	9937,
+	9264,
+	9264,
+	9387,
+	9387,
+	9946,
+	9923,
+	9261,
+	9510,
+	9022,
+	8296,
+	8352,
+	9789,
+	8292,
+	6975,
+	8280,
+	9022,
+	9785,
+	9020,
+	9785,
+	9989,
+	9989,
+	9989,
+	9989,
+	9989,
+	9989,
+	9989,
+	9989,
+	9989,
+	9989,
+	8352,
+	9789,
+	9022,
+	9054,
+	9789,
+	9777,
+	9989,
+	9914,
+	9989,
+	9989,
+	9989,
+	9789,
+	9989,
+	9789,
+	9054,
+	9989,
+	9989,
+	9789,
+	9946,
+	9011,
+	9789,
+	9914,
+	9789,
+	9789,
+	9937,
+	9797,
+	9972,
+	8663,
+	9382,
+	9946,
+	8766,
+	9989,
+	9989,
+	7790,
+	8331,
+	9777,
+	9777,
+	8297,
+	6974,
+	6974,
+	8289,
+	9020,
+	9937,
+	9387,
+	9946,
+	9946,
+	9946,
+	9382,
+	9937,
+	9937,
+	9937,
+	9946,
+	9937,
+	9937,
+	9937,
+	9510,
+	9022,
+	9946,
+	9946,
+	9387,
+	9382,
+	9937,
+	9510,
+	9937,
+	8682,
+	9382,
+	9022,
+	9789,
+	9387,
+	9946,
+	8697,
+	9946,
+	8697,
+	9946,
+	9382,
+	9937,
+	9937,
+	6924,
+	8682,
+	9382,
+	7057,
+	6590,
+	6590,
+	6590,
+	5268,
+	5268,
+	6590,
+	5268,
+	1650,
+	6590,
+	9989,
+	9989,
+	6456,
+	6456,
+	6355,
+	6355,
+	6355,
+	6355,
+	8837,
+	9785,
+	9785,
+	6456,
+	9989,
+	6590,
+	9989,
+	2985,
+	2380,
+	1025,
+	4733,
+	9946,
+	9789,
+	9789,
+	6590,
+	5197,
+	6590,
+	6456,
+	6590,
+	6590,
+	6590,
+	6590,
+	6590,
+	6590,
+	5268,
+	5295,
+	6456,
+	6590,
+	3052,
+	6590,
+	6590,
+	3023,
+	5295,
+	5186,
+	6590,
+	4901,
+	4901,
+	6590,
+	6590,
+	6590,
+	6590,
+	6590,
+	9989,
+	2985,
+	5268,
+	1407,
+	5295,
+	5268,
+	6590,
+	6355,
+	6456,
+	6590,
+	6456,
+	6590,
+	6590,
+	6590,
+	3023,
+	3023,
+	5295,
+	5295,
+	6590,
+	9946,
+	9789,
+	6590,
+	9937,
+	9937,
+	9937,
+	9939,
+	9989,
+	9989,
+	9382,
+	9937,
+	9937,
+	9937,
+	9785,
+	9914,
+	9989,
+	9777,
+	9914,
+	9989,
+	9914,
+	9800,
+	9789,
+	9972,
+	9914,
+	9914,
+	9937,
+	7740,
+	9791,
+	9785,
+	9777,
+	9777,
+	9777,
+	9789,
+	9789,
+	9785,
+	9384,
+	8680,
+	7986,
+	7456,
+	7990,
+	7990,
+	7986,
+	9382,
+	9384,
+	9394,
+	9395,
+	9389,
+	9390,
+	9391,
+	9392,
+	9388,
+	9012,
+	9937,
+	9378,
+	6840,
+	6838,
+	8680,
+	8680,
+	8682,
+	8683,
+	8686,
+	9382,
+	9372,
+	9372,
+	8455,
+	9397,
+	9937,
+	9369,
+	9261,
+	9369,
+	7982,
+	9025,
+	7595,
+	9400,
+	9369,
+	8026,
+	8676,
+	7596,
 	8711,
-	9991,
-	9831,
-	9438,
-	10000,
-	10000,
-	10000,
-	9433,
-	8730,
-	9991,
-	9991,
-	9991,
-	10000,
-	9991,
-	9991,
-	9991,
-	9563,
-	9070,
-	10000,
-	10000,
-	9438,
-	9433,
-	9991,
-	9563,
-	9991,
-	8730,
-	9433,
-	9438,
-	10000,
-	8745,
-	10000,
-	8745,
-	10000,
-	9433,
-	9991,
-	9991,
-	6959,
-	10043,
-	8880,
-	8881,
-	9563,
-	9816,
-	9831,
-	9968,
-	9968,
-	9968,
-	9423,
-	9991,
-	9991,
-	9831,
-	10043,
-	9991,
-	9423,
-	9991,
-	9991,
-	9991,
-	10000,
-	9991,
-	9991,
-	9991,
-	9831,
-	9839,
-	9991,
-	7634,
-	6873,
-	6875,
-	7094,
-	9841,
-	9845,
-	8728,
-	8031,
-	7497,
-	7781,
-	9438,
-	8031,
-	9433,
-	9839,
-	9435,
-	9445,
-	9322,
-	9440,
-	9319,
-	9320,
-	9321,
-	9439,
-	9060,
-	9433,
-	9423,
-	10043,
-	9991,
-	10043,
-	9423,
-	9423,
-	10043,
-	9991,
-	9567,
-	9843,
-	9315,
-	9315,
-	9438,
-	9438,
-	10043,
-	8071,
-	8724,
-	7637,
-	9991,
-	9433,
-	8744,
-	9448,
-	9991,
-	9548,
-	6828,
-	6801,
-	9433,
-	9433,
-	6952,
-	9433,
-	9433,
-	7499,
-	7213,
-	8029,
-	8732,
-	8728,
-	8728,
-	9433,
-	9433,
-	9433,
-	9451,
-	9991,
-	7636,
-	9073,
-	9420,
-	9420,
-	8728,
-	8728,
-	9968,
-	9991,
-	8550,
-	8550,
-	10000,
-	6622,
-	6606,
-	6606,
-	6606,
-	6622,
-	6622,
-	10043,
-	9102,
-	9102,
-	9102,
-	9102,
-	9102,
-	9102,
-	6622,
-	10043,
-	10000,
-	4714,
-	5323,
-	1463,
-	1366,
-	10000,
-	4815,
-	4411,
-	6622,
-	10043,
-	6457,
-	5296,
-	6457,
-	5296,
-	6457,
-	5296,
-	6622,
-	1568,
-	6488,
-	5323,
-	6488,
-	5323,
-	6488,
-	5323,
-	6488,
-	5323,
-	6488,
-	5323,
-	6488,
-	5323,
-	6488,
-	5323,
-	6488,
-	5323,
-	6488,
-	5323,
-	6488,
-	5323,
-	6488,
-	5323,
-	6488,
-	5323,
-	6488,
-	5323,
-	6488,
-	5323,
-	6488,
-	5323,
-	6488,
-	5323,
-	6488,
-	5323,
-	6488,
-	5323,
-	6488,
-	5323,
-	6488,
-	5323,
-	6488,
-	5323,
-	6488,
-	5323,
-	6488,
-	5323,
-	6488,
-	5323,
-	6488,
-	5323,
-	6488,
-	5323,
-	6488,
-	5323,
-	6622,
-	6622,
-	6488,
-	5323,
-	6488,
-	5323,
-	6488,
-	5323,
-	6488,
-	5323,
-	6488,
-	5323,
-	6488,
-	5323,
-	6488,
-	5323,
-	6488,
-	5323,
-	6488,
-	5323,
-	6488,
-	5323,
-	6488,
-	5323,
-	6488,
-	5323,
-	6488,
-	5323,
-	6488,
-	5323,
-	6488,
-	5323,
-	6488,
-	5323,
-	6488,
-	5323,
-	6488,
-	5323,
-	6488,
-	5323,
-	6488,
-	5323,
-	6488,
-	5323,
-	6488,
-	5323,
-	6622,
-	6622,
+	9382,
+	8696,
+	9397,
+	9382,
+	9495,
+	7995,
+	9382,
+	9382,
+	7489,
+	9382,
+	9382,
+	8680,
+	7176,
+	7984,
+	8684,
+	8680,
+	8680,
+	9382,
+	9382,
+	9382,
+	9777,
+	9937,
+	9777,
+	7985,
+	7967,
+	7452,
+	8675,
+	9914,
+	9914,
+	9372,
+	9372,
+	9914,
+	9989,
+	9937,
+	9372,
+	9937,
+	9937,
+	9937,
+	9946,
+	9937,
+	9937,
+	9937,
+	9372,
+	9914,
+	9369,
+	9369,
+	9372,
+	9376,
+	7992,
+	8682,
+	8680,
+	9914,
+	9989,
+	9261,
+	9989,
+	9989,
+	9789,
+	9789,
+	9914,
+	9914,
+	9777,
+	9989,
+	9989,
+	9946,
+	9972,
+	9972,
+	9923,
+	9261,
+	9800,
+	9789,
+	9914,
+	9989,
+	9914,
+	9401,
+	9401,
+	9401,
+	9401,
+	9252,
+	9252,
+	9777,
+	9914,
+	9777,
+	9777,
+	9777,
+	7992,
+	9946,
+	9596,
+	9382,
+	8682,
+	9382,
+	8683,
+	9397,
+	8682,
+	9382,
+	9914,
+	9264,
+	9914,
+	9261,
+	9937,
+	9946,
+	9020,
+	9264,
+	9914,
+	9937,
+	9937,
+	9914,
+	9914,
+	9261,
+	9946,
+	9989,
+	9989,
+	9789,
+	9989,
+	9989,
+	9514,
+	9510,
+	9022,
+	8296,
+	8352,
+	9789,
+	8292,
+	6975,
+	8280,
+	9022,
+	9785,
+	9020,
+	9785,
+	9022,
+	9789,
+	9989,
+	9989,
+	9989,
+	9989,
+	9989,
+	9989,
+	9989,
+	9989,
+	9989,
+	9989,
+	8352,
+	9789,
+	9022,
+	9054,
+	9789,
+	9777,
+	9989,
+	9914,
+	9989,
+	9989,
+	9989,
+	9789,
+	9989,
+	9789,
+	9054,
+	9989,
+	9989,
+	9789,
+	9946,
+	9011,
+	9789,
+	9914,
+	9789,
+	9789,
+	9946,
+	8766,
+	9989,
+	9989,
+	7790,
+	8331,
+	6974,
+	6974,
+	8289,
+	9020,
+	9937,
+	9777,
+	9387,
+	9387,
+	9514,
+	9514,
+	9387,
+	9514,
+	8784,
+	8696,
+	9599,
+	8784,
+	9387,
+	9972,
+	9946,
+	9937,
+	8663,
+	9937,
+	9777,
+	9387,
+	9946,
+	9946,
+	9946,
+	9382,
+	8682,
+	9937,
+	9937,
+	9937,
+	9946,
+	9937,
+	9937,
+	9937,
+	9510,
+	9022,
+	9946,
+	9946,
+	9387,
+	9382,
+	9937,
+	9510,
+	9937,
+	8682,
+	9382,
+	9387,
+	9946,
+	8697,
+	9946,
+	8697,
+	9946,
+	9382,
+	9937,
+	9937,
+	6924,
+	9989,
+	8832,
+	8833,
+	9510,
+	9762,
+	9777,
+	9914,
+	9914,
+	9914,
+	9372,
+	9937,
+	9937,
+	9777,
+	9989,
+	9937,
+	9372,
+	9937,
+	9937,
+	9937,
+	9946,
+	9937,
+	9937,
+	9937,
+	9777,
+	9785,
+	9937,
+	7593,
+	6838,
+	6840,
+	7057,
+	9787,
+	9791,
+	8680,
+	7986,
+	7456,
+	7740,
+	9387,
+	7986,
+	9382,
+	9785,
+	9384,
+	9394,
+	9271,
+	9389,
+	9268,
+	9269,
+	9270,
+	9388,
+	9012,
+	9382,
+	9372,
+	9989,
+	9937,
+	9989,
+	9372,
+	9372,
+	9989,
+	9937,
+	9514,
+	9789,
+	9264,
+	9264,
+	9387,
+	9387,
+	9989,
+	8026,
+	8676,
+	7596,
+	9937,
+	9382,
+	8696,
+	9397,
+	9937,
+	9495,
+	6793,
+	6766,
+	9382,
+	9382,
+	6917,
+	9382,
+	9382,
+	7458,
+	7176,
+	7984,
+	8684,
+	8680,
+	8680,
+	9382,
+	9382,
+	9382,
+	9400,
+	9937,
+	7595,
+	9025,
+	9369,
+	9369,
+	8680,
+	8680,
+	9914,
+	9937,
+	8502,
+	8502,
+	9946,
+	6590,
+	6574,
+	6574,
+	6574,
+	6590,
+	6590,
+	9989,
+	9054,
+	9054,
+	9054,
+	9054,
+	9054,
+	9054,
+	6590,
+	9989,
+	9946,
+	4687,
+	5295,
+	1456,
+	1361,
+	9946,
+	4787,
+	4386,
+	6590,
+	9989,
+	6425,
+	5268,
+	6425,
+	5268,
+	6425,
+	5268,
+	6590,
+	1559,
+	6456,
+	5295,
+	6456,
+	5295,
+	6456,
+	5295,
+	6456,
+	5295,
+	6456,
+	5295,
+	6456,
+	5295,
+	6456,
+	5295,
+	6456,
+	5295,
+	6456,
+	5295,
+	6456,
+	5295,
+	6456,
+	5295,
+	6456,
+	5295,
+	6456,
+	5295,
+	6456,
+	5295,
+	6456,
+	5295,
+	6456,
+	5295,
+	6456,
+	5295,
+	6456,
+	5295,
+	6456,
+	5295,
+	6456,
+	5295,
+	6456,
+	5295,
+	6456,
+	5295,
+	6456,
+	5295,
+	6456,
+	5295,
+	6456,
+	5295,
+	6456,
+	5295,
+	6456,
+	5295,
+	6590,
+	6590,
+	6456,
+	5295,
+	6456,
+	5295,
+	6456,
+	5295,
+	6456,
+	5295,
+	6456,
+	5295,
+	6456,
+	5295,
+	6456,
+	5295,
+	6456,
+	5295,
+	6456,
+	5295,
+	6456,
+	5295,
+	6456,
+	5295,
+	6456,
+	5295,
+	6456,
+	5295,
+	6456,
+	5295,
+	6456,
+	5295,
+	6456,
+	5295,
+	6456,
+	5295,
+	6456,
+	5295,
+	6456,
+	5295,
+	6456,
+	5295,
+	6456,
+	5295,
+	6456,
+	5295,
+	6590,
+	6590,
 };
 static const Il2CppTokenIndexMethodTuple s_reversePInvokeIndices[3] = 
 {
-	{ 0x060002DF, 6,  (void**)&PXR_Loader_ConvertRotationWith2Vector_mDAD87DDA7800E798BB209776C88E47FC09186F0B_RuntimeMethod_var, 0 },
-	{ 0x060002E0, 7,  (void**)&PXR_Loader_InputDeviceChangedFunction_m88319157AC43A8643A3DD83DD83F6337E191767F_RuntimeMethod_var, 0 },
-	{ 0x060002E1, 8,  (void**)&PXR_Loader_SeethroughStateChangedFunction_m6105E68F3C584031EE244ACA4796D120E8C4AD56_RuntimeMethod_var, 0 },
+	{ 0x060002DF, 6,  (void**)&PXR_Loader_ConvertRotationWith2Vector_m89DDECE6D83A5FE3FB2E1272960C831FBE6405C0_RuntimeMethod_var, 0 },
+	{ 0x060002E0, 7,  (void**)&PXR_Loader_InputDeviceChangedFunction_m70B414F5C2AE505E7EF23A5B3096630154AAF2A4_RuntimeMethod_var, 0 },
+	{ 0x060002E1, 8,  (void**)&PXR_Loader_SeethroughStateChangedFunction_mF36C7F546AFAA36E7B80D9F34EBDF7142F06E6F1_RuntimeMethod_var, 0 },
 };
 static const Il2CppTokenRangePair s_rgctxIndices[7] = 
 {
@@ -5388,21 +5388,21 @@ static const Il2CppTokenRangePair s_rgctxIndices[7] =
 	{ 0x060000ED, { 6, 4 } },
 	{ 0x060000EE, { 10, 5 } },
 };
-extern const uint32_t g_rgctx_T_t8FF25C169DEC335F8444355D4B405B9E57B04980;
-extern const uint32_t g_rgctx_T_t8FF25C169DEC335F8444355D4B405B9E57B04980;
-extern const uint32_t g_rgctx_T_t7B0A7741EB2427C459E74FD929178A88F4E39F8F;
-extern const uint32_t g_rgctx_T_t7B0A7741EB2427C459E74FD929178A88F4E39F8F;
-extern const uint32_t g_rgctx_T_tB641BB9A709CF1C655782529C7F9C3D19107E2FC;
-extern const uint32_t g_rgctx_T_tB641BB9A709CF1C655782529C7F9C3D19107E2FC;
-extern const uint32_t g_rgctx_U3CU3Ec__DisplayClass39_0_1_tB8436EE25C92233CE6B410A0198B6B0A0335F560;
-extern const uint32_t g_rgctx_U3CU3Ec__DisplayClass39_0_1__ctor_mC11AFEC391EC8B53794DC33B5539C5BE556ACE66;
-extern const uint32_t g_rgctx_U3CU3Ec__DisplayClass39_0_1_U3CRegisterExporterU3Eb__0_m8C944B8D43F06E720B2D1E73E4DEAD060BC14B11;
-extern const uint32_t g_rgctx_T_tE8C51D3EAF3A08E0F9EFBAA2DA8BE5D20EF7FBA6;
-extern const uint32_t g_rgctx_U3CU3Ec__DisplayClass40_0_2_tBF062F8363A4483820D2BE1E929D9B5FDCA838A7;
-extern const uint32_t g_rgctx_U3CU3Ec__DisplayClass40_0_2__ctor_mABAA157697147C7F7DB03D3FD2157F08F5D0F710;
-extern const uint32_t g_rgctx_U3CU3Ec__DisplayClass40_0_2_U3CRegisterImporterU3Eb__0_mD97A3734F09E21756C95B585217EDA8B45F1330E;
-extern const uint32_t g_rgctx_TJson_tC2089A6D5AACDC57244269DB7C144E64AFE551B2;
-extern const uint32_t g_rgctx_TValue_t96D540FE3E3D008FFAF42285606C0B2E47AD334E;
+extern const uint32_t g_rgctx_T_t515BADFAB21AD8E1C791267857A797D0C27E0A40;
+extern const uint32_t g_rgctx_T_t515BADFAB21AD8E1C791267857A797D0C27E0A40;
+extern const uint32_t g_rgctx_T_tE5A2B02179756A2A519D47D11A4C9DE50D00F92E;
+extern const uint32_t g_rgctx_T_tE5A2B02179756A2A519D47D11A4C9DE50D00F92E;
+extern const uint32_t g_rgctx_T_t036364D0C8FA5358ABF89A1506FE81BEF253020D;
+extern const uint32_t g_rgctx_T_t036364D0C8FA5358ABF89A1506FE81BEF253020D;
+extern const uint32_t g_rgctx_U3CU3Ec__DisplayClass39_0_1_t0227D7313F1B7CDF5DDDCEA280C8E565D49A0997;
+extern const uint32_t g_rgctx_U3CU3Ec__DisplayClass39_0_1__ctor_mE4424B1270258550CA78EAB254C6A4C4EE28FE01;
+extern const uint32_t g_rgctx_U3CU3Ec__DisplayClass39_0_1_U3CRegisterExporterU3Eb__0_mFE8727DFF14FA3EFCC7B9BC6267A59A44AE375CB;
+extern const uint32_t g_rgctx_T_tA941384FCD2FADEE2CA098AB63775CB07E116E5E;
+extern const uint32_t g_rgctx_U3CU3Ec__DisplayClass40_0_2_tE57C65D1DEAFD8E49B6BA808F7F6F288CD0D2C83;
+extern const uint32_t g_rgctx_U3CU3Ec__DisplayClass40_0_2__ctor_m198750C54F9CDD97511FDA95E77F820D970A1555;
+extern const uint32_t g_rgctx_U3CU3Ec__DisplayClass40_0_2_U3CRegisterImporterU3Eb__0_m3BB5695243B75234390EC60D0EAE6379990A4C37;
+extern const uint32_t g_rgctx_TJson_tAB2D309870725CCEA53076DE82A605824484144A;
+extern const uint32_t g_rgctx_TValue_t061579A7DDD3999D7ECBA5C86DC7FBCF73D742F5;
 extern const uint32_t g_rgctx_T_t768B02C55FD59655C45A102FDCD083A3C79115EB;
 extern const uint32_t g_rgctx_ExporterFunc_1_tC2837E568C6D0E7A4652F6F90309D216C752D978;
 extern const uint32_t g_rgctx_ExporterFunc_1_Invoke_m03BEAA30ED6536DC40DCCE68D8201D113DABAB81;
@@ -5412,21 +5412,21 @@ extern const uint32_t g_rgctx_ImporterFunc_2_Invoke_m6476DB6007630E84BDE26A49E7F
 extern const uint32_t g_rgctx_TValue_t0D27FC4F706ED86414EC109AC083BD00CD79B870;
 static const Il2CppRGCTXDefinition s_rgctxValues[22] = 
 {
-	{ (Il2CppRGCTXDataType)1, (const void *)&g_rgctx_T_t8FF25C169DEC335F8444355D4B405B9E57B04980 },
-	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_T_t8FF25C169DEC335F8444355D4B405B9E57B04980 },
-	{ (Il2CppRGCTXDataType)1, (const void *)&g_rgctx_T_t7B0A7741EB2427C459E74FD929178A88F4E39F8F },
-	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_T_t7B0A7741EB2427C459E74FD929178A88F4E39F8F },
-	{ (Il2CppRGCTXDataType)1, (const void *)&g_rgctx_T_tB641BB9A709CF1C655782529C7F9C3D19107E2FC },
-	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_T_tB641BB9A709CF1C655782529C7F9C3D19107E2FC },
-	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CU3Ec__DisplayClass39_0_1_tB8436EE25C92233CE6B410A0198B6B0A0335F560 },
-	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_U3CU3Ec__DisplayClass39_0_1__ctor_mC11AFEC391EC8B53794DC33B5539C5BE556ACE66 },
-	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_U3CU3Ec__DisplayClass39_0_1_U3CRegisterExporterU3Eb__0_m8C944B8D43F06E720B2D1E73E4DEAD060BC14B11 },
-	{ (Il2CppRGCTXDataType)1, (const void *)&g_rgctx_T_tE8C51D3EAF3A08E0F9EFBAA2DA8BE5D20EF7FBA6 },
-	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CU3Ec__DisplayClass40_0_2_tBF062F8363A4483820D2BE1E929D9B5FDCA838A7 },
-	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_U3CU3Ec__DisplayClass40_0_2__ctor_mABAA157697147C7F7DB03D3FD2157F08F5D0F710 },
-	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_U3CU3Ec__DisplayClass40_0_2_U3CRegisterImporterU3Eb__0_mD97A3734F09E21756C95B585217EDA8B45F1330E },
-	{ (Il2CppRGCTXDataType)1, (const void *)&g_rgctx_TJson_tC2089A6D5AACDC57244269DB7C144E64AFE551B2 },
-	{ (Il2CppRGCTXDataType)1, (const void *)&g_rgctx_TValue_t96D540FE3E3D008FFAF42285606C0B2E47AD334E },
+	{ (Il2CppRGCTXDataType)1, (const void *)&g_rgctx_T_t515BADFAB21AD8E1C791267857A797D0C27E0A40 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_T_t515BADFAB21AD8E1C791267857A797D0C27E0A40 },
+	{ (Il2CppRGCTXDataType)1, (const void *)&g_rgctx_T_tE5A2B02179756A2A519D47D11A4C9DE50D00F92E },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_T_tE5A2B02179756A2A519D47D11A4C9DE50D00F92E },
+	{ (Il2CppRGCTXDataType)1, (const void *)&g_rgctx_T_t036364D0C8FA5358ABF89A1506FE81BEF253020D },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_T_t036364D0C8FA5358ABF89A1506FE81BEF253020D },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CU3Ec__DisplayClass39_0_1_t0227D7313F1B7CDF5DDDCEA280C8E565D49A0997 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_U3CU3Ec__DisplayClass39_0_1__ctor_mE4424B1270258550CA78EAB254C6A4C4EE28FE01 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_U3CU3Ec__DisplayClass39_0_1_U3CRegisterExporterU3Eb__0_mFE8727DFF14FA3EFCC7B9BC6267A59A44AE375CB },
+	{ (Il2CppRGCTXDataType)1, (const void *)&g_rgctx_T_tA941384FCD2FADEE2CA098AB63775CB07E116E5E },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_U3CU3Ec__DisplayClass40_0_2_tE57C65D1DEAFD8E49B6BA808F7F6F288CD0D2C83 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_U3CU3Ec__DisplayClass40_0_2__ctor_m198750C54F9CDD97511FDA95E77F820D970A1555 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_U3CU3Ec__DisplayClass40_0_2_U3CRegisterImporterU3Eb__0_m3BB5695243B75234390EC60D0EAE6379990A4C37 },
+	{ (Il2CppRGCTXDataType)1, (const void *)&g_rgctx_TJson_tAB2D309870725CCEA53076DE82A605824484144A },
+	{ (Il2CppRGCTXDataType)1, (const void *)&g_rgctx_TValue_t061579A7DDD3999D7ECBA5C86DC7FBCF73D742F5 },
 	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_T_t768B02C55FD59655C45A102FDCD083A3C79115EB },
 	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_ExporterFunc_1_tC2837E568C6D0E7A4652F6F90309D216C752D978 },
 	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_ExporterFunc_1_Invoke_m03BEAA30ED6536DC40DCCE68D8201D113DABAB81 },

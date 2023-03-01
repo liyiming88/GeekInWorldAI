@@ -8,6 +8,7 @@
 
 
 #include <limits>
+#include <stdint.h>
 
 
 
@@ -31,6 +32,7 @@ IL2CPP_EXTERN_C_END
 struct U3CModuleU3E_t68C90672D35148C72B410A31D56D66EA3268B614 
 {
 };
+struct Il2CppArrayBounds;
 
 // System.Attribute
 struct Attribute_tFDA8EFEFB0711976D22474794576DAF28F7440AA  : public RuntimeObject
@@ -71,30 +73,6 @@ struct Void_t4861ACF8F4594C3437BB48B6E56783494B843915
 		uint8_t Void_t4861ACF8F4594C3437BB48B6E56783494B843915__padding[1];
 	};
 };
-
-// <Module>
-
-// <Module>
-
-// System.Attribute
-
-// System.Attribute
-
-// System.Runtime.CompilerServices.Unsafe
-
-// System.Runtime.CompilerServices.Unsafe
-
-// System.ValueType
-
-// System.ValueType
-
-// System.Runtime.Versioning.NonVersionableAttribute
-
-// System.Runtime.Versioning.NonVersionableAttribute
-
-// System.Void
-
-// System.Void
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif

@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fullName: workspaces/default-oxnteqkgbpcn-auhgjkq0w/scenes/fidelity_investment
   shortName: Fidelity Investment
-  description: Investment trading retirement readiness crypto metaverse
+  description: Investment trading retirement readiness
   characters:
   - workspaces/default-oxnteqkgbpcn-auhgjkq0w/characters/eva
   - workspaces/default-oxnteqkgbpcn-auhgjkq0w/characters/patrick
