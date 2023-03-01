@@ -42,6 +42,8 @@ struct InvokableCallList_t309E1C8C7CE885A0D2F98C84CEA77A8935688382;
 struct MethodInfo_t;
 // UnityEngine.MonoBehaviour
 struct MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71;
+// NpcMoveWhenStart
+struct NpcMoveWhenStart_tFDA5B17C1F37D29E2218EC9507BF9C549BC80A81;
 // OnButtonPress
 struct OnButtonPress_t651453381FEBCE7C5A8FCC4119CDAECC6312C946;
 // UnityEngine.Events.PersistentCallGroup
@@ -487,6 +489,19 @@ struct FaceToCam_t31EB18FCB8CD3A6E0E47FE212EEF4D670071DADB  : public MonoBehavio
 	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___cam_4;
 };
 
+// NpcMoveWhenStart
+struct NpcMoveWhenStart_tFDA5B17C1F37D29E2218EC9507BF9C549BC80A81  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	// UnityEngine.GameObject NpcMoveWhenStart::xrOrigin
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___xrOrigin_4;
+	// System.Single NpcMoveWhenStart::x_axix
+	float ___x_axix_5;
+	// System.Single NpcMoveWhenStart::z_axix
+	float ___z_axix_6;
+	// System.Boolean NpcMoveWhenStart::alive
+	bool ___alive_7;
+};
+
 // OnButtonPress
 struct OnButtonPress_t651453381FEBCE7C5A8FCC4119CDAECC6312C946  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
@@ -524,6 +539,10 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3__ctor_m376936E6B999E
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transform_set_localEulerAngles_m0458551662A1A51FDCA4C0417282B25D391661DF (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___value0, const RuntimeMethod* method) ;
 // System.Void UnityEngine.MonoBehaviour::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E (MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71* __this, const RuntimeMethod* method) ;
+// UnityEngine.Vector3 UnityEngine.Transform::get_position()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, const RuntimeMethod* method) ;
+// System.Void UnityEngine.Transform::Translate(System.Single,System.Single,System.Single)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transform_Translate_mB42A27EE20E123E0B47336F795B62B017489E3F7 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, float ___x0, float ___y1, float ___z2, const RuntimeMethod* method) ;
 // System.Void System.Action`1<UnityEngine.InputSystem.InputAction/CallbackContext>::.ctor(System.Object,System.IntPtr)
 inline void Action_1__ctor_mA763900B34C3394F230AE63708F530CA9A192B57 (Action_1_tEB0353AA1A112B6F2D921B58DCC9D9D4C0498E6E* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method)
 {
@@ -593,6 +612,83 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FaceToCam_Update_mC2BC72AA9A18016C92CC0C
 }
 // System.Void FaceToCam::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void FaceToCam__ctor_mF4D835CA087FCBB381A787E872727C3BD15B7B11 (FaceToCam_t31EB18FCB8CD3A6E0E47FE212EEF4D670071DADB* __this, const RuntimeMethod* method) 
+{
+	{
+		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);
+		return;
+	}
+}
+#ifdef __clang__
+#pragma clang diagnostic pop
+#endif
+#ifdef __clang__
+#pragma clang diagnostic push
+#pragma clang diagnostic ignored "-Winvalid-offsetof"
+#pragma clang diagnostic ignored "-Wunused-variable"
+#endif
+// System.Void NpcMoveWhenStart::Start()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NpcMoveWhenStart_Start_m83FD2A5565D03B7EA68FF58DB7F37498D385C994 (NpcMoveWhenStart_tFDA5B17C1F37D29E2218EC9507BF9C549BC80A81* __this, const RuntimeMethod* method) 
+{
+	{
+		// }
+		return;
+	}
+}
+// System.Void NpcMoveWhenStart::Update()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NpcMoveWhenStart_Update_m1C60AE418664BE20137002631BAEFC4D3C54C7A0 (NpcMoveWhenStart_tFDA5B17C1F37D29E2218EC9507BF9C549BC80A81* __this, const RuntimeMethod* method) 
+{
+	{
+		// }
+		return;
+	}
+}
+// System.Void NpcMoveWhenStart::MovePosition()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NpcMoveWhenStart_MovePosition_m67A22C7D135F0DF8E4B672A8BC63466A884C47FB (NpcMoveWhenStart_tFDA5B17C1F37D29E2218EC9507BF9C549BC80A81* __this, const RuntimeMethod* method) 
+{
+	{
+		// if (!alive) {
+		bool L_0 = __this->___alive_7;
+		if (L_0)
+		{
+			goto IL_0057;
+		}
+	}
+	{
+		// alive = true;
+		__this->___alive_7 = (bool)1;
+		// transform.Translate(xrOrigin.transform.position.x + x_axix, 0, xrOrigin.transform.position.z + z_axix);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_1;
+		L_1 = Component_get_transform_m2919A1D81931E6932C7F06D4C2F0AB8DDA9A5371(__this, NULL);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_2 = __this->___xrOrigin_4;
+		NullCheck(L_2);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_3;
+		L_3 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_2, NULL);
+		NullCheck(L_3);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4;
+		L_4 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_3, NULL);
+		float L_5 = L_4.___x_2;
+		float L_6 = __this->___x_axix_5;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_7 = __this->___xrOrigin_4;
+		NullCheck(L_7);
+		Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* L_8;
+		L_8 = GameObject_get_transform_m0BC10ADFA1632166AE5544BDF9038A2650C2AE56(L_7, NULL);
+		NullCheck(L_8);
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9;
+		L_9 = Transform_get_position_m69CD5FA214FDAE7BB701552943674846C220FDE1(L_8, NULL);
+		float L_10 = L_9.___z_4;
+		float L_11 = __this->___z_axix_6;
+		NullCheck(L_1);
+		Transform_Translate_mB42A27EE20E123E0B47336F795B62B017489E3F7(L_1, ((float)il2cpp_codegen_add(L_5, L_6)), (0.0f), ((float)il2cpp_codegen_add(L_10, L_11)), NULL);
+	}
+
+IL_0057:
+	{
+		// }
+		return;
+	}
+}
+// System.Void NpcMoveWhenStart::.ctor()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void NpcMoveWhenStart__ctor_m4DEEBEF103EC16296C0E32AF33C3D0D78F0F9B5B (NpcMoveWhenStart_tFDA5B17C1F37D29E2218EC9507BF9C549BC80A81* __this, const RuntimeMethod* method) 
 {
 	{
 		MonoBehaviour__ctor_m592DB0105CA0BC97AA1C5F4AD27B12D68A3B7C1E(__this, NULL);

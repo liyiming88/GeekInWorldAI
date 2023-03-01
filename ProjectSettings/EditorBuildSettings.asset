@@ -6,8 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/EvaScene.unity
+    path: Assets/Scenes/EvaScene_YimingWorkingOn.unity
     guid: 11b65f6133383804c9b8f52ed73bddb9
   m_configObjects:
     Unity.XR.PXR.Settings: {fileID: 11400000, guid: 054eee95e255b6e42b7128f5eb5c4a57, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: c3fdfc3ace722c946a8400113050b000, type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 28e9bad43b3a0bd478e406989b174178, type: 2}
