@@ -20,10 +20,12 @@ MonoBehaviour:
   ownerShip: 0
   defaultThumbnail: {fileID: 2800000, guid: 8d88448f4560c95429e467f3ebbb6f2d, type: 3}
   index: 0
-  triggers: []
+  triggers:
+  - checkform
+  - formfinished
   scenes:
   - workspaces/default-oxnteqkgbpcn-auhgjkq0w/scenes/fidelity_investment
   modelUri: https://storage.googleapis.com/inworld-ai-usercontent-prod/rpm_model/611a54de-16b8-400c-b5b5-2785142a690d.glb
   posUri: https://storage.googleapis.com/inworld-ai-usercontent-prod/rpm_image/611a54de-16b8-400c-b5b5-2785142a690d_posture.jpg
   previewImgUri: https://storage.googleapis.com/inworld-ai-usercontent-prod/rpm_image/611a54de-16b8-400c-b5b5-2785142a690d_portrait.jpg
-  characterID: e96f3406-6ffc-44bf-a801-293ca377a518
+  characterID: 18d2727e-9db2-48b5-859d-ad1021583370

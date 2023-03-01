@@ -46,7 +46,15 @@ extern void SeeThrough_Start_mBF7099C143D6EA5B94F2290ADAB8BFB3C5227618 (void);
 extern void SeeThrough_Update_m33EEE0A43467D809511A62E01168ED5F29B19A36 (void);
 // 0x00000011 System.Void SeeThrough::.ctor()
 extern void SeeThrough__ctor_m1303A1DDBB7DF0767AF2BF4E845C0885DD2D4EBA (void);
-static Il2CppMethodPointer s_methodPointers[17] = 
+// 0x00000012 System.Void Inworld.Sample.CheckForm::Start()
+extern void CheckForm_Start_m402A6032F3AEFA239E52D25AC7C3AF0457D74FA4 (void);
+// 0x00000013 System.Void Inworld.Sample.CheckForm::Update()
+extern void CheckForm_Update_m8631C00562A91117F3FC8788085B99C3EBAD0EB4 (void);
+// 0x00000014 System.Void Inworld.Sample.CheckForm::Check()
+extern void CheckForm_Check_m296F87FE85D22177465042302619AED3650A757D (void);
+// 0x00000015 System.Void Inworld.Sample.CheckForm::.ctor()
+extern void CheckForm__ctor_m2C18C8A35BCDE2D62549370C4674C32D27C2B41D (void);
+static Il2CppMethodPointer s_methodPointers[21] = 
 {
 	FaceToCam_Update_mC2BC72AA9A18016C92CC0C6E28C4CA2E513B5C6B,
 	FaceToCam__ctor_mF4D835CA087FCBB381A787E872727C3BD15B7B11,
@@ -65,8 +73,12 @@ static Il2CppMethodPointer s_methodPointers[17] =
 	SeeThrough_Start_mBF7099C143D6EA5B94F2290ADAB8BFB3C5227618,
 	SeeThrough_Update_m33EEE0A43467D809511A62E01168ED5F29B19A36,
 	SeeThrough__ctor_m1303A1DDBB7DF0767AF2BF4E845C0885DD2D4EBA,
+	CheckForm_Start_m402A6032F3AEFA239E52D25AC7C3AF0457D74FA4,
+	CheckForm_Update_m8631C00562A91117F3FC8788085B99C3EBAD0EB4,
+	CheckForm_Check_m296F87FE85D22177465042302619AED3650A757D,
+	CheckForm__ctor_m2C18C8A35BCDE2D62549370C4674C32D27C2B41D,
 };
-static const int32_t s_InvokerIndices[17] = 
+static const int32_t s_InvokerIndices[21] = 
 {
 	6614,
 	6614,
@@ -80,6 +92,10 @@ static const int32_t s_InvokerIndices[17] =
 	6614,
 	5459,
 	5459,
+	6614,
+	6614,
+	6614,
+	6614,
 	6614,
 	6614,
 	6614,
@@ -90,7 +106,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	17,
+	21,
 	s_methodPointers,
 	0,
 	NULL,
