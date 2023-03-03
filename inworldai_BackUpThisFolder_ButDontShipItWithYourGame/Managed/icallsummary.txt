@@ -1010,6 +1010,7 @@ UnityEngine.Transform::set_rotation_Injected
 UnityEngine.Transform::FindRelativeTransformWithPath
 UnityEngine.Transform::GetChild
 UnityEngine.Transform::GetParent
+UnityEngine.Transform::GetRoot
 UnityEngine.U2D.SpriteAtlas::CanBindTo
 UnityEngine.U2D.SpriteAtlas::IsPlaceholder
 UnityEngine.U2D.SpriteAtlasManager::Register

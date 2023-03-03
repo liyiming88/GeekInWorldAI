@@ -12,6 +12,7 @@ namespace Inworld.Sample
         [SerializeField] InworldCharacterData m_CharData;
         public InworldCharacter m_CurrentCharacter;
         private Toggle toggle;
+        private Animator animator;
         // Start is called before the first frame update
         void Start()
         {
@@ -28,10 +29,11 @@ namespace Inworld.Sample
             if (toggle.isOn)
             {
                 m_CurrentCharacter.SendTrigger(m_CurrentCharacter.Data.triggers[1]);
-                gameObject.transform.parent.gameObject.SetActive(false);
+                gameObject.transform.root.gameObject.SetActive(false);
             }
             else {
                 m_CurrentCharacter.SendTrigger(m_CurrentCharacter.Data.triggers[0]);
+                gameObject.transform.root.gameObject.GetComponent<Animator>().SetTrigger("shake");
             }
         }
         public void HoverForm() {
