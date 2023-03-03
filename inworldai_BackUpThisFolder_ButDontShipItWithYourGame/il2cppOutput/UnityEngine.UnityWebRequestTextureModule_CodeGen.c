@@ -13,9 +13,9 @@
 
 
 // 0x00000001 UnityEngine.Networking.UnityWebRequest UnityEngine.Networking.UnityWebRequestTexture::GetTexture(System.String,System.Boolean)
-extern void UnityWebRequestTexture_GetTexture_m467187BA06B6EFD78A8EB7469015ACDF121D8551 (void);
+extern void UnityWebRequestTexture_GetTexture_m45F855106C834021AC0DFA25FE31BA14C42693CA (void);
 // 0x00000002 System.IntPtr UnityEngine.Networking.DownloadHandlerTexture::Create(UnityEngine.Networking.DownloadHandlerTexture,System.Boolean)
-extern void DownloadHandlerTexture_Create_mED7B724561B517E7573A9C1E6CD97FE011545A0A (void);
+extern void DownloadHandlerTexture_Create_m6DBB03DC64DB11F35862D7A4F6B4A814B8531A21 (void);
 // 0x00000003 System.Void UnityEngine.Networking.DownloadHandlerTexture::InternalCreateTexture(System.Boolean)
 extern void DownloadHandlerTexture_InternalCreateTexture_m2BC0B138561A55B9CCAB694E4447888B21D1B47A (void);
 // 0x00000004 System.Void UnityEngine.Networking.DownloadHandlerTexture::.ctor(System.Boolean)
@@ -31,11 +31,11 @@ extern void DownloadHandlerTexture_InternalGetTexture_mD1882B183F71176C89B42DB2C
 // 0x00000009 UnityEngine.Texture2D UnityEngine.Networking.DownloadHandlerTexture::InternalGetTextureNative()
 extern void DownloadHandlerTexture_InternalGetTextureNative_m9244CDF2A5DE7B9971121CAC5642DD5FEA877688 (void);
 // 0x0000000A UnityEngine.Texture2D UnityEngine.Networking.DownloadHandlerTexture::GetContent(UnityEngine.Networking.UnityWebRequest)
-extern void DownloadHandlerTexture_GetContent_m3C0020931D97DCD43BC39A613C5066F340B22361 (void);
+extern void DownloadHandlerTexture_GetContent_m86BC88F58305A1B21C21CE7D82658197932EFB18 (void);
 static Il2CppMethodPointer s_methodPointers[10] = 
 {
-	UnityWebRequestTexture_GetTexture_m467187BA06B6EFD78A8EB7469015ACDF121D8551,
-	DownloadHandlerTexture_Create_mED7B724561B517E7573A9C1E6CD97FE011545A0A,
+	UnityWebRequestTexture_GetTexture_m45F855106C834021AC0DFA25FE31BA14C42693CA,
+	DownloadHandlerTexture_Create_m6DBB03DC64DB11F35862D7A4F6B4A814B8531A21,
 	DownloadHandlerTexture_InternalCreateTexture_m2BC0B138561A55B9CCAB694E4447888B21D1B47A,
 	DownloadHandlerTexture__ctor_m29775B9DEA2C54AE7EFED3550C31AB4D5CF58AD8,
 	DownloadHandlerTexture_GetNativeData_m241724A953EC64E660235D0A0374EFACE1B0779A,
@@ -43,20 +43,20 @@ static Il2CppMethodPointer s_methodPointers[10] =
 	DownloadHandlerTexture_get_texture_m170B5539995EB5984E98E426F52983589F7BEB7C,
 	DownloadHandlerTexture_InternalGetTexture_mD1882B183F71176C89B42DB2C8A185BC9A647167,
 	DownloadHandlerTexture_InternalGetTextureNative_m9244CDF2A5DE7B9971121CAC5642DD5FEA877688,
-	DownloadHandlerTexture_GetContent_m3C0020931D97DCD43BC39A613C5066F340B22361,
+	DownloadHandlerTexture_GetContent_m86BC88F58305A1B21C21CE7D82658197932EFB18,
 };
 static const int32_t s_InvokerIndices[10] = 
 {
-	8833,
-	8788,
-	5215,
-	5215,
-	6227,
-	6614,
-	6479,
-	6479,
-	6479,
-	9575,
+	8879,
+	8834,
+	5242,
+	5242,
+	6258,
+	6645,
+	6510,
+	6510,
+	6510,
+	9626,
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_UnityEngine_UnityWebRequestTextureModule_CodeGenModule;
 const Il2CppCodeGenModule g_UnityEngine_UnityWebRequestTextureModule_CodeGenModule = 

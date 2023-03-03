@@ -8,7 +8,6 @@
 
 
 #include <limits>
-#include <stdint.h>
 
 
 
@@ -118,8 +117,8 @@ IL2CPP_EXTERN_C String_t* _stringLiteralB698F6C42C173CCF6419DF6C04541D6B53B77309
 IL2CPP_EXTERN_C String_t* _stringLiteralBCE437B17DC0B5A3A9B46AB4F7BA19E115E0EF4C;
 IL2CPP_EXTERN_C String_t* _stringLiteralBDAEE5DE099CEFBD096E9AA7658CF850791A89D5;
 IL2CPP_EXTERN_C String_t* _stringLiteralE00D62930E7536371E7BF920485913D5FA3874A2;
-IL2CPP_EXTERN_C const RuntimeMethod* Enumerable_Select_TisVector4_1_t4C36E5A08C00EC23095617808564AAD5C1BC69F3_TisVector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3_m1A421A1C45603FFE13B17659CD57ECCACEFD90FF_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Enumerable_ToArray_TisVector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3_m1E5E6D94C66CD1486DAE5C08FED91CE20781FB41_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerable_Select_TisVector4_1_t4C36E5A08C00EC23095617808564AAD5C1BC69F3_TisVector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3_m23F6758576B593756D68F7E0FEC48A47516E5AD6_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Enumerable_ToArray_TisVector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3_mE61BE77D59816D9BFC942F78F5006F04F1C2AFD6_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* List_1_Add_m0AA44AA37E6B2131E4A3A94A5D1C42F44336D28A_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec_U3CCreateAsyncMeshU3Eb__19_0_mE5FACDA76F68B1CEE3771B0A71DA6DF403060209_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* U3CU3Ec_U3CCreateAsyncMeshU3Eb__19_1_m05BA9C7378FBEBECAAA1EC652E9737875375DD29_RuntimeMethod_var;
@@ -164,12 +163,6 @@ struct List_1_t43FB89B126C93A6B04630BC64C751BBE95AFEAF4  : public RuntimeObject
 	RuntimeObject* ____syncRoot_4;
 };
 
-struct List_1_t43FB89B126C93A6B04630BC64C751BBE95AFEAF4_StaticFields
-{
-	// T[] System.Collections.Generic.List`1::s_emptyArray
-	MeshU5BU5D_t178CA36422FC397211E68FB7E39C5B2F95619689* ___s_emptyArray_5;
-};
-
 // System.Collections.Generic.List`1<System.Object>
 struct List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D  : public RuntimeObject
 {
@@ -182,13 +175,6 @@ struct List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D  : public RuntimeObject
 	// System.Object System.Collections.Generic.List`1::_syncRoot
 	RuntimeObject* ____syncRoot_4;
 };
-
-struct List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D_StaticFields
-{
-	// T[] System.Collections.Generic.List`1::s_emptyArray
-	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___s_emptyArray_5;
-};
-struct Il2CppArrayBounds;
 
 // DracoMeshLoader
 struct DracoMeshLoader_tE3DDC08D883ED9A4814756DC5F0FF29482E69D28  : public RuntimeObject
@@ -214,12 +200,6 @@ struct String_t  : public RuntimeObject
 	Il2CppChar ____firstChar_5;
 };
 
-struct String_t_StaticFields
-{
-	// System.String System.String::Empty
-	String_t* ___Empty_6;
-};
-
 // System.ValueType
 struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F  : public RuntimeObject
 {
@@ -236,16 +216,6 @@ struct ValueType_t6D9B272BD21782F0A9A14F2E41F85A50E97A986F_marshaled_com
 // GLTFUtilityDracoLoader/<>c
 struct U3CU3Ec_t938C53A67B2DFD79840F16904E9963E9BDF4E0C6  : public RuntimeObject
 {
-};
-
-struct U3CU3Ec_t938C53A67B2DFD79840F16904E9963E9BDF4E0C6_StaticFields
-{
-	// GLTFUtilityDracoLoader/<>c GLTFUtilityDracoLoader/<>c::<>9
-	U3CU3Ec_t938C53A67B2DFD79840F16904E9963E9BDF4E0C6* ___U3CU3E9_0;
-	// System.Func`2<GLTFUtilityDracoLoader/Vector4`1<System.UInt16>,UnityEngine.Vector4> GLTFUtilityDracoLoader/<>c::<>9__19_0
-	Func_2_tD3354085A7E43DE0FD56CB0802978CB8B07814EC* ___U3CU3E9__19_0_1;
-	// System.Func`2<GLTFUtilityDracoLoader/Vector4`1<System.UInt16>,UnityEngine.Vector4> GLTFUtilityDracoLoader/<>c::<>9__19_1
-	Func_2_tD3354085A7E43DE0FD56CB0802978CB8B07814EC* ___U3CU3E9__19_1_2;
 };
 
 // GLTFUtilityDracoLoader/AsyncMesh
@@ -306,14 +276,6 @@ struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22
 	bool ___m_value_0;
 };
 
-struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
-{
-	// System.String System.Boolean::TrueString
-	String_t* ___TrueString_5;
-	// System.String System.Boolean::FalseString
-	String_t* ___FalseString_6;
-};
-
 // System.Byte
 struct Byte_t94D9231AC217BE4D2E004C4CD32DF6D099EA41A3 
 {
@@ -362,12 +324,6 @@ struct IntPtr_t
 	void* ___m_value_0;
 };
 
-struct IntPtr_t_StaticFields
-{
-	// System.IntPtr System.IntPtr::Zero
-	intptr_t ___Zero_1;
-};
-
 // System.Single
 struct Single_t4530F2FF86FCB0DC29F35385CA1BD21BE294761C 
 {
@@ -391,26 +347,6 @@ struct Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7
 	float ___y_1;
 };
 
-struct Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_StaticFields
-{
-	// UnityEngine.Vector2 UnityEngine.Vector2::zeroVector
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___zeroVector_2;
-	// UnityEngine.Vector2 UnityEngine.Vector2::oneVector
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___oneVector_3;
-	// UnityEngine.Vector2 UnityEngine.Vector2::upVector
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___upVector_4;
-	// UnityEngine.Vector2 UnityEngine.Vector2::downVector
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___downVector_5;
-	// UnityEngine.Vector2 UnityEngine.Vector2::leftVector
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___leftVector_6;
-	// UnityEngine.Vector2 UnityEngine.Vector2::rightVector
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___rightVector_7;
-	// UnityEngine.Vector2 UnityEngine.Vector2::positiveInfinityVector
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___positiveInfinityVector_8;
-	// UnityEngine.Vector2 UnityEngine.Vector2::negativeInfinityVector
-	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___negativeInfinityVector_9;
-};
-
 // UnityEngine.Vector3
 struct Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 
 {
@@ -420,30 +356,6 @@ struct Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2
 	float ___y_3;
 	// System.Single UnityEngine.Vector3::z
 	float ___z_4;
-};
-
-struct Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_StaticFields
-{
-	// UnityEngine.Vector3 UnityEngine.Vector3::zeroVector
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___zeroVector_5;
-	// UnityEngine.Vector3 UnityEngine.Vector3::oneVector
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___oneVector_6;
-	// UnityEngine.Vector3 UnityEngine.Vector3::upVector
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___upVector_7;
-	// UnityEngine.Vector3 UnityEngine.Vector3::downVector
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___downVector_8;
-	// UnityEngine.Vector3 UnityEngine.Vector3::leftVector
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___leftVector_9;
-	// UnityEngine.Vector3 UnityEngine.Vector3::rightVector
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___rightVector_10;
-	// UnityEngine.Vector3 UnityEngine.Vector3::forwardVector
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___forwardVector_11;
-	// UnityEngine.Vector3 UnityEngine.Vector3::backVector
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___backVector_12;
-	// UnityEngine.Vector3 UnityEngine.Vector3::positiveInfinityVector
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___positiveInfinityVector_13;
-	// UnityEngine.Vector3 UnityEngine.Vector3::negativeInfinityVector
-	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___negativeInfinityVector_14;
 };
 
 // UnityEngine.Vector4
@@ -457,18 +369,6 @@ struct Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3
 	float ___z_3;
 	// System.Single UnityEngine.Vector4::w
 	float ___w_4;
-};
-
-struct Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3_StaticFields
-{
-	// UnityEngine.Vector4 UnityEngine.Vector4::zeroVector
-	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___zeroVector_5;
-	// UnityEngine.Vector4 UnityEngine.Vector4::oneVector
-	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___oneVector_6;
-	// UnityEngine.Vector4 UnityEngine.Vector4::positiveInfinityVector
-	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___positiveInfinityVector_7;
-	// UnityEngine.Vector4 UnityEngine.Vector4::negativeInfinityVector
-	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___negativeInfinityVector_8;
 };
 
 // System.Void
@@ -628,12 +528,6 @@ struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C  : public RuntimeObject
 	// System.IntPtr UnityEngine.Object::m_CachedPtr
 	intptr_t ___m_CachedPtr_0;
 };
-
-struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticFields
-{
-	// System.Int32 UnityEngine.Object::OffsetOfInstanceIDInCPlusPlusObject
-	int32_t ___OffsetOfInstanceIDInCPlusPlusObject_1;
-};
 // Native definition for P/Invoke marshalling of UnityEngine.Object
 struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_marshaled_pinvoke
 {
@@ -704,6 +598,262 @@ struct Type_t  : public MemberInfo_t
 	RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B ____impl_8;
 };
 
+// System.Func`2<GLTFUtilityDracoLoader/Vector4`1<System.UInt16>,UnityEngine.Vector4>
+struct Func_2_tD3354085A7E43DE0FD56CB0802978CB8B07814EC  : public MulticastDelegate_t
+{
+};
+
+// <Module>
+
+// <Module>
+
+// System.Collections.Generic.List`1<UnityEngine.Mesh>
+struct List_1_t43FB89B126C93A6B04630BC64C751BBE95AFEAF4_StaticFields
+{
+	// T[] System.Collections.Generic.List`1::s_emptyArray
+	MeshU5BU5D_t178CA36422FC397211E68FB7E39C5B2F95619689* ___s_emptyArray_5;
+};
+
+// System.Collections.Generic.List`1<UnityEngine.Mesh>
+
+// System.Collections.Generic.List`1<System.Object>
+struct List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D_StaticFields
+{
+	// T[] System.Collections.Generic.List`1::s_emptyArray
+	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* ___s_emptyArray_5;
+};
+
+// System.Collections.Generic.List`1<System.Object>
+
+// DracoMeshLoader
+
+// DracoMeshLoader
+
+// GLTFUtilityDracoLoader
+
+// GLTFUtilityDracoLoader
+
+// System.Reflection.MemberInfo
+
+// System.Reflection.MemberInfo
+
+// System.String
+struct String_t_StaticFields
+{
+	// System.String System.String::Empty
+	String_t* ___Empty_6;
+};
+
+// System.String
+
+// System.ValueType
+
+// System.ValueType
+
+// GLTFUtilityDracoLoader/<>c
+struct U3CU3Ec_t938C53A67B2DFD79840F16904E9963E9BDF4E0C6_StaticFields
+{
+	// GLTFUtilityDracoLoader/<>c GLTFUtilityDracoLoader/<>c::<>9
+	U3CU3Ec_t938C53A67B2DFD79840F16904E9963E9BDF4E0C6* ___U3CU3E9_0;
+	// System.Func`2<GLTFUtilityDracoLoader/Vector4`1<System.UInt16>,UnityEngine.Vector4> GLTFUtilityDracoLoader/<>c::<>9__19_0
+	Func_2_tD3354085A7E43DE0FD56CB0802978CB8B07814EC* ___U3CU3E9__19_0_1;
+	// System.Func`2<GLTFUtilityDracoLoader/Vector4`1<System.UInt16>,UnityEngine.Vector4> GLTFUtilityDracoLoader/<>c::<>9__19_1
+	Func_2_tD3354085A7E43DE0FD56CB0802978CB8B07814EC* ___U3CU3E9__19_1_2;
+};
+
+// GLTFUtilityDracoLoader/<>c
+
+// GLTFUtilityDracoLoader/AsyncMesh
+
+// GLTFUtilityDracoLoader/AsyncMesh
+
+// GLTFUtilityDracoLoader/Vector4`1<System.UInt16>
+
+// GLTFUtilityDracoLoader/Vector4`1<System.UInt16>
+
+// UnityEngine.BoneWeight
+
+// UnityEngine.BoneWeight
+
+// System.Boolean
+struct Boolean_t09A6377A54BE2F9E6985A8149F19234FD7DDFE22_StaticFields
+{
+	// System.String System.Boolean::TrueString
+	String_t* ___TrueString_5;
+	// System.String System.Boolean::FalseString
+	String_t* ___FalseString_6;
+};
+
+// System.Boolean
+
+// System.Byte
+
+// System.Byte
+
+// UnityEngine.Color
+
+// UnityEngine.Color
+
+// System.Double
+
+// System.Double
+
+// System.Int32
+
+// System.Int32
+
+// System.Int64
+
+// System.Int64
+
+// System.IntPtr
+struct IntPtr_t_StaticFields
+{
+	// System.IntPtr System.IntPtr::Zero
+	intptr_t ___Zero_1;
+};
+
+// System.IntPtr
+
+// System.Single
+
+// System.Single
+
+// System.UInt16
+
+// System.UInt16
+
+// UnityEngine.Vector2
+struct Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7_StaticFields
+{
+	// UnityEngine.Vector2 UnityEngine.Vector2::zeroVector
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___zeroVector_2;
+	// UnityEngine.Vector2 UnityEngine.Vector2::oneVector
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___oneVector_3;
+	// UnityEngine.Vector2 UnityEngine.Vector2::upVector
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___upVector_4;
+	// UnityEngine.Vector2 UnityEngine.Vector2::downVector
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___downVector_5;
+	// UnityEngine.Vector2 UnityEngine.Vector2::leftVector
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___leftVector_6;
+	// UnityEngine.Vector2 UnityEngine.Vector2::rightVector
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___rightVector_7;
+	// UnityEngine.Vector2 UnityEngine.Vector2::positiveInfinityVector
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___positiveInfinityVector_8;
+	// UnityEngine.Vector2 UnityEngine.Vector2::negativeInfinityVector
+	Vector2_t1FD6F485C871E832B347AB2DC8CBA08B739D8DF7 ___negativeInfinityVector_9;
+};
+
+// UnityEngine.Vector2
+
+// UnityEngine.Vector3
+struct Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2_StaticFields
+{
+	// UnityEngine.Vector3 UnityEngine.Vector3::zeroVector
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___zeroVector_5;
+	// UnityEngine.Vector3 UnityEngine.Vector3::oneVector
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___oneVector_6;
+	// UnityEngine.Vector3 UnityEngine.Vector3::upVector
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___upVector_7;
+	// UnityEngine.Vector3 UnityEngine.Vector3::downVector
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___downVector_8;
+	// UnityEngine.Vector3 UnityEngine.Vector3::leftVector
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___leftVector_9;
+	// UnityEngine.Vector3 UnityEngine.Vector3::rightVector
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___rightVector_10;
+	// UnityEngine.Vector3 UnityEngine.Vector3::forwardVector
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___forwardVector_11;
+	// UnityEngine.Vector3 UnityEngine.Vector3::backVector
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___backVector_12;
+	// UnityEngine.Vector3 UnityEngine.Vector3::positiveInfinityVector
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___positiveInfinityVector_13;
+	// UnityEngine.Vector3 UnityEngine.Vector3::negativeInfinityVector
+	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___negativeInfinityVector_14;
+};
+
+// UnityEngine.Vector3
+
+// UnityEngine.Vector4
+struct Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3_StaticFields
+{
+	// UnityEngine.Vector4 UnityEngine.Vector4::zeroVector
+	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___zeroVector_5;
+	// UnityEngine.Vector4 UnityEngine.Vector4::oneVector
+	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___oneVector_6;
+	// UnityEngine.Vector4 UnityEngine.Vector4::positiveInfinityVector
+	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___positiveInfinityVector_7;
+	// UnityEngine.Vector4 UnityEngine.Vector4::negativeInfinityVector
+	Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 ___negativeInfinityVector_8;
+};
+
+// UnityEngine.Vector4
+
+// System.Void
+
+// System.Void
+
+// DracoMeshLoader/DracoAttribute
+
+// DracoMeshLoader/DracoAttribute
+
+// DracoMeshLoader/DracoMesh
+
+// DracoMeshLoader/DracoMesh
+
+// GLTFUtilityDracoLoader/DracoAttribute
+
+// GLTFUtilityDracoLoader/DracoAttribute
+
+// GLTFUtilityDracoLoader/DracoMesh
+
+// GLTFUtilityDracoLoader/DracoMesh
+
+// GLTFUtilityDracoLoader/MeshAttributes
+
+// GLTFUtilityDracoLoader/MeshAttributes
+
+// UnityEngine.Bounds
+
+// UnityEngine.Bounds
+
+// System.Delegate
+
+// System.Delegate
+
+// UnityEngine.Object
+struct Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_StaticFields
+{
+	// System.Int32 UnityEngine.Object::OffsetOfInstanceIDInCPlusPlusObject
+	int32_t ___OffsetOfInstanceIDInCPlusPlusObject_1;
+};
+
+// UnityEngine.Object
+
+// System.RuntimeTypeHandle
+
+// System.RuntimeTypeHandle
+
+// DracoMeshLoader/DracoData
+
+// DracoMeshLoader/DracoData
+
+// GLTFUtilityDracoLoader/DracoData
+
+// GLTFUtilityDracoLoader/DracoData
+
+// UnityEngine.Mesh
+
+// UnityEngine.Mesh
+
+// System.MulticastDelegate
+
+// System.MulticastDelegate
+
+// UnityEngine.TextAsset
+
+// UnityEngine.TextAsset
+
+// System.Type
 struct Type_t_StaticFields
 {
 	// System.Reflection.Binder modreq(System.Runtime.CompilerServices.IsVolatile) System.Type::s_defaultBinder
@@ -722,10 +872,11 @@ struct Type_t_StaticFields
 	MemberFilter_tF644F1AE82F611B677CE1964D5A3277DDA21D553* ___FilterNameIgnoreCase_6;
 };
 
+// System.Type
+
 // System.Func`2<GLTFUtilityDracoLoader/Vector4`1<System.UInt16>,UnityEngine.Vector4>
-struct Func_2_tD3354085A7E43DE0FD56CB0802978CB8B07814EC  : public MulticastDelegate_t
-{
-};
+
+// System.Func`2<GLTFUtilityDracoLoader/Vector4`1<System.UInt16>,UnityEngine.Vector4>
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
@@ -1031,79 +1182,79 @@ struct ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918  : public RuntimeA
 
 
 // System.Void System.Collections.Generic.List`1<System.Object>::Add(T)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_mEBCF994CC3814631017F46A387B1A192ED6C85C7_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, RuntimeObject* ___item0, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_mEBCF994CC3814631017F46A387B1A192ED6C85C7_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, RuntimeObject* ___0_item, const RuntimeMethod* method) ;
 // System.Void System.Func`2<GLTFUtilityDracoLoader/Vector4`1<System.UInt16>,UnityEngine.Vector4>::.ctor(System.Object,System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_m3267293E633D62F7AAD6B44791CB2EDB7BCE9E91_gshared (Func_2_tD3354085A7E43DE0FD56CB0802978CB8B07814EC* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Func_2__ctor_m3267293E633D62F7AAD6B44791CB2EDB7BCE9E91_gshared (Func_2_tD3354085A7E43DE0FD56CB0802978CB8B07814EC* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method) ;
 // System.Collections.Generic.IEnumerable`1<TResult> System.Linq.Enumerable::Select<GLTFUtilityDracoLoader/Vector4`1<System.UInt16>,UnityEngine.Vector4>(System.Collections.Generic.IEnumerable`1<TSource>,System.Func`2<TSource,TResult>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Enumerable_Select_TisVector4_1_t4C36E5A08C00EC23095617808564AAD5C1BC69F3_TisVector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3_m1A421A1C45603FFE13B17659CD57ECCACEFD90FF_gshared (RuntimeObject* ___source0, Func_2_tD3354085A7E43DE0FD56CB0802978CB8B07814EC* ___selector1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Enumerable_Select_TisVector4_1_t4C36E5A08C00EC23095617808564AAD5C1BC69F3_TisVector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3_m23F6758576B593756D68F7E0FEC48A47516E5AD6_gshared (RuntimeObject* ___0_source, Func_2_tD3354085A7E43DE0FD56CB0802978CB8B07814EC* ___1_selector, const RuntimeMethod* method) ;
 // TSource[] System.Linq.Enumerable::ToArray<UnityEngine.Vector4>(System.Collections.Generic.IEnumerable`1<TSource>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector4U5BU5D_tC0F3A7115F85007510F6D173968200CD31BCF7AD* Enumerable_ToArray_TisVector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3_m1E5E6D94C66CD1486DAE5C08FED91CE20781FB41_gshared (RuntimeObject* ___source0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector4U5BU5D_tC0F3A7115F85007510F6D173968200CD31BCF7AD* Enumerable_ToArray_TisVector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3_mE61BE77D59816D9BFC942F78F5006F04F1C2AFD6_gshared (RuntimeObject* ___0_source, const RuntimeMethod* method) ;
 
 // System.Type System.Type::GetTypeFromHandle(System.RuntimeTypeHandle)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Type_t* Type_GetTypeFromHandle_m2570A2A5B32A5E9D9F0F38B37459DA18736C823E (RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B ___handle0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Type_t* Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57 (RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B ___0_handle, const RuntimeMethod* method) ;
 // UnityEngine.Object UnityEngine.Resources::Load(System.String,System.Type)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* Resources_Load_mDCC8EBD3196F1CE1B86E74416AD90CF86320C401 (String_t* ___path0, Type_t* ___systemTypeInstance1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* Resources_Load_m6CD8FBBCCFFF22179FA0E7B1806B888103008D33 (String_t* ___0_path, Type_t* ___1_systemTypeInstance, const RuntimeMethod* method) ;
 // System.Boolean UnityEngine.Object::op_Equality(UnityEngine.Object,UnityEngine.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Equality_mD3DB0D72CE0250C84033DC2A90AEF9D59896E536 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___x0, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___y1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605 (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___0_x, Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* ___1_y, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Debug::Log(System.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_Log_m86567BCF22BBE7809747817453CACA0E41E68219 (RuntimeObject* ___message0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB (RuntimeObject* ___0_message, const RuntimeMethod* method) ;
 // System.Byte[] UnityEngine.TextAsset::get_bytes()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* TextAsset_get_bytes_m244B31755642C9623B570FC96B9A04523B1E5178 (TextAsset_t2C64E93DA366D9DE5A8209E1802FA4884AC1BD69* __this, const RuntimeMethod* method) ;
 // System.String System.Int32::ToString()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5 (int32_t* __this, const RuntimeMethod* method) ;
 // System.Int32 DracoMeshLoader::ConvertDracoMeshToUnity(System.Byte[],System.Collections.Generic.List`1<UnityEngine.Mesh>&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DracoMeshLoader_ConvertDracoMeshToUnity_m5B0D2C52009D55B4DC1FA8D89C60C2860BE9F488 (DracoMeshLoader_tE3DDC08D883ED9A4814756DC5F0FF29482E69D28* __this, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___encodedData0, List_1_t43FB89B126C93A6B04630BC64C751BBE95AFEAF4** ___meshes1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DracoMeshLoader_ConvertDracoMeshToUnity_m5B0D2C52009D55B4DC1FA8D89C60C2860BE9F488 (DracoMeshLoader_tE3DDC08D883ED9A4814756DC5F0FF29482E69D28* __this, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___0_encodedData, List_1_t43FB89B126C93A6B04630BC64C751BBE95AFEAF4** ___1_meshes, const RuntimeMethod* method) ;
 // System.Single UnityEngine.Time::get_realtimeSinceStartup()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Time_get_realtimeSinceStartup_mB49A5622E38FFE9589EB9B3E75573E443B8D63EC (const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Time_get_realtimeSinceStartup_m73B3CB73175D79A44333D59BB70F9EDE55EC9510 (const RuntimeMethod* method) ;
 // System.Int32 DracoMeshLoader::DecodeDracoMesh(System.Byte[],System.Int32,DracoMeshLoader/DracoMesh**)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DracoMeshLoader_DecodeDracoMesh_mF7826F4251B1D183DB68D8FC71237039F1C4248A (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___buffer0, int32_t ___length1, DracoMesh_tA3695E948287460F26648614EB0E6FCBFC828B2D** ___mesh2, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DracoMeshLoader_DecodeDracoMesh_m54BF7B8ACEFD897BD213A325E70BD1207FB355FC (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___0_buffer, int32_t ___1_length, DracoMesh_tA3695E948287460F26648614EB0E6FCBFC828B2D** ___2_mesh, const RuntimeMethod* method) ;
 // System.String System.Single::ToString()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* Single_ToString_mE282EDA9CA4F7DF88432D807732837A629D04972 (float* __this, const RuntimeMethod* method) ;
 // System.String System.String::Concat(System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_mAF2CE02CC0CB7460753D0A1A91CCF2B1E9804C5D (String_t* ___str00, String_t* ___str11, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m9E3155FB84015C823606188F53B47CB44C444991 (String_t* ___0_str0, String_t* ___1_str1, const RuntimeMethod* method) ;
 // UnityEngine.Mesh DracoMeshLoader::CreateUnityMesh(DracoMeshLoader/DracoMesh*)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* DracoMeshLoader_CreateUnityMesh_m64FE8BEA78AA3DA38487EB6CE30927273AEE6391 (DracoMeshLoader_tE3DDC08D883ED9A4814756DC5F0FF29482E69D28* __this, DracoMesh_tA3695E948287460F26648614EB0E6FCBFC828B2D* ___dracoMesh0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* DracoMeshLoader_CreateUnityMesh_m64FE8BEA78AA3DA38487EB6CE30927273AEE6391 (DracoMeshLoader_tE3DDC08D883ED9A4814756DC5F0FF29482E69D28* __this, DracoMesh_tA3695E948287460F26648614EB0E6FCBFC828B2D* ___0_dracoMesh, const RuntimeMethod* method) ;
 // System.Void DracoMeshLoader::UnityMeshToCamera(UnityEngine.Mesh&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DracoMeshLoader_UnityMeshToCamera_m4AEFCC14E5629B43D08ADCEC91A9AA6831F48E94 (DracoMeshLoader_tE3DDC08D883ED9A4814756DC5F0FF29482E69D28* __this, Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4** ___mesh0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DracoMeshLoader_UnityMeshToCamera_m4AEFCC14E5629B43D08ADCEC91A9AA6831F48E94 (DracoMeshLoader_tE3DDC08D883ED9A4814756DC5F0FF29482E69D28* __this, Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4** ___0_mesh, const RuntimeMethod* method) ;
 // System.Void System.Collections.Generic.List`1<UnityEngine.Mesh>::Add(T)
-inline void List_1_Add_m0AA44AA37E6B2131E4A3A94A5D1C42F44336D28A_inline (List_1_t43FB89B126C93A6B04630BC64C751BBE95AFEAF4* __this, Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* ___item0, const RuntimeMethod* method)
+inline void List_1_Add_m0AA44AA37E6B2131E4A3A94A5D1C42F44336D28A_inline (List_1_t43FB89B126C93A6B04630BC64C751BBE95AFEAF4* __this, Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* ___0_item, const RuntimeMethod* method)
 {
-	((  void (*) (List_1_t43FB89B126C93A6B04630BC64C751BBE95AFEAF4*, Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4*, const RuntimeMethod*))List_1_Add_mEBCF994CC3814631017F46A387B1A192ED6C85C7_gshared_inline)(__this, ___item0, method);
+	((  void (*) (List_1_t43FB89B126C93A6B04630BC64C751BBE95AFEAF4*, Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4*, const RuntimeMethod*))List_1_Add_mEBCF994CC3814631017F46A387B1A192ED6C85C7_gshared_inline)(__this, ___0_item, method);
 }
 // System.Void DracoMeshLoader::ReleaseDracoMesh(DracoMeshLoader/DracoMesh**)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DracoMeshLoader_ReleaseDracoMesh_m1DB0EF5A0AEF01684056FEB7EC9279D5D1822B5F (DracoMesh_tA3695E948287460F26648614EB0E6FCBFC828B2D** ___mesh0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DracoMeshLoader_ReleaseDracoMesh_mD0973044013B2BA931A036354258B7A5A50CFF0E (DracoMesh_tA3695E948287460F26648614EB0E6FCBFC828B2D** ___0_mesh, const RuntimeMethod* method) ;
 // System.Boolean DracoMeshLoader::GetMeshIndices(DracoMeshLoader/DracoMesh*,DracoMeshLoader/DracoData**)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DracoMeshLoader_GetMeshIndices_m5DC1D768383D7809D1C74F0D417B92E43094E9B2 (DracoMesh_tA3695E948287460F26648614EB0E6FCBFC828B2D* ___mesh0, DracoData_tEA52B2468A7E87746A78568E2ED177526D3D4CE8** ___indices1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DracoMeshLoader_GetMeshIndices_m3AB3DD17F307CE0DFFB7012236FE4D2AE052200B (DracoMesh_tA3695E948287460F26648614EB0E6FCBFC828B2D* ___0_mesh, DracoData_tEA52B2468A7E87746A78568E2ED177526D3D4CE8** ___1_indices, const RuntimeMethod* method) ;
 // System.Int32 DracoMeshLoader::DataTypeSize(DracoMeshLoader/DataType)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DracoMeshLoader_DataTypeSize_m5C1469C042B13670439757018B59DE512AEC2190 (DracoMeshLoader_tE3DDC08D883ED9A4814756DC5F0FF29482E69D28* __this, int32_t ___dt0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DracoMeshLoader_DataTypeSize_m5C1469C042B13670439757018B59DE512AEC2190 (DracoMeshLoader_tE3DDC08D883ED9A4814756DC5F0FF29482E69D28* __this, int32_t ___0_dt, const RuntimeMethod* method) ;
 // System.Void* System.IntPtr::op_Explicit(System.IntPtr)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* IntPtr_op_Explicit_m693F2F9E685EE117D4AC080342B8959DAF684294 (intptr_t ___value0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void* IntPtr_op_Explicit_m2728CBA081E79B97DDCF1D4FAD77B309CA1E94BF (intptr_t ___0_value, const RuntimeMethod* method) ;
 // System.Void Unity.Collections.LowLevel.Unsafe.UnsafeUtility::MemCpy(System.Void*,System.Void*,System.Int64)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnsafeUtility_MemCpy_m019E657B952C27F705607F0F3D371EEE526B716B (void* ___destination0, void* ___source1, int64_t ___size2, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnsafeUtility_MemCpy_m5CEA91ACDADC522E584AE3A2AB2B0B74393A9177 (void* ___0_destination, void* ___1_source, int64_t ___2_size, const RuntimeMethod* method) ;
 // System.Void DracoMeshLoader::ReleaseDracoData(DracoMeshLoader/DracoData**)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DracoMeshLoader_ReleaseDracoData_m896ED5936D2C3FA4B23CA20D15F27C0D7BD933F4 (DracoData_tEA52B2468A7E87746A78568E2ED177526D3D4CE8** ___data0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DracoMeshLoader_ReleaseDracoData_m9406AF4A4E2CAB77E6523A210D32EFF9124EA998 (DracoData_tEA52B2468A7E87746A78568E2ED177526D3D4CE8** ___0_data, const RuntimeMethod* method) ;
 // System.Boolean DracoMeshLoader::GetAttributeByType(DracoMeshLoader/DracoMesh*,DracoMeshLoader/AttributeType,System.Int32,DracoMeshLoader/DracoAttribute**)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DracoMeshLoader_GetAttributeByType_m729EAAB67F6C62F44CE7A74B5C286B7C2A0925BE (DracoMesh_tA3695E948287460F26648614EB0E6FCBFC828B2D* ___mesh0, int32_t ___type1, int32_t ___index2, DracoAttribute_t014F8A8B9EDC0076546F3AF3952B1E63898DCDCF** ___attr3, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DracoMeshLoader_GetAttributeByType_m047DC41AF6E39F1B4D61E90B56B37EC0E734B22A (DracoMesh_tA3695E948287460F26648614EB0E6FCBFC828B2D* ___0_mesh, int32_t ___1_type, int32_t ___2_index, DracoAttribute_t014F8A8B9EDC0076546F3AF3952B1E63898DCDCF** ___3_attr, const RuntimeMethod* method) ;
 // System.Boolean DracoMeshLoader::GetAttributeData(DracoMeshLoader/DracoMesh*,DracoMeshLoader/DracoAttribute*,DracoMeshLoader/DracoData**)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DracoMeshLoader_GetAttributeData_mC6C47E36DAB9490B67009094BCE7C4CF27FA3B0A (DracoMesh_tA3695E948287460F26648614EB0E6FCBFC828B2D* ___mesh0, DracoAttribute_t014F8A8B9EDC0076546F3AF3952B1E63898DCDCF* ___attr1, DracoData_tEA52B2468A7E87746A78568E2ED177526D3D4CE8** ___data2, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DracoMeshLoader_GetAttributeData_mE42729CFBDB42DEA10FEB1F2B0D552655FB6F2A5 (DracoMesh_tA3695E948287460F26648614EB0E6FCBFC828B2D* ___0_mesh, DracoAttribute_t014F8A8B9EDC0076546F3AF3952B1E63898DCDCF* ___1_attr, DracoData_tEA52B2468A7E87746A78568E2ED177526D3D4CE8** ___2_data, const RuntimeMethod* method) ;
 // System.Void DracoMeshLoader::ReleaseDracoAttribute(DracoMeshLoader/DracoAttribute**)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DracoMeshLoader_ReleaseDracoAttribute_m70C3E5B9BFFFDBFC64F4EE1DF5CCBB60E5A2B05F (DracoAttribute_t014F8A8B9EDC0076546F3AF3952B1E63898DCDCF** ___attr0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DracoMeshLoader_ReleaseDracoAttribute_m1EAD1550B561E56CF968FA0C566AF4F04235CCB0 (DracoAttribute_t014F8A8B9EDC0076546F3AF3952B1E63898DCDCF** ___0_attr, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Mesh::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mesh__ctor_m5A9AECEDDAFFD84811ED8928012BDE97A9CEBD00 (Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* __this, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Mesh::set_indexFormat(UnityEngine.Rendering.IndexFormat)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mesh_set_indexFormat_mCCC7837A0916FA7A272159DA6AF984B0022488F4 (Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* __this, int32_t ___value0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mesh_set_indexFormat_mCCC7837A0916FA7A272159DA6AF984B0022488F4 (Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* __this, int32_t ___0_value, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Mesh::set_vertices(UnityEngine.Vector3[])
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mesh_set_vertices_m5BB814D89E9ACA00DBF19F7D8E22CB73AC73FE5C (Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* __this, Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* ___value0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mesh_set_vertices_m5BB814D89E9ACA00DBF19F7D8E22CB73AC73FE5C (Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* __this, Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* ___0_value, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Mesh::SetTriangles(System.Int32[],System.Int32,System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mesh_SetTriangles_m52A004B1FAD92F110DBD07B30CD086948225F1ED (Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* __this, Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___triangles0, int32_t ___submesh1, bool ___calculateBounds2, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mesh_SetTriangles_m52A004B1FAD92F110DBD07B30CD086948225F1ED (Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* __this, Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___0_triangles, int32_t ___1_submesh, bool ___2_calculateBounds, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Mesh::set_uv(UnityEngine.Vector2[])
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mesh_set_uv_m6ED9C50E0DA8166DD48AC40FD6C828B9AD2E9617 (Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* __this, Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* ___value0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mesh_set_uv_m6ED9C50E0DA8166DD48AC40FD6C828B9AD2E9617 (Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* __this, Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* ___0_value, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Mesh::set_normals(UnityEngine.Vector3[])
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mesh_set_normals_m85D73193C49211BE9FA135FF72D5749B16A4760B (Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* __this, Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* ___value0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mesh_set_normals_m85D73193C49211BE9FA135FF72D5749B16A4760B (Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* __this, Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* ___0_value, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Mesh::RecalculateNormals()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mesh_RecalculateNormals_m3AA2788914611444E030CA310E03E3CFE683902B (Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* __this, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Mesh::set_colors(UnityEngine.Color[])
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mesh_set_colors_m5558BAAA60676427B7954F1694A1765B000EB0FE (Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* __this, ColorU5BU5D_t612261CF293F6FFC3D80AB52259FF0DC2B2CC389* ___value0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mesh_set_colors_m5558BAAA60676427B7954F1694A1765B000EB0FE (Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* __this, ColorU5BU5D_t612261CF293F6FFC3D80AB52259FF0DC2B2CC389* ___0_value, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Mesh::RecalculateBounds()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Mesh_RecalculateBounds_mA9B293F57C6CD298AE2D2DB19061FC23B05AB90B (Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* __this, const RuntimeMethod* method) ;
 // UnityEngine.Bounds UnityEngine.Mesh::get_bounds()
@@ -1113,78 +1264,78 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A
 // UnityEngine.Vector3[] UnityEngine.Mesh::get_vertices()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* Mesh_get_vertices_mA3577F1B08EDDD54E26AEB3F8FFE4EC247D2ABB9 (Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* __this, const RuntimeMethod* method) ;
 // UnityEngine.Vector3 UnityEngine.Vector3::op_Multiply(UnityEngine.Vector3,System.Single)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Multiply_m516FE285F5342F922C6EB3FCB33197E9017FF484_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___a0, float ___d1, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, float ___1_d, const RuntimeMethod* method) ;
 // UnityEngine.Vector3 UnityEngine.Bounds::get_center()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Bounds_get_center_m5B05F81CB835EB6DD8628FDA24B638F477984DC3 (Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3* __this, const RuntimeMethod* method) ;
 // UnityEngine.Vector3 UnityEngine.Vector3::op_Addition(UnityEngine.Vector3,UnityEngine.Vector3)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Addition_m087D6F0EC60843D455F9F83D25FE42B2433AAD1D_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___a0, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___b1, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_b, const RuntimeMethod* method) ;
 // System.Void System.Object::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Object__ctor_mE837C6B9FA8C6D5D109F4B2EC885D79919AC0EA2 (RuntimeObject* __this, const RuntimeMethod* method) ;
 // System.Int32 GLTFUtilityDracoLoader::DecodeDracoMesh(System.Byte[],System.Int32,GLTFUtilityDracoLoader/DracoMesh**)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GLTFUtilityDracoLoader_DecodeDracoMesh_mDED35A9AB0BB9BEBB4ACB3522D2032A6D3F0B2B4 (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___buffer0, int32_t ___length1, DracoMesh_t9D87B0103C712F6D388C4772617AC33F7DA006BA** ___mesh2, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GLTFUtilityDracoLoader_DecodeDracoMesh_mC340B7707C74D858CABBE9D864787E9498CFB2CA (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___0_buffer, int32_t ___1_length, DracoMesh_t9D87B0103C712F6D388C4772617AC33F7DA006BA** ___2_mesh, const RuntimeMethod* method) ;
 // GLTFUtilityDracoLoader/AsyncMesh GLTFUtilityDracoLoader::CreateAsyncMesh(GLTFUtilityDracoLoader/DracoMesh*,GLTFUtilityDracoLoader/MeshAttributes)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AsyncMesh_tAEEA2D94EFA3DB666412B24F16013566CE6EEB13* GLTFUtilityDracoLoader_CreateAsyncMesh_m1176092770F2B729110930A6EE60E8EAAB5BE183 (GLTFUtilityDracoLoader_t16771465C26E34ACCBF6E73AC7C9AB6F705315BC* __this, DracoMesh_t9D87B0103C712F6D388C4772617AC33F7DA006BA* ___dracoMesh0, MeshAttributes_tB39A2497B9E8857B706FE89A4824EE74DE65C809 ___attributes1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AsyncMesh_tAEEA2D94EFA3DB666412B24F16013566CE6EEB13* GLTFUtilityDracoLoader_CreateAsyncMesh_m1176092770F2B729110930A6EE60E8EAAB5BE183 (GLTFUtilityDracoLoader_t16771465C26E34ACCBF6E73AC7C9AB6F705315BC* __this, DracoMesh_t9D87B0103C712F6D388C4772617AC33F7DA006BA* ___0_dracoMesh, MeshAttributes_tB39A2497B9E8857B706FE89A4824EE74DE65C809 ___1_attributes, const RuntimeMethod* method) ;
 // System.Void GLTFUtilityDracoLoader::ReleaseDracoMesh(GLTFUtilityDracoLoader/DracoMesh**)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GLTFUtilityDracoLoader_ReleaseDracoMesh_m07FDFFE2F2751BBAFF88460A05D394DCD5E8ED5A (DracoMesh_t9D87B0103C712F6D388C4772617AC33F7DA006BA** ___mesh0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GLTFUtilityDracoLoader_ReleaseDracoMesh_mBF52416B8B96941E7F8CDA1B2E9A77F6520306D0 (DracoMesh_t9D87B0103C712F6D388C4772617AC33F7DA006BA** ___0_mesh, const RuntimeMethod* method) ;
 // System.Void GLTFUtilityDracoLoader/AsyncMesh::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncMesh__ctor_mCBAE45886331C410D9CE756FF54F2629D3EEE5C9 (AsyncMesh_tAEEA2D94EFA3DB666412B24F16013566CE6EEB13* __this, const RuntimeMethod* method) ;
 // System.Boolean GLTFUtilityDracoLoader::GetMeshIndices(GLTFUtilityDracoLoader/DracoMesh*,GLTFUtilityDracoLoader/DracoData**)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GLTFUtilityDracoLoader_GetMeshIndices_m124B4094F87081653344252ADAF6F5443140C3BA (DracoMesh_t9D87B0103C712F6D388C4772617AC33F7DA006BA* ___mesh0, DracoData_t9555833FD2CA866D072660E0082261D9FDB2813C** ___indices1, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GLTFUtilityDracoLoader_GetMeshIndices_m9F2430907C062B186DEF00E0057343356496BC30 (DracoMesh_t9D87B0103C712F6D388C4772617AC33F7DA006BA* ___0_mesh, DracoData_t9555833FD2CA866D072660E0082261D9FDB2813C** ___1_indices, const RuntimeMethod* method) ;
 // System.Int32 GLTFUtilityDracoLoader::DataTypeSize(GLTFUtilityDracoLoader/DataType)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GLTFUtilityDracoLoader_DataTypeSize_m64826CB2BB1AFB1B826B3E4FE8F51A24C1F1DF7D (GLTFUtilityDracoLoader_t16771465C26E34ACCBF6E73AC7C9AB6F705315BC* __this, int32_t ___dt0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GLTFUtilityDracoLoader_DataTypeSize_m64826CB2BB1AFB1B826B3E4FE8F51A24C1F1DF7D (GLTFUtilityDracoLoader_t16771465C26E34ACCBF6E73AC7C9AB6F705315BC* __this, int32_t ___0_dt, const RuntimeMethod* method) ;
 // System.Void GLTFUtilityDracoLoader::ReleaseDracoData(GLTFUtilityDracoLoader/DracoData**)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GLTFUtilityDracoLoader_ReleaseDracoData_m8979F17355AC518CCABC22A4767DC8DDFA9A7412 (DracoData_t9555833FD2CA866D072660E0082261D9FDB2813C** ___data0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GLTFUtilityDracoLoader_ReleaseDracoData_m038863443C5E34BE530581576D6F8458640548D1 (DracoData_t9555833FD2CA866D072660E0082261D9FDB2813C** ___0_data, const RuntimeMethod* method) ;
 // System.Boolean GLTFUtilityDracoLoader::GetAttributeByUniqueId(GLTFUtilityDracoLoader/DracoMesh*,System.Int32,GLTFUtilityDracoLoader/DracoAttribute**)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GLTFUtilityDracoLoader_GetAttributeByUniqueId_m35876AF25A03BB18602D96BCF6AF472526CF5FC9 (DracoMesh_t9D87B0103C712F6D388C4772617AC33F7DA006BA* ___mesh0, int32_t ___unique_id1, DracoAttribute_t97673B31C59763CEDC99D49CE44E72077980B718** ___attr2, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GLTFUtilityDracoLoader_GetAttributeByUniqueId_m5C398531D8EAF148B449D751146154388765A8C9 (DracoMesh_t9D87B0103C712F6D388C4772617AC33F7DA006BA* ___0_mesh, int32_t ___1_unique_id, DracoAttribute_t97673B31C59763CEDC99D49CE44E72077980B718** ___2_attr, const RuntimeMethod* method) ;
 // System.Boolean GLTFUtilityDracoLoader::GetAttributeData(GLTFUtilityDracoLoader/DracoMesh*,GLTFUtilityDracoLoader/DracoAttribute*,GLTFUtilityDracoLoader/DracoData**)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GLTFUtilityDracoLoader_GetAttributeData_m286D346A77C3CA3A94065F35D720DD09041A7641 (DracoMesh_t9D87B0103C712F6D388C4772617AC33F7DA006BA* ___mesh0, DracoAttribute_t97673B31C59763CEDC99D49CE44E72077980B718* ___attr1, DracoData_t9555833FD2CA866D072660E0082261D9FDB2813C** ___data2, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GLTFUtilityDracoLoader_GetAttributeData_mD11E651BDDB338F7C55AE1F8887BD291DD16F24C (DracoMesh_t9D87B0103C712F6D388C4772617AC33F7DA006BA* ___0_mesh, DracoAttribute_t97673B31C59763CEDC99D49CE44E72077980B718* ___1_attr, DracoData_t9555833FD2CA866D072660E0082261D9FDB2813C** ___2_data, const RuntimeMethod* method) ;
 // System.Void GLTFUtilityDracoLoader::ReleaseDracoAttribute(GLTFUtilityDracoLoader/DracoAttribute**)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GLTFUtilityDracoLoader_ReleaseDracoAttribute_m73CA5EA8522B41CDCE4DBE5B46366C04781E8FA1 (DracoAttribute_t97673B31C59763CEDC99D49CE44E72077980B718** ___attr0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GLTFUtilityDracoLoader_ReleaseDracoAttribute_m48EFAC5A2E37B6FD427C3612CB2BCDF4201A6D5A (DracoAttribute_t97673B31C59763CEDC99D49CE44E72077980B718** ___0_attr, const RuntimeMethod* method) ;
 // System.Void System.Func`2<GLTFUtilityDracoLoader/Vector4`1<System.UInt16>,UnityEngine.Vector4>::.ctor(System.Object,System.IntPtr)
-inline void Func_2__ctor_m3267293E633D62F7AAD6B44791CB2EDB7BCE9E91 (Func_2_tD3354085A7E43DE0FD56CB0802978CB8B07814EC* __this, RuntimeObject* ___object0, intptr_t ___method1, const RuntimeMethod* method)
+inline void Func_2__ctor_m3267293E633D62F7AAD6B44791CB2EDB7BCE9E91 (Func_2_tD3354085A7E43DE0FD56CB0802978CB8B07814EC* __this, RuntimeObject* ___0_object, intptr_t ___1_method, const RuntimeMethod* method)
 {
-	((  void (*) (Func_2_tD3354085A7E43DE0FD56CB0802978CB8B07814EC*, RuntimeObject*, intptr_t, const RuntimeMethod*))Func_2__ctor_m3267293E633D62F7AAD6B44791CB2EDB7BCE9E91_gshared)(__this, ___object0, ___method1, method);
+	((  void (*) (Func_2_tD3354085A7E43DE0FD56CB0802978CB8B07814EC*, RuntimeObject*, intptr_t, const RuntimeMethod*))Func_2__ctor_m3267293E633D62F7AAD6B44791CB2EDB7BCE9E91_gshared)(__this, ___0_object, ___1_method, method);
 }
 // System.Collections.Generic.IEnumerable`1<TResult> System.Linq.Enumerable::Select<GLTFUtilityDracoLoader/Vector4`1<System.UInt16>,UnityEngine.Vector4>(System.Collections.Generic.IEnumerable`1<TSource>,System.Func`2<TSource,TResult>)
-inline RuntimeObject* Enumerable_Select_TisVector4_1_t4C36E5A08C00EC23095617808564AAD5C1BC69F3_TisVector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3_m1A421A1C45603FFE13B17659CD57ECCACEFD90FF (RuntimeObject* ___source0, Func_2_tD3354085A7E43DE0FD56CB0802978CB8B07814EC* ___selector1, const RuntimeMethod* method)
+inline RuntimeObject* Enumerable_Select_TisVector4_1_t4C36E5A08C00EC23095617808564AAD5C1BC69F3_TisVector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3_m23F6758576B593756D68F7E0FEC48A47516E5AD6 (RuntimeObject* ___0_source, Func_2_tD3354085A7E43DE0FD56CB0802978CB8B07814EC* ___1_selector, const RuntimeMethod* method)
 {
-	return ((  RuntimeObject* (*) (RuntimeObject*, Func_2_tD3354085A7E43DE0FD56CB0802978CB8B07814EC*, const RuntimeMethod*))Enumerable_Select_TisVector4_1_t4C36E5A08C00EC23095617808564AAD5C1BC69F3_TisVector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3_m1A421A1C45603FFE13B17659CD57ECCACEFD90FF_gshared)(___source0, ___selector1, method);
+	return ((  RuntimeObject* (*) (RuntimeObject*, Func_2_tD3354085A7E43DE0FD56CB0802978CB8B07814EC*, const RuntimeMethod*))Enumerable_Select_TisVector4_1_t4C36E5A08C00EC23095617808564AAD5C1BC69F3_TisVector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3_m23F6758576B593756D68F7E0FEC48A47516E5AD6_gshared)(___0_source, ___1_selector, method);
 }
 // TSource[] System.Linq.Enumerable::ToArray<UnityEngine.Vector4>(System.Collections.Generic.IEnumerable`1<TSource>)
-inline Vector4U5BU5D_tC0F3A7115F85007510F6D173968200CD31BCF7AD* Enumerable_ToArray_TisVector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3_m1E5E6D94C66CD1486DAE5C08FED91CE20781FB41 (RuntimeObject* ___source0, const RuntimeMethod* method)
+inline Vector4U5BU5D_tC0F3A7115F85007510F6D173968200CD31BCF7AD* Enumerable_ToArray_TisVector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3_mE61BE77D59816D9BFC942F78F5006F04F1C2AFD6 (RuntimeObject* ___0_source, const RuntimeMethod* method)
 {
-	return ((  Vector4U5BU5D_tC0F3A7115F85007510F6D173968200CD31BCF7AD* (*) (RuntimeObject*, const RuntimeMethod*))Enumerable_ToArray_TisVector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3_m1E5E6D94C66CD1486DAE5C08FED91CE20781FB41_gshared)(___source0, method);
+	return ((  Vector4U5BU5D_tC0F3A7115F85007510F6D173968200CD31BCF7AD* (*) (RuntimeObject*, const RuntimeMethod*))Enumerable_ToArray_TisVector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3_mE61BE77D59816D9BFC942F78F5006F04F1C2AFD6_gshared)(___0_source, method);
 }
 // System.Void GLTFUtilityDracoLoader::NormalizeWeights(UnityEngine.Vector4&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GLTFUtilityDracoLoader_NormalizeWeights_m0DCE9E911945A023271177913A0B8B9A5EB2D8FF (GLTFUtilityDracoLoader_t16771465C26E34ACCBF6E73AC7C9AB6F705315BC* __this, Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3* ___weights0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GLTFUtilityDracoLoader_NormalizeWeights_m0DCE9E911945A023271177913A0B8B9A5EB2D8FF (GLTFUtilityDracoLoader_t16771465C26E34ACCBF6E73AC7C9AB6F705315BC* __this, Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3* ___0_weights, const RuntimeMethod* method) ;
 // System.Void UnityEngine.BoneWeight::set_weight0(System.Single)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BoneWeight_set_weight0_m8756609C6942EDC04DA03F59A57986D520DB86E7 (BoneWeight_t7E7DACA0D0F56698E05EBBD839D1D343502EA11F* __this, float ___value0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BoneWeight_set_weight0_m8756609C6942EDC04DA03F59A57986D520DB86E7 (BoneWeight_t7E7DACA0D0F56698E05EBBD839D1D343502EA11F* __this, float ___0_value, const RuntimeMethod* method) ;
 // System.Void UnityEngine.BoneWeight::set_weight1(System.Single)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BoneWeight_set_weight1_m33C87BA8D869BACF4065458142F4C61DC58D612D (BoneWeight_t7E7DACA0D0F56698E05EBBD839D1D343502EA11F* __this, float ___value0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BoneWeight_set_weight1_m33C87BA8D869BACF4065458142F4C61DC58D612D (BoneWeight_t7E7DACA0D0F56698E05EBBD839D1D343502EA11F* __this, float ___0_value, const RuntimeMethod* method) ;
 // System.Void UnityEngine.BoneWeight::set_weight2(System.Single)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BoneWeight_set_weight2_m4CF18FA89EAB0643F17A428CE8F31D11ABAA0044 (BoneWeight_t7E7DACA0D0F56698E05EBBD839D1D343502EA11F* __this, float ___value0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BoneWeight_set_weight2_m4CF18FA89EAB0643F17A428CE8F31D11ABAA0044 (BoneWeight_t7E7DACA0D0F56698E05EBBD839D1D343502EA11F* __this, float ___0_value, const RuntimeMethod* method) ;
 // System.Void UnityEngine.BoneWeight::set_weight3(System.Single)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BoneWeight_set_weight3_m59528496063DDE30B28852F29A48DEDDE8566B0E (BoneWeight_t7E7DACA0D0F56698E05EBBD839D1D343502EA11F* __this, float ___value0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BoneWeight_set_weight3_m59528496063DDE30B28852F29A48DEDDE8566B0E (BoneWeight_t7E7DACA0D0F56698E05EBBD839D1D343502EA11F* __this, float ___0_value, const RuntimeMethod* method) ;
 // System.Int32 UnityEngine.Mathf::RoundToInt(System.Single)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Mathf_RoundToInt_m6A6E30BA4157D69DA47F02B43108882DDD7C4A70_inline (float ___f0, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Mathf_RoundToInt_m60F8B66CF27F1FA75AA219342BD184B75771EB4B_inline (float ___0_f, const RuntimeMethod* method) ;
 // System.Void UnityEngine.BoneWeight::set_boneIndex0(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BoneWeight_set_boneIndex0_mC11383D890013A65F158A7D3F81AB2C4A1C6B8FC (BoneWeight_t7E7DACA0D0F56698E05EBBD839D1D343502EA11F* __this, int32_t ___value0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BoneWeight_set_boneIndex0_mC11383D890013A65F158A7D3F81AB2C4A1C6B8FC (BoneWeight_t7E7DACA0D0F56698E05EBBD839D1D343502EA11F* __this, int32_t ___0_value, const RuntimeMethod* method) ;
 // System.Void UnityEngine.BoneWeight::set_boneIndex1(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BoneWeight_set_boneIndex1_m79497EC149074B22E1404E962FB4D2A9E20BD1FF (BoneWeight_t7E7DACA0D0F56698E05EBBD839D1D343502EA11F* __this, int32_t ___value0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BoneWeight_set_boneIndex1_m79497EC149074B22E1404E962FB4D2A9E20BD1FF (BoneWeight_t7E7DACA0D0F56698E05EBBD839D1D343502EA11F* __this, int32_t ___0_value, const RuntimeMethod* method) ;
 // System.Void UnityEngine.BoneWeight::set_boneIndex2(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BoneWeight_set_boneIndex2_m5F414DEE2B63845092F41421610A7098DCCB817D (BoneWeight_t7E7DACA0D0F56698E05EBBD839D1D343502EA11F* __this, int32_t ___value0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BoneWeight_set_boneIndex2_m5F414DEE2B63845092F41421610A7098DCCB817D (BoneWeight_t7E7DACA0D0F56698E05EBBD839D1D343502EA11F* __this, int32_t ___0_value, const RuntimeMethod* method) ;
 // System.Void UnityEngine.BoneWeight::set_boneIndex3(System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BoneWeight_set_boneIndex3_mDF1FAF242DB9CD0D8DFCA91BED5D340BA19C1386 (BoneWeight_t7E7DACA0D0F56698E05EBBD839D1D343502EA11F* __this, int32_t ___value0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BoneWeight_set_boneIndex3_mDF1FAF242DB9CD0D8DFCA91BED5D340BA19C1386 (BoneWeight_t7E7DACA0D0F56698E05EBBD839D1D343502EA11F* __this, int32_t ___0_value, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Debug::LogWarning(System.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_LogWarning_mEF15C6B17CE4E1FA7E379CDB82CE40FCD89A3F28 (RuntimeObject* ___message0, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9 (RuntimeObject* ___0_message, const RuntimeMethod* method) ;
 // System.Void GLTFUtilityDracoLoader/MeshAttributes::.ctor(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MeshAttributes__ctor_m9DA7BB6D3AA6CE37F7F025F11682C092E7B90598 (MeshAttributes_tB39A2497B9E8857B706FE89A4824EE74DE65C809* __this, int32_t ___pos0, int32_t ___norms1, int32_t ___uv2, int32_t ___joints3, int32_t ___weights4, int32_t ___col5, const RuntimeMethod* method) ;
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MeshAttributes__ctor_m9DA7BB6D3AA6CE37F7F025F11682C092E7B90598 (MeshAttributes_tB39A2497B9E8857B706FE89A4824EE74DE65C809* __this, int32_t ___0_pos, int32_t ___1_norms, int32_t ___2_uv, int32_t ___3_joints, int32_t ___4_weights, int32_t ___5_col, const RuntimeMethod* method) ;
 // System.Void GLTFUtilityDracoLoader/<>c::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_m248D1713EB4A3EA7306944FD9499CB741CC3576E (U3CU3Ec_t938C53A67B2DFD79840F16904E9963E9BDF4E0C6* __this, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Vector4::.ctor(System.Single,System.Single,System.Single,System.Single)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector4__ctor_m96B2CD8B862B271F513AF0BDC2EABD58E4DBC813_inline (Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3* __this, float ___x0, float ___y1, float ___z2, float ___w3, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector4__ctor_m96B2CD8B862B271F513AF0BDC2EABD58E4DBC813_inline (Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3* __this, float ___0_x, float ___1_y, float ___2_z, float ___3_w, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Vector3::.ctor(System.Single,System.Single,System.Single)
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, float ___x0, float ___y1, float ___z2, const RuntimeMethod* method) ;
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, float ___0_x, float ___1_y, float ___2_z, const RuntimeMethod* method) ;
 #if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_dracodec_unity_INTERNAL
 IL2CPP_EXTERN_C void DEFAULT_CALL ReleaseDracoMesh(DracoMesh_tA3695E948287460F26648614EB0E6FCBFC828B2D**);
 #endif
@@ -1226,7 +1377,7 @@ IL2CPP_EXTERN_C int32_t DEFAULT_CALL GetAttributeData(DracoMesh_tA3695E948287460
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 // System.Void DracoMeshLoader::ReleaseDracoMesh(DracoMeshLoader/DracoMesh**)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DracoMeshLoader_ReleaseDracoMesh_m1DB0EF5A0AEF01684056FEB7EC9279D5D1822B5F (DracoMesh_tA3695E948287460F26648614EB0E6FCBFC828B2D** ___mesh0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DracoMeshLoader_ReleaseDracoMesh_mD0973044013B2BA931A036354258B7A5A50CFF0E (DracoMesh_tA3695E948287460F26648614EB0E6FCBFC828B2D** ___0_mesh, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (DracoMesh_tA3695E948287460F26648614EB0E6FCBFC828B2D**);
 	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_dracodec_unity_INTERNAL
@@ -1241,14 +1392,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DracoMeshLoader_ReleaseDracoMesh_m1DB0EF
 
 	// Native function invocation
 	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_dracodec_unity_INTERNAL
-	reinterpret_cast<PInvokeFunc>(ReleaseDracoMesh)(___mesh0);
+	reinterpret_cast<PInvokeFunc>(ReleaseDracoMesh)(___0_mesh);
 	#else
-	il2cppPInvokeFunc(___mesh0);
+	il2cppPInvokeFunc(___0_mesh);
 	#endif
 
 }
 // System.Void DracoMeshLoader::ReleaseDracoAttribute(DracoMeshLoader/DracoAttribute**)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DracoMeshLoader_ReleaseDracoAttribute_m70C3E5B9BFFFDBFC64F4EE1DF5CCBB60E5A2B05F (DracoAttribute_t014F8A8B9EDC0076546F3AF3952B1E63898DCDCF** ___attr0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DracoMeshLoader_ReleaseDracoAttribute_m1EAD1550B561E56CF968FA0C566AF4F04235CCB0 (DracoAttribute_t014F8A8B9EDC0076546F3AF3952B1E63898DCDCF** ___0_attr, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (DracoAttribute_t014F8A8B9EDC0076546F3AF3952B1E63898DCDCF**);
 	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_dracodec_unity_INTERNAL
@@ -1263,14 +1414,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DracoMeshLoader_ReleaseDracoAttribute_m7
 
 	// Native function invocation
 	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_dracodec_unity_INTERNAL
-	reinterpret_cast<PInvokeFunc>(ReleaseDracoAttribute)(___attr0);
+	reinterpret_cast<PInvokeFunc>(ReleaseDracoAttribute)(___0_attr);
 	#else
-	il2cppPInvokeFunc(___attr0);
+	il2cppPInvokeFunc(___0_attr);
 	#endif
 
 }
 // System.Void DracoMeshLoader::ReleaseDracoData(DracoMeshLoader/DracoData**)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DracoMeshLoader_ReleaseDracoData_m896ED5936D2C3FA4B23CA20D15F27C0D7BD933F4 (DracoData_tEA52B2468A7E87746A78568E2ED177526D3D4CE8** ___data0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DracoMeshLoader_ReleaseDracoData_m9406AF4A4E2CAB77E6523A210D32EFF9124EA998 (DracoData_tEA52B2468A7E87746A78568E2ED177526D3D4CE8** ___0_data, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (DracoData_tEA52B2468A7E87746A78568E2ED177526D3D4CE8**);
 	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_dracodec_unity_INTERNAL
@@ -1285,14 +1436,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DracoMeshLoader_ReleaseDracoData_m896ED5
 
 	// Native function invocation
 	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_dracodec_unity_INTERNAL
-	reinterpret_cast<PInvokeFunc>(ReleaseDracoData)(___data0);
+	reinterpret_cast<PInvokeFunc>(ReleaseDracoData)(___0_data);
 	#else
-	il2cppPInvokeFunc(___data0);
+	il2cppPInvokeFunc(___0_data);
 	#endif
 
 }
 // System.Int32 DracoMeshLoader::DecodeDracoMesh(System.Byte[],System.Int32,DracoMeshLoader/DracoMesh**)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DracoMeshLoader_DecodeDracoMesh_mF7826F4251B1D183DB68D8FC71237039F1C4248A (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___buffer0, int32_t ___length1, DracoMesh_tA3695E948287460F26648614EB0E6FCBFC828B2D** ___mesh2, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DracoMeshLoader_DecodeDracoMesh_m54BF7B8ACEFD897BD213A325E70BD1207FB355FC (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___0_buffer, int32_t ___1_length, DracoMesh_tA3695E948287460F26648614EB0E6FCBFC828B2D** ___2_mesh, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint8_t*, int32_t, DracoMesh_tA3695E948287460F26648614EB0E6FCBFC828B2D**);
 	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_dracodec_unity_INTERNAL
@@ -1305,24 +1456,24 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DracoMeshLoader_DecodeDracoMesh_mF782
 	}
 	#endif
 
-	// Marshaling of parameter '___buffer0' to native representation
-	uint8_t* ____buffer0_marshaled = NULL;
-	if (___buffer0 != NULL)
+	// Marshaling of parameter '___0_buffer' to native representation
+	uint8_t* ____0_buffer_marshaled = NULL;
+	if (___0_buffer != NULL)
 	{
-		____buffer0_marshaled = reinterpret_cast<uint8_t*>((___buffer0)->GetAddressAtUnchecked(0));
+		____0_buffer_marshaled = reinterpret_cast<uint8_t*>((___0_buffer)->GetAddressAtUnchecked(0));
 	}
 
 	// Native function invocation
 	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_dracodec_unity_INTERNAL
-	int32_t returnValue = reinterpret_cast<PInvokeFunc>(DecodeDracoMesh)(____buffer0_marshaled, ___length1, ___mesh2);
+	int32_t returnValue = reinterpret_cast<PInvokeFunc>(DecodeDracoMesh)(____0_buffer_marshaled, ___1_length, ___2_mesh);
 	#else
-	int32_t returnValue = il2cppPInvokeFunc(____buffer0_marshaled, ___length1, ___mesh2);
+	int32_t returnValue = il2cppPInvokeFunc(____0_buffer_marshaled, ___1_length, ___2_mesh);
 	#endif
 
 	return returnValue;
 }
 // System.Boolean DracoMeshLoader::GetAttribute(DracoMeshLoader/DracoMesh*,System.Int32,DracoMeshLoader/DracoAttribute**)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DracoMeshLoader_GetAttribute_mE5D97E966DF82D9A06C000D6A0DF5752A344D8E0 (DracoMesh_tA3695E948287460F26648614EB0E6FCBFC828B2D* ___mesh0, int32_t ___index1, DracoAttribute_t014F8A8B9EDC0076546F3AF3952B1E63898DCDCF** ___attr2, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DracoMeshLoader_GetAttribute_m2D94743DF9C1C0DA5287AC88B96743FEB2B9CE51 (DracoMesh_tA3695E948287460F26648614EB0E6FCBFC828B2D* ___0_mesh, int32_t ___1_index, DracoAttribute_t014F8A8B9EDC0076546F3AF3952B1E63898DCDCF** ___2_attr, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (DracoMesh_tA3695E948287460F26648614EB0E6FCBFC828B2D*, int32_t, DracoAttribute_t014F8A8B9EDC0076546F3AF3952B1E63898DCDCF**);
 	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_dracodec_unity_INTERNAL
@@ -1337,15 +1488,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DracoMeshLoader_GetAttribute_mE5D97E966D
 
 	// Native function invocation
 	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_dracodec_unity_INTERNAL
-	int32_t returnValue = reinterpret_cast<PInvokeFunc>(GetAttribute)(___mesh0, ___index1, ___attr2);
+	int32_t returnValue = reinterpret_cast<PInvokeFunc>(GetAttribute)(___0_mesh, ___1_index, ___2_attr);
 	#else
-	int32_t returnValue = il2cppPInvokeFunc(___mesh0, ___index1, ___attr2);
+	int32_t returnValue = il2cppPInvokeFunc(___0_mesh, ___1_index, ___2_attr);
 	#endif
 
 	return static_cast<bool>(returnValue);
 }
 // System.Boolean DracoMeshLoader::GetAttributeByType(DracoMeshLoader/DracoMesh*,DracoMeshLoader/AttributeType,System.Int32,DracoMeshLoader/DracoAttribute**)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DracoMeshLoader_GetAttributeByType_m729EAAB67F6C62F44CE7A74B5C286B7C2A0925BE (DracoMesh_tA3695E948287460F26648614EB0E6FCBFC828B2D* ___mesh0, int32_t ___type1, int32_t ___index2, DracoAttribute_t014F8A8B9EDC0076546F3AF3952B1E63898DCDCF** ___attr3, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DracoMeshLoader_GetAttributeByType_m047DC41AF6E39F1B4D61E90B56B37EC0E734B22A (DracoMesh_tA3695E948287460F26648614EB0E6FCBFC828B2D* ___0_mesh, int32_t ___1_type, int32_t ___2_index, DracoAttribute_t014F8A8B9EDC0076546F3AF3952B1E63898DCDCF** ___3_attr, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (DracoMesh_tA3695E948287460F26648614EB0E6FCBFC828B2D*, int32_t, int32_t, DracoAttribute_t014F8A8B9EDC0076546F3AF3952B1E63898DCDCF**);
 	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_dracodec_unity_INTERNAL
@@ -1360,15 +1511,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DracoMeshLoader_GetAttributeByType_m729E
 
 	// Native function invocation
 	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_dracodec_unity_INTERNAL
-	int32_t returnValue = reinterpret_cast<PInvokeFunc>(GetAttributeByType)(___mesh0, ___type1, ___index2, ___attr3);
+	int32_t returnValue = reinterpret_cast<PInvokeFunc>(GetAttributeByType)(___0_mesh, ___1_type, ___2_index, ___3_attr);
 	#else
-	int32_t returnValue = il2cppPInvokeFunc(___mesh0, ___type1, ___index2, ___attr3);
+	int32_t returnValue = il2cppPInvokeFunc(___0_mesh, ___1_type, ___2_index, ___3_attr);
 	#endif
 
 	return static_cast<bool>(returnValue);
 }
 // System.Boolean DracoMeshLoader::GetAttributeByUniqueId(DracoMeshLoader/DracoMesh*,System.Int32,DracoMeshLoader/DracoAttribute**)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DracoMeshLoader_GetAttributeByUniqueId_m280768F9A4E772A0EC9EF5417EAA039FCCB02979 (DracoMesh_tA3695E948287460F26648614EB0E6FCBFC828B2D* ___mesh0, int32_t ___unique_id1, DracoAttribute_t014F8A8B9EDC0076546F3AF3952B1E63898DCDCF** ___attr2, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DracoMeshLoader_GetAttributeByUniqueId_m3E0C3CFF42D2A5FE04209C0CA589C46498042BC6 (DracoMesh_tA3695E948287460F26648614EB0E6FCBFC828B2D* ___0_mesh, int32_t ___1_unique_id, DracoAttribute_t014F8A8B9EDC0076546F3AF3952B1E63898DCDCF** ___2_attr, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (DracoMesh_tA3695E948287460F26648614EB0E6FCBFC828B2D*, int32_t, DracoAttribute_t014F8A8B9EDC0076546F3AF3952B1E63898DCDCF**);
 	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_dracodec_unity_INTERNAL
@@ -1383,15 +1534,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DracoMeshLoader_GetAttributeByUniqueId_m
 
 	// Native function invocation
 	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_dracodec_unity_INTERNAL
-	int32_t returnValue = reinterpret_cast<PInvokeFunc>(GetAttributeByUniqueId)(___mesh0, ___unique_id1, ___attr2);
+	int32_t returnValue = reinterpret_cast<PInvokeFunc>(GetAttributeByUniqueId)(___0_mesh, ___1_unique_id, ___2_attr);
 	#else
-	int32_t returnValue = il2cppPInvokeFunc(___mesh0, ___unique_id1, ___attr2);
+	int32_t returnValue = il2cppPInvokeFunc(___0_mesh, ___1_unique_id, ___2_attr);
 	#endif
 
 	return static_cast<bool>(returnValue);
 }
 // System.Boolean DracoMeshLoader::GetMeshIndices(DracoMeshLoader/DracoMesh*,DracoMeshLoader/DracoData**)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DracoMeshLoader_GetMeshIndices_m5DC1D768383D7809D1C74F0D417B92E43094E9B2 (DracoMesh_tA3695E948287460F26648614EB0E6FCBFC828B2D* ___mesh0, DracoData_tEA52B2468A7E87746A78568E2ED177526D3D4CE8** ___indices1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DracoMeshLoader_GetMeshIndices_m3AB3DD17F307CE0DFFB7012236FE4D2AE052200B (DracoMesh_tA3695E948287460F26648614EB0E6FCBFC828B2D* ___0_mesh, DracoData_tEA52B2468A7E87746A78568E2ED177526D3D4CE8** ___1_indices, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (DracoMesh_tA3695E948287460F26648614EB0E6FCBFC828B2D*, DracoData_tEA52B2468A7E87746A78568E2ED177526D3D4CE8**);
 	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_dracodec_unity_INTERNAL
@@ -1406,15 +1557,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DracoMeshLoader_GetMeshIndices_m5DC1D768
 
 	// Native function invocation
 	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_dracodec_unity_INTERNAL
-	int32_t returnValue = reinterpret_cast<PInvokeFunc>(GetMeshIndices)(___mesh0, ___indices1);
+	int32_t returnValue = reinterpret_cast<PInvokeFunc>(GetMeshIndices)(___0_mesh, ___1_indices);
 	#else
-	int32_t returnValue = il2cppPInvokeFunc(___mesh0, ___indices1);
+	int32_t returnValue = il2cppPInvokeFunc(___0_mesh, ___1_indices);
 	#endif
 
 	return static_cast<bool>(returnValue);
 }
 // System.Boolean DracoMeshLoader::GetAttributeData(DracoMeshLoader/DracoMesh*,DracoMeshLoader/DracoAttribute*,DracoMeshLoader/DracoData**)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DracoMeshLoader_GetAttributeData_mC6C47E36DAB9490B67009094BCE7C4CF27FA3B0A (DracoMesh_tA3695E948287460F26648614EB0E6FCBFC828B2D* ___mesh0, DracoAttribute_t014F8A8B9EDC0076546F3AF3952B1E63898DCDCF* ___attr1, DracoData_tEA52B2468A7E87746A78568E2ED177526D3D4CE8** ___data2, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DracoMeshLoader_GetAttributeData_mE42729CFBDB42DEA10FEB1F2B0D552655FB6F2A5 (DracoMesh_tA3695E948287460F26648614EB0E6FCBFC828B2D* ___0_mesh, DracoAttribute_t014F8A8B9EDC0076546F3AF3952B1E63898DCDCF* ___1_attr, DracoData_tEA52B2468A7E87746A78568E2ED177526D3D4CE8** ___2_data, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (DracoMesh_tA3695E948287460F26648614EB0E6FCBFC828B2D*, DracoAttribute_t014F8A8B9EDC0076546F3AF3952B1E63898DCDCF*, DracoData_tEA52B2468A7E87746A78568E2ED177526D3D4CE8**);
 	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_dracodec_unity_INTERNAL
@@ -1429,15 +1580,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool DracoMeshLoader_GetAttributeData_mC6C47E
 
 	// Native function invocation
 	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_dracodec_unity_INTERNAL
-	int32_t returnValue = reinterpret_cast<PInvokeFunc>(GetAttributeData)(___mesh0, ___attr1, ___data2);
+	int32_t returnValue = reinterpret_cast<PInvokeFunc>(GetAttributeData)(___0_mesh, ___1_attr, ___2_data);
 	#else
-	int32_t returnValue = il2cppPInvokeFunc(___mesh0, ___attr1, ___data2);
+	int32_t returnValue = il2cppPInvokeFunc(___0_mesh, ___1_attr, ___2_data);
 	#endif
 
 	return static_cast<bool>(returnValue);
 }
 // System.Int32 DracoMeshLoader::LoadMeshFromAsset(System.String,System.Collections.Generic.List`1<UnityEngine.Mesh>&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DracoMeshLoader_LoadMeshFromAsset_mA947F7CEF40A7B850E8B0D32340C910B6B4AF78A (DracoMeshLoader_tE3DDC08D883ED9A4814756DC5F0FF29482E69D28* __this, String_t* ___assetName0, List_1_t43FB89B126C93A6B04630BC64C751BBE95AFEAF4** ___meshes1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DracoMeshLoader_LoadMeshFromAsset_mA947F7CEF40A7B850E8B0D32340C910B6B4AF78A (DracoMeshLoader_tE3DDC08D883ED9A4814756DC5F0FF29482E69D28* __this, String_t* ___0_assetName, List_1_t43FB89B126C93A6B04630BC64C751BBE95AFEAF4** ___1_meshes, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -1457,19 +1608,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DracoMeshLoader_LoadMeshFromAsset_mA9
 	{
 		// TextAsset asset =
 		//     Resources.Load(assetName, typeof(TextAsset)) as TextAsset;
-		String_t* L_0 = ___assetName0;
+		String_t* L_0 = ___0_assetName;
 		RuntimeTypeHandle_t332A452B8B6179E4469B69525D0FE82A88030F7B L_1 = { reinterpret_cast<intptr_t> (TextAsset_t2C64E93DA366D9DE5A8209E1802FA4884AC1BD69_0_0_0_var) };
 		il2cpp_codegen_runtime_class_init_inline(Type_t_il2cpp_TypeInfo_var);
 		Type_t* L_2;
-		L_2 = Type_GetTypeFromHandle_m2570A2A5B32A5E9D9F0F38B37459DA18736C823E(L_1, NULL);
+		L_2 = Type_GetTypeFromHandle_m6062B81682F79A4D6DF2640692EE6D9987858C57(L_1, NULL);
 		Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C* L_3;
-		L_3 = Resources_Load_mDCC8EBD3196F1CE1B86E74416AD90CF86320C401(L_0, L_2, NULL);
+		L_3 = Resources_Load_m6CD8FBBCCFFF22179FA0E7B1806B888103008D33(L_0, L_2, NULL);
 		V_0 = ((TextAsset_t2C64E93DA366D9DE5A8209E1802FA4884AC1BD69*)IsInstClass((RuntimeObject*)L_3, TextAsset_t2C64E93DA366D9DE5A8209E1802FA4884AC1BD69_il2cpp_TypeInfo_var));
 		// if (asset == null) {
 		TextAsset_t2C64E93DA366D9DE5A8209E1802FA4884AC1BD69* L_4 = V_0;
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
 		bool L_5;
-		L_5 = Object_op_Equality_mD3DB0D72CE0250C84033DC2A90AEF9D59896E536(L_4, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
+		L_5 = Object_op_Equality_mB6120F782D83091EF56A198FCEBCF066DB4A9605(L_4, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
 		if (!L_5)
 		{
 			goto IL_002b;
@@ -1478,7 +1629,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DracoMeshLoader_LoadMeshFromAsset_mA9
 	{
 		// Debug.Log ("Didn't load file!");
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-		Debug_Log_m86567BCF22BBE7809747817453CACA0E41E68219(_stringLiteral5954795F45D5EB91C823DD9268F4AFA074B0A452, NULL);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteral5954795F45D5EB91C823DD9268F4AFA074B0A452, NULL);
 		// return -1;
 		return (-1);
 	}
@@ -1498,7 +1649,7 @@ IL_002b:
 		String_t* L_9;
 		L_9 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5((&V_2), NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-		Debug_Log_m86567BCF22BBE7809747817453CACA0E41E68219(L_9, NULL);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_9, NULL);
 		// if (encodedData.Length == 0) {
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_10 = V_1;
 		NullCheck(L_10);
@@ -1510,7 +1661,7 @@ IL_002b:
 	{
 		// Debug.Log ("Didn't load encoded data!");
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-		Debug_Log_m86567BCF22BBE7809747817453CACA0E41E68219(_stringLiteral69364215E50C09C848F66F1C3D4DCEF88F37ECAE, NULL);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteral69364215E50C09C848F66F1C3D4DCEF88F37ECAE, NULL);
 		// return -1;
 		return (-1);
 	}
@@ -1519,14 +1670,14 @@ IL_0052:
 	{
 		// return ConvertDracoMeshToUnity(encodedData, ref meshes);
 		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_11 = V_1;
-		List_1_t43FB89B126C93A6B04630BC64C751BBE95AFEAF4** L_12 = ___meshes1;
+		List_1_t43FB89B126C93A6B04630BC64C751BBE95AFEAF4** L_12 = ___1_meshes;
 		int32_t L_13;
 		L_13 = DracoMeshLoader_ConvertDracoMeshToUnity_m5B0D2C52009D55B4DC1FA8D89C60C2860BE9F488(__this, L_11, L_12, NULL);
 		return L_13;
 	}
 }
 // System.Int32 DracoMeshLoader::ConvertDracoMeshToUnity(System.Byte[],System.Collections.Generic.List`1<UnityEngine.Mesh>&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DracoMeshLoader_ConvertDracoMeshToUnity_m5B0D2C52009D55B4DC1FA8D89C60C2860BE9F488 (DracoMeshLoader_tE3DDC08D883ED9A4814756DC5F0FF29482E69D28* __this, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___encodedData0, List_1_t43FB89B126C93A6B04630BC64C751BBE95AFEAF4** ___meshes1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DracoMeshLoader_ConvertDracoMeshToUnity_m5B0D2C52009D55B4DC1FA8D89C60C2860BE9F488 (DracoMeshLoader_tE3DDC08D883ED9A4814756DC5F0FF29482E69D28* __this, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___0_encodedData, List_1_t43FB89B126C93A6B04630BC64C751BBE95AFEAF4** ___1_meshes, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -1547,16 +1698,16 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DracoMeshLoader_ConvertDracoMeshToUni
 	{
 		// float startTime = Time.realtimeSinceStartup;
 		float L_0;
-		L_0 = Time_get_realtimeSinceStartup_mB49A5622E38FFE9589EB9B3E75573E443B8D63EC(NULL);
+		L_0 = Time_get_realtimeSinceStartup_m73B3CB73175D79A44333D59BB70F9EDE55EC9510(NULL);
 		V_0 = L_0;
 		// DracoMesh *mesh = null;
 		V_1 = (DracoMesh_tA3695E948287460F26648614EB0E6FCBFC828B2D*)((uintptr_t)0);
 		// if (DecodeDracoMesh(encodedData, encodedData.Length, &mesh) <= 0) {
-		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_1 = ___encodedData0;
-		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_2 = ___encodedData0;
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_1 = ___0_encodedData;
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_2 = ___0_encodedData;
 		NullCheck(L_2);
 		int32_t L_3;
-		L_3 = DracoMeshLoader_DecodeDracoMesh_mF7826F4251B1D183DB68D8FC71237039F1C4248A(L_1, ((int32_t)(((RuntimeArray*)L_2)->max_length)), (DracoMesh_tA3695E948287460F26648614EB0E6FCBFC828B2D**)((uintptr_t)(&V_1)), NULL);
+		L_3 = DracoMeshLoader_DecodeDracoMesh_m54BF7B8ACEFD897BD213A325E70BD1207FB355FC(L_1, ((int32_t)(((RuntimeArray*)L_2)->max_length)), (DracoMesh_tA3695E948287460F26648614EB0E6FCBFC828B2D**)((uintptr_t)(&V_1)), NULL);
 		if ((((int32_t)L_3) > ((int32_t)0)))
 		{
 			goto IL_0024;
@@ -1565,7 +1716,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DracoMeshLoader_ConvertDracoMeshToUni
 	{
 		// Debug.Log("Failed: Decoding error.");
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-		Debug_Log_m86567BCF22BBE7809747817453CACA0E41E68219(_stringLiteralAD4BDFEE1527EFE3C80A384D5ABEBB55BC7BE954, NULL);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteralAD4BDFEE1527EFE3C80A384D5ABEBB55BC7BE954, NULL);
 		// return -1;
 		return (-1);
 	}
@@ -1575,16 +1726,16 @@ IL_0024:
 		// float decodeTimeMilli =
 		//     (Time.realtimeSinceStartup - startTime) * 1000.0f;
 		float L_4;
-		L_4 = Time_get_realtimeSinceStartup_mB49A5622E38FFE9589EB9B3E75573E443B8D63EC(NULL);
+		L_4 = Time_get_realtimeSinceStartup_m73B3CB73175D79A44333D59BB70F9EDE55EC9510(NULL);
 		float L_5 = V_0;
 		V_2 = ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(L_4, L_5)), (1000.0f)));
 		// Debug.Log("decodeTimeMilli: " + decodeTimeMilli.ToString());
 		String_t* L_6;
 		L_6 = Single_ToString_mE282EDA9CA4F7DF88432D807732837A629D04972((&V_2), NULL);
 		String_t* L_7;
-		L_7 = String_Concat_mAF2CE02CC0CB7460753D0A1A91CCF2B1E9804C5D(_stringLiteral85AB94CFF7965DC5366FECA96432D2C0316CBD91, L_6, NULL);
+		L_7 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral85AB94CFF7965DC5366FECA96432D2C0316CBD91, L_6, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-		Debug_Log_m86567BCF22BBE7809747817453CACA0E41E68219(L_7, NULL);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_7, NULL);
 		// Debug.Log("Num indices: " + mesh->numFaces.ToString());
 		DracoMesh_tA3695E948287460F26648614EB0E6FCBFC828B2D* L_8 = V_1;
 		NullCheck(L_8);
@@ -1592,8 +1743,8 @@ IL_0024:
 		String_t* L_10;
 		L_10 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5(L_9, NULL);
 		String_t* L_11;
-		L_11 = String_Concat_mAF2CE02CC0CB7460753D0A1A91CCF2B1E9804C5D(_stringLiteralB698F6C42C173CCF6419DF6C04541D6B53B77309, L_10, NULL);
-		Debug_Log_m86567BCF22BBE7809747817453CACA0E41E68219(L_11, NULL);
+		L_11 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralB698F6C42C173CCF6419DF6C04541D6B53B77309, L_10, NULL);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_11, NULL);
 		// Debug.Log("Num vertices: " + mesh->numVertices.ToString());
 		DracoMesh_tA3695E948287460F26648614EB0E6FCBFC828B2D* L_12 = V_1;
 		NullCheck(L_12);
@@ -1601,8 +1752,8 @@ IL_0024:
 		String_t* L_14;
 		L_14 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5(L_13, NULL);
 		String_t* L_15;
-		L_15 = String_Concat_mAF2CE02CC0CB7460753D0A1A91CCF2B1E9804C5D(_stringLiteralE00D62930E7536371E7BF920485913D5FA3874A2, L_14, NULL);
-		Debug_Log_m86567BCF22BBE7809747817453CACA0E41E68219(L_15, NULL);
+		L_15 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralE00D62930E7536371E7BF920485913D5FA3874A2, L_14, NULL);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_15, NULL);
 		// Debug.Log("Num attributes: " + mesh->numAttributes.ToString());
 		DracoMesh_tA3695E948287460F26648614EB0E6FCBFC828B2D* L_16 = V_1;
 		NullCheck(L_16);
@@ -1610,8 +1761,8 @@ IL_0024:
 		String_t* L_18;
 		L_18 = Int32_ToString_m030E01C24E294D6762FB0B6F37CB541581F55CA5(L_17, NULL);
 		String_t* L_19;
-		L_19 = String_Concat_mAF2CE02CC0CB7460753D0A1A91CCF2B1E9804C5D(_stringLiteralA9D56BF53759AF66A82C5A92BF72F854060232CA, L_18, NULL);
-		Debug_Log_m86567BCF22BBE7809747817453CACA0E41E68219(L_19, NULL);
+		L_19 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralA9D56BF53759AF66A82C5A92BF72F854060232CA, L_18, NULL);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_19, NULL);
 		// Mesh unityMesh = CreateUnityMesh(mesh);
 		DracoMesh_tA3695E948287460F26648614EB0E6FCBFC828B2D* L_20 = V_1;
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_21;
@@ -1620,7 +1771,7 @@ IL_0024:
 		// UnityMeshToCamera(ref unityMesh);
 		DracoMeshLoader_UnityMeshToCamera_m4AEFCC14E5629B43D08ADCEC91A9AA6831F48E94(__this, (&V_3), NULL);
 		// meshes.Add(unityMesh);
-		List_1_t43FB89B126C93A6B04630BC64C751BBE95AFEAF4** L_22 = ___meshes1;
+		List_1_t43FB89B126C93A6B04630BC64C751BBE95AFEAF4** L_22 = ___1_meshes;
 		List_1_t43FB89B126C93A6B04630BC64C751BBE95AFEAF4* L_23 = *((List_1_t43FB89B126C93A6B04630BC64C751BBE95AFEAF4**)L_22);
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_24 = V_3;
 		NullCheck(L_23);
@@ -1630,13 +1781,13 @@ IL_0024:
 		NullCheck(L_25);
 		int32_t L_26 = L_25->___numFaces_0;
 		// ReleaseDracoMesh(&mesh);
-		DracoMeshLoader_ReleaseDracoMesh_m1DB0EF5A0AEF01684056FEB7EC9279D5D1822B5F((DracoMesh_tA3695E948287460F26648614EB0E6FCBFC828B2D**)((uintptr_t)(&V_1)), NULL);
+		DracoMeshLoader_ReleaseDracoMesh_mD0973044013B2BA931A036354258B7A5A50CFF0E((DracoMesh_tA3695E948287460F26648614EB0E6FCBFC828B2D**)((uintptr_t)(&V_1)), NULL);
 		// return numFaces;
 		return L_26;
 	}
 }
 // UnityEngine.Mesh DracoMeshLoader::CreateUnityMesh(DracoMeshLoader/DracoMesh*)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* DracoMeshLoader_CreateUnityMesh_m64FE8BEA78AA3DA38487EB6CE30927273AEE6391 (DracoMeshLoader_tE3DDC08D883ED9A4814756DC5F0FF29482E69D28* __this, DracoMesh_tA3695E948287460F26648614EB0E6FCBFC828B2D* ___dracoMesh0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* DracoMeshLoader_CreateUnityMesh_m64FE8BEA78AA3DA38487EB6CE30927273AEE6391 (DracoMeshLoader_tE3DDC08D883ED9A4814756DC5F0FF29482E69D28* __this, DracoMesh_tA3695E948287460F26648614EB0E6FCBFC828B2D* ___0_dracoMesh, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -1682,19 +1833,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D
 	{
 		// float startTime = Time.realtimeSinceStartup;
 		float L_0;
-		L_0 = Time_get_realtimeSinceStartup_mB49A5622E38FFE9589EB9B3E75573E443B8D63EC(NULL);
+		L_0 = Time_get_realtimeSinceStartup_m73B3CB73175D79A44333D59BB70F9EDE55EC9510(NULL);
 		V_0 = L_0;
 		// int numFaces = dracoMesh->numFaces;
-		DracoMesh_tA3695E948287460F26648614EB0E6FCBFC828B2D* L_1 = ___dracoMesh0;
+		DracoMesh_tA3695E948287460F26648614EB0E6FCBFC828B2D* L_1 = ___0_dracoMesh;
 		DracoMesh_tA3695E948287460F26648614EB0E6FCBFC828B2D L_2 = (*(DracoMesh_tA3695E948287460F26648614EB0E6FCBFC828B2D*)L_1);
 		// int[] newTriangles = new int[dracoMesh->numFaces * 3];
-		DracoMesh_tA3695E948287460F26648614EB0E6FCBFC828B2D* L_3 = ___dracoMesh0;
+		DracoMesh_tA3695E948287460F26648614EB0E6FCBFC828B2D* L_3 = ___0_dracoMesh;
 		NullCheck(L_3);
 		int32_t L_4 = L_3->___numFaces_0;
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_5 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)SZArrayNew(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C_il2cpp_TypeInfo_var, (uint32_t)((int32_t)il2cpp_codegen_multiply(L_4, 3)));
 		V_1 = L_5;
 		// Vector3[] newVertices = new Vector3[dracoMesh->numVertices];
-		DracoMesh_tA3695E948287460F26648614EB0E6FCBFC828B2D* L_6 = ___dracoMesh0;
+		DracoMesh_tA3695E948287460F26648614EB0E6FCBFC828B2D* L_6 = ___0_dracoMesh;
 		NullCheck(L_6);
 		int32_t L_7 = L_6->___numVertices_1;
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_8 = (Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C*)(Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C*)SZArrayNew(Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C_il2cpp_TypeInfo_var, (uint32_t)L_7);
@@ -1706,9 +1857,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D
 		// Color[] newColors = null;
 		V_5 = (ColorU5BU5D_t612261CF293F6FFC3D80AB52259FF0DC2B2CC389*)NULL;
 		// GetMeshIndices(dracoMesh, &indicesData);
-		DracoMesh_tA3695E948287460F26648614EB0E6FCBFC828B2D* L_9 = ___dracoMesh0;
+		DracoMesh_tA3695E948287460F26648614EB0E6FCBFC828B2D* L_9 = ___0_dracoMesh;
 		bool L_10;
-		L_10 = DracoMeshLoader_GetMeshIndices_m5DC1D768383D7809D1C74F0D417B92E43094E9B2(L_9, (DracoData_tEA52B2468A7E87746A78568E2ED177526D3D4CE8**)((uintptr_t)(&V_6)), NULL);
+		L_10 = DracoMeshLoader_GetMeshIndices_m3AB3DD17F307CE0DFFB7012236FE4D2AE052200B(L_9, (DracoData_tEA52B2468A7E87746A78568E2ED177526D3D4CE8**)((uintptr_t)(&V_6)), NULL);
 		// int elementSize =
 		//     DataTypeSize((DracoMeshLoader.DataType)indicesData->dataType);
 		DracoData_tEA52B2468A7E87746A78568E2ED177526D3D4CE8* L_11 = V_6;
@@ -1722,7 +1873,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D
 		NullCheck(L_14);
 		intptr_t L_15 = L_14->___data_1;
 		void* L_16;
-		L_16 = IntPtr_op_Explicit_m693F2F9E685EE117D4AC080342B8959DAF684294(L_15, NULL);
+		L_16 = IntPtr_op_Explicit_m2728CBA081E79B97DDCF1D4FAD77B309CA1E94BF(L_15, NULL);
 		V_8 = (int32_t*)L_16;
 		// var indicesPtr = UnsafeUtility.AddressOf(ref newTriangles[0]);
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_17 = V_1;
@@ -1735,22 +1886,22 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_20 = V_1;
 		NullCheck(L_20);
 		int32_t L_21 = V_7;
-		UnsafeUtility_MemCpy_m019E657B952C27F705607F0F3D371EEE526B716B(L_18, (void*)L_19, ((int64_t)((int32_t)il2cpp_codegen_multiply(((int32_t)(((RuntimeArray*)L_20)->max_length)), L_21))), NULL);
+		UnsafeUtility_MemCpy_m5CEA91ACDADC522E584AE3A2AB2B0B74393A9177(L_18, (void*)L_19, ((int64_t)((int32_t)il2cpp_codegen_multiply(((int32_t)(((RuntimeArray*)L_20)->max_length)), L_21))), NULL);
 		// ReleaseDracoData(&indicesData);
-		DracoMeshLoader_ReleaseDracoData_m896ED5936D2C3FA4B23CA20D15F27C0D7BD933F4((DracoData_tEA52B2468A7E87746A78568E2ED177526D3D4CE8**)((uintptr_t)(&V_6)), NULL);
+		DracoMeshLoader_ReleaseDracoData_m9406AF4A4E2CAB77E6523A210D32EFF9124EA998((DracoData_tEA52B2468A7E87746A78568E2ED177526D3D4CE8**)((uintptr_t)(&V_6)), NULL);
 		// DracoAttribute *attr = null;
 		V_9 = (DracoAttribute_t014F8A8B9EDC0076546F3AF3952B1E63898DCDCF*)((uintptr_t)0);
 		// GetAttributeByType(dracoMesh, AttributeType.POSITION, 0, &attr);
-		DracoMesh_tA3695E948287460F26648614EB0E6FCBFC828B2D* L_22 = ___dracoMesh0;
+		DracoMesh_tA3695E948287460F26648614EB0E6FCBFC828B2D* L_22 = ___0_dracoMesh;
 		bool L_23;
-		L_23 = DracoMeshLoader_GetAttributeByType_m729EAAB67F6C62F44CE7A74B5C286B7C2A0925BE(L_22, 0, 0, (DracoAttribute_t014F8A8B9EDC0076546F3AF3952B1E63898DCDCF**)((uintptr_t)(&V_9)), NULL);
+		L_23 = DracoMeshLoader_GetAttributeByType_m047DC41AF6E39F1B4D61E90B56B37EC0E734B22A(L_22, 0, 0, (DracoAttribute_t014F8A8B9EDC0076546F3AF3952B1E63898DCDCF**)((uintptr_t)(&V_9)), NULL);
 		// DracoData* posData = null;
 		V_10 = (DracoData_tEA52B2468A7E87746A78568E2ED177526D3D4CE8*)((uintptr_t)0);
 		// GetAttributeData(dracoMesh, attr, &posData);
-		DracoMesh_tA3695E948287460F26648614EB0E6FCBFC828B2D* L_24 = ___dracoMesh0;
+		DracoMesh_tA3695E948287460F26648614EB0E6FCBFC828B2D* L_24 = ___0_dracoMesh;
 		DracoAttribute_t014F8A8B9EDC0076546F3AF3952B1E63898DCDCF* L_25 = V_9;
 		bool L_26;
-		L_26 = DracoMeshLoader_GetAttributeData_mC6C47E36DAB9490B67009094BCE7C4CF27FA3B0A(L_24, L_25, (DracoData_tEA52B2468A7E87746A78568E2ED177526D3D4CE8**)((uintptr_t)(&V_10)), NULL);
+		L_26 = DracoMeshLoader_GetAttributeData_mE42729CFBDB42DEA10FEB1F2B0D552655FB6F2A5(L_24, L_25, (DracoData_tEA52B2468A7E87746A78568E2ED177526D3D4CE8**)((uintptr_t)(&V_10)), NULL);
 		// elementSize = DataTypeSize((DracoMeshLoader.DataType)posData->dataType) *
 		//     attr->numComponents;
 		DracoData_tEA52B2468A7E87746A78568E2ED177526D3D4CE8* L_27 = V_10;
@@ -1773,20 +1924,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D
 		NullCheck(L_34);
 		intptr_t L_35 = L_34->___data_1;
 		void* L_36;
-		L_36 = IntPtr_op_Explicit_m693F2F9E685EE117D4AC080342B8959DAF684294(L_35, NULL);
-		DracoMesh_tA3695E948287460F26648614EB0E6FCBFC828B2D* L_37 = ___dracoMesh0;
+		L_36 = IntPtr_op_Explicit_m2728CBA081E79B97DDCF1D4FAD77B309CA1E94BF(L_35, NULL);
+		DracoMesh_tA3695E948287460F26648614EB0E6FCBFC828B2D* L_37 = ___0_dracoMesh;
 		NullCheck(L_37);
 		int32_t L_38 = L_37->___numVertices_1;
 		int32_t L_39 = V_7;
-		UnsafeUtility_MemCpy_m019E657B952C27F705607F0F3D371EEE526B716B(L_33, L_36, ((int64_t)((int32_t)il2cpp_codegen_multiply(L_38, L_39))), NULL);
+		UnsafeUtility_MemCpy_m5CEA91ACDADC522E584AE3A2AB2B0B74393A9177(L_33, L_36, ((int64_t)((int32_t)il2cpp_codegen_multiply(L_38, L_39))), NULL);
 		// ReleaseDracoData(&posData);
-		DracoMeshLoader_ReleaseDracoData_m896ED5936D2C3FA4B23CA20D15F27C0D7BD933F4((DracoData_tEA52B2468A7E87746A78568E2ED177526D3D4CE8**)((uintptr_t)(&V_10)), NULL);
+		DracoMeshLoader_ReleaseDracoData_m9406AF4A4E2CAB77E6523A210D32EFF9124EA998((DracoData_tEA52B2468A7E87746A78568E2ED177526D3D4CE8**)((uintptr_t)(&V_10)), NULL);
 		// ReleaseDracoAttribute(&attr);
-		DracoMeshLoader_ReleaseDracoAttribute_m70C3E5B9BFFFDBFC64F4EE1DF5CCBB60E5A2B05F((DracoAttribute_t014F8A8B9EDC0076546F3AF3952B1E63898DCDCF**)((uintptr_t)(&V_9)), NULL);
+		DracoMeshLoader_ReleaseDracoAttribute_m1EAD1550B561E56CF968FA0C566AF4F04235CCB0((DracoAttribute_t014F8A8B9EDC0076546F3AF3952B1E63898DCDCF**)((uintptr_t)(&V_9)), NULL);
 		// if (GetAttributeByType(dracoMesh, AttributeType.NORMAL, 0, &attr)) {
-		DracoMesh_tA3695E948287460F26648614EB0E6FCBFC828B2D* L_40 = ___dracoMesh0;
+		DracoMesh_tA3695E948287460F26648614EB0E6FCBFC828B2D* L_40 = ___0_dracoMesh;
 		bool L_41;
-		L_41 = DracoMeshLoader_GetAttributeByType_m729EAAB67F6C62F44CE7A74B5C286B7C2A0925BE(L_40, 1, 0, (DracoAttribute_t014F8A8B9EDC0076546F3AF3952B1E63898DCDCF**)((uintptr_t)(&V_9)), NULL);
+		L_41 = DracoMeshLoader_GetAttributeByType_m047DC41AF6E39F1B4D61E90B56B37EC0E734B22A(L_40, 1, 0, (DracoAttribute_t014F8A8B9EDC0076546F3AF3952B1E63898DCDCF**)((uintptr_t)(&V_9)), NULL);
 		if (!L_41)
 		{
 			goto IL_016a;
@@ -1796,10 +1947,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D
 		// DracoData* normData = null;
 		V_14 = (DracoData_tEA52B2468A7E87746A78568E2ED177526D3D4CE8*)((uintptr_t)0);
 		// if (GetAttributeData(dracoMesh, attr, &normData)) {
-		DracoMesh_tA3695E948287460F26648614EB0E6FCBFC828B2D* L_42 = ___dracoMesh0;
+		DracoMesh_tA3695E948287460F26648614EB0E6FCBFC828B2D* L_42 = ___0_dracoMesh;
 		DracoAttribute_t014F8A8B9EDC0076546F3AF3952B1E63898DCDCF* L_43 = V_9;
 		bool L_44;
-		L_44 = DracoMeshLoader_GetAttributeData_mC6C47E36DAB9490B67009094BCE7C4CF27FA3B0A(L_42, L_43, (DracoData_tEA52B2468A7E87746A78568E2ED177526D3D4CE8**)((uintptr_t)(&V_14)), NULL);
+		L_44 = DracoMeshLoader_GetAttributeData_mE42729CFBDB42DEA10FEB1F2B0D552655FB6F2A5(L_42, L_43, (DracoData_tEA52B2468A7E87746A78568E2ED177526D3D4CE8**)((uintptr_t)(&V_14)), NULL);
 		if (!L_44)
 		{
 			goto IL_016a;
@@ -1819,7 +1970,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D
 		int32_t L_49 = L_48->___numComponents_2;
 		V_7 = ((int32_t)il2cpp_codegen_multiply(L_47, L_49));
 		// newNormals = new Vector3[dracoMesh->numVertices];
-		DracoMesh_tA3695E948287460F26648614EB0E6FCBFC828B2D* L_50 = ___dracoMesh0;
+		DracoMesh_tA3695E948287460F26648614EB0E6FCBFC828B2D* L_50 = ___0_dracoMesh;
 		NullCheck(L_50);
 		int32_t L_51 = L_50->___numVertices_1;
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_52 = (Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C*)(Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C*)SZArrayNew(Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C_il2cpp_TypeInfo_var, (uint32_t)L_51);
@@ -1835,27 +1986,27 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D
 		NullCheck(L_55);
 		intptr_t L_56 = L_55->___data_1;
 		void* L_57;
-		L_57 = IntPtr_op_Explicit_m693F2F9E685EE117D4AC080342B8959DAF684294(L_56, NULL);
-		DracoMesh_tA3695E948287460F26648614EB0E6FCBFC828B2D* L_58 = ___dracoMesh0;
+		L_57 = IntPtr_op_Explicit_m2728CBA081E79B97DDCF1D4FAD77B309CA1E94BF(L_56, NULL);
+		DracoMesh_tA3695E948287460F26648614EB0E6FCBFC828B2D* L_58 = ___0_dracoMesh;
 		NullCheck(L_58);
 		int32_t L_59 = L_58->___numVertices_1;
 		int32_t L_60 = V_7;
-		UnsafeUtility_MemCpy_m019E657B952C27F705607F0F3D371EEE526B716B(L_54, L_57, ((int64_t)((int32_t)il2cpp_codegen_multiply(L_59, L_60))), NULL);
+		UnsafeUtility_MemCpy_m5CEA91ACDADC522E584AE3A2AB2B0B74393A9177(L_54, L_57, ((int64_t)((int32_t)il2cpp_codegen_multiply(L_59, L_60))), NULL);
 		// Debug.Log("Decoded mesh normals.");
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-		Debug_Log_m86567BCF22BBE7809747817453CACA0E41E68219(_stringLiteral2DC2AAA56C78AE0B1DDA1048580586A194ED4217, NULL);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteral2DC2AAA56C78AE0B1DDA1048580586A194ED4217, NULL);
 		// ReleaseDracoData(&normData);
-		DracoMeshLoader_ReleaseDracoData_m896ED5936D2C3FA4B23CA20D15F27C0D7BD933F4((DracoData_tEA52B2468A7E87746A78568E2ED177526D3D4CE8**)((uintptr_t)(&V_14)), NULL);
+		DracoMeshLoader_ReleaseDracoData_m9406AF4A4E2CAB77E6523A210D32EFF9124EA998((DracoData_tEA52B2468A7E87746A78568E2ED177526D3D4CE8**)((uintptr_t)(&V_14)), NULL);
 		// ReleaseDracoAttribute(&attr);
-		DracoMeshLoader_ReleaseDracoAttribute_m70C3E5B9BFFFDBFC64F4EE1DF5CCBB60E5A2B05F((DracoAttribute_t014F8A8B9EDC0076546F3AF3952B1E63898DCDCF**)((uintptr_t)(&V_9)), NULL);
+		DracoMeshLoader_ReleaseDracoAttribute_m1EAD1550B561E56CF968FA0C566AF4F04235CCB0((DracoAttribute_t014F8A8B9EDC0076546F3AF3952B1E63898DCDCF**)((uintptr_t)(&V_9)), NULL);
 	}
 
 IL_016a:
 	{
 		// if (GetAttributeByType(dracoMesh, AttributeType.TEX_COORD, 0, &attr)) {
-		DracoMesh_tA3695E948287460F26648614EB0E6FCBFC828B2D* L_61 = ___dracoMesh0;
+		DracoMesh_tA3695E948287460F26648614EB0E6FCBFC828B2D* L_61 = ___0_dracoMesh;
 		bool L_62;
-		L_62 = DracoMeshLoader_GetAttributeByType_m729EAAB67F6C62F44CE7A74B5C286B7C2A0925BE(L_61, 3, 0, (DracoAttribute_t014F8A8B9EDC0076546F3AF3952B1E63898DCDCF**)((uintptr_t)(&V_9)), NULL);
+		L_62 = DracoMeshLoader_GetAttributeByType_m047DC41AF6E39F1B4D61E90B56B37EC0E734B22A(L_61, 3, 0, (DracoAttribute_t014F8A8B9EDC0076546F3AF3952B1E63898DCDCF**)((uintptr_t)(&V_9)), NULL);
 		if (!L_62)
 		{
 			goto IL_01ec;
@@ -1865,10 +2016,10 @@ IL_016a:
 		// DracoData* texData = null;
 		V_15 = (DracoData_tEA52B2468A7E87746A78568E2ED177526D3D4CE8*)((uintptr_t)0);
 		// if (GetAttributeData(dracoMesh, attr, &texData)) {
-		DracoMesh_tA3695E948287460F26648614EB0E6FCBFC828B2D* L_63 = ___dracoMesh0;
+		DracoMesh_tA3695E948287460F26648614EB0E6FCBFC828B2D* L_63 = ___0_dracoMesh;
 		DracoAttribute_t014F8A8B9EDC0076546F3AF3952B1E63898DCDCF* L_64 = V_9;
 		bool L_65;
-		L_65 = DracoMeshLoader_GetAttributeData_mC6C47E36DAB9490B67009094BCE7C4CF27FA3B0A(L_63, L_64, (DracoData_tEA52B2468A7E87746A78568E2ED177526D3D4CE8**)((uintptr_t)(&V_15)), NULL);
+		L_65 = DracoMeshLoader_GetAttributeData_mE42729CFBDB42DEA10FEB1F2B0D552655FB6F2A5(L_63, L_64, (DracoData_tEA52B2468A7E87746A78568E2ED177526D3D4CE8**)((uintptr_t)(&V_15)), NULL);
 		if (!L_65)
 		{
 			goto IL_01ec;
@@ -1888,7 +2039,7 @@ IL_016a:
 		int32_t L_70 = L_69->___numComponents_2;
 		V_7 = ((int32_t)il2cpp_codegen_multiply(L_68, L_70));
 		// newUVs = new Vector2[dracoMesh->numVertices];
-		DracoMesh_tA3695E948287460F26648614EB0E6FCBFC828B2D* L_71 = ___dracoMesh0;
+		DracoMesh_tA3695E948287460F26648614EB0E6FCBFC828B2D* L_71 = ___0_dracoMesh;
 		NullCheck(L_71);
 		int32_t L_72 = L_71->___numVertices_1;
 		Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* L_73 = (Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA*)(Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA*)SZArrayNew(Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA_il2cpp_TypeInfo_var, (uint32_t)L_72);
@@ -1904,27 +2055,27 @@ IL_016a:
 		NullCheck(L_76);
 		intptr_t L_77 = L_76->___data_1;
 		void* L_78;
-		L_78 = IntPtr_op_Explicit_m693F2F9E685EE117D4AC080342B8959DAF684294(L_77, NULL);
-		DracoMesh_tA3695E948287460F26648614EB0E6FCBFC828B2D* L_79 = ___dracoMesh0;
+		L_78 = IntPtr_op_Explicit_m2728CBA081E79B97DDCF1D4FAD77B309CA1E94BF(L_77, NULL);
+		DracoMesh_tA3695E948287460F26648614EB0E6FCBFC828B2D* L_79 = ___0_dracoMesh;
 		NullCheck(L_79);
 		int32_t L_80 = L_79->___numVertices_1;
 		int32_t L_81 = V_7;
-		UnsafeUtility_MemCpy_m019E657B952C27F705607F0F3D371EEE526B716B(L_75, L_78, ((int64_t)((int32_t)il2cpp_codegen_multiply(L_80, L_81))), NULL);
+		UnsafeUtility_MemCpy_m5CEA91ACDADC522E584AE3A2AB2B0B74393A9177(L_75, L_78, ((int64_t)((int32_t)il2cpp_codegen_multiply(L_80, L_81))), NULL);
 		// Debug.Log("Decoded mesh texcoords.");
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-		Debug_Log_m86567BCF22BBE7809747817453CACA0E41E68219(_stringLiteralBCE437B17DC0B5A3A9B46AB4F7BA19E115E0EF4C, NULL);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteralBCE437B17DC0B5A3A9B46AB4F7BA19E115E0EF4C, NULL);
 		// ReleaseDracoData(&texData);
-		DracoMeshLoader_ReleaseDracoData_m896ED5936D2C3FA4B23CA20D15F27C0D7BD933F4((DracoData_tEA52B2468A7E87746A78568E2ED177526D3D4CE8**)((uintptr_t)(&V_15)), NULL);
+		DracoMeshLoader_ReleaseDracoData_m9406AF4A4E2CAB77E6523A210D32EFF9124EA998((DracoData_tEA52B2468A7E87746A78568E2ED177526D3D4CE8**)((uintptr_t)(&V_15)), NULL);
 		// ReleaseDracoAttribute(&attr);
-		DracoMeshLoader_ReleaseDracoAttribute_m70C3E5B9BFFFDBFC64F4EE1DF5CCBB60E5A2B05F((DracoAttribute_t014F8A8B9EDC0076546F3AF3952B1E63898DCDCF**)((uintptr_t)(&V_9)), NULL);
+		DracoMeshLoader_ReleaseDracoAttribute_m1EAD1550B561E56CF968FA0C566AF4F04235CCB0((DracoAttribute_t014F8A8B9EDC0076546F3AF3952B1E63898DCDCF**)((uintptr_t)(&V_9)), NULL);
 	}
 
 IL_01ec:
 	{
 		// if (GetAttributeByType(dracoMesh, AttributeType.COLOR, 0, &attr)) {
-		DracoMesh_tA3695E948287460F26648614EB0E6FCBFC828B2D* L_82 = ___dracoMesh0;
+		DracoMesh_tA3695E948287460F26648614EB0E6FCBFC828B2D* L_82 = ___0_dracoMesh;
 		bool L_83;
-		L_83 = DracoMeshLoader_GetAttributeByType_m729EAAB67F6C62F44CE7A74B5C286B7C2A0925BE(L_82, 2, 0, (DracoAttribute_t014F8A8B9EDC0076546F3AF3952B1E63898DCDCF**)((uintptr_t)(&V_9)), NULL);
+		L_83 = DracoMeshLoader_GetAttributeByType_m047DC41AF6E39F1B4D61E90B56B37EC0E734B22A(L_82, 2, 0, (DracoAttribute_t014F8A8B9EDC0076546F3AF3952B1E63898DCDCF**)((uintptr_t)(&V_9)), NULL);
 		if (!L_83)
 		{
 			goto IL_0270;
@@ -1934,10 +2085,10 @@ IL_01ec:
 		// DracoData* colorData = null;
 		V_16 = (DracoData_tEA52B2468A7E87746A78568E2ED177526D3D4CE8*)((uintptr_t)0);
 		// if (GetAttributeData(dracoMesh, attr, &colorData)) {
-		DracoMesh_tA3695E948287460F26648614EB0E6FCBFC828B2D* L_84 = ___dracoMesh0;
+		DracoMesh_tA3695E948287460F26648614EB0E6FCBFC828B2D* L_84 = ___0_dracoMesh;
 		DracoAttribute_t014F8A8B9EDC0076546F3AF3952B1E63898DCDCF* L_85 = V_9;
 		bool L_86;
-		L_86 = DracoMeshLoader_GetAttributeData_mC6C47E36DAB9490B67009094BCE7C4CF27FA3B0A(L_84, L_85, (DracoData_tEA52B2468A7E87746A78568E2ED177526D3D4CE8**)((uintptr_t)(&V_16)), NULL);
+		L_86 = DracoMeshLoader_GetAttributeData_mE42729CFBDB42DEA10FEB1F2B0D552655FB6F2A5(L_84, L_85, (DracoData_tEA52B2468A7E87746A78568E2ED177526D3D4CE8**)((uintptr_t)(&V_16)), NULL);
 		if (!L_86)
 		{
 			goto IL_0270;
@@ -1957,7 +2108,7 @@ IL_01ec:
 		int32_t L_91 = L_90->___numComponents_2;
 		V_7 = ((int32_t)il2cpp_codegen_multiply(L_89, L_91));
 		// newColors = new Color[dracoMesh->numVertices];
-		DracoMesh_tA3695E948287460F26648614EB0E6FCBFC828B2D* L_92 = ___dracoMesh0;
+		DracoMesh_tA3695E948287460F26648614EB0E6FCBFC828B2D* L_92 = ___0_dracoMesh;
 		NullCheck(L_92);
 		int32_t L_93 = L_92->___numVertices_1;
 		ColorU5BU5D_t612261CF293F6FFC3D80AB52259FF0DC2B2CC389* L_94 = (ColorU5BU5D_t612261CF293F6FFC3D80AB52259FF0DC2B2CC389*)(ColorU5BU5D_t612261CF293F6FFC3D80AB52259FF0DC2B2CC389*)SZArrayNew(ColorU5BU5D_t612261CF293F6FFC3D80AB52259FF0DC2B2CC389_il2cpp_TypeInfo_var, (uint32_t)L_93);
@@ -1973,27 +2124,27 @@ IL_01ec:
 		NullCheck(L_97);
 		intptr_t L_98 = L_97->___data_1;
 		void* L_99;
-		L_99 = IntPtr_op_Explicit_m693F2F9E685EE117D4AC080342B8959DAF684294(L_98, NULL);
-		DracoMesh_tA3695E948287460F26648614EB0E6FCBFC828B2D* L_100 = ___dracoMesh0;
+		L_99 = IntPtr_op_Explicit_m2728CBA081E79B97DDCF1D4FAD77B309CA1E94BF(L_98, NULL);
+		DracoMesh_tA3695E948287460F26648614EB0E6FCBFC828B2D* L_100 = ___0_dracoMesh;
 		NullCheck(L_100);
 		int32_t L_101 = L_100->___numVertices_1;
 		int32_t L_102 = V_7;
-		UnsafeUtility_MemCpy_m019E657B952C27F705607F0F3D371EEE526B716B(L_96, L_99, ((int64_t)((int32_t)il2cpp_codegen_multiply(L_101, L_102))), NULL);
+		UnsafeUtility_MemCpy_m5CEA91ACDADC522E584AE3A2AB2B0B74393A9177(L_96, L_99, ((int64_t)((int32_t)il2cpp_codegen_multiply(L_101, L_102))), NULL);
 		// Debug.Log("Decoded mesh colors.");
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-		Debug_Log_m86567BCF22BBE7809747817453CACA0E41E68219(_stringLiteral5A938D1BDDD7401E071E8EB937F4DD9D948C32AB, NULL);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteral5A938D1BDDD7401E071E8EB937F4DD9D948C32AB, NULL);
 		// ReleaseDracoData(&colorData);
-		DracoMeshLoader_ReleaseDracoData_m896ED5936D2C3FA4B23CA20D15F27C0D7BD933F4((DracoData_tEA52B2468A7E87746A78568E2ED177526D3D4CE8**)((uintptr_t)(&V_16)), NULL);
+		DracoMeshLoader_ReleaseDracoData_m9406AF4A4E2CAB77E6523A210D32EFF9124EA998((DracoData_tEA52B2468A7E87746A78568E2ED177526D3D4CE8**)((uintptr_t)(&V_16)), NULL);
 		// ReleaseDracoAttribute(&attr);
-		DracoMeshLoader_ReleaseDracoAttribute_m70C3E5B9BFFFDBFC64F4EE1DF5CCBB60E5A2B05F((DracoAttribute_t014F8A8B9EDC0076546F3AF3952B1E63898DCDCF**)((uintptr_t)(&V_9)), NULL);
+		DracoMeshLoader_ReleaseDracoAttribute_m1EAD1550B561E56CF968FA0C566AF4F04235CCB0((DracoAttribute_t014F8A8B9EDC0076546F3AF3952B1E63898DCDCF**)((uintptr_t)(&V_9)), NULL);
 	}
 
 IL_0270:
 	{
 		// if (GetAttributeByType(dracoMesh, AttributeType.GENERIC, 0, &attr)) {
-		DracoMesh_tA3695E948287460F26648614EB0E6FCBFC828B2D* L_103 = ___dracoMesh0;
+		DracoMesh_tA3695E948287460F26648614EB0E6FCBFC828B2D* L_103 = ___0_dracoMesh;
 		bool L_104;
-		L_104 = DracoMeshLoader_GetAttributeByType_m729EAAB67F6C62F44CE7A74B5C286B7C2A0925BE(L_103, 4, 0, (DracoAttribute_t014F8A8B9EDC0076546F3AF3952B1E63898DCDCF**)((uintptr_t)(&V_9)), NULL);
+		L_104 = DracoMeshLoader_GetAttributeByType_m047DC41AF6E39F1B4D61E90B56B37EC0E734B22A(L_103, 4, 0, (DracoAttribute_t014F8A8B9EDC0076546F3AF3952B1E63898DCDCF**)((uintptr_t)(&V_9)), NULL);
 		if (!L_104)
 		{
 			goto IL_02f3;
@@ -2003,10 +2154,10 @@ IL_0270:
 		// DracoData* genericData = null;
 		V_17 = (DracoData_tEA52B2468A7E87746A78568E2ED177526D3D4CE8*)((uintptr_t)0);
 		// if (GetAttributeData(dracoMesh, attr, &genericData)) {
-		DracoMesh_tA3695E948287460F26648614EB0E6FCBFC828B2D* L_105 = ___dracoMesh0;
+		DracoMesh_tA3695E948287460F26648614EB0E6FCBFC828B2D* L_105 = ___0_dracoMesh;
 		DracoAttribute_t014F8A8B9EDC0076546F3AF3952B1E63898DCDCF* L_106 = V_9;
 		bool L_107;
-		L_107 = DracoMeshLoader_GetAttributeData_mC6C47E36DAB9490B67009094BCE7C4CF27FA3B0A(L_105, L_106, (DracoData_tEA52B2468A7E87746A78568E2ED177526D3D4CE8**)((uintptr_t)(&V_17)), NULL);
+		L_107 = DracoMeshLoader_GetAttributeData_mE42729CFBDB42DEA10FEB1F2B0D552655FB6F2A5(L_105, L_106, (DracoData_tEA52B2468A7E87746A78568E2ED177526D3D4CE8**)((uintptr_t)(&V_17)), NULL);
 		if (!L_107)
 		{
 			goto IL_02f3;
@@ -2026,7 +2177,7 @@ IL_0270:
 		int32_t L_112 = L_111->___numComponents_2;
 		V_7 = ((int32_t)il2cpp_codegen_multiply(L_110, L_112));
 		// newGenerics = new byte[dracoMesh->numVertices * elementSize];
-		DracoMesh_tA3695E948287460F26648614EB0E6FCBFC828B2D* L_113 = ___dracoMesh0;
+		DracoMesh_tA3695E948287460F26648614EB0E6FCBFC828B2D* L_113 = ___0_dracoMesh;
 		NullCheck(L_113);
 		int32_t L_114 = L_113->___numVertices_1;
 		int32_t L_115 = V_7;
@@ -2041,19 +2192,19 @@ IL_0270:
 		NullCheck(L_118);
 		intptr_t L_119 = L_118->___data_1;
 		void* L_120;
-		L_120 = IntPtr_op_Explicit_m693F2F9E685EE117D4AC080342B8959DAF684294(L_119, NULL);
-		DracoMesh_tA3695E948287460F26648614EB0E6FCBFC828B2D* L_121 = ___dracoMesh0;
+		L_120 = IntPtr_op_Explicit_m2728CBA081E79B97DDCF1D4FAD77B309CA1E94BF(L_119, NULL);
+		DracoMesh_tA3695E948287460F26648614EB0E6FCBFC828B2D* L_121 = ___0_dracoMesh;
 		NullCheck(L_121);
 		int32_t L_122 = L_121->___numVertices_1;
 		int32_t L_123 = V_7;
-		UnsafeUtility_MemCpy_m019E657B952C27F705607F0F3D371EEE526B716B(L_117, L_120, ((int64_t)((int32_t)il2cpp_codegen_multiply(L_122, L_123))), NULL);
+		UnsafeUtility_MemCpy_m5CEA91ACDADC522E584AE3A2AB2B0B74393A9177(L_117, L_120, ((int64_t)((int32_t)il2cpp_codegen_multiply(L_122, L_123))), NULL);
 		// Debug.Log("Decoded mesh generic data.");
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-		Debug_Log_m86567BCF22BBE7809747817453CACA0E41E68219(_stringLiteral5C3DEFA23303BF83C71BBC5797AC9DCCE832ACB8, NULL);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteral5C3DEFA23303BF83C71BBC5797AC9DCCE832ACB8, NULL);
 		// ReleaseDracoData(&genericData);
-		DracoMeshLoader_ReleaseDracoData_m896ED5936D2C3FA4B23CA20D15F27C0D7BD933F4((DracoData_tEA52B2468A7E87746A78568E2ED177526D3D4CE8**)((uintptr_t)(&V_17)), NULL);
+		DracoMeshLoader_ReleaseDracoData_m9406AF4A4E2CAB77E6523A210D32EFF9124EA998((DracoData_tEA52B2468A7E87746A78568E2ED177526D3D4CE8**)((uintptr_t)(&V_17)), NULL);
 		// ReleaseDracoAttribute(&attr);
-		DracoMeshLoader_ReleaseDracoAttribute_m70C3E5B9BFFFDBFC64F4EE1DF5CCBB60E5A2B05F((DracoAttribute_t014F8A8B9EDC0076546F3AF3952B1E63898DCDCF**)((uintptr_t)(&V_9)), NULL);
+		DracoMeshLoader_ReleaseDracoAttribute_m1EAD1550B561E56CF968FA0C566AF4F04235CCB0((DracoAttribute_t014F8A8B9EDC0076546F3AF3952B1E63898DCDCF**)((uintptr_t)(&V_9)), NULL);
 	}
 
 IL_02f3:
@@ -2061,7 +2212,7 @@ IL_02f3:
 		// float copyDecodedDataTimeMilli =
 		//     (Time.realtimeSinceStartup - startTime) * 1000.0f;
 		float L_124;
-		L_124 = Time_get_realtimeSinceStartup_mB49A5622E38FFE9589EB9B3E75573E443B8D63EC(NULL);
+		L_124 = Time_get_realtimeSinceStartup_m73B3CB73175D79A44333D59BB70F9EDE55EC9510(NULL);
 		float L_125 = V_0;
 		V_11 = ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(L_124, L_125)), (1000.0f)));
 		// Debug.Log("copyDecodedDataTimeMilli: " +
@@ -2069,12 +2220,12 @@ IL_02f3:
 		String_t* L_126;
 		L_126 = Single_ToString_mE282EDA9CA4F7DF88432D807732837A629D04972((&V_11), NULL);
 		String_t* L_127;
-		L_127 = String_Concat_mAF2CE02CC0CB7460753D0A1A91CCF2B1E9804C5D(_stringLiteralBDAEE5DE099CEFBD096E9AA7658CF850791A89D5, L_126, NULL);
+		L_127 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralBDAEE5DE099CEFBD096E9AA7658CF850791A89D5, L_126, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-		Debug_Log_m86567BCF22BBE7809747817453CACA0E41E68219(L_127, NULL);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_127, NULL);
 		// startTime = Time.realtimeSinceStartup;
 		float L_128;
-		L_128 = Time_get_realtimeSinceStartup_mB49A5622E38FFE9589EB9B3E75573E443B8D63EC(NULL);
+		L_128 = Time_get_realtimeSinceStartup_m73B3CB73175D79A44333D59BB70F9EDE55EC9510(NULL);
 		V_0 = L_128;
 		// Mesh mesh = new Mesh();
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_129 = (Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4*)il2cpp_codegen_object_new(Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4_il2cpp_TypeInfo_var);
@@ -2161,7 +2312,7 @@ IL_0366:
 		Mesh_RecalculateNormals_m3AA2788914611444E030CA310E03E3CFE683902B(L_142, NULL);
 		// Debug.Log("Mesh doesn't have normals, recomputed.");
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-		Debug_Log_m86567BCF22BBE7809747817453CACA0E41E68219(_stringLiteral291DBB26CDFF67D42DF493EAFEA856CD6D4A133C, NULL);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteral291DBB26CDFF67D42DF493EAFEA856CD6D4A133C, NULL);
 	}
 
 IL_0377:
@@ -2186,23 +2337,23 @@ IL_0384:
 		// float convertTimeMilli =
 		//     (Time.realtimeSinceStartup - startTime) * 1000.0f;
 		float L_146;
-		L_146 = Time_get_realtimeSinceStartup_mB49A5622E38FFE9589EB9B3E75573E443B8D63EC(NULL);
+		L_146 = Time_get_realtimeSinceStartup_m73B3CB73175D79A44333D59BB70F9EDE55EC9510(NULL);
 		float L_147 = V_0;
 		V_13 = ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(L_146, L_147)), (1000.0f)));
 		// Debug.Log("convertTimeMilli: " + convertTimeMilli.ToString());
 		String_t* L_148;
 		L_148 = Single_ToString_mE282EDA9CA4F7DF88432D807732837A629D04972((&V_13), NULL);
 		String_t* L_149;
-		L_149 = String_Concat_mAF2CE02CC0CB7460753D0A1A91CCF2B1E9804C5D(_stringLiteral66963AF1155926ACC83E9C6EC0EFA5B3B0E3191F, L_148, NULL);
+		L_149 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral66963AF1155926ACC83E9C6EC0EFA5B3B0E3191F, L_148, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-		Debug_Log_m86567BCF22BBE7809747817453CACA0E41E68219(L_149, NULL);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_149, NULL);
 		// return mesh;
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_150 = V_12;
 		return L_150;
 	}
 }
 // System.Void DracoMeshLoader::UnityMeshToCamera(UnityEngine.Mesh&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DracoMeshLoader_UnityMeshToCamera_m4AEFCC14E5629B43D08ADCEC91A9AA6831F48E94 (DracoMeshLoader_tE3DDC08D883ED9A4814756DC5F0FF29482E69D28* __this, Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4** ___mesh0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DracoMeshLoader_UnityMeshToCamera_m4AEFCC14E5629B43D08ADCEC91A9AA6831F48E94 (DracoMeshLoader_tE3DDC08D883ED9A4814756DC5F0FF29482E69D28* __this, Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4** ___0_mesh, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -2223,15 +2374,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DracoMeshLoader_UnityMeshToCamera_m4AEFC
 	{
 		// float startTime = Time.realtimeSinceStartup;
 		float L_0;
-		L_0 = Time_get_realtimeSinceStartup_mB49A5622E38FFE9589EB9B3E75573E443B8D63EC(NULL);
+		L_0 = Time_get_realtimeSinceStartup_m73B3CB73175D79A44333D59BB70F9EDE55EC9510(NULL);
 		V_0 = L_0;
 		// mesh.RecalculateBounds();
-		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4** L_1 = ___mesh0;
+		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4** L_1 = ___0_mesh;
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_2 = *((Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4**)L_1);
 		NullCheck(L_2);
 		Mesh_RecalculateBounds_mA9B293F57C6CD298AE2D2DB19061FC23B05AB90B(L_2, NULL);
 		// float scale = 0.5f / mesh.bounds.extents.x;
-		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4** L_3 = ___mesh0;
+		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4** L_3 = ___0_mesh;
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_4 = *((Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4**)L_3);
 		NullCheck(L_4);
 		Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3 L_5;
@@ -2242,7 +2393,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DracoMeshLoader_UnityMeshToCamera_m4AEFC
 		float L_7 = L_6.___x_2;
 		V_1 = ((float)((0.5f)/L_7));
 		// if (0.5f / mesh.bounds.extents.y < scale) {
-		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4** L_8 = ___mesh0;
+		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4** L_8 = ___0_mesh;
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_9 = *((Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4**)L_8);
 		NullCheck(L_9);
 		Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3 L_10;
@@ -2259,7 +2410,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DracoMeshLoader_UnityMeshToCamera_m4AEFC
 	}
 	{
 		// scale = 0.5f / mesh.bounds.extents.y;
-		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4** L_14 = ___mesh0;
+		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4** L_14 = ___0_mesh;
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_15 = *((Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4**)L_14);
 		NullCheck(L_15);
 		Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3 L_16;
@@ -2274,7 +2425,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DracoMeshLoader_UnityMeshToCamera_m4AEFC
 IL_0063:
 	{
 		// if (0.5f / mesh.bounds.extents.z < scale) {
-		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4** L_19 = ___mesh0;
+		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4** L_19 = ___0_mesh;
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_20 = *((Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4**)L_19);
 		NullCheck(L_20);
 		Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3 L_21;
@@ -2291,7 +2442,7 @@ IL_0063:
 	}
 	{
 		// scale = 0.5f / mesh.bounds.extents.z;
-		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4** L_25 = ___mesh0;
+		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4** L_25 = ___0_mesh;
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_26 = *((Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4**)L_25);
 		NullCheck(L_26);
 		Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3 L_27;
@@ -2306,7 +2457,7 @@ IL_0063:
 IL_009d:
 	{
 		// Vector3[] vertices = mesh.vertices;
-		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4** L_30 = ___mesh0;
+		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4** L_30 = ___0_mesh;
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_31 = *((Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4**)L_30);
 		NullCheck(L_31);
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_32;
@@ -2327,7 +2478,7 @@ IL_00a9:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_36 = (*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_35);
 		float L_37 = V_1;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_38;
-		L_38 = Vector3_op_Multiply_m516FE285F5342F922C6EB3FCB33197E9017FF484_inline(L_36, L_37, NULL);
+		L_38 = Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline(L_36, L_37, NULL);
 		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_35 = L_38;
 		// i++;
 		int32_t L_39 = V_3;
@@ -2347,18 +2498,18 @@ IL_00c5:
 	}
 	{
 		// mesh.vertices = vertices;
-		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4** L_42 = ___mesh0;
+		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4** L_42 = ___0_mesh;
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_43 = *((Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4**)L_42);
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_44 = V_2;
 		NullCheck(L_43);
 		Mesh_set_vertices_m5BB814D89E9ACA00DBF19F7D8E22CB73AC73FE5C(L_43, L_44, NULL);
 		// mesh.RecalculateBounds();
-		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4** L_45 = ___mesh0;
+		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4** L_45 = ___0_mesh;
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_46 = *((Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4**)L_45);
 		NullCheck(L_46);
 		Mesh_RecalculateBounds_mA9B293F57C6CD298AE2D2DB19061FC23B05AB90B(L_46, NULL);
 		// Vector3 translate = mesh.bounds.center;
-		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4** L_47 = ___mesh0;
+		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4** L_47 = ___0_mesh;
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_48 = *((Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4**)L_47);
 		NullCheck(L_48);
 		Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3 L_49;
@@ -2368,7 +2519,7 @@ IL_00c5:
 		L_50 = Bounds_get_center_m5B05F81CB835EB6DD8628FDA24B638F477984DC3((&V_6), NULL);
 		V_4 = L_50;
 		// translate.x = 0 - mesh.bounds.center.x;
-		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4** L_51 = ___mesh0;
+		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4** L_51 = ___0_mesh;
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_52 = *((Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4**)L_51);
 		NullCheck(L_52);
 		Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3 L_53;
@@ -2379,7 +2530,7 @@ IL_00c5:
 		float L_55 = L_54.___x_2;
 		(&V_4)->___x_2 = ((float)il2cpp_codegen_subtract((0.0f), L_55));
 		// translate.y = 0 - mesh.bounds.center.y;
-		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4** L_56 = ___mesh0;
+		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4** L_56 = ___0_mesh;
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_57 = *((Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4**)L_56);
 		NullCheck(L_57);
 		Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3 L_58;
@@ -2390,7 +2541,7 @@ IL_00c5:
 		float L_60 = L_59.___y_3;
 		(&V_4)->___y_3 = ((float)il2cpp_codegen_subtract((0.0f), L_60));
 		// translate.z = 2 - mesh.bounds.center.z;
-		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4** L_61 = ___mesh0;
+		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4** L_61 = ___0_mesh;
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_62 = *((Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4**)L_61);
 		NullCheck(L_62);
 		Bounds_t367E830C64BBF235ED8C3B2F8CF6254FDCAD39C3 L_63;
@@ -2415,7 +2566,7 @@ IL_0156:
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_69 = (*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_68);
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_70 = V_4;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_71;
-		L_71 = Vector3_op_Addition_m087D6F0EC60843D455F9F83D25FE42B2433AAD1D_inline(L_69, L_70, NULL);
+		L_71 = Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline(L_69, L_70, NULL);
 		*(Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2*)L_68 = L_71;
 		// i++;
 		int32_t L_72 = V_3;
@@ -2435,7 +2586,7 @@ IL_0173:
 	}
 	{
 		// mesh.vertices = vertices;
-		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4** L_75 = ___mesh0;
+		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4** L_75 = ___0_mesh;
 		Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4* L_76 = *((Mesh_t6D9C539763A09BC2B12AEAEF36F6DFFC98AE63D4**)L_75);
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_77 = V_2;
 		NullCheck(L_76);
@@ -2443,25 +2594,25 @@ IL_0173:
 		// float transformTimeMilli =
 		//     (Time.realtimeSinceStartup - startTime) * 1000.0f;
 		float L_78;
-		L_78 = Time_get_realtimeSinceStartup_mB49A5622E38FFE9589EB9B3E75573E443B8D63EC(NULL);
+		L_78 = Time_get_realtimeSinceStartup_m73B3CB73175D79A44333D59BB70F9EDE55EC9510(NULL);
 		float L_79 = V_0;
 		V_5 = ((float)il2cpp_codegen_multiply(((float)il2cpp_codegen_subtract(L_78, L_79)), (1000.0f)));
 		// Debug.Log("transformTimeMilli: " + transformTimeMilli.ToString());
 		String_t* L_80;
 		L_80 = Single_ToString_mE282EDA9CA4F7DF88432D807732837A629D04972((&V_5), NULL);
 		String_t* L_81;
-		L_81 = String_Concat_mAF2CE02CC0CB7460753D0A1A91CCF2B1E9804C5D(_stringLiteralA0834D9E1930A9DFC360364E9ECFCB9F5742DBB7, L_80, NULL);
+		L_81 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteralA0834D9E1930A9DFC360364E9ECFCB9F5742DBB7, L_80, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-		Debug_Log_m86567BCF22BBE7809747817453CACA0E41E68219(L_81, NULL);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_81, NULL);
 		// }
 		return;
 	}
 }
 // System.Int32 DracoMeshLoader::DataTypeSize(DracoMeshLoader/DataType)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DracoMeshLoader_DataTypeSize_m5C1469C042B13670439757018B59DE512AEC2190 (DracoMeshLoader_tE3DDC08D883ED9A4814756DC5F0FF29482E69D28* __this, int32_t ___dt0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t DracoMeshLoader_DataTypeSize_m5C1469C042B13670439757018B59DE512AEC2190 (DracoMeshLoader_tE3DDC08D883ED9A4814756DC5F0FF29482E69D28* __this, int32_t ___0_dt, const RuntimeMethod* method) 
 {
 	{
-		int32_t L_0 = ___dt0;
+		int32_t L_0 = ___0_dt;
 		switch (((int32_t)il2cpp_codegen_subtract((int32_t)L_0, 1)))
 		{
 			case 0:
@@ -2603,7 +2754,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DracoMeshLoader__ctor_m26F36E83156566827
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 // System.Void GLTFUtilityDracoLoader::ReleaseDracoMesh(GLTFUtilityDracoLoader/DracoMesh**)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GLTFUtilityDracoLoader_ReleaseDracoMesh_m07FDFFE2F2751BBAFF88460A05D394DCD5E8ED5A (DracoMesh_t9D87B0103C712F6D388C4772617AC33F7DA006BA** ___mesh0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GLTFUtilityDracoLoader_ReleaseDracoMesh_mBF52416B8B96941E7F8CDA1B2E9A77F6520306D0 (DracoMesh_t9D87B0103C712F6D388C4772617AC33F7DA006BA** ___0_mesh, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (DracoMesh_t9D87B0103C712F6D388C4772617AC33F7DA006BA**);
 	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_dracodec_unity_INTERNAL
@@ -2618,14 +2769,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GLTFUtilityDracoLoader_ReleaseDracoMesh_
 
 	// Native function invocation
 	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_dracodec_unity_INTERNAL
-	reinterpret_cast<PInvokeFunc>(ReleaseDracoMesh)(___mesh0);
+	reinterpret_cast<PInvokeFunc>(ReleaseDracoMesh)(___0_mesh);
 	#else
-	il2cppPInvokeFunc(___mesh0);
+	il2cppPInvokeFunc(___0_mesh);
 	#endif
 
 }
 // System.Void GLTFUtilityDracoLoader::ReleaseDracoAttribute(GLTFUtilityDracoLoader/DracoAttribute**)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GLTFUtilityDracoLoader_ReleaseDracoAttribute_m73CA5EA8522B41CDCE4DBE5B46366C04781E8FA1 (DracoAttribute_t97673B31C59763CEDC99D49CE44E72077980B718** ___attr0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GLTFUtilityDracoLoader_ReleaseDracoAttribute_m48EFAC5A2E37B6FD427C3612CB2BCDF4201A6D5A (DracoAttribute_t97673B31C59763CEDC99D49CE44E72077980B718** ___0_attr, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (DracoAttribute_t97673B31C59763CEDC99D49CE44E72077980B718**);
 	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_dracodec_unity_INTERNAL
@@ -2640,14 +2791,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GLTFUtilityDracoLoader_ReleaseDracoAttri
 
 	// Native function invocation
 	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_dracodec_unity_INTERNAL
-	reinterpret_cast<PInvokeFunc>(ReleaseDracoAttribute)(___attr0);
+	reinterpret_cast<PInvokeFunc>(ReleaseDracoAttribute)(___0_attr);
 	#else
-	il2cppPInvokeFunc(___attr0);
+	il2cppPInvokeFunc(___0_attr);
 	#endif
 
 }
 // System.Void GLTFUtilityDracoLoader::ReleaseDracoData(GLTFUtilityDracoLoader/DracoData**)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GLTFUtilityDracoLoader_ReleaseDracoData_m8979F17355AC518CCABC22A4767DC8DDFA9A7412 (DracoData_t9555833FD2CA866D072660E0082261D9FDB2813C** ___data0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GLTFUtilityDracoLoader_ReleaseDracoData_m038863443C5E34BE530581576D6F8458640548D1 (DracoData_t9555833FD2CA866D072660E0082261D9FDB2813C** ___0_data, const RuntimeMethod* method) 
 {
 	typedef void (DEFAULT_CALL *PInvokeFunc) (DracoData_t9555833FD2CA866D072660E0082261D9FDB2813C**);
 	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_dracodec_unity_INTERNAL
@@ -2662,14 +2813,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GLTFUtilityDracoLoader_ReleaseDracoData_
 
 	// Native function invocation
 	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_dracodec_unity_INTERNAL
-	reinterpret_cast<PInvokeFunc>(ReleaseDracoData)(___data0);
+	reinterpret_cast<PInvokeFunc>(ReleaseDracoData)(___0_data);
 	#else
-	il2cppPInvokeFunc(___data0);
+	il2cppPInvokeFunc(___0_data);
 	#endif
 
 }
 // System.Int32 GLTFUtilityDracoLoader::DecodeDracoMesh(System.Byte[],System.Int32,GLTFUtilityDracoLoader/DracoMesh**)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GLTFUtilityDracoLoader_DecodeDracoMesh_mDED35A9AB0BB9BEBB4ACB3522D2032A6D3F0B2B4 (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___buffer0, int32_t ___length1, DracoMesh_t9D87B0103C712F6D388C4772617AC33F7DA006BA** ___mesh2, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GLTFUtilityDracoLoader_DecodeDracoMesh_mC340B7707C74D858CABBE9D864787E9498CFB2CA (ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___0_buffer, int32_t ___1_length, DracoMesh_t9D87B0103C712F6D388C4772617AC33F7DA006BA** ___2_mesh, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (uint8_t*, int32_t, DracoMesh_t9D87B0103C712F6D388C4772617AC33F7DA006BA**);
 	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_dracodec_unity_INTERNAL
@@ -2682,24 +2833,24 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GLTFUtilityDracoLoader_DecodeDracoMes
 	}
 	#endif
 
-	// Marshaling of parameter '___buffer0' to native representation
-	uint8_t* ____buffer0_marshaled = NULL;
-	if (___buffer0 != NULL)
+	// Marshaling of parameter '___0_buffer' to native representation
+	uint8_t* ____0_buffer_marshaled = NULL;
+	if (___0_buffer != NULL)
 	{
-		____buffer0_marshaled = reinterpret_cast<uint8_t*>((___buffer0)->GetAddressAtUnchecked(0));
+		____0_buffer_marshaled = reinterpret_cast<uint8_t*>((___0_buffer)->GetAddressAtUnchecked(0));
 	}
 
 	// Native function invocation
 	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_dracodec_unity_INTERNAL
-	int32_t returnValue = reinterpret_cast<PInvokeFunc>(DecodeDracoMesh)(____buffer0_marshaled, ___length1, ___mesh2);
+	int32_t returnValue = reinterpret_cast<PInvokeFunc>(DecodeDracoMesh)(____0_buffer_marshaled, ___1_length, ___2_mesh);
 	#else
-	int32_t returnValue = il2cppPInvokeFunc(____buffer0_marshaled, ___length1, ___mesh2);
+	int32_t returnValue = il2cppPInvokeFunc(____0_buffer_marshaled, ___1_length, ___2_mesh);
 	#endif
 
 	return returnValue;
 }
 // System.Boolean GLTFUtilityDracoLoader::GetAttribute(GLTFUtilityDracoLoader/DracoMesh*,System.Int32,GLTFUtilityDracoLoader/DracoAttribute**)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GLTFUtilityDracoLoader_GetAttribute_m0414C6423FE808EC2D95B7250EF66BE0942CC2CE (DracoMesh_t9D87B0103C712F6D388C4772617AC33F7DA006BA* ___mesh0, int32_t ___index1, DracoAttribute_t97673B31C59763CEDC99D49CE44E72077980B718** ___attr2, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GLTFUtilityDracoLoader_GetAttribute_m990B097ECF986B0D0C1399CCDF0D16F8E99D83BD (DracoMesh_t9D87B0103C712F6D388C4772617AC33F7DA006BA* ___0_mesh, int32_t ___1_index, DracoAttribute_t97673B31C59763CEDC99D49CE44E72077980B718** ___2_attr, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (DracoMesh_t9D87B0103C712F6D388C4772617AC33F7DA006BA*, int32_t, DracoAttribute_t97673B31C59763CEDC99D49CE44E72077980B718**);
 	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_dracodec_unity_INTERNAL
@@ -2714,15 +2865,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GLTFUtilityDracoLoader_GetAttribute_m041
 
 	// Native function invocation
 	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_dracodec_unity_INTERNAL
-	int32_t returnValue = reinterpret_cast<PInvokeFunc>(GetAttribute)(___mesh0, ___index1, ___attr2);
+	int32_t returnValue = reinterpret_cast<PInvokeFunc>(GetAttribute)(___0_mesh, ___1_index, ___2_attr);
 	#else
-	int32_t returnValue = il2cppPInvokeFunc(___mesh0, ___index1, ___attr2);
+	int32_t returnValue = il2cppPInvokeFunc(___0_mesh, ___1_index, ___2_attr);
 	#endif
 
 	return static_cast<bool>(returnValue);
 }
 // System.Boolean GLTFUtilityDracoLoader::GetAttributeByType(GLTFUtilityDracoLoader/DracoMesh*,GLTFUtilityDracoLoader/AttributeType,System.Int32,GLTFUtilityDracoLoader/DracoAttribute**)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GLTFUtilityDracoLoader_GetAttributeByType_m92F70B53DECF455A6EB7D51455009F01216AE33A (DracoMesh_t9D87B0103C712F6D388C4772617AC33F7DA006BA* ___mesh0, int32_t ___type1, int32_t ___index2, DracoAttribute_t97673B31C59763CEDC99D49CE44E72077980B718** ___attr3, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GLTFUtilityDracoLoader_GetAttributeByType_m0D5889BA02A86B88C9B3CD9A2BC01D86DBE87075 (DracoMesh_t9D87B0103C712F6D388C4772617AC33F7DA006BA* ___0_mesh, int32_t ___1_type, int32_t ___2_index, DracoAttribute_t97673B31C59763CEDC99D49CE44E72077980B718** ___3_attr, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (DracoMesh_t9D87B0103C712F6D388C4772617AC33F7DA006BA*, int32_t, int32_t, DracoAttribute_t97673B31C59763CEDC99D49CE44E72077980B718**);
 	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_dracodec_unity_INTERNAL
@@ -2737,15 +2888,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GLTFUtilityDracoLoader_GetAttributeByTyp
 
 	// Native function invocation
 	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_dracodec_unity_INTERNAL
-	int32_t returnValue = reinterpret_cast<PInvokeFunc>(GetAttributeByType)(___mesh0, ___type1, ___index2, ___attr3);
+	int32_t returnValue = reinterpret_cast<PInvokeFunc>(GetAttributeByType)(___0_mesh, ___1_type, ___2_index, ___3_attr);
 	#else
-	int32_t returnValue = il2cppPInvokeFunc(___mesh0, ___type1, ___index2, ___attr3);
+	int32_t returnValue = il2cppPInvokeFunc(___0_mesh, ___1_type, ___2_index, ___3_attr);
 	#endif
 
 	return static_cast<bool>(returnValue);
 }
 // System.Boolean GLTFUtilityDracoLoader::GetAttributeByUniqueId(GLTFUtilityDracoLoader/DracoMesh*,System.Int32,GLTFUtilityDracoLoader/DracoAttribute**)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GLTFUtilityDracoLoader_GetAttributeByUniqueId_m35876AF25A03BB18602D96BCF6AF472526CF5FC9 (DracoMesh_t9D87B0103C712F6D388C4772617AC33F7DA006BA* ___mesh0, int32_t ___unique_id1, DracoAttribute_t97673B31C59763CEDC99D49CE44E72077980B718** ___attr2, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GLTFUtilityDracoLoader_GetAttributeByUniqueId_m5C398531D8EAF148B449D751146154388765A8C9 (DracoMesh_t9D87B0103C712F6D388C4772617AC33F7DA006BA* ___0_mesh, int32_t ___1_unique_id, DracoAttribute_t97673B31C59763CEDC99D49CE44E72077980B718** ___2_attr, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (DracoMesh_t9D87B0103C712F6D388C4772617AC33F7DA006BA*, int32_t, DracoAttribute_t97673B31C59763CEDC99D49CE44E72077980B718**);
 	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_dracodec_unity_INTERNAL
@@ -2760,15 +2911,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GLTFUtilityDracoLoader_GetAttributeByUni
 
 	// Native function invocation
 	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_dracodec_unity_INTERNAL
-	int32_t returnValue = reinterpret_cast<PInvokeFunc>(GetAttributeByUniqueId)(___mesh0, ___unique_id1, ___attr2);
+	int32_t returnValue = reinterpret_cast<PInvokeFunc>(GetAttributeByUniqueId)(___0_mesh, ___1_unique_id, ___2_attr);
 	#else
-	int32_t returnValue = il2cppPInvokeFunc(___mesh0, ___unique_id1, ___attr2);
+	int32_t returnValue = il2cppPInvokeFunc(___0_mesh, ___1_unique_id, ___2_attr);
 	#endif
 
 	return static_cast<bool>(returnValue);
 }
 // System.Boolean GLTFUtilityDracoLoader::GetMeshIndices(GLTFUtilityDracoLoader/DracoMesh*,GLTFUtilityDracoLoader/DracoData**)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GLTFUtilityDracoLoader_GetMeshIndices_m124B4094F87081653344252ADAF6F5443140C3BA (DracoMesh_t9D87B0103C712F6D388C4772617AC33F7DA006BA* ___mesh0, DracoData_t9555833FD2CA866D072660E0082261D9FDB2813C** ___indices1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GLTFUtilityDracoLoader_GetMeshIndices_m9F2430907C062B186DEF00E0057343356496BC30 (DracoMesh_t9D87B0103C712F6D388C4772617AC33F7DA006BA* ___0_mesh, DracoData_t9555833FD2CA866D072660E0082261D9FDB2813C** ___1_indices, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (DracoMesh_t9D87B0103C712F6D388C4772617AC33F7DA006BA*, DracoData_t9555833FD2CA866D072660E0082261D9FDB2813C**);
 	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_dracodec_unity_INTERNAL
@@ -2783,15 +2934,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GLTFUtilityDracoLoader_GetMeshIndices_m1
 
 	// Native function invocation
 	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_dracodec_unity_INTERNAL
-	int32_t returnValue = reinterpret_cast<PInvokeFunc>(GetMeshIndices)(___mesh0, ___indices1);
+	int32_t returnValue = reinterpret_cast<PInvokeFunc>(GetMeshIndices)(___0_mesh, ___1_indices);
 	#else
-	int32_t returnValue = il2cppPInvokeFunc(___mesh0, ___indices1);
+	int32_t returnValue = il2cppPInvokeFunc(___0_mesh, ___1_indices);
 	#endif
 
 	return static_cast<bool>(returnValue);
 }
 // System.Boolean GLTFUtilityDracoLoader::GetAttributeData(GLTFUtilityDracoLoader/DracoMesh*,GLTFUtilityDracoLoader/DracoAttribute*,GLTFUtilityDracoLoader/DracoData**)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GLTFUtilityDracoLoader_GetAttributeData_m286D346A77C3CA3A94065F35D720DD09041A7641 (DracoMesh_t9D87B0103C712F6D388C4772617AC33F7DA006BA* ___mesh0, DracoAttribute_t97673B31C59763CEDC99D49CE44E72077980B718* ___attr1, DracoData_t9555833FD2CA866D072660E0082261D9FDB2813C** ___data2, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GLTFUtilityDracoLoader_GetAttributeData_mD11E651BDDB338F7C55AE1F8887BD291DD16F24C (DracoMesh_t9D87B0103C712F6D388C4772617AC33F7DA006BA* ___0_mesh, DracoAttribute_t97673B31C59763CEDC99D49CE44E72077980B718* ___1_attr, DracoData_t9555833FD2CA866D072660E0082261D9FDB2813C** ___2_data, const RuntimeMethod* method) 
 {
 	typedef int32_t (DEFAULT_CALL *PInvokeFunc) (DracoMesh_t9D87B0103C712F6D388C4772617AC33F7DA006BA*, DracoAttribute_t97673B31C59763CEDC99D49CE44E72077980B718*, DracoData_t9555833FD2CA866D072660E0082261D9FDB2813C**);
 	#if !FORCE_PINVOKE_INTERNAL && !FORCE_PINVOKE_dracodec_unity_INTERNAL
@@ -2806,15 +2957,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GLTFUtilityDracoLoader_GetAttributeData_
 
 	// Native function invocation
 	#if FORCE_PINVOKE_INTERNAL || FORCE_PINVOKE_dracodec_unity_INTERNAL
-	int32_t returnValue = reinterpret_cast<PInvokeFunc>(GetAttributeData)(___mesh0, ___attr1, ___data2);
+	int32_t returnValue = reinterpret_cast<PInvokeFunc>(GetAttributeData)(___0_mesh, ___1_attr, ___2_data);
 	#else
-	int32_t returnValue = il2cppPInvokeFunc(___mesh0, ___attr1, ___data2);
+	int32_t returnValue = il2cppPInvokeFunc(___0_mesh, ___1_attr, ___2_data);
 	#endif
 
 	return static_cast<bool>(returnValue);
 }
 // GLTFUtilityDracoLoader/AsyncMesh GLTFUtilityDracoLoader::LoadMesh(System.Byte[],GLTFUtilityDracoLoader/MeshAttributes)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AsyncMesh_tAEEA2D94EFA3DB666412B24F16013566CE6EEB13* GLTFUtilityDracoLoader_LoadMesh_m51F1A03B28C7E5E5F5844B7C8748FBF66FF35DDC (GLTFUtilityDracoLoader_t16771465C26E34ACCBF6E73AC7C9AB6F705315BC* __this, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___encodedData0, MeshAttributes_tB39A2497B9E8857B706FE89A4824EE74DE65C809 ___attributes1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AsyncMesh_tAEEA2D94EFA3DB666412B24F16013566CE6EEB13* GLTFUtilityDracoLoader_LoadMesh_m51F1A03B28C7E5E5F5844B7C8748FBF66FF35DDC (GLTFUtilityDracoLoader_t16771465C26E34ACCBF6E73AC7C9AB6F705315BC* __this, ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* ___0_encodedData, MeshAttributes_tB39A2497B9E8857B706FE89A4824EE74DE65C809 ___1_attributes, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -2829,11 +2980,11 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AsyncMesh_tAEEA2D94EFA3DB666412B24F16013566CE
 		// DracoMesh * mesh = null;
 		V_0 = (DracoMesh_t9D87B0103C712F6D388C4772617AC33F7DA006BA*)((uintptr_t)0);
 		// if (DecodeDracoMesh(encodedData, encodedData.Length, & mesh) <= 0) {
-		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_0 = ___encodedData0;
-		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_1 = ___encodedData0;
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_0 = ___0_encodedData;
+		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_1 = ___0_encodedData;
 		NullCheck(L_1);
 		int32_t L_2;
-		L_2 = GLTFUtilityDracoLoader_DecodeDracoMesh_mDED35A9AB0BB9BEBB4ACB3522D2032A6D3F0B2B4(L_0, ((int32_t)(((RuntimeArray*)L_1)->max_length)), (DracoMesh_t9D87B0103C712F6D388C4772617AC33F7DA006BA**)((uintptr_t)(&V_0)), NULL);
+		L_2 = GLTFUtilityDracoLoader_DecodeDracoMesh_mC340B7707C74D858CABBE9D864787E9498CFB2CA(L_0, ((int32_t)(((RuntimeArray*)L_1)->max_length)), (DracoMesh_t9D87B0103C712F6D388C4772617AC33F7DA006BA**)((uintptr_t)(&V_0)), NULL);
 		if ((((int32_t)L_2) > ((int32_t)0)))
 		{
 			goto IL_001e;
@@ -2842,7 +2993,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AsyncMesh_tAEEA2D94EFA3DB666412B24F16013566CE
 	{
 		// Debug.Log("Failed: Decoding error.");
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-		Debug_Log_m86567BCF22BBE7809747817453CACA0E41E68219(_stringLiteralAD4BDFEE1527EFE3C80A384D5ABEBB55BC7BE954, NULL);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteralAD4BDFEE1527EFE3C80A384D5ABEBB55BC7BE954, NULL);
 		// return null;
 		return (AsyncMesh_tAEEA2D94EFA3DB666412B24F16013566CE6EEB13*)NULL;
 	}
@@ -2851,7 +3002,7 @@ IL_001e:
 	{
 		// AsyncMesh unityMesh = CreateAsyncMesh(mesh, attributes);
 		DracoMesh_t9D87B0103C712F6D388C4772617AC33F7DA006BA* L_3 = V_0;
-		MeshAttributes_tB39A2497B9E8857B706FE89A4824EE74DE65C809 L_4 = ___attributes1;
+		MeshAttributes_tB39A2497B9E8857B706FE89A4824EE74DE65C809 L_4 = ___1_attributes;
 		AsyncMesh_tAEEA2D94EFA3DB666412B24F16013566CE6EEB13* L_5;
 		L_5 = GLTFUtilityDracoLoader_CreateAsyncMesh_m1176092770F2B729110930A6EE60E8EAAB5BE183(__this, L_3, L_4, NULL);
 		V_1 = L_5;
@@ -2860,7 +3011,7 @@ IL_001e:
 		NullCheck(L_6);
 		int32_t L_7 = L_6->___numFaces_0;
 		// ReleaseDracoMesh( & mesh);
-		GLTFUtilityDracoLoader_ReleaseDracoMesh_m07FDFFE2F2751BBAFF88460A05D394DCD5E8ED5A((DracoMesh_t9D87B0103C712F6D388C4772617AC33F7DA006BA**)((uintptr_t)(&V_0)), NULL);
+		GLTFUtilityDracoLoader_ReleaseDracoMesh_mBF52416B8B96941E7F8CDA1B2E9A77F6520306D0((DracoMesh_t9D87B0103C712F6D388C4772617AC33F7DA006BA**)((uintptr_t)(&V_0)), NULL);
 		// if (numFaces > 0) return unityMesh;
 		if ((((int32_t)L_7) <= ((int32_t)0)))
 		{
@@ -2880,7 +3031,7 @@ IL_003a:
 	}
 }
 // GLTFUtilityDracoLoader/AsyncMesh GLTFUtilityDracoLoader::CreateAsyncMesh(GLTFUtilityDracoLoader/DracoMesh*,GLTFUtilityDracoLoader/MeshAttributes)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AsyncMesh_tAEEA2D94EFA3DB666412B24F16013566CE6EEB13* GLTFUtilityDracoLoader_CreateAsyncMesh_m1176092770F2B729110930A6EE60E8EAAB5BE183 (GLTFUtilityDracoLoader_t16771465C26E34ACCBF6E73AC7C9AB6F705315BC* __this, DracoMesh_t9D87B0103C712F6D388C4772617AC33F7DA006BA* ___dracoMesh0, MeshAttributes_tB39A2497B9E8857B706FE89A4824EE74DE65C809 ___attributes1, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AsyncMesh_tAEEA2D94EFA3DB666412B24F16013566CE6EEB13* GLTFUtilityDracoLoader_CreateAsyncMesh_m1176092770F2B729110930A6EE60E8EAAB5BE183 (GLTFUtilityDracoLoader_t16771465C26E34ACCBF6E73AC7C9AB6F705315BC* __this, DracoMesh_t9D87B0103C712F6D388C4772617AC33F7DA006BA* ___0_dracoMesh, MeshAttributes_tB39A2497B9E8857B706FE89A4824EE74DE65C809 ___1_attributes, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -2889,8 +3040,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AsyncMesh_tAEEA2D94EFA3DB666412B24F16013566CE
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&BoneWeightU5BU5D_t76F390D8CBA0ADCB87EB98B135C8886857DFE651_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ColorU5BU5D_t612261CF293F6FFC3D80AB52259FF0DC2B2CC389_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerable_Select_TisVector4_1_t4C36E5A08C00EC23095617808564AAD5C1BC69F3_TisVector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3_m1A421A1C45603FFE13B17659CD57ECCACEFD90FF_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerable_ToArray_TisVector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3_m1E5E6D94C66CD1486DAE5C08FED91CE20781FB41_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerable_Select_TisVector4_1_t4C36E5A08C00EC23095617808564AAD5C1BC69F3_TisVector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3_m23F6758576B593756D68F7E0FEC48A47516E5AD6_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerable_ToArray_TisVector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3_mE61BE77D59816D9BFC942F78F5006F04F1C2AFD6_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Func_2_tD3354085A7E43DE0FD56CB0802978CB8B07814EC_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec_U3CCreateAsyncMeshU3Eb__19_0_mE5FACDA76F68B1CEE3771B0A71DA6DF403060209_RuntimeMethod_var);
@@ -2928,7 +3079,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AsyncMesh_tAEEA2D94EFA3DB666412B24F16013566CE
 	Vector4_1U5BU5D_tA4EF994A3D3FA683D52DC971F3CF1AAEA0853CF2* G_B26_1 = NULL;
 	{
 		// int numFaces = dracoMesh -> numFaces;
-		DracoMesh_t9D87B0103C712F6D388C4772617AC33F7DA006BA* L_0 = ___dracoMesh0;
+		DracoMesh_t9D87B0103C712F6D388C4772617AC33F7DA006BA* L_0 = ___0_dracoMesh;
 		DracoMesh_t9D87B0103C712F6D388C4772617AC33F7DA006BA L_1 = (*(DracoMesh_t9D87B0103C712F6D388C4772617AC33F7DA006BA*)L_0);
 		// AsyncMesh mesh = new AsyncMesh();
 		AsyncMesh_tAEEA2D94EFA3DB666412B24F16013566CE6EEB13* L_2 = (AsyncMesh_tAEEA2D94EFA3DB666412B24F16013566CE6EEB13*)il2cpp_codegen_object_new(AsyncMesh_tAEEA2D94EFA3DB666412B24F16013566CE6EEB13_il2cpp_TypeInfo_var);
@@ -2937,7 +3088,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AsyncMesh_tAEEA2D94EFA3DB666412B24F16013566CE
 		V_0 = L_2;
 		// mesh.tris = new int[dracoMesh -> numFaces * 3];
 		AsyncMesh_tAEEA2D94EFA3DB666412B24F16013566CE6EEB13* L_3 = V_0;
-		DracoMesh_t9D87B0103C712F6D388C4772617AC33F7DA006BA* L_4 = ___dracoMesh0;
+		DracoMesh_t9D87B0103C712F6D388C4772617AC33F7DA006BA* L_4 = ___0_dracoMesh;
 		NullCheck(L_4);
 		int32_t L_5 = L_4->___numFaces_0;
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_6 = (Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C*)SZArrayNew(Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C_il2cpp_TypeInfo_var, (uint32_t)((int32_t)il2cpp_codegen_multiply(L_5, 3)));
@@ -2946,7 +3097,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AsyncMesh_tAEEA2D94EFA3DB666412B24F16013566CE
 		Il2CppCodeGenWriteBarrier((void**)(&L_3->___tris_0), (void*)L_6);
 		// mesh.verts = new Vector3[dracoMesh -> numVertices];
 		AsyncMesh_tAEEA2D94EFA3DB666412B24F16013566CE6EEB13* L_7 = V_0;
-		DracoMesh_t9D87B0103C712F6D388C4772617AC33F7DA006BA* L_8 = ___dracoMesh0;
+		DracoMesh_t9D87B0103C712F6D388C4772617AC33F7DA006BA* L_8 = ___0_dracoMesh;
 		NullCheck(L_8);
 		int32_t L_9 = L_8->___numVertices_1;
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_10 = (Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C*)(Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C*)SZArrayNew(Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C_il2cpp_TypeInfo_var, (uint32_t)L_9);
@@ -2954,9 +3105,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AsyncMesh_tAEEA2D94EFA3DB666412B24F16013566CE
 		L_7->___verts_1 = L_10;
 		Il2CppCodeGenWriteBarrier((void**)(&L_7->___verts_1), (void*)L_10);
 		// GetMeshIndices(dracoMesh, & indicesData);
-		DracoMesh_t9D87B0103C712F6D388C4772617AC33F7DA006BA* L_11 = ___dracoMesh0;
+		DracoMesh_t9D87B0103C712F6D388C4772617AC33F7DA006BA* L_11 = ___0_dracoMesh;
 		bool L_12;
-		L_12 = GLTFUtilityDracoLoader_GetMeshIndices_m124B4094F87081653344252ADAF6F5443140C3BA(L_11, (DracoData_t9555833FD2CA866D072660E0082261D9FDB2813C**)((uintptr_t)(&V_1)), NULL);
+		L_12 = GLTFUtilityDracoLoader_GetMeshIndices_m9F2430907C062B186DEF00E0057343356496BC30(L_11, (DracoData_t9555833FD2CA866D072660E0082261D9FDB2813C**)((uintptr_t)(&V_1)), NULL);
 		// int elementSize =
 		//     DataTypeSize((GLTFUtilityDracoLoader.DataType) indicesData -> dataType);
 		DracoData_t9555833FD2CA866D072660E0082261D9FDB2813C* L_13 = V_1;
@@ -2970,7 +3121,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AsyncMesh_tAEEA2D94EFA3DB666412B24F16013566CE
 		NullCheck(L_16);
 		intptr_t L_17 = L_16->___data_1;
 		void* L_18;
-		L_18 = IntPtr_op_Explicit_m693F2F9E685EE117D4AC080342B8959DAF684294(L_17, NULL);
+		L_18 = IntPtr_op_Explicit_m2728CBA081E79B97DDCF1D4FAD77B309CA1E94BF(L_17, NULL);
 		V_3 = (int32_t*)L_18;
 		// var indicesPtr = UnsafeUtility.AddressOf(ref mesh.tris[0]);
 		AsyncMesh_tAEEA2D94EFA3DB666412B24F16013566CE6EEB13* L_19 = V_0;
@@ -2987,17 +3138,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AsyncMesh_tAEEA2D94EFA3DB666412B24F16013566CE
 		Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* L_24 = L_23->___tris_0;
 		NullCheck(L_24);
 		int32_t L_25 = V_2;
-		UnsafeUtility_MemCpy_m019E657B952C27F705607F0F3D371EEE526B716B(L_21, (void*)L_22, ((int64_t)((int32_t)il2cpp_codegen_multiply(((int32_t)(((RuntimeArray*)L_24)->max_length)), L_25))), NULL);
+		UnsafeUtility_MemCpy_m5CEA91ACDADC522E584AE3A2AB2B0B74393A9177(L_21, (void*)L_22, ((int64_t)((int32_t)il2cpp_codegen_multiply(((int32_t)(((RuntimeArray*)L_24)->max_length)), L_25))), NULL);
 		// ReleaseDracoData( & indicesData);
-		GLTFUtilityDracoLoader_ReleaseDracoData_m8979F17355AC518CCABC22A4767DC8DDFA9A7412((DracoData_t9555833FD2CA866D072660E0082261D9FDB2813C**)((uintptr_t)(&V_1)), NULL);
+		GLTFUtilityDracoLoader_ReleaseDracoData_m038863443C5E34BE530581576D6F8458640548D1((DracoData_t9555833FD2CA866D072660E0082261D9FDB2813C**)((uintptr_t)(&V_1)), NULL);
 		// DracoAttribute * attr = null;
 		V_4 = (DracoAttribute_t97673B31C59763CEDC99D49CE44E72077980B718*)((uintptr_t)0);
 		// if (GetAttributeByUniqueId(dracoMesh, attributes.pos, & attr)) {
-		DracoMesh_t9D87B0103C712F6D388C4772617AC33F7DA006BA* L_26 = ___dracoMesh0;
-		MeshAttributes_tB39A2497B9E8857B706FE89A4824EE74DE65C809 L_27 = ___attributes1;
+		DracoMesh_t9D87B0103C712F6D388C4772617AC33F7DA006BA* L_26 = ___0_dracoMesh;
+		MeshAttributes_tB39A2497B9E8857B706FE89A4824EE74DE65C809 L_27 = ___1_attributes;
 		int32_t L_28 = L_27.___pos_0;
 		bool L_29;
-		L_29 = GLTFUtilityDracoLoader_GetAttributeByUniqueId_m35876AF25A03BB18602D96BCF6AF472526CF5FC9(L_26, L_28, (DracoAttribute_t97673B31C59763CEDC99D49CE44E72077980B718**)((uintptr_t)(&V_4)), NULL);
+		L_29 = GLTFUtilityDracoLoader_GetAttributeByUniqueId_m5C398531D8EAF148B449D751146154388765A8C9(L_26, L_28, (DracoAttribute_t97673B31C59763CEDC99D49CE44E72077980B718**)((uintptr_t)(&V_4)), NULL);
 		if (!L_29)
 		{
 			goto IL_00f4;
@@ -3007,10 +3158,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AsyncMesh_tAEEA2D94EFA3DB666412B24F16013566CE
 		// DracoData * posData = null;
 		V_7 = (DracoData_t9555833FD2CA866D072660E0082261D9FDB2813C*)((uintptr_t)0);
 		// GetAttributeData(dracoMesh, attr, & posData);
-		DracoMesh_t9D87B0103C712F6D388C4772617AC33F7DA006BA* L_30 = ___dracoMesh0;
+		DracoMesh_t9D87B0103C712F6D388C4772617AC33F7DA006BA* L_30 = ___0_dracoMesh;
 		DracoAttribute_t97673B31C59763CEDC99D49CE44E72077980B718* L_31 = V_4;
 		bool L_32;
-		L_32 = GLTFUtilityDracoLoader_GetAttributeData_m286D346A77C3CA3A94065F35D720DD09041A7641(L_30, L_31, (DracoData_t9555833FD2CA866D072660E0082261D9FDB2813C**)((uintptr_t)(&V_7)), NULL);
+		L_32 = GLTFUtilityDracoLoader_GetAttributeData_mD11E651BDDB338F7C55AE1F8887BD291DD16F24C(L_30, L_31, (DracoData_t9555833FD2CA866D072660E0082261D9FDB2813C**)((uintptr_t)(&V_7)), NULL);
 		// elementSize = DataTypeSize((GLTFUtilityDracoLoader.DataType) posData -> dataType) *
 		//     attr -> numComponents;
 		DracoData_t9555833FD2CA866D072660E0082261D9FDB2813C* L_33 = V_7;
@@ -3035,26 +3186,26 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AsyncMesh_tAEEA2D94EFA3DB666412B24F16013566CE
 		NullCheck(L_41);
 		intptr_t L_42 = L_41->___data_1;
 		void* L_43;
-		L_43 = IntPtr_op_Explicit_m693F2F9E685EE117D4AC080342B8959DAF684294(L_42, NULL);
-		DracoMesh_t9D87B0103C712F6D388C4772617AC33F7DA006BA* L_44 = ___dracoMesh0;
+		L_43 = IntPtr_op_Explicit_m2728CBA081E79B97DDCF1D4FAD77B309CA1E94BF(L_42, NULL);
+		DracoMesh_t9D87B0103C712F6D388C4772617AC33F7DA006BA* L_44 = ___0_dracoMesh;
 		NullCheck(L_44);
 		int32_t L_45 = L_44->___numVertices_1;
 		int32_t L_46 = V_2;
-		UnsafeUtility_MemCpy_m019E657B952C27F705607F0F3D371EEE526B716B(L_40, L_43, ((int64_t)((int32_t)il2cpp_codegen_multiply(L_45, L_46))), NULL);
+		UnsafeUtility_MemCpy_m5CEA91ACDADC522E584AE3A2AB2B0B74393A9177(L_40, L_43, ((int64_t)((int32_t)il2cpp_codegen_multiply(L_45, L_46))), NULL);
 		// ReleaseDracoData( & posData);
-		GLTFUtilityDracoLoader_ReleaseDracoData_m8979F17355AC518CCABC22A4767DC8DDFA9A7412((DracoData_t9555833FD2CA866D072660E0082261D9FDB2813C**)((uintptr_t)(&V_7)), NULL);
+		GLTFUtilityDracoLoader_ReleaseDracoData_m038863443C5E34BE530581576D6F8458640548D1((DracoData_t9555833FD2CA866D072660E0082261D9FDB2813C**)((uintptr_t)(&V_7)), NULL);
 		// ReleaseDracoAttribute( & attr);
-		GLTFUtilityDracoLoader_ReleaseDracoAttribute_m73CA5EA8522B41CDCE4DBE5B46366C04781E8FA1((DracoAttribute_t97673B31C59763CEDC99D49CE44E72077980B718**)((uintptr_t)(&V_4)), NULL);
+		GLTFUtilityDracoLoader_ReleaseDracoAttribute_m48EFAC5A2E37B6FD427C3612CB2BCDF4201A6D5A((DracoAttribute_t97673B31C59763CEDC99D49CE44E72077980B718**)((uintptr_t)(&V_4)), NULL);
 	}
 
 IL_00f4:
 	{
 		// if (GetAttributeByUniqueId(dracoMesh, attributes.norms, & attr)) {
-		DracoMesh_t9D87B0103C712F6D388C4772617AC33F7DA006BA* L_47 = ___dracoMesh0;
-		MeshAttributes_tB39A2497B9E8857B706FE89A4824EE74DE65C809 L_48 = ___attributes1;
+		DracoMesh_t9D87B0103C712F6D388C4772617AC33F7DA006BA* L_47 = ___0_dracoMesh;
+		MeshAttributes_tB39A2497B9E8857B706FE89A4824EE74DE65C809 L_48 = ___1_attributes;
 		int32_t L_49 = L_48.___norms_1;
 		bool L_50;
-		L_50 = GLTFUtilityDracoLoader_GetAttributeByUniqueId_m35876AF25A03BB18602D96BCF6AF472526CF5FC9(L_47, L_49, (DracoAttribute_t97673B31C59763CEDC99D49CE44E72077980B718**)((uintptr_t)(&V_4)), NULL);
+		L_50 = GLTFUtilityDracoLoader_GetAttributeByUniqueId_m5C398531D8EAF148B449D751146154388765A8C9(L_47, L_49, (DracoAttribute_t97673B31C59763CEDC99D49CE44E72077980B718**)((uintptr_t)(&V_4)), NULL);
 		if (!L_50)
 		{
 			goto IL_0178;
@@ -3064,10 +3215,10 @@ IL_00f4:
 		// DracoData * normData = null;
 		V_8 = (DracoData_t9555833FD2CA866D072660E0082261D9FDB2813C*)((uintptr_t)0);
 		// if (GetAttributeData(dracoMesh, attr, & normData)) {
-		DracoMesh_t9D87B0103C712F6D388C4772617AC33F7DA006BA* L_51 = ___dracoMesh0;
+		DracoMesh_t9D87B0103C712F6D388C4772617AC33F7DA006BA* L_51 = ___0_dracoMesh;
 		DracoAttribute_t97673B31C59763CEDC99D49CE44E72077980B718* L_52 = V_4;
 		bool L_53;
-		L_53 = GLTFUtilityDracoLoader_GetAttributeData_m286D346A77C3CA3A94065F35D720DD09041A7641(L_51, L_52, (DracoData_t9555833FD2CA866D072660E0082261D9FDB2813C**)((uintptr_t)(&V_8)), NULL);
+		L_53 = GLTFUtilityDracoLoader_GetAttributeData_mD11E651BDDB338F7C55AE1F8887BD291DD16F24C(L_51, L_52, (DracoData_t9555833FD2CA866D072660E0082261D9FDB2813C**)((uintptr_t)(&V_8)), NULL);
 		if (!L_53)
 		{
 			goto IL_0178;
@@ -3088,7 +3239,7 @@ IL_00f4:
 		V_2 = ((int32_t)il2cpp_codegen_multiply(L_56, L_58));
 		// mesh.norms = new Vector3[dracoMesh -> numVertices];
 		AsyncMesh_tAEEA2D94EFA3DB666412B24F16013566CE6EEB13* L_59 = V_0;
-		DracoMesh_t9D87B0103C712F6D388C4772617AC33F7DA006BA* L_60 = ___dracoMesh0;
+		DracoMesh_t9D87B0103C712F6D388C4772617AC33F7DA006BA* L_60 = ___0_dracoMesh;
 		NullCheck(L_60);
 		int32_t L_61 = L_60->___numVertices_1;
 		Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* L_62 = (Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C*)(Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C*)SZArrayNew(Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C_il2cpp_TypeInfo_var, (uint32_t)L_61);
@@ -3108,26 +3259,26 @@ IL_00f4:
 		NullCheck(L_66);
 		intptr_t L_67 = L_66->___data_1;
 		void* L_68;
-		L_68 = IntPtr_op_Explicit_m693F2F9E685EE117D4AC080342B8959DAF684294(L_67, NULL);
-		DracoMesh_t9D87B0103C712F6D388C4772617AC33F7DA006BA* L_69 = ___dracoMesh0;
+		L_68 = IntPtr_op_Explicit_m2728CBA081E79B97DDCF1D4FAD77B309CA1E94BF(L_67, NULL);
+		DracoMesh_t9D87B0103C712F6D388C4772617AC33F7DA006BA* L_69 = ___0_dracoMesh;
 		NullCheck(L_69);
 		int32_t L_70 = L_69->___numVertices_1;
 		int32_t L_71 = V_2;
-		UnsafeUtility_MemCpy_m019E657B952C27F705607F0F3D371EEE526B716B(L_65, L_68, ((int64_t)((int32_t)il2cpp_codegen_multiply(L_70, L_71))), NULL);
+		UnsafeUtility_MemCpy_m5CEA91ACDADC522E584AE3A2AB2B0B74393A9177(L_65, L_68, ((int64_t)((int32_t)il2cpp_codegen_multiply(L_70, L_71))), NULL);
 		// ReleaseDracoData( & normData);
-		GLTFUtilityDracoLoader_ReleaseDracoData_m8979F17355AC518CCABC22A4767DC8DDFA9A7412((DracoData_t9555833FD2CA866D072660E0082261D9FDB2813C**)((uintptr_t)(&V_8)), NULL);
+		GLTFUtilityDracoLoader_ReleaseDracoData_m038863443C5E34BE530581576D6F8458640548D1((DracoData_t9555833FD2CA866D072660E0082261D9FDB2813C**)((uintptr_t)(&V_8)), NULL);
 		// ReleaseDracoAttribute( & attr);
-		GLTFUtilityDracoLoader_ReleaseDracoAttribute_m73CA5EA8522B41CDCE4DBE5B46366C04781E8FA1((DracoAttribute_t97673B31C59763CEDC99D49CE44E72077980B718**)((uintptr_t)(&V_4)), NULL);
+		GLTFUtilityDracoLoader_ReleaseDracoAttribute_m48EFAC5A2E37B6FD427C3612CB2BCDF4201A6D5A((DracoAttribute_t97673B31C59763CEDC99D49CE44E72077980B718**)((uintptr_t)(&V_4)), NULL);
 	}
 
 IL_0178:
 	{
 		// if (GetAttributeByUniqueId(dracoMesh, attributes.uv, & attr)) {
-		DracoMesh_t9D87B0103C712F6D388C4772617AC33F7DA006BA* L_72 = ___dracoMesh0;
-		MeshAttributes_tB39A2497B9E8857B706FE89A4824EE74DE65C809 L_73 = ___attributes1;
+		DracoMesh_t9D87B0103C712F6D388C4772617AC33F7DA006BA* L_72 = ___0_dracoMesh;
+		MeshAttributes_tB39A2497B9E8857B706FE89A4824EE74DE65C809 L_73 = ___1_attributes;
 		int32_t L_74 = L_73.___uv_2;
 		bool L_75;
-		L_75 = GLTFUtilityDracoLoader_GetAttributeByUniqueId_m35876AF25A03BB18602D96BCF6AF472526CF5FC9(L_72, L_74, (DracoAttribute_t97673B31C59763CEDC99D49CE44E72077980B718**)((uintptr_t)(&V_4)), NULL);
+		L_75 = GLTFUtilityDracoLoader_GetAttributeByUniqueId_m5C398531D8EAF148B449D751146154388765A8C9(L_72, L_74, (DracoAttribute_t97673B31C59763CEDC99D49CE44E72077980B718**)((uintptr_t)(&V_4)), NULL);
 		if (!L_75)
 		{
 			goto IL_01fc;
@@ -3137,10 +3288,10 @@ IL_0178:
 		// DracoData * texData = null;
 		V_9 = (DracoData_t9555833FD2CA866D072660E0082261D9FDB2813C*)((uintptr_t)0);
 		// if (GetAttributeData(dracoMesh, attr, & texData)) {
-		DracoMesh_t9D87B0103C712F6D388C4772617AC33F7DA006BA* L_76 = ___dracoMesh0;
+		DracoMesh_t9D87B0103C712F6D388C4772617AC33F7DA006BA* L_76 = ___0_dracoMesh;
 		DracoAttribute_t97673B31C59763CEDC99D49CE44E72077980B718* L_77 = V_4;
 		bool L_78;
-		L_78 = GLTFUtilityDracoLoader_GetAttributeData_m286D346A77C3CA3A94065F35D720DD09041A7641(L_76, L_77, (DracoData_t9555833FD2CA866D072660E0082261D9FDB2813C**)((uintptr_t)(&V_9)), NULL);
+		L_78 = GLTFUtilityDracoLoader_GetAttributeData_mD11E651BDDB338F7C55AE1F8887BD291DD16F24C(L_76, L_77, (DracoData_t9555833FD2CA866D072660E0082261D9FDB2813C**)((uintptr_t)(&V_9)), NULL);
 		if (!L_78)
 		{
 			goto IL_01fc;
@@ -3161,7 +3312,7 @@ IL_0178:
 		V_2 = ((int32_t)il2cpp_codegen_multiply(L_81, L_83));
 		// mesh.uv = new Vector2[dracoMesh -> numVertices];
 		AsyncMesh_tAEEA2D94EFA3DB666412B24F16013566CE6EEB13* L_84 = V_0;
-		DracoMesh_t9D87B0103C712F6D388C4772617AC33F7DA006BA* L_85 = ___dracoMesh0;
+		DracoMesh_t9D87B0103C712F6D388C4772617AC33F7DA006BA* L_85 = ___0_dracoMesh;
 		NullCheck(L_85);
 		int32_t L_86 = L_85->___numVertices_1;
 		Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA* L_87 = (Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA*)(Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA*)SZArrayNew(Vector2U5BU5D_tFEBBC94BCC6C9C88277BA04047D2B3FDB6ED7FDA_il2cpp_TypeInfo_var, (uint32_t)L_86);
@@ -3181,26 +3332,26 @@ IL_0178:
 		NullCheck(L_91);
 		intptr_t L_92 = L_91->___data_1;
 		void* L_93;
-		L_93 = IntPtr_op_Explicit_m693F2F9E685EE117D4AC080342B8959DAF684294(L_92, NULL);
-		DracoMesh_t9D87B0103C712F6D388C4772617AC33F7DA006BA* L_94 = ___dracoMesh0;
+		L_93 = IntPtr_op_Explicit_m2728CBA081E79B97DDCF1D4FAD77B309CA1E94BF(L_92, NULL);
+		DracoMesh_t9D87B0103C712F6D388C4772617AC33F7DA006BA* L_94 = ___0_dracoMesh;
 		NullCheck(L_94);
 		int32_t L_95 = L_94->___numVertices_1;
 		int32_t L_96 = V_2;
-		UnsafeUtility_MemCpy_m019E657B952C27F705607F0F3D371EEE526B716B(L_90, L_93, ((int64_t)((int32_t)il2cpp_codegen_multiply(L_95, L_96))), NULL);
+		UnsafeUtility_MemCpy_m5CEA91ACDADC522E584AE3A2AB2B0B74393A9177(L_90, L_93, ((int64_t)((int32_t)il2cpp_codegen_multiply(L_95, L_96))), NULL);
 		// ReleaseDracoData( & texData);
-		GLTFUtilityDracoLoader_ReleaseDracoData_m8979F17355AC518CCABC22A4767DC8DDFA9A7412((DracoData_t9555833FD2CA866D072660E0082261D9FDB2813C**)((uintptr_t)(&V_9)), NULL);
+		GLTFUtilityDracoLoader_ReleaseDracoData_m038863443C5E34BE530581576D6F8458640548D1((DracoData_t9555833FD2CA866D072660E0082261D9FDB2813C**)((uintptr_t)(&V_9)), NULL);
 		// ReleaseDracoAttribute( & attr);
-		GLTFUtilityDracoLoader_ReleaseDracoAttribute_m73CA5EA8522B41CDCE4DBE5B46366C04781E8FA1((DracoAttribute_t97673B31C59763CEDC99D49CE44E72077980B718**)((uintptr_t)(&V_4)), NULL);
+		GLTFUtilityDracoLoader_ReleaseDracoAttribute_m48EFAC5A2E37B6FD427C3612CB2BCDF4201A6D5A((DracoAttribute_t97673B31C59763CEDC99D49CE44E72077980B718**)((uintptr_t)(&V_4)), NULL);
 	}
 
 IL_01fc:
 	{
 		// if (GetAttributeByUniqueId(dracoMesh, attributes.col, & attr)) {
-		DracoMesh_t9D87B0103C712F6D388C4772617AC33F7DA006BA* L_97 = ___dracoMesh0;
-		MeshAttributes_tB39A2497B9E8857B706FE89A4824EE74DE65C809 L_98 = ___attributes1;
+		DracoMesh_t9D87B0103C712F6D388C4772617AC33F7DA006BA* L_97 = ___0_dracoMesh;
+		MeshAttributes_tB39A2497B9E8857B706FE89A4824EE74DE65C809 L_98 = ___1_attributes;
 		int32_t L_99 = L_98.___col_5;
 		bool L_100;
-		L_100 = GLTFUtilityDracoLoader_GetAttributeByUniqueId_m35876AF25A03BB18602D96BCF6AF472526CF5FC9(L_97, L_99, (DracoAttribute_t97673B31C59763CEDC99D49CE44E72077980B718**)((uintptr_t)(&V_4)), NULL);
+		L_100 = GLTFUtilityDracoLoader_GetAttributeByUniqueId_m5C398531D8EAF148B449D751146154388765A8C9(L_97, L_99, (DracoAttribute_t97673B31C59763CEDC99D49CE44E72077980B718**)((uintptr_t)(&V_4)), NULL);
 		if (!L_100)
 		{
 			goto IL_0280;
@@ -3210,10 +3361,10 @@ IL_01fc:
 		// DracoData * colorData = null;
 		V_10 = (DracoData_t9555833FD2CA866D072660E0082261D9FDB2813C*)((uintptr_t)0);
 		// if (GetAttributeData(dracoMesh, attr, & colorData)) {
-		DracoMesh_t9D87B0103C712F6D388C4772617AC33F7DA006BA* L_101 = ___dracoMesh0;
+		DracoMesh_t9D87B0103C712F6D388C4772617AC33F7DA006BA* L_101 = ___0_dracoMesh;
 		DracoAttribute_t97673B31C59763CEDC99D49CE44E72077980B718* L_102 = V_4;
 		bool L_103;
-		L_103 = GLTFUtilityDracoLoader_GetAttributeData_m286D346A77C3CA3A94065F35D720DD09041A7641(L_101, L_102, (DracoData_t9555833FD2CA866D072660E0082261D9FDB2813C**)((uintptr_t)(&V_10)), NULL);
+		L_103 = GLTFUtilityDracoLoader_GetAttributeData_mD11E651BDDB338F7C55AE1F8887BD291DD16F24C(L_101, L_102, (DracoData_t9555833FD2CA866D072660E0082261D9FDB2813C**)((uintptr_t)(&V_10)), NULL);
 		if (!L_103)
 		{
 			goto IL_0280;
@@ -3234,7 +3385,7 @@ IL_01fc:
 		V_2 = ((int32_t)il2cpp_codegen_multiply(L_106, L_108));
 		// mesh.colors = new Color[dracoMesh -> numVertices];
 		AsyncMesh_tAEEA2D94EFA3DB666412B24F16013566CE6EEB13* L_109 = V_0;
-		DracoMesh_t9D87B0103C712F6D388C4772617AC33F7DA006BA* L_110 = ___dracoMesh0;
+		DracoMesh_t9D87B0103C712F6D388C4772617AC33F7DA006BA* L_110 = ___0_dracoMesh;
 		NullCheck(L_110);
 		int32_t L_111 = L_110->___numVertices_1;
 		ColorU5BU5D_t612261CF293F6FFC3D80AB52259FF0DC2B2CC389* L_112 = (ColorU5BU5D_t612261CF293F6FFC3D80AB52259FF0DC2B2CC389*)(ColorU5BU5D_t612261CF293F6FFC3D80AB52259FF0DC2B2CC389*)SZArrayNew(ColorU5BU5D_t612261CF293F6FFC3D80AB52259FF0DC2B2CC389_il2cpp_TypeInfo_var, (uint32_t)L_111);
@@ -3254,16 +3405,16 @@ IL_01fc:
 		NullCheck(L_116);
 		intptr_t L_117 = L_116->___data_1;
 		void* L_118;
-		L_118 = IntPtr_op_Explicit_m693F2F9E685EE117D4AC080342B8959DAF684294(L_117, NULL);
-		DracoMesh_t9D87B0103C712F6D388C4772617AC33F7DA006BA* L_119 = ___dracoMesh0;
+		L_118 = IntPtr_op_Explicit_m2728CBA081E79B97DDCF1D4FAD77B309CA1E94BF(L_117, NULL);
+		DracoMesh_t9D87B0103C712F6D388C4772617AC33F7DA006BA* L_119 = ___0_dracoMesh;
 		NullCheck(L_119);
 		int32_t L_120 = L_119->___numVertices_1;
 		int32_t L_121 = V_2;
-		UnsafeUtility_MemCpy_m019E657B952C27F705607F0F3D371EEE526B716B(L_115, L_118, ((int64_t)((int32_t)il2cpp_codegen_multiply(L_120, L_121))), NULL);
+		UnsafeUtility_MemCpy_m5CEA91ACDADC522E584AE3A2AB2B0B74393A9177(L_115, L_118, ((int64_t)((int32_t)il2cpp_codegen_multiply(L_120, L_121))), NULL);
 		// ReleaseDracoData( & colorData);
-		GLTFUtilityDracoLoader_ReleaseDracoData_m8979F17355AC518CCABC22A4767DC8DDFA9A7412((DracoData_t9555833FD2CA866D072660E0082261D9FDB2813C**)((uintptr_t)(&V_10)), NULL);
+		GLTFUtilityDracoLoader_ReleaseDracoData_m038863443C5E34BE530581576D6F8458640548D1((DracoData_t9555833FD2CA866D072660E0082261D9FDB2813C**)((uintptr_t)(&V_10)), NULL);
 		// ReleaseDracoAttribute( & attr);
-		GLTFUtilityDracoLoader_ReleaseDracoAttribute_m73CA5EA8522B41CDCE4DBE5B46366C04781E8FA1((DracoAttribute_t97673B31C59763CEDC99D49CE44E72077980B718**)((uintptr_t)(&V_4)), NULL);
+		GLTFUtilityDracoLoader_ReleaseDracoAttribute_m48EFAC5A2E37B6FD427C3612CB2BCDF4201A6D5A((DracoAttribute_t97673B31C59763CEDC99D49CE44E72077980B718**)((uintptr_t)(&V_4)), NULL);
 	}
 
 IL_0280:
@@ -3271,11 +3422,11 @@ IL_0280:
 		// Vector4[] weights = null;
 		V_5 = (Vector4U5BU5D_tC0F3A7115F85007510F6D173968200CD31BCF7AD*)NULL;
 		// if (GetAttributeByUniqueId(dracoMesh, attributes.weights, & attr)) {
-		DracoMesh_t9D87B0103C712F6D388C4772617AC33F7DA006BA* L_122 = ___dracoMesh0;
-		MeshAttributes_tB39A2497B9E8857B706FE89A4824EE74DE65C809 L_123 = ___attributes1;
+		DracoMesh_t9D87B0103C712F6D388C4772617AC33F7DA006BA* L_122 = ___0_dracoMesh;
+		MeshAttributes_tB39A2497B9E8857B706FE89A4824EE74DE65C809 L_123 = ___1_attributes;
 		int32_t L_124 = L_123.___weights_4;
 		bool L_125;
-		L_125 = GLTFUtilityDracoLoader_GetAttributeByUniqueId_m35876AF25A03BB18602D96BCF6AF472526CF5FC9(L_122, L_124, (DracoAttribute_t97673B31C59763CEDC99D49CE44E72077980B718**)((uintptr_t)(&V_4)), NULL);
+		L_125 = GLTFUtilityDracoLoader_GetAttributeByUniqueId_m5C398531D8EAF148B449D751146154388765A8C9(L_122, L_124, (DracoAttribute_t97673B31C59763CEDC99D49CE44E72077980B718**)((uintptr_t)(&V_4)), NULL);
 		if (!L_125)
 		{
 			goto IL_0378;
@@ -3285,10 +3436,10 @@ IL_0280:
 		// DracoData * weightData = null;
 		V_11 = (DracoData_t9555833FD2CA866D072660E0082261D9FDB2813C*)((uintptr_t)0);
 		// if (GetAttributeData(dracoMesh, attr, & weightData)) {
-		DracoMesh_t9D87B0103C712F6D388C4772617AC33F7DA006BA* L_126 = ___dracoMesh0;
+		DracoMesh_t9D87B0103C712F6D388C4772617AC33F7DA006BA* L_126 = ___0_dracoMesh;
 		DracoAttribute_t97673B31C59763CEDC99D49CE44E72077980B718* L_127 = V_4;
 		bool L_128;
-		L_128 = GLTFUtilityDracoLoader_GetAttributeData_m286D346A77C3CA3A94065F35D720DD09041A7641(L_126, L_127, (DracoData_t9555833FD2CA866D072660E0082261D9FDB2813C**)((uintptr_t)(&V_11)), NULL);
+		L_128 = GLTFUtilityDracoLoader_GetAttributeData_mD11E651BDDB338F7C55AE1F8887BD291DD16F24C(L_126, L_127, (DracoData_t9555833FD2CA866D072660E0082261D9FDB2813C**)((uintptr_t)(&V_11)), NULL);
 		if (!L_128)
 		{
 			goto IL_0378;
@@ -3318,7 +3469,7 @@ IL_0280:
 	}
 	{
 		// weights = new Vector4[dracoMesh -> numVertices];
-		DracoMesh_t9D87B0103C712F6D388C4772617AC33F7DA006BA* L_136 = ___dracoMesh0;
+		DracoMesh_t9D87B0103C712F6D388C4772617AC33F7DA006BA* L_136 = ___0_dracoMesh;
 		NullCheck(L_136);
 		int32_t L_137 = L_136->___numVertices_1;
 		Vector4U5BU5D_tC0F3A7115F85007510F6D173968200CD31BCF7AD* L_138 = (Vector4U5BU5D_tC0F3A7115F85007510F6D173968200CD31BCF7AD*)(Vector4U5BU5D_tC0F3A7115F85007510F6D173968200CD31BCF7AD*)SZArrayNew(Vector4U5BU5D_tC0F3A7115F85007510F6D173968200CD31BCF7AD_il2cpp_TypeInfo_var, (uint32_t)L_137);
@@ -3334,12 +3485,12 @@ IL_0280:
 		NullCheck(L_141);
 		intptr_t L_142 = L_141->___data_1;
 		void* L_143;
-		L_143 = IntPtr_op_Explicit_m693F2F9E685EE117D4AC080342B8959DAF684294(L_142, NULL);
-		DracoMesh_t9D87B0103C712F6D388C4772617AC33F7DA006BA* L_144 = ___dracoMesh0;
+		L_143 = IntPtr_op_Explicit_m2728CBA081E79B97DDCF1D4FAD77B309CA1E94BF(L_142, NULL);
+		DracoMesh_t9D87B0103C712F6D388C4772617AC33F7DA006BA* L_144 = ___0_dracoMesh;
 		NullCheck(L_144);
 		int32_t L_145 = L_144->___numVertices_1;
 		int32_t L_146 = V_2;
-		UnsafeUtility_MemCpy_m019E657B952C27F705607F0F3D371EEE526B716B(L_140, L_143, ((int64_t)((int32_t)il2cpp_codegen_multiply(L_145, L_146))), NULL);
+		UnsafeUtility_MemCpy_m5CEA91ACDADC522E584AE3A2AB2B0B74393A9177(L_140, L_143, ((int64_t)((int32_t)il2cpp_codegen_multiply(L_145, L_146))), NULL);
 		goto IL_0368;
 	}
 
@@ -3356,7 +3507,7 @@ IL_0302:
 	}
 	{
 		// var newWeightsInt = new Vector4<UInt16>[dracoMesh -> numVertices];
-		DracoMesh_t9D87B0103C712F6D388C4772617AC33F7DA006BA* L_149 = ___dracoMesh0;
+		DracoMesh_t9D87B0103C712F6D388C4772617AC33F7DA006BA* L_149 = ___0_dracoMesh;
 		NullCheck(L_149);
 		int32_t L_150 = L_149->___numVertices_1;
 		Vector4_1U5BU5D_tA4EF994A3D3FA683D52DC971F3CF1AAEA0853CF2* L_151 = (Vector4_1U5BU5D_tA4EF994A3D3FA683D52DC971F3CF1AAEA0853CF2*)(Vector4_1U5BU5D_tA4EF994A3D3FA683D52DC971F3CF1AAEA0853CF2*)SZArrayNew(Vector4_1U5BU5D_tA4EF994A3D3FA683D52DC971F3CF1AAEA0853CF2_il2cpp_TypeInfo_var, (uint32_t)L_150);
@@ -3371,12 +3522,12 @@ IL_0302:
 		NullCheck(L_154);
 		intptr_t L_155 = L_154->___data_1;
 		void* L_156;
-		L_156 = IntPtr_op_Explicit_m693F2F9E685EE117D4AC080342B8959DAF684294(L_155, NULL);
-		DracoMesh_t9D87B0103C712F6D388C4772617AC33F7DA006BA* L_157 = ___dracoMesh0;
+		L_156 = IntPtr_op_Explicit_m2728CBA081E79B97DDCF1D4FAD77B309CA1E94BF(L_155, NULL);
+		DracoMesh_t9D87B0103C712F6D388C4772617AC33F7DA006BA* L_157 = ___0_dracoMesh;
 		NullCheck(L_157);
 		int32_t L_158 = L_157->___numVertices_1;
 		int32_t L_159 = V_2;
-		UnsafeUtility_MemCpy_m019E657B952C27F705607F0F3D371EEE526B716B(L_153, L_156, ((int64_t)((int32_t)il2cpp_codegen_multiply(L_158, L_159))), NULL);
+		UnsafeUtility_MemCpy_m5CEA91ACDADC522E584AE3A2AB2B0B74393A9177(L_153, L_156, ((int64_t)((int32_t)il2cpp_codegen_multiply(L_158, L_159))), NULL);
 		// weights = newWeightsInt.Select(x => new Vector4(x.x, x.y, x.z, x.w)).ToArray();
 		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_t938C53A67B2DFD79840F16904E9963E9BDF4E0C6_il2cpp_TypeInfo_var);
 		Func_2_tD3354085A7E43DE0FD56CB0802978CB8B07814EC* L_160 = ((U3CU3Ec_t938C53A67B2DFD79840F16904E9963E9BDF4E0C6_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t938C53A67B2DFD79840F16904E9963E9BDF4E0C6_il2cpp_TypeInfo_var))->___U3CU3E9__19_0_1;
@@ -3406,18 +3557,18 @@ IL_0302:
 IL_035c:
 	{
 		RuntimeObject* L_165;
-		L_165 = Enumerable_Select_TisVector4_1_t4C36E5A08C00EC23095617808564AAD5C1BC69F3_TisVector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3_m1A421A1C45603FFE13B17659CD57ECCACEFD90FF((RuntimeObject*)G_B18_1, G_B18_0, Enumerable_Select_TisVector4_1_t4C36E5A08C00EC23095617808564AAD5C1BC69F3_TisVector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3_m1A421A1C45603FFE13B17659CD57ECCACEFD90FF_RuntimeMethod_var);
+		L_165 = Enumerable_Select_TisVector4_1_t4C36E5A08C00EC23095617808564AAD5C1BC69F3_TisVector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3_m23F6758576B593756D68F7E0FEC48A47516E5AD6((RuntimeObject*)G_B18_1, G_B18_0, Enumerable_Select_TisVector4_1_t4C36E5A08C00EC23095617808564AAD5C1BC69F3_TisVector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3_m23F6758576B593756D68F7E0FEC48A47516E5AD6_RuntimeMethod_var);
 		Vector4U5BU5D_tC0F3A7115F85007510F6D173968200CD31BCF7AD* L_166;
-		L_166 = Enumerable_ToArray_TisVector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3_m1E5E6D94C66CD1486DAE5C08FED91CE20781FB41(L_165, Enumerable_ToArray_TisVector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3_m1E5E6D94C66CD1486DAE5C08FED91CE20781FB41_RuntimeMethod_var);
+		L_166 = Enumerable_ToArray_TisVector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3_mE61BE77D59816D9BFC942F78F5006F04F1C2AFD6(L_165, Enumerable_ToArray_TisVector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3_mE61BE77D59816D9BFC942F78F5006F04F1C2AFD6_RuntimeMethod_var);
 		V_5 = L_166;
 	}
 
 IL_0368:
 	{
 		// ReleaseDracoData( & weightData);
-		GLTFUtilityDracoLoader_ReleaseDracoData_m8979F17355AC518CCABC22A4767DC8DDFA9A7412((DracoData_t9555833FD2CA866D072660E0082261D9FDB2813C**)((uintptr_t)(&V_11)), NULL);
+		GLTFUtilityDracoLoader_ReleaseDracoData_m038863443C5E34BE530581576D6F8458640548D1((DracoData_t9555833FD2CA866D072660E0082261D9FDB2813C**)((uintptr_t)(&V_11)), NULL);
 		// ReleaseDracoAttribute( & attr);
-		GLTFUtilityDracoLoader_ReleaseDracoAttribute_m73CA5EA8522B41CDCE4DBE5B46366C04781E8FA1((DracoAttribute_t97673B31C59763CEDC99D49CE44E72077980B718**)((uintptr_t)(&V_4)), NULL);
+		GLTFUtilityDracoLoader_ReleaseDracoAttribute_m48EFAC5A2E37B6FD427C3612CB2BCDF4201A6D5A((DracoAttribute_t97673B31C59763CEDC99D49CE44E72077980B718**)((uintptr_t)(&V_4)), NULL);
 	}
 
 IL_0378:
@@ -3425,11 +3576,11 @@ IL_0378:
 		// Vector4[] joints = null;
 		V_6 = (Vector4U5BU5D_tC0F3A7115F85007510F6D173968200CD31BCF7AD*)NULL;
 		// if (GetAttributeByUniqueId(dracoMesh, attributes.joints, & attr)) {
-		DracoMesh_t9D87B0103C712F6D388C4772617AC33F7DA006BA* L_167 = ___dracoMesh0;
-		MeshAttributes_tB39A2497B9E8857B706FE89A4824EE74DE65C809 L_168 = ___attributes1;
+		DracoMesh_t9D87B0103C712F6D388C4772617AC33F7DA006BA* L_167 = ___0_dracoMesh;
+		MeshAttributes_tB39A2497B9E8857B706FE89A4824EE74DE65C809 L_168 = ___1_attributes;
 		int32_t L_169 = L_168.___joints_3;
 		bool L_170;
-		L_170 = GLTFUtilityDracoLoader_GetAttributeByUniqueId_m35876AF25A03BB18602D96BCF6AF472526CF5FC9(L_167, L_169, (DracoAttribute_t97673B31C59763CEDC99D49CE44E72077980B718**)((uintptr_t)(&V_4)), NULL);
+		L_170 = GLTFUtilityDracoLoader_GetAttributeByUniqueId_m5C398531D8EAF148B449D751146154388765A8C9(L_167, L_169, (DracoAttribute_t97673B31C59763CEDC99D49CE44E72077980B718**)((uintptr_t)(&V_4)), NULL);
 		if (!L_170)
 		{
 			goto IL_0470;
@@ -3439,10 +3590,10 @@ IL_0378:
 		// DracoData * jointData = null;
 		V_12 = (DracoData_t9555833FD2CA866D072660E0082261D9FDB2813C*)((uintptr_t)0);
 		// if (GetAttributeData(dracoMesh, attr, & jointData)) {
-		DracoMesh_t9D87B0103C712F6D388C4772617AC33F7DA006BA* L_171 = ___dracoMesh0;
+		DracoMesh_t9D87B0103C712F6D388C4772617AC33F7DA006BA* L_171 = ___0_dracoMesh;
 		DracoAttribute_t97673B31C59763CEDC99D49CE44E72077980B718* L_172 = V_4;
 		bool L_173;
-		L_173 = GLTFUtilityDracoLoader_GetAttributeData_m286D346A77C3CA3A94065F35D720DD09041A7641(L_171, L_172, (DracoData_t9555833FD2CA866D072660E0082261D9FDB2813C**)((uintptr_t)(&V_12)), NULL);
+		L_173 = GLTFUtilityDracoLoader_GetAttributeData_mD11E651BDDB338F7C55AE1F8887BD291DD16F24C(L_171, L_172, (DracoData_t9555833FD2CA866D072660E0082261D9FDB2813C**)((uintptr_t)(&V_12)), NULL);
 		if (!L_173)
 		{
 			goto IL_0470;
@@ -3472,7 +3623,7 @@ IL_0378:
 	}
 	{
 		// joints = new Vector4[dracoMesh -> numVertices];
-		DracoMesh_t9D87B0103C712F6D388C4772617AC33F7DA006BA* L_181 = ___dracoMesh0;
+		DracoMesh_t9D87B0103C712F6D388C4772617AC33F7DA006BA* L_181 = ___0_dracoMesh;
 		NullCheck(L_181);
 		int32_t L_182 = L_181->___numVertices_1;
 		Vector4U5BU5D_tC0F3A7115F85007510F6D173968200CD31BCF7AD* L_183 = (Vector4U5BU5D_tC0F3A7115F85007510F6D173968200CD31BCF7AD*)(Vector4U5BU5D_tC0F3A7115F85007510F6D173968200CD31BCF7AD*)SZArrayNew(Vector4U5BU5D_tC0F3A7115F85007510F6D173968200CD31BCF7AD_il2cpp_TypeInfo_var, (uint32_t)L_182);
@@ -3488,12 +3639,12 @@ IL_0378:
 		NullCheck(L_186);
 		intptr_t L_187 = L_186->___data_1;
 		void* L_188;
-		L_188 = IntPtr_op_Explicit_m693F2F9E685EE117D4AC080342B8959DAF684294(L_187, NULL);
-		DracoMesh_t9D87B0103C712F6D388C4772617AC33F7DA006BA* L_189 = ___dracoMesh0;
+		L_188 = IntPtr_op_Explicit_m2728CBA081E79B97DDCF1D4FAD77B309CA1E94BF(L_187, NULL);
+		DracoMesh_t9D87B0103C712F6D388C4772617AC33F7DA006BA* L_189 = ___0_dracoMesh;
 		NullCheck(L_189);
 		int32_t L_190 = L_189->___numVertices_1;
 		int32_t L_191 = V_2;
-		UnsafeUtility_MemCpy_m019E657B952C27F705607F0F3D371EEE526B716B(L_185, L_188, ((int64_t)((int32_t)il2cpp_codegen_multiply(L_190, L_191))), NULL);
+		UnsafeUtility_MemCpy_m5CEA91ACDADC522E584AE3A2AB2B0B74393A9177(L_185, L_188, ((int64_t)((int32_t)il2cpp_codegen_multiply(L_190, L_191))), NULL);
 		goto IL_0460;
 	}
 
@@ -3510,7 +3661,7 @@ IL_03fa:
 	}
 	{
 		// var newJointsInt = new Vector4<UInt16>[dracoMesh -> numVertices];
-		DracoMesh_t9D87B0103C712F6D388C4772617AC33F7DA006BA* L_194 = ___dracoMesh0;
+		DracoMesh_t9D87B0103C712F6D388C4772617AC33F7DA006BA* L_194 = ___0_dracoMesh;
 		NullCheck(L_194);
 		int32_t L_195 = L_194->___numVertices_1;
 		Vector4_1U5BU5D_tA4EF994A3D3FA683D52DC971F3CF1AAEA0853CF2* L_196 = (Vector4_1U5BU5D_tA4EF994A3D3FA683D52DC971F3CF1AAEA0853CF2*)(Vector4_1U5BU5D_tA4EF994A3D3FA683D52DC971F3CF1AAEA0853CF2*)SZArrayNew(Vector4_1U5BU5D_tA4EF994A3D3FA683D52DC971F3CF1AAEA0853CF2_il2cpp_TypeInfo_var, (uint32_t)L_195);
@@ -3525,12 +3676,12 @@ IL_03fa:
 		NullCheck(L_199);
 		intptr_t L_200 = L_199->___data_1;
 		void* L_201;
-		L_201 = IntPtr_op_Explicit_m693F2F9E685EE117D4AC080342B8959DAF684294(L_200, NULL);
-		DracoMesh_t9D87B0103C712F6D388C4772617AC33F7DA006BA* L_202 = ___dracoMesh0;
+		L_201 = IntPtr_op_Explicit_m2728CBA081E79B97DDCF1D4FAD77B309CA1E94BF(L_200, NULL);
+		DracoMesh_t9D87B0103C712F6D388C4772617AC33F7DA006BA* L_202 = ___0_dracoMesh;
 		NullCheck(L_202);
 		int32_t L_203 = L_202->___numVertices_1;
 		int32_t L_204 = V_2;
-		UnsafeUtility_MemCpy_m019E657B952C27F705607F0F3D371EEE526B716B(L_198, L_201, ((int64_t)((int32_t)il2cpp_codegen_multiply(L_203, L_204))), NULL);
+		UnsafeUtility_MemCpy_m5CEA91ACDADC522E584AE3A2AB2B0B74393A9177(L_198, L_201, ((int64_t)((int32_t)il2cpp_codegen_multiply(L_203, L_204))), NULL);
 		// joints = newJointsInt.Select(x => new Vector4(x.x, x.y, x.z, x.w)).ToArray();
 		il2cpp_codegen_runtime_class_init_inline(U3CU3Ec_t938C53A67B2DFD79840F16904E9963E9BDF4E0C6_il2cpp_TypeInfo_var);
 		Func_2_tD3354085A7E43DE0FD56CB0802978CB8B07814EC* L_205 = ((U3CU3Ec_t938C53A67B2DFD79840F16904E9963E9BDF4E0C6_StaticFields*)il2cpp_codegen_static_fields_for(U3CU3Ec_t938C53A67B2DFD79840F16904E9963E9BDF4E0C6_il2cpp_TypeInfo_var))->___U3CU3E9__19_1_2;
@@ -3560,18 +3711,18 @@ IL_03fa:
 IL_0454:
 	{
 		RuntimeObject* L_210;
-		L_210 = Enumerable_Select_TisVector4_1_t4C36E5A08C00EC23095617808564AAD5C1BC69F3_TisVector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3_m1A421A1C45603FFE13B17659CD57ECCACEFD90FF((RuntimeObject*)G_B27_1, G_B27_0, Enumerable_Select_TisVector4_1_t4C36E5A08C00EC23095617808564AAD5C1BC69F3_TisVector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3_m1A421A1C45603FFE13B17659CD57ECCACEFD90FF_RuntimeMethod_var);
+		L_210 = Enumerable_Select_TisVector4_1_t4C36E5A08C00EC23095617808564AAD5C1BC69F3_TisVector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3_m23F6758576B593756D68F7E0FEC48A47516E5AD6((RuntimeObject*)G_B27_1, G_B27_0, Enumerable_Select_TisVector4_1_t4C36E5A08C00EC23095617808564AAD5C1BC69F3_TisVector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3_m23F6758576B593756D68F7E0FEC48A47516E5AD6_RuntimeMethod_var);
 		Vector4U5BU5D_tC0F3A7115F85007510F6D173968200CD31BCF7AD* L_211;
-		L_211 = Enumerable_ToArray_TisVector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3_m1E5E6D94C66CD1486DAE5C08FED91CE20781FB41(L_210, Enumerable_ToArray_TisVector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3_m1E5E6D94C66CD1486DAE5C08FED91CE20781FB41_RuntimeMethod_var);
+		L_211 = Enumerable_ToArray_TisVector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3_mE61BE77D59816D9BFC942F78F5006F04F1C2AFD6(L_210, Enumerable_ToArray_TisVector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3_mE61BE77D59816D9BFC942F78F5006F04F1C2AFD6_RuntimeMethod_var);
 		V_6 = L_211;
 	}
 
 IL_0460:
 	{
 		// ReleaseDracoData( & jointData);
-		GLTFUtilityDracoLoader_ReleaseDracoData_m8979F17355AC518CCABC22A4767DC8DDFA9A7412((DracoData_t9555833FD2CA866D072660E0082261D9FDB2813C**)((uintptr_t)(&V_12)), NULL);
+		GLTFUtilityDracoLoader_ReleaseDracoData_m038863443C5E34BE530581576D6F8458640548D1((DracoData_t9555833FD2CA866D072660E0082261D9FDB2813C**)((uintptr_t)(&V_12)), NULL);
 		// ReleaseDracoAttribute( & attr);
-		GLTFUtilityDracoLoader_ReleaseDracoAttribute_m73CA5EA8522B41CDCE4DBE5B46366C04781E8FA1((DracoAttribute_t97673B31C59763CEDC99D49CE44E72077980B718**)((uintptr_t)(&V_4)), NULL);
+		GLTFUtilityDracoLoader_ReleaseDracoAttribute_m48EFAC5A2E37B6FD427C3612CB2BCDF4201A6D5A((DracoAttribute_t97673B31C59763CEDC99D49CE44E72077980B718**)((uintptr_t)(&V_4)), NULL);
 	}
 
 IL_0470:
@@ -3664,7 +3815,7 @@ IL_049e:
 		NullCheck(L_242);
 		float L_244 = ((L_242)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_243)))->___x_1;
 		int32_t L_245;
-		L_245 = Mathf_RoundToInt_m6A6E30BA4157D69DA47F02B43108882DDD7C4A70_inline(L_244, NULL);
+		L_245 = Mathf_RoundToInt_m60F8B66CF27F1FA75AA219342BD184B75771EB4B_inline(L_244, NULL);
 		BoneWeight_set_boneIndex0_mC11383D890013A65F158A7D3F81AB2C4A1C6B8FC(((L_240)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_241))), L_245, NULL);
 		// boneWeights[k].boneIndex1 = Mathf.RoundToInt(joints[k].y);
 		BoneWeightU5BU5D_t76F390D8CBA0ADCB87EB98B135C8886857DFE651* L_246 = V_13;
@@ -3675,7 +3826,7 @@ IL_049e:
 		NullCheck(L_248);
 		float L_250 = ((L_248)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_249)))->___y_2;
 		int32_t L_251;
-		L_251 = Mathf_RoundToInt_m6A6E30BA4157D69DA47F02B43108882DDD7C4A70_inline(L_250, NULL);
+		L_251 = Mathf_RoundToInt_m60F8B66CF27F1FA75AA219342BD184B75771EB4B_inline(L_250, NULL);
 		BoneWeight_set_boneIndex1_m79497EC149074B22E1404E962FB4D2A9E20BD1FF(((L_246)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_247))), L_251, NULL);
 		// boneWeights[k].boneIndex2 = Mathf.RoundToInt(joints[k].z);
 		BoneWeightU5BU5D_t76F390D8CBA0ADCB87EB98B135C8886857DFE651* L_252 = V_13;
@@ -3686,7 +3837,7 @@ IL_049e:
 		NullCheck(L_254);
 		float L_256 = ((L_254)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_255)))->___z_3;
 		int32_t L_257;
-		L_257 = Mathf_RoundToInt_m6A6E30BA4157D69DA47F02B43108882DDD7C4A70_inline(L_256, NULL);
+		L_257 = Mathf_RoundToInt_m60F8B66CF27F1FA75AA219342BD184B75771EB4B_inline(L_256, NULL);
 		BoneWeight_set_boneIndex2_m5F414DEE2B63845092F41421610A7098DCCB817D(((L_252)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_253))), L_257, NULL);
 		// boneWeights[k].boneIndex3 = Mathf.RoundToInt(joints[k].w);
 		BoneWeightU5BU5D_t76F390D8CBA0ADCB87EB98B135C8886857DFE651* L_258 = V_13;
@@ -3697,7 +3848,7 @@ IL_049e:
 		NullCheck(L_260);
 		float L_262 = ((L_260)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_261)))->___w_4;
 		int32_t L_263;
-		L_263 = Mathf_RoundToInt_m6A6E30BA4157D69DA47F02B43108882DDD7C4A70_inline(L_262, NULL);
+		L_263 = Mathf_RoundToInt_m60F8B66CF27F1FA75AA219342BD184B75771EB4B_inline(L_262, NULL);
 		BoneWeight_set_boneIndex3_mDF1FAF242DB9CD0D8DFCA91BED5D340BA19C1386(((L_258)->GetAddressAt(static_cast<il2cpp_array_size_t>(L_259))), L_263, NULL);
 		// for (int k = 0; k < boneWeights.Length; k++) {
 		int32_t L_264 = V_14;
@@ -3729,7 +3880,7 @@ IL_05bc:
 	{
 		// } else Debug.LogWarning("Draco: joints and weights not same length. Skipped");
 		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
-		Debug_LogWarning_mEF15C6B17CE4E1FA7E379CDB82CE40FCD89A3F28(_stringLiteral27DF993E44B361F8F3209508552CCCE247C11060, NULL);
+		Debug_LogWarning_m33EF1B897E0C7C6FF538989610BFAFFEF4628CA9(_stringLiteral27DF993E44B361F8F3209508552CCCE247C11060, NULL);
 	}
 
 IL_05c6:
@@ -3740,19 +3891,19 @@ IL_05c6:
 	}
 }
 // System.Void GLTFUtilityDracoLoader::NormalizeWeights(UnityEngine.Vector4&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GLTFUtilityDracoLoader_NormalizeWeights_m0DCE9E911945A023271177913A0B8B9A5EB2D8FF (GLTFUtilityDracoLoader_t16771465C26E34ACCBF6E73AC7C9AB6F705315BC* __this, Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3* ___weights0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GLTFUtilityDracoLoader_NormalizeWeights_m0DCE9E911945A023271177913A0B8B9A5EB2D8FF (GLTFUtilityDracoLoader_t16771465C26E34ACCBF6E73AC7C9AB6F705315BC* __this, Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3* ___0_weights, const RuntimeMethod* method) 
 {
 	float V_0 = 0.0f;
 	float V_1 = 0.0f;
 	{
 		// float total = weights.x + weights.y + weights.z + weights.w;
-		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3* L_0 = ___weights0;
+		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3* L_0 = ___0_weights;
 		float L_1 = L_0->___x_1;
-		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3* L_2 = ___weights0;
+		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3* L_2 = ___0_weights;
 		float L_3 = L_2->___y_2;
-		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3* L_4 = ___weights0;
+		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3* L_4 = ___0_weights;
 		float L_5 = L_4->___z_3;
-		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3* L_6 = ___weights0;
+		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3* L_6 = ___0_weights;
 		float L_7 = L_6->___w_4;
 		V_0 = ((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(((float)il2cpp_codegen_add(L_1, L_3)), L_5)), L_7));
 		// if (total == 0) return;
@@ -3773,28 +3924,28 @@ IL_0025:
 		float L_9 = V_0;
 		V_1 = ((float)((1.0f)/L_9));
 		// weights.x *= mult;
-		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3* L_10 = ___weights0;
+		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3* L_10 = ___0_weights;
 		float* L_11 = (&L_10->___x_1);
 		float* L_12 = L_11;
 		float L_13 = *((float*)L_12);
 		float L_14 = V_1;
 		*((float*)L_12) = (float)((float)il2cpp_codegen_multiply(L_13, L_14));
 		// weights.y *= mult;
-		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3* L_15 = ___weights0;
+		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3* L_15 = ___0_weights;
 		float* L_16 = (&L_15->___y_2);
 		float* L_17 = L_16;
 		float L_18 = *((float*)L_17);
 		float L_19 = V_1;
 		*((float*)L_17) = (float)((float)il2cpp_codegen_multiply(L_18, L_19));
 		// weights.z *= mult;
-		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3* L_20 = ___weights0;
+		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3* L_20 = ___0_weights;
 		float* L_21 = (&L_20->___z_3);
 		float* L_22 = L_21;
 		float L_23 = *((float*)L_22);
 		float L_24 = V_1;
 		*((float*)L_22) = (float)((float)il2cpp_codegen_multiply(L_23, L_24));
 		// weights.w *= mult;
-		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3* L_25 = ___weights0;
+		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3* L_25 = ___0_weights;
 		float* L_26 = (&L_25->___w_4);
 		float* L_27 = L_26;
 		float L_28 = *((float*)L_27);
@@ -3805,10 +3956,10 @@ IL_0025:
 	}
 }
 // System.Int32 GLTFUtilityDracoLoader::DataTypeSize(GLTFUtilityDracoLoader/DataType)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GLTFUtilityDracoLoader_DataTypeSize_m64826CB2BB1AFB1B826B3E4FE8F51A24C1F1DF7D (GLTFUtilityDracoLoader_t16771465C26E34ACCBF6E73AC7C9AB6F705315BC* __this, int32_t ___dt0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t GLTFUtilityDracoLoader_DataTypeSize_m64826CB2BB1AFB1B826B3E4FE8F51A24C1F1DF7D (GLTFUtilityDracoLoader_t16771465C26E34ACCBF6E73AC7C9AB6F705315BC* __this, int32_t ___0_dt, const RuntimeMethod* method) 
 {
 	{
-		int32_t L_0 = ___dt0;
+		int32_t L_0 = ___0_dt;
 		switch (((int32_t)il2cpp_codegen_subtract((int32_t)L_0, 1)))
 		{
 			case 0:
@@ -3950,37 +4101,37 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GLTFUtilityDracoLoader__ctor_m2B8851A09B
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 // System.Void GLTFUtilityDracoLoader/MeshAttributes::.ctor(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MeshAttributes__ctor_m9DA7BB6D3AA6CE37F7F025F11682C092E7B90598 (MeshAttributes_tB39A2497B9E8857B706FE89A4824EE74DE65C809* __this, int32_t ___pos0, int32_t ___norms1, int32_t ___uv2, int32_t ___joints3, int32_t ___weights4, int32_t ___col5, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MeshAttributes__ctor_m9DA7BB6D3AA6CE37F7F025F11682C092E7B90598 (MeshAttributes_tB39A2497B9E8857B706FE89A4824EE74DE65C809* __this, int32_t ___0_pos, int32_t ___1_norms, int32_t ___2_uv, int32_t ___3_joints, int32_t ___4_weights, int32_t ___5_col, const RuntimeMethod* method) 
 {
 	{
 		// this.pos = pos;
-		int32_t L_0 = ___pos0;
+		int32_t L_0 = ___0_pos;
 		__this->___pos_0 = L_0;
 		// this.norms = norms;
-		int32_t L_1 = ___norms1;
+		int32_t L_1 = ___1_norms;
 		__this->___norms_1 = L_1;
 		// this.uv = uv;
-		int32_t L_2 = ___uv2;
+		int32_t L_2 = ___2_uv;
 		__this->___uv_2 = L_2;
 		// this.joints = joints;
-		int32_t L_3 = ___joints3;
+		int32_t L_3 = ___3_joints;
 		__this->___joints_3 = L_3;
 		// this.weights = weights;
-		int32_t L_4 = ___weights4;
+		int32_t L_4 = ___4_weights;
 		__this->___weights_4 = L_4;
 		// this.col = col;
-		int32_t L_5 = ___col5;
+		int32_t L_5 = ___5_col;
 		__this->___col_5 = L_5;
 		// }
 		return;
 	}
 }
-IL2CPP_EXTERN_C  void MeshAttributes__ctor_m9DA7BB6D3AA6CE37F7F025F11682C092E7B90598_AdjustorThunk (RuntimeObject* __this, int32_t ___pos0, int32_t ___norms1, int32_t ___uv2, int32_t ___joints3, int32_t ___weights4, int32_t ___col5, const RuntimeMethod* method)
+IL2CPP_EXTERN_C  void MeshAttributes__ctor_m9DA7BB6D3AA6CE37F7F025F11682C092E7B90598_AdjustorThunk (RuntimeObject* __this, int32_t ___0_pos, int32_t ___1_norms, int32_t ___2_uv, int32_t ___3_joints, int32_t ___4_weights, int32_t ___5_col, const RuntimeMethod* method)
 {
 	MeshAttributes_tB39A2497B9E8857B706FE89A4824EE74DE65C809* _thisAdjusted;
 	int32_t _offset = 1;
 	_thisAdjusted = reinterpret_cast<MeshAttributes_tB39A2497B9E8857B706FE89A4824EE74DE65C809*>(__this + _offset);
-	MeshAttributes__ctor_m9DA7BB6D3AA6CE37F7F025F11682C092E7B90598(_thisAdjusted, ___pos0, ___norms1, ___uv2, ___joints3, ___weights4, ___col5, method);
+	MeshAttributes__ctor_m9DA7BB6D3AA6CE37F7F025F11682C092E7B90598(_thisAdjusted, ___0_pos, ___1_norms, ___2_uv, ___3_joints, ___4_weights, ___5_col, method);
 }
 #ifdef __clang__
 #pragma clang diagnostic pop
@@ -4007,7 +4158,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncMesh__ctor_mCBAE45886331C410D9CE756
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
 // System.Void GLTFUtilityDracoLoader/<>c::.cctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__cctor_m4703A82BC83651EF39CB22A3E12E291BA5456C88 (const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__cctor_m5974305EF3713165D373249A526FB70F7B93357F (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -4033,17 +4184,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void U3CU3Ec__ctor_m248D1713EB4A3EA7306944FD9
 	}
 }
 // UnityEngine.Vector4 GLTFUtilityDracoLoader/<>c::<CreateAsyncMesh>b__19_0(GLTFUtilityDracoLoader/Vector4`1<System.UInt16>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 U3CU3Ec_U3CCreateAsyncMeshU3Eb__19_0_mE5FACDA76F68B1CEE3771B0A71DA6DF403060209 (U3CU3Ec_t938C53A67B2DFD79840F16904E9963E9BDF4E0C6* __this, Vector4_1_t4C36E5A08C00EC23095617808564AAD5C1BC69F3 ___x0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 U3CU3Ec_U3CCreateAsyncMeshU3Eb__19_0_mE5FACDA76F68B1CEE3771B0A71DA6DF403060209 (U3CU3Ec_t938C53A67B2DFD79840F16904E9963E9BDF4E0C6* __this, Vector4_1_t4C36E5A08C00EC23095617808564AAD5C1BC69F3 ___0_x, const RuntimeMethod* method) 
 {
 	{
 		// weights = newWeightsInt.Select(x => new Vector4(x.x, x.y, x.z, x.w)).ToArray();
-		Vector4_1_t4C36E5A08C00EC23095617808564AAD5C1BC69F3 L_0 = ___x0;
+		Vector4_1_t4C36E5A08C00EC23095617808564AAD5C1BC69F3 L_0 = ___0_x;
 		uint16_t L_1 = L_0.___x_0;
-		Vector4_1_t4C36E5A08C00EC23095617808564AAD5C1BC69F3 L_2 = ___x0;
+		Vector4_1_t4C36E5A08C00EC23095617808564AAD5C1BC69F3 L_2 = ___0_x;
 		uint16_t L_3 = L_2.___y_1;
-		Vector4_1_t4C36E5A08C00EC23095617808564AAD5C1BC69F3 L_4 = ___x0;
+		Vector4_1_t4C36E5A08C00EC23095617808564AAD5C1BC69F3 L_4 = ___0_x;
 		uint16_t L_5 = L_4.___z_2;
-		Vector4_1_t4C36E5A08C00EC23095617808564AAD5C1BC69F3 L_6 = ___x0;
+		Vector4_1_t4C36E5A08C00EC23095617808564AAD5C1BC69F3 L_6 = ___0_x;
 		uint16_t L_7 = L_6.___w_3;
 		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_8;
 		memset((&L_8), 0, sizeof(L_8));
@@ -4052,17 +4203,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80E
 	}
 }
 // UnityEngine.Vector4 GLTFUtilityDracoLoader/<>c::<CreateAsyncMesh>b__19_1(GLTFUtilityDracoLoader/Vector4`1<System.UInt16>)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 U3CU3Ec_U3CCreateAsyncMeshU3Eb__19_1_m05BA9C7378FBEBECAAA1EC652E9737875375DD29 (U3CU3Ec_t938C53A67B2DFD79840F16904E9963E9BDF4E0C6* __this, Vector4_1_t4C36E5A08C00EC23095617808564AAD5C1BC69F3 ___x0, const RuntimeMethod* method) 
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 U3CU3Ec_U3CCreateAsyncMeshU3Eb__19_1_m05BA9C7378FBEBECAAA1EC652E9737875375DD29 (U3CU3Ec_t938C53A67B2DFD79840F16904E9963E9BDF4E0C6* __this, Vector4_1_t4C36E5A08C00EC23095617808564AAD5C1BC69F3 ___0_x, const RuntimeMethod* method) 
 {
 	{
 		// joints = newJointsInt.Select(x => new Vector4(x.x, x.y, x.z, x.w)).ToArray();
-		Vector4_1_t4C36E5A08C00EC23095617808564AAD5C1BC69F3 L_0 = ___x0;
+		Vector4_1_t4C36E5A08C00EC23095617808564AAD5C1BC69F3 L_0 = ___0_x;
 		uint16_t L_1 = L_0.___x_0;
-		Vector4_1_t4C36E5A08C00EC23095617808564AAD5C1BC69F3 L_2 = ___x0;
+		Vector4_1_t4C36E5A08C00EC23095617808564AAD5C1BC69F3 L_2 = ___0_x;
 		uint16_t L_3 = L_2.___y_1;
-		Vector4_1_t4C36E5A08C00EC23095617808564AAD5C1BC69F3 L_4 = ___x0;
+		Vector4_1_t4C36E5A08C00EC23095617808564AAD5C1BC69F3 L_4 = ___0_x;
 		uint16_t L_5 = L_4.___z_2;
-		Vector4_1_t4C36E5A08C00EC23095617808564AAD5C1BC69F3 L_6 = ___x0;
+		Vector4_1_t4C36E5A08C00EC23095617808564AAD5C1BC69F3 L_6 = ___0_x;
 		uint16_t L_7 = L_6.___w_3;
 		Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3 L_8;
 		memset((&L_8), 0, sizeof(L_8));
@@ -4073,20 +4224,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80E
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Multiply_m516FE285F5342F922C6EB3FCB33197E9017FF484_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___a0, float ___d1, const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Multiply_m87BA7C578F96C8E49BB07088DAAC4649F83B0353_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, float ___1_d, const RuntimeMethod* method) 
 {
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___a0;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_a;
 		float L_1 = L_0.___x_2;
-		float L_2 = ___d1;
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3 = ___a0;
+		float L_2 = ___1_d;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_3 = ___0_a;
 		float L_4 = L_3.___y_3;
-		float L_5 = ___d1;
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = ___a0;
+		float L_5 = ___1_d;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = ___0_a;
 		float L_7 = L_6.___z_4;
-		float L_8 = ___d1;
+		float L_8 = ___1_d;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_9;
 		memset((&L_9), 0, sizeof(L_9));
 		Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline((&L_9), ((float)il2cpp_codegen_multiply(L_1, L_2)), ((float)il2cpp_codegen_multiply(L_4, L_5)), ((float)il2cpp_codegen_multiply(L_7, L_8)), /*hidden argument*/NULL);
@@ -4100,22 +4251,22 @@ IL_0021:
 		return L_10;
 	}
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Addition_m087D6F0EC60843D455F9F83D25FE42B2433AAD1D_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___a0, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___b1, const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 Vector3_op_Addition_m78C0EC70CB66E8DCAC225743D82B268DAEE92067_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___0_a, Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 ___1_b, const RuntimeMethod* method) 
 {
 	Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 V_0;
 	memset((&V_0), 0, sizeof(V_0));
 	{
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___a0;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_0 = ___0_a;
 		float L_1 = L_0.___x_2;
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2 = ___b1;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_2 = ___1_b;
 		float L_3 = L_2.___x_2;
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4 = ___a0;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_4 = ___0_a;
 		float L_5 = L_4.___y_3;
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = ___b1;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_6 = ___1_b;
 		float L_7 = L_6.___y_3;
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8 = ___a0;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_8 = ___0_a;
 		float L_9 = L_8.___z_4;
-		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10 = ___b1;
+		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_10 = ___1_b;
 		float L_11 = L_10.___z_4;
 		Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2 L_12;
 		memset((&L_12), 0, sizeof(L_12));
@@ -4130,7 +4281,7 @@ IL_0030:
 		return L_13;
 	}
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Mathf_RoundToInt_m6A6E30BA4157D69DA47F02B43108882DDD7C4A70_inline (float ___f0, const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Mathf_RoundToInt_m60F8B66CF27F1FA75AA219342BD184B75771EB4B_inline (float ___0_f, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
@@ -4140,7 +4291,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR int32_t Mathf_RoundToInt_m6A6E30B
 	}
 	int32_t V_0 = 0;
 	{
-		float L_0 = ___f0;
+		float L_0 = ___0_f;
 		il2cpp_codegen_runtime_class_init_inline(Math_tEB65DE7CA8B083C412C969C92981C030865486CE_il2cpp_TypeInfo_var);
 		double L_1;
 		L_1 = bankers_round(((double)L_0));
@@ -4154,21 +4305,21 @@ IL_000c:
 		return L_2;
 	}
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector4__ctor_m96B2CD8B862B271F513AF0BDC2EABD58E4DBC813_inline (Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3* __this, float ___x0, float ___y1, float ___z2, float ___w3, const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector4__ctor_m96B2CD8B862B271F513AF0BDC2EABD58E4DBC813_inline (Vector4_t58B63D32F48C0DBF50DE2C60794C4676C80EDBE3* __this, float ___0_x, float ___1_y, float ___2_z, float ___3_w, const RuntimeMethod* method) 
 {
 	{
-		float L_0 = ___x0;
+		float L_0 = ___0_x;
 		__this->___x_1 = L_0;
-		float L_1 = ___y1;
+		float L_1 = ___1_y;
 		__this->___y_2 = L_1;
-		float L_2 = ___z2;
+		float L_2 = ___2_z;
 		__this->___z_3 = L_2;
-		float L_3 = ___w3;
+		float L_3 = ___3_w;
 		__this->___w_4 = L_3;
 		return;
 	}
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_mEBCF994CC3814631017F46A387B1A192ED6C85C7_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, RuntimeObject* ___item0, const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_mEBCF994CC3814631017F46A387B1A192ED6C85C7_gshared_inline (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D* __this, RuntimeObject* ___0_item, const RuntimeMethod* method) 
 {
 	ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* V_0 = NULL;
 	int32_t V_1 = 0;
@@ -4192,7 +4343,7 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_mEBCF994CC3814631
 		__this->____size_2 = ((int32_t)il2cpp_codegen_add(L_5, 1));
 		ObjectU5BU5D_t8061030B0A12A55D5AD8652A20C922FE99450918* L_6 = V_0;
 		int32_t L_7 = V_1;
-		RuntimeObject* L_8 = ___item0;
+		RuntimeObject* L_8 = ___0_item;
 		NullCheck(L_6);
 		(L_6)->SetAt(static_cast<il2cpp_array_size_t>(L_7), (RuntimeObject*)L_8);
 		return;
@@ -4200,19 +4351,19 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void List_1_Add_mEBCF994CC3814631
 
 IL_0034:
 	{
-		RuntimeObject* L_9 = ___item0;
+		RuntimeObject* L_9 = ___0_item;
 		((  void (*) (List_1_tA239CB83DE5615F348BB0507E45F490F4F7C9A8D*, RuntimeObject*, const RuntimeMethod*))il2cpp_codegen_get_method_pointer(il2cpp_rgctx_method(method->klass->rgctx_data, 11)))(__this, L_9, il2cpp_rgctx_method(method->klass->rgctx_data, 11));
 		return;
 	}
 }
-IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, float ___x0, float ___y1, float ___z2, const RuntimeMethod* method) 
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void Vector3__ctor_m376936E6B999EF1ECBE57D990A386303E2283DE0_inline (Vector3_t24C512C7B96BBABAD472002D0BA2BDA40A5A80B2* __this, float ___0_x, float ___1_y, float ___2_z, const RuntimeMethod* method) 
 {
 	{
-		float L_0 = ___x0;
+		float L_0 = ___0_x;
 		__this->___x_2 = L_0;
-		float L_1 = ___y1;
+		float L_1 = ___1_y;
 		__this->___y_3 = L_1;
-		float L_2 = ___z2;
+		float L_2 = ___2_z;
 		__this->___z_4 = L_2;
 		return;
 	}

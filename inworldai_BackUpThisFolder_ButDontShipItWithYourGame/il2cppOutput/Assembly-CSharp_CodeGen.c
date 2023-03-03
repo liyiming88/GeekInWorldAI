@@ -46,15 +46,25 @@ extern void SeeThrough_Start_mBF7099C143D6EA5B94F2290ADAB8BFB3C5227618 (void);
 extern void SeeThrough_Update_m33EEE0A43467D809511A62E01168ED5F29B19A36 (void);
 // 0x00000011 System.Void SeeThrough::.ctor()
 extern void SeeThrough__ctor_m1303A1DDBB7DF0767AF2BF4E845C0885DD2D4EBA (void);
-// 0x00000012 System.Void Inworld.Sample.CheckForm::Start()
+// 0x00000012 System.Void AutoFill::Start()
+extern void AutoFill_Start_mA65D475F3B9179490D01CBC045A3E91B8EA5F49D (void);
+// 0x00000013 System.Void AutoFill::Update()
+extern void AutoFill_Update_mB7E64F117392F223AC7408850AC22959D22D608F (void);
+// 0x00000014 System.Void AutoFill::Fill()
+extern void AutoFill_Fill_mC590B3B9A638E0C876B7666C093285CD5F9CC081 (void);
+// 0x00000015 System.Void AutoFill::.ctor()
+extern void AutoFill__ctor_mB83C200C7CD263D8A8BA1427C710C04FF6C86F76 (void);
+// 0x00000016 System.Void Inworld.Sample.CheckForm::Start()
 extern void CheckForm_Start_m402A6032F3AEFA239E52D25AC7C3AF0457D74FA4 (void);
-// 0x00000013 System.Void Inworld.Sample.CheckForm::Update()
+// 0x00000017 System.Void Inworld.Sample.CheckForm::Update()
 extern void CheckForm_Update_m8631C00562A91117F3FC8788085B99C3EBAD0EB4 (void);
-// 0x00000014 System.Void Inworld.Sample.CheckForm::Check()
+// 0x00000018 System.Void Inworld.Sample.CheckForm::Check()
 extern void CheckForm_Check_m296F87FE85D22177465042302619AED3650A757D (void);
-// 0x00000015 System.Void Inworld.Sample.CheckForm::.ctor()
+// 0x00000019 System.Void Inworld.Sample.CheckForm::HoverForm()
+extern void CheckForm_HoverForm_m0EE82F8A34E7FE17B238ED0CBC22668E0B6A8D60 (void);
+// 0x0000001A System.Void Inworld.Sample.CheckForm::.ctor()
 extern void CheckForm__ctor_m2C18C8A35BCDE2D62549370C4674C32D27C2B41D (void);
-static Il2CppMethodPointer s_methodPointers[21] = 
+static Il2CppMethodPointer s_methodPointers[26] = 
 {
 	FaceToCam_Update_mC2BC72AA9A18016C92CC0C6E28C4CA2E513B5C6B,
 	FaceToCam__ctor_mF4D835CA087FCBB381A787E872727C3BD15B7B11,
@@ -73,40 +83,50 @@ static Il2CppMethodPointer s_methodPointers[21] =
 	SeeThrough_Start_mBF7099C143D6EA5B94F2290ADAB8BFB3C5227618,
 	SeeThrough_Update_m33EEE0A43467D809511A62E01168ED5F29B19A36,
 	SeeThrough__ctor_m1303A1DDBB7DF0767AF2BF4E845C0885DD2D4EBA,
+	AutoFill_Start_mA65D475F3B9179490D01CBC045A3E91B8EA5F49D,
+	AutoFill_Update_mB7E64F117392F223AC7408850AC22959D22D608F,
+	AutoFill_Fill_mC590B3B9A638E0C876B7666C093285CD5F9CC081,
+	AutoFill__ctor_mB83C200C7CD263D8A8BA1427C710C04FF6C86F76,
 	CheckForm_Start_m402A6032F3AEFA239E52D25AC7C3AF0457D74FA4,
 	CheckForm_Update_m8631C00562A91117F3FC8788085B99C3EBAD0EB4,
 	CheckForm_Check_m296F87FE85D22177465042302619AED3650A757D,
+	CheckForm_HoverForm_m0EE82F8A34E7FE17B238ED0CBC22668E0B6A8D60,
 	CheckForm__ctor_m2C18C8A35BCDE2D62549370C4674C32D27C2B41D,
 };
-static const int32_t s_InvokerIndices[21] = 
+static const int32_t s_InvokerIndices[26] = 
 {
-	6614,
-	6614,
-	6614,
-	6614,
-	6614,
-	6614,
-	6614,
-	6614,
-	6614,
-	6614,
-	5459,
-	5459,
-	6614,
-	6614,
-	6614,
-	6614,
-	6614,
-	6614,
-	6614,
-	6614,
-	6614,
+	6645,
+	6645,
+	6645,
+	6645,
+	6645,
+	6645,
+	6645,
+	6645,
+	6645,
+	6645,
+	5486,
+	5486,
+	6645,
+	6645,
+	6645,
+	6645,
+	6645,
+	6645,
+	6645,
+	6645,
+	6645,
+	6645,
+	6645,
+	6645,
+	6645,
+	6645,
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	21,
+	26,
 	s_methodPointers,
 	0,
 	NULL,

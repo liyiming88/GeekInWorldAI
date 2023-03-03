@@ -33,8 +33,9 @@ namespace Inworld.Sample
             else {
                 m_CurrentCharacter.SendTrigger(m_CurrentCharacter.Data.triggers[0]);
             }
-
-
+        }
+        public void HoverForm() {
+            m_CurrentCharacter.SendTrigger(m_CurrentCharacter.Data.triggers[2]);
         }
     }
 }

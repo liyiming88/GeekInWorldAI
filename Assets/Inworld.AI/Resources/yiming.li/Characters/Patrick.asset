@@ -23,6 +23,7 @@ MonoBehaviour:
   triggers:
   - checkform
   - formfinished
+  - explainform
   scenes:
   - workspaces/default-oxnteqkgbpcn-auhgjkq0w/scenes/fidelity_investment
   modelUri: https://storage.googleapis.com/inworld-ai-usercontent-prod/rpm_model/611a54de-16b8-400c-b5b5-2785142a690d.glb

@@ -43,20 +43,20 @@ extern void Bit2Converter_Read_m796C2B3A4540FEEE434F0C7CB396D596D1009612 (void);
 // 0x0000000F BufferedBinaryReader/Bit4Converter BufferedBinaryReader/Bit4Converter::Read(System.Byte[],System.Int32&)
 extern void Bit4Converter_Read_m468224EDB0181BBC6A258A3E3A38C8BA3E15DBF6 (void);
 // 0x00000010 System.Int32 Siccity.GLTFUtility.EnumExtensions::ByteSize(Siccity.GLTFUtility.GLType)
-extern void EnumExtensions_ByteSize_m3F545B58AC7A7019813A745E29F5AF18C76FACA4 (void);
+extern void EnumExtensions_ByteSize_m801A9E481255653D45D68CC41D08BBF1EEFFF743 (void);
 // 0x00000011 System.Int32 Siccity.GLTFUtility.EnumExtensions::ComponentCount(Siccity.GLTFUtility.AccessorType)
-extern void EnumExtensions_ComponentCount_m9EE921997D4B1AEBAB9796258945D000DF46C9A9 (void);
+extern void EnumExtensions_ComponentCount_mB3D9C8DFBA5AA80C3D8B086092732DFE4B4C96EF (void);
 // 0x00000012 System.Void Siccity.GLTFUtility.Exporter::ExportGLB(UnityEngine.GameObject)
-extern void Exporter_ExportGLB_m49CE5134DD8083855BC1C27C91D0BBC415F72B4E (void);
+extern void Exporter_ExportGLB_m84579331D08D6D0FA1D714FDAE41DDEA1EE1C538 (void);
 // 0x00000013 System.Void Siccity.GLTFUtility.Exporter::ExportGLTF(UnityEngine.GameObject)
-extern void Exporter_ExportGLTF_m79A24A65A561095BEF6536AF92EAFBB3A7AF3A52 (void);
+extern void Exporter_ExportGLTF_m82A5866A82A0674272ED13ABD88CAAAD578F16AA (void);
 // 0x00000014 Siccity.GLTFUtility.GLTFObject Siccity.GLTFUtility.Exporter::CreateGLTFObject(UnityEngine.Transform)
-extern void Exporter_CreateGLTFObject_m41B5C18F632367E9D85A35C4E741BDDEACD385DE (void);
+extern void Exporter_CreateGLTFObject_m1A1BC6682CB6EF34CA1587B1C8F3BFDCDD88C853 (void);
 // 0x00000015 UnityEngine.Coroutine Siccity.GLTFUtility.Extensions::RunCoroutine(System.Collections.IEnumerator)
-extern void Extensions_RunCoroutine_m3CB37B56935C5E2825F38C430F948E865E1482B9 (void);
+extern void Extensions_RunCoroutine_mFD8CC571DEFA6ADF1FEDFC10E904CFF159E0BFC6 (void);
 // 0x00000016 T[] Siccity.GLTFUtility.Extensions::SubArray(T[],System.Int32,System.Int32)
 // 0x00000017 System.Void Siccity.GLTFUtility.Extensions::UnpackTRS(UnityEngine.Matrix4x4,UnityEngine.Vector3&,UnityEngine.Quaternion&,UnityEngine.Vector3&)
-extern void Extensions_UnpackTRS_mCED211712DB5FA04747021EE5741241634E66F59 (void);
+extern void Extensions_UnpackTRS_m89821FBFF751F39D74D199558DED2A4415861C63 (void);
 // 0x00000018 System.Void Siccity.GLTFUtility.Extensions/CoroutineRunner::.ctor()
 extern void CoroutineRunner__ctor_m081AC0DC532DEC8478B38C5EBD05FD6A37AC00CC (void);
 // 0x00000019 System.Void Siccity.GLTFUtility.KHR_texture_transform::Apply(Siccity.GLTFUtility.GLTFMaterial/TextureInfo,UnityEngine.Material,System.String)
@@ -64,39 +64,39 @@ extern void KHR_texture_transform_Apply_m937562A420C8B9958F522DF4A6C741C1C645E1F
 // 0x0000001A System.Void Siccity.GLTFUtility.KHR_texture_transform::.ctor()
 extern void KHR_texture_transform__ctor_mFB364599A0ED4AF717B6D0540D7FB75AE8A9B40B (void);
 // 0x0000001B UnityEngine.GameObject Siccity.GLTFUtility.Importer::LoadFromFile(System.String,Siccity.GLTFUtility.Format)
-extern void Importer_LoadFromFile_mB5582FAF8A7529E33FB5A1988BA4EB21864BF758 (void);
+extern void Importer_LoadFromFile_m21D894986B9FDDF2F7D5C2687078E6EF77D4197A (void);
 // 0x0000001C UnityEngine.GameObject Siccity.GLTFUtility.Importer::LoadFromFile(System.String,Siccity.GLTFUtility.ImportSettings,Siccity.GLTFUtility.Format)
-extern void Importer_LoadFromFile_m5613DEFD1D3ED5D758F86C57128C802A13DD18D8 (void);
+extern void Importer_LoadFromFile_m4965C11BCC188DF4D4931C9B5F5C743851B55AAE (void);
 // 0x0000001D UnityEngine.GameObject Siccity.GLTFUtility.Importer::LoadFromFile(System.String,Siccity.GLTFUtility.ImportSettings,UnityEngine.AnimationClip[]&,Siccity.GLTFUtility.Format)
-extern void Importer_LoadFromFile_m76D5C40C870E37006891A1C6704CA7EF151DE274 (void);
+extern void Importer_LoadFromFile_m4BE58A3F7E3E92F054200B1FE57B56FF1733C1C8 (void);
 // 0x0000001E UnityEngine.GameObject Siccity.GLTFUtility.Importer::LoadFromBytes(System.Byte[],Siccity.GLTFUtility.ImportSettings)
-extern void Importer_LoadFromBytes_m8E1EBD56CB7B0E0B1A7FCB7FCDB8B2D71611927B (void);
+extern void Importer_LoadFromBytes_m051AB413CD56B366472A6836E392C76894D63E4C (void);
 // 0x0000001F UnityEngine.GameObject Siccity.GLTFUtility.Importer::LoadFromBytes(System.Byte[],Siccity.GLTFUtility.ImportSettings,UnityEngine.AnimationClip[]&)
-extern void Importer_LoadFromBytes_mB33CDDF52BD3502095025E39B27FEAB8038A43DC (void);
+extern void Importer_LoadFromBytes_m7EC0AA6FC9B38E9649D04F305D2970B863301FE0 (void);
 // 0x00000020 System.Void Siccity.GLTFUtility.Importer::LoadFromFileAsync(System.String,Siccity.GLTFUtility.ImportSettings,System.Action`2<UnityEngine.GameObject,UnityEngine.AnimationClip[]>,System.Action`1<System.Single>)
-extern void Importer_LoadFromFileAsync_mFCCFEA6B336158D92E64F5317429C9B4B35283B3 (void);
+extern void Importer_LoadFromFileAsync_m7A160CCCD61CAEA551A7B6929E45A2D4D1F09796 (void);
 // 0x00000021 UnityEngine.GameObject Siccity.GLTFUtility.Importer::ImportGLB(System.String,Siccity.GLTFUtility.ImportSettings,UnityEngine.AnimationClip[]&)
-extern void Importer_ImportGLB_mC83E8FC102715C701799B4928D81DDF830ABB959 (void);
+extern void Importer_ImportGLB_mA3A68E43978A393B37712655438112D04DD802D2 (void);
 // 0x00000022 UnityEngine.GameObject Siccity.GLTFUtility.Importer::ImportGLB(System.Byte[],Siccity.GLTFUtility.ImportSettings,UnityEngine.AnimationClip[]&)
-extern void Importer_ImportGLB_m99DBE9E525CF33AD8BCAD7E70AC02C1EB29E1071 (void);
+extern void Importer_ImportGLB_mC509CF52B11AE6861D679CC6819E4167597A010C (void);
 // 0x00000023 System.Void Siccity.GLTFUtility.Importer::ImportGLBAsync(System.String,Siccity.GLTFUtility.ImportSettings,System.Action`2<UnityEngine.GameObject,UnityEngine.AnimationClip[]>,System.Action`1<System.Single>)
-extern void Importer_ImportGLBAsync_mE065AFA81359A8E806A6ADAB075A7DA9019B8CE6 (void);
+extern void Importer_ImportGLBAsync_m82746B85F4BB3E2A4E4630F861612CD01761D208 (void);
 // 0x00000024 System.Void Siccity.GLTFUtility.Importer::ImportGLBAsync(System.Byte[],Siccity.GLTFUtility.ImportSettings,System.Action`2<UnityEngine.GameObject,UnityEngine.AnimationClip[]>,System.Action`1<System.Single>)
-extern void Importer_ImportGLBAsync_m518958090CC47021AC69F21E46E0FAF9543E4D3E (void);
+extern void Importer_ImportGLBAsync_m85A70AC806986F742BC12CEA3E832C571121F482 (void);
 // 0x00000025 System.String Siccity.GLTFUtility.Importer::GetGLBJson(System.IO.Stream,System.Int64&)
-extern void Importer_GetGLBJson_m997849444DDCAB2A264739F4832A4D6E6BAD88A9 (void);
+extern void Importer_GetGLBJson_m3FCB4BA756212B82492D474867884D4FFAC2F912 (void);
 // 0x00000026 UnityEngine.GameObject Siccity.GLTFUtility.Importer::ImportGLTF(System.String,Siccity.GLTFUtility.ImportSettings,UnityEngine.AnimationClip[]&)
-extern void Importer_ImportGLTF_m255E5CE7EDF21622488AD3E628099393AD322555 (void);
+extern void Importer_ImportGLTF_mADFB18BBBEEDCD25CC6221EC2245AD401E9F3D69 (void);
 // 0x00000027 System.Void Siccity.GLTFUtility.Importer::ImportGLTFAsync(System.String,Siccity.GLTFUtility.ImportSettings,System.Action`2<UnityEngine.GameObject,UnityEngine.AnimationClip[]>,System.Action`1<System.Single>)
-extern void Importer_ImportGLTFAsync_m3326DB2699B5F5DB2C40E2971A607A66EB214FB2 (void);
+extern void Importer_ImportGLTFAsync_mAF6D14AD6CA055057799E615C38D0AECC465650A (void);
 // 0x00000028 UnityEngine.GameObject Siccity.GLTFUtility.Importer::LoadInternal(Siccity.GLTFUtility.GLTFObject,System.String,System.Byte[],System.Int64,Siccity.GLTFUtility.ImportSettings,UnityEngine.AnimationClip[]&)
-extern void Importer_LoadInternal_m29E3D6503AF5DEC0E7669BF0CCC399AEEB4167B5 (void);
+extern void Importer_LoadInternal_m6E8998E232780563092CA71A86B63C356AB6C140 (void);
 // 0x00000029 System.Collections.IEnumerator Siccity.GLTFUtility.Importer::LoadAsync(System.String,System.String,System.Byte[],System.Int64,Siccity.GLTFUtility.ImportSettings,System.Action`2<UnityEngine.GameObject,UnityEngine.AnimationClip[]>,System.Action`1<System.Single>)
-extern void Importer_LoadAsync_m589A74A6A0467183B08E5343CC79D9AF2198EBC7 (void);
+extern void Importer_LoadAsync_mDC706D3B4EA4DA9619880C3B6864CEA440E83A37 (void);
 // 0x0000002A System.Collections.IEnumerator Siccity.GLTFUtility.Importer::TaskSupervisor(Siccity.GLTFUtility.Importer/ImportTask,System.Action`1<System.Single>)
-extern void Importer_TaskSupervisor_mA2AAB388881278E06A26A45F5D009723B9013321 (void);
+extern void Importer_TaskSupervisor_m4FE2A556B26EB4AA4D5F3BCE44063A1DF69550C1 (void);
 // 0x0000002B System.Void Siccity.GLTFUtility.Importer::CheckExtensions(Siccity.GLTFUtility.GLTFObject)
-extern void Importer_CheckExtensions_m841202CA4A435FA9C8699CFF05BE1A6AAC4ABF6B (void);
+extern void Importer_CheckExtensions_mC77375D6D440783D0F6B295F95B806F6EE075007 (void);
 // 0x0000002C System.Void Siccity.GLTFUtility.Importer/ImportTask`1::.ctor(Siccity.GLTFUtility.Importer/ImportTask[])
 // 0x0000002D TReturn Siccity.GLTFUtility.Importer/ImportTask`1::RunSynchronously()
 // 0x0000002E System.Boolean Siccity.GLTFUtility.Importer/ImportTask::get_IsReady()
@@ -110,7 +110,7 @@ extern void ImportTask__ctor_m443E5FFB2EAA5DD40BB5260906CCE9A48DD366F6 (void);
 // 0x00000032 System.Collections.IEnumerator Siccity.GLTFUtility.Importer/ImportTask::OnCoroutine(System.Action`1<System.Single>)
 extern void ImportTask_OnCoroutine_m5249CFB6B699E83B00C6E3DB9A5B10269483B9F1 (void);
 // 0x00000033 System.Void Siccity.GLTFUtility.Importer/ImportTask/<>c::.cctor()
-extern void U3CU3Ec__cctor_m502FAEDF4D58497396F80796D3BE97A5D8E5A9DF (void);
+extern void U3CU3Ec__cctor_mB4DFC2715C236F58C60B34136A24A436293FFB1C (void);
 // 0x00000034 System.Void Siccity.GLTFUtility.Importer/ImportTask/<>c::.ctor()
 extern void U3CU3Ec__ctor_m61643A1977E31767BBFA8A369DFB545F05B04659 (void);
 // 0x00000035 System.Boolean Siccity.GLTFUtility.Importer/ImportTask/<>c::<get_IsReady>b__3_0(Siccity.GLTFUtility.Importer/ImportTask)
@@ -128,7 +128,7 @@ extern void U3COnCoroutineU3Ed__9_System_Collections_IEnumerator_Reset_mAB4176B2
 // 0x0000003B System.Object Siccity.GLTFUtility.Importer/ImportTask/<OnCoroutine>d__9::System.Collections.IEnumerator.get_Current()
 extern void U3COnCoroutineU3Ed__9_System_Collections_IEnumerator_get_Current_mFF4545938D9113CC6E3A82194705FABF9DF14C3F (void);
 // 0x0000003C System.Void Siccity.GLTFUtility.Importer/<>c::.cctor()
-extern void U3CU3Ec__cctor_mEE8B236D2F1C15968DBC13C6E2305969AD61FC4F (void);
+extern void U3CU3Ec__cctor_mA40E5C453154189CF381EE4CD8289CF507513401 (void);
 // 0x0000003D System.Void Siccity.GLTFUtility.Importer/<>c::.ctor()
 extern void U3CU3Ec__ctor_m780AB0160476338ED071E44FE9527B79420A3063 (void);
 // 0x0000003E UnityEngine.AnimationClip Siccity.GLTFUtility.Importer/<>c::<LoadInternal>b__15_0(Siccity.GLTFUtility.GLTFAnimation/ImportResult)
@@ -222,11 +222,11 @@ extern void ImportResult_GetNormalizedFloatReader_mCECFD5AA80E27DCC96B62C9CAA069
 // 0x0000006A System.Int32 Siccity.GLTFUtility.GLTFAccessor/ImportResult::GetComponentSize()
 extern void ImportResult_GetComponentSize_mD4219BCCFDBD859FBE33A28F260DA45DDA5F9CB5 (void);
 // 0x0000006B System.Boolean Siccity.GLTFUtility.GLTFAccessor/ImportResult::ValidateByteStride(System.Int32)
-extern void ImportResult_ValidateByteStride_mF38B7DAFDAB819457D34BA49CDA683F48A8A272D (void);
+extern void ImportResult_ValidateByteStride_mC9A01ED766900FAD93CBC273C5B205BBC6D8B8CE (void);
 // 0x0000006C System.Boolean Siccity.GLTFUtility.GLTFAccessor/ImportResult::ValidateAccessorType(Siccity.GLTFUtility.AccessorType,Siccity.GLTFUtility.AccessorType)
-extern void ImportResult_ValidateAccessorType_m170BE5F055DD126185AD32C6C23FE2C152E4C893 (void);
+extern void ImportResult_ValidateAccessorType_m089659876A938402D054150C08213A95E06D562F (void);
 // 0x0000006D System.Boolean Siccity.GLTFUtility.GLTFAccessor/ImportResult::ValidateAccessorTypeAny(Siccity.GLTFUtility.AccessorType,Siccity.GLTFUtility.AccessorType[])
-extern void ImportResult_ValidateAccessorTypeAny_m6DCF5B6622DCD02F8965908DAC25CFAC6CF67A41 (void);
+extern void ImportResult_ValidateAccessorTypeAny_m8AD0B7A1B6A2B693E34E5C33522410A326576B23 (void);
 // 0x0000006E System.Void Siccity.GLTFUtility.GLTFAccessor/ImportResult::.ctor()
 extern void ImportResult__ctor_m4ABB94463B1515B2EA8C77703783E6A592DA8FBC (void);
 // 0x0000006F System.Void Siccity.GLTFUtility.GLTFAccessor/ImportResult/Sparse::.ctor()
@@ -236,7 +236,7 @@ extern void Values__ctor_m8CEF5AEC5737B57E5F597D5F0CFD772E18CFE253 (void);
 // 0x00000071 System.Void Siccity.GLTFUtility.GLTFAccessor/ImportResult/Sparse/Indices::.ctor()
 extern void Indices__ctor_m2139CA535ADD9B0363C7FD2105E0EA09C8189A08 (void);
 // 0x00000072 System.Void Siccity.GLTFUtility.GLTFAccessor/ImportResult/<>c::.cctor()
-extern void U3CU3Ec__cctor_m53C56B4CB0AF60323E7E42885CA85B257F8B967B (void);
+extern void U3CU3Ec__cctor_m77CAE76E59DD4C11E203FD86D5BADE9954FA4BEC (void);
 // 0x00000073 System.Void Siccity.GLTFUtility.GLTFAccessor/ImportResult/<>c::.ctor()
 extern void U3CU3Ec__ctor_mDF48D3D7806435591597BEA89E535E5A20A893BB (void);
 // 0x00000074 System.Int32 Siccity.GLTFUtility.GLTFAccessor/ImportResult/<>c::<GetIntReader>b__20_0(BufferedBinaryReader)
@@ -301,7 +301,7 @@ extern void Target__ctor_m10C8DDD9F3DBAF87B940C55B59F98D9EB5B98134 (void);
 // 0x00000092 System.Void Siccity.GLTFUtility.GLTFAnimation/ImportResult::.ctor()
 extern void ImportResult__ctor_m3FAAB32FE3B7F2B68CABC73AFAF8363ACF1B098E (void);
 // 0x00000093 System.Void Siccity.GLTFUtility.GLTFAnimation/<>c::.cctor()
-extern void U3CU3Ec__cctor_m8AC8F70F99FDB00492A15B18ED7DCDF9E241F660 (void);
+extern void U3CU3Ec__cctor_m59F8E9DB8CB6EDD1D9A84B2C1F2B78C91E9E19E0 (void);
 // 0x00000094 System.Void Siccity.GLTFUtility.GLTFAnimation/<>c::.ctor()
 extern void U3CU3Ec__ctor_m0B17B459A222440EAE069FFBE12C90ACEADE81D0 (void);
 // 0x00000095 System.Boolean Siccity.GLTFUtility.GLTFAnimation/<>c::<Import>b__8_0(Siccity.GLTFUtility.GLTFNode/ImportResult)
@@ -331,7 +331,7 @@ extern void U3CU3Ec_U3CImportU3Eb__8_11_m21B40B3D8E3CD6E6E36DC05F22526CD52344F28
 // 0x000000A1 System.Single Siccity.GLTFUtility.GLTFAnimation/<>c::<Import>b__8_12(System.Single)
 extern void U3CU3Ec_U3CImportU3Eb__8_12_mCA31DF1C08575FB558A75F50330174D3E78A25BD (void);
 // 0x000000A2 Siccity.GLTFUtility.GLTFAnimation/ImportResult[] Siccity.GLTFUtility.GLTFAnimationExtensions::Import(System.Collections.Generic.List`1<Siccity.GLTFUtility.GLTFAnimation>,Siccity.GLTFUtility.GLTFAccessor/ImportResult[],Siccity.GLTFUtility.GLTFNode/ImportResult[],Siccity.GLTFUtility.ImportSettings)
-extern void GLTFAnimationExtensions_Import_m2F004F847BAEF7DBF069CAB396CFDDFA59D7D5DB (void);
+extern void GLTFAnimationExtensions_Import_m90B3AFF10EDD439F38342E9E354176D2B1415029 (void);
 // 0x000000A3 System.Void Siccity.GLTFUtility.GLTFAsset::.ctor()
 extern void GLTFAsset__ctor_m4BB17122DE5D8DFAF25AD3CB385F5485D42879AF (void);
 // 0x000000A4 Siccity.GLTFUtility.GLTFBuffer/ImportResult Siccity.GLTFUtility.GLTFBuffer::Import(System.String,System.Byte[],System.Int64)
@@ -395,11 +395,11 @@ extern void U3CU3Ec__DisplayClass0_0__ctor_m58B70DAD861AE53F2A3485277A78948575CF
 // 0x000000C1 System.Void Siccity.GLTFUtility.GLTFImage/ImportTask/<>c__DisplayClass0_0::<.ctor>b__0()
 extern void U3CU3Ec__DisplayClass0_0_U3C_ctorU3Eb__0_mDA35D4C3F37D28D4CF2B4CD6922EE961034D22BF (void);
 // 0x000000C2 UnityEngine.Material Siccity.GLTFUtility.GLTFMaterial::get_defaultMaterial()
-extern void GLTFMaterial_get_defaultMaterial_m5EAAC152025C401CC58EC8904E560142CB03AA84 (void);
+extern void GLTFMaterial_get_defaultMaterial_m0C0744BC5A109BF5499C5FC21B35E17908EB2623 (void);
 // 0x000000C3 System.Collections.IEnumerator Siccity.GLTFUtility.GLTFMaterial::CreateMaterial(Siccity.GLTFUtility.GLTFTexture/ImportResult[],Siccity.GLTFUtility.ShaderSettings,System.Action`1<UnityEngine.Material>)
 extern void GLTFMaterial_CreateMaterial_m100E834E29314358E09D530ACA9AD96249ECDC2E (void);
 // 0x000000C4 System.Collections.IEnumerator Siccity.GLTFUtility.GLTFMaterial::TryGetTexture(Siccity.GLTFUtility.GLTFTexture/ImportResult[],Siccity.GLTFUtility.GLTFMaterial/TextureInfo,System.Boolean,System.Action`1<UnityEngine.Texture2D>,System.Action`1<System.Single>)
-extern void GLTFMaterial_TryGetTexture_m88FB5BA2274533913625C4C1B2EE470259144932 (void);
+extern void GLTFMaterial_TryGetTexture_m229A2FD35F93F470CAA42FB0440B6AB765680B58 (void);
 // 0x000000C5 System.Void Siccity.GLTFUtility.GLTFMaterial::.ctor()
 extern void GLTFMaterial__ctor_m1DFB6202532BCCDAC5759E8FE99D26D3ECB6B8C8 (void);
 // 0x000000C6 System.Void Siccity.GLTFUtility.GLTFMaterial/ImportResult::.ctor()
@@ -518,9 +518,9 @@ extern void U3CTryGetTextureU3Ed__15_System_Collections_IEnumerator_Reset_m4F922
 // 0x000000FF System.Object Siccity.GLTFUtility.GLTFMaterial/<TryGetTexture>d__15::System.Collections.IEnumerator.get_Current()
 extern void U3CTryGetTextureU3Ed__15_System_Collections_IEnumerator_get_Current_m38A6473C1E9821F0FE1AD7F44190DDE81C26218F (void);
 // 0x00000100 System.Collections.Generic.List`1<Siccity.GLTFUtility.GLTFMesh/ExportResult> Siccity.GLTFUtility.GLTFMesh::Export(System.Collections.Generic.List`1<Siccity.GLTFUtility.GLTFNode/ExportResult>)
-extern void GLTFMesh_Export_m7DA6DD288157BE0ADB21EC9177AE83A10144C66C (void);
+extern void GLTFMesh_Export_mE6B92133CB731639348A4FB716FFE01746387990 (void);
 // 0x00000101 Siccity.GLTFUtility.GLTFMesh/ExportResult Siccity.GLTFUtility.GLTFMesh::Export(UnityEngine.Mesh)
-extern void GLTFMesh_Export_m337777ED2FB8760A5673E31786932A7776116EF4 (void);
+extern void GLTFMesh_Export_mF783A5F9CF6A19F38F2D7BF96B549141ECFECCE4 (void);
 // 0x00000102 System.Void Siccity.GLTFUtility.GLTFMesh::.ctor()
 extern void GLTFMesh__ctor_mF542126EDF249B4BF1FA1157C655B384F7C865B8 (void);
 // 0x00000103 System.Void Siccity.GLTFUtility.GLTFMesh/Extras::.ctor()
@@ -558,7 +558,7 @@ extern void U3CU3Ec__DisplayClass19_2__ctor_mEB2E8016A77C938181171C2C80E4838BEFF
 // 0x00000113 System.Int32 Siccity.GLTFUtility.GLTFMesh/ImportTask/MeshData/<>c__DisplayClass19_2::<.ctor>b__5(System.Int32)
 extern void U3CU3Ec__DisplayClass19_2_U3C_ctorU3Eb__5_mB64577614C307D58B8D65C531E827CEB8F10F3C2 (void);
 // 0x00000114 System.Void Siccity.GLTFUtility.GLTFMesh/ImportTask/MeshData/<>c::.cctor()
-extern void U3CU3Ec__cctor_mF74556C5130F8E99D766EC18FEF2009E73E603FF (void);
+extern void U3CU3Ec__cctor_mBBAAB868DEC45854BE05F84D83B7BA67C8502F0D (void);
 // 0x00000115 System.Void Siccity.GLTFUtility.GLTFMesh/ImportTask/MeshData/<>c::.ctor()
 extern void U3CU3Ec__ctor_mE7E7629249154020599FC8A2382DF49870B05DE4 (void);
 // 0x00000116 UnityEngine.Vector3 Siccity.GLTFUtility.GLTFMesh/ImportTask/MeshData/<>c::<.ctor>b__19_2(UnityEngine.Vector3)
@@ -602,9 +602,9 @@ extern void GLTFNode_ShouldSerializescale_m8D1FF446BAAB02B23776B081AEEC3DF881315
 // 0x00000129 System.Void Siccity.GLTFUtility.GLTFNode::ApplyTRS(UnityEngine.Transform)
 extern void GLTFNode_ApplyTRS_mDA2C657088E8CC491EE0D136E73EF0F71A12F178 (void);
 // 0x0000012A System.Collections.Generic.List`1<Siccity.GLTFUtility.GLTFNode/ExportResult> Siccity.GLTFUtility.GLTFNode::Export(UnityEngine.Transform)
-extern void GLTFNode_Export_mCC41637C4E1D779C564FD2CB7685A7C4000444A5 (void);
+extern void GLTFNode_Export_m76D78A2FD44A031E884F84B73886C1D7208EA593 (void);
 // 0x0000012B System.Void Siccity.GLTFUtility.GLTFNode::CreateNodeListRecursive(UnityEngine.Transform,System.Collections.Generic.List`1<Siccity.GLTFUtility.GLTFNode/ExportResult>)
-extern void GLTFNode_CreateNodeListRecursive_mBE8F55C398C9F94166BAE54438F3DB996BB637BC (void);
+extern void GLTFNode_CreateNodeListRecursive_mE5B7848795E091C6134F052D7A9E195424211F61 (void);
 // 0x0000012C System.Void Siccity.GLTFUtility.GLTFNode::.ctor()
 extern void GLTFNode__ctor_m96D7DBCDDE679F5C900497099EEDEF682DC06034 (void);
 // 0x0000012D System.Boolean Siccity.GLTFUtility.GLTFNode/ImportResult::get_IsRoot()
@@ -630,9 +630,9 @@ extern void U3COnCoroutineU3Ed__5_System_Collections_IEnumerator_get_Current_m14
 // 0x00000137 System.Void Siccity.GLTFUtility.GLTFNode/ExportResult::.ctor()
 extern void ExportResult__ctor_mA7DF1658976A0629E75B3A73DDC0B372E0169423 (void);
 // 0x00000138 UnityEngine.GameObject Siccity.GLTFUtility.GLTFNodeExtensions::GetRoot(Siccity.GLTFUtility.GLTFNode/ImportResult[])
-extern void GLTFNodeExtensions_GetRoot_mA9A3C2E23A83F8CB05F09E6F409EA42BD086490F (void);
+extern void GLTFNodeExtensions_GetRoot_mC2F52DF1F12C249FDCD8A7F38B6919FCF5E1EE12 (void);
 // 0x00000139 System.Void Siccity.GLTFUtility.GLTFNodeExtensions/<>c::.cctor()
-extern void U3CU3Ec__cctor_m731F0462029255C691A185D58D118995614F519C (void);
+extern void U3CU3Ec__cctor_m831A06A054EA0880097F164CB3F3313CC2D66C07 (void);
 // 0x0000013A System.Void Siccity.GLTFUtility.GLTFNodeExtensions/<>c::.ctor()
 extern void U3CU3Ec__ctor_mBE965964844A0FF7152FFFA94340A1F558BF8960 (void);
 // 0x0000013B System.Boolean Siccity.GLTFUtility.GLTFNodeExtensions/<>c::<GetRoot>b__0_0(Siccity.GLTFUtility.GLTFNode/ImportResult)
@@ -774,34 +774,34 @@ static Il2CppMethodPointer s_methodPointers[375] =
 	BufferedBinaryReader_Dispose_mF87E7DDE26CBB575E1BA198FACC76E2132135E96,
 	Bit2Converter_Read_m796C2B3A4540FEEE434F0C7CB396D596D1009612,
 	Bit4Converter_Read_m468224EDB0181BBC6A258A3E3A38C8BA3E15DBF6,
-	EnumExtensions_ByteSize_m3F545B58AC7A7019813A745E29F5AF18C76FACA4,
-	EnumExtensions_ComponentCount_m9EE921997D4B1AEBAB9796258945D000DF46C9A9,
-	Exporter_ExportGLB_m49CE5134DD8083855BC1C27C91D0BBC415F72B4E,
-	Exporter_ExportGLTF_m79A24A65A561095BEF6536AF92EAFBB3A7AF3A52,
-	Exporter_CreateGLTFObject_m41B5C18F632367E9D85A35C4E741BDDEACD385DE,
-	Extensions_RunCoroutine_m3CB37B56935C5E2825F38C430F948E865E1482B9,
+	EnumExtensions_ByteSize_m801A9E481255653D45D68CC41D08BBF1EEFFF743,
+	EnumExtensions_ComponentCount_mB3D9C8DFBA5AA80C3D8B086092732DFE4B4C96EF,
+	Exporter_ExportGLB_m84579331D08D6D0FA1D714FDAE41DDEA1EE1C538,
+	Exporter_ExportGLTF_m82A5866A82A0674272ED13ABD88CAAAD578F16AA,
+	Exporter_CreateGLTFObject_m1A1BC6682CB6EF34CA1587B1C8F3BFDCDD88C853,
+	Extensions_RunCoroutine_mFD8CC571DEFA6ADF1FEDFC10E904CFF159E0BFC6,
 	NULL,
-	Extensions_UnpackTRS_mCED211712DB5FA04747021EE5741241634E66F59,
+	Extensions_UnpackTRS_m89821FBFF751F39D74D199558DED2A4415861C63,
 	CoroutineRunner__ctor_m081AC0DC532DEC8478B38C5EBD05FD6A37AC00CC,
 	KHR_texture_transform_Apply_m937562A420C8B9958F522DF4A6C741C1C645E1F1,
 	KHR_texture_transform__ctor_mFB364599A0ED4AF717B6D0540D7FB75AE8A9B40B,
-	Importer_LoadFromFile_mB5582FAF8A7529E33FB5A1988BA4EB21864BF758,
-	Importer_LoadFromFile_m5613DEFD1D3ED5D758F86C57128C802A13DD18D8,
-	Importer_LoadFromFile_m76D5C40C870E37006891A1C6704CA7EF151DE274,
-	Importer_LoadFromBytes_m8E1EBD56CB7B0E0B1A7FCB7FCDB8B2D71611927B,
-	Importer_LoadFromBytes_mB33CDDF52BD3502095025E39B27FEAB8038A43DC,
-	Importer_LoadFromFileAsync_mFCCFEA6B336158D92E64F5317429C9B4B35283B3,
-	Importer_ImportGLB_mC83E8FC102715C701799B4928D81DDF830ABB959,
-	Importer_ImportGLB_m99DBE9E525CF33AD8BCAD7E70AC02C1EB29E1071,
-	Importer_ImportGLBAsync_mE065AFA81359A8E806A6ADAB075A7DA9019B8CE6,
-	Importer_ImportGLBAsync_m518958090CC47021AC69F21E46E0FAF9543E4D3E,
-	Importer_GetGLBJson_m997849444DDCAB2A264739F4832A4D6E6BAD88A9,
-	Importer_ImportGLTF_m255E5CE7EDF21622488AD3E628099393AD322555,
-	Importer_ImportGLTFAsync_m3326DB2699B5F5DB2C40E2971A607A66EB214FB2,
-	Importer_LoadInternal_m29E3D6503AF5DEC0E7669BF0CCC399AEEB4167B5,
-	Importer_LoadAsync_m589A74A6A0467183B08E5343CC79D9AF2198EBC7,
-	Importer_TaskSupervisor_mA2AAB388881278E06A26A45F5D009723B9013321,
-	Importer_CheckExtensions_m841202CA4A435FA9C8699CFF05BE1A6AAC4ABF6B,
+	Importer_LoadFromFile_m21D894986B9FDDF2F7D5C2687078E6EF77D4197A,
+	Importer_LoadFromFile_m4965C11BCC188DF4D4931C9B5F5C743851B55AAE,
+	Importer_LoadFromFile_m4BE58A3F7E3E92F054200B1FE57B56FF1733C1C8,
+	Importer_LoadFromBytes_m051AB413CD56B366472A6836E392C76894D63E4C,
+	Importer_LoadFromBytes_m7EC0AA6FC9B38E9649D04F305D2970B863301FE0,
+	Importer_LoadFromFileAsync_m7A160CCCD61CAEA551A7B6929E45A2D4D1F09796,
+	Importer_ImportGLB_mA3A68E43978A393B37712655438112D04DD802D2,
+	Importer_ImportGLB_mC509CF52B11AE6861D679CC6819E4167597A010C,
+	Importer_ImportGLBAsync_m82746B85F4BB3E2A4E4630F861612CD01761D208,
+	Importer_ImportGLBAsync_m85A70AC806986F742BC12CEA3E832C571121F482,
+	Importer_GetGLBJson_m3FCB4BA756212B82492D474867884D4FFAC2F912,
+	Importer_ImportGLTF_mADFB18BBBEEDCD25CC6221EC2245AD401E9F3D69,
+	Importer_ImportGLTFAsync_mAF6D14AD6CA055057799E615C38D0AECC465650A,
+	Importer_LoadInternal_m6E8998E232780563092CA71A86B63C356AB6C140,
+	Importer_LoadAsync_mDC706D3B4EA4DA9619880C3B6864CEA440E83A37,
+	Importer_TaskSupervisor_m4FE2A556B26EB4AA4D5F3BCE44063A1DF69550C1,
+	Importer_CheckExtensions_mC77375D6D440783D0F6B295F95B806F6EE075007,
 	NULL,
 	NULL,
 	ImportTask_get_IsReady_m906A0AF4D383E988AA6C6D3F4F4AC226687468E7,
@@ -809,7 +809,7 @@ static Il2CppMethodPointer s_methodPointers[375] =
 	ImportTask_set_IsCompleted_mD43834A40156C70ED3E4D35718CD32E2DE0A1595,
 	ImportTask__ctor_m443E5FFB2EAA5DD40BB5260906CCE9A48DD366F6,
 	ImportTask_OnCoroutine_m5249CFB6B699E83B00C6E3DB9A5B10269483B9F1,
-	U3CU3Ec__cctor_m502FAEDF4D58497396F80796D3BE97A5D8E5A9DF,
+	U3CU3Ec__cctor_mB4DFC2715C236F58C60B34136A24A436293FFB1C,
 	U3CU3Ec__ctor_m61643A1977E31767BBFA8A369DFB545F05B04659,
 	U3CU3Ec_U3Cget_IsReadyU3Eb__3_0_m9BE4CEE7C35F96B017A5E4069B54290DF3607BB1,
 	U3COnCoroutineU3Ed__9__ctor_mEC63B34C6610E901626948EACBC19CD52D441565,
@@ -818,7 +818,7 @@ static Il2CppMethodPointer s_methodPointers[375] =
 	U3COnCoroutineU3Ed__9_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mAA63DB57B94CC009335808192905DE362C088287,
 	U3COnCoroutineU3Ed__9_System_Collections_IEnumerator_Reset_mAB4176B24CAF213CF5D293DB69FE8016000B75E5,
 	U3COnCoroutineU3Ed__9_System_Collections_IEnumerator_get_Current_mFF4545938D9113CC6E3A82194705FABF9DF14C3F,
-	U3CU3Ec__cctor_mEE8B236D2F1C15968DBC13C6E2305969AD61FC4F,
+	U3CU3Ec__cctor_mA40E5C453154189CF381EE4CD8289CF507513401,
 	U3CU3Ec__ctor_m780AB0160476338ED071E44FE9527B79420A3063,
 	U3CU3Ec_U3CLoadInternalU3Eb__15_0_mDF95244EDD8AC2806434DDE84ED402BAA38E3030,
 	U3CU3Ec_U3CLoadAsyncU3Eb__16_1_m2CCE70A9D5816A483268C0436517571E1FF63743,
@@ -865,14 +865,14 @@ static Il2CppMethodPointer s_methodPointers[375] =
 	ImportResult_GetFloatReader_mBC3DEBA62D2137A0CB4A9DD0C19CB8746D2A707B,
 	ImportResult_GetNormalizedFloatReader_mCECFD5AA80E27DCC96B62C9CAA06913AD2462235,
 	ImportResult_GetComponentSize_mD4219BCCFDBD859FBE33A28F260DA45DDA5F9CB5,
-	ImportResult_ValidateByteStride_mF38B7DAFDAB819457D34BA49CDA683F48A8A272D,
-	ImportResult_ValidateAccessorType_m170BE5F055DD126185AD32C6C23FE2C152E4C893,
-	ImportResult_ValidateAccessorTypeAny_m6DCF5B6622DCD02F8965908DAC25CFAC6CF67A41,
+	ImportResult_ValidateByteStride_mC9A01ED766900FAD93CBC273C5B205BBC6D8B8CE,
+	ImportResult_ValidateAccessorType_m089659876A938402D054150C08213A95E06D562F,
+	ImportResult_ValidateAccessorTypeAny_m8AD0B7A1B6A2B693E34E5C33522410A326576B23,
 	ImportResult__ctor_m4ABB94463B1515B2EA8C77703783E6A592DA8FBC,
 	Sparse__ctor_m3D0C0B2666EFB8B7F2425BC1A7F892DEC323B4BD,
 	Values__ctor_m8CEF5AEC5737B57E5F597D5F0CFD772E18CFE253,
 	Indices__ctor_m2139CA535ADD9B0363C7FD2105E0EA09C8189A08,
-	U3CU3Ec__cctor_m53C56B4CB0AF60323E7E42885CA85B257F8B967B,
+	U3CU3Ec__cctor_m77CAE76E59DD4C11E203FD86D5BADE9954FA4BEC,
 	U3CU3Ec__ctor_mDF48D3D7806435591597BEA89E535E5A20A893BB,
 	U3CU3Ec_U3CGetIntReaderU3Eb__20_0_m91F895E58A93112F05D913A7B6819BD2FDDA5751,
 	U3CU3Ec_U3CGetIntReaderU3Eb__20_1_mA1A343FF5A3091DFF0420DEEA4896AA9755BAC19,
@@ -905,7 +905,7 @@ static Il2CppMethodPointer s_methodPointers[375] =
 	Channel__ctor_mFD814BBFD4CB00900481A29757FC42DE2C23FDE0,
 	Target__ctor_m10C8DDD9F3DBAF87B940C55B59F98D9EB5B98134,
 	ImportResult__ctor_m3FAAB32FE3B7F2B68CABC73AFAF8363ACF1B098E,
-	U3CU3Ec__cctor_m8AC8F70F99FDB00492A15B18ED7DCDF9E241F660,
+	U3CU3Ec__cctor_m59F8E9DB8CB6EDD1D9A84B2C1F2B78C91E9E19E0,
 	U3CU3Ec__ctor_m0B17B459A222440EAE069FFBE12C90ACEADE81D0,
 	U3CU3Ec_U3CImportU3Eb__8_0_mA21ADF0FE350AC127F74857673745EA988585FD4,
 	U3CU3Ec_U3CImportU3Eb__8_1_m56F61BED05622BB7099D19C4500807C756A534D8,
@@ -920,7 +920,7 @@ static Il2CppMethodPointer s_methodPointers[375] =
 	U3CU3Ec_U3CImportU3Eb__8_10_m7D45C6A11B95C84F1D4382B91B66165FE0E98638,
 	U3CU3Ec_U3CImportU3Eb__8_11_m21B40B3D8E3CD6E6E36DC05F22526CD52344F28A,
 	U3CU3Ec_U3CImportU3Eb__8_12_mCA31DF1C08575FB558A75F50330174D3E78A25BD,
-	GLTFAnimationExtensions_Import_m2F004F847BAEF7DBF069CAB396CFDDFA59D7D5DB,
+	GLTFAnimationExtensions_Import_m90B3AFF10EDD439F38342E9E354176D2B1415029,
 	GLTFAsset__ctor_m4BB17122DE5D8DFAF25AD3CB385F5485D42879AF,
 	GLTFBuffer_Import_mC1B229518E68E05D006D8E7460A5E2AE6AE22A8A,
 	GLTFBuffer__ctor_m4E89864778A8BA7947122F65093E6812A44B2D5F,
@@ -952,9 +952,9 @@ static Il2CppMethodPointer s_methodPointers[375] =
 	ImportTask__ctor_m6646C34E951520681F9367390F86003312E90A72,
 	U3CU3Ec__DisplayClass0_0__ctor_m58B70DAD861AE53F2A3485277A78948575CF4540,
 	U3CU3Ec__DisplayClass0_0_U3C_ctorU3Eb__0_mDA35D4C3F37D28D4CF2B4CD6922EE961034D22BF,
-	GLTFMaterial_get_defaultMaterial_m5EAAC152025C401CC58EC8904E560142CB03AA84,
+	GLTFMaterial_get_defaultMaterial_m0C0744BC5A109BF5499C5FC21B35E17908EB2623,
 	GLTFMaterial_CreateMaterial_m100E834E29314358E09D530ACA9AD96249ECDC2E,
-	GLTFMaterial_TryGetTexture_m88FB5BA2274533913625C4C1B2EE470259144932,
+	GLTFMaterial_TryGetTexture_m229A2FD35F93F470CAA42FB0440B6AB765680B58,
 	GLTFMaterial__ctor_m1DFB6202532BCCDAC5759E8FE99D26D3ECB6B8C8,
 	ImportResult__ctor_m87EEC15317BAF9666B8CFA6322B681456A3D11C3,
 	Extensions__ctor_mFE98411B586EF9727C7F895BBEFD165D0F13B77C,
@@ -1014,8 +1014,8 @@ static Il2CppMethodPointer s_methodPointers[375] =
 	U3CTryGetTextureU3Ed__15_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mE72C978A932A58C978D0DF131656B3B8F890CC7A,
 	U3CTryGetTextureU3Ed__15_System_Collections_IEnumerator_Reset_m4F92287CF684B33B3E2E60BEE761D91AD7D5AD9D,
 	U3CTryGetTextureU3Ed__15_System_Collections_IEnumerator_get_Current_m38A6473C1E9821F0FE1AD7F44190DDE81C26218F,
-	GLTFMesh_Export_m7DA6DD288157BE0ADB21EC9177AE83A10144C66C,
-	GLTFMesh_Export_m337777ED2FB8760A5673E31786932A7776116EF4,
+	GLTFMesh_Export_mE6B92133CB731639348A4FB716FFE01746387990,
+	GLTFMesh_Export_mF783A5F9CF6A19F38F2D7BF96B549141ECFECCE4,
 	GLTFMesh__ctor_mF542126EDF249B4BF1FA1157C655B384F7C865B8,
 	Extras__ctor_mE7D519B87892894602B6AA89CC7F32931DFAAE2C,
 	ImportResult__ctor_m06AE499FADD6A2D06A252F06DA41F094E90985CC,
@@ -1034,7 +1034,7 @@ static Il2CppMethodPointer s_methodPointers[375] =
 	U3CU3Ec__DisplayClass19_1_U3C_ctorU3Eb__1_m88281AB53491F1BD92C4DF52447D4037736C0900,
 	U3CU3Ec__DisplayClass19_2__ctor_mEB2E8016A77C938181171C2C80E4838BEFFF6858,
 	U3CU3Ec__DisplayClass19_2_U3C_ctorU3Eb__5_mB64577614C307D58B8D65C531E827CEB8F10F3C2,
-	U3CU3Ec__cctor_mF74556C5130F8E99D766EC18FEF2009E73E603FF,
+	U3CU3Ec__cctor_mBBAAB868DEC45854BE05F84D83B7BA67C8502F0D,
 	U3CU3Ec__ctor_mE7E7629249154020599FC8A2382DF49870B05DE4,
 	U3CU3Ec_U3C_ctorU3Eb__19_2_mA8815C2A43431D40D3BA382DAF5BF786295717C6,
 	U3CU3Ec_U3C_ctorU3Eb__19_3_m96A1CA81552E3837C3BBB50422643FB5728A0F20,
@@ -1056,8 +1056,8 @@ static Il2CppMethodPointer s_methodPointers[375] =
 	GLTFNode_ShouldSerializerotation_mC76468A1B74BD6856A3BCBE8605F2E533E3FBEC4,
 	GLTFNode_ShouldSerializescale_m8D1FF446BAAB02B23776B081AEEC3DF8813150E1,
 	GLTFNode_ApplyTRS_mDA2C657088E8CC491EE0D136E73EF0F71A12F178,
-	GLTFNode_Export_mCC41637C4E1D779C564FD2CB7685A7C4000444A5,
-	GLTFNode_CreateNodeListRecursive_mBE8F55C398C9F94166BAE54438F3DB996BB637BC,
+	GLTFNode_Export_m76D78A2FD44A031E884F84B73886C1D7208EA593,
+	GLTFNode_CreateNodeListRecursive_mE5B7848795E091C6134F052D7A9E195424211F61,
 	GLTFNode__ctor_m96D7DBCDDE679F5C900497099EEDEF682DC06034,
 	ImportResult_get_IsRoot_m7F595F057311EDA04643EEB6356B5D1414CC4D41,
 	ImportResult__ctor_mDD68E4E6BF357B78511BF4AF3306CC1FCDD23AF1,
@@ -1070,8 +1070,8 @@ static Il2CppMethodPointer s_methodPointers[375] =
 	U3COnCoroutineU3Ed__5_System_Collections_IEnumerator_Reset_mD9C6F1DF1827FBEC469361263D77864CA46B79ED,
 	U3COnCoroutineU3Ed__5_System_Collections_IEnumerator_get_Current_m14AF0358E969F6F03D692AEB60D55C0ABB782C0B,
 	ExportResult__ctor_mA7DF1658976A0629E75B3A73DDC0B372E0169423,
-	GLTFNodeExtensions_GetRoot_mA9A3C2E23A83F8CB05F09E6F409EA42BD086490F,
-	U3CU3Ec__cctor_m731F0462029255C691A185D58D118995614F519C,
+	GLTFNodeExtensions_GetRoot_mC2F52DF1F12C249FDCD8A7F38B6919FCF5E1EE12,
+	U3CU3Ec__cctor_m831A06A054EA0880097F164CB3F3313CC2D66C07,
 	U3CU3Ec__ctor_mBE965964844A0FF7152FFFA94340A1F558BF8960,
 	U3CU3Ec_U3CGetRootU3Eb__0_0_mB6164317DB954F6DFFDA38FAF8A130C1FB834A5D,
 	GLTFObject__ctor_m351DBDE00DD0B4BFAE6839B547C9B38A87C264B7,
@@ -1144,395 +1144,395 @@ static Il2CppTokenAdjustorThunkPair s_adjustorThunks[2] =
 };
 static const int32_t s_InvokerIndices[375] = 
 {
-	6449,
-	5287,
-	2992,
-	5286,
-	6377,
-	6523,
-	6598,
-	6447,
-	6599,
-	6448,
-	6530,
-	5286,
-	6614,
-	3097,
-	3098,
-	9442,
-	9442,
-	9850,
-	9850,
-	9575,
-	9575,
+	6480,
+	5314,
+	3010,
+	5313,
+	6408,
+	6554,
+	6629,
+	6478,
+	6630,
+	6479,
+	6561,
+	5313,
+	6645,
+	3115,
+	3116,
+	9491,
+	9491,
+	9902,
+	9902,
+	9626,
+	9626,
 	0,
-	7804,
-	6614,
-	1633,
-	6614,
-	8839,
-	8156,
-	7690,
-	8843,
-	8153,
-	7840,
-	8153,
-	8153,
-	7840,
-	7840,
-	8832,
-	8153,
-	7840,
-	6974,
-	6886,
-	8843,
-	9850,
+	7843,
+	6645,
+	1644,
+	6645,
+	8885,
+	8200,
+	7730,
+	8889,
+	8197,
+	7880,
+	8197,
+	8197,
+	7880,
+	7880,
+	8878,
+	8197,
+	7880,
+	7008,
+	6920,
+	8889,
+	9902,
 	0,
 	0,
-	6377,
-	6377,
-	5215,
+	6408,
+	6408,
+	5242,
+	5340,
+	4729,
+	10103,
+	6645,
+	3799,
 	5313,
-	4703,
-	10051,
-	6614,
-	3778,
-	5286,
-	6614,
-	6377,
+	6645,
+	6408,
+	6510,
+	6645,
+	6510,
+	10103,
+	6645,
+	4729,
+	3799,
+	4729,
+	6645,
+	6510,
+	5313,
+	6645,
+	6408,
+	6510,
+	6645,
+	6510,
+	5313,
+	6645,
+	6408,
+	6510,
+	6645,
+	6510,
+	6645,
+	6645,
+	6510,
+	6510,
+	6510,
+	6510,
+	6645,
+	6510,
+	6510,
+	6510,
+	6510,
+	6645,
+	4729,
+	6645,
+	6645,
+	6645,
+	6645,
+	6510,
+	4709,
+	6510,
+	4709,
+	4709,
+	6510,
+	6510,
+	4723,
+	4723,
+	4723,
 	6479,
-	6614,
-	6479,
-	10051,
-	6614,
-	4703,
-	3778,
-	4703,
-	6614,
-	6479,
-	5286,
-	6614,
-	6377,
-	6479,
-	6614,
-	6479,
-	5286,
-	6614,
-	6377,
-	6479,
-	6614,
-	6479,
-	6614,
-	6614,
-	6479,
-	6479,
-	6479,
-	6479,
-	6614,
-	6479,
-	6479,
-	6479,
-	6479,
-	6614,
-	4703,
-	6614,
-	6614,
-	6614,
-	6614,
-	6479,
-	4683,
-	6479,
-	4683,
-	4683,
-	6479,
-	6479,
-	4697,
-	4697,
-	4697,
-	6448,
-	9321,
-	8558,
-	8560,
-	6614,
-	6614,
-	6614,
-	6614,
-	10051,
-	6614,
-	4401,
-	4401,
-	4401,
-	4401,
-	4401,
-	4401,
-	4401,
-	4805,
-	4805,
-	4805,
-	4805,
-	4805,
-	4805,
-	4805,
-	4805,
-	4805,
-	4805,
-	4805,
-	4805,
-	4805,
-	4805,
-	2997,
-	6614,
-	6614,
-	1438,
+	9370,
+	8604,
+	8606,
+	6645,
+	6645,
+	6645,
+	6645,
+	10103,
+	6645,
+	4425,
+	4425,
+	4425,
+	4425,
+	4425,
+	4425,
+	4425,
+	4832,
+	4832,
+	4832,
+	4832,
+	4832,
+	4832,
+	4832,
+	4832,
+	4832,
+	4832,
+	4832,
+	4832,
+	4832,
+	4832,
+	3015,
+	6645,
+	6645,
+	1443,
 	0,
-	6614,
-	6614,
-	6614,
-	6614,
-	6614,
-	10051,
-	6614,
-	3778,
-	4811,
-	4811,
-	4811,
-	4812,
-	4812,
-	4812,
-	4812,
-	4811,
-	4811,
-	4811,
-	4806,
-	4806,
-	7700,
-	6614,
-	1436,
-	6614,
-	6614,
-	6614,
-	1188,
-	6614,
-	6614,
-	6614,
-	6614,
-	2997,
-	6614,
-	6614,
-	6614,
-	6614,
-	6614,
-	1633,
-	6614,
-	6614,
-	2997,
-	1400,
-	5286,
-	6614,
-	6377,
-	6614,
-	6479,
-	6614,
-	6479,
-	1633,
-	6614,
-	6614,
-	10008,
-	1438,
-	7241,
-	6614,
-	6614,
-	6614,
-	1003,
-	6614,
-	6614,
+	6645,
+	6645,
+	6645,
+	6645,
+	6645,
+	10103,
+	6645,
+	3799,
+	4838,
+	4838,
+	4838,
+	4839,
+	4839,
+	4839,
+	4839,
+	4838,
+	4838,
+	4838,
+	4833,
+	4833,
+	7740,
+	6645,
+	1441,
+	6645,
+	6645,
+	6645,
+	1193,
+	6645,
+	6645,
+	6645,
+	6645,
+	3015,
+	6645,
+	6645,
+	6645,
+	6645,
+	6645,
+	1644,
+	6645,
+	6645,
+	3015,
+	1405,
 	5313,
+	6645,
+	6408,
+	6645,
+	6510,
+	6645,
+	6510,
+	1644,
+	6645,
+	6645,
+	10060,
+	1443,
+	7277,
+	6645,
+	6645,
+	6645,
+	1004,
+	6645,
+	6645,
+	5340,
+	5340,
 	5313,
-	5286,
-	6614,
-	6377,
-	6479,
-	6614,
-	6479,
-	1003,
-	6614,
-	6614,
+	6645,
+	6408,
+	6510,
+	6645,
+	6510,
+	1004,
+	6645,
+	6645,
+	5340,
+	5340,
 	5313,
-	5313,
-	5286,
-	6614,
-	6377,
-	6479,
-	6614,
-	6479,
-	6614,
-	1633,
-	6614,
+	6645,
+	6408,
+	6510,
+	6645,
+	6510,
+	6645,
+	1644,
+	6645,
 	0,
-	1633,
-	4703,
-	6614,
-	6614,
-	6614,
+	1644,
+	4729,
+	6645,
+	6645,
+	6645,
+	5340,
 	5313,
-	5286,
-	6614,
-	6377,
-	6479,
-	6614,
-	6479,
-	6614,
+	6645,
+	6408,
+	6510,
+	6645,
+	6510,
+	6645,
+	5340,
+	5340,
+	5340,
+	5340,
+	5340,
 	5313,
+	6645,
+	6408,
+	6510,
+	6645,
+	6510,
 	5313,
+	6645,
+	6408,
+	6510,
+	6645,
+	6510,
+	9626,
+	9626,
+	6645,
+	6645,
+	6645,
+	615,
+	4729,
+	1644,
+	965,
+	6510,
+	5231,
+	1056,
+	5231,
+	6645,
+	6645,
+	3799,
+	6645,
+	4402,
+	6645,
+	4402,
+	10103,
+	6645,
+	4949,
+	4949,
+	4943,
+	4949,
+	4949,
+	4956,
+	4949,
+	6645,
+	6645,
 	5313,
+	6645,
+	6408,
+	6510,
+	6645,
+	6510,
+	6645,
+	6408,
+	6408,
+	6408,
+	5340,
+	9626,
+	9159,
+	6645,
+	6408,
+	6645,
+	1194,
+	4729,
 	5313,
+	6645,
+	6408,
+	6510,
+	6645,
+	6510,
+	6645,
+	9626,
+	10103,
+	6645,
+	3799,
+	6645,
+	6645,
+	6645,
+	6645,
+	6645,
+	6645,
+	6645,
+	4729,
+	6645,
+	1443,
+	6645,
+	3015,
+	6645,
+	6645,
+	4729,
+	6645,
+	5340,
+	1405,
+	5340,
 	5313,
-	5286,
-	6614,
-	6377,
-	6479,
-	6614,
-	6479,
-	5286,
-	6614,
-	6377,
-	6479,
-	6614,
-	6479,
-	9575,
-	9575,
-	6614,
-	6614,
-	6614,
-	614,
-	4703,
-	1633,
-	964,
-	6479,
-	5204,
-	1055,
-	5204,
-	6614,
-	6614,
-	3778,
-	6614,
-	4378,
-	6614,
-	4378,
-	10051,
-	6614,
-	4922,
-	4922,
-	4916,
-	4922,
-	4922,
-	4929,
-	4922,
-	6614,
-	6614,
-	5286,
-	6614,
-	6377,
-	6479,
-	6614,
-	6479,
-	6614,
-	6377,
-	6377,
-	6377,
-	5313,
-	9575,
-	9113,
-	6614,
-	6377,
-	6614,
-	1189,
-	4703,
-	5286,
-	6614,
-	6377,
-	6479,
-	6614,
-	6479,
-	6614,
-	9575,
-	10051,
-	6614,
-	3778,
-	6614,
-	6614,
-	6614,
-	6614,
-	6614,
-	6614,
-	6614,
-	4703,
-	6614,
-	1438,
-	6614,
-	2997,
-	6614,
-	6614,
-	4703,
-	6614,
-	5313,
-	1400,
-	5313,
-	5286,
-	6614,
-	6377,
-	6479,
-	6614,
-	6479,
-	2997,
-	6614,
-	6614,
-	1633,
-	1020,
-	3778,
-	6614,
-	1633,
-	1020,
-	3778,
-	6614,
-	1633,
-	1020,
-	3778,
-	6614,
-	1633,
-	1020,
-	3778,
-	6614,
-	1633,
-	1020,
-	3778,
-	6614,
-	1633,
-	1020,
-	3778,
-	6614,
-	1633,
-	1020,
-	3778,
-	6614,
-	1633,
-	1020,
-	3778,
-	6614,
+	6645,
+	6408,
+	6510,
+	6645,
+	6510,
+	3015,
+	6645,
+	6645,
+	1644,
+	1021,
+	3799,
+	6645,
+	1644,
+	1021,
+	3799,
+	6645,
+	1644,
+	1021,
+	3799,
+	6645,
+	1644,
+	1021,
+	3799,
+	6645,
+	1644,
+	1021,
+	3799,
+	6645,
+	1644,
+	1021,
+	3799,
+	6645,
+	1644,
+	1021,
+	3799,
+	6645,
+	1644,
+	1021,
+	3799,
+	6645,
 };
 static const Il2CppTokenRangePair s_rgctxIndices[2] = 
 {
 	{ 0x06000016, { 0, 1 } },
 	{ 0x0600008D, { 1, 2 } },
 };
-extern const uint32_t g_rgctx_TU5BU5D_tC30A7CEB7BAD0E78579202B06770DECFFE46BA6E;
-extern const uint32_t g_rgctx_Func_2_t268F3A0A2EC2704BB41637C50FEF50DA887D2C16;
-extern const uint32_t g_rgctx_Func_2_Invoke_m48840754374ACB63452FAEBD98CCD192444D7039;
+extern const uint32_t g_rgctx_TU5BU5D_t87612B5A91EEF8A6C9CF7141B2F357715E56018D;
+extern const uint32_t g_rgctx_Func_2_t2B1AEA59C3C56E92103D6E71A7692AE6876F2705;
+extern const uint32_t g_rgctx_Func_2_Invoke_mA0E5FDFD5D7B462A250E03AC144530D6C3B22512;
 static const Il2CppRGCTXDefinition s_rgctxValues[3] = 
 {
-	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TU5BU5D_tC30A7CEB7BAD0E78579202B06770DECFFE46BA6E },
-	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_Func_2_t268F3A0A2EC2704BB41637C50FEF50DA887D2C16 },
-	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_Func_2_Invoke_m48840754374ACB63452FAEBD98CCD192444D7039 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_TU5BU5D_t87612B5A91EEF8A6C9CF7141B2F357715E56018D },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_Func_2_t2B1AEA59C3C56E92103D6E71A7692AE6876F2705 },
+	{ (Il2CppRGCTXDataType)3, (const void *)&g_rgctx_Func_2_Invoke_mA0E5FDFD5D7B462A250E03AC144530D6C3B22512 },
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_Siccity_GLTFUtility_CodeGenModule;
 const Il2CppCodeGenModule g_Siccity_GLTFUtility_CodeGenModule = 
