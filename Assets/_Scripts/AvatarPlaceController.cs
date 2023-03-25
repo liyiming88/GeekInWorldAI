@@ -18,7 +18,6 @@ public class AvatarPlaceController : MonoBehaviour
             if (device.TryGetFeatureValue(CommonUsages.primary2DAxis, out Vector2 primary2DAxisValue))
             {
                 // Get joystick value
-                Debug.Log("Joystick value: " + primary2DAxisValue);
                 x = primary2DAxisValue.x;
                 y = primary2DAxisValue.y;
                 obj.transform.Translate(Time.deltaTime * speed * -x, 0, Time.deltaTime * speed * -y);

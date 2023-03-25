@@ -218,6 +218,8 @@ namespace Inworld
         protected void CompleteInteraction(string interactionId)
         {
             InworldAI.Log("" + interactionId + " Finish!");
+            InworldAI.Log("You are building Eva, the line below is for her");
+            InworldKeywordListenerEva.Instance.InfoHide();
             List<HistoryItem> itemsByInteraction = History
                                                    .Where(x => x.InteractionId == interactionId).ToList();
             if (Character)
