@@ -96,7 +96,7 @@ namespace Inworld.Model
                 _StopLookAt();
                 return;
             }
-            _StartLookAt(m_trLookAt.position + new Vector3(0, 1.7f, 0));
+            _StartLookAt(m_trLookAt.position);
         }
         #endregion
 
