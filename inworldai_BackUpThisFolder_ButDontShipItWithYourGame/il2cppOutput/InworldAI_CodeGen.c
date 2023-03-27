@@ -1284,309 +1284,277 @@ extern void AudioInteraction__TryGetAudio_mBD102F27E547614CD95A15BCED76AA545C7ED
 extern void AudioInteraction_IsAudioChunkAvailable_mCDF15AF1A7B753E6378A6BB5E90DAA20D1B34010 (void);
 // 0x00000289 System.Void Inworld.Audio.AudioInteraction::.ctor()
 extern void AudioInteraction__ctor_mAD8B68D37061589B40E8556E022F1628E30F5480 (void);
-// 0x0000028A System.Void Inworld.Audio.AudioInteractionEva::OnPacketEvents(Inworld.Packets.InworldPacket)
-extern void AudioInteractionEva_OnPacketEvents_mAA6092CB9F17ED7A3F72BB05F188A8034C6F88A5 (void);
-// 0x0000028B System.Boolean Inworld.Audio.AudioInteractionEva::get_IsPlaying()
-extern void AudioInteractionEva_get_IsPlaying_m15701507FE5286B1EEA054CD53209C0EEA71C96C (void);
-// 0x0000028C Inworld.Packets.AudioChunk Inworld.Audio.AudioInteractionEva::get_CurrentChunk()
-extern void AudioInteractionEva_get_CurrentChunk_m120F448E1B6D2CF41CD289AAE156BD5EAD499E1E (void);
-// 0x0000028D System.Void Inworld.Audio.AudioInteractionEva::Init()
-extern void AudioInteractionEva_Init_m30D43AAF1BCA40A9C65D6EA4A7D6D9D04FF50A89 (void);
-// 0x0000028E System.Void Inworld.Audio.AudioInteractionEva::Clear()
-extern void AudioInteractionEva_Clear_m5B167AD386B2EBD881FA6538CA701468256D78B3 (void);
-// 0x0000028F System.Void Inworld.Audio.AudioInteractionEva::AddText(Inworld.Packets.TextEvent)
-extern void AudioInteractionEva_AddText_m6F3222EBBB15B462B914FBE1F84612B915922F95 (void);
-// 0x00000290 System.Void Inworld.Audio.AudioInteractionEva::Awake()
-extern void AudioInteractionEva_Awake_mA943D4AD17A6F9349DA2CF4A9D4C57D995A6B1B5 (void);
-// 0x00000291 System.Void Inworld.Audio.AudioInteractionEva::OnEnable()
-extern void AudioInteractionEva_OnEnable_m441FE0725732CC32840EFB98EF8EE4888FA92FDE (void);
-// 0x00000292 System.Void Inworld.Audio.AudioInteractionEva::Update()
-extern void AudioInteractionEva_Update_m966FD4FAF835FF3725BEEC4DAB1231896E1A9389 (void);
-// 0x00000293 System.Void Inworld.Audio.AudioInteractionEva::OnDisable()
-extern void AudioInteractionEva_OnDisable_mA213E977FEBB589145784B2B663433CDA5711948 (void);
-// 0x00000294 System.Single Inworld.Audio.AudioInteractionEva::get__CurrentAudioLength()
-extern void AudioInteractionEva_get__CurrentAudioLength_m711A50C71D1ADF7A1E898538BF7560FD50C831E9 (void);
-// 0x00000295 System.Void Inworld.Audio.AudioInteractionEva::set__CurrentAudioLength(System.Single)
-extern void AudioInteractionEva_set__CurrentAudioLength_mE98A5043C51FDBAF55DCE460B29C9E6A6F346B86 (void);
-// 0x00000296 System.Void Inworld.Audio.AudioInteractionEva::_TimerCountDown()
-extern void AudioInteractionEva__TimerCountDown_m966CF0E67B589A4343D5B3D62FF72DF50177D893 (void);
-// 0x00000297 System.Void Inworld.Audio.AudioInteractionEva::_TryGetAudio()
-extern void AudioInteractionEva__TryGetAudio_m3648116B73FE21CE96E0297599B4220840868AF1 (void);
-// 0x00000298 System.Boolean Inworld.Audio.AudioInteractionEva::IsAudioChunkAvailable(Inworld.Packets.PacketId)
-extern void AudioInteractionEva_IsAudioChunkAvailable_mB8EE22092BAFCC4F995820434D4156F3AC8FA315 (void);
-// 0x00000299 System.Void Inworld.Audio.AudioInteractionEva::.ctor()
-extern void AudioInteractionEva__ctor_mE2B1642C04F2F915F02105EB5FBFEC54DC45B7B1 (void);
-// 0x0000029A System.Void Inworld.Sample.InworldCameraController::Update()
+// 0x0000028A System.Void Inworld.Sample.InworldCameraController::Update()
 extern void InworldCameraController_Update_m062AB2E164EC3EED2E0D1EDD4C71D9B2D5C6D737 (void);
-// 0x0000029B System.Void Inworld.Sample.InworldCameraController::OnEnable()
+// 0x0000028B System.Void Inworld.Sample.InworldCameraController::OnEnable()
 extern void InworldCameraController_OnEnable_m5E9123AF81F101773E035E1C5D24C4DE02131A69 (void);
-// 0x0000029C System.Void Inworld.Sample.InworldCameraController::OnDisable()
+// 0x0000028C System.Void Inworld.Sample.InworldCameraController::OnDisable()
 extern void InworldCameraController_OnDisable_m26A878F7102F5117B93A5BF83FC49134D66415FE (void);
-// 0x0000029D UnityEngine.Vector3 Inworld.Sample.InworldCameraController::GetInputTranslationDirection()
+// 0x0000028D UnityEngine.Vector3 Inworld.Sample.InworldCameraController::GetInputTranslationDirection()
 extern void InworldCameraController_GetInputTranslationDirection_mA14339A57D7342F55A7E283C6C2AE3D9B8D44FEB (void);
-// 0x0000029E System.Void Inworld.Sample.InworldCameraController::.ctor()
+// 0x0000028E System.Void Inworld.Sample.InworldCameraController::.ctor()
 extern void InworldCameraController__ctor_m3959250F97134923FB78B672A86AE63A8AF1B1A4 (void);
-// 0x0000029F System.Void Inworld.Sample.InworldCameraController/CameraState::SetFromTransform(UnityEngine.Transform)
+// 0x0000028F System.Void Inworld.Sample.InworldCameraController/CameraState::SetFromTransform(UnityEngine.Transform)
 extern void CameraState_SetFromTransform_mDED63ECF11C33323A6BE8DE8F52F6936568942E5 (void);
-// 0x000002A0 System.Void Inworld.Sample.InworldCameraController/CameraState::Translate(UnityEngine.Vector3)
+// 0x00000290 System.Void Inworld.Sample.InworldCameraController/CameraState::Translate(UnityEngine.Vector3)
 extern void CameraState_Translate_mAA3BF74B67C64C5800B7D405BD182C5E2E06012E (void);
-// 0x000002A1 System.Void Inworld.Sample.InworldCameraController/CameraState::LerpTowards(Inworld.Sample.InworldCameraController/CameraState,System.Single,System.Single)
+// 0x00000291 System.Void Inworld.Sample.InworldCameraController/CameraState::LerpTowards(Inworld.Sample.InworldCameraController/CameraState,System.Single,System.Single)
 extern void CameraState_LerpTowards_m8F475C9DFE54B6D4FA718CC43F1E98FEF1B06F6F (void);
-// 0x000002A2 System.Void Inworld.Sample.InworldCameraController/CameraState::UpdateTransform(UnityEngine.Transform)
+// 0x00000292 System.Void Inworld.Sample.InworldCameraController/CameraState::UpdateTransform(UnityEngine.Transform)
 extern void CameraState_UpdateTransform_m13D2DBAF367E50EC120A38997F8FD02BABBB9D42 (void);
-// 0x000002A3 System.Void Inworld.Sample.InworldCameraController/CameraState::.ctor()
+// 0x00000293 System.Void Inworld.Sample.InworldCameraController/CameraState::.ctor()
 extern void CameraState__ctor_mA705857469BB5B33C93A99E32961A976ED19C246 (void);
-// 0x000002A4 System.Void Inworld.Sample.InworldPlayer::SendText()
+// 0x00000294 System.Void Inworld.Sample.InworldPlayer::SendText()
 extern void InworldPlayer_SendText_m3533140F720FE7CB1004A292945BEF93FE1F24D4 (void);
-// 0x000002A5 System.Void Inworld.Sample.InworldPlayer::BackToLobby()
+// 0x00000295 System.Void Inworld.Sample.InworldPlayer::BackToLobby()
 extern void InworldPlayer_BackToLobby_m174D4EF3097D29D5EE9876814773418A6A240655 (void);
-// 0x000002A6 System.Void Inworld.Sample.InworldPlayer::Start()
+// 0x00000296 System.Void Inworld.Sample.InworldPlayer::Start()
 extern void InworldPlayer_Start_m658D1AFB28ACD30E1F83EBF1FAD2A3301C2B770D (void);
-// 0x000002A7 System.Void Inworld.Sample.InworldPlayer::Update()
+// 0x00000297 System.Void Inworld.Sample.InworldPlayer::Update()
 extern void InworldPlayer_Update_mF928A5391CC537195C651A5374974CEB43ECEC52 (void);
-// 0x000002A8 System.Void Inworld.Sample.InworldPlayer::OnControllerStatusChanged(Inworld.Util.ControllerStates)
+// 0x00000298 System.Void Inworld.Sample.InworldPlayer::OnControllerStatusChanged(Inworld.Util.ControllerStates)
 extern void InworldPlayer_OnControllerStatusChanged_m3628D690FC66872F66BD0C2F076CAAB06AF367A1 (void);
-// 0x000002A9 System.Void Inworld.Sample.InworldPlayer::OnInteractionStatus(Inworld.Util.InteractionStatus,System.Collections.Generic.List`1<Inworld.HistoryItem>)
+// 0x00000299 System.Void Inworld.Sample.InworldPlayer::OnInteractionStatus(Inworld.Util.InteractionStatus,System.Collections.Generic.List`1<Inworld.HistoryItem>)
 extern void InworldPlayer_OnInteractionStatus_mD96D7E53288DE414A1A95B3C951AA8F7BA5ED3E6 (void);
-// 0x000002AA System.Void Inworld.Sample.InworldPlayer::_RefreshBubbles(System.Collections.Generic.List`1<Inworld.HistoryItem>)
+// 0x0000029A System.Void Inworld.Sample.InworldPlayer::_RefreshBubbles(System.Collections.Generic.List`1<Inworld.HistoryItem>)
 extern void InworldPlayer__RefreshBubbles_mBC1318B893080199939DAD2DC5E161E288909E0D (void);
-// 0x000002AB System.Void Inworld.Sample.InworldPlayer::_ClearHistoryLog()
+// 0x0000029B System.Void Inworld.Sample.InworldPlayer::_ClearHistoryLog()
 extern void InworldPlayer__ClearHistoryLog_m0F86F538D018A280E5E9D272A02A3F6636F38477 (void);
-// 0x000002AC System.Void Inworld.Sample.InworldPlayer::_SetContentHeight()
+// 0x0000029C System.Void Inworld.Sample.InworldPlayer::_SetContentHeight()
 extern void InworldPlayer__SetContentHeight_mC6351BB98336363336002C997EF1A4A7FF13E8B3 (void);
-// 0x000002AD System.Void Inworld.Sample.InworldPlayer::.ctor()
+// 0x0000029D System.Void Inworld.Sample.InworldPlayer::.ctor()
 extern void InworldPlayer__ctor_m7C1D03C5864497E42C62C64B24C7F36852DA7E17 (void);
-// 0x000002AE System.Void Inworld.Sample.InworldPlayer/<>c::.cctor()
+// 0x0000029E System.Void Inworld.Sample.InworldPlayer/<>c::.cctor()
 extern void U3CU3Ec__cctor_mE0EBBD678E8028525C65A948EC994BE7FC3C8F18 (void);
-// 0x000002AF System.Void Inworld.Sample.InworldPlayer/<>c::.ctor()
+// 0x0000029F System.Void Inworld.Sample.InworldPlayer/<>c::.ctor()
 extern void U3CU3Ec__ctor_mE3AC5E25766FBAED13071E08796C2AAF8CD307AD (void);
-// 0x000002B0 System.Single Inworld.Sample.InworldPlayer/<>c::<_SetContentHeight>b__22_0(Inworld.Sample.UI.ChatBubble)
+// 0x000002A0 System.Single Inworld.Sample.InworldPlayer/<>c::<_SetContentHeight>b__22_0(Inworld.Sample.UI.ChatBubble)
 extern void U3CU3Ec_U3C_SetContentHeightU3Eb__22_0_m7E8313971179D377CA1C478F226AEC07026F5709 (void);
-// 0x000002B1 System.Void Inworld.Sample.DemoCanvas::Start()
+// 0x000002A1 System.Void Inworld.Sample.DemoCanvas::Start()
 extern void DemoCanvas_Start_m6A4BC3B1CCCB2E1A635C21A235A27D8C57EAFB5B (void);
-// 0x000002B2 System.Void Inworld.Sample.DemoCanvas::OnDisable()
+// 0x000002A2 System.Void Inworld.Sample.DemoCanvas::OnDisable()
 extern void DemoCanvas_OnDisable_m4AD111048E231F392DCF9B81C07AD3555D119FF8 (void);
-// 0x000002B3 System.Void Inworld.Sample.DemoCanvas::OnStatusChanged(Inworld.Util.ControllerStates)
+// 0x000002A3 System.Void Inworld.Sample.DemoCanvas::OnStatusChanged(Inworld.Util.ControllerStates)
 extern void DemoCanvas_OnStatusChanged_mECCA46DA86C979CE5FD8806E9F2BE0AA612A591E (void);
-// 0x000002B4 System.Void Inworld.Sample.DemoCanvas::OnCharacterChanged(Inworld.InworldCharacter,Inworld.InworldCharacter)
+// 0x000002A4 System.Void Inworld.Sample.DemoCanvas::OnCharacterChanged(Inworld.InworldCharacter,Inworld.InworldCharacter)
 extern void DemoCanvas_OnCharacterChanged_mADB417CB39C388D4C061A74905E44D2BD9D0673D (void);
-// 0x000002B5 System.Void Inworld.Sample.DemoCanvas::.ctor()
+// 0x000002A5 System.Void Inworld.Sample.DemoCanvas::.ctor()
 extern void DemoCanvas__ctor_m98919E55ED2F4300D823B5039FBE83B53E5B9D3E (void);
-// 0x000002B6 Inworld.Grpc.EmotionEvent/Types/SpaffCode Inworld.Sample.EmotionCanvas::get_Emotion()
+// 0x000002A6 Inworld.Grpc.EmotionEvent/Types/SpaffCode Inworld.Sample.EmotionCanvas::get_Emotion()
 extern void EmotionCanvas_get_Emotion_mC5EFBCC1FB4216C2405A15D49E9A96E9003007A9 (void);
-// 0x000002B7 System.Void Inworld.Sample.EmotionCanvas::set_Emotion(Inworld.Grpc.EmotionEvent/Types/SpaffCode)
+// 0x000002A7 System.Void Inworld.Sample.EmotionCanvas::set_Emotion(Inworld.Grpc.EmotionEvent/Types/SpaffCode)
 extern void EmotionCanvas_set_Emotion_m45B17DDC037D4B56590F8F97CA7FBC030A176F3E (void);
-// 0x000002B8 Inworld.Grpc.GestureEvent/Types/Type Inworld.Sample.EmotionCanvas::get_Gesture()
+// 0x000002A8 Inworld.Grpc.GestureEvent/Types/Type Inworld.Sample.EmotionCanvas::get_Gesture()
 extern void EmotionCanvas_get_Gesture_m0073955F934082A67BD6BC833559455840A2865D (void);
-// 0x000002B9 System.Void Inworld.Sample.EmotionCanvas::set_Gesture(Inworld.Grpc.GestureEvent/Types/Type)
+// 0x000002A9 System.Void Inworld.Sample.EmotionCanvas::set_Gesture(Inworld.Grpc.GestureEvent/Types/Type)
 extern void EmotionCanvas_set_Gesture_m77846F60DFEFEEF1579646D3E7B0A46FBEDEBCBE (void);
-// 0x000002BA System.String Inworld.Sample.EmotionCanvas::get__ServerState()
+// 0x000002AA System.String Inworld.Sample.EmotionCanvas::get__ServerState()
 extern void EmotionCanvas_get__ServerState_mDA6BB37CACEEAC2686C5D725858719AB3B1F3148 (void);
-// 0x000002BB System.String Inworld.Sample.EmotionCanvas::get__ClientState()
+// 0x000002AB System.String Inworld.Sample.EmotionCanvas::get__ClientState()
 extern void EmotionCanvas_get__ClientState_mA697CC09620AA1DB3D5EFB49B4F7983E6BF27D9E (void);
-// 0x000002BC System.Void Inworld.Sample.EmotionCanvas::Start()
+// 0x000002AC System.Void Inworld.Sample.EmotionCanvas::Start()
 extern void EmotionCanvas_Start_m7A2D66A7EC6212415D581F51FFF47136C90509D9 (void);
-// 0x000002BD System.Void Inworld.Sample.EmotionCanvas::Update()
+// 0x000002AD System.Void Inworld.Sample.EmotionCanvas::Update()
 extern void EmotionCanvas_Update_m5F4559D4A8A4BF6ED7AA231F66BCA6347C171FBB (void);
-// 0x000002BE System.Void Inworld.Sample.EmotionCanvas::OnDisable()
+// 0x000002AE System.Void Inworld.Sample.EmotionCanvas::OnDisable()
 extern void EmotionCanvas_OnDisable_m5FF7B6AE03CE2D4A91FE2199F9749E79715ECD6F (void);
-// 0x000002BF System.Void Inworld.Sample.EmotionCanvas::OnCharacterChanged(Inworld.InworldCharacter,Inworld.InworldCharacter)
+// 0x000002AF System.Void Inworld.Sample.EmotionCanvas::OnCharacterChanged(Inworld.InworldCharacter,Inworld.InworldCharacter)
 extern void EmotionCanvas_OnCharacterChanged_m4339321A025F10784EF178FB0B6A51ED42B6247B (void);
-// 0x000002C0 System.Void Inworld.Sample.EmotionCanvas::OnPacketEvents(Inworld.Packets.InworldPacket)
+// 0x000002B0 System.Void Inworld.Sample.EmotionCanvas::OnPacketEvents(Inworld.Packets.InworldPacket)
 extern void EmotionCanvas_OnPacketEvents_m571B9EF3502263065B08B9C82BF350303C3E553C (void);
-// 0x000002C1 System.Void Inworld.Sample.EmotionCanvas::HandleEmotion(Inworld.Grpc.EmotionEvent/Types/SpaffCode)
+// 0x000002B1 System.Void Inworld.Sample.EmotionCanvas::HandleEmotion(Inworld.Grpc.EmotionEvent/Types/SpaffCode)
 extern void EmotionCanvas_HandleEmotion_m470BD66E20C98F370AECA6580D2855BD514AC5FA (void);
-// 0x000002C2 System.Void Inworld.Sample.EmotionCanvas::HandleGesture(Inworld.Grpc.GestureEvent/Types/Type)
+// 0x000002B2 System.Void Inworld.Sample.EmotionCanvas::HandleGesture(Inworld.Grpc.GestureEvent/Types/Type)
 extern void EmotionCanvas_HandleGesture_mD819B7BA53988653D353D0671BB2342FFFB32B09 (void);
-// 0x000002C3 System.Void Inworld.Sample.EmotionCanvas::SendEmotion(System.Int32)
+// 0x000002B3 System.Void Inworld.Sample.EmotionCanvas::SendEmotion(System.Int32)
 extern void EmotionCanvas_SendEmotion_m930FFE5B2A8E44BC4AAE4E030C72BD726D2DF502 (void);
-// 0x000002C4 System.Void Inworld.Sample.EmotionCanvas::SendGesture(System.Int32)
+// 0x000002B4 System.Void Inworld.Sample.EmotionCanvas::SendGesture(System.Int32)
 extern void EmotionCanvas_SendGesture_m9E6BF789CB3E4A9768AA49BD9CFEB84BBE294CE7 (void);
-// 0x000002C5 System.Void Inworld.Sample.EmotionCanvas::SetMainStatus(System.Int32)
+// 0x000002B5 System.Void Inworld.Sample.EmotionCanvas::SetMainStatus(System.Int32)
 extern void EmotionCanvas_SetMainStatus_mA1A68E4BA72CD03150FB19B7C734ED2694D22C86 (void);
-// 0x000002C6 System.Void Inworld.Sample.EmotionCanvas::.ctor()
+// 0x000002B6 System.Void Inworld.Sample.EmotionCanvas::.ctor()
 extern void EmotionCanvas__ctor_mA7D824247C266C28832FFA1A87BE514D145E33F5 (void);
-// 0x000002C7 System.Void Inworld.Sample.EmotionCanvas::.cctor()
+// 0x000002B7 System.Void Inworld.Sample.EmotionCanvas::.cctor()
 extern void EmotionCanvas__cctor_m716B8F31C18485F43277E93A1BBF39FC5D813DDE (void);
-// 0x000002C8 System.Void Inworld.Sample.MultiCharCanvas::Start()
+// 0x000002B8 System.Void Inworld.Sample.MultiCharCanvas::Start()
 extern void MultiCharCanvas_Start_mA513F7E687C5580A02F373EE593AA78561BEF0A6 (void);
-// 0x000002C9 System.Void Inworld.Sample.MultiCharCanvas::OnDisable()
+// 0x000002B9 System.Void Inworld.Sample.MultiCharCanvas::OnDisable()
 extern void MultiCharCanvas_OnDisable_m5DF8159BE8D6EFF9D4464EB74BB3F262A9DB0E20 (void);
-// 0x000002CA System.Void Inworld.Sample.MultiCharCanvas::OnCharacterChanged(Inworld.InworldCharacter,Inworld.InworldCharacter)
+// 0x000002BA System.Void Inworld.Sample.MultiCharCanvas::OnCharacterChanged(Inworld.InworldCharacter,Inworld.InworldCharacter)
 extern void MultiCharCanvas_OnCharacterChanged_m39D9475375FA3F1628C059FFF379DACB5975F393 (void);
-// 0x000002CB System.Void Inworld.Sample.MultiCharCanvas::.ctor()
+// 0x000002BB System.Void Inworld.Sample.MultiCharCanvas::.ctor()
 extern void MultiCharCanvas__ctor_m168963A7E39A757EB18F21882565B6D01B44A40E (void);
-// 0x000002CC System.Void Inworld.Sample.SessionCanvas::Awake()
+// 0x000002BC System.Void Inworld.Sample.SessionCanvas::Awake()
 extern void SessionCanvas_Awake_mF66273A3199B9ECBC3D963C2B96DEE88CA4540C8 (void);
-// 0x000002CD System.Void Inworld.Sample.SessionCanvas::Start()
+// 0x000002BD System.Void Inworld.Sample.SessionCanvas::Start()
 extern void SessionCanvas_Start_mCC491556DCDCFB20E9DBFB16A956DBF2ADC29308 (void);
-// 0x000002CE System.Void Inworld.Sample.SessionCanvas::OnDisable()
+// 0x000002BE System.Void Inworld.Sample.SessionCanvas::OnDisable()
 extern void SessionCanvas_OnDisable_mA902B43CE88AFEF3529521B94A6D7B8C0611503F (void);
-// 0x000002CF System.Void Inworld.Sample.SessionCanvas::PlayPause()
+// 0x000002BF System.Void Inworld.Sample.SessionCanvas::PlayPause()
 extern void SessionCanvas_PlayPause_mAA25E162BB1A4D0A45F37D21AD68BF64AE88ED4A (void);
-// 0x000002D0 System.Void Inworld.Sample.SessionCanvas::MicrophoneControl()
+// 0x000002C0 System.Void Inworld.Sample.SessionCanvas::MicrophoneControl()
 extern void SessionCanvas_MicrophoneControl_m7ED4F7C0217F03AA0F22B23CD9C2E88CE7309A8D (void);
-// 0x000002D1 System.Void Inworld.Sample.SessionCanvas::SwitchVolume()
+// 0x000002C1 System.Void Inworld.Sample.SessionCanvas::SwitchVolume()
 extern void SessionCanvas_SwitchVolume_m6D5149ADB4D70684B5D1A49BE40ED6DC243B464F (void);
-// 0x000002D2 System.Void Inworld.Sample.SessionCanvas::OnStatusChanged(Inworld.Util.ControllerStates)
+// 0x000002C2 System.Void Inworld.Sample.SessionCanvas::OnStatusChanged(Inworld.Util.ControllerStates)
 extern void SessionCanvas_OnStatusChanged_m0D9346FCB3C8588AC6B2DED851AAF1F1C7BBCF48 (void);
-// 0x000002D3 System.Void Inworld.Sample.SessionCanvas::_SwitchToggles(System.Boolean,System.Boolean)
+// 0x000002C3 System.Void Inworld.Sample.SessionCanvas::_SwitchToggles(System.Boolean,System.Boolean)
 extern void SessionCanvas__SwitchToggles_m5BDEDFF0D025B492E0CDD556CC4685C83A8CE52A (void);
-// 0x000002D4 System.Void Inworld.Sample.SessionCanvas::_UpdatePing(System.Int32)
+// 0x000002C4 System.Void Inworld.Sample.SessionCanvas::_UpdatePing(System.Int32)
 extern void SessionCanvas__UpdatePing_mB662AA4D0AD255918717E6D74C4D0455A64B136A (void);
-// 0x000002D5 System.Collections.IEnumerator Inworld.Sample.SessionCanvas::_PingInworld()
+// 0x000002C5 System.Collections.IEnumerator Inworld.Sample.SessionCanvas::_PingInworld()
 extern void SessionCanvas__PingInworld_m7D7382EA66FA0C039C7FB7D141069EDF2D86F1D3 (void);
-// 0x000002D6 System.Void Inworld.Sample.SessionCanvas::.ctor()
+// 0x000002C6 System.Void Inworld.Sample.SessionCanvas::.ctor()
 extern void SessionCanvas__ctor_mD5F3A4CA7D7E3C78E681F145E6A5E3D27C95C39B (void);
-// 0x000002D7 System.Void Inworld.Sample.SessionCanvas/<PlayPause>d__14::MoveNext()
+// 0x000002C7 System.Void Inworld.Sample.SessionCanvas/<PlayPause>d__14::MoveNext()
 extern void U3CPlayPauseU3Ed__14_MoveNext_m8E70B796FEEC6DD5926E364D2BECB09E51A07311 (void);
-// 0x000002D8 System.Void Inworld.Sample.SessionCanvas/<PlayPause>d__14::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
+// 0x000002C8 System.Void Inworld.Sample.SessionCanvas/<PlayPause>d__14::SetStateMachine(System.Runtime.CompilerServices.IAsyncStateMachine)
 extern void U3CPlayPauseU3Ed__14_SetStateMachine_m24615F5482137043C359AE042B6FA7DE89D039EC (void);
-// 0x000002D9 System.Void Inworld.Sample.SessionCanvas/<_PingInworld>d__20::.ctor(System.Int32)
+// 0x000002C9 System.Void Inworld.Sample.SessionCanvas/<_PingInworld>d__20::.ctor(System.Int32)
 extern void U3C_PingInworldU3Ed__20__ctor_m127AB3E5FB25A11944E6183D8602A1CE6434A64B (void);
-// 0x000002DA System.Void Inworld.Sample.SessionCanvas/<_PingInworld>d__20::System.IDisposable.Dispose()
+// 0x000002CA System.Void Inworld.Sample.SessionCanvas/<_PingInworld>d__20::System.IDisposable.Dispose()
 extern void U3C_PingInworldU3Ed__20_System_IDisposable_Dispose_mF1837C5A2D9114D9ECD49B3DC0F82E769CC312C2 (void);
-// 0x000002DB System.Boolean Inworld.Sample.SessionCanvas/<_PingInworld>d__20::MoveNext()
+// 0x000002CB System.Boolean Inworld.Sample.SessionCanvas/<_PingInworld>d__20::MoveNext()
 extern void U3C_PingInworldU3Ed__20_MoveNext_mDCA860C2196166CD1AEA1E3AB37694F522870E72 (void);
-// 0x000002DC System.Object Inworld.Sample.SessionCanvas/<_PingInworld>d__20::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+// 0x000002CC System.Object Inworld.Sample.SessionCanvas/<_PingInworld>d__20::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
 extern void U3C_PingInworldU3Ed__20_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m4BED3F0EBE68B7EC5519C7FF6288B89942E68072 (void);
-// 0x000002DD System.Void Inworld.Sample.SessionCanvas/<_PingInworld>d__20::System.Collections.IEnumerator.Reset()
+// 0x000002CD System.Void Inworld.Sample.SessionCanvas/<_PingInworld>d__20::System.Collections.IEnumerator.Reset()
 extern void U3C_PingInworldU3Ed__20_System_Collections_IEnumerator_Reset_m5D98689014ACE9A3FB5014536DE5EE260DAA0CE1 (void);
-// 0x000002DE System.Object Inworld.Sample.SessionCanvas/<_PingInworld>d__20::System.Collections.IEnumerator.get_Current()
+// 0x000002CE System.Object Inworld.Sample.SessionCanvas/<_PingInworld>d__20::System.Collections.IEnumerator.get_Current()
 extern void U3C_PingInworldU3Ed__20_System_Collections_IEnumerator_get_Current_m9269485AA5F05CEC909003380A04129E0B946344 (void);
-// 0x000002DF System.Void Inworld.Sample.TransformCanvas::Start()
+// 0x000002CF System.Void Inworld.Sample.TransformCanvas::Start()
 extern void TransformCanvas_Start_m2169A631F5588C2414D510AD55F75D92C52F53C3 (void);
-// 0x000002E0 System.Void Inworld.Sample.TransformCanvas::OnDisable()
+// 0x000002D0 System.Void Inworld.Sample.TransformCanvas::OnDisable()
 extern void TransformCanvas_OnDisable_mF8517DACE94F5E821094EC84FF76894DEA8C59FF (void);
-// 0x000002E1 System.Void Inworld.Sample.TransformCanvas::OnCharacterChanged(Inworld.InworldCharacter,Inworld.InworldCharacter)
+// 0x000002D1 System.Void Inworld.Sample.TransformCanvas::OnCharacterChanged(Inworld.InworldCharacter,Inworld.InworldCharacter)
 extern void TransformCanvas_OnCharacterChanged_m30395E55B389CC49AADF1E6B1C7D381769B0FCAA (void);
-// 0x000002E2 System.Collections.IEnumerator Inworld.Sample.TransformCanvas::ShowRealAnswer()
+// 0x000002D2 System.Collections.IEnumerator Inworld.Sample.TransformCanvas::ShowRealAnswer()
 extern void TransformCanvas_ShowRealAnswer_mEFB07BCCC1869502679A93C127EADBD7B326AF1B (void);
-// 0x000002E3 System.Void Inworld.Sample.TransformCanvas::.ctor()
+// 0x000002D3 System.Void Inworld.Sample.TransformCanvas::.ctor()
 extern void TransformCanvas__ctor_m0A5A17642491839AA4D8FA930274434E7B582EDD (void);
-// 0x000002E4 System.Void Inworld.Sample.TransformCanvas/<ShowRealAnswer>d__8::.ctor(System.Int32)
+// 0x000002D4 System.Void Inworld.Sample.TransformCanvas/<ShowRealAnswer>d__8::.ctor(System.Int32)
 extern void U3CShowRealAnswerU3Ed__8__ctor_mA64C211F6B463F9EC2454D3CD2A652422DC5B35E (void);
-// 0x000002E5 System.Void Inworld.Sample.TransformCanvas/<ShowRealAnswer>d__8::System.IDisposable.Dispose()
+// 0x000002D5 System.Void Inworld.Sample.TransformCanvas/<ShowRealAnswer>d__8::System.IDisposable.Dispose()
 extern void U3CShowRealAnswerU3Ed__8_System_IDisposable_Dispose_m84094471DB8094591FC6879836E0A425FF377414 (void);
-// 0x000002E6 System.Boolean Inworld.Sample.TransformCanvas/<ShowRealAnswer>d__8::MoveNext()
+// 0x000002D6 System.Boolean Inworld.Sample.TransformCanvas/<ShowRealAnswer>d__8::MoveNext()
 extern void U3CShowRealAnswerU3Ed__8_MoveNext_m189C9058448A70C97809859B56079926E7954053 (void);
-// 0x000002E7 System.Object Inworld.Sample.TransformCanvas/<ShowRealAnswer>d__8::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+// 0x000002D7 System.Object Inworld.Sample.TransformCanvas/<ShowRealAnswer>d__8::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
 extern void U3CShowRealAnswerU3Ed__8_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mDCBAC4D276A957DA7B3782371D48B3FE466BCDA8 (void);
-// 0x000002E8 System.Void Inworld.Sample.TransformCanvas/<ShowRealAnswer>d__8::System.Collections.IEnumerator.Reset()
+// 0x000002D8 System.Void Inworld.Sample.TransformCanvas/<ShowRealAnswer>d__8::System.Collections.IEnumerator.Reset()
 extern void U3CShowRealAnswerU3Ed__8_System_Collections_IEnumerator_Reset_m06CE9E5E5D3682952021F73641BDC55088543119 (void);
-// 0x000002E9 System.Object Inworld.Sample.TransformCanvas/<ShowRealAnswer>d__8::System.Collections.IEnumerator.get_Current()
+// 0x000002D9 System.Object Inworld.Sample.TransformCanvas/<ShowRealAnswer>d__8::System.Collections.IEnumerator.get_Current()
 extern void U3CShowRealAnswerU3Ed__8_System_Collections_IEnumerator_get_Current_mC2E1554BC22D76C33A2AC83EBB1A2DC9A63358B0 (void);
-// 0x000002EA System.Void Inworld.Sample.UI.ChatBubble::SetBubble(System.String,UnityEngine.Texture2D,System.String)
+// 0x000002DA System.Void Inworld.Sample.UI.ChatBubble::SetBubble(System.String,UnityEngine.Texture2D,System.String)
 extern void ChatBubble_SetBubble_mAC0BD7E148AF474C26A7B6089B15AD54941F454B (void);
-// 0x000002EB System.String Inworld.Sample.UI.ChatBubble::get_Text()
+// 0x000002DB System.String Inworld.Sample.UI.ChatBubble::get_Text()
 extern void ChatBubble_get_Text_mCE4C00CF942F3D950DD613B93C48E287CB0639CA (void);
-// 0x000002EC System.Void Inworld.Sample.UI.ChatBubble::set_Text(System.String)
+// 0x000002DC System.Void Inworld.Sample.UI.ChatBubble::set_Text(System.String)
 extern void ChatBubble_set_Text_mD80ED06C881344DC2F3D434DE3473F9821FA4BFC (void);
-// 0x000002ED System.Single Inworld.Sample.UI.ChatBubble::get_Height()
+// 0x000002DD System.Single Inworld.Sample.UI.ChatBubble::get_Height()
 extern void ChatBubble_get_Height_mEA451F14749F8813086FBE80D458A1D8959FB9CC (void);
-// 0x000002EE System.String Inworld.Sample.UI.ChatBubble::get_CharacterName()
+// 0x000002DE System.String Inworld.Sample.UI.ChatBubble::get_CharacterName()
 extern void ChatBubble_get_CharacterName_m39FD6778E96EEDC485C65CF6F52210D24F738F07 (void);
-// 0x000002EF System.Void Inworld.Sample.UI.ChatBubble::set_CharacterName(System.String)
+// 0x000002DF System.Void Inworld.Sample.UI.ChatBubble::set_CharacterName(System.String)
 extern void ChatBubble_set_CharacterName_mC851373D4CF5C6FABC1C65975D93B5455F17E7B0 (void);
-// 0x000002F0 UnityEngine.UI.RawImage Inworld.Sample.UI.ChatBubble::get_Icon()
+// 0x000002E0 UnityEngine.UI.RawImage Inworld.Sample.UI.ChatBubble::get_Icon()
 extern void ChatBubble_get_Icon_m336E78A006188B42A01CDE9198A8E68E623A0800 (void);
-// 0x000002F1 System.Void Inworld.Sample.UI.ChatBubble::set_Icon(UnityEngine.UI.RawImage)
+// 0x000002E1 System.Void Inworld.Sample.UI.ChatBubble::set_Icon(UnityEngine.UI.RawImage)
 extern void ChatBubble_set_Icon_mA4EE56B7E74AACAFD18A8F946C443539DFF2416A (void);
-// 0x000002F2 System.Void Inworld.Sample.UI.ChatBubble::.ctor()
+// 0x000002E2 System.Void Inworld.Sample.UI.ChatBubble::.ctor()
 extern void ChatBubble__ctor_m1E28DD81AA1F2F79105B594137E5D8DA9A0B96B2 (void);
-// 0x000002F3 System.Void Inworld.Sample.UI.ChatPanel3D::Update()
+// 0x000002E3 System.Void Inworld.Sample.UI.ChatPanel3D::Update()
 extern void ChatPanel3D_Update_m44B4F9FAE8FCB87A42886919DA1C761D2B6D4BCA (void);
-// 0x000002F4 System.Void Inworld.Sample.UI.ChatPanel3D::OnEnable()
+// 0x000002E4 System.Void Inworld.Sample.UI.ChatPanel3D::OnEnable()
 extern void ChatPanel3D_OnEnable_mE70B2E25273536E2655897CCC90B7DAC6F4AC889 (void);
-// 0x000002F5 System.Void Inworld.Sample.UI.ChatPanel3D::ProcessEmotion(FacialAnimation)
+// 0x000002E5 System.Void Inworld.Sample.UI.ChatPanel3D::ProcessEmotion(FacialAnimation)
 extern void ChatPanel3D_ProcessEmotion_mE000D7D1E627699D537A52851574FE35C5B8C0AC (void);
-// 0x000002F6 System.Void Inworld.Sample.UI.ChatPanel3D::OnInteractionStatus(Inworld.Util.InteractionStatus,System.Collections.Generic.List`1<Inworld.HistoryItem>)
+// 0x000002E6 System.Void Inworld.Sample.UI.ChatPanel3D::OnInteractionStatus(Inworld.Util.InteractionStatus,System.Collections.Generic.List`1<Inworld.HistoryItem>)
 extern void ChatPanel3D_OnInteractionStatus_mB762F33DD23D409B066606E4E30B89CACB9DF26B (void);
-// 0x000002F7 System.Void Inworld.Sample.UI.ChatPanel3D::_RefreshBubbles(System.Collections.Generic.List`1<Inworld.HistoryItem>)
+// 0x000002E7 System.Void Inworld.Sample.UI.ChatPanel3D::_RefreshBubbles(System.Collections.Generic.List`1<Inworld.HistoryItem>)
 extern void ChatPanel3D__RefreshBubbles_mCEFB4F702E6E0C20802AE0A561962DF8ED39F411 (void);
-// 0x000002F8 System.Void Inworld.Sample.UI.ChatPanel3D::_ClearHistoryLog()
+// 0x000002E8 System.Void Inworld.Sample.UI.ChatPanel3D::_ClearHistoryLog()
 extern void ChatPanel3D__ClearHistoryLog_mB2C2174EA5CEBBF45B0FD1CB521F27C29CA19413 (void);
-// 0x000002F9 System.Void Inworld.Sample.UI.ChatPanel3D::.ctor()
+// 0x000002E9 System.Void Inworld.Sample.UI.ChatPanel3D::.ctor()
 extern void ChatPanel3D__ctor_m5FC4FD6233D61EAAEE11F37A7F2A46AEE1A6DA77 (void);
-// 0x000002FA System.Void Inworld.Sample.UI.RecordButton::OnEnable()
+// 0x000002EA System.Void Inworld.Sample.UI.RecordButton::OnEnable()
 extern void RecordButton_OnEnable_m13045396647438A2822A942352554C4183322677 (void);
-// 0x000002FB System.Void Inworld.Sample.UI.RecordButton::OnDisable()
+// 0x000002EB System.Void Inworld.Sample.UI.RecordButton::OnDisable()
 extern void RecordButton_OnDisable_mD18D29AA24587322F6E66485082DFC3E9C4F8088 (void);
-// 0x000002FC System.Void Inworld.Sample.UI.RecordButton::OnPointerDown(UnityEngine.EventSystems.PointerEventData)
+// 0x000002EC System.Void Inworld.Sample.UI.RecordButton::OnPointerDown(UnityEngine.EventSystems.PointerEventData)
 extern void RecordButton_OnPointerDown_m20E1DDC3DCA0EF2DDFCFF538168C8328DF1E8A51 (void);
-// 0x000002FD System.Void Inworld.Sample.UI.RecordButton::OnPointerUp(UnityEngine.EventSystems.PointerEventData)
+// 0x000002ED System.Void Inworld.Sample.UI.RecordButton::OnPointerUp(UnityEngine.EventSystems.PointerEventData)
 extern void RecordButton_OnPointerUp_mB2CCBB9EE3F05C3196479323518BB83D7B96040B (void);
-// 0x000002FE System.Void Inworld.Sample.UI.RecordButton::.ctor()
+// 0x000002EE System.Void Inworld.Sample.UI.RecordButton::.ctor()
 extern void RecordButton__ctor_mB8CC2C6638A5F7E135E842E5CC803554373DADF1 (void);
-// 0x000002FF System.Void Inworld.Sample.Interaction2D.CharacterController2D::Update()
+// 0x000002EF System.Void Inworld.Sample.Interaction2D.CharacterController2D::Update()
 extern void CharacterController2D_Update_m6A44499881E1095DF43197B2CB2B9F50ED09B02A (void);
-// 0x00000300 System.Boolean Inworld.Sample.Interaction2D.CharacterController2D::CanMove(UnityEngine.Vector3Int)
+// 0x000002F0 System.Boolean Inworld.Sample.Interaction2D.CharacterController2D::CanMove(UnityEngine.Vector3Int)
 extern void CharacterController2D_CanMove_m3A477F410D0065E1EB80608D4F0842864A83A0D8 (void);
-// 0x00000301 System.Void Inworld.Sample.Interaction2D.CharacterController2D::.ctor()
+// 0x000002F1 System.Void Inworld.Sample.Interaction2D.CharacterController2D::.ctor()
 extern void CharacterController2D__ctor_mF887A26590323348C2A919312F8E39E883D2EA85 (void);
-// 0x00000302 UnityEngine.Vector3Int Inworld.Sample.Interaction2D.Controller2D::get_LastPos()
+// 0x000002F2 UnityEngine.Vector3Int Inworld.Sample.Interaction2D.Controller2D::get_LastPos()
 extern void Controller2D_get_LastPos_m0416151194C5FEB45002C47DBB88A59F76C0EB4A (void);
-// 0x00000303 System.Void Inworld.Sample.Interaction2D.Controller2D::set_LastPos(UnityEngine.Vector3Int)
+// 0x000002F3 System.Void Inworld.Sample.Interaction2D.Controller2D::set_LastPos(UnityEngine.Vector3Int)
 extern void Controller2D_set_LastPos_m57E4E50585930FB7026246F608B98B8ACAE108B2 (void);
-// 0x00000304 UnityEngine.Vector3Int Inworld.Sample.Interaction2D.Controller2D::get_CurrPos()
+// 0x000002F4 UnityEngine.Vector3Int Inworld.Sample.Interaction2D.Controller2D::get_CurrPos()
 extern void Controller2D_get_CurrPos_m659E0CE4495DCA289A3B8A6DEE175FED12247449 (void);
-// 0x00000305 System.Void Inworld.Sample.Interaction2D.Controller2D::set_CurrPos(UnityEngine.Vector3Int)
+// 0x000002F5 System.Void Inworld.Sample.Interaction2D.Controller2D::set_CurrPos(UnityEngine.Vector3Int)
 extern void Controller2D_set_CurrPos_m97DF184445B2571C94EEA9BC7EF2BC656A9A277F (void);
-// 0x00000306 System.Void Inworld.Sample.Interaction2D.Controller2D::Awake()
+// 0x000002F6 System.Void Inworld.Sample.Interaction2D.Controller2D::Awake()
 extern void Controller2D_Awake_mAD79EA5DE2DC98180E733AFEFFC9921C8A5D47E9 (void);
-// 0x00000307 System.Boolean Inworld.Sample.Interaction2D.Controller2D::Move(UnityEngine.Vector3Int)
+// 0x000002F7 System.Boolean Inworld.Sample.Interaction2D.Controller2D::Move(UnityEngine.Vector3Int)
 extern void Controller2D_Move_m473A71C6F306077F0D263A21292984BD477D2533 (void);
-// 0x00000308 System.Boolean Inworld.Sample.Interaction2D.Controller2D::CanMove(UnityEngine.Vector3Int)
+// 0x000002F8 System.Boolean Inworld.Sample.Interaction2D.Controller2D::CanMove(UnityEngine.Vector3Int)
 extern void Controller2D_CanMove_mA6C03A70E9A454A39922E34A64B7459A43014BA0 (void);
-// 0x00000309 System.Void Inworld.Sample.Interaction2D.Controller2D::.ctor()
+// 0x000002F9 System.Void Inworld.Sample.Interaction2D.Controller2D::.ctor()
 extern void Controller2D__ctor_mE5CDD0370E9917565966D51BEBC9A1C68E668CDA (void);
-// 0x0000030A UnityEngine.Vector3Int Inworld.Sample.Interaction2D.MapGrid::get_StartPosition()
+// 0x000002FA UnityEngine.Vector3Int Inworld.Sample.Interaction2D.MapGrid::get_StartPosition()
 extern void MapGrid_get_StartPosition_m0C90D871DAE028C7F551BE3D83427DB6C4269D27 (void);
-// 0x0000030B UnityEngine.Vector3Int Inworld.Sample.Interaction2D.MapGrid::get_EndPosition()
+// 0x000002FB UnityEngine.Vector3Int Inworld.Sample.Interaction2D.MapGrid::get_EndPosition()
 extern void MapGrid_get_EndPosition_m1FC699E0348591A4B0F07B972ABBF476100CB4F9 (void);
-// 0x0000030C UnityEngine.Tilemaps.Tilemap Inworld.Sample.Interaction2D.MapGrid::get_Blocked()
+// 0x000002FC UnityEngine.Tilemaps.Tilemap Inworld.Sample.Interaction2D.MapGrid::get_Blocked()
 extern void MapGrid_get_Blocked_m2A580A5B736CF311EAA38A80946F57F51DDCD418 (void);
-// 0x0000030D Inworld.Sample.Interaction2D.Stone Inworld.Sample.Interaction2D.MapGrid::get_Stone()
+// 0x000002FD Inworld.Sample.Interaction2D.Stone Inworld.Sample.Interaction2D.MapGrid::get_Stone()
 extern void MapGrid_get_Stone_mB38A4931AE14294C5AE79E05B548BBE6264BFD9C (void);
-// 0x0000030E Inworld.Sample.Interaction2D.MovableObject Inworld.Sample.Interaction2D.MapGrid::get_Cart()
+// 0x000002FE Inworld.Sample.Interaction2D.MovableObject Inworld.Sample.Interaction2D.MapGrid::get_Cart()
 extern void MapGrid_get_Cart_m6CFCCE289B11FF492E14826CD70F857A3C14D66C (void);
-// 0x0000030F Inworld.Sample.Interaction2D.CharacterController2D Inworld.Sample.Interaction2D.MapGrid::get_Character()
+// 0x000002FF Inworld.Sample.Interaction2D.CharacterController2D Inworld.Sample.Interaction2D.MapGrid::get_Character()
 extern void MapGrid_get_Character_m6D260BC519D54096F72FFD3D0BA3EBE9F4C07E8C (void);
-// 0x00000310 System.Collections.Generic.List`1<UnityEngine.Vector3Int> Inworld.Sample.Interaction2D.MapGrid::get_Directions()
+// 0x00000300 System.Collections.Generic.List`1<UnityEngine.Vector3Int> Inworld.Sample.Interaction2D.MapGrid::get_Directions()
 extern void MapGrid_get_Directions_mA7BC9F05C8DED3758C6E07FED0D7A8E1E1B2A552 (void);
-// 0x00000311 UnityEngine.Tilemaps.Tilemap Inworld.Sample.Interaction2D.MapGrid::get_Items()
+// 0x00000301 UnityEngine.Tilemaps.Tilemap Inworld.Sample.Interaction2D.MapGrid::get_Items()
 extern void MapGrid_get_Items_m616FC7F4BDB18896A11D5AF95EB9FEB6409D74A0 (void);
-// 0x00000312 UnityEngine.Tilemaps.Tilemap Inworld.Sample.Interaction2D.MapGrid::get_Railway()
+// 0x00000302 UnityEngine.Tilemaps.Tilemap Inworld.Sample.Interaction2D.MapGrid::get_Railway()
 extern void MapGrid_get_Railway_m8F8F0614A986BA7648046695836D54B5410533BA (void);
-// 0x00000313 UnityEngine.BoundsInt Inworld.Sample.Interaction2D.MapGrid::get_Boundary()
+// 0x00000303 UnityEngine.BoundsInt Inworld.Sample.Interaction2D.MapGrid::get_Boundary()
 extern void MapGrid_get_Boundary_mE1E3A046E7BBA678EDAE0E39C94239BD7C747D25 (void);
-// 0x00000314 System.Void Inworld.Sample.Interaction2D.MapGrid::.ctor()
+// 0x00000304 System.Void Inworld.Sample.Interaction2D.MapGrid::.ctor()
 extern void MapGrid__ctor_m6A28393DCD0AFD2A78C2A271131206C2C8419808 (void);
-// 0x00000315 System.Boolean Inworld.Sample.Interaction2D.MovableObject::get__IsOnRailway()
+// 0x00000305 System.Boolean Inworld.Sample.Interaction2D.MovableObject::get__IsOnRailway()
 extern void MovableObject_get__IsOnRailway_m29230DC42A57B2DD6DE76139EDA571D80BC63BD6 (void);
-// 0x00000316 System.Void Inworld.Sample.Interaction2D.MovableObject::Start()
+// 0x00000306 System.Void Inworld.Sample.Interaction2D.MovableObject::Start()
 extern void MovableObject_Start_m6D3BB2006FF2B94E61AB46D20650945D038A35B9 (void);
-// 0x00000317 System.Void Inworld.Sample.Interaction2D.MovableObject::Update()
+// 0x00000307 System.Void Inworld.Sample.Interaction2D.MovableObject::Update()
 extern void MovableObject_Update_m462EF9CB1010B30FF96D66752794CED48DFDA643 (void);
-// 0x00000318 UnityEngine.Vector3Int Inworld.Sample.Interaction2D.MovableObject::_FindNextRailway()
+// 0x00000308 UnityEngine.Vector3Int Inworld.Sample.Interaction2D.MovableObject::_FindNextRailway()
 extern void MovableObject__FindNextRailway_mDDAB4188E93A51C0610189C6AF9FBBD1026076A7 (void);
-// 0x00000319 System.Int32 Inworld.Sample.Interaction2D.MovableObject::_GetRailwayBlockWeight(UnityEngine.Vector3Int)
+// 0x00000309 System.Int32 Inworld.Sample.Interaction2D.MovableObject::_GetRailwayBlockWeight(UnityEngine.Vector3Int)
 extern void MovableObject__GetRailwayBlockWeight_m5B27CE8822DA9E4154117B0B33FDAB5F8668D808 (void);
-// 0x0000031A System.Void Inworld.Sample.Interaction2D.MovableObject::MoveRailWay()
+// 0x0000030A System.Void Inworld.Sample.Interaction2D.MovableObject::MoveRailWay()
 extern void MovableObject_MoveRailWay_m3F0624E8E06D53071657061CDA60F2E16CB30036 (void);
-// 0x0000031B System.Boolean Inworld.Sample.Interaction2D.MovableObject::Move(UnityEngine.Vector3Int)
+// 0x0000030B System.Boolean Inworld.Sample.Interaction2D.MovableObject::Move(UnityEngine.Vector3Int)
 extern void MovableObject_Move_m3B4F2A89BFA84177C60B3D323D3F03508914C4A3 (void);
-// 0x0000031C System.Boolean Inworld.Sample.Interaction2D.MovableObject::CanMove(UnityEngine.Vector3Int)
+// 0x0000030C System.Boolean Inworld.Sample.Interaction2D.MovableObject::CanMove(UnityEngine.Vector3Int)
 extern void MovableObject_CanMove_m3FC65DA612E12CD84932E17475CF6D05EFEAE074 (void);
-// 0x0000031D System.Void Inworld.Sample.Interaction2D.MovableObject::.ctor()
+// 0x0000030D System.Void Inworld.Sample.Interaction2D.MovableObject::.ctor()
 extern void MovableObject__ctor_mF626EC5F458546EDD12BF952DB081DDBF6AE2266 (void);
-// 0x0000031E System.Boolean Inworld.Sample.Interaction2D.Stone::CanMove(UnityEngine.Vector3Int)
+// 0x0000030E System.Boolean Inworld.Sample.Interaction2D.Stone::CanMove(UnityEngine.Vector3Int)
 extern void Stone_CanMove_m214A5B4B03B2322E450DD5EF35674C612DA0C620 (void);
-// 0x0000031F System.Boolean Inworld.Sample.Interaction2D.Stone::Move(UnityEngine.Vector3Int)
+// 0x0000030F System.Boolean Inworld.Sample.Interaction2D.Stone::Move(UnityEngine.Vector3Int)
 extern void Stone_Move_m132AB59BF22B2ACA78FAF5921DBF3A6C26140C85 (void);
-// 0x00000320 System.Void Inworld.Sample.Interaction2D.Stone::.ctor()
+// 0x00000310 System.Void Inworld.Sample.Interaction2D.Stone::.ctor()
 extern void Stone__ctor_m0BA4CBDCF1CFCF2CFE08B42C8A6C9F3AF94BE7F5 (void);
-static Il2CppMethodPointer s_methodPointers[800] = 
+static Il2CppMethodPointer s_methodPointers[784] = 
 {
 	ForceInitialize_ExampleOfForceReflectionInitializationForProtobuf_mD95AD4EBF702A21AEF3D117D95B92C84DDDB255B,
 	ForceInitialize__ctor_m2CD6EA30FCCEB9400EA25891E505C5F2D57AA9F7,
@@ -2237,22 +2205,6 @@ static Il2CppMethodPointer s_methodPointers[800] =
 	AudioInteraction__TryGetAudio_mBD102F27E547614CD95A15BCED76AA545C7ED91C,
 	AudioInteraction_IsAudioChunkAvailable_mCDF15AF1A7B753E6378A6BB5E90DAA20D1B34010,
 	AudioInteraction__ctor_mAD8B68D37061589B40E8556E022F1628E30F5480,
-	AudioInteractionEva_OnPacketEvents_mAA6092CB9F17ED7A3F72BB05F188A8034C6F88A5,
-	AudioInteractionEva_get_IsPlaying_m15701507FE5286B1EEA054CD53209C0EEA71C96C,
-	AudioInteractionEva_get_CurrentChunk_m120F448E1B6D2CF41CD289AAE156BD5EAD499E1E,
-	AudioInteractionEva_Init_m30D43AAF1BCA40A9C65D6EA4A7D6D9D04FF50A89,
-	AudioInteractionEva_Clear_m5B167AD386B2EBD881FA6538CA701468256D78B3,
-	AudioInteractionEva_AddText_m6F3222EBBB15B462B914FBE1F84612B915922F95,
-	AudioInteractionEva_Awake_mA943D4AD17A6F9349DA2CF4A9D4C57D995A6B1B5,
-	AudioInteractionEva_OnEnable_m441FE0725732CC32840EFB98EF8EE4888FA92FDE,
-	AudioInteractionEva_Update_m966FD4FAF835FF3725BEEC4DAB1231896E1A9389,
-	AudioInteractionEva_OnDisable_mA213E977FEBB589145784B2B663433CDA5711948,
-	AudioInteractionEva_get__CurrentAudioLength_m711A50C71D1ADF7A1E898538BF7560FD50C831E9,
-	AudioInteractionEva_set__CurrentAudioLength_mE98A5043C51FDBAF55DCE460B29C9E6A6F346B86,
-	AudioInteractionEva__TimerCountDown_m966CF0E67B589A4343D5B3D62FF72DF50177D893,
-	AudioInteractionEva__TryGetAudio_m3648116B73FE21CE96E0297599B4220840868AF1,
-	AudioInteractionEva_IsAudioChunkAvailable_mB8EE22092BAFCC4F995820434D4156F3AC8FA315,
-	AudioInteractionEva__ctor_mE2B1642C04F2F915F02105EB5FBFEC54DC45B7B1,
 	InworldCameraController_Update_m062AB2E164EC3EED2E0D1EDD4C71D9B2D5C6D737,
 	InworldCameraController_OnEnable_m5E9123AF81F101773E035E1C5D24C4DE02131A69,
 	InworldCameraController_OnDisable_m26A878F7102F5117B93A5BF83FC49134D66415FE,
@@ -2485,10 +2437,10 @@ static Il2CppTokenAdjustorThunkPair s_adjustorThunks[48] =
 	{ 0x06000123, U3CListWorkspaceU3Ed__19_SetStateMachine_mD621371465DA2F61A2CA34ACB9E26F53B028A4FA_AdjustorThunk },
 	{ 0x06000124, U3CCreateWorkspacesU3Ed__20_MoveNext_m985EA1B2E5D03B884C2CD03D583EF52C7B22B440_AdjustorThunk },
 	{ 0x06000125, U3CCreateWorkspacesU3Ed__20_SetStateMachine_mCC443F10055A10547DF2D69A2692B131C66B62A8_AdjustorThunk },
-	{ 0x060002D7, U3CPlayPauseU3Ed__14_MoveNext_m8E70B796FEEC6DD5926E364D2BECB09E51A07311_AdjustorThunk },
-	{ 0x060002D8, U3CPlayPauseU3Ed__14_SetStateMachine_m24615F5482137043C359AE042B6FA7DE89D039EC_AdjustorThunk },
+	{ 0x060002C7, U3CPlayPauseU3Ed__14_MoveNext_m8E70B796FEEC6DD5926E364D2BECB09E51A07311_AdjustorThunk },
+	{ 0x060002C8, U3CPlayPauseU3Ed__14_SetStateMachine_m24615F5482137043C359AE042B6FA7DE89D039EC_AdjustorThunk },
 };
-static const int32_t s_InvokerIndices[800] = 
+static const int32_t s_InvokerIndices[784] = 
 {
 	6645,
 	6645,
@@ -3139,22 +3091,6 @@ static const int32_t s_InvokerIndices[800] =
 	6645,
 	3799,
 	6645,
-	5340,
-	6408,
-	6510,
-	6645,
-	6645,
-	5340,
-	6645,
-	6645,
-	6645,
-	6645,
-	6561,
-	5383,
-	6645,
-	6645,
-	3799,
-	6645,
 	6645,
 	6645,
 	6645,
@@ -3308,7 +3244,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_InworldAI_CodeGenModule;
 const Il2CppCodeGenModule g_InworldAI_CodeGenModule = 
 {
 	"InworldAI.dll",
-	800,
+	784,
 	s_methodPointers,
 	48,
 	s_adjustorThunks,

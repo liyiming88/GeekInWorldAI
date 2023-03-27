@@ -338,7 +338,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1128614544702611233, guid: d22bd8b2bca97c14295d2f6d73499a8a, type: 3}
       propertyPath: m_Enabled
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4248716694280939042, guid: d22bd8b2bca97c14295d2f6d73499a8a, type: 3}
       propertyPath: m_SizeDelta.y
@@ -1664,26 +1664,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   x: 0
   y: 0
-  speed: 5
+  speed: 0.5
   obj: {fileID: 884360999}
 --- !u!1 &925130244 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 9047055559676837508, guid: d22bd8b2bca97c14295d2f6d73499a8a, type: 3}
   m_PrefabInstance: {fileID: 186299021}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &925130251
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 925130244}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3c42eaa83f1e8b54fb5322978cf6b5a8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_HistorySize: 16
 --- !u!1 &977571895
 GameObject:
   m_ObjectHideFlags: 0

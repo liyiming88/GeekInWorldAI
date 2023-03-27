@@ -6752,40 +6752,46 @@ struct InworldKeywordListenerEva_tC719859A9D5CAB81083FB66998DD98D3A8E1228A  : pu
 	List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* ___keywords_weather_6;
 	// System.Collections.Generic.List`1<System.String> InworldKeywordListenerEva::keywords_map
 	List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* ___keywords_map_7;
-	// System.Collections.Generic.List`1<System.String> InworldKeywordListenerEva::keywords_coffie
-	List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* ___keywords_coffie_8;
+	// System.Collections.Generic.List`1<System.String> InworldKeywordListenerEva::keywords_coffee
+	List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* ___keywords_coffee_8;
+	// System.Collections.Generic.List`1<System.String> InworldKeywordListenerEva::keywords_coffee_map
+	List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* ___keywords_coffee_map_9;
 	// System.Collections.Generic.List`1<System.String> InworldKeywordListenerEva::keywords_place
-	List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* ___keywords_place_9;
+	List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* ___keywords_place_10;
 	// System.Collections.Generic.List`1<System.String> InworldKeywordListenerEva::keywords_restaurant
-	List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* ___keywords_restaurant_10;
+	List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* ___keywords_restaurant_11;
 	// UnityEngine.GameObject InworldKeywordListenerEva::obj_weather
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___obj_weather_11;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___obj_weather_12;
 	// UnityEngine.GameObject InworldKeywordListenerEva::obj_map
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___obj_map_12;
-	// UnityEngine.GameObject InworldKeywordListenerEva::obj_coffie
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___obj_coffie_13;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___obj_map_13;
+	// UnityEngine.GameObject InworldKeywordListenerEva::obj_coffee
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___obj_coffee_14;
+	// UnityEngine.GameObject InworldKeywordListenerEva::obj_coffee_map
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___obj_coffee_map_15;
 	// UnityEngine.GameObject InworldKeywordListenerEva::obj_place
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___obj_place_14;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___obj_place_16;
 	// UnityEngine.GameObject InworldKeywordListenerEva::obj_restaurant
-	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___obj_restaurant_15;
+	GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* ___obj_restaurant_17;
 	// System.String InworldKeywordListenerEva::trigger
-	String_t* ___trigger_16;
+	String_t* ___trigger_18;
 	// System.String InworldKeywordListenerEva::triggerResponse
-	String_t* ___triggerResponse_17;
+	String_t* ___triggerResponse_19;
 	// UnityEngine.Events.UnityEvent InworldKeywordListenerEva::OnTriggerSent
-	UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* ___OnTriggerSent_18;
+	UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* ___OnTriggerSent_20;
 	// UnityEngine.Events.UnityEvent InworldKeywordListenerEva::OnTriggerReceived
-	UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* ___OnTriggerReceived_19;
+	UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* ___OnTriggerReceived_21;
 	// System.Boolean InworldKeywordListenerEva::hit_weather
-	bool ___hit_weather_20;
+	bool ___hit_weather_22;
 	// System.Boolean InworldKeywordListenerEva::hit_map
-	bool ___hit_map_21;
-	// System.Boolean InworldKeywordListenerEva::hit_coffie
-	bool ___hit_coffie_22;
+	bool ___hit_map_23;
+	// System.Boolean InworldKeywordListenerEva::hit_coffee
+	bool ___hit_coffee_24;
+	// System.Boolean InworldKeywordListenerEva::hit_coffee_map
+	bool ___hit_coffee_map_25;
 	// System.Boolean InworldKeywordListenerEva::hit_place
-	bool ___hit_place_23;
+	bool ___hit_place_26;
 	// System.Boolean InworldKeywordListenerEva::hit_restaurant
-	bool ___hit_restaurant_24;
+	bool ___hit_restaurant_27;
 };
 
 // Inworld.Runtime.RuntimeCanvas
@@ -10486,6 +10492,8 @@ inline void UnityEvent_1_AddListener_m65CDD3B0424CD00A00EBD00F6F15EB027BAA0AB2 (
 }
 // System.Void UnityEngine.GameObject::SetActive(System.Boolean)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, bool ___0_value, const RuntimeMethod* method) ;
+// System.Boolean UnityEngine.GameObject::get_activeSelf()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GameObject_get_activeSelf_m4F3E5240E138B66AAA080EA30759A3D0517DA368 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method) ;
 // System.Void Inworld.SingletonBehavior`1<InworldKeywordListenerEva>::.ctor()
 inline void SingletonBehavior_1__ctor_m1D1875B732DF777DBD1D18F0972D8D5095EF265C (SingletonBehavior_1_t8B3119C07A9818C4E1B732C778FBEC617A6DE820* __this, const RuntimeMethod* method)
 {
@@ -11282,8 +11290,6 @@ inline bool List_1_Contains_mD83BDFFDC39F8AA74DC919AAE2F735B0DA4FC23F (List_1_tB
 }
 // System.Collections.IEnumerator UnityEngine.Transform::GetEnumerator()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject* Transform_GetEnumerator_mA7E1C882ACA0C33E284711CD09971DEA3FFEF404 (Transform_tB27202C6F4E36D225EE28A13E4D662BF99785DB1* __this, const RuntimeMethod* method) ;
-// System.Boolean UnityEngine.GameObject::get_activeSelf()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool GameObject_get_activeSelf_m4F3E5240E138B66AAA080EA30759A3D0517DA368 (GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* __this, const RuntimeMethod* method) ;
 // T UnityEngine.Component::GetComponent<Inworld.InworldCharacter>()
 inline InworldCharacter_t509CED20118BE41C6F78E1DF3D888B63ED9B1998* Component_GetComponent_TisInworldCharacter_t509CED20118BE41C6F78E1DF3D888B63ED9B1998_mECAD168F39E114F3EC7C5C38E82AF9C1788AE66F (Component_t39FBE53E5EFCF4409111FB22C15FF73717632EC3* __this, const RuntimeMethod* method)
 {
@@ -13736,6 +13742,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InworldKeywordListenerEva__HandleTextEve
 	memset((&V_0), 0, sizeof(V_0));
 	String_t* V_1 = NULL;
 	String_t* V_2 = NULL;
+	String_t* V_3 = NULL;
 	{
 		// if (string.IsNullOrEmpty(textEvent.Text))
 		TextEvent_t02CEE86B22B67F0E5B544962C3685BF2E650338F* L_0 = ___0_textEvent;
@@ -13816,7 +13823,7 @@ IL_001c_1:
 				il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 				Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_14, NULL);
 				// hit_weather = true;
-				__this->___hit_weather_20 = (bool)1;
+				__this->___hit_weather_22 = (bool)1;
 				// break;
 				goto IL_0073;
 			}
@@ -13843,8 +13850,8 @@ IL_005a_1:
 
 IL_0073:
 	{
-		// foreach (var keyword in keywords_coffie)
-		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_16 = __this->___keywords_coffie_8;
+		// foreach (var keyword in keywords_coffee)
+		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_16 = __this->___keywords_coffee_8;
 		NullCheck(L_16);
 		Enumerator_tA7A4B718FE1ED1D87565680D8C8195EC8AEAB3D1 L_17;
 		L_17 = List_1_GetEnumerator_m7692B5F182858B7D5C72C920D09AD48738D1E70D(L_16, List_1_GetEnumerator_m7692B5F182858B7D5C72C920D09AD48738D1E70D_RuntimeMethod_var);
@@ -13868,7 +13875,7 @@ FINALLY_00ca:
 
 IL_0081_1:
 			{
-				// foreach (var keyword in keywords_coffie)
+				// foreach (var keyword in keywords_coffee)
 				String_t* L_18;
 				L_18 = Enumerator_get_Current_m143541DD8FBCD313E7554EA738FA813B8F4DB11A_inline((&V_0), Enumerator_get_Current_m143541DD8FBCD313E7554EA738FA813B8F4DB11A_RuntimeMethod_var);
 				V_2 = L_18;
@@ -13902,15 +13909,15 @@ IL_0081_1:
 				L_27 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral9105716A6DBA480FD078D7A988E42055414D56B9, L_26, NULL);
 				il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 				Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_27, NULL);
-				// hit_coffie = true;
-				__this->___hit_coffie_22 = (bool)1;
+				// hit_coffee = true;
+				__this->___hit_coffee_24 = (bool)1;
 				// break;
 				goto IL_00d8;
 			}
 
 IL_00bf_1:
 			{
-				// foreach (var keyword in keywords_coffie)
+				// foreach (var keyword in keywords_coffee)
 				bool L_28;
 				L_28 = Enumerator_MoveNext_mDB47EEC4531D33B9C33FD2E70BA15E1535A0F3ED((&V_0), Enumerator_MoveNext_mDB47EEC4531D33B9C33FD2E70BA15E1535A0F3ED_RuntimeMethod_var);
 				if (L_28)
@@ -13930,6 +13937,93 @@ IL_00bf_1:
 
 IL_00d8:
 	{
+		// foreach (var keyword in keywords_coffee_map)
+		List_1_tF470A3BE5C1B5B68E1325EF3F109D172E60BD7CD* L_29 = __this->___keywords_coffee_map_9;
+		NullCheck(L_29);
+		Enumerator_tA7A4B718FE1ED1D87565680D8C8195EC8AEAB3D1 L_30;
+		L_30 = List_1_GetEnumerator_m7692B5F182858B7D5C72C920D09AD48738D1E70D(L_29, List_1_GetEnumerator_m7692B5F182858B7D5C72C920D09AD48738D1E70D_RuntimeMethod_var);
+		V_0 = L_30;
+	}
+	{
+		auto __finallyBlock = il2cpp::utils::Finally([&]
+		{
+
+FINALLY_012f:
+			{// begin finally (depth: 1)
+				Enumerator_Dispose_m592BCCE7B7933454DED2130C810F059F8D85B1D7((&V_0), Enumerator_Dispose_m592BCCE7B7933454DED2130C810F059F8D85B1D7_RuntimeMethod_var);
+				return;
+			}// end finally (depth: 1)
+		});
+		try
+		{// begin try (depth: 1)
+			{
+				goto IL_0124_1;
+			}
+
+IL_00e6_1:
+			{
+				// foreach (var keyword in keywords_coffee_map)
+				String_t* L_31;
+				L_31 = Enumerator_get_Current_m143541DD8FBCD313E7554EA738FA813B8F4DB11A_inline((&V_0), Enumerator_get_Current_m143541DD8FBCD313E7554EA738FA813B8F4DB11A_RuntimeMethod_var);
+				V_3 = L_31;
+				// if (textEvent.Text.ToLower().Contains(keyword.ToLower()))
+				TextEvent_t02CEE86B22B67F0E5B544962C3685BF2E650338F* L_32 = ___0_textEvent;
+				NullCheck(L_32);
+				String_t* L_33;
+				L_33 = TextEvent_get_Text_mC3184A909AB3935F49860007B28EAF6A97D16D7D_inline(L_32, NULL);
+				NullCheck(L_33);
+				String_t* L_34;
+				L_34 = String_ToLower_m6191ABA3DC514ED47C10BDA23FD0DDCEAE7ACFBD(L_33, NULL);
+				String_t* L_35 = V_3;
+				NullCheck(L_35);
+				String_t* L_36;
+				L_36 = String_ToLower_m6191ABA3DC514ED47C10BDA23FD0DDCEAE7ACFBD(L_35, NULL);
+				NullCheck(L_34);
+				bool L_37;
+				L_37 = String_Contains_m6D77B121FADA7CA5F397C0FABB65DA62DF03B6C3(L_34, L_36, NULL);
+				if (!L_37)
+				{
+					goto IL_0124_1;
+				}
+			}
+			{
+				// Debug.Log("Sending trigger for keyword " + textEvent.Text);
+				TextEvent_t02CEE86B22B67F0E5B544962C3685BF2E650338F* L_38 = ___0_textEvent;
+				NullCheck(L_38);
+				String_t* L_39;
+				L_39 = TextEvent_get_Text_mC3184A909AB3935F49860007B28EAF6A97D16D7D_inline(L_38, NULL);
+				String_t* L_40;
+				L_40 = String_Concat_m9E3155FB84015C823606188F53B47CB44C444991(_stringLiteral9105716A6DBA480FD078D7A988E42055414D56B9, L_39, NULL);
+				il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+				Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(L_40, NULL);
+				// hit_coffee_map = true;
+				__this->___hit_coffee_map_25 = (bool)1;
+				// break;
+				goto IL_013d;
+			}
+
+IL_0124_1:
+			{
+				// foreach (var keyword in keywords_coffee_map)
+				bool L_41;
+				L_41 = Enumerator_MoveNext_mDB47EEC4531D33B9C33FD2E70BA15E1535A0F3ED((&V_0), Enumerator_MoveNext_mDB47EEC4531D33B9C33FD2E70BA15E1535A0F3ED_RuntimeMethod_var);
+				if (L_41)
+				{
+					goto IL_00e6_1;
+				}
+			}
+			{
+				goto IL_013d;
+			}
+		}// end try (depth: 1)
+		catch(Il2CppExceptionWrapper& e)
+		{
+			__finallyBlock.StoreException(e.ex);
+		}
+	}
+
+IL_013d:
+	{
 		// }
 		return;
 	}
@@ -13942,7 +14036,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InworldKeywordListenerEva__HandleCustomE
 		CustomEvent_t8DC4A993AD50AB5F3BD35D6A793DC5E7DF1355DF* L_0 = ___0_customEvent;
 		NullCheck(L_0);
 		String_t* L_1 = L_0->___Name_3;
-		String_t* L_2 = __this->___triggerResponse_17;
+		String_t* L_2 = __this->___triggerResponse_19;
 		bool L_3;
 		L_3 = String_op_Equality_m030E1B219352228970A076136E455C4E568C02C1(L_1, L_2, NULL);
 		if (!L_3)
@@ -13952,7 +14046,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InworldKeywordListenerEva__HandleCustomE
 	}
 	{
 		// OnTriggerReceived.Invoke();
-		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_4 = __this->___OnTriggerReceived_19;
+		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_4 = __this->___OnTriggerReceived_21;
 		NullCheck(L_4);
 		UnityEvent_Invoke_mFBF80D59B03C30C5FE6A06F897D954ACADE061D2(L_4, NULL);
 	}
@@ -14137,20 +14231,74 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InworldKeywordListenerEva_InfoShow_m2DFC
 {
 	{
 		// if (hit_weather) {
-		bool L_0 = __this->___hit_weather_20;
+		bool L_0 = __this->___hit_weather_22;
 		if (!L_0)
 		{
-			goto IL_0014;
+			goto IL_001b;
 		}
 	}
 	{
 		// obj_weather.SetActive(true);
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1 = __this->___obj_weather_11;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1 = __this->___obj_weather_12;
 		NullCheck(L_1);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_1, (bool)1, NULL);
+		// hit_weather = false;
+		__this->___hit_weather_22 = (bool)0;
 	}
 
-IL_0014:
+IL_001b:
+	{
+		// if (hit_coffee)
+		bool L_2 = __this->___hit_coffee_24;
+		if (!L_2)
+		{
+			goto IL_0036;
+		}
+	}
+	{
+		// obj_coffee.SetActive(true);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_3 = __this->___obj_coffee_14;
+		NullCheck(L_3);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_3, (bool)1, NULL);
+		// hit_coffee = false;
+		__this->___hit_coffee_24 = (bool)0;
+	}
+
+IL_0036:
+	{
+		// if (hit_coffee_map && obj_coffee.activeSelf)
+		bool L_4 = __this->___hit_coffee_map_25;
+		if (!L_4)
+		{
+			goto IL_0071;
+		}
+	}
+	{
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_5 = __this->___obj_coffee_14;
+		NullCheck(L_5);
+		bool L_6;
+		L_6 = GameObject_get_activeSelf_m4F3E5240E138B66AAA080EA30759A3D0517DA368(L_5, NULL);
+		if (!L_6)
+		{
+			goto IL_0071;
+		}
+	}
+	{
+		// obj_coffee_map.SetActive(true);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_7 = __this->___obj_coffee_map_15;
+		NullCheck(L_7);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_7, (bool)1, NULL);
+		// obj_coffee.SetActive(false);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_8 = __this->___obj_coffee_14;
+		NullCheck(L_8);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_8, (bool)0, NULL);
+		// hit_weather = false;
+		__this->___hit_weather_22 = (bool)0;
+		// hit_coffee_map = false;
+		__this->___hit_coffee_map_25 = (bool)0;
+	}
+
+IL_0071:
 	{
 		// }
 		return;
@@ -14161,9 +14309,13 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InworldKeywordListenerEva_InfoHide_mAE9A
 {
 	{
 		// obj_weather.SetActive(false);
-		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___obj_weather_11;
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_0 = __this->___obj_weather_12;
 		NullCheck(L_0);
 		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_0, (bool)0, NULL);
+		// obj_coffee_map.SetActive(false);
+		GameObject_t76FEDD663AB33C991A9C9A23129337651094216F* L_1 = __this->___obj_coffee_map_15;
+		NullCheck(L_1);
+		GameObject_SetActive_m638E92E1E75E519E5B24CF150B08CA8E0CDFAB92(L_1, (bool)0, NULL);
 		// }
 		return;
 	}

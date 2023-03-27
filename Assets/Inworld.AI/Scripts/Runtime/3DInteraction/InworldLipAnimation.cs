@@ -139,8 +139,10 @@ namespace Inworld.Model
         void OnAudioStarted(PacketId ID)
         {
             _Reset();
-            if (!Character || Character.Interaction is not AudioInteraction audioInteraction)
+            Debug.Log("Warning: The line below is only for Eva, change AudioInteractionEva to AudioInteraction for general");
+            if (!Character || Character.Interaction is not AudioInteraction audioInteraction) { 
                 return;
+            }
             foreach (AdditionalPhonemeInfo phoneme in audioInteraction.CurrentChunk.PhonemeInfo)
             {
                 PhonemeToViseme p2vRes = m_FaceAnimData.p2vMap.FirstOrDefault(p2v => p2v.phoneme == phoneme.Phoneme);

@@ -170,17 +170,21 @@ public class InworldKeywordListenerEva : SingletonBehavior<InworldKeywordListene
     {
         if (hit_weather) {
             obj_weather.SetActive(true);
+            hit_weather = false;
         }
 
         if (hit_coffee)
         {
             obj_coffee.SetActive(true);
+            hit_coffee = false;
         }
 
         if (hit_coffee_map && obj_coffee.activeSelf)
         {
             obj_coffee_map.SetActive(true);
             obj_coffee.SetActive(false);
+            hit_weather = false;
+            hit_coffee_map = false;
         }
     }
 

@@ -1,0 +1,13 @@
+[2023-03-27 15:41:13.817] [pxr_streamer] [info] ***********  Log Begin **********
+[2023-03-27 15:41:13.817] [pxr_streamer] [info] process id= 48932
+[2023-03-27 15:41:13.817] [pxr_streamer] [error] rpc_terminal.cpp:37 operator (): connect failed, error= ???????????,?????, this = 0xe6669a70
+[2023-03-27 15:41:13.817] [pxr_streamer] [error] rpc_terminal.h:50 Call: invalid rpc_client_, msg = Hello, this = 0xe6669a70
+[2023-03-27 15:41:13.817] [pxr_streamer] [error] rpc_terminal.h:50 Call: invalid rpc_client_, msg = QueryRemoteTerminals, this = 0xe6669a70
+[2023-03-27 15:41:16.858] [pxr_streamer] [error] rpc_terminal.cpp:37 operator (): connect failed, error= ???????????,?????, this = 0xe6669a70
+[2023-03-27 15:41:19.889] [pxr_streamer] [error] rpc_terminal.cpp:37 operator (): connect failed, error= ???????????,?????, this = 0xe6669a70
+[2023-03-27 15:41:22.926] [pxr_streamer] [error] rpc_terminal.cpp:37 operator (): connect failed, error= ???????????,?????, this = 0xe6669a70
+[2023-03-27 15:41:25.978] [pxr_streamer] [error] rpc_terminal.cpp:37 operator (): connect failed, error= ???????????,?????, this = 0xe6669a70
+[2023-03-27 15:41:29.040] [pxr_streamer] [error] rpc_terminal.cpp:37 operator (): connect failed, error= ???????????,?????, this = 0xe6669a70
+[2023-03-27 15:41:32.082] [pxr_streamer] [error] rpc_terminal.cpp:37 operator (): connect failed, error= ???????????,?????, this = 0xe6669a70
+[2023-03-27 15:41:35.120] [pxr_streamer] [error] rpc_terminal.cpp:37 operator (): connect failed, error= ???????????,?????, this = 0xe6669a70
+[2023-03-27 15:41:40.814] [pxr_streamer] [error] rpc_terminal.cpp:37 operator (): connect failed, error= ???????????,?????, this = 0xe6669a70

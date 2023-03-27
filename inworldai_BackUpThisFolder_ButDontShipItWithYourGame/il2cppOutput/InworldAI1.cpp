@@ -452,8 +452,6 @@ struct AudioChunk_tDC8F6AA20CA1EF4C7B9F9BC5393BEC989AC3AAD2;
 struct AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20;
 // Inworld.Audio.AudioInteraction
 struct AudioInteraction_tD65B5CB69F855F91B6793F8C291B8E3F71088FAC;
-// Inworld.Audio.AudioInteractionEva
-struct AudioInteractionEva_t86BF1BA7B24FB5F00EC4104B833966DF234B6E6D;
 // UnityEngine.AudioSource
 struct AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299;
 // UnityEngine.Avatar
@@ -969,6 +967,7 @@ IL2CPP_EXTERN_C String_t* _stringLiteralA2865685F4A467CF2DF94B1EBD695E56360D1BB9
 IL2CPP_EXTERN_C String_t* _stringLiteralA98304757F8F79CCCCE2A3A5364C9A3D431A7EE1;
 IL2CPP_EXTERN_C String_t* _stringLiteralAD691697257F5FB028CE159663C9E50B554C001C;
 IL2CPP_EXTERN_C String_t* _stringLiteralAD6CD2C36915DEB6A18BCF0F46B294FC1D97072F;
+IL2CPP_EXTERN_C String_t* _stringLiteralAE4CDA08CD7E387697FC790BDB8C38AF1972DB25;
 IL2CPP_EXTERN_C String_t* _stringLiteralB5E387BEFDEF541AEC65C72F26B2B17FCC03454C;
 IL2CPP_EXTERN_C String_t* _stringLiteralB7AD3BE74803C14B2CB5D2C17486D5F2138FDE60;
 IL2CPP_EXTERN_C String_t* _stringLiteralBC5C334172071E90297EACE950AE3640A3654C43;
@@ -4712,21 +4711,6 @@ struct AudioInteraction_tD65B5CB69F855F91B6793F8C291B8E3F71088FAC  : public Inte
 	String_t* ___m_LastInteraction_16;
 };
 
-// Inworld.Audio.AudioInteractionEva
-struct AudioInteractionEva_t86BF1BA7B24FB5F00EC4104B833966DF234B6E6D  : public Interactions_tBBB2B0DE1DD7C4E6AD9D1FCCB0A6819226B7EFE9
-{
-	// System.Single Inworld.Audio.AudioInteractionEva::m_CurrentFixedUpdateTime
-	float ___m_CurrentFixedUpdateTime_11;
-	// Inworld.Packets.AudioChunk Inworld.Audio.AudioInteractionEva::m_CurrentAudioChunk
-	AudioChunk_tDC8F6AA20CA1EF4C7B9F9BC5393BEC989AC3AAD2* ___m_CurrentAudioChunk_12;
-	// System.Collections.Concurrent.ConcurrentQueue`1<Inworld.Packets.AudioChunk> Inworld.Audio.AudioInteractionEva::m_AudioChunksQueue
-	ConcurrentQueue_1_tAF28985B68113E6BCA49CC82F67B715023CF9A8D* ___m_AudioChunksQueue_13;
-	// Inworld.Packets.PacketId Inworld.Audio.AudioInteractionEva::m_CurrentlyPlayingUtterance
-	PacketId_tAD5756242E8D2FF9B21AA3D990AF24E6E0872960* ___m_CurrentlyPlayingUtterance_15;
-	// System.String Inworld.Audio.AudioInteractionEva::m_LastInteraction
-	String_t* ___m_LastInteraction_16;
-};
-
 // Inworld.Sample.Interaction2D.CharacterController2D
 struct CharacterController2D_t49B294CD3D5F3012C2D809C81D74A664CD1289B5  : public Controller2D_tD76AAE6C884858068B370A2793FBEADEEA08D9F3
 {
@@ -6992,10 +6976,6 @@ struct BodyAnimation_t6009CBBE0250C415F579147A43400B5F41D3F251_StaticFields
 
 // Inworld.Audio.AudioInteraction
 
-// Inworld.Audio.AudioInteractionEva
-
-// Inworld.Audio.AudioInteractionEva
-
 // Inworld.Sample.Interaction2D.CharacterController2D
 
 // Inworld.Sample.Interaction2D.CharacterController2D
@@ -8361,18 +8341,6 @@ inline void ConcurrentQueue_1__ctor_m29C29D08DDB5137A9D7B9F92D504E7A0276A9FA5 (C
 }
 // System.Void Inworld.Interactions::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Interactions__ctor_m71C63E434F10D0D3A4170153A2C704EDF83368CE (Interactions_tBBB2B0DE1DD7C4E6AD9D1FCCB0A6819226B7EFE9* __this, const RuntimeMethod* method) ;
-// System.Void Inworld.Audio.AudioInteractionEva::_TimerCountDown()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioInteractionEva__TimerCountDown_m966CF0E67B589A4343D5B3D62FF72DF50177D893 (AudioInteractionEva_t86BF1BA7B24FB5F00EC4104B833966DF234B6E6D* __this, const RuntimeMethod* method) ;
-// System.Void Inworld.Audio.AudioInteractionEva::_TryGetAudio()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioInteractionEva__TryGetAudio_m3648116B73FE21CE96E0297599B4220840868AF1 (AudioInteractionEva_t86BF1BA7B24FB5F00EC4104B833966DF234B6E6D* __this, const RuntimeMethod* method) ;
-// System.Single Inworld.Audio.AudioInteractionEva::get__CurrentAudioLength()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AudioInteractionEva_get__CurrentAudioLength_m711A50C71D1ADF7A1E898538BF7560FD50C831E9 (AudioInteractionEva_t86BF1BA7B24FB5F00EC4104B833966DF234B6E6D* __this, const RuntimeMethod* method) ;
-// System.Void Inworld.Audio.AudioInteractionEva::set__CurrentAudioLength(System.Single)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioInteractionEva_set__CurrentAudioLength_mE98A5043C51FDBAF55DCE460B29C9E6A6F346B86 (AudioInteractionEva_t86BF1BA7B24FB5F00EC4104B833966DF234B6E6D* __this, float ___0_value, const RuntimeMethod* method) ;
-// System.Boolean Inworld.Audio.AudioInteractionEva::get_IsPlaying()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AudioInteractionEva_get_IsPlaying_m15701507FE5286B1EEA054CD53209C0EEA71C96C (AudioInteractionEva_t86BF1BA7B24FB5F00EC4104B833966DF234B6E6D* __this, const RuntimeMethod* method) ;
-// System.Boolean Inworld.Audio.AudioInteractionEva::IsAudioChunkAvailable(Inworld.Packets.PacketId)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AudioInteractionEva_IsAudioChunkAvailable_mB8EE22092BAFCC4F995820434D4156F3AC8FA315 (AudioInteractionEva_t86BF1BA7B24FB5F00EC4104B833966DF234B6E6D* __this, PacketId_tAD5756242E8D2FF9B21AA3D990AF24E6E0872960* ___0_packetID, const RuntimeMethod* method) ;
 // System.Boolean UnityEngine.Input::GetKey(UnityEngine.KeyCode)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Input_GetKey_mE5681EF775F3CEBA7EAD7C63984F7B34C8E8D434 (int32_t ___0_key, const RuntimeMethod* method) ;
 // System.Void UnityEngine.Application::Quit()
@@ -15808,6 +15776,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InworldLipAnimation_OnAudioStarted_m5544
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AudioInteraction_tD65B5CB69F855F91B6793F8C291B8E3F71088FAC_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ConcurrentQueue_1_Enqueue_m4877C2E0193AE4B508D5E7A26F1CD9A7DA9A9412_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Enumerable_FirstOrDefault_TisPhonemeToViseme_t9845BE4D4DE0678FAD7C433D311A428F07654423_m26E037B7D56D1E7BF671C29A8ED4130E767F7341_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Func_2_t1D2F49BFB16A6248BC65555A6BFD451A7BF0D275_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&IDisposable_t030E0496B4E0E4E4F086825007979AF51F7248C5_il2cpp_TypeInfo_var);
@@ -15817,6 +15786,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InworldLipAnimation_OnAudioStarted_m5544
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RepeatedField_1_GetEnumerator_mCE688D1ACEF1933F87E2EB1DC5811E993B700B65_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass24_0_U3COnAudioStartedU3Eb__0_m8CFF6D2AB317E050F7B793398F2298AF5F19FE64_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&U3CU3Ec__DisplayClass24_0_tF8A795ABD874EF8CC705FED7A8D71230A2E91BEB_il2cpp_TypeInfo_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralAE4CDA08CD7E387697FC790BDB8C38AF1972DB25);
 		s_Il2CppMethodInitialized = true;
 	}
 	AudioInteraction_tD65B5CB69F855F91B6793F8C291B8E3F71088FAC* V_0 = NULL;
@@ -15831,7 +15801,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InworldLipAnimation_OnAudioStarted_m5544
 	{
 		// _Reset();
 		InworldLipAnimation__Reset_mDDE62E5830B100D0BC7AB4E2AE71B42D1F10C036(__this, NULL);
-		// if (!Character || Character.Interaction is not AudioInteraction audioInteraction)
+		// Debug.Log("Warning: The line below is only for Eva, change AudioInteractionEva to AudioInteraction for general");
+		il2cpp_codegen_runtime_class_init_inline(Debug_t8394C7EEAECA3689C2C9B9DE9C7166D73596276F_il2cpp_TypeInfo_var);
+		Debug_Log_m87A9A3C761FF5C43ED8A53B16190A53D08F818BB(_stringLiteralAE4CDA08CD7E387697FC790BDB8C38AF1972DB25, NULL);
+		// if (!Character || Character.Interaction is not AudioInteraction audioInteraction) {
 		InworldCharacter_t509CED20118BE41C6F78E1DF3D888B63ED9B1998* L_0;
 		L_0 = InworldLipAnimation_get_Character_mEC416B6B9C778C54122C529D570434E020A71D10_inline(__this, NULL);
 		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
@@ -15839,7 +15812,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InworldLipAnimation_OnAudioStarted_m5544
 		L_1 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_0, NULL);
 		if (!L_1)
 		{
-			goto IL_0027;
+			goto IL_0031;
 		}
 	}
 	{
@@ -15852,17 +15825,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void InworldLipAnimation_OnAudioStarted_m5544
 		AudioInteraction_tD65B5CB69F855F91B6793F8C291B8E3F71088FAC* L_4 = V_0;
 		if (L_4)
 		{
-			goto IL_0028;
+			goto IL_0032;
 		}
 	}
 
-IL_0027:
+IL_0031:
 	{
 		// return;
 		return;
 	}
 
-IL_0028:
+IL_0032:
 	{
 		// foreach (AdditionalPhonemeInfo phoneme in audioInteraction.CurrentChunk.PhonemeInfo)
 		AudioInteraction_tD65B5CB69F855F91B6793F8C291B8E3F71088FAC* L_5 = V_0;
@@ -15880,13 +15853,13 @@ IL_0028:
 		auto __finallyBlock = il2cpp::utils::Finally([&]
 		{
 
-FINALLY_00ac:
+FINALLY_00b6:
 			{// begin finally (depth: 1)
 				{
 					RuntimeObject* L_9 = V_1;
 					if (!L_9)
 					{
-						goto IL_00b5;
+						goto IL_00bf;
 					}
 				}
 				{
@@ -15895,7 +15868,7 @@ FINALLY_00ac:
 					InterfaceActionInvoker0::Invoke(0 /* System.Void System.IDisposable::Dispose() */, IDisposable_t030E0496B4E0E4E4F086825007979AF51F7248C5_il2cpp_TypeInfo_var, L_10);
 				}
 
-IL_00b5:
+IL_00bf:
 				{
 					return;
 				}
@@ -15904,10 +15877,10 @@ IL_00b5:
 		try
 		{// begin try (depth: 1)
 			{
-				goto IL_00a2_1;
+				goto IL_00ac_1;
 			}
 
-IL_003b_1:
+IL_0045_1:
 			{
 				U3CU3Ec__DisplayClass24_0_tF8A795ABD874EF8CC705FED7A8D71230A2E91BEB* L_11 = (U3CU3Ec__DisplayClass24_0_tF8A795ABD874EF8CC705FED7A8D71230A2E91BEB*)il2cpp_codegen_object_new(U3CU3Ec__DisplayClass24_0_tF8A795ABD874EF8CC705FED7A8D71230A2E91BEB_il2cpp_TypeInfo_var);
 				NullCheck(L_11);
@@ -15938,22 +15911,22 @@ IL_003b_1:
 				if (L_20)
 				{
 					G_B7_0 = L_20;
-					goto IL_0070_1;
+					goto IL_007a_1;
 				}
 			}
 			{
 				G_B8_0 = (-1);
-				goto IL_0075_1;
+				goto IL_007f_1;
 			}
 
-IL_0070_1:
+IL_007a_1:
 			{
 				NullCheck(G_B7_0);
 				int32_t L_21 = G_B7_0->___visemeIndex_1;
 				G_B8_0 = L_21;
 			}
 
-IL_0075_1:
+IL_007f_1:
 			{
 				V_3 = G_B8_0;
 				// m_VisemeMap.Enqueue(new Vector2(visemeIndex, (float)phoneme.StartOffset.ToTimeSpan().TotalSeconds));
@@ -15978,7 +15951,7 @@ IL_0075_1:
 				ConcurrentQueue_1_Enqueue_m4877C2E0193AE4B508D5E7A26F1CD9A7DA9A9412(L_22, L_29, ConcurrentQueue_1_Enqueue_m4877C2E0193AE4B508D5E7A26F1CD9A7DA9A9412_RuntimeMethod_var);
 			}
 
-IL_00a2_1:
+IL_00ac_1:
 			{
 				// foreach (AdditionalPhonemeInfo phoneme in audioInteraction.CurrentChunk.PhonemeInfo)
 				RuntimeObject* L_30 = V_1;
@@ -15987,11 +15960,11 @@ IL_00a2_1:
 				L_31 = InterfaceFuncInvoker0< bool >::Invoke(0 /* System.Boolean System.Collections.IEnumerator::MoveNext() */, IEnumerator_t7B609C2FFA6EB5167D9C62A0C32A21DE2F666DAA_il2cpp_TypeInfo_var, L_30);
 				if (L_31)
 				{
-					goto IL_003b_1;
+					goto IL_0045_1;
 				}
 			}
 			{
-				goto IL_00b6;
+				goto IL_00c0;
 			}
 		}// end try (depth: 1)
 		catch(Il2CppExceptionWrapper& e)
@@ -16000,7 +15973,7 @@ IL_00a2_1:
 		}
 	}
 
-IL_00b6:
+IL_00c0:
 	{
 		// }
 		return;
@@ -17855,1001 +17828,6 @@ IL_003a:
 }
 // System.Void Inworld.Audio.AudioInteraction::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioInteraction__ctor_mAD8B68D37061589B40E8556E022F1628E30F5480 (AudioInteraction_tD65B5CB69F855F91B6793F8C291B8E3F71088FAC* __this, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ConcurrentQueue_1__ctor_m29C29D08DDB5137A9D7B9F92D504E7A0276A9FA5_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ConcurrentQueue_1_tAF28985B68113E6BCA49CC82F67B715023CF9A8D_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		// readonly ConcurrentQueue<AudioChunk> m_AudioChunksQueue = new ConcurrentQueue<AudioChunk>();
-		ConcurrentQueue_1_tAF28985B68113E6BCA49CC82F67B715023CF9A8D* L_0 = (ConcurrentQueue_1_tAF28985B68113E6BCA49CC82F67B715023CF9A8D*)il2cpp_codegen_object_new(ConcurrentQueue_1_tAF28985B68113E6BCA49CC82F67B715023CF9A8D_il2cpp_TypeInfo_var);
-		NullCheck(L_0);
-		ConcurrentQueue_1__ctor_m29C29D08DDB5137A9D7B9F92D504E7A0276A9FA5(L_0, ConcurrentQueue_1__ctor_m29C29D08DDB5137A9D7B9F92D504E7A0276A9FA5_RuntimeMethod_var);
-		__this->___m_AudioChunksQueue_13 = L_0;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_AudioChunksQueue_13), (void*)L_0);
-		Interactions__ctor_m71C63E434F10D0D3A4170153A2C704EDF83368CE(__this, NULL);
-		return;
-	}
-}
-#ifdef __clang__
-#pragma clang diagnostic pop
-#endif
-#ifdef __clang__
-#pragma clang diagnostic push
-#pragma clang diagnostic ignored "-Winvalid-offsetof"
-#pragma clang diagnostic ignored "-Wunused-variable"
-#endif
-// System.Void Inworld.Audio.AudioInteractionEva::OnPacketEvents(Inworld.Packets.InworldPacket)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioInteractionEva_OnPacketEvents_mAA6092CB9F17ED7A3F72BB05F188A8034C6F88A5 (AudioInteractionEva_t86BF1BA7B24FB5F00EC4104B833966DF234B6E6D* __this, RuntimeObject* ___0_packet, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&AudioChunk_tDC8F6AA20CA1EF4C7B9F9BC5393BEC989AC3AAD2_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ConcurrentQueue_1_Enqueue_m5248385FD681C5B9CBDD93BC6C19658BF1BCC1F2_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&InworldPacket_t45B681E8445B876059C68CFD231FE8BFD6A741C5_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	AudioChunk_tDC8F6AA20CA1EF4C7B9F9BC5393BEC989AC3AAD2* V_0 = NULL;
-	{
-		// base.OnPacketEvents(packet);
-		RuntimeObject* L_0 = ___0_packet;
-		Interactions_OnPacketEvents_m58B0609F0355935F61CB9EEFF36505CF3F71DA92(__this, L_0, NULL);
-		// if (packet.Routing.Target.Id != Character.ID && packet.Routing.Source.Id != Character.ID)
-		RuntimeObject* L_1 = ___0_packet;
-		NullCheck(L_1);
-		Routing_t74C2E63E1AE273C756B7B3066AEC028D1F1C7AC5* L_2;
-		L_2 = InterfaceFuncInvoker0< Routing_t74C2E63E1AE273C756B7B3066AEC028D1F1C7AC5* >::Invoke(2 /* Inworld.Packets.Routing Inworld.Packets.InworldPacket::get_Routing() */, InworldPacket_t45B681E8445B876059C68CFD231FE8BFD6A741C5_il2cpp_TypeInfo_var, L_1);
-		NullCheck(L_2);
-		Actor_t56705A2F9C0555D1941FB4A200B29DED1CBFB931* L_3 = L_2->___Target_1;
-		NullCheck(L_3);
-		String_t* L_4 = L_3->___Id_1;
-		InworldCharacter_t509CED20118BE41C6F78E1DF3D888B63ED9B1998* L_5;
-		L_5 = Interactions_get_Character_m53BEB04723BDF760A97E95EA453B1072CCAABD3E_inline(__this, NULL);
-		NullCheck(L_5);
-		String_t* L_6;
-		L_6 = InworldCharacter_get_ID_mF92D1654FC469178978451419490F22EF78B961C(L_5, NULL);
-		bool L_7;
-		L_7 = String_op_Inequality_m8C940F3CFC42866709D7CA931B3D77B4BE94BCB6(L_4, L_6, NULL);
-		if (!L_7)
-		{
-			goto IL_004c;
-		}
-	}
-	{
-		RuntimeObject* L_8 = ___0_packet;
-		NullCheck(L_8);
-		Routing_t74C2E63E1AE273C756B7B3066AEC028D1F1C7AC5* L_9;
-		L_9 = InterfaceFuncInvoker0< Routing_t74C2E63E1AE273C756B7B3066AEC028D1F1C7AC5* >::Invoke(2 /* Inworld.Packets.Routing Inworld.Packets.InworldPacket::get_Routing() */, InworldPacket_t45B681E8445B876059C68CFD231FE8BFD6A741C5_il2cpp_TypeInfo_var, L_8);
-		NullCheck(L_9);
-		Actor_t56705A2F9C0555D1941FB4A200B29DED1CBFB931* L_10 = L_9->___Source_0;
-		NullCheck(L_10);
-		String_t* L_11 = L_10->___Id_1;
-		InworldCharacter_t509CED20118BE41C6F78E1DF3D888B63ED9B1998* L_12;
-		L_12 = Interactions_get_Character_m53BEB04723BDF760A97E95EA453B1072CCAABD3E_inline(__this, NULL);
-		NullCheck(L_12);
-		String_t* L_13;
-		L_13 = InworldCharacter_get_ID_mF92D1654FC469178978451419490F22EF78B961C(L_12, NULL);
-		bool L_14;
-		L_14 = String_op_Inequality_m8C940F3CFC42866709D7CA931B3D77B4BE94BCB6(L_11, L_13, NULL);
-		if (!L_14)
-		{
-			goto IL_004c;
-		}
-	}
-	{
-		// return;
-		return;
-	}
-
-IL_004c:
-	{
-		// if (packet is not AudioChunk audioChunk)
-		RuntimeObject* L_15 = ___0_packet;
-		V_0 = ((AudioChunk_tDC8F6AA20CA1EF4C7B9F9BC5393BEC989AC3AAD2*)IsInstClass((RuntimeObject*)L_15, AudioChunk_tDC8F6AA20CA1EF4C7B9F9BC5393BEC989AC3AAD2_il2cpp_TypeInfo_var));
-		AudioChunk_tDC8F6AA20CA1EF4C7B9F9BC5393BEC989AC3AAD2* L_16 = V_0;
-		if (L_16)
-		{
-			goto IL_0057;
-		}
-	}
-	{
-		// return;
-		return;
-	}
-
-IL_0057:
-	{
-		// m_AudioChunksQueue.Enqueue(audioChunk);
-		ConcurrentQueue_1_tAF28985B68113E6BCA49CC82F67B715023CF9A8D* L_17 = __this->___m_AudioChunksQueue_13;
-		AudioChunk_tDC8F6AA20CA1EF4C7B9F9BC5393BEC989AC3AAD2* L_18 = V_0;
-		NullCheck(L_17);
-		ConcurrentQueue_1_Enqueue_m5248385FD681C5B9CBDD93BC6C19658BF1BCC1F2(L_17, L_18, ConcurrentQueue_1_Enqueue_m5248385FD681C5B9CBDD93BC6C19658BF1BCC1F2_RuntimeMethod_var);
-		// }
-		return;
-	}
-}
-// System.Boolean Inworld.Audio.AudioInteractionEva::get_IsPlaying()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AudioInteractionEva_get_IsPlaying_m15701507FE5286B1EEA054CD53209C0EEA71C96C (AudioInteractionEva_t86BF1BA7B24FB5F00EC4104B833966DF234B6E6D* __this, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		// public bool IsPlaying => Character && Character.PlaybackSource != null && Character.PlaybackSource.isPlaying;
-		InworldCharacter_t509CED20118BE41C6F78E1DF3D888B63ED9B1998* L_0;
-		L_0 = Interactions_get_Character_m53BEB04723BDF760A97E95EA453B1072CCAABD3E_inline(__this, NULL);
-		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		bool L_1;
-		L_1 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_0, NULL);
-		if (!L_1)
-		{
-			goto IL_0031;
-		}
-	}
-	{
-		InworldCharacter_t509CED20118BE41C6F78E1DF3D888B63ED9B1998* L_2;
-		L_2 = Interactions_get_Character_m53BEB04723BDF760A97E95EA453B1072CCAABD3E_inline(__this, NULL);
-		NullCheck(L_2);
-		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_3;
-		L_3 = InworldCharacter_get_PlaybackSource_m47A5D415411218703C538AA40C8A988C457E3E5F_inline(L_2, NULL);
-		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		bool L_4;
-		L_4 = Object_op_Inequality_mD0BE578448EAA61948F25C32F8DD55AB1F778602(L_3, (Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C*)NULL, NULL);
-		if (!L_4)
-		{
-			goto IL_0031;
-		}
-	}
-	{
-		InworldCharacter_t509CED20118BE41C6F78E1DF3D888B63ED9B1998* L_5;
-		L_5 = Interactions_get_Character_m53BEB04723BDF760A97E95EA453B1072CCAABD3E_inline(__this, NULL);
-		NullCheck(L_5);
-		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_6;
-		L_6 = InworldCharacter_get_PlaybackSource_m47A5D415411218703C538AA40C8A988C457E3E5F_inline(L_5, NULL);
-		NullCheck(L_6);
-		bool L_7;
-		L_7 = AudioSource_get_isPlaying_mC203303F2F7146B2C056CB47B9391463FDF408FC(L_6, NULL);
-		return L_7;
-	}
-
-IL_0031:
-	{
-		return (bool)0;
-	}
-}
-// Inworld.Packets.AudioChunk Inworld.Audio.AudioInteractionEva::get_CurrentChunk()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR AudioChunk_tDC8F6AA20CA1EF4C7B9F9BC5393BEC989AC3AAD2* AudioInteractionEva_get_CurrentChunk_m120F448E1B6D2CF41CD289AAE156BD5EAD499E1E (AudioInteractionEva_t86BF1BA7B24FB5F00EC4104B833966DF234B6E6D* __this, const RuntimeMethod* method) 
-{
-	{
-		// public AudioChunk CurrentChunk => m_CurrentAudioChunk;
-		AudioChunk_tDC8F6AA20CA1EF4C7B9F9BC5393BEC989AC3AAD2* L_0 = __this->___m_CurrentAudioChunk_12;
-		return L_0;
-	}
-}
-// System.Void Inworld.Audio.AudioInteractionEva::Init()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioInteractionEva_Init_m30D43AAF1BCA40A9C65D6EA4A7D6D9D04FF50A89 (AudioInteractionEva_t86BF1BA7B24FB5F00EC4104B833966DF234B6E6D* __this, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponent_TisAudioSource_t871AC2272F896738252F04EE949AEF5B241D3299_m42DA4DEA19EB60D80CBED7413ADEB27FA033C77B_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityEvent_1__ctor_mD953C9C136471CD31D92C13F04EFA0B89856BAD0_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityEvent_1_t25B3B801ED4B61CBAF002BC0CB0C574733F84966_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	InworldCharacter_t509CED20118BE41C6F78E1DF3D888B63ED9B1998* V_0 = NULL;
-	AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* V_1 = NULL;
-	{
-		// base.Init();
-		Interactions_Init_mF00BF1CF256A75F0324D54959467752D3A7FDA31(__this, NULL);
-		// Character.PlaybackSource ??= GetComponent<AudioSource>();
-		InworldCharacter_t509CED20118BE41C6F78E1DF3D888B63ED9B1998* L_0;
-		L_0 = Interactions_get_Character_m53BEB04723BDF760A97E95EA453B1072CCAABD3E_inline(__this, NULL);
-		V_0 = L_0;
-		InworldCharacter_t509CED20118BE41C6F78E1DF3D888B63ED9B1998* L_1 = V_0;
-		NullCheck(L_1);
-		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_2;
-		L_2 = InworldCharacter_get_PlaybackSource_m47A5D415411218703C538AA40C8A988C457E3E5F_inline(L_1, NULL);
-		if (L_2)
-		{
-			goto IL_0023;
-		}
-	}
-	{
-		InworldCharacter_t509CED20118BE41C6F78E1DF3D888B63ED9B1998* L_3 = V_0;
-		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_4;
-		L_4 = Component_GetComponent_TisAudioSource_t871AC2272F896738252F04EE949AEF5B241D3299_m42DA4DEA19EB60D80CBED7413ADEB27FA033C77B(__this, Component_GetComponent_TisAudioSource_t871AC2272F896738252F04EE949AEF5B241D3299_m42DA4DEA19EB60D80CBED7413ADEB27FA033C77B_RuntimeMethod_var);
-		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_5 = L_4;
-		V_1 = L_5;
-		NullCheck(L_3);
-		InworldCharacter_set_PlaybackSource_m1349D37CDC28FB7785051D09446684FB022C5A3D_inline(L_3, L_5, NULL);
-	}
-
-IL_0023:
-	{
-		// Character.OnFinishedSpeaking ??= new UnityEvent();
-		InworldCharacter_t509CED20118BE41C6F78E1DF3D888B63ED9B1998* L_6;
-		L_6 = Interactions_get_Character_m53BEB04723BDF760A97E95EA453B1072CCAABD3E_inline(__this, NULL);
-		V_0 = L_6;
-		InworldCharacter_t509CED20118BE41C6F78E1DF3D888B63ED9B1998* L_7 = V_0;
-		NullCheck(L_7);
-		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_8 = L_7->___OnFinishedSpeaking_12;
-		if (L_8)
-		{
-			goto IL_003d;
-		}
-	}
-	{
-		InworldCharacter_t509CED20118BE41C6F78E1DF3D888B63ED9B1998* L_9 = V_0;
-		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_10 = (UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977*)il2cpp_codegen_object_new(UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977_il2cpp_TypeInfo_var);
-		NullCheck(L_10);
-		UnityEvent__ctor_m03D3E5121B9A6100351984D0CE3050B909CD3235(L_10, NULL);
-		NullCheck(L_9);
-		L_9->___OnFinishedSpeaking_12 = L_10;
-		Il2CppCodeGenWriteBarrier((void**)(&L_9->___OnFinishedSpeaking_12), (void*)L_10);
-	}
-
-IL_003d:
-	{
-		// Character.OnBeginSpeaking ??= new UnityEvent<PacketId>();
-		InworldCharacter_t509CED20118BE41C6F78E1DF3D888B63ED9B1998* L_11;
-		L_11 = Interactions_get_Character_m53BEB04723BDF760A97E95EA453B1072CCAABD3E_inline(__this, NULL);
-		V_0 = L_11;
-		InworldCharacter_t509CED20118BE41C6F78E1DF3D888B63ED9B1998* L_12 = V_0;
-		NullCheck(L_12);
-		UnityEvent_1_t25B3B801ED4B61CBAF002BC0CB0C574733F84966* L_13 = L_12->___OnBeginSpeaking_11;
-		if (L_13)
-		{
-			goto IL_0057;
-		}
-	}
-	{
-		InworldCharacter_t509CED20118BE41C6F78E1DF3D888B63ED9B1998* L_14 = V_0;
-		UnityEvent_1_t25B3B801ED4B61CBAF002BC0CB0C574733F84966* L_15 = (UnityEvent_1_t25B3B801ED4B61CBAF002BC0CB0C574733F84966*)il2cpp_codegen_object_new(UnityEvent_1_t25B3B801ED4B61CBAF002BC0CB0C574733F84966_il2cpp_TypeInfo_var);
-		NullCheck(L_15);
-		UnityEvent_1__ctor_mD953C9C136471CD31D92C13F04EFA0B89856BAD0(L_15, UnityEvent_1__ctor_mD953C9C136471CD31D92C13F04EFA0B89856BAD0_RuntimeMethod_var);
-		NullCheck(L_14);
-		L_14->___OnBeginSpeaking_11 = L_15;
-		Il2CppCodeGenWriteBarrier((void**)(&L_14->___OnBeginSpeaking_11), (void*)L_15);
-	}
-
-IL_0057:
-	{
-		// }
-		return;
-	}
-}
-// System.Void Inworld.Audio.AudioInteractionEva::Clear()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioInteractionEva_Clear_m5B167AD386B2EBD881FA6538CA701468256D78B3 (AudioInteractionEva_t86BF1BA7B24FB5F00EC4104B833966DF234B6E6D* __this, const RuntimeMethod* method) 
-{
-	{
-		// base.Clear();
-		Interactions_Clear_mF28326476A940EF928D089CB374B6BA4B7E7070D(__this, NULL);
-		// OnChatHistoryListChanged();
-		Interactions_OnChatHistoryListChanged_m019B8E925E6F62DC0FE4F569FA1CA1386B476E91(__this, NULL);
-		// }
-		return;
-	}
-}
-// System.Void Inworld.Audio.AudioInteractionEva::AddText(Inworld.Packets.TextEvent)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioInteractionEva_AddText_m6F3222EBBB15B462B914FBE1F84612B915922F95 (AudioInteractionEva_t86BF1BA7B24FB5F00EC4104B833966DF234B6E6D* __this, TextEvent_t02CEE86B22B67F0E5B544962C3685BF2E650338F* ___0_textEvent, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	CancelResponsesEvent_t8C5C2484966AEF59E079205C3FA10F0EDDD03C17* V_0 = NULL;
-	{
-		// CancelResponsesEvent cancel = _AddText(textEvent);
-		TextEvent_t02CEE86B22B67F0E5B544962C3685BF2E650338F* L_0 = ___0_textEvent;
-		CancelResponsesEvent_t8C5C2484966AEF59E079205C3FA10F0EDDD03C17* L_1;
-		L_1 = Interactions__AddText_m742ACC3D92A1549F8EF6E12B5064F8C76AD5B487(__this, L_0, NULL);
-		V_0 = L_1;
-		// if (cancel == null)
-		CancelResponsesEvent_t8C5C2484966AEF59E079205C3FA10F0EDDD03C17* L_2 = V_0;
-		if (L_2)
-		{
-			goto IL_000c;
-		}
-	}
-	{
-		// return;
-		return;
-	}
-
-IL_000c:
-	{
-		// if (m_CurrentlyPlayingUtterance != null &&
-		//     IsInteractionCanceled(m_CurrentlyPlayingUtterance.InteractionId))
-		PacketId_tAD5756242E8D2FF9B21AA3D990AF24E6E0872960* L_3 = __this->___m_CurrentlyPlayingUtterance_15;
-		if (!L_3)
-		{
-			goto IL_005d;
-		}
-	}
-	{
-		PacketId_tAD5756242E8D2FF9B21AA3D990AF24E6E0872960* L_4 = __this->___m_CurrentlyPlayingUtterance_15;
-		NullCheck(L_4);
-		String_t* L_5 = L_4->___InteractionId_2;
-		bool L_6;
-		L_6 = Interactions_IsInteractionCanceled_mDE19FCC5F2BEF4EFA157FF88C25A815023EC9560(__this, L_5, NULL);
-		if (!L_6)
-		{
-			goto IL_005d;
-		}
-	}
-	{
-		// if (Character && Character.PlaybackSource)
-		InworldCharacter_t509CED20118BE41C6F78E1DF3D888B63ED9B1998* L_7;
-		L_7 = Interactions_get_Character_m53BEB04723BDF760A97E95EA453B1072CCAABD3E_inline(__this, NULL);
-		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		bool L_8;
-		L_8 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_7, NULL);
-		if (!L_8)
-		{
-			goto IL_0056;
-		}
-	}
-	{
-		InworldCharacter_t509CED20118BE41C6F78E1DF3D888B63ED9B1998* L_9;
-		L_9 = Interactions_get_Character_m53BEB04723BDF760A97E95EA453B1072CCAABD3E_inline(__this, NULL);
-		NullCheck(L_9);
-		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_10;
-		L_10 = InworldCharacter_get_PlaybackSource_m47A5D415411218703C538AA40C8A988C457E3E5F_inline(L_9, NULL);
-		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		bool L_11;
-		L_11 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_10, NULL);
-		if (!L_11)
-		{
-			goto IL_0056;
-		}
-	}
-	{
-		// Character.PlaybackSource.Stop();
-		InworldCharacter_t509CED20118BE41C6F78E1DF3D888B63ED9B1998* L_12;
-		L_12 = Interactions_get_Character_m53BEB04723BDF760A97E95EA453B1072CCAABD3E_inline(__this, NULL);
-		NullCheck(L_12);
-		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_13;
-		L_13 = InworldCharacter_get_PlaybackSource_m47A5D415411218703C538AA40C8A988C457E3E5F_inline(L_12, NULL);
-		NullCheck(L_13);
-		AudioSource_Stop_m318F17F17A147C77FF6E0A5A7A6BE057DB90F537(L_13, NULL);
-	}
-
-IL_0056:
-	{
-		// m_CurrentlyPlayingUtterance = null;
-		__this->___m_CurrentlyPlayingUtterance_15 = (PacketId_tAD5756242E8D2FF9B21AA3D990AF24E6E0872960*)NULL;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_CurrentlyPlayingUtterance_15), (void*)(PacketId_tAD5756242E8D2FF9B21AA3D990AF24E6E0872960*)NULL);
-	}
-
-IL_005d:
-	{
-		// Character.SendEventToAgent(cancel);
-		InworldCharacter_t509CED20118BE41C6F78E1DF3D888B63ED9B1998* L_14;
-		L_14 = Interactions_get_Character_m53BEB04723BDF760A97E95EA453B1072CCAABD3E_inline(__this, NULL);
-		CancelResponsesEvent_t8C5C2484966AEF59E079205C3FA10F0EDDD03C17* L_15 = V_0;
-		NullCheck(L_14);
-		InworldCharacter_SendEventToAgent_mC7824AD18CDB147339248D6194F2A6250D07DF7D(L_14, L_15, NULL);
-		// }
-		return;
-	}
-}
-// System.Void Inworld.Audio.AudioInteractionEva::Awake()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioInteractionEva_Awake_mA943D4AD17A6F9349DA2CF4A9D4C57D995A6B1B5 (AudioInteractionEva_t86BF1BA7B24FB5F00EC4104B833966DF234B6E6D* __this, const RuntimeMethod* method) 
-{
-	{
-		// Init();
-		VirtualActionInvoker0::Invoke(4 /* System.Void Inworld.Interactions::Init() */, __this);
-		// }
-		return;
-	}
-}
-// System.Void Inworld.Audio.AudioInteractionEva::OnEnable()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioInteractionEva_OnEnable_m441FE0725732CC32840EFB98EF8EE4888FA92FDE (AudioInteractionEva_t86BF1BA7B24FB5F00EC4104B833966DF234B6E6D* __this, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_1_tC1FA83F2837D503290115D57198A20DD3EEB4BB0_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SingletonBehavior_1_get_Instance_mBC6911213CC704C71D61D02EB98326B4CD931289_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		// InworldController.Instance.OnPacketReceived += OnPacketEvents;
-		InworldController_tC9E547CF1516C9DDBFF8F5159A40386ED164B89D* L_0;
-		L_0 = SingletonBehavior_1_get_Instance_mBC6911213CC704C71D61D02EB98326B4CD931289(SingletonBehavior_1_get_Instance_mBC6911213CC704C71D61D02EB98326B4CD931289_RuntimeMethod_var);
-		Action_1_tC1FA83F2837D503290115D57198A20DD3EEB4BB0* L_1 = (Action_1_tC1FA83F2837D503290115D57198A20DD3EEB4BB0*)il2cpp_codegen_object_new(Action_1_tC1FA83F2837D503290115D57198A20DD3EEB4BB0_il2cpp_TypeInfo_var);
-		NullCheck(L_1);
-		Action_1__ctor_m8065905BB6078DDDAC625E59F58E877335AB0C99(L_1, __this, (intptr_t)((void*)GetVirtualMethodInfo(__this, 5)), NULL);
-		NullCheck(L_0);
-		InworldController_add_OnPacketReceived_mC2ED004E8277A10D20083CB291F5CBC47D0CEFF2(L_0, L_1, NULL);
-		// if (Character && Character.PlaybackSource)
-		InworldCharacter_t509CED20118BE41C6F78E1DF3D888B63ED9B1998* L_2;
-		L_2 = Interactions_get_Character_m53BEB04723BDF760A97E95EA453B1072CCAABD3E_inline(__this, NULL);
-		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		bool L_3;
-		L_3 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_2, NULL);
-		if (!L_3)
-		{
-			goto IL_0046;
-		}
-	}
-	{
-		InworldCharacter_t509CED20118BE41C6F78E1DF3D888B63ED9B1998* L_4;
-		L_4 = Interactions_get_Character_m53BEB04723BDF760A97E95EA453B1072CCAABD3E_inline(__this, NULL);
-		NullCheck(L_4);
-		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_5;
-		L_5 = InworldCharacter_get_PlaybackSource_m47A5D415411218703C538AA40C8A988C457E3E5F_inline(L_4, NULL);
-		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		bool L_6;
-		L_6 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_5, NULL);
-		if (!L_6)
-		{
-			goto IL_0046;
-		}
-	}
-	{
-		// Character.PlaybackSource.Stop();
-		InworldCharacter_t509CED20118BE41C6F78E1DF3D888B63ED9B1998* L_7;
-		L_7 = Interactions_get_Character_m53BEB04723BDF760A97E95EA453B1072CCAABD3E_inline(__this, NULL);
-		NullCheck(L_7);
-		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_8;
-		L_8 = InworldCharacter_get_PlaybackSource_m47A5D415411218703C538AA40C8A988C457E3E5F_inline(L_7, NULL);
-		NullCheck(L_8);
-		AudioSource_Stop_m318F17F17A147C77FF6E0A5A7A6BE057DB90F537(L_8, NULL);
-	}
-
-IL_0046:
-	{
-		// }
-		return;
-	}
-}
-// System.Void Inworld.Audio.AudioInteractionEva::Update()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioInteractionEva_Update_m966FD4FAF835FF3725BEEC4DAB1231896E1A9389 (AudioInteractionEva_t86BF1BA7B24FB5F00EC4104B833966DF234B6E6D* __this, const RuntimeMethod* method) 
-{
-	{
-		// _TimerCountDown();
-		AudioInteractionEva__TimerCountDown_m966CF0E67B589A4343D5B3D62FF72DF50177D893(__this, NULL);
-		// _TryGetAudio();
-		AudioInteractionEva__TryGetAudio_m3648116B73FE21CE96E0297599B4220840868AF1(__this, NULL);
-		// }
-		return;
-	}
-}
-// System.Void Inworld.Audio.AudioInteractionEva::OnDisable()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioInteractionEva_OnDisable_mA213E977FEBB589145784B2B663433CDA5711948 (AudioInteractionEva_t86BF1BA7B24FB5F00EC4104B833966DF234B6E6D* __this, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Action_1_tC1FA83F2837D503290115D57198A20DD3EEB4BB0_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SingletonBehavior_1_get_Instance_mBC6911213CC704C71D61D02EB98326B4CD931289_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		// if (InworldController.Instance)
-		InworldController_tC9E547CF1516C9DDBFF8F5159A40386ED164B89D* L_0;
-		L_0 = SingletonBehavior_1_get_Instance_mBC6911213CC704C71D61D02EB98326B4CD931289(SingletonBehavior_1_get_Instance_mBC6911213CC704C71D61D02EB98326B4CD931289_RuntimeMethod_var);
-		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		bool L_1;
-		L_1 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_0, NULL);
-		if (!L_1)
-		{
-			goto IL_0023;
-		}
-	}
-	{
-		// InworldController.Instance.OnPacketReceived -= OnPacketEvents;
-		InworldController_tC9E547CF1516C9DDBFF8F5159A40386ED164B89D* L_2;
-		L_2 = SingletonBehavior_1_get_Instance_mBC6911213CC704C71D61D02EB98326B4CD931289(SingletonBehavior_1_get_Instance_mBC6911213CC704C71D61D02EB98326B4CD931289_RuntimeMethod_var);
-		Action_1_tC1FA83F2837D503290115D57198A20DD3EEB4BB0* L_3 = (Action_1_tC1FA83F2837D503290115D57198A20DD3EEB4BB0*)il2cpp_codegen_object_new(Action_1_tC1FA83F2837D503290115D57198A20DD3EEB4BB0_il2cpp_TypeInfo_var);
-		NullCheck(L_3);
-		Action_1__ctor_m8065905BB6078DDDAC625E59F58E877335AB0C99(L_3, __this, (intptr_t)((void*)GetVirtualMethodInfo(__this, 5)), NULL);
-		NullCheck(L_2);
-		InworldController_remove_OnPacketReceived_m0FA02B2F94F1DE87C9D2D18E523E1768E5BAA20D(L_2, L_3, NULL);
-	}
-
-IL_0023:
-	{
-		// }
-		return;
-	}
-}
-// System.Single Inworld.Audio.AudioInteractionEva::get__CurrentAudioLength()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float AudioInteractionEva_get__CurrentAudioLength_m711A50C71D1ADF7A1E898538BF7560FD50C831E9 (AudioInteractionEva_t86BF1BA7B24FB5F00EC4104B833966DF234B6E6D* __this, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		// get => Character ? Character.CurrentAudioRemainingTime : 0f;
-		InworldCharacter_t509CED20118BE41C6F78E1DF3D888B63ED9B1998* L_0;
-		L_0 = Interactions_get_Character_m53BEB04723BDF760A97E95EA453B1072CCAABD3E_inline(__this, NULL);
-		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		bool L_1;
-		L_1 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_0, NULL);
-		if (L_1)
-		{
-			goto IL_0013;
-		}
-	}
-	{
-		return (0.0f);
-	}
-
-IL_0013:
-	{
-		InworldCharacter_t509CED20118BE41C6F78E1DF3D888B63ED9B1998* L_2;
-		L_2 = Interactions_get_Character_m53BEB04723BDF760A97E95EA453B1072CCAABD3E_inline(__this, NULL);
-		NullCheck(L_2);
-		float L_3;
-		L_3 = InworldCharacter_get_CurrentAudioRemainingTime_mCC63E9129CAD283CCF8D7D76DFA65F33D9577EC7_inline(L_2, NULL);
-		return L_3;
-	}
-}
-// System.Void Inworld.Audio.AudioInteractionEva::set__CurrentAudioLength(System.Single)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioInteractionEva_set__CurrentAudioLength_mE98A5043C51FDBAF55DCE460B29C9E6A6F346B86 (AudioInteractionEva_t86BF1BA7B24FB5F00EC4104B833966DF234B6E6D* __this, float ___0_value, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	{
-		// if (!Character)
-		InworldCharacter_t509CED20118BE41C6F78E1DF3D888B63ED9B1998* L_0;
-		L_0 = Interactions_get_Character_m53BEB04723BDF760A97E95EA453B1072CCAABD3E_inline(__this, NULL);
-		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		bool L_1;
-		L_1 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_0, NULL);
-		if (L_1)
-		{
-			goto IL_000e;
-		}
-	}
-	{
-		// return;
-		return;
-	}
-
-IL_000e:
-	{
-		// Character.CurrentAudioRemainingTime = value;
-		InworldCharacter_t509CED20118BE41C6F78E1DF3D888B63ED9B1998* L_2;
-		L_2 = Interactions_get_Character_m53BEB04723BDF760A97E95EA453B1072CCAABD3E_inline(__this, NULL);
-		float L_3 = ___0_value;
-		NullCheck(L_2);
-		InworldCharacter_set_CurrentAudioRemainingTime_m82438606C1655FFEDAD209CBCE9EB7F10C6289C2_inline(L_2, L_3, NULL);
-		// }
-		return;
-	}
-}
-// System.Void Inworld.Audio.AudioInteractionEva::_TimerCountDown()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioInteractionEva__TimerCountDown_m966CF0E67B589A4343D5B3D62FF72DF50177D893 (AudioInteractionEva_t86BF1BA7B24FB5F00EC4104B833966DF234B6E6D* __this, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SingletonBehavior_1_get_Instance_mBC6911213CC704C71D61D02EB98326B4CD931289_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* G_B9_0 = NULL;
-	UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* G_B8_0 = NULL;
-	{
-		// if (_CurrentAudioLength <= 0)
-		float L_0;
-		L_0 = AudioInteractionEva_get__CurrentAudioLength_m711A50C71D1ADF7A1E898538BF7560FD50C831E9(__this, NULL);
-		if ((!(((float)L_0) <= ((float)(0.0f)))))
-		{
-			goto IL_000e;
-		}
-	}
-	{
-		// return;
-		return;
-	}
-
-IL_000e:
-	{
-		// _CurrentAudioLength -= Time.deltaTime;
-		float L_1;
-		L_1 = AudioInteractionEva_get__CurrentAudioLength_m711A50C71D1ADF7A1E898538BF7560FD50C831E9(__this, NULL);
-		float L_2;
-		L_2 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
-		AudioInteractionEva_set__CurrentAudioLength_mE98A5043C51FDBAF55DCE460B29C9E6A6F346B86(__this, ((float)il2cpp_codegen_subtract(L_1, L_2)), NULL);
-		// if (_CurrentAudioLength > 0)
-		float L_3;
-		L_3 = AudioInteractionEva_get__CurrentAudioLength_m711A50C71D1ADF7A1E898538BF7560FD50C831E9(__this, NULL);
-		if ((!(((float)L_3) > ((float)(0.0f)))))
-		{
-			goto IL_002e;
-		}
-	}
-	{
-		// return;
-		return;
-	}
-
-IL_002e:
-	{
-		// _CurrentAudioLength = 0;
-		AudioInteractionEva_set__CurrentAudioLength_mE98A5043C51FDBAF55DCE460B29C9E6A6F346B86(__this, (0.0f), NULL);
-		// if (m_CurrentlyPlayingUtterance != null)
-		PacketId_tAD5756242E8D2FF9B21AA3D990AF24E6E0872960* L_4 = __this->___m_CurrentlyPlayingUtterance_15;
-		if (!L_4)
-		{
-			goto IL_004d;
-		}
-	}
-	{
-		// CompleteUtterance(m_CurrentlyPlayingUtterance);
-		PacketId_tAD5756242E8D2FF9B21AA3D990AF24E6E0872960* L_5 = __this->___m_CurrentlyPlayingUtterance_15;
-		Interactions_CompleteUtterance_mCC4FF53FCD25EF55877A58A489A2F4BA79449A25(__this, L_5, NULL);
-	}
-
-IL_004d:
-	{
-		// m_CurrentlyPlayingUtterance = null;
-		__this->___m_CurrentlyPlayingUtterance_15 = (PacketId_tAD5756242E8D2FF9B21AA3D990AF24E6E0872960*)NULL;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_CurrentlyPlayingUtterance_15), (void*)(PacketId_tAD5756242E8D2FF9B21AA3D990AF24E6E0872960*)NULL);
-		// InworldController.Instance.TTSEnd(Character.ID);
-		InworldController_tC9E547CF1516C9DDBFF8F5159A40386ED164B89D* L_6;
-		L_6 = SingletonBehavior_1_get_Instance_mBC6911213CC704C71D61D02EB98326B4CD931289(SingletonBehavior_1_get_Instance_mBC6911213CC704C71D61D02EB98326B4CD931289_RuntimeMethod_var);
-		InworldCharacter_t509CED20118BE41C6F78E1DF3D888B63ED9B1998* L_7;
-		L_7 = Interactions_get_Character_m53BEB04723BDF760A97E95EA453B1072CCAABD3E_inline(__this, NULL);
-		NullCheck(L_7);
-		String_t* L_8;
-		L_8 = InworldCharacter_get_ID_mF92D1654FC469178978451419490F22EF78B961C(L_7, NULL);
-		NullCheck(L_6);
-		InworldController_TTSEnd_mE017532778F05A3F0DFA9CD0931820AE8A346D70(L_6, L_8, NULL);
-		// if (Character)
-		InworldCharacter_t509CED20118BE41C6F78E1DF3D888B63ED9B1998* L_9;
-		L_9 = Interactions_get_Character_m53BEB04723BDF760A97E95EA453B1072CCAABD3E_inline(__this, NULL);
-		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		bool L_10;
-		L_10 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_9, NULL);
-		if (!L_10)
-		{
-			goto IL_008b;
-		}
-	}
-	{
-		// Character.OnFinishedSpeaking?.Invoke();
-		InworldCharacter_t509CED20118BE41C6F78E1DF3D888B63ED9B1998* L_11;
-		L_11 = Interactions_get_Character_m53BEB04723BDF760A97E95EA453B1072CCAABD3E_inline(__this, NULL);
-		NullCheck(L_11);
-		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_12 = L_11->___OnFinishedSpeaking_12;
-		UnityEvent_tDC2C3548799DBC91D1E3F3DE60083A66F4751977* L_13 = L_12;
-		G_B8_0 = L_13;
-		if (L_13)
-		{
-			G_B9_0 = L_13;
-			goto IL_0086;
-		}
-	}
-	{
-		return;
-	}
-
-IL_0086:
-	{
-		NullCheck(G_B9_0);
-		UnityEvent_Invoke_mFBF80D59B03C30C5FE6A06F897D954ACADE061D2(G_B9_0, NULL);
-	}
-
-IL_008b:
-	{
-		// }
-		return;
-	}
-}
-// System.Void Inworld.Audio.AudioInteractionEva::_TryGetAudio()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioInteractionEva__TryGetAudio_m3648116B73FE21CE96E0297599B4220840868AF1 (AudioInteractionEva_t86BF1BA7B24FB5F00EC4104B833966DF234B6E6D* __this, const RuntimeMethod* method) 
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ConcurrentQueue_1_TryDequeue_m88FE403023E8CDF35C5CFFECA290AC14B0A528A6_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&SingletonBehavior_1_get_Instance_mBC6911213CC704C71D61D02EB98326B4CD931289_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UnityEvent_1_Invoke_m024CDF0B9D64C19E52C72DA4DBC1D35D3A186566_RuntimeMethod_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralB7AD3BE74803C14B2CB5D2C17486D5F2138FDE60);
-		s_Il2CppMethodInitialized = true;
-	}
-	AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* V_0 = NULL;
-	UnityEvent_1_t25B3B801ED4B61CBAF002BC0CB0C574733F84966* G_B13_0 = NULL;
-	UnityEvent_1_t25B3B801ED4B61CBAF002BC0CB0C574733F84966* G_B12_0 = NULL;
-	{
-		// m_CurrentFixedUpdateTime += Time.deltaTime;
-		float L_0 = __this->___m_CurrentFixedUpdateTime_11;
-		float L_1;
-		L_1 = Time_get_deltaTime_mC3195000401F0FD167DD2F948FD2BC58330D0865(NULL);
-		__this->___m_CurrentFixedUpdateTime_11 = ((float)il2cpp_codegen_add(L_0, L_1));
-		// if (m_CurrentFixedUpdateTime <= k_FixedUpdatePeriod)
-		float L_2 = __this->___m_CurrentFixedUpdateTime_11;
-		if ((!(((float)L_2) <= ((float)(0.100000001f)))))
-		{
-			goto IL_0020;
-		}
-	}
-	{
-		// return;
-		return;
-	}
-
-IL_0020:
-	{
-		// m_CurrentFixedUpdateTime = 0f;
-		__this->___m_CurrentFixedUpdateTime_11 = (0.0f);
-		// if (IsPlaying || !m_AudioChunksQueue.TryDequeue(out m_CurrentAudioChunk) || !IsAudioChunkAvailable(m_CurrentAudioChunk.PacketId))
-		bool L_3;
-		L_3 = AudioInteractionEva_get_IsPlaying_m15701507FE5286B1EEA054CD53209C0EEA71C96C(__this, NULL);
-		if (L_3)
-		{
-			goto IL_0059;
-		}
-	}
-	{
-		ConcurrentQueue_1_tAF28985B68113E6BCA49CC82F67B715023CF9A8D* L_4 = __this->___m_AudioChunksQueue_13;
-		AudioChunk_tDC8F6AA20CA1EF4C7B9F9BC5393BEC989AC3AAD2** L_5 = (&__this->___m_CurrentAudioChunk_12);
-		NullCheck(L_4);
-		bool L_6;
-		L_6 = ConcurrentQueue_1_TryDequeue_m88FE403023E8CDF35C5CFFECA290AC14B0A528A6(L_4, L_5, ConcurrentQueue_1_TryDequeue_m88FE403023E8CDF35C5CFFECA290AC14B0A528A6_RuntimeMethod_var);
-		if (!L_6)
-		{
-			goto IL_0059;
-		}
-	}
-	{
-		AudioChunk_tDC8F6AA20CA1EF4C7B9F9BC5393BEC989AC3AAD2* L_7 = __this->___m_CurrentAudioChunk_12;
-		NullCheck(L_7);
-		PacketId_tAD5756242E8D2FF9B21AA3D990AF24E6E0872960* L_8;
-		L_8 = AudioChunk_get_PacketId_m442CFF991A1DD7CD5EAB6BEA0CF3E819E7356821_inline(L_7, NULL);
-		bool L_9;
-		L_9 = AudioInteractionEva_IsAudioChunkAvailable_mB8EE22092BAFCC4F995820434D4156F3AC8FA315(__this, L_8, NULL);
-		if (L_9)
-		{
-			goto IL_005a;
-		}
-	}
-
-IL_0059:
-	{
-		// return;
-		return;
-	}
-
-IL_005a:
-	{
-		// AudioClip audioClip = WavUtility.ToAudioClip(m_CurrentAudioChunk.Chunk.ToByteArray());
-		AudioChunk_tDC8F6AA20CA1EF4C7B9F9BC5393BEC989AC3AAD2* L_10 = __this->___m_CurrentAudioChunk_12;
-		NullCheck(L_10);
-		ByteString_t8A201B9CD5DEB1EDE24A5A988934C6A340761592* L_11 = L_10->___Chunk_3;
-		NullCheck(L_11);
-		ByteU5BU5D_tA6237BF417AE52AD70CFB4EF24A7A82613DF9031* L_12;
-		L_12 = ByteString_ToByteArray_m61BB200822F1CA11CD0325403733B5FA472CE145(L_11, NULL);
-		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_13;
-		L_13 = WavUtility_ToAudioClip_mDE73B4968942F37C83237504DF2235FDF682DF7A(L_12, 0, _stringLiteralB7AD3BE74803C14B2CB5D2C17486D5F2138FDE60, NULL);
-		V_0 = L_13;
-		// if (audioClip)
-		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_14 = V_0;
-		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		bool L_15;
-		L_15 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_14, NULL);
-		if (!L_15)
-		{
-			goto IL_00bf;
-		}
-	}
-	{
-		// _CurrentAudioLength = audioClip.length;
-		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_16 = V_0;
-		NullCheck(L_16);
-		float L_17;
-		L_17 = AudioClip_get_length_m6102CB29AF65988797452E4D6E43D4788303873D(L_16, NULL);
-		AudioInteractionEva_set__CurrentAudioLength_mE98A5043C51FDBAF55DCE460B29C9E6A6F346B86(__this, L_17, NULL);
-		// if (Character && Character.PlaybackSource)
-		InworldCharacter_t509CED20118BE41C6F78E1DF3D888B63ED9B1998* L_18;
-		L_18 = Interactions_get_Character_m53BEB04723BDF760A97E95EA453B1072CCAABD3E_inline(__this, NULL);
-		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		bool L_19;
-		L_19 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_18, NULL);
-		if (!L_19)
-		{
-			goto IL_00bf;
-		}
-	}
-	{
-		InworldCharacter_t509CED20118BE41C6F78E1DF3D888B63ED9B1998* L_20;
-		L_20 = Interactions_get_Character_m53BEB04723BDF760A97E95EA453B1072CCAABD3E_inline(__this, NULL);
-		NullCheck(L_20);
-		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_21;
-		L_21 = InworldCharacter_get_PlaybackSource_m47A5D415411218703C538AA40C8A988C457E3E5F_inline(L_20, NULL);
-		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		bool L_22;
-		L_22 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_21, NULL);
-		if (!L_22)
-		{
-			goto IL_00bf;
-		}
-	}
-	{
-		// Character.PlaybackSource.PlayOneShot(audioClip, 1f);
-		InworldCharacter_t509CED20118BE41C6F78E1DF3D888B63ED9B1998* L_23;
-		L_23 = Interactions_get_Character_m53BEB04723BDF760A97E95EA453B1072CCAABD3E_inline(__this, NULL);
-		NullCheck(L_23);
-		AudioSource_t871AC2272F896738252F04EE949AEF5B241D3299* L_24;
-		L_24 = InworldCharacter_get_PlaybackSource_m47A5D415411218703C538AA40C8A988C457E3E5F_inline(L_23, NULL);
-		AudioClip_t5D272C4EB4F2D3ED49F1C346DEA373CF6D585F20* L_25 = V_0;
-		NullCheck(L_24);
-		AudioSource_PlayOneShot_mF6FE95C58996B38EF6E7F7482F95F5E15E0AB30B(L_24, L_25, (1.0f), NULL);
-	}
-
-IL_00bf:
-	{
-		// StartUtterance(m_CurrentAudioChunk.PacketId);
-		AudioChunk_tDC8F6AA20CA1EF4C7B9F9BC5393BEC989AC3AAD2* L_26 = __this->___m_CurrentAudioChunk_12;
-		NullCheck(L_26);
-		PacketId_tAD5756242E8D2FF9B21AA3D990AF24E6E0872960* L_27;
-		L_27 = AudioChunk_get_PacketId_m442CFF991A1DD7CD5EAB6BEA0CF3E819E7356821_inline(L_26, NULL);
-		Interactions_StartUtterance_m294BEBB3E083793E2B4244D81FBFA899749A85B9(__this, L_27, NULL);
-		// InworldController.Instance.TTSStart(Character.ID);
-		InworldController_tC9E547CF1516C9DDBFF8F5159A40386ED164B89D* L_28;
-		L_28 = SingletonBehavior_1_get_Instance_mBC6911213CC704C71D61D02EB98326B4CD931289(SingletonBehavior_1_get_Instance_mBC6911213CC704C71D61D02EB98326B4CD931289_RuntimeMethod_var);
-		InworldCharacter_t509CED20118BE41C6F78E1DF3D888B63ED9B1998* L_29;
-		L_29 = Interactions_get_Character_m53BEB04723BDF760A97E95EA453B1072CCAABD3E_inline(__this, NULL);
-		NullCheck(L_29);
-		String_t* L_30;
-		L_30 = InworldCharacter_get_ID_mF92D1654FC469178978451419490F22EF78B961C(L_29, NULL);
-		NullCheck(L_28);
-		InworldController_TTSStart_m57B61889B041EF5466C7E415AF2D02EF2BFE5260(L_28, L_30, NULL);
-		// if (Character)
-		InworldCharacter_t509CED20118BE41C6F78E1DF3D888B63ED9B1998* L_31;
-		L_31 = Interactions_get_Character_m53BEB04723BDF760A97E95EA453B1072CCAABD3E_inline(__this, NULL);
-		il2cpp_codegen_runtime_class_init_inline(Object_tC12DECB6760A7F2CBF65D9DCF18D044C2D97152C_il2cpp_TypeInfo_var);
-		bool L_32;
-		L_32 = Object_op_Implicit_m93896EF7D68FA113C42D3FE2BC6F661FC7EF514A(L_31, NULL);
-		if (!L_32)
-		{
-			goto IL_0112;
-		}
-	}
-	{
-		// Character.OnBeginSpeaking?.Invoke(m_CurrentAudioChunk.PacketId);
-		InworldCharacter_t509CED20118BE41C6F78E1DF3D888B63ED9B1998* L_33;
-		L_33 = Interactions_get_Character_m53BEB04723BDF760A97E95EA453B1072CCAABD3E_inline(__this, NULL);
-		NullCheck(L_33);
-		UnityEvent_1_t25B3B801ED4B61CBAF002BC0CB0C574733F84966* L_34 = L_33->___OnBeginSpeaking_11;
-		UnityEvent_1_t25B3B801ED4B61CBAF002BC0CB0C574733F84966* L_35 = L_34;
-		G_B12_0 = L_35;
-		if (L_35)
-		{
-			G_B13_0 = L_35;
-			goto IL_0102;
-		}
-	}
-	{
-		return;
-	}
-
-IL_0102:
-	{
-		AudioChunk_tDC8F6AA20CA1EF4C7B9F9BC5393BEC989AC3AAD2* L_36 = __this->___m_CurrentAudioChunk_12;
-		NullCheck(L_36);
-		PacketId_tAD5756242E8D2FF9B21AA3D990AF24E6E0872960* L_37;
-		L_37 = AudioChunk_get_PacketId_m442CFF991A1DD7CD5EAB6BEA0CF3E819E7356821_inline(L_36, NULL);
-		NullCheck(G_B13_0);
-		UnityEvent_1_Invoke_m024CDF0B9D64C19E52C72DA4DBC1D35D3A186566(G_B13_0, L_37, UnityEvent_1_Invoke_m024CDF0B9D64C19E52C72DA4DBC1D35D3A186566_RuntimeMethod_var);
-	}
-
-IL_0112:
-	{
-		// }
-		return;
-	}
-}
-// System.Boolean Inworld.Audio.AudioInteractionEva::IsAudioChunkAvailable(Inworld.Packets.PacketId)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool AudioInteractionEva_IsAudioChunkAvailable_mB8EE22092BAFCC4F995820434D4156F3AC8FA315 (AudioInteractionEva_t86BF1BA7B24FB5F00EC4104B833966DF234B6E6D* __this, PacketId_tAD5756242E8D2FF9B21AA3D990AF24E6E0872960* ___0_packetID, const RuntimeMethod* method) 
-{
-	String_t* V_0 = NULL;
-	String_t* G_B3_0 = NULL;
-	{
-		// string interactionID = packetID?.InteractionId;
-		PacketId_tAD5756242E8D2FF9B21AA3D990AF24E6E0872960* L_0 = ___0_packetID;
-		if (L_0)
-		{
-			goto IL_0006;
-		}
-	}
-	{
-		G_B3_0 = ((String_t*)(NULL));
-		goto IL_000c;
-	}
-
-IL_0006:
-	{
-		PacketId_tAD5756242E8D2FF9B21AA3D990AF24E6E0872960* L_1 = ___0_packetID;
-		NullCheck(L_1);
-		String_t* L_2 = L_1->___InteractionId_2;
-		G_B3_0 = L_2;
-	}
-
-IL_000c:
-	{
-		V_0 = G_B3_0;
-		// if (IsInteractionCanceled(interactionID))
-		String_t* L_3 = V_0;
-		bool L_4;
-		L_4 = Interactions_IsInteractionCanceled_mDE19FCC5F2BEF4EFA157FF88C25A815023EC9560(__this, L_3, NULL);
-		if (!L_4)
-		{
-			goto IL_0018;
-		}
-	}
-	{
-		// return false;
-		return (bool)0;
-	}
-
-IL_0018:
-	{
-		// if (m_LastInteraction != null && m_LastInteraction != interactionID)
-		String_t* L_5 = __this->___m_LastInteraction_16;
-		if (!L_5)
-		{
-			goto IL_003a;
-		}
-	}
-	{
-		String_t* L_6 = __this->___m_LastInteraction_16;
-		String_t* L_7 = V_0;
-		bool L_8;
-		L_8 = String_op_Inequality_m8C940F3CFC42866709D7CA931B3D77B4BE94BCB6(L_6, L_7, NULL);
-		if (!L_8)
-		{
-			goto IL_003a;
-		}
-	}
-	{
-		// CompleteInteraction(m_LastInteraction);
-		String_t* L_9 = __this->___m_LastInteraction_16;
-		Interactions_CompleteInteraction_m3406EFE95C960C8CBE65FC6C560064766ECA8433(__this, L_9, NULL);
-	}
-
-IL_003a:
-	{
-		// m_LastInteraction = interactionID;
-		String_t* L_10 = V_0;
-		__this->___m_LastInteraction_16 = L_10;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_LastInteraction_16), (void*)L_10);
-		// m_CurrentlyPlayingUtterance = packetID;
-		PacketId_tAD5756242E8D2FF9B21AA3D990AF24E6E0872960* L_11 = ___0_packetID;
-		__this->___m_CurrentlyPlayingUtterance_15 = L_11;
-		Il2CppCodeGenWriteBarrier((void**)(&__this->___m_CurrentlyPlayingUtterance_15), (void*)L_11);
-		// return true;
-		return (bool)1;
-	}
-}
-// System.Void Inworld.Audio.AudioInteractionEva::.ctor()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AudioInteractionEva__ctor_mE2B1642C04F2F915F02105EB5FBFEC54DC45B7B1 (AudioInteractionEva_t86BF1BA7B24FB5F00EC4104B833966DF234B6E6D* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
