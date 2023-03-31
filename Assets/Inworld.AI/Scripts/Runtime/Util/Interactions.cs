@@ -11,6 +11,7 @@ using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
 using UnityEngine.Events;
+using UnityEngine.SceneManagement;
 namespace Inworld
 {
     public class InteractionEvent : UnityEvent<InteractionStatus, List<HistoryItem>> {}
@@ -218,8 +219,10 @@ namespace Inworld
         protected void CompleteInteraction(string interactionId)
         {
             InworldAI.Log("" + interactionId + " Finish!");
-            InworldAI.Log("You are building Eva, the line below is for her");
-            InworldKeywordListenerEva.Instance.InfoHide();
+            if ("EvaScene_YimingWorkingOn".Equals(SceneManager.GetActiveScene().name)) {
+                InworldAI.Log("You are building Eva, the line below is for her");
+                InworldKeywordListenerEva.Instance.InfoHide();
+            }
             List<HistoryItem> itemsByInteraction = History
                                                    .Where(x => x.InteractionId == interactionId).ToList();
             if (Character)
