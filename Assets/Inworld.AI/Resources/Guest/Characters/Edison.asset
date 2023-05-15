@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0447596b1a67de49ba5720fda0bdabe, type: 3}
+  m_Name: Edison
+  m_EditorClassIdentifier: 
+  characterName: Edison
+  brain: workspaces/default-fuwgflbyuphuwtywnaumhg/characters/edison
+  avatar: {fileID: 0}
+  workspace: workspaces/default-fuwgflbyuphuwtywnaumhg
+  currentScene: workspaces/default-fuwgflbyuphuwtywnaumhg/characters/edison
+  ownerShip: 0
+  defaultThumbnail: {fileID: 2800000, guid: 131473d1169ee5d489391a3101cbd3b0, type: 3}
+  index: 0
+  triggers: []
+  scenes:
+  - workspaces/default-fuwgflbyuphuwtywnaumhg/scenes/fid
+  modelUri: https://storage.googleapis.com/inworld-ai-usercontent-prod/rpm_model/40d2f1e7-a033-4749-aea9-6d366d37e32e.glb
+  posUri: https://storage.googleapis.com/inworld-ai-usercontent-prod/rpm_image/40d2f1e7-a033-4749-aea9-6d366d37e32e_posture.jpg
+  previewImgUri: https://storage.googleapis.com/inworld-ai-usercontent-prod/rpm_image/40d2f1e7-a033-4749-aea9-6d366d37e32e_portrait.jpg
+  characterID: 

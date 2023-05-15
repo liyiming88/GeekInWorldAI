@@ -526,6 +526,7 @@ UnityEngine.GUIUtility::set_imeCompositionMode
 UnityEngine.GUIUtility::set_systemCopyBuffer
 UnityEngine.ImageConversion::LoadImage
 UnityEngine.Input::CheckDisabled
+UnityEngine.Input::GetButton
 UnityEngine.Input::GetButtonDown
 UnityEngine.Input::GetKeyInt
 UnityEngine.Input::GetKeyUpInt
@@ -538,6 +539,7 @@ UnityEngine.Input::get_touchCount
 UnityEngine.Input::GetAxis
 UnityEngine.Input::GetAxisRaw
 UnityEngine.Input::get_compositionString
+UnityEngine.Input::GetJoystickNames
 UnityEngine.Input::GetTouch_Injected
 UnityEngine.Input::get_compositionCursorPos_Injected
 UnityEngine.Input::get_mousePosition_Injected
@@ -853,6 +855,7 @@ UnityEngine.SceneManagement.Scene::GetRootGameObjectsInternal
 UnityEngine.SceneManagement.SceneManager::get_sceneCount
 UnityEngine.SceneManagement.SceneManager::GetActiveScene_Injected
 UnityEngine.SceneManagement.SceneManager::GetSceneAt_Injected
+UnityEngine.SceneManagement.SceneManagerAPIInternal::LoadSceneAsyncNameIndexInternal_Injected
 UnityEngine.Screen::get_fullScreen
 UnityEngine.Screen::get_height
 UnityEngine.Screen::get_width

@@ -96,7 +96,9 @@ namespace Inworld.Model
                 _StopLookAt();
                 return;
             }
-            _StartLookAt(m_trLookAt.position);
+            Debug.Log("start to look at in HeadAnimation");
+            //_StartLookAt(m_trLookAt.position);
+            _StartLookAt(new Vector3(0, 1.7f, 0));
         }
         #endregion
 

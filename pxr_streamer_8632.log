@@ -1,0 +1,24 @@
+[2023-04-06 15:27:20.198] [pxr_streamer] [info] ***********  Log Begin **********
+[2023-04-06 15:27:20.198] [pxr_streamer] [info] process id= 8632
+[2023-04-06 15:27:20.198] [pxr_streamer] [error] rpc_terminal.cpp:37 operator (): connect failed, error= ???????????,?????, this = 0x4a1911b0
+[2023-04-06 15:27:20.198] [pxr_streamer] [error] rpc_terminal.h:50 Call: invalid rpc_client_, msg = Hello, this = 0x4a1911b0
+[2023-04-06 15:27:20.198] [pxr_streamer] [error] rpc_terminal.h:50 Call: invalid rpc_client_, msg = QueryRemoteTerminals, this = 0x4a1911b0
+[2023-04-06 15:27:23.240] [pxr_streamer] [error] rpc_terminal.cpp:37 operator (): connect failed, error= ???????????,?????, this = 0x4a1911b0
+[2023-04-06 15:27:26.280] [pxr_streamer] [error] rpc_terminal.cpp:37 operator (): connect failed, error= ???????????,?????, this = 0x4a1911b0
+[2023-04-06 15:27:29.331] [pxr_streamer] [error] rpc_terminal.cpp:37 operator (): connect failed, error= ???????????,?????, this = 0x4a1911b0
+[2023-04-06 15:27:32.381] [pxr_streamer] [error] rpc_terminal.cpp:37 operator (): connect failed, error= ???????????,?????, this = 0x4a1911b0
+[2023-04-06 15:27:35.421] [pxr_streamer] [error] rpc_terminal.cpp:37 operator (): connect failed, error= ???????????,?????, this = 0x4a1911b0
+[2023-04-06 15:27:38.468] [pxr_streamer] [error] rpc_terminal.cpp:37 operator (): connect failed, error= ???????????,?????, this = 0x4a1911b0
+[2023-04-06 15:27:41.514] [pxr_streamer] [error] rpc_terminal.cpp:37 operator (): connect failed, error= ???????????,?????, this = 0x4a1911b0
+[2023-04-06 15:27:44.562] [pxr_streamer] [error] rpc_terminal.cpp:37 operator (): connect failed, error= ???????????,?????, this = 0x4a1911b0
+[2023-04-06 15:27:47.604] [pxr_streamer] [error] rpc_terminal.cpp:37 operator (): connect failed, error= ???????????,?????, this = 0x4a1911b0
+[2023-04-06 15:27:50.651] [pxr_streamer] [error] rpc_terminal.cpp:37 operator (): connect failed, error= ???????????,?????, this = 0x4a1911b0
+[2023-04-06 15:27:53.685] [pxr_streamer] [error] rpc_terminal.cpp:37 operator (): connect failed, error= ???????????,?????, this = 0x4a1911b0
+[2023-04-06 15:27:56.711] [pxr_streamer] [error] rpc_terminal.cpp:37 operator (): connect failed, error= ???????????,?????, this = 0x4a1911b0
+[2023-04-06 15:27:59.738] [pxr_streamer] [error] rpc_terminal.cpp:37 operator (): connect failed, error= ???????????,?????, this = 0x4a1911b0
+[2023-04-06 15:28:02.784] [pxr_streamer] [error] rpc_terminal.cpp:37 operator (): connect failed, error= ???????????,?????, this = 0x4a1911b0
+[2023-04-06 15:28:05.827] [pxr_streamer] [error] rpc_terminal.cpp:37 operator (): connect failed, error= ???????????,?????, this = 0x4a1911b0
+[2023-04-06 15:28:08.854] [pxr_streamer] [error] rpc_terminal.cpp:37 operator (): connect failed, error= ???????????,?????, this = 0x4a1911b0
+[2023-04-06 15:28:11.894] [pxr_streamer] [error] rpc_terminal.cpp:37 operator (): connect failed, error= ???????????,?????, this = 0x4a1911b0
+[2023-04-06 15:28:14.938] [pxr_streamer] [error] rpc_terminal.cpp:37 operator (): connect failed, error= ???????????,?????, this = 0x4a1911b0
+[2023-04-06 15:28:17.973] [pxr_streamer] [error] rpc_terminal.cpp:37 operator (): connect failed, error= ???????????,?????, this = 0x4a1911b0
